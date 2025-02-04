@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 469,
-    "LCID": 122,
-    "EnglishName": "Hagenes Inc and Sons",
-    "NativeName": "Jaskolski-Abernathy",
-    "ThreeLetterISOLanguageName": "Fritsch-Lang",
-    "TwoLetterISOLanguageName": "Skiles Inc and Sons",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 670,
+    "LCID": 323,
+    "EnglishName": "Konopelski, Connelly and Vandervort",
+    "NativeName": "Shanahan Group",
+    "ThreeLetterISOLanguageName": "Schoen, Barrows and Hane",
+    "TwoLetterISOLanguageName": "Morissette-Bashirian",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 256
       }
     }
   }

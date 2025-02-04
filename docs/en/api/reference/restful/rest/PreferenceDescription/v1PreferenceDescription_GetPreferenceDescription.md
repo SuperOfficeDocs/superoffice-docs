@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 819,
-  "Section": "architecto",
-  "Key": "libero",
-  "Name": "Keebler-Schoen",
+  "PrefDescId": 825,
+  "Section": "porro",
+  "Key": "consequatur",
+  "Name": "Kunde Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source discrete moderator",
-  "IsBuiltin": true,
-  "TableName": "Pacocha Inc and Sons",
-  "UserDefinedListId": 434,
-  "Rank": 999,
-  "SubGroup": "velit",
-  "MinLevel": 618,
-  "MaxValue": 1001,
-  "MinValue": 117,
-  "RequiredLicense": "enim",
+  "Description": "Cross-platform background attitude",
+  "IsBuiltin": false,
+  "TableName": "Price-Nikolaus",
+  "UserDefinedListId": 642,
+  "Rank": 812,
+  "SubGroup": "eos",
+  "MinLevel": 161,
+  "MaxValue": 552,
+  "MinValue": 208,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 636
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

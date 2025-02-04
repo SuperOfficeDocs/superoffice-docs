@@ -83,9 +83,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 325,
-  "MinDate": "2024-06-27T10:17:55.5352844+02:00",
-  "MaxDate": "2024-01-23T10:17:55.5352844+01:00",
+  "DocumentPluginId": 974,
+  "MinDate": "2020-01-03T13:13:22.9302583+01:00",
+  "MaxDate": "2019-12-06T13:13:22.9302583+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 508,
-  "NumDocumentsAlreadyMigrated": 446,
+  "NumDocumentsOmitted": 674,
+  "NumDocumentsAlreadyMigrated": 194,
   "Documents": [
     {
-      "DocumentId": 455,
-      "ContactId": 938,
-      "PersonId": 986,
-      "SaleId": 758,
-      "ProjectId": 224,
-      "DocTmplId": 624,
-      "AssociateId": 884,
-      "UserGroupId": 116,
-      "VisibleForId": 757
+      "DocumentId": 34,
+      "ContactId": 899,
+      "PersonId": 1001,
+      "SaleId": 455,
+      "ProjectId": 705,
+      "DocTmplId": 25,
+      "AssociateId": 749,
+      "UserGroupId": 578,
+      "VisibleForId": 150
     }
   ],
   "Associates": [
     {
-      "AssociateId": 906,
-      "EmailAddress": "brenna@kuhnherman.co.uk"
+      "AssociateId": 765,
+      "EmailAddress": "isaiah@beckerboehm.uk"
     },
     {
-      "AssociateId": 906,
-      "EmailAddress": "brenna@kuhnherman.co.uk"
+      "AssociateId": 765,
+      "EmailAddress": "isaiah@beckerboehm.uk"
     }
   ]
 }

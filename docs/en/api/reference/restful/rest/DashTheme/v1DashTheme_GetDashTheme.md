@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 56,
-  "Name": "Gislason, Halvorson and Bruen",
-  "Config": "rerum",
-  "Rank": 410,
-  "Client": "dolorem",
-  "Style": "quia",
+  "DashboardThemeId": 152,
+  "Name": "Deckow-Swift",
+  "Config": "quaerat",
+  "Rank": 733,
+  "Client": "sed",
+  "Style": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 534
+      "FieldLength": 63
     }
   },
   "_Links": {

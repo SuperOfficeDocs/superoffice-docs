@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 83
+  "QuoteVersionId": 878
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 675,
-  "ERPQuoteVersionKey": "quod",
-  "QuoteId": 972,
-  "Description": "Advanced uniform methodology",
-  "Number": "1418839",
+  "QuoteVersionId": 291,
+  "ERPQuoteVersionKey": "voluptas",
+  "QuoteId": 798,
+  "Description": "Profit-focused exuding leverage",
+  "Number": "582397",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 136,
-  "SentDate": "2009-10-01T10:17:55.9259336+02:00",
-  "FollowupId": 122,
-  "ExpirationDate": "2003-08-10T10:17:55.9259336+02:00",
-  "DeliveryCountryId": 307,
+  "LikelyQuoteAlternativeId": 259,
+  "SentDate": "2009-04-26T13:13:23.6957086+02:00",
+  "FollowupId": 758,
+  "ExpirationDate": "2009-12-29T13:13:23.6957086+01:00",
+  "DeliveryCountryId": 136,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 974,
+  "InvoiceCountryId": 771,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "architecto",
-  "ERPPaymentTypeKey": "perspiciatis",
-  "ERPDeliveryTermsKey": "recusandae",
+  "ERPPaymentTermsKey": "magni",
+  "ERPPaymentTypeKey": "iste",
+  "ERPDeliveryTermsKey": "iure",
   "ERPDeliveryTypeKey": "nihil",
-  "Rank": 566,
-  "ApprovedBy": 251,
-  "ApprovedText": "consequatur",
-  "ApprovedRegisteredBy": 609,
-  "ApprovedRegisteredDate": "2023-02-05T10:17:55.9259336+01:00",
-  "ExtraField1": "et",
-  "ExtraField2": "et",
+  "Rank": 444,
+  "ApprovedBy": 27,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 568,
+  "ApprovedRegisteredDate": "2005-03-10T13:13:23.6957086+01:00",
+  "ExtraField1": "quas",
+  "ExtraField2": "iure",
   "ExtraField3": "ea",
-  "ExtraField4": "ea",
-  "ExtraField5": "sit",
-  "LastRecalculated": "2009-11-22T10:17:55.9259336+01:00",
-  "Updated": "2008-01-28T10:17:55.9259336+01:00",
-  "UpdatedAssociateId": 55,
-  "Registered": "2019-08-15T10:17:55.9259336+02:00",
-  "RegisteredAssociateId": 760,
-  "RequestAssociateId": 468,
-  "RequestComment": "voluptatem",
+  "ExtraField4": "quidem",
+  "ExtraField5": "dolore",
+  "LastRecalculated": "2019-02-03T13:13:23.6957086+01:00",
+  "Updated": "2023-02-12T13:13:23.6957086+01:00",
+  "UpdatedAssociateId": 275,
+  "Registered": "2020-02-18T13:13:23.6957086+01:00",
+  "RegisteredAssociateId": 437,
+  "RequestAssociateId": 867,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 806,
-      "ERPQuoteAlternativeKey": "totam",
-      "QuoteVersionId": 608,
-      "Name": "Deckow, Nicolas and Emard",
-      "Description": "Sharable heuristic implementation",
+      "QuoteAlternativeId": 329,
+      "ERPQuoteAlternativeKey": "adipisci",
+      "QuoteVersionId": 881,
+      "Name": "Schiller LLC",
+      "Description": "Fully-configurable assymetric encryption",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 1313.146,
-      "ERPDiscountAmount": 26294.26,
-      "DiscountPercent": 19459.005999999998,
-      "DiscountAmount": 507.70799999999997,
+      "ERPDiscountPercent": 12915.214,
+      "ERPDiscountAmount": 10335.931999999999,
+      "DiscountPercent": 2576.148,
+      "DiscountAmount": 3629.172,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quam",
-      "VAT": 19600.036,
-      "EarningPercent": 26275.456,
-      "EarningAmount": 19317.976,
-      "SubTotal": 11827.716,
-      "TotalPrice": 13432.323999999999,
-      "ExtraField1": "qui",
-      "ExtraField2": "ut",
-      "ExtraField3": "corporis",
-      "ExtraField4": "sit",
-      "ExtraField5": "dolore",
+      "VATInfo": "dignissimos",
+      "VAT": 29393.786,
+      "EarningPercent": 1175.25,
+      "EarningAmount": 11094.359999999999,
+      "SubTotal": 5597.324,
+      "TotalPrice": 3936.304,
+      "ExtraField1": "quam",
+      "ExtraField2": "numquam",
+      "ExtraField3": "quia",
+      "ExtraField4": "voluptas",
+      "ExtraField5": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldType": "System.String",
+          "FieldLength": 779
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 733
     }
   }
 }

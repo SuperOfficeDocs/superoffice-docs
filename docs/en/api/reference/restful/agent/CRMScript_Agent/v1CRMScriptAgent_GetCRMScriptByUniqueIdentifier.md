@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "cupiditate"
+  "UniqueIdentifier": "quisquam"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "numquam",
-  "Name": "Mann-Franecki",
-  "Description": "Ameliorated context-sensitive project",
-  "IncludeId": "maxime",
-  "Source": "in",
-  "Registered": "2002-05-28T10:17:55.3165216+02:00",
-  "RegisteredBy": "minus",
-  "Updated": "2016-02-04T10:17:55.3165216+01:00",
-  "UpdatedBy": "fuga",
+  "UniqueIdentifier": "eum",
+  "Name": "Williamson, Kessler and Bosco",
+  "Description": "Cross-platform contextually-based definition",
+  "IncludeId": "quia",
+  "Source": "id",
+  "Registered": "1999-04-05T13:13:22.508244+02:00",
+  "RegisteredBy": "perferendis",
+  "Updated": "2004-12-09T13:13:22.508244+01:00",
+  "UpdatedBy": "nostrum",
   "Path": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

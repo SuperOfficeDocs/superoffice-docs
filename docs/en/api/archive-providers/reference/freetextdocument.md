@@ -723,7 +723,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextDocument?$select=person/title,person/personRegisteredByFullName,person/personExtra/y_rental/id,contact/restrictionAddress/city
+GET /api/v1/archive/FreetextDocument?$select=person/associateType,person/restrictionAddress/line1,person/personAssociate/ejUserId,contact/streetAddress/line2,contact/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

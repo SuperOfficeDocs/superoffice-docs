@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Haag, Rath and Koelpin",
-    "ToolTip": "Velit dolorem et architecto tempore tenetur in ipsum.",
-    "Deleted": true,
-    "Rank": 839,
-    "Type": "similique",
-    "ColorBlock": 585,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2018-12-04T10:18:01.0981224+01:00",
+    "Id": 16,
+    "Name": "Kassulke Group",
+    "ToolTip": "Eum adipisci aliquam dignissimos.",
+    "Deleted": false,
+    "Rank": 556,
+    "Type": "praesentium",
+    "ColorBlock": 220,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2009-05-26T13:13:33.370443+02:00",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Tremblay, Bauch and McLaughlin",
-        "ToolTip": "Voluptates aspernatur totam velit cupiditate quis nobis.",
-        "Deleted": true,
-        "Rank": 773,
-        "Type": "enim",
-        "ColorBlock": 707,
-        "IconHint": "aliquid",
+        "Id": 12,
+        "Name": "Johnston Inc and Sons",
+        "ToolTip": "Voluptatem animi consequuntur qui aut alias.",
+        "Deleted": false,
+        "Rank": 113,
+        "Type": "corporis",
+        "ColorBlock": 657,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2024-03-28T10:18:01.0981224+01:00",
+        "LastChanged": "2015-09-02T13:13:33.370443+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Toni Dickinson DVM",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Brent McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Dr. Catharine Bergnaum",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Dr. Kobe Jett Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 380
       }
     }
   }

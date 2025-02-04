@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Project/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,8 +79,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller-Raynor",
-    "DisplayName": "Reichel Group",
+    "Name": "Mann-Pouros",
+    "DisplayName": "Funk-Wilkinson",
     "DisplayTooltip": "et",
     "IsActive": false,
     "TableRight": null,
@@ -88,13 +88,13 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldLength": 457
       }
     }
   },
   {
-    "Name": "Heller-Raynor",
-    "DisplayName": "Reichel Group",
+    "Name": "Mann-Pouros",
+    "DisplayName": "Funk-Wilkinson",
     "DisplayTooltip": "et",
     "IsActive": false,
     "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldLength": 457
       }
     }
   }

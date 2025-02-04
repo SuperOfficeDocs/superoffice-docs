@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Orn-Ruecker",
-    "ToolTip": "Cupiditate temporibus est tempore ipsa nostrum et.",
+    "Id": 721,
+    "Name": "Ward, Larkin and Turner",
+    "ToolTip": "Non et.",
     "Deleted": false,
-    "Rank": 664,
-    "Type": "quia",
-    "ColorBlock": 375,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2009-03-08T10:18:01.0199926+01:00",
+    "Rank": 30,
+    "Type": "adipisci",
+    "ColorBlock": 281,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2006-04-14T13:13:33.1048791+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Kshlerin-Hagenes",
-        "ToolTip": "Distinctio soluta ex.",
+        "Id": 353,
+        "Name": "Reinger Inc and Sons",
+        "ToolTip": "Esse sequi amet nulla ea pariatur.",
         "Deleted": false,
-        "Rank": 502,
-        "Type": "velit",
-        "ColorBlock": 356,
-        "IconHint": "id",
+        "Rank": 465,
+        "Type": "placeat",
+        "ColorBlock": 147,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2007-01-11T10:18:01.0199926+01:00",
+        "LastChanged": "2012-11-02T13:13:33.1048791+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "sequi",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Dr. Jerel Legros",
+        "FullName": "Palma Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 383
+            "FieldType": "System.String",
+            "FieldLength": 217
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Marlon Volkman",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Eliezer Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 215
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Olson, Upton and Hudson",
-  "Tooltip": "error",
+  "Id": 532,
+  "Name": "Padberg-Ullrich",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 249,
-  "IsCustomList": false,
+  "Rank": 234,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "natus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Kessler-Pagac",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "Rank": 71,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 387,
+  "Name": "Tillman Group",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 474,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "placeat",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

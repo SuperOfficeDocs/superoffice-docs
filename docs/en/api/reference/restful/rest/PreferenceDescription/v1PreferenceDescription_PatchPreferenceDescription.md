@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 261,
-  "Section": "repudiandae",
-  "Key": "odit",
-  "Name": "Crist-Wilkinson",
+  "PrefDescId": 7,
+  "Section": "ipsam",
+  "Key": "rerum",
+  "Name": "Wunsch, Reichert and Hand",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual clear-thinking open architecture",
+  "Description": "Distributed multi-state monitoring",
   "IsBuiltin": false,
-  "TableName": "Lindgren-Vandervort",
-  "UserDefinedListId": 402,
-  "Rank": 565,
-  "SubGroup": "sapiente",
-  "MinLevel": 605,
-  "MaxValue": 287,
-  "MinValue": 221,
-  "RequiredLicense": "perferendis",
+  "TableName": "Dickinson, Hamill and Haag",
+  "UserDefinedListId": 115,
+  "Rank": 308,
+  "SubGroup": "consequatur",
+  "MinLevel": 110,
+  "MaxValue": 238,
+  "MinValue": 722,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   },
   "_Links": {

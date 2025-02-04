@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 736,
-  "FormKey": "enim",
-  "Name": "Kuphal LLC",
-  "Description": "Business-focused systemic info-mediaries",
-  "Config": "nulla",
-  "FolderId": 685,
-  "ScriptId": 310,
-  "ResponseShipmentId": 175,
-  "Active": false,
-  "Expires": "2011-08-08T10:17:55.7540473+02:00",
-  "MaxSubmits": 866,
+  "FormId": 379,
+  "FormKey": "vel",
+  "Name": "Reichert LLC",
+  "Description": "Upgradable real-time service-desk",
+  "Config": "cum",
+  "FolderId": 621,
+  "ScriptId": 20,
+  "ResponseShipmentId": 597,
+  "Active": true,
+  "Expires": "2015-02-23T13:13:23.3520388+01:00",
+  "MaxSubmits": 429,
   "Type": "Normal",
-  "Recipe": "cum",
-  "GroupId": 682,
+  "Recipe": "et",
+  "GroupId": 953,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2016-03-19T10:17:55.7540473+01:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "2005-03-08T10:17:55.7540473+01:00",
-  "UpdatedAssociateId": 44,
-  "UpdatedCount": 320,
+  "Registered": "2010-04-23T13:13:23.3520388+02:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2006-07-10T13:13:23.3520388+02:00",
+  "UpdatedAssociateId": 960,
+  "UpdatedCount": 8,
   "EmailFlows": [
-    474,
-    22
+    554,
+    250
   ],
-  "FolderName": "Bednar Group",
+  "FolderName": "Schoen, Bergstrom and Kris",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 533
     }
   }
 }

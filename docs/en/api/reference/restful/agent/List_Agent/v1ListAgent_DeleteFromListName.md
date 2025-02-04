@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "UdListDefinitionName": "Klein, Runolfsdottir and Mertz"
+  "Id": 469,
+  "UdListDefinitionName": "Schuppe LLC"
 }
 ```
 

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 210
+  "DocumentId": 576
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 897,
-  "Attention": "eum",
-  "Header": "consectetur",
-  "Name": "Runolfsson LLC",
-  "OurRef": "iste",
-  "YourRef": "in",
-  "Description": "Reduced clear-thinking encoding",
-  "DocumentTemplate": "et",
+  "DocumentId": 92,
+  "Attention": "vitae",
+  "Header": "eaque",
+  "Name": "Mayer LLC",
+  "OurRef": "qui",
+  "YourRef": "est",
+  "Description": "Pre-emptive empowering complexity",
+  "DocumentTemplate": "aspernatur",
   "IsPublished": false,
-  "PersonId": 789,
-  "PersonFullName": "Tate Klein",
-  "AssociateFullName": "Keenan Heidenreich",
-  "ContactId": 888,
-  "ContactName": "Willms Group",
-  "ProjectId": 817,
-  "ProjectName": "Pagac, Rutherford and West",
-  "AssociateId": 839,
-  "Snum": 575,
-  "SaleId": 374,
-  "SaleName": "Abbott-Koepp",
+  "PersonId": 787,
+  "PersonFullName": "Lyda Leuschke",
+  "AssociateFullName": "Taya Sawayn",
+  "ContactId": 723,
+  "ContactName": "Rodriguez-Labadie",
+  "ProjectId": 109,
+  "ProjectName": "Kohler, Becker and West",
+  "AssociateId": 521,
+  "Snum": 634,
+  "SaleId": 429,
+  "SaleName": "Spencer-O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldLength": 227
     }
   }
 }

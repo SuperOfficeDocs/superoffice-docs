@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 885,
+  "SelectionId": 137,
   "SelectionMemberIds": [
-    887,
-    272
+    689,
+    201
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated zero tolerance task-force",
-  "Postit": "nihil",
+  "Description": "Front-line 6th generation task-force",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 319,
-  "IncludePerson": 668,
+  "GroupIdx": 891,
+  "IncludePerson": 483,
   "MemberCount": 99.99,
-  "Name": "Upton, Ward and Hackett",
-  "PostitTextId": 597,
-  "CreatedDate": "2004-08-05T10:17:56.0353154+02:00",
-  "SelectionId": 748,
-  "SoundEx": "voluptatem",
-  "Source": 793,
-  "TextId": 386,
-  "UpdatedDate": "1997-12-12T10:17:56.0353154+01:00",
-  "UpdatedCount": 974,
-  "Visibility": 627,
+  "Name": "Little Inc and Sons",
+  "PostitTextId": 375,
+  "CreatedDate": "2012-09-07T13:13:23.9511893+02:00",
+  "SelectionId": 30,
+  "SoundEx": "qui",
+  "Source": 228,
+  "TextId": 92,
+  "UpdatedDate": "2019-04-05T13:13:23.9511893+02:00",
+  "UpdatedCount": 654,
+  "Visibility": 868,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 360,
-  "TargetTableName": "Kutch-Frami",
-  "Completed": true,
-  "LeftSelectionId": 742,
-  "RightSelectionId": 847,
+  "CompanyUnique": true,
+  "TargetTableNumber": 500,
+  "TargetTableName": "Kuphal LLC",
+  "Completed": false,
+  "LeftSelectionId": 908,
+  "RightSelectionId": 824,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Heller Inc and Sons",
-  "ShadowProviderName": "Quitzon-Gleichner",
-  "ChartKey": "similique",
-  "LastLoaded": "2001-04-25T10:17:56.0353154+02:00",
-  "LastLoadedBy": 480,
+  "MainProviderName": "Swaniawski Inc and Sons",
+  "ShadowProviderName": "Wisoky, Stamm and Mante",
+  "ChartKey": "rerum",
+  "LastLoaded": "2013-12-27T13:13:23.9511893+01:00",
+  "LastLoadedBy": 945,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-04-13T10:17:56.0353154+02:00",
-  "LastMembershipChangeBy": 63,
+  "LastMembershipChange": "2000-08-07T13:13:23.9521988+02:00",
+  "LastMembershipChangeBy": 398,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ducimus",
-  "MemberTabHeading": "nisi",
-  "MailingsProviderName": "Cartwright, Rice and Cassin",
-  "DashboardTileDefinitionId": 304,
+  "MainHeading": "non",
+  "MemberTabHeading": "incidunt",
+  "MailingsProviderName": "Barton Inc and Sons",
+  "DashboardTileDefinitionId": 467,
   "VisibleFor": [
     {
-      "VisibleId": 779,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     },
     {
-      "VisibleId": 779,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz Group"
+  "Name": "Schaden, Stamm and Dach"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Kertzmann-Smitham",
-    "ToolTip": "Necessitatibus ea.",
+    "Id": 186,
+    "Name": "Goyette Inc and Sons",
+    "ToolTip": "Et error.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "nulla",
+    "Rank": 395,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Connelly-Upton",
-        "ToolTip": "Amet officiis quis placeat.",
-        "Deleted": true,
-        "Rank": 205,
-        "Type": "est",
+        "Id": 501,
+        "Name": "Christiansen, Conroy and Anderson",
+        "ToolTip": "Voluptatem sed amet.",
+        "Deleted": false,
+        "Rank": 252,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 805,
-        "ExtraInfo": "fugit",
-        "StyleHint": "excepturi",
-        "FullName": "Madelyn Orn",
+        "IconHint": "sed",
+        "ColorBlock": 442,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "ut",
+        "FullName": "Prof. Avis Kihn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldType": "System.String",
+            "FieldLength": 290
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 241,
-    "ExtraInfo": "quos",
-    "StyleHint": "culpa",
-    "FullName": "Tracy Predovic",
+    "IconHint": "voluptates",
+    "ColorBlock": 748,
+    "ExtraInfo": "veniam",
+    "StyleHint": "id",
+    "FullName": "Kadin Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 475
       }
     }
   }

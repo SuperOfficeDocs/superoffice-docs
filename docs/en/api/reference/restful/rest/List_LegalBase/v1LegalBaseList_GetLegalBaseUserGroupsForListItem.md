@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Sawayn-Langworth",
-    "ToolTip": "Dolor a nihil tempore enim neque aspernatur libero.",
-    "Deleted": true,
-    "Rank": 319,
-    "Type": "quia",
-    "ColorBlock": 889,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2005-05-12T10:18:01.0199926+02:00",
+    "Id": 957,
+    "Name": "Heller-Dickinson",
+    "ToolTip": "Ullam esse dignissimos.",
+    "Deleted": false,
+    "Rank": 355,
+    "Type": "dignissimos",
+    "ColorBlock": 782,
+    "IconHint": "incidunt",
+    "Selected": true,
+    "LastChanged": "2006-09-13T13:13:33.1361219+02:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Dolores aliquid quos qui vero et exercitationem.",
-        "Deleted": false,
-        "Rank": 689,
-        "Type": "veritatis",
-        "ColorBlock": 437,
-        "IconHint": "iure",
+        "Id": 140,
+        "Name": "Mayer Group",
+        "ToolTip": "Dicta id.",
+        "Deleted": true,
+        "Rank": 640,
+        "Type": "et",
+        "ColorBlock": 763,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2015-10-22T10:18:01.0199926+02:00",
+        "LastChanged": "2022-12-24T13:13:33.1361219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Mrs. Maximilian Larissa Zboncak DVM",
+        "ExtraInfo": "provident",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Dr. Victor Ayla Wunsch IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldType": "System.String",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Kim Bins MD",
+    "ExtraInfo": "omnis",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Eliane Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

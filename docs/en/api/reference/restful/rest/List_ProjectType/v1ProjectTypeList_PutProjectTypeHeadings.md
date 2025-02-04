@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 519,
-    "Name": "Witting LLC",
-    "Tooltip": "velit",
+    "HeadingId": 170,
+    "Name": "Moore LLC",
+    "Tooltip": "hic",
     "Deleted": false,
-    "Rank": 545,
-    "UdListDefinitionId": 658
+    "Rank": 332,
+    "UdListDefinitionId": 859
   },
   {
-    "HeadingId": 519,
-    "Name": "Witting LLC",
-    "Tooltip": "velit",
+    "HeadingId": 170,
+    "Name": "Moore LLC",
+    "Tooltip": "hic",
     "Deleted": false,
-    "Rank": 545,
-    "UdListDefinitionId": 658
+    "Rank": 332,
+    "UdListDefinitionId": 859
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 96,
-    "Name": "Streich, Breitenberg and Stroman",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 161,
-    "UdListDefinitionId": 263,
+    "HeadingId": 102,
+    "Name": "Huels, Smitham and Hackett",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "Rank": 343,
+    "UdListDefinitionId": 132,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 193
       }
     }
   }

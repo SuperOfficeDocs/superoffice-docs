@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski, McKenzie and Vandervort",
-    "StepNumber": 167,
+    "Name": "Gleason Group",
+    "StepNumber": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 331
       }
     }
   },
   {
-    "Name": "Osinski, McKenzie and Vandervort",
-    "StepNumber": 167,
+    "Name": "Gleason Group",
+    "StepNumber": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 331
       }
     }
   }

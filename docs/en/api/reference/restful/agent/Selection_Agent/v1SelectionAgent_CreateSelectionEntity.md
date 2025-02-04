@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Rempel, Casper and Considine"
+  "TargetTableName": "Rohan LLC"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone contextually-based software",
-  "Postit": "recusandae",
+  "Description": "Ameliorated zero defect installation",
+  "Postit": "necessitatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 965,
-  "IncludePerson": 364,
+  "GroupIdx": 957,
+  "IncludePerson": 583,
   "MemberCount": 99.99,
-  "Name": "Bins Group",
-  "PostitTextId": 468,
-  "CreatedDate": "2020-03-25T10:17:56.0196892+01:00",
-  "SelectionId": 760,
-  "SoundEx": "perspiciatis",
-  "Source": 58,
-  "TextId": 621,
-  "UpdatedDate": "2009-10-03T10:17:56.0196892+02:00",
-  "UpdatedCount": 212,
-  "Visibility": 188,
+  "Name": "Hand-Ondricka",
+  "PostitTextId": 630,
+  "CreatedDate": "2014-08-18T13:13:23.9153174+02:00",
+  "SelectionId": 429,
+  "SoundEx": "eum",
+  "Source": 982,
+  "TextId": 874,
+  "UpdatedDate": "2018-05-19T13:13:23.9153174+02:00",
+  "UpdatedCount": 77,
+  "Visibility": 233,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 395,
-  "TargetTableName": "Medhurst-Glover",
+  "TargetTableNumber": 10,
+  "TargetTableName": "Bosco-Glover",
   "Completed": true,
-  "LeftSelectionId": 168,
-  "RightSelectionId": 865,
+  "LeftSelectionId": 226,
+  "RightSelectionId": 545,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ryan-Hirthe",
-  "ShadowProviderName": "Turner, Kassulke and Padberg",
-  "ChartKey": "dicta",
-  "LastLoaded": "2008-12-26T10:17:56.0196892+01:00",
-  "LastLoadedBy": 211,
+  "MainProviderName": "Effertz Inc and Sons",
+  "ShadowProviderName": "Mosciski, Feeney and Orn",
+  "ChartKey": "quo",
+  "LastLoaded": "2007-05-13T13:13:23.9153174+02:00",
+  "LastLoadedBy": 318,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-30T10:17:56.0196892+01:00",
-  "LastMembershipChangeBy": 780,
+  "LastMembershipChange": "2008-11-01T13:13:23.9153174+01:00",
+  "LastMembershipChangeBy": 774,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugit",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Swift-Kshlerin",
-  "DashboardTileDefinitionId": 890,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Ruecker-Medhurst",
+  "DashboardTileDefinitionId": 569,
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 148,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 148,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

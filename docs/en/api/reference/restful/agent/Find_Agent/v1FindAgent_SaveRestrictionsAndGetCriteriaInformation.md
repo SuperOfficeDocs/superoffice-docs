@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "McClure, Hilpert and Deckow",
-  "StorageKey": "neque",
+  "StorageType": "sed",
+  "ProviderName": "Harris, Bauch and Dooley",
+  "StorageKey": "placeat",
   "Restrictions": [
     {
-      "Name": "Dicki, Marvin and Jast",
-      "Operator": "molestias",
+      "Name": "Homenick, Powlowski and Hessel",
+      "Operator": "consequuntur",
       "Values": [
-        "facilis",
-        "occaecati"
+        "amet",
+        "cumque"
       ],
       "DisplayValues": [
-        "tenetur",
-        "dolore"
+        "aliquam",
+        "dicta"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 158,
+      "InterParenthesis": 329,
       "InterOperator": "And",
-      "UniqueHash": 221
+      "UniqueHash": 584
     }
   ],
   "StaticColumns": [
-    "officia",
-    "tenetur"
+    "et",
+    "vitae"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Mayer-Schiller",
-      "Operator": "hic",
+      "Name": "Auer, Buckridge and Bernier",
+      "Operator": "quod",
       "Values": [
-        "ullam",
-        "aut"
+        "quasi",
+        "placeat"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "nemo"
+        "libero",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 720,
       "InterOperator": "And",
-      "UniqueHash": 733
+      "UniqueHash": 970
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lockman, Yundt and Grant",
-      "DisplayTooltip": "possimus",
-      "DisplayType": "ducimus",
+      "DisplayName": "Stamm Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Schultz LLC",
+      "Name": "Murphy, Torphy and Stamm",
       "CanRestrictBy": false,
-      "RestrictionType": "temporibus",
-      "RestrictionListName": "Grady LLC",
+      "RestrictionType": "ducimus",
+      "RestrictionListName": "Fadel, Herzog and Block",
       "IsVisible": false,
-      "ExtraInfo": "expedita",
-      "Width": "nostrum",
-      "IconHint": "eligendi",
-      "HeadingIconHint": "veniam"
+      "ExtraInfo": "assumenda",
+      "Width": "error",
+      "IconHint": "ea",
+      "HeadingIconHint": "totam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Herman-Ruecker",
-      "PrimaryKey": 383,
+      "EntityName": "Dicki, Dickens and Hilpert",
+      "PrimaryKey": 161,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iste",
-          "TooltipHint": "perferendis",
-          "LinkHint": "qui"
+          "DisplayValue": "cum",
+          "TooltipHint": "numquam",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "modi",
-      "StyleHint": "voluptas",
+      "LinkHint": "voluptas",
+      "StyleHint": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldType": "System.Int32",
+          "FieldLength": 824
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bednar LLC",
-      "Description": "Implemented cohesive superstructure",
-      "Rank": 558,
+      "Name": "Schroeder-Runte",
+      "Description": "Sharable client-server flexibility",
+      "Rank": 746,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bednar LLC",
-      "Description": "Implemented cohesive superstructure",
-      "Rank": 558,
+      "Name": "Schroeder-Runte",
+      "Description": "Sharable client-server flexibility",
+      "Rank": 746,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 267
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 159,
-  "Name": "DuBuque, Block and Barrows",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 901,
-  "UdListDefinitionId": 277
+  "HeadingId": 131,
+  "Name": "Fadel Group",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 140,
+  "UdListDefinitionId": 208
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 634,
-  "Name": "Tromp Inc and Sons",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "Rank": 631,
-  "UdListDefinitionId": 54,
+  "HeadingId": 822,
+  "Name": "Hauck-Funk",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 846,
+  "UdListDefinitionId": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

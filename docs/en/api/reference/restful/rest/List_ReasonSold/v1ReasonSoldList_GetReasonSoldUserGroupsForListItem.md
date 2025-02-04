@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Thiel-Turcotte",
-    "ToolTip": "Eligendi praesentium dolorem necessitatibus magnam sed eos quo.",
+    "Id": 696,
+    "Name": "Reilly, Collier and Konopelski",
+    "ToolTip": "Sunt a non ipsam accusantium esse facere id.",
     "Deleted": false,
-    "Rank": 162,
-    "Type": "quae",
-    "ColorBlock": 307,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2015-06-08T10:18:01.1450002+02:00",
+    "Rank": 809,
+    "Type": "provident",
+    "ColorBlock": 885,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "1999-10-09T13:13:33.5110216+02:00",
     "ChildItems": [
       {
-        "Id": 818,
-        "Name": "Prosacco-Satterfield",
-        "ToolTip": "Dicta officiis aut.",
+        "Id": 497,
+        "Name": "Kuhic, Dibbert and Upton",
+        "ToolTip": "Odit sunt eos.",
         "Deleted": true,
-        "Rank": 156,
-        "Type": "dolores",
-        "ColorBlock": 10,
-        "IconHint": "soluta",
+        "Rank": 788,
+        "Type": "facilis",
+        "ColorBlock": 52,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2023-02-05T10:18:01.1450002+01:00",
+        "LastChanged": "2014-10-11T13:13:33.5110216+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "autem",
+        "ExtraInfo": "commodi",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Weldon O'Conner",
+        "FullName": "Caitlyn Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 70
+            "FieldLength": 487
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Coty Towne",
+    "FullName": "Zackary King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 94
       }
     }
   }

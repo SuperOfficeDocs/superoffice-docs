@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Hoeger, Kemmer and Lesch",
-    "Tooltip": "dolor",
+    "HeadingId": 247,
+    "Name": "Howell-Smith",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "Rank": 592,
-    "UdListDefinitionId": 647,
+    "Rank": 646,
+    "UdListDefinitionId": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldType": "System.String",
+        "FieldLength": 284
       }
     }
   }

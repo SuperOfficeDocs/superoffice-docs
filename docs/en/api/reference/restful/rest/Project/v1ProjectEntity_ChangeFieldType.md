@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 298,
-  "ColumnId": 529,
-  "FieldDefault": "illum",
-  "FieldHeight": 54,
-  "FieldLabel": "iure",
-  "FieldLeft": 674,
-  "FieldTop": 598,
+  "UDefFieldId": 161,
+  "ColumnId": 413,
+  "FieldDefault": "est",
+  "FieldHeight": 342,
+  "FieldLabel": "rerum",
+  "FieldLeft": 336,
+  "FieldTop": 933,
   "FieldType": "Checkbox",
-  "FieldWidth": 574,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 978,
+  "FormatMask": "praesentium",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 109,
-  "LabelLeft": 663,
-  "LabelTop": 583,
-  "LabelWidth": 720,
-  "LastVersionId": 694,
-  "ListTableId": 424,
+  "LabelHeight": 623,
+  "LabelLeft": 33,
+  "LabelTop": 977,
+  "LabelWidth": 679,
+  "LastVersionId": 622,
+  "ListTableId": 737,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 186,
-  "ProgId": "occaecati",
+  "Page1LineNo": 843,
+  "ProgId": "perferendis",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 229,
-  "TextLength": 677,
-  "Tooltip": "dolores",
-  "UdefIdentity": 20,
-  "UDListDefinitionId": 476,
+  "ShortLabel": "non",
+  "TabOrder": 52,
+  "TextLength": 349,
+  "Tooltip": "mollitia",
+  "UdefIdentity": 29,
+  "UDListDefinitionId": 988,
   "Justification": "Center",
-  "Version": 352,
-  "TemplateVariableName": "Jerde, Stoltenberg and Breitenberg",
-  "HasBeenPublished": false,
-  "MdoListName": "Schamberger-O'Conner",
+  "Version": 793,
+  "TemplateVariableName": "Beier, Wintheiser and Pollich",
+  "HasBeenPublished": true,
+  "MdoListName": "King Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 295
     }
   }
 }

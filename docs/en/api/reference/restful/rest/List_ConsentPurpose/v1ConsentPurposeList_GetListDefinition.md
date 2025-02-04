@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Muller Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 149,
+  "Name": "Schulist-Davis",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 299,
-  "IsCustomList": true,
+  "Rank": 734,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": true,
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   },
   "_Links": {

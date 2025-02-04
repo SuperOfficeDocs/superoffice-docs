@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 474,
-  "Name": "Hackett Group",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 662,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 628,
+  "Name": "Erdman Group",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 82,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "quia",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Wintheiser Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 593,
+  "Id": 582,
+  "Name": "Marquardt-Swift",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 575,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldType": "System.Int32",
+      "FieldLength": 820
     }
   }
 }

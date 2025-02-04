@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 625,
-  "Name": "Russel, Wintheiser and Pacocha",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "Rank": 535,
-  "Filename": "ab",
-  "Parameters": "maxime",
-  "Workdir": "accusamus",
+  "ExtAppId": 768,
+  "Name": "Schmitt Group",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 191,
+  "Filename": "sit",
+  "Parameters": "reprehenderit",
+  "Workdir": "eligendi",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 476,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 862,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "iste"
+  "Path": "omnis"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 759,
-  "Name": "Price Group",
-  "Tooltip": "ea",
+  "ExtAppId": 186,
+  "Name": "Gottlieb, Parisian and Champlin",
+  "Tooltip": "cum",
   "Deleted": true,
-  "Rank": 576,
-  "Filename": "laboriosam",
-  "Parameters": "soluta",
-  "Workdir": "minus",
+  "Rank": 788,
+  "Filename": "in",
+  "Parameters": "sit",
+  "Workdir": "odio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 930,
+  "Icon": 379,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quia",
+  "Path": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

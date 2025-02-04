@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 899,
-  "ColumnId": 534,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 468,
-  "FieldLabel": "unde",
-  "FieldLeft": 711,
-  "FieldTop": 276,
+  "UDefFieldId": 836,
+  "ColumnId": 989,
+  "FieldDefault": "magni",
+  "FieldHeight": 822,
+  "FieldLabel": "rerum",
+  "FieldLeft": 25,
+  "FieldTop": 537,
   "FieldType": "Checkbox",
-  "FieldWidth": 605,
-  "FormatMask": "cum",
-  "HideLabel": false,
+  "FieldWidth": 4,
+  "FormatMask": "ratione",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 327,
-  "LabelLeft": 113,
-  "LabelTop": 455,
-  "LabelWidth": 251,
-  "LastVersionId": 131,
-  "ListTableId": 7,
-  "IsMandatory": false,
+  "LabelHeight": 369,
+  "LabelLeft": 234,
+  "LabelTop": 793,
+  "LabelWidth": 3,
+  "LastVersionId": 862,
+  "ListTableId": 230,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 700,
-  "ProgId": "laudantium",
-  "IsReadOnly": false,
-  "ShortLabel": "id",
-  "TabOrder": 958,
-  "TextLength": 223,
-  "Tooltip": "repellat",
-  "UdefIdentity": 36,
-  "UDListDefinitionId": 878,
+  "Page1LineNo": 261,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "ab",
+  "TabOrder": 819,
+  "TextLength": 699,
+  "Tooltip": "aut",
+  "UdefIdentity": 574,
+  "UDListDefinitionId": 39,
   "Justification": "Center",
-  "Version": 105,
-  "TemplateVariableName": "Predovic Inc and Sons",
+  "Version": 891,
+  "TemplateVariableName": "Breitenberg, Spinka and Rogahn",
   "HasBeenPublished": false,
-  "MdoListName": "Nikolaus Group",
+  "MdoListName": "Pfeffer, Moore and Cassin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldLength": 690
     }
   }
 }

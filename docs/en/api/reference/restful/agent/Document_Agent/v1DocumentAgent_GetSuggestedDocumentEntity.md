@@ -26,7 +26,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=237
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=667
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -87,13 +87,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 665,
-  "Name": "Hoppe, Daniel and Keebler",
-  "Tooltip": "ut",
-  "Rank": 264,
-  "DoctmplId": 520,
-  "Header": "perferendis",
-  "OurRef": "odit",
+  "SuggestedDocumentId": 561,
+  "Name": "Bergstrom, Price and Waters",
+  "Tooltip": "dolores",
+  "Rank": 656,
+  "DoctmplId": 580,
+  "Header": "qui",
+  "OurRef": "et",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldType": "System.Int32",
+      "FieldLength": 231
     }
   }
 }

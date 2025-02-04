@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "ab"
+  "MimeMessage": "debitis"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 643,
-      "ContactName": "Satterfield, Carter and Friesen",
-      "PersonId": 290,
-      "PersonName": "Bailey Group",
-      "AssociateId": 117,
-      "Address": "enim",
-      "EmailId": 911,
+      "ContactId": 11,
+      "ContactName": "Crooks, Schumm and Greenfelder",
+      "PersonId": 94,
+      "PersonName": "Beatty-Kuhlman",
+      "AssociateId": 209,
+      "Address": "non",
+      "EmailId": 771,
       "DuplicatePersonIds": [
-        553,
-        951
+        397,
+        353
       ],
-      "Name": "Sanford, Homenick and Ernser",
+      "Name": "Marvin-Zulauf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldLength": 219
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 206,
-      "ContactName": "Torphy-Jerde",
-      "PersonId": 680,
-      "PersonName": "Herman, Von and Mosciski",
-      "AssociateId": 893,
-      "Address": "corrupti",
-      "EmailId": 818,
+      "ContactId": 339,
+      "ContactName": "Zulauf-Stamm",
+      "PersonId": 672,
+      "PersonName": "Larson, Torp and Fay",
+      "AssociateId": 400,
+      "Address": "ab",
+      "EmailId": 297,
       "DuplicatePersonIds": [
-        7,
-        588
+        472,
+        562
       ],
-      "Name": "Ebert LLC",
+      "Name": "Sporer-Corwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldType": "System.String",
+          "FieldLength": 934
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 237,
-      "ContactName": "Fritsch-Yundt",
-      "PersonId": 517,
-      "PersonName": "Strosin-Hodkiewicz",
-      "AssociateId": 745,
-      "Address": "maiores",
-      "EmailId": 634,
+      "ContactId": 247,
+      "ContactName": "Medhurst Group",
+      "PersonId": 502,
+      "PersonName": "Shields Group",
+      "AssociateId": 176,
+      "Address": "dolorem",
+      "EmailId": 556,
       "DuplicatePersonIds": [
-        203,
-        987
+        214,
+        476
       ],
-      "Name": "DuBuque Inc and Sons",
+      "Name": "Zemlak LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldLength": 699
         }
       }
     }
   ],
-  "Subject": "similique",
-  "HTMLBody": "amet",
+  "Subject": "unde",
+  "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2021-06-05T10:17:55.6134076+02:00",
-  "Size": 773,
+  "Sent": "2009-08-17T13:13:23.0708443+02:00",
+  "Size": 433,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quas",
-  "PlainBody": "modi",
-  "IsSent": false,
+  "MessageID": "alias",
+  "PlainBody": "impedit",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 313,
+  "ServerId": 783,
   "Attachments": [
     {
-      "Description": "Networked attitude-oriented throughput",
-      "Filename": "voluptatum",
-      "Size": 197,
-      "Type": "reprehenderit",
-      "Encoding": "rem",
-      "Id": "qui",
-      "Disposition": "laborum",
+      "Description": "Multi-channelled bifurcated collaboration",
+      "Filename": "impedit",
+      "Size": 72,
+      "Type": "quis",
+      "Encoding": "non",
+      "Id": "impedit",
+      "Disposition": "mollitia",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 647
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bogisich, Boyle and Deckow",
+      "Name": "Batz Inc and Sons",
       "Values": [
-        "vitae",
-        "velit"
+        "tempore",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 570
         }
       }
     },
     {
-      "Name": "Bogisich, Boyle and Deckow",
+      "Name": "Batz Inc and Sons",
       "Values": [
-        "vitae",
-        "velit"
+        "tempore",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 570
         }
       }
     }
   ],
-  "FolderName": "Kling LLC",
-  "EmailItemId": 692,
-  "AccountId": 693,
-  "ReceivedAt": "2016-04-21T10:17:55.6134076+02:00",
+  "FolderName": "D'Amore, Murazik and Kuhlman",
+  "EmailItemId": 481,
+  "AccountId": 587,
+  "ReceivedAt": "2017-09-15T13:13:23.0708443+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-04-11T10:17:55.6134076+02:00",
+  "RepliedAt": "2002-02-14T13:13:23.0708443+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldLength": 314
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Schinner, Hammes and Stroman",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 196,
-  "Rank": 472,
+  "Id": 106,
+  "Name": "Mayer Inc and Sons",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "UdListDefinitionId": 395,
+  "Rank": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldLength": 503
     }
   }
 }

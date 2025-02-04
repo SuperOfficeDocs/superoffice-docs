@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Aufderhar, Ruecker and O'Conner",
-  "Tooltip": "consectetur",
-  "Deleted": false,
-  "UdListDefinitionId": 838,
-  "Rank": 780
+  "Id": 638,
+  "Name": "O'Connell-Schumm",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "UdListDefinitionId": 717,
+  "Rank": 261
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Murazik Group",
-  "Tooltip": "eaque",
+  "Id": 91,
+  "Name": "Kris Group",
+  "Tooltip": "a",
   "Deleted": true,
-  "UdListDefinitionId": 676,
-  "Rank": 430,
+  "UdListDefinitionId": 979,
+  "Rank": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldLength": 298
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Windler-Dooley",
-    "ToolTip": "Unde eos aut reprehenderit.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "libero",
-    "ColorBlock": 839,
-    "IconHint": "accusantium",
+    "Id": 132,
+    "Name": "Gusikowski LLC",
+    "ToolTip": "Dolor aut qui ut illo corrupti aut quibusdam.",
+    "Deleted": true,
+    "Rank": 757,
+    "Type": "quasi",
+    "ColorBlock": 825,
+    "IconHint": "neque",
     "Selected": true,
-    "LastChanged": "2014-02-21T10:18:01.0981224+01:00",
+    "LastChanged": "2009-01-06T13:13:33.370443+01:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Mraz, Armstrong and Gaylord",
-        "ToolTip": "Ut facilis quia dolorem maiores.",
-        "Deleted": false,
-        "Rank": 152,
-        "Type": "exercitationem",
-        "ColorBlock": 772,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2016-09-04T10:18:01.0981224+02:00",
+        "Id": 197,
+        "Name": "Sipes, Goyette and Mann",
+        "ToolTip": "Ut saepe qui laudantium eius numquam veniam voluptate.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "illum",
+        "ColorBlock": 832,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1999-09-21T13:13:33.370443+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Donald Brown DDS"
+        "ExtraInfo": "at",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Karolann Mosciski"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "nobis",
-    "Hidden": true,
-    "FullName": "Mariah Quigley"
+    "ExtraInfo": "dolor",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Carli Ledner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Macejkovic, Kerluke and Lubowitz",
-    "ToolTip": "Voluptatum culpa aliquam consequuntur in.",
-    "Deleted": false,
-    "Rank": 477,
-    "Type": "placeat",
-    "ColorBlock": 916,
-    "IconHint": "quod",
+    "Id": 427,
+    "Name": "Keebler LLC",
+    "ToolTip": "Placeat ducimus.",
+    "Deleted": true,
+    "Rank": 418,
+    "Type": "deserunt",
+    "ColorBlock": 450,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2015-08-31T10:18:01.0981224+02:00",
+    "LastChanged": "2021-08-13T13:13:33.370443+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Friesen-Nitzsche",
-        "ToolTip": "Sint porro.",
-        "Deleted": false,
-        "Rank": 828,
-        "Type": "expedita",
-        "ColorBlock": 239,
-        "IconHint": "et",
+        "Id": 663,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Ut possimus quo occaecati.",
+        "Deleted": true,
+        "Rank": 739,
+        "Type": "a",
+        "ColorBlock": 630,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2007-06-22T10:18:01.0981224+02:00",
+        "LastChanged": "2005-04-25T13:13:33.370443+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Prof. Marco Lindsey Christiansen",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Mario Farrell Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldType": "System.String",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sequi",
+    "ExtraInfo": "quasi",
+    "StyleHint": "iure",
     "Hidden": true,
-    "FullName": "Rowena Yundt MD",
+    "FullName": "Ms. Mary Walter I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 980
       }
     }
   }

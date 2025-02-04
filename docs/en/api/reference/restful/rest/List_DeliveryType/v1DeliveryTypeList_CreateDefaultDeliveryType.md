@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866,
-  "Name": "Wolff Group",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 326,
-  "Rank": 301,
+  "Id": 413,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "UdListDefinitionId": 675,
+  "Rank": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldLength": 310
     }
   }
 }

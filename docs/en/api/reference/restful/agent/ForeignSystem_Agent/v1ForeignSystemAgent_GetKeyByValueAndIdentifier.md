@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cruickshank-Jacobs",
-  "DeviceName": "Dach-Kozey",
-  "DeviceIdentifier": "officia",
-  "KeyName": "Hartmann, Gusikowski and Walker",
-  "KeyValue": "consequuntur",
-  "TableName": "Stiedemann, Metz and Green"
+  "ApplicationName": "Kunze-Hammes",
+  "DeviceName": "Stanton LLC",
+  "DeviceIdentifier": "aliquam",
+  "KeyName": "Kling-Nolan",
+  "KeyValue": "eum",
+  "TableName": "DuBuque Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "provident",
-  "Value": "perferendis",
-  "RecordId": 65,
-  "CreatedDate": "1998-11-05T10:17:55.660285+01:00",
-  "UpdatedDate": "2003-12-25T10:17:55.660285+01:00",
-  "UpdatedBy": "quaerat",
-  "CreatedBy": "est",
-  "TableName": "Feeney Group",
+  "Key": "molestiae",
+  "Value": "tenetur",
+  "RecordId": 517,
+  "CreatedDate": "2003-07-29T13:13:23.1802042+02:00",
+  "UpdatedDate": "2024-12-24T13:13:23.1802042+01:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "accusantium",
+  "TableName": "Pfannerstill Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   }
 }

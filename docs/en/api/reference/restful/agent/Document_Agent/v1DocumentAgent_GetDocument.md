@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=292
+POST /api/v1/Agents/Document/GetDocument?documentId=258
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 419,
-  "Attention": "perferendis",
-  "Header": "qui",
-  "Name": "Medhurst, Dare and Champlin",
-  "OurRef": "in",
-  "YourRef": "nemo",
-  "Description": "Realigned zero defect access",
-  "DocumentTemplate": "pariatur",
+  "DocumentId": 733,
+  "Attention": "recusandae",
+  "Header": "numquam",
+  "Name": "McDermott LLC",
+  "OurRef": "consequuntur",
+  "YourRef": "rem",
+  "Description": "Digitized actuating initiative",
+  "DocumentTemplate": "dolorem",
   "IsPublished": false,
-  "PersonId": 1002,
-  "PersonFullName": "Alyce Bechtelar I",
-  "AssociateFullName": "Rhett Schimmel",
-  "ContactId": 426,
-  "ContactName": "Smitham-Cummerata",
-  "ProjectId": 158,
-  "ProjectName": "Moen-Walter",
-  "AssociateId": 185,
-  "Snum": 72,
-  "SaleId": 666,
-  "SaleName": "Collier-Harvey",
+  "PersonId": 762,
+  "PersonFullName": "Ryann Yundt IV",
+  "AssociateFullName": "Miguel Bergnaum",
+  "ContactId": 306,
+  "ContactName": "Willms-Bartoletti",
+  "ProjectId": 123,
+  "ProjectName": "Mosciski, Schneider and Luettgen",
+  "AssociateId": 799,
+  "Snum": 280,
+  "SaleId": 379,
+  "SaleName": "Kulas Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 727
     }
   }
 }

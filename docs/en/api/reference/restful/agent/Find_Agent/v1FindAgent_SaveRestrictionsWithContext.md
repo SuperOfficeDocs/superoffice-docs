@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Osinski LLC",
-  "StorageKey": "rerum",
+  "StorageType": "quos",
+  "ProviderName": "Powlowski LLC",
+  "StorageKey": "blanditiis",
   "Restrictions": [
     {
-      "Name": "Swift-Abshire",
-      "Operator": "enim",
+      "Name": "Stokes Inc and Sons",
+      "Operator": "itaque",
       "Values": [
-        "corrupti",
-        "est"
+        "et",
+        "commodi"
       ],
       "DisplayValues": [
-        "quam",
-        "reprehenderit"
+        "iure",
+        "suscipit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 274,
+      "InterParenthesis": 95,
       "InterOperator": "And",
-      "UniqueHash": 916
+      "UniqueHash": 71
     }
   ],
-  "Context": "distinctio"
+  "Context": "occaecati"
 }
 ```
 

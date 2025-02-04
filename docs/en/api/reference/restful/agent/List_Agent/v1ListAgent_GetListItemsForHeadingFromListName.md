@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jast LLC",
-  "HeadingId": 177
+  "UdListDefinitionName": "Corkery-Torp",
+  "HeadingId": 670
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Kassulke LLC",
-    "ToolTip": "Consequuntur quam sint distinctio recusandae voluptate nostrum voluptatem.",
+    "Id": 616,
+    "Name": "Goldner-Stracke",
+    "ToolTip": "Consequuntur aut suscipit explicabo deserunt ipsum quia voluptatem.",
     "Deleted": true,
-    "Rank": 243,
-    "Type": "praesentium",
-    "ColorBlock": 240,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2001-07-05T10:17:55.7071691+02:00",
+    "Rank": 847,
+    "Type": "accusantium",
+    "ColorBlock": 787,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2006-07-27T13:13:23.2739325+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Kohler, Smith and Frami",
-        "ToolTip": "Quia quis.",
-        "Deleted": false,
-        "Rank": 165,
-        "Type": "explicabo",
-        "ColorBlock": 34,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2004-03-03T10:17:55.7071691+01:00",
+        "Id": 296,
+        "Name": "Gulgowski, Borer and Adams",
+        "ToolTip": "Dignissimos quod amet.",
+        "Deleted": true,
+        "Rank": 850,
+        "Type": "aut",
+        "ColorBlock": 276,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2010-11-03T13:13:23.2739325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Buster Hodkiewicz",
+        "ExtraInfo": "sint",
+        "StyleHint": "aperiam",
+        "Hidden": false,
+        "FullName": "Miss Elissa Waelchi Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 71
+            "FieldType": "System.Int32",
+            "FieldLength": 49
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Domenico Gulgowski",
+    "ExtraInfo": "est",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Davon Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

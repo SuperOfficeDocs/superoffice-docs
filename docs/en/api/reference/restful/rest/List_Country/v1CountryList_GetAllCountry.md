@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 225,
-    "Name": "Gutmann-Towne",
-    "CurrencyId": 280,
-    "EnglishName": "Pollich LLC",
+    "CountryId": 999,
+    "Name": "Langosh-Kling",
+    "CurrencyId": 6,
+    "EnglishName": "Reilly Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Polarised mobile Graphical User Interface",
-    "OrgNrText": "1389367",
-    "InterAreaPrefix": "repellendus",
-    "DialInPrefix": "qui",
-    "ZipPrefix": "blanditiis",
-    "DomainName": "Watsica-Wehner",
-    "AddressLayoutId": 272,
-    "DomesticAddressLayoutId": 287,
-    "ForeignAddressLayoutId": 276,
-    "Rank": 128,
-    "Tooltip": "quo",
+    "ImageDescription": "Inverse zero defect implementation",
+    "OrgNrText": "1779333",
+    "InterAreaPrefix": "placeat",
+    "DialInPrefix": "at",
+    "ZipPrefix": "tenetur",
+    "DomainName": "Jerde, Conroy and Kuhic",
+    "AddressLayoutId": 926,
+    "DomesticAddressLayoutId": 950,
+    "ForeignAddressLayoutId": 860,
+    "Rank": 41,
+    "Tooltip": "aut",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   }

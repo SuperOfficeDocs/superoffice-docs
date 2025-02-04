@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "harum",
+  "CRMScriptUniqueId": "nobis",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ex",
-    "InputValues2": "dolorem"
+    "InputValues1": "beatae",
+    "InputValues2": "corporis"
   },
   "BlockExecution": false,
-  "NavigateTo": "id",
-  "Message": "itaque",
-  "ShowDialog": "numquam",
+  "NavigateTo": "repellat",
+  "Message": "sit",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "non",
-    "OutputValues2": "aut"
+    "OutputValues1": "mollitia",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "quas",
+    "StateValues1": "aut",
     "StateValues2": "est"
   },
-  "Exception": "assumenda",
+  "Exception": "maxime",
   "ParserValues": {
-    "ParserValues1": "sit",
-    "ParserValues2": "ipsa"
+    "ParserValues1": "perferendis",
+    "ParserValues2": "et"
   },
   "CgiVariables": {
-    "CgiVariables1": "ullam",
-    "CgiVariables2": "laborum"
+    "CgiVariables1": "accusantium",
+    "CgiVariables2": "error"
   },
-  "CgiContent": "qui",
+  "CgiContent": "beatae",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "consectetur"
+    "Headers1": "recusandae",
+    "Headers2": "eum"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 274,
-    "ResourceId": 841,
-    "Text": "nobis",
+    "LanguageId": 956,
+    "ResourceId": 424,
+    "Text": "officiis",
     "Type": "Column",
-    "LocalizedTextId": 91,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 729,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 728
       }
     }
   }

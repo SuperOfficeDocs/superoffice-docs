@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 519,
+  "EjMessageId": 775,
   "Ticket": null,
-  "CreatedAt": "2024-03-02T10:18:00.8012286+01:00",
+  "CreatedAt": "2010-10-10T13:13:32.4798668+02:00",
   "CreatedBy": null,
-  "Author": "excepturi",
+  "Author": "commodi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "corporis",
-  "TimeSpent": 266,
-  "Body": "aut",
-  "HtmlBody": "sunt",
-  "EmailHeader": "jarod@casper.biz",
-  "DebugInfo": "debitis",
-  "MailSorter": "aliquam",
+  "MessageId": "iste",
+  "TimeSpent": 124,
+  "Body": "eos",
+  "HtmlBody": "omnis",
+  "EmailHeader": "abraham.hegmann@cronaupton.biz",
+  "DebugInfo": "dolor",
+  "MailSorter": "porro",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "officiis",
+  "SearchTitle": "numquam",
   "MessageHeaders": [
     {
-      "Id": 56,
-      "Name": "Purdy, Bins and Blanda",
-      "Value": "quo",
+      "Id": 505,
+      "Name": "Balistreri, Farrell and Willms",
+      "Value": "tempora",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldLength": 727
         }
       }
     }
   ],
   "Important": true,
-  "Language": "id",
-  "Sentiment": 671,
-  "SentimentConfidence": 34,
+  "Language": "soluta",
+  "Sentiment": 866,
+  "SentimentConfidence": 326,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 276,
-      "Name": "Cronin-Smitham",
-      "ContentType": "quis",
-      "AttSize": 281,
+      "AttachmentId": 692,
+      "Name": "Jones, Ritchie and Wisoky",
+      "ContentType": "iste",
+      "AttSize": 88,
       "InlineImage": false,
-      "ContentId": "corporis",
-      "AuthKey": "libero",
+      "ContentId": "cumque",
+      "AuthKey": "aut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "quis"
+    "CustomFields1": "et",
+    "CustomFields2": "aliquid"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 438
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 292,
-  "Name": "Franecki Group",
-  "Description": "Operative static definition",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 218,
+  "Name": "Osinski, Baumbach and Kassulke",
+  "Description": "De-engineered optimizing superstructure",
+  "WelcomeMessage": "voluptatem",
   "Language": null,
-  "LastAccept": "2001-05-27T10:18:00.2543195+02:00",
-  "SecondsPrAccept": 898,
-  "AlertRecipient": "in",
+  "LastAccept": "2011-03-16T13:13:31.417683+01:00",
+  "SecondsPrAccept": 746,
+  "AlertRecipient": "cupiditate",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "fugit",
+  "BadgeHeader": "est",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quod",
-  "WarnNewChatMinutes": 20,
-  "WarnManagerNewChatMinutes": 158,
-  "TicketEnabled": true,
+  "CustomQueueText": "explicabo",
+  "WarnNewChatMinutes": 474,
+  "WarnManagerNewChatMinutes": 484,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 572,
-  "WarnManagerChatMessageMinutes": 89,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 406,
+  "WarnManagerChatMessageMinutes": 448,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 109,
-  "OfflineFormQueueLength": 704,
+  "OfflineFormTimeLimit": 65,
+  "OfflineFormQueueLength": 861,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "saepe",
+  "WidgetRatingText": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 883
     }
   }
 }

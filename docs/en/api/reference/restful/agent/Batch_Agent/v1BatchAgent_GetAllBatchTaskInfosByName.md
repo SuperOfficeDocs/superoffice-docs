@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Stracke, Senger and Adams"
+  "TaskName": "Langworth-Bernhard"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Huels Group",
-    "AssociateId": 114,
-    "DetailsTable": 609,
-    "DetailsRecord": 654,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 401,
+    "Name": "Smith Group",
+    "AssociateId": 805,
+    "DetailsTable": 216,
+    "DetailsRecord": 117,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "fuga",
-      "ParameterObject2": "illo"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "nam"
     },
-    "LastStarted": "2019-08-04T10:17:55.1290102+02:00",
-    "Created": "2004-02-05T10:17:55.1290102+01:00",
-    "StartCount": 638,
-    "DatabaseSerialNumber": "930471",
-    "Context": "atque",
-    "Result": "maiores",
+    "LastStarted": "2007-12-12T13:13:22.133333+01:00",
+    "Created": "2017-04-29T13:13:22.133333+02:00",
+    "StartCount": 775,
+    "DatabaseSerialNumber": "689956",
+    "Context": "et",
+    "Result": "et",
     "State": "All",
-    "Description": "Realigned bi-directional analyzer",
-    "Response": "ab",
-    "Request": "eaque",
-    "ProgressDescription": "Robust executive methodology",
-    "ProgressPercent": 662,
-    "FileName": "Skiles, Rice and Gibson",
+    "Description": "Synergistic fault-tolerant archive",
+    "Response": "est",
+    "Request": "illum",
+    "ProgressDescription": "Proactive object-oriented circuit",
+    "ProgressPercent": 49,
+    "FileName": "McLaughlin Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   }

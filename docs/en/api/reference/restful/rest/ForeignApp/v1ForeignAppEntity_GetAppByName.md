@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 07 Jan 2008 10:18:00 G1T
+Last-Modified: Sun, 01 Mar 2009 13:13:31 G3T
 
 {
-  "ForeignAppId": 130,
-  "Name": "Howe-Kuhn",
-  "CreatedDate": "2020-01-01T10:18:00.4262067+01:00",
-  "UpdatedDate": "2008-01-07T10:18:00.4262067+01:00",
+  "ForeignAppId": 399,
+  "Name": "Schuster-Abernathy",
+  "CreatedDate": "2020-11-16T13:13:31.7457296+01:00",
+  "UpdatedDate": "2009-03-01T13:13:31.7457296+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 92,
-      "Name": "Goyette, Altenwerth and Boehm",
-      "CreatedDate": "2023-02-12T10:18:00.4262067+01:00",
-      "UpdatedDate": "2016-12-01T10:18:00.4262067+01:00",
-      "AssociateFullName": "Concepcion Herzog",
-      "CreatedBy": "odit",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 806,
+      "ForeignDeviceId": 865,
+      "Name": "Emard, Marvin and Barton",
+      "CreatedDate": "2021-09-20T13:13:31.7457296+02:00",
+      "UpdatedDate": "2021-10-07T13:13:31.7457296+02:00",
+      "AssociateFullName": "Ron Russel",
+      "CreatedBy": "magnam",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "possimus",
+      "ForeignAppId": 582,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 84
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Mon, 07 Jan 2008 10:18:00 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   }
 }

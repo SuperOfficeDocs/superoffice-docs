@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veritatis",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-04-25T10:18:00.6918462+02:00",
-  "Amount": 26356.94,
-  "SaleId": 590,
-  "Earning": 30525.16,
-  "EarningPercent": 4782.4839999999995,
-  "Heading": "hic",
-  "Number": "1225234",
-  "Probability": 335,
-  "CreatedDate": "2001-01-06T10:18:00.6918462+01:00",
-  "UpdatedDate": "2004-06-24T10:18:00.6918462+02:00",
+  "Saledate": "2008-12-18T13:13:32.2924104+01:00",
+  "Amount": 8120.1939999999995,
+  "SaleId": 653,
+  "Earning": 1614.01,
+  "EarningPercent": 17544.131999999998,
+  "Heading": "consectetur",
+  "Number": "1099686",
+  "Probability": 160,
+  "CreatedDate": "1997-09-25T13:13:32.2924104+02:00",
+  "UpdatedDate": "2024-08-14T13:13:32.2924104+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 562,
+  "ActiveLinks": 864,
   "Links": [
     {
-      "EntityName": "Cole-Orn",
-      "Id": 703,
-      "Description": "Multi-layered methodical toolset",
-      "ExtraInfo": "sed",
-      "LinkId": 980
+      "EntityName": "Grant, Brekke and Casper",
+      "Id": 477,
+      "Description": "Programmable needs-based ability",
+      "ExtraInfo": "corporis",
+      "LinkId": 220
     },
     {
-      "EntityName": "Cole-Orn",
-      "Id": 703,
-      "Description": "Multi-layered methodical toolset",
-      "ExtraInfo": "sed",
-      "LinkId": 980
+      "EntityName": "Grant, Brekke and Casper",
+      "Id": 477,
+      "Description": "Programmable needs-based ability",
+      "ExtraInfo": "corporis",
+      "LinkId": 220
     }
   ],
-  "NextDueDate": "2006-06-27T10:18:00.6918462+02:00",
-  "Postit": "et",
+  "NextDueDate": "2016-02-07T13:13:32.2924104+01:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-05-04T10:18:00.6918462+02:00",
+  "ReopenDate": "2014-08-09T13:13:32.2924104+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Homenick, Metz and Gulgowski",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 983,
-      "CountryId": 506,
-      "PersonId": 134,
-      "EmailDescription": "herta@conroyvonrueden.us",
-      "EmailId": 863,
-      "EmailAddress": "darrell@borer.co.uk",
-      "PhoneId": 69,
-      "ContactName": "Lesch-Gutkowski",
-      "ContactId": 509,
-      "SaleId": 440,
-      "Mrmrs": "laudantium",
-      "Firstname": "Murphy",
-      "MiddleName": "Jenkins-Morissette",
-      "Lastname": "O'Kon",
-      "SaleStakeholderId": 770,
-      "Rank": 429,
-      "Phone": "1-874-909-8690 x2542"
+      "StakeholderRoleName": "Rath, Schroeder and Kozey",
+      "Comment": "omnis",
+      "StakeholderRoleId": 509,
+      "CountryId": 727,
+      "PersonId": 375,
+      "EmailDescription": "karl_zulauf@bashirianlebsack.name",
+      "EmailId": 351,
+      "EmailAddress": "mackenzie@littlewalter.us",
+      "PhoneId": 13,
+      "ContactName": "Heathcote-Hettinger",
+      "ContactId": 752,
+      "SaleId": 905,
+      "Mrmrs": "ipsam",
+      "Firstname": "Graham",
+      "MiddleName": "Hodkiewicz, Leuschke and Emard",
+      "Lastname": "Price",
+      "SaleStakeholderId": 227,
+      "Rank": 91,
+      "Phone": "1-108-323-9108 x97188"
     }
   ],
-  "ActiveErpLinks": 129,
+  "ActiveErpLinks": 567,
   "UserDefinedFields": {
-    "SuperOffice:1": "1909499011",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1946007648",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quo"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2022-06-18T10:18:00.6918462+02:00",
-  "PublishTo": "1999-04-13T10:18:00.6918462+02:00",
-  "PublishFrom": "2022-12-27T10:18:00.6918462+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2024-01-11T13:13:32.2924104+01:00",
+  "PublishTo": "2012-10-10T13:13:32.2924104+02:00",
+  "PublishFrom": "2001-10-26T13:13:32.2924104+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 145,
+      "VisibleId": 760,
       "Visibility": "All",
-      "DisplayValue": "aliquid"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 145,
+      "VisibleId": 760,
       "Visibility": "All",
-      "DisplayValue": "aliquid"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "atque"
+  "1": "in",
+  "2": "excepturi"
 }
 ```

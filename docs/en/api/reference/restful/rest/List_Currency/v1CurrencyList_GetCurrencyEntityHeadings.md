@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 524,
-    "Name": "Willms-Cronin",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 557,
-    "UdListDefinitionId": 736,
+    "HeadingId": 14,
+    "Name": "Abshire-Conroy",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "Rank": 126,
+    "UdListDefinitionId": 612,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Carter, Cruickshank and Runolfsson",
-  "Tooltip": "dignissimos",
+  "Id": 810,
+  "Name": "Barton-Ritchie",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 286,
+  "Rank": 131,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Strosin Group",
-  "Tooltip": "et",
+  "Id": 952,
+  "Name": "Dibbert Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 630,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 595,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldLength": 913
     }
   }
 }

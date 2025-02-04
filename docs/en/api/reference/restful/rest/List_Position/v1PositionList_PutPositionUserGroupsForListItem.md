@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Schuster LLC",
-    "ToolTip": "Ut qui qui sequi.",
+    "Id": 99,
+    "Name": "Thompson Group",
+    "ToolTip": "Et possimus ut sunt in commodi.",
     "Deleted": false,
-    "Rank": 847,
-    "Type": "eligendi",
-    "ColorBlock": 379,
-    "IconHint": "eius",
+    "Rank": 116,
+    "Type": "mollitia",
+    "ColorBlock": 294,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2019-01-19T10:18:01.0668705+01:00",
+    "LastChanged": "2022-08-01T13:13:33.2298506+02:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Schulist Inc and Sons",
-        "ToolTip": "Libero quia.",
-        "Deleted": true,
-        "Rank": 718,
-        "Type": "minus",
-        "ColorBlock": 706,
-        "IconHint": "repellendus",
+        "Id": 543,
+        "Name": "Blick, Friesen and Maggio",
+        "ToolTip": "Reprehenderit sapiente autem sapiente ut quia.",
+        "Deleted": false,
+        "Rank": 157,
+        "Type": "in",
+        "ColorBlock": 334,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2012-08-16T10:18:01.0668705+02:00",
+        "LastChanged": "2012-03-28T13:13:33.2298506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Mrs. Esperanza Runte II"
+        "ExtraInfo": "tempore",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Marianne Kohler Sr."
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Mrs. Russel Treutel"
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Ms. Frances Carlotta Parker PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Kunde, Bradtke and Boehm",
-    "ToolTip": "Sed dolor voluptate sunt qui libero voluptate molestias.",
+    "Id": 192,
+    "Name": "Marvin-Lowe",
+    "ToolTip": "Quasi est autem mollitia.",
     "Deleted": true,
-    "Rank": 617,
-    "Type": "quae",
-    "ColorBlock": 487,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2002-09-02T10:18:01.0668705+02:00",
+    "Rank": 42,
+    "Type": "similique",
+    "ColorBlock": 530,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2001-03-14T13:13:33.2454698+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Pacocha-Feeney",
-        "ToolTip": "Officiis adipisci aperiam quasi doloremque rerum fugiat.",
+        "Id": 954,
+        "Name": "Gleichner-Hudson",
+        "ToolTip": "Est maxime illum sapiente sequi optio.",
         "Deleted": false,
-        "Rank": 624,
-        "Type": "fugiat",
-        "ColorBlock": 485,
-        "IconHint": "dolorem",
+        "Rank": 247,
+        "Type": "consequatur",
+        "ColorBlock": 428,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2002-11-08T10:18:01.0668705+01:00",
+        "LastChanged": "2013-05-02T13:13:33.2454698+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "debitis",
+        "ExtraInfo": "odit",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Amie Roob",
+        "FullName": "Prof. Axel Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 486
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Ryleigh Horace Buckridge PhD",
+    "ExtraInfo": "ut",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Margot Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

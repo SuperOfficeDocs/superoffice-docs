@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 520,
-  "ErpConnectorId": 368,
-  "DisplayName": "Lowe-Gerhold",
-  "DisplayDescription": "Vision-oriented coherent benchmark",
-  "Active": true,
-  "ConnectionId": "expedita",
-  "MostRecentTimestamp": "provident",
+  "ErpConnectionId": 610,
+  "ErpConnectorId": 615,
+  "DisplayName": "Bauch, Will and Wisoky",
+  "DisplayDescription": "Business-focused methodical neural-net",
+  "Active": false,
+  "ConnectionId": "veniam",
+  "MostRecentTimestamp": "unde",
   "ConfigFields": {
-    "ConfigFields1": "enim",
-    "ConfigFields2": "aliquam"
+    "ConfigFields1": "beatae",
+    "ConfigFields2": "et"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    891,
-    628
+    542,
+    345
   ],
   "AssociateAccessIds": [
-    908,
-    557
+    421,
+    353
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 185
     }
   }
 }

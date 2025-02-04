@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 845,
-  "StartTime": "2002-09-26T10:17:55.3477735+02:00",
-  "EndTime": "2016-12-20T10:17:55.3477735+01:00",
-  "Count": 320
+  "ContactId": 105,
+  "StartTime": "2007-06-30T13:13:22.6019709+02:00",
+  "EndTime": "2012-11-13T13:13:22.6019709+01:00",
+  "Count": 200
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 988,
-    "Attention": "quo",
-    "Header": "nihil",
-    "Name": "Yundt Group",
-    "OurRef": "fugit",
-    "YourRef": "impedit",
-    "Description": "Inverse 4th generation implementation",
-    "DocumentTemplate": "maxime",
+    "DocumentId": 725,
+    "Attention": "sed",
+    "Header": "dolorem",
+    "Name": "Denesik-Hermiston",
+    "OurRef": "omnis",
+    "YourRef": "odit",
+    "Description": "Devolved content-based software",
+    "DocumentTemplate": "quis",
     "IsPublished": false,
-    "PersonId": 608,
-    "PersonFullName": "Zion Gislason",
-    "AssociateFullName": "Wilhelm Ullrich",
-    "ContactId": 753,
-    "ContactName": "Prohaska-Lowe",
-    "ProjectId": 830,
-    "ProjectName": "Ritchie-Miller",
-    "AssociateId": 936,
-    "Snum": 890,
-    "SaleId": 142,
-    "SaleName": "Adams, Lindgren and Ratke",
+    "PersonId": 281,
+    "PersonFullName": "Claire Sporer",
+    "AssociateFullName": "Oswald Larkin",
+    "ContactId": 218,
+    "ContactName": "Herman, Runolfsdottir and Baumbach",
+    "ProjectId": 493,
+    "ProjectName": "Wuckert-Kozey",
+    "AssociateId": 479,
+    "Snum": 98,
+    "SaleId": 29,
+    "SaleName": "Gutkowski-Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 897
       }
     }
   }

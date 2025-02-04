@@ -139,26 +139,26 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 684,
-  "Name": "Farrell Inc and Sons",
-  "Description": "Organic didactic productivity",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 416,
+  "Name": "Boyer, Daniel and Howe",
+  "Description": "Extended non-volatile function",
+  "WelcomeMessage": "sequi",
   "Language": null,
-  "LastAccept": "1999-09-29T10:18:00.2543195+02:00",
-  "SecondsPrAccept": 111,
-  "AlertRecipient": "tempora",
+  "LastAccept": "2016-06-19T13:13:31.4333046+02:00",
+  "SecondsPrAccept": 690,
+  "AlertRecipient": "possimus",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "quia",
+  "CollectConsent": true,
+  "BadgeHeader": "ut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "odit",
-  "WarnNewChatMinutes": 380,
-  "WarnManagerNewChatMinutes": 516,
-  "TicketEnabled": true,
+  "CustomQueueText": "repellendus",
+  "WarnNewChatMinutes": 166,
+  "WarnManagerNewChatMinutes": 985,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 137,
-  "WarnManagerChatMessageMinutes": 224,
+  "WarnChatMessageMinutes": 748,
+  "WarnManagerChatMessageMinutes": 497,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 689,
-  "OfflineFormQueueLength": 421,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ducimus"
+  "OfflineFormTimeLimit": 57,
+  "OfflineFormQueueLength": 323,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "nemo"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 646,
-  "Name": "Keebler LLC",
-  "Description": "Enhanced fault-tolerant structure",
-  "WelcomeMessage": "dicta",
+  "ChatTopicId": 148,
+  "Name": "Hand, Adams and Marquardt",
+  "Description": "Phased mobile model",
+  "WelcomeMessage": "officia",
   "Language": null,
-  "LastAccept": "2003-01-27T10:18:00.2543195+01:00",
-  "SecondsPrAccept": 471,
-  "AlertRecipient": "neque",
+  "LastAccept": "2019-01-28T13:13:31.4333046+01:00",
+  "SecondsPrAccept": 990,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "reprehenderit",
+  "CollectConsent": true,
+  "BadgeHeader": "labore",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "reiciendis",
-  "WarnNewChatMinutes": 950,
-  "WarnManagerNewChatMinutes": 459,
-  "TicketEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 984,
+  "WarnManagerNewChatMinutes": 533,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 519,
-  "WarnManagerChatMessageMinutes": 727,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 711,
-  "OfflineFormQueueLength": 312,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 694,
+  "WarnManagerChatMessageMinutes": 857,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 757,
+  "OfflineFormQueueLength": 187,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ipsa",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

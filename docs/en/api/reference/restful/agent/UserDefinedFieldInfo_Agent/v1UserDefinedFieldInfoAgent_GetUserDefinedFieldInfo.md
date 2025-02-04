@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=302
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=994
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 670,
-  "ColumnId": 196,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 158,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 882,
-  "FieldTop": 931,
+  "UDefFieldId": 705,
+  "ColumnId": 745,
+  "FieldDefault": "est",
+  "FieldHeight": 749,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 657,
+  "FieldTop": 7,
   "FieldType": "Checkbox",
-  "FieldWidth": 966,
-  "FormatMask": "aut",
+  "FieldWidth": 235,
+  "FormatMask": "ducimus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 634,
-  "LabelLeft": 990,
-  "LabelTop": 9,
-  "LabelWidth": 687,
-  "LastVersionId": 196,
-  "ListTableId": 590,
+  "LabelHeight": 657,
+  "LabelLeft": 916,
+  "LabelTop": 777,
+  "LabelWidth": 758,
+  "LastVersionId": 907,
+  "ListTableId": 877,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 781,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "mollitia",
-  "TabOrder": 909,
-  "TextLength": 939,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 943,
-  "UDListDefinitionId": 584,
+  "Page1LineNo": 294,
+  "ProgId": "nisi",
+  "IsReadOnly": false,
+  "ShortLabel": "et",
+  "TabOrder": 497,
+  "TextLength": 825,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 906,
+  "UDListDefinitionId": 510,
   "Justification": "Center",
-  "Version": 645,
-  "TemplateVariableName": "Rodriguez, Reynolds and Trantow",
+  "Version": 344,
+  "TemplateVariableName": "Brown Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Blanda, Langosh and Kemmer",
+  "MdoListName": "Sipes LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 146
     }
   }
 }

@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 847,
-  "Section": "voluptatum",
-  "Key": "nemo",
-  "Name": "Barton, Kiehn and Hettinger",
+  "PrefDescId": 980,
+  "Section": "ad",
+  "Key": "officia",
+  "Name": "Hammes Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust disintermediate implementation",
-  "IsBuiltin": false,
-  "TableName": "Wilkinson, Prohaska and Bins",
-  "UserDefinedListId": 61,
-  "Rank": 619,
-  "SubGroup": "et",
-  "MinLevel": 321,
-  "MaxValue": 176,
-  "MinValue": 200,
-  "RequiredLicense": "accusantium"
+  "Description": "Reactive tangible system engine",
+  "IsBuiltin": true,
+  "TableName": "Hamill, Frami and Yost",
+  "UserDefinedListId": 619,
+  "Rank": 991,
+  "SubGroup": "quia",
+  "MinLevel": 914,
+  "MaxValue": 810,
+  "MinValue": 698,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 68,
-  "Section": "doloremque",
-  "Key": "sit",
-  "Name": "Kuhn, Corkery and Grady",
+  "PrefDescId": 860,
+  "Section": "fugit",
+  "Key": "blanditiis",
+  "Name": "Hudson, Kunze and Gleason",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated system-worthy matrices",
+  "Description": "Assimilated tangible Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "D'Amore LLC",
-  "UserDefinedListId": 799,
-  "Rank": 822,
-  "SubGroup": "fuga",
-  "MinLevel": 479,
-  "MaxValue": 612,
-  "MinValue": 954,
-  "RequiredLicense": "harum",
+  "TableName": "Dickens, Luettgen and Jones",
+  "UserDefinedListId": 143,
+  "Rank": 989,
+  "SubGroup": "recusandae",
+  "MinLevel": 825,
+  "MaxValue": 970,
+  "MinValue": 56,
+  "RequiredLicense": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   },
   "_Links": {

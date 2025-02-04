@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 91,
-    "Name": "Bogan, Bradtke and Bartoletti",
-    "Tooltip": "optio",
+    "HeadingId": 202,
+    "Name": "Terry Inc and Sons",
+    "Tooltip": "modi",
     "Deleted": true,
-    "Rank": 244,
-    "UdListDefinitionId": 872,
+    "Rank": 203,
+    "UdListDefinitionId": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

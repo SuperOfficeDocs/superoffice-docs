@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 736,
-  "AppointmentId": 228,
-  "ProjectId": 232,
-  "SaleId": 433,
+  "DocumentId": 447,
+  "AppointmentId": 346,
+  "ProjectId": 874,
+  "SaleId": 631,
   "Archived": false,
-  "ArchivedAt": "2021-11-12T10:17:55.5821627+01:00",
-  "ArchivedBy": 352,
-  "ArchivedDisplayName": "Runolfsdottir, Wilderman and Emard",
+  "ArchivedAt": "2008-12-01T13:13:23.0083594+01:00",
+  "ArchivedBy": 643,
+  "ArchivedDisplayName": "Wuckert-Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

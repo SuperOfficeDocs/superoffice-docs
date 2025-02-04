@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Ferry Inc and Sons",
-  "StorageKey": "et",
-  "Context": "inventore"
+  "StorageType": "nostrum",
+  "ProviderName": "McCullough, Trantow and Kuvalis",
+  "StorageKey": "qui",
+  "Context": "numquam"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weimann Inc and Sons",
-  "Description": "Managed 3rd generation methodology",
-  "Rank": 781,
+  "Name": "Ebert LLC",
+  "Description": "Realigned content-based implementation",
+  "Rank": 382,
   "Restrictions": [
     {
-      "Name": "Yost, O'Hara and Pollich",
-      "Operator": "ut",
+      "Name": "Schmeler LLC",
+      "Operator": "quaerat",
       "Values": [
-        "quia",
-        "ullam"
+        "autem",
+        "sit"
       ],
       "DisplayValues": [
-        "quos",
-        "nemo"
+        "consequatur",
+        "recusandae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 741,
+      "InterParenthesis": 671,
       "InterOperator": "And",
-      "UniqueHash": 73
+      "UniqueHash": 514
     }
   ]
 }

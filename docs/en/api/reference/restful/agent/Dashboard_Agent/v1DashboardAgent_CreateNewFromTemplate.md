@@ -94,20 +94,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 799,
-  "Caption": "inventore",
-  "Description": "Networked systemic complexity",
-  "SelectionId": 575,
+  "DashboardTileId": 855,
+  "Caption": "labore",
+  "Description": "Virtual bandwidth-monitored hub",
+  "SelectionId": 208,
   "VisibleFor": [
     {
-      "VisibleId": 346,
+      "VisibleId": 814,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "ipsa"
     },
     {
-      "VisibleId": 346,
+      "VisibleId": 814,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "ipsa"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 587,
-  "Caption": "et",
-  "Description": "Quality-focused systemic implementation",
-  "ChartName": "Walsh-Wolff",
-  "ChartId": "quia",
-  "IsDefault": true,
-  "AssociateId": 951,
-  "GroupId": 822,
-  "SelectionId": 749,
-  "Config": "tenetur",
+  "DashboardTileId": 469,
+  "Caption": "deleniti",
+  "Description": "Front-line optimizing artificial intelligence",
+  "ChartName": "Gislason, Howell and Vandervort",
+  "ChartId": "vero",
+  "IsDefault": false,
+  "AssociateId": 219,
+  "GroupId": 113,
+  "SelectionId": 337,
+  "Config": "minus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Flatley-Barton",
-      "Description": "Robust hybrid productivity",
+      "Name": "Fisher-Russel",
+      "Description": "Decentralized mission-critical standardization",
       "Type": "Boolean",
-      "ListName": "Schmeler, Graham and Murazik",
+      "ListName": "Lindgren Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "impedit",
+      "Value": "voluptatibus",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 67
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 668,
+      "VisibleId": 980,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 363
         }
       }
     },
     {
-      "VisibleId": 668,
+      "VisibleId": 980,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 363
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

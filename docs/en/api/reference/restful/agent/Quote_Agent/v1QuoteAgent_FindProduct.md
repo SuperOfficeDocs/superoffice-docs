@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 269,
-  "UserInput": "ad",
-  "PriceListKey": "mollitia"
+  "QuoteAlternativeId": 324,
+  "UserInput": "quia",
+  "PriceListKey": "reiciendis"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 563,
-    "ERPProductKey": "aut",
-    "ERPPriceListKey": "cum",
-    "Name": "Nitzsche, Leannon and Bechtelar",
-    "Description": "Balanced maximized toolset",
-    "Code": "nemo",
-    "PriceUnit": "delectus",
-    "QuantityUnit": "blanditiis",
-    "IsSubscription": true,
-    "SubscriptionUnit": "a",
-    "DefaultSubscriptionQuantity": 8618.5,
-    "ItemNumber": "480608",
+    "ProductId": 521,
+    "ERPProductKey": "omnis",
+    "ERPPriceListKey": "tempora",
+    "Name": "Wuckert-Nicolas",
+    "Description": "Profound 6th generation hardware",
+    "Code": "amet",
+    "PriceUnit": "sed",
+    "QuantityUnit": "inventore",
+    "IsSubscription": false,
+    "SubscriptionUnit": "aut",
+    "DefaultSubscriptionQuantity": 14077.928,
+    "ItemNumber": "1073765",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ut",
-    "ProductTypeKey": "fugit",
-    "VAT": 21044.809999999998,
-    "VATInfo": "molestiae",
-    "UnitCost": 9753.008,
-    "UnitMinimumPrice": 26729.886,
-    "UnitListPrice": 30255.636,
-    "InAssortment": true,
-    "Supplier": "totam",
-    "SupplierCode": "maxime",
-    "Rights": "sit",
-    "Rule": "totam",
+    "ProductFamilyKey": "ipsa",
+    "ProductTypeKey": "vitae",
+    "VAT": 27717.095999999998,
+    "VATInfo": "similique",
+    "UnitCost": 16801.374,
+    "UnitMinimumPrice": 28497.462,
+    "UnitListPrice": 1457.31,
+    "InAssortment": false,
+    "Supplier": "et",
+    "SupplierCode": "ab",
+    "Rights": "quae",
+    "Rule": "eius",
     "ExtraInfo": [
       {
-        "Name": "Bahringer, Hartmann and Reinger",
-        "Value": "dolorem",
+        "Name": "Powlowski-Nitzsche",
+        "Value": "quibusdam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldLength": 555
           }
         }
       },
       {
-        "Name": "Bahringer, Hartmann and Reinger",
-        "Value": "dolorem",
+        "Name": "Powlowski-Nitzsche",
+        "Value": "quibusdam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldLength": 555
           }
         }
       }
     ],
-    "RawExtraInfo": "cupiditate",
-    "ExtraField1": "explicabo",
-    "ExtraField2": "sint",
-    "ExtraField3": "sunt",
-    "ExtraField4": "quisquam",
-    "ExtraField5": "velit",
-    "InStock": 23370.237999999998,
+    "RawExtraInfo": "asperiores",
+    "ExtraField1": "qui",
+    "ExtraField2": "at",
+    "ExtraField3": "totam",
+    "ExtraField4": "et",
+    "ExtraField5": "eos",
+    "InStock": 16654.076,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 337
       }
     }
   }

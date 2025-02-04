@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 1001
+  "MailItemId": 864
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 106,
-  "StartDate": "2004-10-29T10:17:55.5665368+02:00",
-  "EndDate": "2006-07-22T10:17:55.5665368+02:00",
-  "RecurrenceCounter": 727,
+  "RecurrenceId": 872,
+  "StartDate": "2016-11-13T13:13:22.9927476+01:00",
+  "EndDate": "2008-11-12T13:13:22.9927476+01:00",
+  "RecurrenceCounter": 12,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2003-12-10T10:17:55.5665368+01:00",
+      "Date": "2016-09-10T13:13:22.9927476+02:00",
       "IsConflict": false,
-      "Description": "Virtual neutral open architecture",
-      "DescriptionStyleHint": "Virtual empowering firmware",
-      "Tooltip": "eius"
+      "Description": "Enterprise-wide 24 hour pricing structure",
+      "DescriptionStyleHint": "Face to face 5th generation policy",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2003-12-10T10:17:55.5665368+01:00",
+      "Date": "2016-09-10T13:13:22.9927476+02:00",
       "IsConflict": false,
-      "Description": "Virtual neutral open architecture",
-      "DescriptionStyleHint": "Virtual empowering firmware",
-      "Tooltip": "eius"
+      "Description": "Enterprise-wide 24 hour pricing structure",
+      "DescriptionStyleHint": "Face to face 5th generation policy",
+      "Tooltip": "qui"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

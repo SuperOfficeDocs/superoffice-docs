@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 346,
-  "Name": "Prosacco Group",
-  "Tooltip": "sunt",
-  "Rank": 620,
+  "SaleTypeId": 347,
+  "Name": "Langworth LLC",
+  "Tooltip": "non",
+  "Rank": 418,
   "DurationUnit": "Century",
   "SaleDuration": 805,
-  "SaleTypeCatId": 969,
+  "SaleTypeCatId": 1001,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 512,
-  "QuoteLinesTemplate": 206,
-  "ConfirmationLinesTemplate": 722,
+  "DefaultQuoteValidity": 350,
+  "QuoteLinesTemplate": 564,
+  "ConfirmationLinesTemplate": 758,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 41,
-  "MinEarningPercent": 27,
-  "GroupQuoteLinesBy": 512,
-  "SortGroupLinesBy": 116,
+  "MaxDiscountPercent": 957,
+  "MinEarningPercent": 440,
+  "GroupQuoteLinesBy": 518,
+  "SortGroupLinesBy": 963,
   "Stages": [
     {
-      "Id": 196,
-      "Name": "Kub, Braun and Swift",
-      "ToolTip": "Facilis sunt excepturi doloremque quo sunt provident quis.",
+      "Id": 771,
+      "Name": "Wisoky, Walker and Zieme",
+      "ToolTip": "Iste id veritatis dolorem id eum.",
       "Deleted": false,
-      "Rank": 790,
-      "Type": "voluptatem",
-      "ColorBlock": 659,
-      "IconHint": "porro",
+      "Rank": 135,
+      "Type": "doloribus",
+      "ColorBlock": 196,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2008-04-10T10:17:55.7384214+02:00",
+      "LastChanged": "1998-04-24T13:13:23.3207956+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "quisquam",
-      "Hidden": true,
-      "FullName": "Mrs. Demario Adonis Jacobi V"
+      "ExtraInfo": "officia",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Mr. Jackie Maybell Strosin V"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 39,
-  "Name": "Johnston, Fritsch and Brakus",
-  "Tooltip": "nemo",
-  "Rank": 234,
+  "SaleTypeId": 868,
+  "Name": "Schuster-Watsica",
+  "Tooltip": "numquam",
+  "Rank": 40,
   "DurationUnit": "Century",
-  "SaleDuration": 581,
-  "SaleTypeCatId": 271,
+  "SaleDuration": 326,
+  "SaleTypeCatId": 121,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 829,
-  "QuoteLinesTemplate": 44,
-  "ConfirmationLinesTemplate": 736,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 563,
+  "QuoteLinesTemplate": 178,
+  "ConfirmationLinesTemplate": 390,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 211,
-  "MinEarningPercent": 8,
-  "GroupQuoteLinesBy": 533,
-  "SortGroupLinesBy": 352,
+  "MaxDiscountPercent": 361,
+  "MinEarningPercent": 624,
+  "GroupQuoteLinesBy": 859,
+  "SortGroupLinesBy": 83,
   "Stages": [
     {
-      "Id": 732,
-      "Name": "Hilll Group",
-      "ToolTip": "Fugiat sit dicta enim est suscipit.",
-      "Deleted": false,
-      "Rank": 91,
-      "Type": "quis",
-      "ColorBlock": 444,
-      "IconHint": "adipisci",
+      "Id": 565,
+      "Name": "Spencer-Klein",
+      "ToolTip": "Repudiandae quasi incidunt alias quia sequi.",
+      "Deleted": true,
+      "Rank": 299,
+      "Type": "expedita",
+      "ColorBlock": 252,
+      "IconHint": "molestias",
       "Selected": true,
-      "LastChanged": "2022-12-29T10:17:55.7384214+01:00",
+      "LastChanged": "2020-12-19T13:13:23.3364181+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "maiores",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Dr. Kaylie Senger",
+      "FullName": "Bobbie Altenwerth III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 839
+          "FieldType": "System.Int32",
+          "FieldLength": 729
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldLength": 970
     }
   }
 }

@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 291
+  "QuoteAlternativeId": 791
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 141,
-    "ERPQuoteLineKey": "et",
-    "QuoteAlternativeId": 978,
-    "ERPProductKey": "ad",
+    "QuoteLineId": 516,
+    "ERPQuoteLineKey": "quia",
+    "QuoteAlternativeId": 783,
+    "ERPProductKey": "perspiciatis",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 24786.806,
-    "DeliveredQuantity": 15224.972,
-    "Rank": 934,
-    "Name": "Von, Greenholt and Deckow",
-    "Description": "Down-sized content-based infrastructure",
-    "Code": "inventore",
-    "QuantityUnit": "et",
-    "PriceUnit": "ex",
-    "ItemNumber": "643474",
+    "Quantity": 3682.45,
+    "DeliveredQuantity": 14244.029999999999,
+    "Rank": 471,
+    "Name": "Smitham-Thiel",
+    "Description": "Configurable exuding migration",
+    "Code": "in",
+    "QuantityUnit": "pariatur",
+    "PriceUnit": "sed",
+    "ItemNumber": "1213479",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quia",
-    "ProductTypeKey": "pariatur",
-    "Supplier": "pariatur",
-    "SupplierCode": "voluptatum",
-    "Thumbnail": "et",
-    "VATInfo": "veritatis",
-    "VAT": 16205.913999999999,
-    "UnitCost": 14989.921999999999,
-    "UnitMinimumPrice": 27880.064,
-    "UnitListPrice": 16340.676,
+    "ProductFamilyKey": "ducimus",
+    "ProductTypeKey": "sint",
+    "Supplier": "corporis",
+    "SupplierCode": "non",
+    "Thumbnail": "a",
+    "VATInfo": "nihil",
+    "VAT": 10398.612,
+    "UnitCost": 29337.374,
+    "UnitMinimumPrice": 21486.703999999998,
+    "UnitListPrice": 26839.576,
     "ExtraInfo": [
       {
-        "Name": "Champlin Group",
-        "Value": "numquam",
+        "Name": "Dicki LLC",
+        "Value": "ratione",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldLength": 333
           }
         }
       },
       {
-        "Name": "Champlin Group",
-        "Value": "numquam",
+        "Name": "Dicki LLC",
+        "Value": "ratione",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldLength": 333
           }
         }
       }
     ],
-    "RawExtraInfo": "corrupti",
-    "IsSubscription": true,
-    "SubscriptionUnit": "et",
-    "SubscriptionQuantity": 8853.55,
-    "SubscriptionStart": "1999-08-04T10:17:55.9571855+02:00",
-    "ERPDiscountPercent": 31092.414,
-    "ERPDiscountAmount": 2898.95,
-    "DiscountPercent": 28469.255999999998,
-    "DiscountAmount": 20966.46,
+    "RawExtraInfo": "voluptatem",
+    "IsSubscription": false,
+    "SubscriptionUnit": "corrupti",
+    "SubscriptionQuantity": 11191.514,
+    "SubscriptionStart": "1999-11-01T13:13:23.7738157+01:00",
+    "ERPDiscountPercent": 10580.384,
+    "ERPDiscountAmount": 25162.886,
+    "DiscountPercent": 30907.507999999998,
+    "DiscountAmount": 29691.516,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 29036.51,
-    "EarningAmount": 97.154,
-    "SubTotal": 9239.032,
-    "TotalPrice": 26494.836,
-    "Rights": "quia",
-    "Rule": "est",
-    "ExtraField1": "eum",
-    "ExtraField2": "aut",
-    "ExtraField3": "at",
-    "ExtraField4": "molestiae",
-    "ExtraField5": "eum",
+    "EarningPercent": 25598.512,
+    "EarningAmount": 29168.138,
+    "SubTotal": 12332.289999999999,
+    "TotalPrice": 9850.162,
+    "Rights": "ullam",
+    "Rule": "illo",
+    "ExtraField1": "praesentium",
+    "ExtraField2": "reprehenderit",
+    "ExtraField3": "in",
+    "ExtraField4": "error",
+    "ExtraField5": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldLength": 920
       }
     }
   }

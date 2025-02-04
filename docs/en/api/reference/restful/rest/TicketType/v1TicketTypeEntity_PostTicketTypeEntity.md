@@ -116,33 +116,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 106,
-  "Name": "Rolfson-Nolan",
-  "Rank": 488,
-  "Tooltip": "consequatur",
-  "Icon": "ea",
-  "DefaultTicketStatus": 95,
+  "TicketTypeId": 715,
+  "Name": "Schaden, Flatley and Bechtelar",
+  "Rank": 523,
+  "Tooltip": "nihil",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 249,
   "TicketStatuses": [
-    388,
-    182
+    150,
+    259
   ],
-  "DefaultTicketPriority": 37,
+  "DefaultTicketPriority": 238,
   "TicketPriorities": [
-    666,
-    91
+    848,
+    101
   ],
-  "ReplyTemplate": 206,
+  "ReplyTemplate": 995,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    232,
-    927
+    69,
+    697
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -154,31 +154,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 849,
-  "Name": "Hamill, Dietrich and Wiegand",
-  "Rank": 389,
-  "Tooltip": "eaque",
-  "Icon": "atque",
-  "DefaultTicketStatus": 42,
+  "TicketTypeId": 753,
+  "Name": "Welch Group",
+  "Rank": 225,
+  "Tooltip": "ipsum",
+  "Icon": "quasi",
+  "DefaultTicketStatus": 578,
   "TicketStatuses": [
-    385,
-    50
+    586,
+    339
   ],
-  "DefaultTicketPriority": 257,
+  "DefaultTicketPriority": 550,
   "TicketPriorities": [
-    293,
-    748
+    810,
+    459
   ],
-  "ReplyTemplate": 23,
+  "ReplyTemplate": 881,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    458,
-    927
+    582,
+    639
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -186,13 +186,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

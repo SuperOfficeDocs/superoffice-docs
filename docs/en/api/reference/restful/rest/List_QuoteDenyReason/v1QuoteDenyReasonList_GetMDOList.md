@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=sint
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=laudantium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Farrell, Medhurst and Vandervort",
-    "ToolTip": "Voluptatum est.",
+    "Id": 516,
+    "Name": "Daniel, Wyman and Schaden",
+    "ToolTip": "Nostrum id occaecati deleniti officia.",
     "Deleted": false,
-    "Rank": 95,
-    "Type": "qui",
+    "Rank": 723,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Rau, Kihn and Schmitt",
-        "ToolTip": "Harum quasi dolore velit deserunt unde non tenetur.",
+        "Id": 698,
+        "Name": "Berge-Wisozk",
+        "ToolTip": "Enim qui odio illum nulla.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "voluptates",
+        "Rank": 310,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 333,
-        "ExtraInfo": "omnis",
-        "StyleHint": "rerum",
-        "FullName": "Petra Rice",
+        "IconHint": "sed",
+        "ColorBlock": 564,
+        "ExtraInfo": "delectus",
+        "StyleHint": "id",
+        "FullName": "Gene Towne DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 29
+            "FieldType": "System.Int32",
+            "FieldLength": 357
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 466,
-    "ExtraInfo": "molestias",
-    "StyleHint": "nulla",
-    "FullName": "Ursula Mayra Huel I",
+    "IconHint": "ut",
+    "ColorBlock": 252,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "iste",
+    "FullName": "Mohamed Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 437
       }
     }
   }

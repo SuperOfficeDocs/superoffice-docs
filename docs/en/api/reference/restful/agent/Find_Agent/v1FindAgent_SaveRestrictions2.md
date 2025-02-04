@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ad",
-  "ProviderName": "Kshlerin-Gutmann",
-  "StorageKey": "cumque",
-  "Restrictions": "omnis"
+  "StorageType": "ut",
+  "ProviderName": "Haag-Ankunding",
+  "StorageKey": "quia",
+  "Restrictions": "ipsum"
 }
 ```
 

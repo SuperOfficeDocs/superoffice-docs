@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McCullough, Moore and Crist",
+  "Name": "Welch Inc and Sons",
   "Entity": null
 }
 ```
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 884,
-  "Name": "Schaden LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 434,
-  "UdListDefinitionId": 316,
+  "Name": "Watsica, Osinski and Ernser",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 761,
+  "UdListDefinitionId": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 497
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 811,
-  "StartTime": "2000-08-14T10:17:55.3477735+02:00",
-  "EndTime": "2023-10-09T10:17:55.3477735+02:00",
-  "Count": 630,
-  "DocumentTemplateId": 858
+  "ContactId": 709,
+  "StartTime": "2011-03-07T13:13:22.6019709+01:00",
+  "EndTime": "2010-08-05T13:13:22.6019709+02:00",
+  "Count": 906,
+  "DocumentTemplateId": 688
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 711,
-    "Attention": "et",
-    "Header": "eligendi",
-    "Name": "Schneider, Howe and Schultz",
-    "OurRef": "porro",
-    "YourRef": "harum",
-    "Description": "Optional 24/7 flexibility",
-    "DocumentTemplate": "incidunt",
-    "IsPublished": true,
-    "PersonId": 320,
-    "PersonFullName": "Darrin Lebsack",
-    "AssociateFullName": "Mrs. Penelope Octavia Okuneva",
-    "ContactId": 498,
-    "ContactName": "Gorczany, Feest and Larson",
-    "ProjectId": 75,
-    "ProjectName": "Cronin, Feeney and Cartwright",
-    "AssociateId": 905,
-    "Snum": 413,
-    "SaleId": 535,
-    "SaleName": "Simonis, Considine and Hilpert",
+    "DocumentId": 210,
+    "Attention": "aut",
+    "Header": "id",
+    "Name": "Koepp Group",
+    "OurRef": "id",
+    "YourRef": "blanditiis",
+    "Description": "Inverse upward-trending emulation",
+    "DocumentTemplate": "excepturi",
+    "IsPublished": false,
+    "PersonId": 736,
+    "PersonFullName": "Rae Rey Wiza V",
+    "AssociateFullName": "Jeromy Purdy",
+    "ContactId": 232,
+    "ContactName": "Bergstrom, Lynch and Effertz",
+    "ProjectId": 800,
+    "ProjectName": "McKenzie-Strosin",
+    "AssociateId": 659,
+    "Snum": 538,
+    "SaleId": 303,
+    "SaleName": "Lowe-Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

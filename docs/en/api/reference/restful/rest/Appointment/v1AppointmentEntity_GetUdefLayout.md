@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 697,
-    "ColumnId": 791,
-    "FieldDefault": "ut",
-    "FieldHeight": 351,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 264,
-    "FieldTop": 680,
+    "UDefFieldId": 940,
+    "ColumnId": 145,
+    "FieldDefault": "illo",
+    "FieldHeight": 680,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 7,
+    "FieldTop": 566,
     "FieldType": "Checkbox",
-    "FieldWidth": 379,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 97,
+    "FormatMask": "sit",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 933,
-    "LabelLeft": 484,
-    "LabelTop": 777,
-    "LabelWidth": 493,
-    "LastVersionId": 105,
-    "ListTableId": 584,
+    "IsIndexed": true,
+    "LabelHeight": 453,
+    "LabelLeft": 63,
+    "LabelTop": 748,
+    "LabelWidth": 910,
+    "LastVersionId": 357,
+    "ListTableId": 686,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 324,
-    "ProgId": "rerum",
-    "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 331,
-    "TextLength": 384,
-    "Tooltip": "quisquam",
-    "UdefIdentity": 195,
-    "UDListDefinitionId": 16,
+    "Page1LineNo": 356,
+    "ProgId": "impedit",
+    "IsReadOnly": true,
+    "ShortLabel": "fugit",
+    "TabOrder": 728,
+    "TextLength": 227,
+    "Tooltip": "a",
+    "UdefIdentity": 816,
+    "UDListDefinitionId": 920,
     "Justification": "Center",
-    "Version": 60,
-    "TemplateVariableName": "McClure Group",
+    "Version": 642,
+    "TemplateVariableName": "Kunze LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Labadie-Kohler",
+    "MdoListName": "Stracke, Muller and Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 460
       }
     }
   }

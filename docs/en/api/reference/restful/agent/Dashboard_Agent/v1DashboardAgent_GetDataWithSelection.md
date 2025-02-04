@@ -78,8 +78,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 997,
-  "SelectionId": 960,
+  "DashboardTileId": 685,
+  "SelectionId": 93,
   "Restrictions": "ut"
 }
 ```
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Cartwright Group",
+        "DisplayName": "Kreiger, Jacobson and Feil",
         "DisplayTooltip": "qui",
-        "DisplayType": "quo",
-        "CanOrderBy": true,
-        "Name": "Kuphal, Keebler and Kling",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptas",
-        "RestrictionListName": "Swaniawski, Conn and Klein",
-        "IsVisible": true,
-        "ExtraInfo": "ipsa",
-        "Width": "optio",
-        "IconHint": "aut",
-        "HeadingIconHint": "repudiandae"
+        "DisplayType": "et",
+        "CanOrderBy": false,
+        "Name": "Greenholt Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "possimus",
+        "RestrictionListName": "Rau, Boyle and Crona",
+        "IsVisible": false,
+        "ExtraInfo": "et",
+        "Width": "dolor",
+        "IconHint": "omnis",
+        "HeadingIconHint": "dolores"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Cartwright Group",
+        "DisplayName": "Kreiger, Jacobson and Feil",
         "DisplayTooltip": "qui",
-        "DisplayType": "quo",
-        "CanOrderBy": true,
-        "Name": "Kuphal, Keebler and Kling",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptas",
-        "RestrictionListName": "Swaniawski, Conn and Klein",
-        "IsVisible": true,
-        "ExtraInfo": "ipsa",
-        "Width": "optio",
-        "IconHint": "aut",
-        "HeadingIconHint": "repudiandae"
+        "DisplayType": "et",
+        "CanOrderBy": false,
+        "Name": "Greenholt Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "possimus",
+        "RestrictionListName": "Rau, Boyle and Crona",
+        "IsVisible": false,
+        "ExtraInfo": "et",
+        "Width": "dolor",
+        "IconHint": "omnis",
+        "HeadingIconHint": "dolores"
       }
     ],
     "Result": null

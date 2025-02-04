@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Jaskolski Inc and Sons",
-    "ToolTip": "Et aliquid odio eos doloribus.",
-    "Deleted": true,
-    "Rank": 81,
-    "Type": "omnis",
-    "ColorBlock": 707,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2006-07-15T10:18:01.0824964+02:00",
+    "Id": 604,
+    "Name": "Harris-Emmerich",
+    "ToolTip": "Vel recusandae delectus dicta illum.",
+    "Deleted": false,
+    "Rank": 807,
+    "Type": "ad",
+    "ColorBlock": 149,
+    "IconHint": "voluptatum",
+    "Selected": true,
+    "LastChanged": "2014-02-01T13:13:33.3079559+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "O'Reilly, Pacocha and Cole",
-        "ToolTip": "Omnis aut corporis placeat qui facilis aut qui.",
-        "Deleted": false,
-        "Rank": 911,
-        "Type": "suscipit",
-        "ColorBlock": 584,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2014-05-26T10:18:01.0824964+02:00",
+        "Id": 293,
+        "Name": "Crona, Pacocha and Davis",
+        "ToolTip": "Nulla eveniet ut dolor quis laborum dolorem.",
+        "Deleted": true,
+        "Rank": 595,
+        "Type": "ut",
+        "ColorBlock": 779,
+        "IconHint": "accusamus",
+        "Selected": false,
+        "LastChanged": "2003-11-09T13:13:33.3079559+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "numquam",
+        "ExtraInfo": "quo",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Ignatius Block"
+        "FullName": "Randi Heidenreich"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Dr. Coty Dawn Legros"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Luciano Tremblay"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Mann Inc and Sons",
-    "ToolTip": "Aperiam sit commodi voluptates rem dolorem.",
+    "Id": 367,
+    "Name": "Runolfsson LLC",
+    "ToolTip": "Officiis saepe optio.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "vel",
-    "ColorBlock": 307,
-    "IconHint": "aut",
+    "Rank": 344,
+    "Type": "ex",
+    "ColorBlock": 44,
+    "IconHint": "quis",
     "Selected": true,
-    "LastChanged": "2020-05-20T10:18:01.0824964+02:00",
+    "LastChanged": "2019-06-19T13:13:33.3079559+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Wilderman Group",
-        "ToolTip": "Qui sed quasi error porro quia laboriosam dolores.",
+        "Id": 637,
+        "Name": "Goyette, Kunze and Aufderhar",
+        "ToolTip": "Ducimus doloremque.",
         "Deleted": false,
-        "Rank": 546,
-        "Type": "eius",
-        "ColorBlock": 952,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2020-07-04T10:18:01.0824964+02:00",
+        "Rank": 253,
+        "Type": "officia",
+        "ColorBlock": 127,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2001-02-11T13:13:33.3079559+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "totam",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Jonas Wintheiser",
+        "FullName": "Addison Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 412
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Annabel Swift",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Abdiel Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 198
       }
     }
   }

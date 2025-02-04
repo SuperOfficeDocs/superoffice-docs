@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 75,
-    "FieldName": "Cormier, Kirlin and Orn",
-    "Label": "iusto",
-    "Tooltip": "quibusdam",
-    "Editable": false,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 54,
+    "QuoteLineConfigurationId": 227,
+    "FieldName": "Watsica-Emard",
+    "Label": "tempore",
+    "Tooltip": "omnis",
+    "Editable": true,
+    "InUse": false,
+    "Mandatory": true,
+    "Rank": 638,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldType": "System.String",
+        "FieldLength": 89
       }
     }
   }

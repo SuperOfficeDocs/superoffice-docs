@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Collins-Cassin",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "UdListDefinitionId": 116,
-  "Rank": 407
+  "Id": 449,
+  "Name": "Williamson, Haley and Hagenes",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "UdListDefinitionId": 79,
+  "Rank": 952
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 223,
-  "Name": "Stiedemann Group",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "UdListDefinitionId": 815,
-  "Rank": 342,
+  "Id": 103,
+  "Name": "Hartmann-Ernser",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "UdListDefinitionId": 214,
+  "Rank": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

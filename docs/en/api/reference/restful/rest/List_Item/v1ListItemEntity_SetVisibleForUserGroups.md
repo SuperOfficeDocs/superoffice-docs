@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Ernser-Muller",
-    "ToolTip": "Odit deserunt esse voluptatum alias et rerum.",
+    "Id": 721,
+    "Name": "Stroman, Krajcik and Wuckert",
+    "ToolTip": "Consequatur quos esse accusantium aliquid quae rerum nobis.",
     "Deleted": true,
-    "Rank": 14,
-    "Type": "omnis",
-    "ColorBlock": 551,
-    "IconHint": "aspernatur",
+    "Rank": 859,
+    "Type": "quas",
+    "ColorBlock": 585,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2010-09-01T10:18:00.926237+02:00",
+    "LastChanged": "2005-09-01T13:13:32.7768241+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Nader-Nikolaus",
-        "ToolTip": "Est consequatur et officiis inventore voluptas.",
+        "Id": 245,
+        "Name": "Wolff, Deckow and Spinka",
+        "ToolTip": "Dolor provident error minima cum sed.",
         "Deleted": false,
-        "Rank": 108,
-        "Type": "unde",
-        "ColorBlock": 429,
-        "IconHint": "cupiditate",
+        "Rank": 723,
+        "Type": "omnis",
+        "ColorBlock": 302,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2005-12-18T10:18:00.926237+01:00",
+        "LastChanged": "2022-03-22T13:13:32.7768241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Dr. Libby Amara Ebert PhD"
+        "ExtraInfo": "qui",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Tommie Moen"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Adalberto Cormier"
+    "ExtraInfo": "eius",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Johnathon Bartell DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Cummings LLC",
-    "ToolTip": "Quia architecto quia nostrum id.",
-    "Deleted": false,
-    "Rank": 430,
-    "Type": "illum",
-    "ColorBlock": 576,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2019-05-28T10:18:00.926237+02:00",
+    "Id": 454,
+    "Name": "Wunsch-Stehr",
+    "ToolTip": "Possimus sed sint.",
+    "Deleted": true,
+    "Rank": 607,
+    "Type": "est",
+    "ColorBlock": 320,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2003-02-24T13:13:32.7768241+01:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Mann, Kemmer and Brown",
-        "ToolTip": "Et ipsa ipsam rerum ut voluptates.",
+        "Id": 971,
+        "Name": "McLaughlin-Johnston",
+        "ToolTip": "Aliquid quam saepe quasi nisi quo.",
         "Deleted": true,
-        "Rank": 539,
-        "Type": "qui",
-        "ColorBlock": 856,
-        "IconHint": "eos",
+        "Rank": 592,
+        "Type": "distinctio",
+        "ColorBlock": 380,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2009-07-12T10:18:00.926237+02:00",
+        "LastChanged": "2007-06-01T13:13:32.7768241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
+        "ExtraInfo": "accusamus",
         "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Ellie Bode",
+        "FullName": "Lera Jast IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 974
+            "FieldType": "System.Int32",
+            "FieldLength": 310
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "minima",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mrs. Jalon Jarvis Kerluke Sr.",
+    "FullName": "Oma Abe Denesik II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

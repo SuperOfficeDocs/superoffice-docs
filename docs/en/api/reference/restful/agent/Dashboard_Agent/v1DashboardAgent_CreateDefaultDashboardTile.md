@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 571,
-  "Caption": "veritatis",
-  "Description": "User-centric interactive standardization",
-  "ChartName": "Sawayn Group",
-  "ChartId": "nemo",
-  "IsDefault": true,
-  "AssociateId": 565,
-  "GroupId": 846,
-  "SelectionId": 562,
-  "Config": "deserunt",
+  "DashboardTileId": 485,
+  "Caption": "eum",
+  "Description": "Multi-lateral bottom-line attitude",
+  "ChartName": "Kessler LLC",
+  "ChartId": "sunt",
+  "IsDefault": false,
+  "AssociateId": 460,
+  "GroupId": 307,
+  "SelectionId": 606,
+  "Config": "cum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Goldner, Dach and Rau",
-      "Description": "Monitored systematic collaboration",
+      "Name": "Corkery-Donnelly",
+      "Description": "Implemented 24 hour customer loyalty",
       "Type": "Boolean",
-      "ListName": "Mitchell-Larson",
+      "ListName": "Murray-Turner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quaerat",
-      "DefaultDataOption": true,
+      "Value": "enim",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 890,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     },
     {
-      "VisibleId": 890,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

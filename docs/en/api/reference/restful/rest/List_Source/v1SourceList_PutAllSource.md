@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Rath LLC",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 687,
-    "Rank": 537
+    "Id": 540,
+    "Name": "Muller, Rice and Schimmel",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "UdListDefinitionId": 46,
+    "Rank": 130
   },
   {
-    "Id": 919,
-    "Name": "Rath LLC",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 687,
-    "Rank": 537
+    "Id": 540,
+    "Name": "Muller, Rice and Schimmel",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "UdListDefinitionId": 46,
+    "Rank": 130
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Wiegand, Prohaska and Blick",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 36,
-    "Rank": 342,
+    "Id": 483,
+    "Name": "Metz Group",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "UdListDefinitionId": 965,
+    "Rank": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 70
       }
     }
   }

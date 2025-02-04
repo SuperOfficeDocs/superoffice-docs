@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kris Group",
-  "Comment": "asperiores",
-  "StakeholderRoleId": 799,
-  "CountryId": 149,
-  "PersonId": 224,
-  "EmailDescription": "holly.blick@gleason.name",
-  "EmailId": 706,
-  "EmailAddress": "beth@welch.com",
-  "PhoneId": 398,
-  "ContactName": "Stroman-Stanton",
-  "ContactId": 867,
-  "SaleId": 551,
-  "Mrmrs": "necessitatibus",
-  "Firstname": "Laney",
-  "MiddleName": "Kiehn, Goyette and Mraz",
-  "Lastname": "Pfeffer",
-  "SaleStakeholderId": 262,
-  "Rank": 374,
-  "Phone": "(446)841-8891 x43551"
+  "StakeholderRoleName": "Wuckert-Jast",
+  "Comment": "quia",
+  "StakeholderRoleId": 623,
+  "CountryId": 103,
+  "PersonId": 682,
+  "EmailDescription": "yoshiko@monahan.co.uk",
+  "EmailId": 732,
+  "EmailAddress": "alexie.zieme@brekke.us",
+  "PhoneId": 145,
+  "ContactName": "Stokes Inc and Sons",
+  "ContactId": 118,
+  "SaleId": 504,
+  "Mrmrs": "cumque",
+  "Firstname": "Queenie",
+  "MiddleName": "Schmeler-Lockman",
+  "Lastname": "Auer",
+  "SaleStakeholderId": 313,
+  "Rank": 84,
+  "Phone": "693-724-3226"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tillman, Rodriguez and Lang",
-  "Comment": "a",
-  "StakeholderRoleId": 139,
-  "CountryId": 70,
-  "PersonId": 724,
-  "EmailDescription": "arturo@vonhartmann.uk",
-  "EmailId": 147,
-  "EmailAddress": "magnus.dickens@ledner.uk",
-  "PhoneId": 899,
-  "ContactName": "Skiles Group",
-  "ContactId": 369,
-  "SaleId": 473,
-  "Mrmrs": "accusantium",
-  "Firstname": "Giles",
-  "MiddleName": "Klocko-Yost",
-  "Lastname": "Weissnat",
-  "SaleStakeholderId": 372,
-  "Rank": 210,
-  "Phone": "1-403-962-6626 x586",
+  "StakeholderRoleName": "Buckridge-Reichert",
+  "Comment": "quo",
+  "StakeholderRoleId": 172,
+  "CountryId": 13,
+  "PersonId": 253,
+  "EmailDescription": "charles.hilll@mullerlueilwitz.com",
+  "EmailId": 409,
+  "EmailAddress": "anastasia@schroeder.us",
+  "PhoneId": 989,
+  "ContactName": "Cole Group",
+  "ContactId": 753,
+  "SaleId": 817,
+  "Mrmrs": "est",
+  "Firstname": "Craig",
+  "MiddleName": "Swift-Feil",
+  "Lastname": "Schuster",
+  "SaleStakeholderId": 196,
+  "Rank": 813,
+  "Phone": "1-027-497-6177 x1315",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 51
     }
   }
 }

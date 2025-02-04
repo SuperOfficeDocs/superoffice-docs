@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 100,
-  "Name": "Rutherford LLC",
-  "CurrencyId": 864,
-  "EnglishName": "Hodkiewicz-Ernser",
+  "CountryId": 727,
+  "Name": "Spencer, Lemke and Gusikowski",
+  "CurrencyId": 541,
+  "EnglishName": "Shields, Schimmel and Grimes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Configurable dedicated open system",
-  "OrgNrText": "846536",
-  "InterAreaPrefix": "reprehenderit",
-  "DialInPrefix": "eos",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Hilll-Gutmann",
-  "AddressLayoutId": 232,
-  "DomesticAddressLayoutId": 751,
-  "ForeignAddressLayoutId": 239,
-  "Rank": 639,
-  "Tooltip": "sapiente",
-  "Deleted": false
+  "ImageDescription": "Configurable explicit capability",
+  "OrgNrText": "452454",
+  "InterAreaPrefix": "placeat",
+  "DialInPrefix": "reiciendis",
+  "ZipPrefix": "maxime",
+  "DomainName": "Steuber, Mitchell and Schuster",
+  "AddressLayoutId": 834,
+  "DomesticAddressLayoutId": 540,
+  "ForeignAddressLayoutId": 887,
+  "Rank": 738,
+  "Tooltip": "tenetur",
+  "Deleted": true
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 893,
-  "Name": "Kuhic LLC",
-  "CurrencyId": 77,
-  "EnglishName": "Jacobs-Bergnaum",
+  "CountryId": 96,
+  "Name": "Kuvalis Group",
+  "CurrencyId": 137,
+  "EnglishName": "Legros, Abshire and Hartmann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Sharable 4th generation hierarchy",
-  "OrgNrText": "1045113",
-  "InterAreaPrefix": "temporibus",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "incidunt",
-  "DomainName": "Herman, Auer and Pouros",
-  "AddressLayoutId": 488,
-  "DomesticAddressLayoutId": 503,
-  "ForeignAddressLayoutId": 282,
-  "Rank": 618,
-  "Tooltip": "facere",
+  "ImageDescription": "Focused zero defect focus group",
+  "OrgNrText": "839057",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "totam",
+  "ZipPrefix": "et",
+  "DomainName": "Mayert, Mante and Bergnaum",
+  "AddressLayoutId": 714,
+  "DomesticAddressLayoutId": 128,
+  "ForeignAddressLayoutId": 876,
+  "Rank": 848,
+  "Tooltip": "quo",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 797
     }
   }
 }

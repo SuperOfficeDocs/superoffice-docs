@@ -75,15 +75,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 796,
-  "Name": "Jenkins Group",
-  "Tooltip": "aut",
-  "Rank": 623,
-  "Key": "ab",
+  "LegalBaseId": 706,
+  "Name": "Runte LLC",
+  "Tooltip": "voluptate",
+  "Rank": 493,
+  "Key": "fugiat",
   "Deleted": true
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 887,
-  "Name": "Buckridge Group",
-  "Tooltip": "voluptatem",
-  "Rank": 720,
-  "Key": "deserunt",
+  "LegalBaseId": 524,
+  "Name": "Hegmann-Barton",
+  "Tooltip": "aut",
+  "Rank": 32,
+  "Key": "illum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 887
     }
   }
 }

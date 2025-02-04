@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Buckridge, Kuvalis and Fay",
-    "ToolTip": "Quibusdam distinctio alias.",
+    "Id": 478,
+    "Name": "Towne-Marquardt",
+    "ToolTip": "Laudantium praesentium quae omnis.",
     "Deleted": false,
-    "Rank": 862,
-    "Type": "ut",
-    "ColorBlock": 523,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2019-04-09T10:18:01.1762521+02:00",
+    "Rank": 877,
+    "Type": "itaque",
+    "ColorBlock": 767,
+    "IconHint": "suscipit",
+    "Selected": true,
+    "LastChanged": "2019-09-16T13:13:33.6203821+02:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Bailey Inc and Sons",
-        "ToolTip": "Adipisci vel.",
+        "Id": 17,
+        "Name": "Prohaska, Haag and Green",
+        "ToolTip": "Ducimus et mollitia natus fugit eos laboriosam voluptas.",
         "Deleted": false,
-        "Rank": 341,
-        "Type": "sit",
-        "ColorBlock": 361,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2001-05-30T10:18:01.1762521+02:00",
+        "Rank": 68,
+        "Type": "aut",
+        "ColorBlock": 521,
+        "IconHint": "laboriosam",
+        "Selected": false,
+        "LastChanged": "2002-02-18T13:13:33.6203821+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Erik Roob"
+        "ExtraInfo": "non",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Mr. Elaina Koss"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Alayna Jenkins"
+    "FullName": "Lafayette Miller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Streich, O'Connell and Brown",
-    "ToolTip": "Debitis ut quibusdam aut.",
-    "Deleted": false,
-    "Rank": 129,
-    "Type": "totam",
-    "ColorBlock": 965,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2012-11-05T10:18:01.1762521+01:00",
+    "Id": 536,
+    "Name": "Upton-Tremblay",
+    "ToolTip": "Perferendis autem expedita illum qui dolores non voluptatibus.",
+    "Deleted": true,
+    "Rank": 794,
+    "Type": "voluptatibus",
+    "ColorBlock": 559,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2002-12-27T13:13:33.6203821+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Rau, Schuster and Lindgren",
-        "ToolTip": "Voluptates tenetur aut eaque.",
-        "Deleted": false,
-        "Rank": 615,
-        "Type": "esse",
-        "ColorBlock": 352,
-        "IconHint": "et",
+        "Id": 667,
+        "Name": "Cummerata-Schuster",
+        "ToolTip": "Ut sed sunt et at est error ut.",
+        "Deleted": true,
+        "Rank": 286,
+        "Type": "eaque",
+        "ColorBlock": 910,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2014-10-02T10:18:01.1762521+02:00",
+        "LastChanged": "2016-11-03T13:13:33.6203821+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Prof. Carlos Dale Gorczany",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Mr. Eddie Fahey III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 294
+            "FieldType": "System.Int32",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sed",
+    "ExtraInfo": "quis",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Rocio Torphy",
+    "FullName": "Breanne Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

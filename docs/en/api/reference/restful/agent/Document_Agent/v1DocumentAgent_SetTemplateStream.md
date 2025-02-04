@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Document/SetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "illum",
-  "Personal": false,
+  "Filename": "maiores",
+  "Personal": true,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

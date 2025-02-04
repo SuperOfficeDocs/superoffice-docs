@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kutch LLC"
+  "OwnerName": "Ruecker-Davis"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 553,
-      "NumberOfLicensesFree": 557,
-      "NumberOfLicensesAdded": 285,
-      "NumberOfLicensesNewTotal": 184,
-      "NumberOfLicensesNewFree": 647,
-      "NumberOfLicensesTotal": 522
+      "NumberOfLicensesInUse": 573,
+      "NumberOfLicensesFree": 625,
+      "NumberOfLicensesAdded": 420,
+      "NumberOfLicensesNewTotal": 660,
+      "NumberOfLicensesNewFree": 872,
+      "NumberOfLicensesTotal": 326
     }
   ],
-  "AccumulatedNextCheckDate": "2017-01-20T10:17:55.675911+01:00"
+  "AccumulatedNextCheckDate": "2010-06-06T13:13:23.1958249+02:00"
 }
 ```

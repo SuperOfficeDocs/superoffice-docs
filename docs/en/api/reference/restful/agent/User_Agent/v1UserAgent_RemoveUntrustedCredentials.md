@@ -72,7 +72,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "nobis",
-  "PublicValue": "perspiciatis"
+  "PublicValue": "numquam"
 }
 ```
 

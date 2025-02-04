@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 229,
+  "Id": 997,
+  "Name": "Kohler-Kerluke",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 43,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vero",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Collier LLC",
-  "Tooltip": "minima",
+  "Id": 58,
+  "Name": "Herzog Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 641,
+  "Rank": 542,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

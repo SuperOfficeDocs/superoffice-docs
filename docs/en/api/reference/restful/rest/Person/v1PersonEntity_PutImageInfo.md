@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 187,
-  "BlobSize": 283,
-  "Description": "Innovative multimedia moratorium",
-  "ExtraInfo": "optio",
-  "IsEncrypted": true,
+  "BlobId": 431,
+  "BlobSize": 527,
+  "Description": "Progressive zero tolerance synergy",
+  "ExtraInfo": "facilis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "neque",
-  "OriginalSize": 774,
-  "CreatedDate": "2024-06-15T10:18:00.4887104+02:00",
-  "UpdatedDate": "2013-01-20T10:18:00.4887104+01:00",
+  "MimeType": "et",
+  "OriginalSize": 98,
+  "CreatedDate": "2007-11-24T13:13:31.8863203+01:00",
+  "UpdatedDate": "2010-06-25T13:13:31.8863203+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt"
+  "ConceptualType": "perspiciatis"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 281,
-  "BlobSize": 931,
-  "Description": "Ameliorated assymetric internet solution",
-  "ExtraInfo": "velit",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "nam",
-  "OriginalSize": 238,
-  "CreatedDate": "2003-06-23T10:18:00.4887104+02:00",
-  "UpdatedDate": "2022-06-10T10:18:00.4887104+02:00",
+  "BlobId": 744,
+  "BlobSize": 240,
+  "Description": "Persistent zero defect alliance",
+  "ExtraInfo": "quas",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 697,
+  "CreatedDate": "2002-11-08T13:13:31.8863203+01:00",
+  "UpdatedDate": "2001-06-24T13:13:31.8863203+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est",
+  "ConceptualType": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

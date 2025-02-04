@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "atque",
-  "ProviderName": "Glover, Kovacek and Marks",
-  "StorageKey": "tempore"
+  "StorageType": "nemo",
+  "ProviderName": "Reichert-Jacobson",
+  "StorageKey": "voluptatem"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schuppe-Kiehn",
-    "DisplayTooltip": "quia",
-    "DisplayType": "quibusdam",
-    "CanOrderBy": false,
-    "Name": "Reinger-Dare",
-    "CanRestrictBy": true,
-    "RestrictionType": "id",
-    "RestrictionListName": "Bruen Group",
+    "DisplayName": "Ankunding, Kunze and Shields",
+    "DisplayTooltip": "molestiae",
+    "DisplayType": "iusto",
+    "CanOrderBy": true,
+    "Name": "Reichel, Predovic and Wuckert",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptate",
+    "RestrictionListName": "Brekke-Pacocha",
     "IsVisible": false,
-    "ExtraInfo": "officia",
-    "Width": "qui",
-    "IconHint": "quasi",
-    "HeadingIconHint": "quia"
+    "ExtraInfo": "veniam",
+    "Width": "itaque",
+    "IconHint": "sequi",
+    "HeadingIconHint": "distinctio"
   }
 ]
 ```

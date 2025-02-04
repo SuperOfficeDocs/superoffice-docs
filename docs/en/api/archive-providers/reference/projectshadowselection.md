@@ -803,7 +803,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=projectEvent/hasSignOff,appointment/associate/mrMrs,document/date,document/documentUdef/SuperOffice:2,projectMember/projectMemberId
+GET /api/v1/archive/ProjectShadowSelection?$select=completed,sale/saleUdef/SuperOffice:5,document/userGroup,document/associate/assocTooltip,projectMember/personUpdatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

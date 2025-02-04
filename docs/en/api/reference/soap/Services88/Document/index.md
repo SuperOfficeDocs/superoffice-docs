@@ -84,6 +84,7 @@ Download [WSDL file for Services88/Document](../Services88-Document.md) if you n
 * [SaveDocumentEntity](SaveDocumentEntity.md)
 * [SaveDocumentTemplateStream](SaveDocumentTemplateStream.md)
 * [SavePrivacyReport](SavePrivacyReport.md)
+* [SavePrivacyReportPdf](SavePrivacyReportPdf.md)
 * [SaveSuggestedDocumentEntity](SaveSuggestedDocumentEntity.md)
 * [SetDocumentStream](SetDocumentStream.md)
 * [SetDocumentStreamFromId](SetDocumentStreamFromId.md)

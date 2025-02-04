@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=738
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=916
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vero",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-11-15T10:17:56.0040633+01:00",
-  "Amount": 14306.71,
-  "SaleId": 252,
-  "Earning": 3629.172,
-  "EarningPercent": 22298.41,
-  "Heading": "tenetur",
-  "Number": "1000788",
-  "Probability": 737,
-  "CreatedDate": "2006-11-20T10:17:56.0040633+01:00",
-  "UpdatedDate": "2010-03-21T10:17:56.0040633+01:00",
+  "Saledate": "2015-06-26T13:13:23.8519198+02:00",
+  "Amount": 7126.7159999999994,
+  "SaleId": 232,
+  "Earning": 6788.244,
+  "EarningPercent": 2504.066,
+  "Heading": "ut",
+  "Number": "1046068",
+  "Probability": 21,
+  "CreatedDate": "2011-02-02T13:13:23.8519198+01:00",
+  "UpdatedDate": "2018-06-05T13:13:23.8519198+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 786,
+  "ActiveLinks": 872,
   "Links": [
     {
-      "EntityName": "Reynolds, Franecki and Lowe",
-      "Id": 377,
-      "Description": "Public-key content-based time-frame",
-      "ExtraInfo": "quas",
-      "LinkId": 387,
+      "EntityName": "Emard-Weissnat",
+      "Id": 701,
+      "Description": "Organic transitional protocol",
+      "ExtraInfo": "magni",
+      "LinkId": 384,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 581
         }
       }
     }
   ],
-  "NextDueDate": "2021-02-06T10:17:56.0040633+01:00",
-  "Postit": "minima",
+  "NextDueDate": "2023-10-26T13:13:23.8519198+02:00",
+  "Postit": "nemo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-04-21T10:17:56.0040633+02:00",
+  "ReopenDate": "2012-07-04T13:13:23.8519198+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gislason LLC",
-      "Comment": "iusto",
-      "StakeholderRoleId": 29,
-      "CountryId": 345,
-      "PersonId": 136,
-      "EmailDescription": "tyson.ernser@bahringer.us",
-      "EmailId": 280,
-      "EmailAddress": "devan_vonrueden@hahn.uk",
-      "PhoneId": 41,
-      "ContactName": "Morissette LLC",
-      "ContactId": 670,
-      "SaleId": 289,
-      "Mrmrs": "labore",
-      "Firstname": "Myrna",
-      "MiddleName": "Hegmann Inc and Sons",
-      "Lastname": "Stracke",
-      "SaleStakeholderId": 24,
-      "Rank": 444,
-      "Phone": "1-852-068-7270 x2132",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 39
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 859,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Hope Quincy Lind DVM",
-    "SuperOffice:2": "Glennie Jessy Gulgowski PhD"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "eos"
-  },
-  "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "consequuntur"
-  },
-  "PublishEventDate": "2006-03-23T10:17:56.0040633+01:00",
-  "PublishTo": "2002-11-06T10:17:56.0040633+01:00",
-  "PublishFrom": "2001-11-13T10:17:56.0040633+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 614,
-      "Visibility": "All",
-      "DisplayValue": "quas",
+      "StakeholderRoleName": "Larkin-Hagenes",
+      "Comment": "veniam",
+      "StakeholderRoleId": 876,
+      "CountryId": 347,
+      "PersonId": 980,
+      "EmailDescription": "addie@kozey.info",
+      "EmailId": 745,
+      "EmailAddress": "jacinthe.bahringer@hettinger.uk",
+      "PhoneId": 860,
+      "ContactName": "Pacocha Inc and Sons",
+      "ContactId": 805,
+      "SaleId": 97,
+      "Mrmrs": "temporibus",
+      "Firstname": "Cortez",
+      "MiddleName": "Streich Group",
+      "Lastname": "Pacocha",
+      "SaleStakeholderId": 399,
+      "Rank": 256,
+      "Phone": "548-004-4634",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 704
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 337,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Rebeca Emma Stanton IV",
+    "SuperOffice:2": "Ivory Rosenbaum"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "nulla"
+  },
+  "CustomFields": {
+    "CustomFields1": "omnis",
+    "CustomFields2": "quidem"
+  },
+  "PublishEventDate": "2002-09-12T13:13:23.8519198+02:00",
+  "PublishTo": "2020-03-23T13:13:23.8519198+01:00",
+  "PublishFrom": "2023-08-22T13:13:23.8519198+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 725,
+      "Visibility": "All",
+      "DisplayValue": "qui",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     },
     {
-      "VisibleId": 614,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "quas",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 20
     }
   }
 }

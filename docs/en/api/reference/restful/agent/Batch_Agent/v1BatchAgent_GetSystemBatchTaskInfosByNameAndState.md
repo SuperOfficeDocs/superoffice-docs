@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Rippin, Larkin and Pollich",
+  "TaskName": "Kessler-Rosenbaum",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "McCullough Group",
-    "AssociateId": 218,
-    "DetailsTable": 818,
-    "DetailsRecord": 893,
-    "IsSystemTask": true,
+    "Id": 833,
+    "Name": "Braun-Gaylord",
+    "AssociateId": 653,
+    "DetailsTable": 299,
+    "DetailsRecord": 44,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "eos",
-      "ParameterObject2": "ipsum"
+      "ParameterObject1": "voluptate",
+      "ParameterObject2": "molestiae"
     },
-    "LastStarted": "1999-08-01T10:17:55.1290102+02:00",
-    "Created": "2004-11-15T10:17:55.1290102+01:00",
-    "StartCount": 733,
-    "DatabaseSerialNumber": "1187131",
-    "Context": "veniam",
-    "Result": "quia",
+    "LastStarted": "2005-12-16T13:13:22.1489532+01:00",
+    "Created": "1998-10-14T13:13:22.1489532+02:00",
+    "StartCount": 849,
+    "DatabaseSerialNumber": "1578659",
+    "Context": "rerum",
+    "Result": "aut",
     "State": "All",
-    "Description": "Secured global focus group",
-    "Response": "itaque",
-    "Request": "repellendus",
-    "ProgressDescription": "Object-based dedicated model",
-    "ProgressPercent": 105,
-    "FileName": "Donnelly, Wolff and Jast",
+    "Description": "Realigned eco-centric forecast",
+    "Response": "nihil",
+    "Request": "iusto",
+    "ProgressDescription": "Re-contextualized client-driven core",
+    "ProgressPercent": 357,
+    "FileName": "Smitham, Hane and Weber",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

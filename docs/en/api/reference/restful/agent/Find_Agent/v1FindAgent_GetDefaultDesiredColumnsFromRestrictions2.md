@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kutch-Tremblay",
-  "Restrictions": "reiciendis"
+  "ProviderName": "Leuschke-Durgan",
+  "Restrictions": "et"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Roberts, Carroll and Feil",
-    "DisplayTooltip": "corporis",
-    "DisplayType": "modi",
-    "CanOrderBy": false,
-    "Name": "Casper-Runolfsson",
+    "DisplayName": "Kirlin LLC",
+    "DisplayTooltip": "enim",
+    "DisplayType": "in",
+    "CanOrderBy": true,
+    "Name": "Walker Group",
     "CanRestrictBy": false,
-    "RestrictionType": "dolore",
-    "RestrictionListName": "Rau, Romaguera and Gislason",
+    "RestrictionType": "eveniet",
+    "RestrictionListName": "Waters-Wisoky",
     "IsVisible": false,
-    "ExtraInfo": "ad",
-    "Width": "tenetur",
-    "IconHint": "at",
-    "HeadingIconHint": "reiciendis"
+    "ExtraInfo": "aut",
+    "Width": "doloremque",
+    "IconHint": "perferendis",
+    "HeadingIconHint": "sunt"
   }
 ]
 ```

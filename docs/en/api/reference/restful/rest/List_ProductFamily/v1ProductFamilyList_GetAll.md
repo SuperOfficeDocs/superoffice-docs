@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Reinger-Frami",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 185,
-    "Rank": 108,
+    "Id": 522,
+    "Name": "Breitenberg-Schneider",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "UdListDefinitionId": 290,
+    "Rank": 295,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldLength": 154
       }
     }
   }

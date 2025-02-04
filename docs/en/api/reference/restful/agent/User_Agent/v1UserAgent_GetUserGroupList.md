@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "odio",
-    "Tooltip": "nam",
-    "Id": 141,
-    "Rank": 802,
+    "Value": "ipsum",
+    "Tooltip": "et",
+    "Id": 53,
+    "Rank": 185,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 388
       }
     }
   }

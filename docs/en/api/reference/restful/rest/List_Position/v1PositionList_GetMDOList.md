@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=itaque
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Fadel-Christiansen",
-    "ToolTip": "Ipsam reprehenderit illo.",
+    "Id": 395,
+    "Name": "Rice Inc and Sons",
+    "ToolTip": "Qui laudantium.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "recusandae",
+    "Rank": 391,
+    "Type": "magnam",
     "ChildItems": [
       {
         "Id": 390,
-        "Name": "Von-Kemmer",
-        "ToolTip": "Repudiandae sunt accusantium.",
+        "Name": "O'Connell-Treutel",
+        "ToolTip": "Repudiandae sed ipsa dignissimos praesentium sed aut quibusdam.",
         "Deleted": false,
-        "Rank": 569,
-        "Type": "corporis",
+        "Rank": 950,
+        "Type": "quasi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 758,
-        "ExtraInfo": "molestias",
-        "StyleHint": "exercitationem",
-        "FullName": "Ruben Roberts",
+        "IconHint": "recusandae",
+        "ColorBlock": 331,
+        "ExtraInfo": "sed",
+        "StyleHint": "cumque",
+        "FullName": "Miss Max Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 203
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 55,
-    "ExtraInfo": "sint",
-    "StyleHint": "aut",
-    "FullName": "Miss Georgianna Natasha Monahan IV",
+    "IconHint": "impedit",
+    "ColorBlock": 590,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "similique",
+    "FullName": "Amelie Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 298
       }
     }
   }

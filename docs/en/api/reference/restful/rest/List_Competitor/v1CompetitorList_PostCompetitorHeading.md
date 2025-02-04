@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 898,
-  "Name": "Cruickshank Inc and Sons",
-  "Tooltip": "repellat",
+  "HeadingId": 452,
+  "Name": "Farrell-Homenick",
+  "Tooltip": "totam",
   "Deleted": true,
-  "Rank": 390,
-  "UdListDefinitionId": 668
+  "Rank": 986,
+  "UdListDefinitionId": 869
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 813,
-  "Name": "Walker LLC",
-  "Tooltip": "aperiam",
+  "HeadingId": 405,
+  "Name": "King Group",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 215,
-  "UdListDefinitionId": 588,
+  "Rank": 782,
+  "UdListDefinitionId": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 433
     }
   }
 }

@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 689,
-  "Name": "Hermann Inc and Sons",
-  "Description": "Seamless multi-tasking projection",
-  "DeltaJson": "laudantium",
+  "ConfigurableScreenDeltaId": 373,
+  "Name": "Fahey, Kreiger and Little",
+  "Description": "Decentralized 24/7 system engine",
+  "DeltaJson": "cupiditate",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aliquid",
-  "UpdatedDate": "2013-08-11T10:17:55.2227659+02:00",
-  "CreatedDate": "2020-02-05T10:17:55.2227659+01:00",
+  "RecipeId": "dicta",
+  "UpdatedDate": "1999-12-04T13:13:22.3207878+01:00",
+  "CreatedDate": "2001-01-29T13:13:22.3207878+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    834,
-    447
+    740,
+    450
   ],
-  "AppliesToKey": "quibusdam"
+  "AppliesToKey": "rerum"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 209,
-  "Name": "Jacobson-Schneider",
-  "Description": "Secured didactic instruction set",
-  "DeltaJson": "autem",
+  "ConfigurableScreenDeltaId": 947,
+  "Name": "Lind, Abernathy and Heaney",
+  "Description": "Stand-alone hybrid migration",
+  "DeltaJson": "id",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sapiente",
-  "UpdatedDate": "2014-02-22T10:17:55.2227659+01:00",
-  "CreatedDate": "2016-04-09T10:17:55.2227659+02:00",
+  "RecipeId": "illum",
+  "UpdatedDate": "2006-04-17T13:13:22.3207878+02:00",
+  "CreatedDate": "2005-03-04T13:13:22.3207878+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    790,
-    748
+    555,
+    687
   ],
-  "AppliesToKey": "animi",
+  "AppliesToKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

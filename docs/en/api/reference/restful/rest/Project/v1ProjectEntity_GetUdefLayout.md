@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 743,
-    "ColumnId": 782,
-    "FieldDefault": "dolore",
-    "FieldHeight": 649,
-    "FieldLabel": "eum",
-    "FieldLeft": 857,
-    "FieldTop": 522,
+    "UDefFieldId": 329,
+    "ColumnId": 47,
+    "FieldDefault": "at",
+    "FieldHeight": 327,
+    "FieldLabel": "est",
+    "FieldLeft": 909,
+    "FieldTop": 119,
     "FieldType": "Checkbox",
-    "FieldWidth": 279,
-    "FormatMask": "eaque",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 799,
-    "LabelLeft": 982,
-    "LabelTop": 119,
-    "LabelWidth": 476,
-    "LastVersionId": 108,
-    "ListTableId": 691,
-    "IsMandatory": true,
+    "FieldWidth": 102,
+    "FormatMask": "doloremque",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 919,
+    "LabelLeft": 622,
+    "LabelTop": 171,
+    "LabelWidth": 717,
+    "LastVersionId": 482,
+    "ListTableId": 47,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 239,
-    "ProgId": "repellat",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 363,
-    "TextLength": 44,
-    "Tooltip": "et",
-    "UdefIdentity": 391,
-    "UDListDefinitionId": 750,
+    "Page1LineNo": 478,
+    "ProgId": "porro",
+    "IsReadOnly": false,
+    "ShortLabel": "et",
+    "TabOrder": 730,
+    "TextLength": 64,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 692,
+    "UDListDefinitionId": 168,
     "Justification": "Center",
-    "Version": 754,
-    "TemplateVariableName": "Christiansen LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Bergnaum LLC",
+    "Version": 115,
+    "TemplateVariableName": "Swift Group",
+    "HasBeenPublished": true,
+    "MdoListName": "O'Kon-Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

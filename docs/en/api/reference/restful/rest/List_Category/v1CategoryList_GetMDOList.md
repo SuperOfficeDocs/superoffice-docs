@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=et
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Gutmann Inc and Sons",
-    "ToolTip": "Enim nemo numquam eveniet voluptatem.",
+    "Id": 174,
+    "Name": "Ondricka-Zulauf",
+    "ToolTip": "Saepe harum fuga incidunt qui sapiente eaque.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "enim",
+    "Rank": 248,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Hodkiewicz-Schneider",
-        "ToolTip": "Voluptatem autem et non ullam.",
-        "Deleted": false,
-        "Rank": 835,
-        "Type": "quia",
+        "Id": 188,
+        "Name": "Bahringer-Frami",
+        "ToolTip": "Velit ut velit rerum ex eum.",
+        "Deleted": true,
+        "Rank": 442,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 495,
-        "ExtraInfo": "id",
-        "StyleHint": "doloremque",
-        "FullName": "Maci Bahringer",
+        "IconHint": "saepe",
+        "ColorBlock": 963,
+        "ExtraInfo": "possimus",
+        "StyleHint": "enim",
+        "FullName": "Miss Berry Gillian Langworth V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 669,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "et",
-    "FullName": "Prudence Reynolds",
+    "IconHint": "facere",
+    "ColorBlock": 916,
+    "ExtraInfo": "ut",
+    "StyleHint": "numquam",
+    "FullName": "Concepcion Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldLength": 176
       }
     }
   }

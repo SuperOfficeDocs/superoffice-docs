@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "occaecati",
-  "Tags": "mollitia"
+  "DeviceIdentifier": "exercitationem",
+  "Tags": "voluptas"
 }
 ```
 

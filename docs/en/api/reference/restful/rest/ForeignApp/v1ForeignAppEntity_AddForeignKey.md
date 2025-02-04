@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolore",
-  "Value": "vel",
-  "RecordId": 339,
-  "CreatedDate": "2000-10-07T10:18:00.4262067+02:00",
-  "UpdatedDate": "2002-01-03T10:18:00.4262067+01:00",
-  "UpdatedBy": "eveniet",
-  "CreatedBy": "odit",
-  "TableName": "Fay, Homenick and Harvey"
+  "Key": "quo",
+  "Value": "culpa",
+  "RecordId": 910,
+  "CreatedDate": "2007-02-06T13:13:31.7613495+01:00",
+  "UpdatedDate": "2014-03-15T13:13:31.7613495+01:00",
+  "UpdatedBy": "distinctio",
+  "CreatedBy": "tempora",
+  "TableName": "Cremin LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "libero",
-  "Value": "sed",
-  "RecordId": 480,
-  "CreatedDate": "2013-01-10T10:18:00.4262067+01:00",
-  "UpdatedDate": "2010-05-02T10:18:00.4262067+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "ratione",
-  "TableName": "Gaylord, Collier and Ryan",
+  "Key": "ut",
+  "Value": "molestias",
+  "RecordId": 804,
+  "CreatedDate": "2001-05-14T13:13:31.7613495+02:00",
+  "UpdatedDate": "2016-09-04T13:13:31.7613495+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "facere",
+  "TableName": "White, Stamm and Stoltenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

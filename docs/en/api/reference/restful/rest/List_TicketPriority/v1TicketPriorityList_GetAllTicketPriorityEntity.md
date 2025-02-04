@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 207,
-    "Name": "Conroy-Stoltenberg",
+    "TicketPriorityId": 323,
+    "Name": "Marks-Hilpert",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 891,
+    "SortOrder": 823,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 36,
-    "MonStart": "2021-02-03T10:18:01.1918781+01:00",
-    "MonStop": "2018-08-02T10:18:01.1918781+02:00",
-    "TueStart": "2012-11-14T10:18:01.1918781+01:00",
-    "TueStop": "2011-01-03T10:18:01.1918781+01:00",
-    "WedStart": "2020-03-10T10:18:01.1918781+01:00",
-    "WedStop": "2019-07-27T10:18:01.1918781+02:00",
-    "ThuStart": "2012-10-22T10:18:01.1918781+02:00",
-    "ThuStop": "1998-03-17T10:18:01.1918781+01:00",
-    "FriStart": "2002-10-03T10:18:01.1918781+02:00",
-    "FriStop": "2002-03-13T10:18:01.1918781+01:00",
-    "SatStart": "2020-03-02T10:18:01.1918781+01:00",
-    "SatStop": "2005-02-07T10:18:01.1918781+01:00",
-    "SunStart": "2001-10-08T10:18:01.1918781+02:00",
-    "SunStop": "2015-06-15T10:18:01.1918781+02:00",
+    "Deadline": 886,
+    "MonStart": "2020-01-15T13:13:33.6828687+01:00",
+    "MonStop": "2021-07-02T13:13:33.6828687+02:00",
+    "TueStart": "2020-12-18T13:13:33.6828687+01:00",
+    "TueStop": "2024-02-22T13:13:33.6828687+01:00",
+    "WedStart": "2011-08-26T13:13:33.6828687+02:00",
+    "WedStop": "2008-09-30T13:13:33.6828687+02:00",
+    "ThuStart": "2021-09-03T13:13:33.6828687+02:00",
+    "ThuStop": "2021-01-14T13:13:33.6828687+01:00",
+    "FriStart": "2024-02-07T13:13:33.6828687+01:00",
+    "FriStop": "2000-06-22T13:13:33.6828687+02:00",
+    "SatStart": "2001-08-14T13:13:33.6828687+02:00",
+    "SatStop": "2014-11-14T13:13:33.6828687+01:00",
+    "SunStart": "2009-12-04T13:13:33.6828687+01:00",
+    "SunStop": "2016-09-17T13:13:33.6828687+02:00",
     "NonDates": [
-      "nostrum",
-      "et"
+      "laboriosam",
+      "qui"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 210,
-        "AlertLevel": 929,
-        "AlertTimeout": 578,
-        "Action": 751,
-        "DelegateTo": 482,
-        "ScriptId": 160,
-        "EmailTo": "albertha_murphy@wisozkyost.uk",
-        "SmsTo": "sit",
-        "ReplyTemplateIdCustomer": 694,
-        "ReplyTemplateIdUser": 868,
-        "ReplyTemplateIdCatmast": 702,
-        "ReplyTemplateIdEmail": 42,
-        "RtiCustomerSms": 590,
-        "ReplyTemplateIdUserSms": 821,
-        "ReplyTemplateIdCatmastSms": 183,
-        "ReplyTemplateIdSms": 11,
+        "TicketAlertId": 514,
+        "AlertLevel": 840,
+        "AlertTimeout": 97,
+        "Action": 366,
+        "DelegateTo": 828,
+        "ScriptId": 245,
+        "EmailTo": "janessa_simonis@mckenzieyundt.ca",
+        "SmsTo": "quia",
+        "ReplyTemplateIdCustomer": 475,
+        "ReplyTemplateIdUser": 128,
+        "ReplyTemplateIdCatmast": 436,
+        "ReplyTemplateIdEmail": 467,
+        "RtiCustomerSms": 482,
+        "ReplyTemplateIdUserSms": 158,
+        "ReplyTemplateIdCatmastSms": 866,
+        "ReplyTemplateIdSms": 7,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldType": "System.Int32",
+            "FieldLength": 91
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

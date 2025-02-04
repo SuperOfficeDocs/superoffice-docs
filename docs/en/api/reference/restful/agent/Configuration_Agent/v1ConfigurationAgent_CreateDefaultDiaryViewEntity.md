@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 672,
-  "Name": "Schinner-Veum",
-  "Tooltip": "eos",
-  "VisibleColumns": 256,
-  "Rank": 571,
-  "AssocId": 119,
+  "DiaryViewId": 297,
+  "Name": "Bergstrom LLC",
+  "Tooltip": "earum",
+  "VisibleColumns": 126,
+  "Rank": 378,
+  "AssocId": 764,
   "AssociateList": [
     {
-      "Id": 290,
-      "Name": "Legros-Hammes",
-      "ToolTip": "Occaecati voluptatem vitae ipsum non vero adipisci tempore.",
-      "Deleted": false,
-      "Rank": 687,
-      "Type": "possimus",
-      "ColorBlock": 470,
-      "IconHint": "necessitatibus",
+      "Id": 731,
+      "Name": "Russel, Nitzsche and Friesen",
+      "ToolTip": "Minus minima libero pariatur voluptas.",
+      "Deleted": true,
+      "Rank": 915,
+      "Type": "alias",
+      "ColorBlock": 869,
+      "IconHint": "laboriosam",
       "Selected": false,
-      "LastChanged": "2020-05-04T10:17:55.2227659+02:00",
+      "LastChanged": "2024-10-17T13:13:22.3207878+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "neque",
+      "ExtraInfo": "officia",
+      "StyleHint": "mollitia",
       "Hidden": true,
-      "FullName": "Bennie Johnson",
+      "FullName": "Milford Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldType": "System.Int32",
+          "FieldLength": 73
         }
       }
     }
   ],
-  "TzLocationId": 177,
+  "TzLocationId": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 397
     }
   }
 }

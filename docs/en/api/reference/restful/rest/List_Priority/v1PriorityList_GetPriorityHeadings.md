@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Streich, Lind and Boyer",
-    "Tooltip": "nostrum",
+    "HeadingId": 46,
+    "Name": "Berge, Ruecker and Hane",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 863,
-    "UdListDefinitionId": 854,
+    "Rank": 225,
+    "UdListDefinitionId": 626,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 641
       }
     }
   }

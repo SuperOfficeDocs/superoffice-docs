@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
+  "Id": 975,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 402,
-  "Name": "Wisoky LLC",
-  "Tooltip": "laborum",
+  "HeadingId": 562,
+  "Name": "Cummerata Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 670,
-  "UdListDefinitionId": 577,
+  "Rank": 304,
+  "UdListDefinitionId": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 259
     }
   }
 }

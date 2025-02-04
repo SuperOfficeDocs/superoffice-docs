@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 90,
+  "SystemEventId": 818,
   "Scope": "Database",
-  "Eta": "2021-12-08T10:17:55.2227659+01:00",
-  "Eventkey": "deleniti",
-  "Eventmess": "aperiam",
-  "ExtraInfo": 410,
-  "Owner": 75,
-  "UpdatedCount": 833,
-  "Registered": "2000-09-30T10:17:55.2227659+02:00",
+  "Eta": "2016-06-25T13:13:22.3207878+02:00",
+  "Eventkey": "dolor",
+  "Eventmess": "itaque",
+  "ExtraInfo": 728,
+  "Owner": 379,
+  "UpdatedCount": 764,
+  "Registered": "2006-09-26T13:13:22.3207878+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 133,
+  "SystemEventId": 943,
   "Scope": "Database",
-  "Eta": "2022-04-24T10:17:55.2227659+02:00",
-  "Eventkey": "fugit",
-  "Eventmess": "excepturi",
-  "ExtraInfo": 948,
-  "Owner": 218,
-  "UpdatedCount": 13,
-  "Registered": "2011-11-25T10:17:55.2227659+01:00",
+  "Eta": "2004-01-19T13:13:22.3364082+01:00",
+  "Eventkey": "et",
+  "Eventmess": "autem",
+  "ExtraInfo": 528,
+  "Owner": 792,
+  "UpdatedCount": 189,
+  "Registered": "2020-12-12T13:13:22.3364082+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 966
     }
   }
 }

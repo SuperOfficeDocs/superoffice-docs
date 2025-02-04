@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 692,
-    "ColumnId": 788,
-    "FieldDefault": "amet",
-    "FieldHeight": 903,
-    "FieldLabel": "fuga",
-    "FieldLeft": 111,
-    "FieldTop": 643,
+    "UDefFieldId": 106,
+    "ColumnId": 297,
+    "FieldDefault": "dolorem",
+    "FieldHeight": 235,
+    "FieldLabel": "a",
+    "FieldLeft": 304,
+    "FieldTop": 204,
     "FieldType": "Checkbox",
-    "FieldWidth": 547,
-    "FormatMask": "debitis",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 48,
-    "LabelLeft": 575,
-    "LabelTop": 299,
-    "LabelWidth": 720,
-    "LastVersionId": 781,
-    "ListTableId": 662,
+    "FieldWidth": 438,
+    "FormatMask": "qui",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 735,
+    "LabelLeft": 992,
+    "LabelTop": 193,
+    "LabelWidth": 273,
+    "LastVersionId": 835,
+    "ListTableId": 874,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 3,
-    "ProgId": "sit",
-    "IsReadOnly": false,
-    "ShortLabel": "aspernatur",
-    "TabOrder": 246,
-    "TextLength": 683,
-    "Tooltip": "incidunt",
-    "UdefIdentity": 788,
-    "UDListDefinitionId": 514,
+    "Page1LineNo": 302,
+    "ProgId": "at",
+    "IsReadOnly": true,
+    "ShortLabel": "magni",
+    "TabOrder": 557,
+    "TextLength": 439,
+    "Tooltip": "quis",
+    "UdefIdentity": 209,
+    "UDListDefinitionId": 56,
     "Justification": "Center",
-    "Version": 541,
-    "TemplateVariableName": "Borer, Kuhlman and Herman",
+    "Version": 663,
+    "TemplateVariableName": "Crist Group",
     "HasBeenPublished": false,
-    "MdoListName": "Bashirian, Ziemann and Bruen",
+    "MdoListName": "Stark-Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldLength": 451
       }
     }
   }

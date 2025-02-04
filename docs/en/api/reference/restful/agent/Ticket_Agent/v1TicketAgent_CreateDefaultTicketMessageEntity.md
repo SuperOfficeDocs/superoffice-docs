@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 589,
+  "EjMessageId": 256,
   "Ticket": null,
-  "CreatedAt": "2006-09-29T10:17:56.1915748+02:00",
+  "CreatedAt": "2001-01-27T13:13:24.2278483+01:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "laudantium",
-  "TimeSpent": 979,
-  "Body": "ex",
-  "HtmlBody": "dolores",
-  "EmailHeader": "paul.prohaska@baumbachanderson.uk",
-  "DebugInfo": "sapiente",
-  "MailSorter": "sunt",
+  "MessageId": "officia",
+  "TimeSpent": 495,
+  "Body": "inventore",
+  "HtmlBody": "corrupti",
+  "EmailHeader": "carole@kshlerin.name",
+  "DebugInfo": "aspernatur",
+  "MailSorter": "alias",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 102,
-      "Name": "Heidenreich LLC",
-      "Value": "et",
+      "Id": 124,
+      "Name": "Langworth Group",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldLength": 519
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dignissimos",
-  "Sentiment": 872,
-  "SentimentConfidence": 670,
+  "Language": "incidunt",
+  "Sentiment": 867,
+  "SentimentConfidence": 198,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 715,
-      "Name": "Bogisich, Orn and Raynor",
-      "ContentType": "neque",
-      "AttSize": 209,
-      "InlineImage": true,
-      "ContentId": "recusandae",
-      "AuthKey": "excepturi",
+      "AttachmentId": 260,
+      "Name": "Conn-Johns",
+      "ContentType": "officiis",
+      "AttSize": 916,
+      "InlineImage": false,
+      "ContentId": "rerum",
+      "AuthKey": "reiciendis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 359
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 405
     }
   }
 }

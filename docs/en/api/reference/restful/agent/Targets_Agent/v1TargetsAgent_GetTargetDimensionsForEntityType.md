@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 642,
+    "TargetDimensionId": 804,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "illum",
-    "DimensionListName": "Zemlak, Harvey and Nicolas",
-    "DimensionListId": 612,
-    "DimensionListLabel": "totam",
+    "DimensionListField": "sint",
+    "DimensionListName": "Wuckert, Kemmer and Stanton",
+    "DimensionListId": 49,
+    "DimensionListLabel": "nesciunt",
     "SelectedDimensions": [
-      541,
-      201
+      929,
+      755
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldType": "System.String",
+        "FieldLength": 317
       }
     }
   }

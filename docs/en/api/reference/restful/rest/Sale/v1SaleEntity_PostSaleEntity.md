@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "delectus",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-12-06T10:18:00.5512142+01:00",
-  "Amount": 16121.296,
-  "SaleId": 681,
-  "Earning": 3638.574,
-  "EarningPercent": 24733.528,
-  "Heading": "est",
-  "Number": "1540625",
-  "Probability": 241,
-  "CreatedDate": "2012-11-01T10:18:00.5512142+01:00",
-  "UpdatedDate": "2010-10-18T10:18:00.5512142+02:00",
+  "Saledate": "2023-05-05T13:13:32.2143042+02:00",
+  "Amount": 5964.0019999999995,
+  "SaleId": 430,
+  "Earning": 7054.634,
+  "EarningPercent": 3130.866,
+  "Heading": "sunt",
+  "Number": "813880",
+  "Probability": 738,
+  "CreatedDate": "2011-09-14T13:13:32.2143042+02:00",
+  "UpdatedDate": "2012-03-26T13:13:32.2143042+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 899,
+  "ActiveLinks": 522,
   "Links": [
     {
-      "EntityName": "Leuschke-Zulauf",
-      "Id": 190,
-      "Description": "Re-contextualized leading edge help-desk",
-      "ExtraInfo": "facere",
-      "LinkId": 306
+      "EntityName": "Hoppe-Hoppe",
+      "Id": 453,
+      "Description": "Horizontal zero defect definition",
+      "ExtraInfo": "iure",
+      "LinkId": 660
     },
     {
-      "EntityName": "Leuschke-Zulauf",
-      "Id": 190,
-      "Description": "Re-contextualized leading edge help-desk",
-      "ExtraInfo": "facere",
-      "LinkId": 306
+      "EntityName": "Hoppe-Hoppe",
+      "Id": 453,
+      "Description": "Horizontal zero defect definition",
+      "ExtraInfo": "iure",
+      "LinkId": 660
     }
   ],
-  "NextDueDate": "2006-05-09T10:18:00.5512142+02:00",
-  "Postit": "officia",
+  "NextDueDate": "2014-02-22T13:13:32.2143042+01:00",
+  "Postit": "tenetur",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-01-19T10:18:00.5668397+01:00",
+  "ReopenDate": "2009-03-09T13:13:32.2143042+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mueller, Conroy and Olson",
-      "Comment": "rerum",
-      "StakeholderRoleId": 977,
-      "CountryId": 938,
-      "PersonId": 141,
-      "EmailDescription": "joesph@wyman.co.uk",
-      "EmailId": 493,
-      "EmailAddress": "shany_hauck@blickhuels.biz",
-      "PhoneId": 643,
-      "ContactName": "Okuneva Inc and Sons",
-      "ContactId": 749,
-      "SaleId": 827,
-      "Mrmrs": "est",
-      "Firstname": "Abigail",
-      "MiddleName": "Nikolaus, Moore and Jakubowski",
-      "Lastname": "Hodkiewicz",
-      "SaleStakeholderId": 792,
-      "Rank": 839,
-      "Phone": "(247)050-6487"
+      "StakeholderRoleName": "Borer, O'Hara and Langosh",
+      "Comment": "et",
+      "StakeholderRoleId": 556,
+      "CountryId": 674,
+      "PersonId": 941,
+      "EmailDescription": "damaris@heller.co.uk",
+      "EmailId": 1000,
+      "EmailAddress": "kieran@jewess.us",
+      "PhoneId": 347,
+      "ContactName": "Bradtke Inc and Sons",
+      "ContactId": 687,
+      "SaleId": 504,
+      "Mrmrs": "eum",
+      "Firstname": "Freda",
+      "MiddleName": "Koss LLC",
+      "Lastname": "Tromp",
+      "SaleStakeholderId": 47,
+      "Rank": 514,
+      "Phone": "989-183-9018 x386"
     }
   ],
-  "ActiveErpLinks": 113,
+  "ActiveErpLinks": 664,
   "UserDefinedFields": {
-    "SuperOffice:1": "Caterina Alexandrine Heidenreich II",
-    "SuperOffice:2": "Rosalee Ondricka"
+    "SuperOffice:1": "Orpha Mueller",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "ex"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2016-11-21T10:18:00.5824656+01:00",
-  "PublishTo": "2020-04-16T10:18:00.5824656+02:00",
-  "PublishFrom": "2010-04-13T10:18:00.5824656+02:00",
+  "PublishEventDate": "2007-05-26T13:13:32.2143042+02:00",
+  "PublishTo": "2004-09-09T13:13:32.2143042+02:00",
+  "PublishFrom": "2003-10-13T13:13:32.2143042+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 141,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "consequatur"
     },
     {
-      "VisibleId": 141,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "consequatur"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "labore",
+  "SaleText": "quo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-10-07T10:18:00.6605943+02:00",
-  "Amount": 363.544,
-  "SaleId": 150,
-  "Earning": 16494.242,
-  "EarningPercent": 7167.458,
-  "Heading": "aliquam",
-  "Number": "942911",
-  "Probability": 283,
-  "CreatedDate": "2009-01-13T10:18:00.6605943+01:00",
-  "UpdatedDate": "2011-01-23T10:18:00.6605943+01:00",
+  "Saledate": "2008-02-08T13:13:32.2299256+01:00",
+  "Amount": 2779.8579999999997,
+  "SaleId": 715,
+  "Earning": 15861.173999999999,
+  "EarningPercent": 26883.451999999997,
+  "Heading": "est",
+  "Number": "1889403",
+  "Probability": 665,
+  "CreatedDate": "2016-06-18T13:13:32.2299256+02:00",
+  "UpdatedDate": "2000-11-12T13:13:32.2299256+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 616,
+  "ActiveLinks": 814,
   "Links": [
     {
-      "EntityName": "Ankunding, Walsh and Schamberger",
-      "Id": 468,
-      "Description": "Proactive encompassing initiative",
-      "ExtraInfo": "minima",
-      "LinkId": 12,
+      "EntityName": "Murazik Group",
+      "Id": 856,
+      "Description": "Switchable scalable flexibility",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 995,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldLength": 777
         }
       }
     }
   ],
-  "NextDueDate": "2000-02-24T10:18:00.6605943+01:00",
-  "Postit": "est",
+  "NextDueDate": "2016-01-29T13:13:32.2299256+01:00",
+  "Postit": "dolore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-09-01T10:18:00.6605943+02:00",
+  "ReopenDate": "2007-04-10T13:13:32.2299256+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schimmel LLC",
-      "Comment": "quam",
-      "StakeholderRoleId": 256,
-      "CountryId": 360,
-      "PersonId": 849,
-      "EmailDescription": "veronica@little.com",
-      "EmailId": 780,
-      "EmailAddress": "alanis@kilback.name",
-      "PhoneId": 869,
-      "ContactName": "DuBuque-Russel",
-      "ContactId": 299,
-      "SaleId": 67,
-      "Mrmrs": "eos",
-      "Firstname": "Hans",
-      "MiddleName": "Bauch, Homenick and Ziemann",
-      "Lastname": "Fisher",
-      "SaleStakeholderId": 870,
-      "Rank": 345,
-      "Phone": "107-661-6001 x788",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 579
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 525,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Karl Hellen Moore DVM",
-    "SuperOffice:2": "1749818978"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "sit"
-  },
-  "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "rerum"
-  },
-  "PublishEventDate": "1999-10-16T10:18:00.6605943+02:00",
-  "PublishTo": "1998-01-03T10:18:00.6605943+01:00",
-  "PublishFrom": "2018-05-13T10:18:00.6605943+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 728,
-      "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "StakeholderRoleName": "Dietrich Inc and Sons",
+      "Comment": "perspiciatis",
+      "StakeholderRoleId": 910,
+      "CountryId": 594,
+      "PersonId": 274,
+      "EmailDescription": "katrina@willms.uk",
+      "EmailId": 207,
+      "EmailAddress": "luciano@dooley.name",
+      "PhoneId": 861,
+      "ContactName": "Beier Group",
+      "ContactId": 300,
+      "SaleId": 81,
+      "Mrmrs": "assumenda",
+      "Firstname": "Braulio",
+      "MiddleName": "Kuhlman-Herzog",
+      "Lastname": "Wolf",
+      "SaleStakeholderId": 819,
+      "Rank": 858,
+      "Phone": "1-134-566-6781",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 242
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 976,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1589093518",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "porro",
+    "ExtraFields2": "rem"
+  },
+  "CustomFields": {
+    "CustomFields1": "hic",
+    "CustomFields2": "voluptatem"
+  },
+  "PublishEventDate": "2017-05-30T13:13:32.2299256+02:00",
+  "PublishTo": "2003-03-17T13:13:32.2299256+01:00",
+  "PublishFrom": "2014-10-02T13:13:32.2299256+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 984,
+      "Visibility": "All",
+      "DisplayValue": "soluta",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 911
         }
       }
     },
     {
-      "VisibleId": 728,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 911
         }
       }
     }
@@ -407,13 +407,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 157
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

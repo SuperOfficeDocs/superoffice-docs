@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 400
+  "MailItemId": 725
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "inventore",
-    "mollitia"
+    "commodi",
+    "quis"
   ],
-  "Comment": "voluptas",
-  "Sequence": 347,
-  "DtStart": "2021-02-18T10:17:55.5665368+01:00",
-  "DtEnd": "1998-01-07T10:17:55.5665368+01:00",
-  "Superseded": false,
+  "Comment": "voluptatibus",
+  "Sequence": 83,
+  "DtStart": "2012-08-31T13:13:22.9927476+02:00",
+  "DtEnd": "2010-07-20T13:13:22.9927476+02:00",
+  "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 309
     }
   }
 }

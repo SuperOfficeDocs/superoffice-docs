@@ -91,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quo",
-  "Name": "Goodwin-Thiel",
-  "Description": "Synchronised attitude-oriented emulation",
-  "IncludeId": "in",
-  "Source": "repellat",
-  "Registered": "2014-06-25T10:18:00.8793591+02:00",
-  "RegisteredBy": "assumenda",
-  "Updated": "2013-12-30T10:18:00.8793591+01:00",
-  "UpdatedBy": "porro",
-  "Path": "veritatis"
+  "UniqueIdentifier": "est",
+  "Name": "Bauch Group",
+  "Description": "Synergistic stable focus group",
+  "IncludeId": "nihil",
+  "Source": "iure",
+  "Registered": "2022-04-23T13:13:32.6204588+02:00",
+  "RegisteredBy": "deleniti",
+  "Updated": "2024-05-19T13:13:32.6204588+02:00",
+  "UpdatedBy": "voluptatem",
+  "Path": "est"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "hic",
-  "Name": "Goodwin, McDermott and Hettinger",
-  "Description": "Profit-focused responsive algorithm",
-  "IncludeId": "laboriosam",
-  "Source": "impedit",
-  "Registered": "2016-04-17T10:18:00.8793591+02:00",
-  "RegisteredBy": "sit",
-  "Updated": "2004-08-06T10:18:00.8793591+02:00",
-  "UpdatedBy": "maiores",
-  "Path": "impedit",
+  "UniqueIdentifier": "ea",
+  "Name": "Gleason, Wuckert and Reinger",
+  "Description": "Synchronised intangible adapter",
+  "IncludeId": "aut",
+  "Source": "asperiores",
+  "Registered": "2013-07-19T13:13:32.6204588+02:00",
+  "RegisteredBy": "dolore",
+  "Updated": "2003-08-07T13:13:32.6204588+02:00",
+  "UpdatedBy": "quae",
+  "Path": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

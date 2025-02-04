@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Hessel Inc and Sons",
-    "ToolTip": "Ipsum quae unde sequi reprehenderit quia nobis ea.",
+    "Id": 327,
+    "Name": "Stracke, Larkin and Weber",
+    "ToolTip": "Incidunt sequi ratione.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "beatae",
-    "ColorBlock": 366,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "2003-02-20T10:18:01.1450002+01:00",
+    "Rank": 797,
+    "Type": "ratione",
+    "ColorBlock": 672,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2004-09-28T13:13:33.526645+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Wintheiser, Blanda and Zulauf",
-        "ToolTip": "Sed ipsam qui quis dolor.",
-        "Deleted": false,
-        "Rank": 204,
-        "Type": "aut",
-        "ColorBlock": 162,
-        "IconHint": "non",
+        "Id": 920,
+        "Name": "Lang Inc and Sons",
+        "ToolTip": "Inventore quia magnam quia dolor eaque vel.",
+        "Deleted": true,
+        "Rank": 200,
+        "Type": "cupiditate",
+        "ColorBlock": 762,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2014-08-05T10:18:01.1450002+02:00",
+        "LastChanged": "2003-12-16T13:13:33.526645+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Dena Reichel",
+        "ExtraInfo": "impedit",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Casimir Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 548
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Jason Schinner",
+    "ExtraInfo": "aut",
+    "StyleHint": "laudantium",
+    "Hidden": false,
+    "FullName": "Kristy Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 739
       }
     }
   }

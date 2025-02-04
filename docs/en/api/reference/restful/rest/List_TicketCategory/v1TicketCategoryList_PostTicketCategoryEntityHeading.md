@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 837,
-  "Name": "Mante-Walker",
-  "Tooltip": "officiis",
+  "HeadingId": 31,
+  "Name": "Zboncak, Osinski and Greenholt",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 435,
-  "UdListDefinitionId": 25
+  "Rank": 785,
+  "UdListDefinitionId": 486
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 692,
-  "Name": "Ratke-Gusikowski",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "Rank": 948,
-  "UdListDefinitionId": 8,
+  "HeadingId": 72,
+  "Name": "Johnson, Emmerich and Carroll",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 130,
+  "UdListDefinitionId": 41,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 67
     }
   }
 }

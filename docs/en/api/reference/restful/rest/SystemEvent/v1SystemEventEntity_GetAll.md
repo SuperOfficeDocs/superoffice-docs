@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=quo
-GET /api/v1/SystemEvent?$top=222
-GET /api/v1/SystemEvent?$skip=206
+GET /api/v1/SystemEvent?$entities=dicta
+GET /api/v1/SystemEvent?$top=221
+GET /api/v1/SystemEvent?$skip=779
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=deleniti
+GET /api/v1/SystemEvent?$context=at
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -132,18 +132,16 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 5228,
-      "EntityName": "sale",
-      "saleId": 5228,
-      "contactId": 5659,
-      "name": "Kautzer LLC"
+      "PrimaryKey": 4680,
+      "EntityName": "person",
+      "personId": 4680,
+      "fullName": "Claude Leffler"
     },
     {
-      "PrimaryKey": 2354,
-      "EntityName": "sale",
-      "saleId": 2354,
-      "contactId": 8484,
-      "name": "Bartoletti, Koepp and Kohler"
+      "PrimaryKey": 6483,
+      "EntityName": "person",
+      "personId": 6483,
+      "fullName": "Lexie Tremblay"
     }
   ]
 }

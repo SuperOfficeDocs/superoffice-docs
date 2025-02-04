@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=ipsa
-GET /api/v1/Selection?$top=307
-GET /api/v1/Selection?$skip=454
+GET /api/v1/Selection?$entities=exercitationem
+GET /api/v1/Selection?$top=179
+GET /api/v1/Selection?$skip=614
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=dolorem
+GET /api/v1/Selection?$context=ea
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quaerat",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 508,
-      "EntityName": "sale",
-      "saleId": 508,
-      "contactId": 9068,
-      "name": "Schmitt-Kuhn"
+      "PrimaryKey": 7065,
+      "EntityName": "person",
+      "personId": 7065,
+      "fullName": "Ms. Seamus Ewell Rolfson"
     },
     {
-      "PrimaryKey": 5242,
-      "EntityName": "sale",
-      "saleId": 5242,
-      "contactId": 3846,
-      "name": "O'Kon Group"
+      "PrimaryKey": 4836,
+      "EntityName": "person",
+      "personId": 4836,
+      "fullName": "Jasper Hintz"
     }
   ]
 }

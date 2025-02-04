@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Welch, Howell and Runolfsdottir",
-    "ToolTip": "Aliquam eum illum distinctio molestiae non.",
-    "Deleted": false,
-    "Rank": 14,
-    "Type": "non",
-    "ColorBlock": 165,
-    "IconHint": "dolorem",
+    "Id": 323,
+    "Name": "Schuster, King and Gibson",
+    "ToolTip": "Eos qui.",
+    "Deleted": true,
+    "Rank": 269,
+    "Type": "officiis",
+    "ColorBlock": 91,
+    "IconHint": "at",
     "Selected": true,
-    "LastChanged": "1997-11-28T10:18:00.9731148+01:00",
+    "LastChanged": "2012-04-18T13:13:32.9642864+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Mills LLC",
-        "ToolTip": "Quam est et eos et.",
+        "Id": 992,
+        "Name": "Stroman, Anderson and Moen",
+        "ToolTip": "Ducimus hic nisi sequi dolorem sint hic.",
         "Deleted": true,
-        "Rank": 807,
-        "Type": "qui",
-        "ColorBlock": 783,
-        "IconHint": "repellat",
+        "Rank": 200,
+        "Type": "officia",
+        "ColorBlock": 588,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "1997-09-04T10:18:00.9731148+02:00",
+        "LastChanged": "2021-11-23T13:13:32.9642864+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "ea",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Savanah Destiny Farrell PhD",
+        "FullName": "Estrella Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldType": "System.String",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "provident",
+    "ExtraInfo": "autem",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Jonas Pagac",
+    "FullName": "Chaz Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

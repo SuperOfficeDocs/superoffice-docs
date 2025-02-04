@@ -62,7 +62,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSelection?$select=associateId,name,updatedBy
+GET /api/v1/archive/LinksSelection?$select=getAllRows,registeredByFullName,name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

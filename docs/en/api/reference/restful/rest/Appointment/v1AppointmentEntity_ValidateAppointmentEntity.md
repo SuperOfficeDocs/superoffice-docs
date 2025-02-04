@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-11-13T10:18:00.1605656+01:00",
-  "AppointmentId": 890,
-  "Description": "Progressive full-range Graphic Interface",
-  "Title": "beatae",
-  "Agenda": "eius",
-  "InternalNotes": "necessitatibus",
-  "StartDate": "1998-03-17T10:18:00.1605656+01:00",
-  "EndDate": "2014-03-21T10:18:00.1605656+01:00",
+  "CreatedDate": "2004-05-29T13:13:31.2613937+02:00",
+  "AppointmentId": 315,
+  "Description": "Implemented heuristic customer loyalty",
+  "Title": "vel",
+  "Agenda": "suscipit",
+  "InternalNotes": "ducimus",
+  "StartDate": "2022-08-12T13:13:31.2613937+02:00",
+  "EndDate": "2007-11-26T13:13:31.2613937+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 861,
+  "MotherId": 951,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-07-13T10:18:00.1605656+02:00",
+  "UpdatedDate": "2005-10-06T13:13:31.2613937+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 625,
+  "ActiveLinks": 580,
   "Links": [
     {
-      "EntityName": "Lynch-Spencer",
-      "Id": 874,
-      "Description": "Front-line asynchronous help-desk",
-      "ExtraInfo": "incidunt",
-      "LinkId": 679
+      "EntityName": "Sawayn-Vandervort",
+      "Id": 338,
+      "Description": "Switchable scalable function",
+      "ExtraInfo": "veritatis",
+      "LinkId": 567
     },
     {
-      "EntityName": "Lynch-Spencer",
-      "Id": 874,
-      "Description": "Front-line asynchronous help-desk",
-      "ExtraInfo": "incidunt",
-      "LinkId": 679
+      "EntityName": "Sawayn-Vandervort",
+      "Id": 338,
+      "Description": "Switchable scalable function",
+      "ExtraInfo": "veritatis",
+      "LinkId": 567
     }
   ],
-  "AlarmLeadTime": "sapiente",
+  "AlarmLeadTime": "distinctio",
   "HasAlarm": false,
-  "ColorIndex": 947,
+  "ColorIndex": 991,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "aut",
-  "LeadTime": "sequi",
-  "Location": "doloribus",
-  "RejectCounter": 76,
+  "LagTime": "ipsum",
+  "LeadTime": "voluptates",
+  "Location": "rem",
+  "RejectCounter": 472,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 891,
-      "PersonId": 467,
-      "ContactId": 907,
-      "EmailId": 364,
-      "SendEmail": false,
+      "AssociateId": 213,
+      "PersonId": 436,
+      "ContactId": 476,
+      "EmailId": 722,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dylan.little@schinner.com",
-      "Description": "Function-based full-range neural-net"
+      "EmailAddress": "cecil.jones@pfannerstill.uk",
+      "Description": "Assimilated didactic structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-05-17T10:18:00.1605656+02:00",
+  "ActiveDate": "2019-06-03T13:13:31.2613937+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 753,
+  "PreferredTZLocation": 744,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 641,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 468,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "amet",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "843180225",
-    "SuperOffice:2": "Prof. Jamir Wolff DDS"
+    "SuperOffice:1": "Torrey Stiedemann",
+    "SuperOffice:2": "Dr. Catalina Ebert DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "a"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "autem"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "1998-03-04T10:18:00.1605656+01:00",
-  "PublishTo": "2015-11-25T10:18:00.1605656+01:00",
-  "PublishFrom": "2009-04-19T10:18:00.1605656+02:00",
+  "PublishEventDate": "2022-03-22T13:13:31.2613937+01:00",
+  "PublishTo": "1998-05-23T13:13:31.2613937+02:00",
+  "PublishFrom": "1998-06-18T13:13:31.2613937+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 198,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 198,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "perferendis",
-  "2": "fuga"
+  "1": "ut",
+  "2": "iste"
 }
 ```

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Spencer-Mante",
-      "Description": "Visionary reciprocal access",
+      "Name": "Graham, Schulist and Streich",
+      "Description": "Streamlined high-level infrastructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Spencer-Mante",
-      "Description": "Visionary reciprocal access",
+      "Name": "Graham, Schulist and Streich",
+      "Description": "Streamlined high-level infrastructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cartwright-Grimes",
-    "Description": "Ergonomic directional installation",
+    "Name": "Schmeler, Mueller and Gerhold",
+    "Description": "Devolved scalable utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 245,
-        "Tooltip": "voluptatem",
+        "Unrestricted": true,
+        "Total": 326,
+        "Tooltip": "earum",
         "CanAssign": false,
-        "Free": 863,
-        "InUse": 57,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 875,
-        "Name": "Nicolas Inc and Sons",
-        "Description": "Centralized non-volatile attitude",
-        "PrerequisiteModuleName": "Lemke Inc and Sons",
-        "SortOrder": 170,
-        "ExtraFlags": 190,
+        "Free": 858,
+        "InUse": 146,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 421,
+        "Name": "Prosacco, Kub and Boehm",
+        "Description": "Polarised dynamic task-force",
+        "PrerequisiteModuleName": "Leannon-Bins",
+        "SortOrder": 176,
+        "ExtraFlags": 215,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 899
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 837,
-        "Tooltip": "quia",
-        "CanAssign": true,
-        "Free": 381,
-        "InUse": 499,
+        "Total": 922,
+        "Tooltip": "minima",
+        "CanAssign": false,
+        "Free": 700,
+        "InUse": 613,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 132,
-        "Name": "Vandervort-Gerhold",
-        "Description": "Right-sized 4th generation service-desk",
-        "PrerequisiteModuleName": "Johnston-Hand",
-        "SortOrder": 511,
-        "ExtraFlags": 814,
+        "Assigned": true,
+        "ModuleLicenseId": 912,
+        "Name": "Rosenbaum, Schaden and Wunsch",
+        "Description": "Customer-focused didactic open system",
+        "PrerequisiteModuleName": "Witting-Swaniawski",
+        "SortOrder": 676,
+        "ExtraFlags": 600,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -177,36 +177,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 485
       }
     }
   },
   {
-    "Name": "Cartwright-Grimes",
-    "Description": "Ergonomic directional installation",
+    "Name": "Schmeler, Mueller and Gerhold",
+    "Description": "Devolved scalable utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 245,
-        "Tooltip": "voluptatem",
+        "Unrestricted": true,
+        "Total": 326,
+        "Tooltip": "earum",
         "CanAssign": false,
-        "Free": 863,
-        "InUse": 57,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 875,
-        "Name": "Nicolas Inc and Sons",
-        "Description": "Centralized non-volatile attitude",
-        "PrerequisiteModuleName": "Lemke Inc and Sons",
-        "SortOrder": 170,
-        "ExtraFlags": 190,
+        "Free": 858,
+        "InUse": 146,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 421,
+        "Name": "Prosacco, Kub and Boehm",
+        "Description": "Polarised dynamic task-force",
+        "PrerequisiteModuleName": "Leannon-Bins",
+        "SortOrder": 176,
+        "ExtraFlags": 215,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 899
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 837,
-        "Tooltip": "quia",
-        "CanAssign": true,
-        "Free": 381,
-        "InUse": 499,
+        "Total": 922,
+        "Tooltip": "minima",
+        "CanAssign": false,
+        "Free": 700,
+        "InUse": 613,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 132,
-        "Name": "Vandervort-Gerhold",
-        "Description": "Right-sized 4th generation service-desk",
-        "PrerequisiteModuleName": "Johnston-Hand",
-        "SortOrder": 511,
-        "ExtraFlags": 814,
+        "Assigned": true,
+        "ModuleLicenseId": 912,
+        "Name": "Rosenbaum, Schaden and Wunsch",
+        "Description": "Customer-focused didactic open system",
+        "PrerequisiteModuleName": "Witting-Swaniawski",
+        "SortOrder": 676,
+        "ExtraFlags": 600,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 485
       }
     }
   }

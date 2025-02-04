@@ -90,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "nihil"
+  "FromAddress": "sint"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 648,
-  "EMailAddress": "odio",
-  "AssociateId": 794,
+  "EMailAccountId": 418,
+  "EMailAddress": "vero",
+  "AssociateId": 523,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 506,
-  "ErrorCount": 715,
+  "AccountStatus": 983,
+  "ErrorCount": 829,
   "ErrorReason": "",
-  "InboxFolder": "occaecati",
-  "SentFolder": "est",
-  "SimpleMode": 726,
-  "LastFetch": "2000-08-09T10:17:55.5821627+02:00",
+  "InboxFolder": "eaque",
+  "SentFolder": "officia",
+  "SimpleMode": 863,
+  "LastFetch": "2012-02-08T13:13:23.0083594+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 877
     }
   }
 }

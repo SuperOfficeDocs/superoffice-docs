@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 254,
-      "ContactName": "McGlynn Group",
-      "PersonId": 247,
-      "PersonName": "Dickens-Konopelski",
-      "AssociateId": 775,
-      "Address": "sequi",
-      "EmailId": 855,
+      "ContactId": 346,
+      "ContactName": "Brekke Group",
+      "PersonId": 602,
+      "PersonName": "Weimann-Hilpert",
+      "AssociateId": 636,
+      "Address": "et",
+      "EmailId": 486,
       "DuplicatePersonIds": [
-        371,
-        540
+        908,
+        423
       ],
-      "Name": "Smith-Cormier",
+      "Name": "Frami Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 925
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 725,
-      "ContactName": "Daugherty Group",
-      "PersonId": 896,
-      "PersonName": "Johns, Turner and Quitzon",
-      "AssociateId": 142,
-      "Address": "ut",
-      "EmailId": 423,
+      "ContactId": 810,
+      "ContactName": "Nienow, Roberts and Ankunding",
+      "PersonId": 99,
+      "PersonName": "Blick-Williamson",
+      "AssociateId": 103,
+      "Address": "iste",
+      "EmailId": 243,
       "DuplicatePersonIds": [
-        129,
-        391
+        175,
+        294
       ],
-      "Name": "Nader Inc and Sons",
+      "Name": "Shields-DuBuque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 231
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 167,
-      "ContactName": "Cronin-Towne",
-      "PersonId": 299,
-      "PersonName": "Mante-Wisozk",
-      "AssociateId": 139,
-      "Address": "reiciendis",
-      "EmailId": 706,
+      "ContactId": 798,
+      "ContactName": "Walker, Stehr and Weber",
+      "PersonId": 374,
+      "PersonName": "Olson LLC",
+      "AssociateId": 608,
+      "Address": "nobis",
+      "EmailId": 90,
       "DuplicatePersonIds": [
-        264,
-        467
+        240,
+        444
       ],
-      "Name": "Metz LLC",
+      "Name": "Huels, Heathcote and Farrell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 700
         }
       }
     }
   ],
-  "Subject": "cum",
-  "HTMLBody": "sed",
+  "Subject": "sed",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2015-09-20T10:17:55.6134076+02:00",
-  "Size": 517,
+  "Sent": "2017-11-04T13:13:23.0708443+01:00",
+  "Size": 605,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "culpa",
-  "IsSent": false,
+  "MessageID": "dolor",
+  "PlainBody": "voluptas",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 925,
+  "ServerId": 690,
   "Attachments": [
     {
-      "Description": "Extended 24 hour process improvement",
-      "Filename": "et",
-      "Size": 731,
-      "Type": "nisi",
-      "Encoding": "consequatur",
-      "Id": "magnam",
-      "Disposition": "minima",
+      "Description": "Reverse-engineered human-resource local area network",
+      "Filename": "minima",
+      "Size": 417,
+      "Type": "aut",
+      "Encoding": "similique",
+      "Id": "itaque",
+      "Disposition": "provident",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldLength": 214
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Funk, Hane and Mayert",
+      "Name": "Lindgren LLC",
       "Values": [
-        "molestiae",
-        "asperiores"
+        "eos",
+        "explicabo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     },
     {
-      "Name": "Funk, Hane and Mayert",
+      "Name": "Lindgren LLC",
       "Values": [
-        "molestiae",
-        "asperiores"
+        "eos",
+        "explicabo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
   ],
-  "FolderName": "Ortiz-Baumbach",
-  "EmailItemId": 858,
-  "AccountId": 920,
-  "ReceivedAt": "2021-05-28T10:17:55.6134076+02:00",
+  "FolderName": "Cruickshank-Auer",
+  "EmailItemId": 296,
+  "AccountId": 331,
+  "ReceivedAt": "2015-11-02T13:13:23.0708443+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-11-08T10:17:55.6134076+01:00",
+  "RepliedAt": "2000-12-10T13:13:23.0708443+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=voluptas
-GET /api/v1/Document?$top=170
-GET /api/v1/Document?$skip=936
+GET /api/v1/Document?$entities=corrupti
+GET /api/v1/Document?$top=210
+GET /api/v1/Document?$skip=438
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=et
+GET /api/v1/Document?$context=necessitatibus
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "porro",
   "value": [
     {
-      "PrimaryKey": 3693,
-      "EntityName": "sale",
-      "saleId": 3693,
-      "contactId": 7765,
-      "name": "Torp-Stroman"
+      "PrimaryKey": 5668,
+      "EntityName": "person",
+      "personId": 5668,
+      "fullName": "Corine Tillman"
     },
     {
-      "PrimaryKey": 6965,
-      "EntityName": "sale",
-      "saleId": 6965,
-      "contactId": 4016,
-      "name": "Roob LLC"
+      "PrimaryKey": 7098,
+      "EntityName": "person",
+      "personId": 7098,
+      "fullName": "Jayson Witting"
     }
   ]
 }

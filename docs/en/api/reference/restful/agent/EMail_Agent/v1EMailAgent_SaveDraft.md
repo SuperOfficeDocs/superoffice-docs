@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 551,
-      "ContactName": "Jacobs-Barton",
-      "PersonId": 913,
-      "PersonName": "Bode-Jenkins",
-      "AssociateId": 700,
-      "Address": "ea",
-      "EmailId": 544,
+      "ContactId": 972,
+      "ContactName": "Schmeler Inc and Sons",
+      "PersonId": 214,
+      "PersonName": "Gerlach LLC",
+      "AssociateId": 589,
+      "Address": "aspernatur",
+      "EmailId": 295,
       "DuplicatePersonIds": [
-        766,
-        365
+        721,
+        786
       ],
-      "Name": "Murray-Connelly",
+      "Name": "Hoppe-Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 988
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 531,
-      "ContactName": "Herman, Kuhlman and Hirthe",
-      "PersonId": 221,
-      "PersonName": "Balistreri, Koss and Ledner",
-      "AssociateId": 708,
-      "Address": "occaecati",
-      "EmailId": 193,
+      "ContactId": 827,
+      "ContactName": "Johns, Daniel and Schiller",
+      "PersonId": 949,
+      "PersonName": "Hartmann-Koepp",
+      "AssociateId": 703,
+      "Address": "suscipit",
+      "EmailId": 777,
       "DuplicatePersonIds": [
-        196,
-        310
+        168,
+        346
       ],
-      "Name": "Goldner LLC",
+      "Name": "Mann Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 29
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 398,
-      "ContactName": "Barton-Nicolas",
-      "PersonId": 299,
-      "PersonName": "Stark-Rowe",
-      "AssociateId": 209,
-      "Address": "ratione",
-      "EmailId": 294,
+      "ContactId": 157,
+      "ContactName": "Gibson LLC",
+      "PersonId": 540,
+      "PersonName": "Bradtke Group",
+      "AssociateId": 992,
+      "Address": "odio",
+      "EmailId": 790,
       "DuplicatePersonIds": [
-        76,
-        471
+        612,
+        287
       ],
-      "Name": "Jerde LLC",
+      "Name": "Larson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
-  "Subject": "dolor",
-  "HTMLBody": "voluptate",
+  "Subject": "blanditiis",
+  "HTMLBody": "ea",
   "From": null,
-  "Sent": "2012-12-17T10:17:55.5665368+01:00",
-  "Size": 473,
+  "Sent": "2005-07-14T13:13:22.9771254+02:00",
+  "Size": 447,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "explicabo",
-  "PlainBody": "et",
-  "IsSent": false,
+  "MessageID": "harum",
+  "PlainBody": "doloremque",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 218,
+  "ServerId": 203,
   "Attachments": [
     {
-      "Description": "Monitored content-based knowledge user",
-      "Filename": "nobis",
-      "Size": 676,
-      "Type": "numquam",
-      "Encoding": "dolor",
-      "Id": "velit",
-      "Disposition": "ratione",
+      "Description": "Synchronised zero defect projection",
+      "Filename": "excepturi",
+      "Size": 581,
+      "Type": "quibusdam",
+      "Encoding": "minima",
+      "Id": "nesciunt",
+      "Disposition": "eaque",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 604
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Turner-Bernhard",
+      "Name": "Parker-Jast",
       "Values": [
-        "qui",
-        "nobis"
+        "dolor",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     },
     {
-      "Name": "Turner-Bernhard",
+      "Name": "Parker-Jast",
       "Values": [
-        "qui",
-        "nobis"
+        "dolor",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
   ],
-  "FolderName": "Nienow-Becker",
-  "EmailItemId": 809,
-  "AccountId": 788,
-  "ReceivedAt": "2019-03-04T10:17:55.5665368+01:00",
+  "FolderName": "Boyle, Gutmann and Collins",
+  "EmailItemId": 996,
+  "AccountId": 216,
+  "ReceivedAt": "2010-03-25T13:13:22.9771254+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-09-18T10:17:55.5665368+02:00",
+  "RepliedAt": "2005-09-25T13:13:22.9771254+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

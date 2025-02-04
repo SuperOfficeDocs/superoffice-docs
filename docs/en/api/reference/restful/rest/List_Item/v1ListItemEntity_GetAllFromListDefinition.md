@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Zboncak LLC",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "UdListDefinitionId": 373,
-    "Rank": 744,
+    "Id": 629,
+    "Name": "Smitham, Sporer and Witting",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "UdListDefinitionId": 583,
+    "Rank": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

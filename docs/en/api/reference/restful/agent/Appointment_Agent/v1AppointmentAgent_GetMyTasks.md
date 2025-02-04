@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 575
+  "Count": 973
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 14,
-    "StartDate": "2002-09-25T10:17:55.0977583+02:00",
-    "EndDate": "2002-02-19T10:17:55.0977583+01:00",
+    "AppointmentId": 867,
+    "StartDate": "2007-05-18T13:13:22.0708465+02:00",
+    "EndDate": "2022-08-01T13:13:22.0708465+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Trycia Torphy",
-    "ContactName": "Lehner, Pfannerstill and Von",
-    "Description": "Fully-configurable homogeneous moratorium",
-    "PersonFullName": "Terrill Goodwin",
-    "PersonId": 638,
-    "ContactId": 360,
-    "ProjectId": 933,
-    "ProjectName": "Osinski-Bradtke",
-    "IsPublished": true,
-    "AssociateId": 144,
-    "ColorIndex": 929,
+    "Task": "impedit",
+    "AssociateFullName": "Andrew Dooley",
+    "ContactName": "Halvorson, Conn and Ledner",
+    "Description": "Innovative global Graphical User Interface",
+    "PersonFullName": "Brice Goodwin",
+    "PersonId": 570,
+    "ContactId": 393,
+    "ProjectId": 869,
+    "ProjectName": "Kuhic, Schiller and McDermott",
+    "IsPublished": false,
+    "AssociateId": 310,
+    "ColorIndex": 689,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 511,
-    "PriorityName": "Christiansen Group",
+    "PriorityId": 513,
+    "PriorityName": "Bruen Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-06-10T10:17:55.0977583+02:00",
+    "ActiveDate": "2016-01-16T13:13:22.0708465+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-07-10T10:17:55.0977583+02:00",
-    "RecurringEndDate": "2005-02-17T10:17:55.0977583+01:00",
-    "MotherId": 951,
-    "AssignedBy": 30,
-    "AssignedByFullName": "Mr. Anya Ruthie Hickle Jr.",
+    "RecurringStartDate": "1999-10-14T13:13:22.0708465+02:00",
+    "RecurringEndDate": "2023-02-25T13:13:22.0708465+01:00",
+    "MotherId": 896,
+    "AssignedBy": 690,
+    "AssignedByFullName": "Deanna Torphy DVM",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "ut",
-    "SaleId": 482,
-    "SaleName": "Rippin LLC",
-    "AssociateName": "Koch LLC",
-    "CreatedDate": "2012-05-11T10:17:55.0977583+02:00",
-    "CreatedBy": "eveniet",
-    "CreatedByFullName": "Sadie Padberg",
-    "CreatedByAssociateId": 42,
+    "Location": "officia",
+    "AlarmLeadTime": "blanditiis",
+    "SaleId": 980,
+    "SaleName": "Trantow LLC",
+    "AssociateName": "Stracke LLC",
+    "CreatedDate": "2006-02-06T13:13:22.0708465+01:00",
+    "CreatedBy": "itaque",
+    "CreatedByFullName": "Abel Padberg",
+    "CreatedByAssociateId": 814,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 568,
-    "Title": "ut",
-    "Agenda": "iusto",
-    "InternalNotes": "magni",
+    "PreferredTZLocation": 207,
+    "Title": "quam",
+    "Agenda": "omnis",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

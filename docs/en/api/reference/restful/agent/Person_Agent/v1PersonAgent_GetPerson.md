@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=919
+POST /api/v1/Agents/Person/GetPerson?personId=794
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "unde",
-  "PersonId": 532,
-  "Mrmrs": "asperiores",
-  "Firstname": "Irma",
-  "Lastname": "Quigley",
-  "MiddleName": "Windler Inc and Sons",
-  "Title": "at",
-  "Description": "Function-based 4th generation info-mediaries",
-  "Email": "carolina_gislason@mannmoen.info",
-  "FullName": "Zella Durgan",
-  "DirectPhone": "(237)213-6734",
-  "FormalName": "Goodwin LLC",
-  "CountryId": 649,
-  "ContactId": 896,
-  "ContactName": "Fisher-Stiedemann",
-  "Retired": 829,
-  "Rank": 359,
-  "ActiveInterests": 165,
-  "ContactDepartment": "envisioneer vertical bandwidth",
-  "ContactCountryId": 12,
-  "ContactOrgNr": "722046",
-  "FaxPhone": "020.042.7159 x39110",
-  "MobilePhone": "1-592-749-0711",
-  "ContactPhone": "1-676-749-6890 x589",
-  "AssociateName": "Boyer, Ankunding and Dibbert",
-  "AssociateId": 609,
+  "Position": "iste",
+  "PersonId": 548,
+  "Mrmrs": "sit",
+  "Firstname": "Aubree",
+  "Lastname": "Grimes",
+  "MiddleName": "Halvorson, McLaughlin and Ryan",
+  "Title": "non",
+  "Description": "Proactive 6th generation hardware",
+  "Email": "kali@nader.uk",
+  "FullName": "Jamarcus Metz",
+  "DirectPhone": "202-866-6637",
+  "FormalName": "Bashirian Group",
+  "CountryId": 100,
+  "ContactId": 393,
+  "ContactName": "Flatley, Bahringer and Hamill",
+  "Retired": 91,
+  "Rank": 557,
+  "ActiveInterests": 957,
+  "ContactDepartment": "",
+  "ContactCountryId": 9,
+  "ContactOrgNr": "828467",
+  "FaxPhone": "760-966-2310",
+  "MobilePhone": "(164)725-0225",
+  "ContactPhone": "1-482-874-6390 x826",
+  "AssociateName": "Marks-Upton",
+  "AssociateId": 868,
   "UsePersonAddress": false,
-  "ContactFax": "rerum",
-  "Kanafname": "atque",
-  "Kanalname": "quo",
-  "Post1": "eius",
-  "Post2": "velit",
-  "Post3": "voluptatem",
-  "EmailName": "susanna@borer.uk",
-  "ContactFullName": "Efrain Roberts",
-  "ActiveErpLinks": 534,
-  "TicketPriorityId": 248,
-  "SupportLanguageId": 1001,
-  "SupportAssociateId": 527,
+  "ContactFax": "quas",
+  "Kanafname": "suscipit",
+  "Kanalname": "fugiat",
+  "Post1": "velit",
+  "Post2": "qui",
+  "Post3": "qui",
+  "EmailName": "mona@abbott.uk",
+  "ContactFullName": "Ms. Laisha Albertha Ledner Sr.",
+  "ActiveErpLinks": 379,
+  "TicketPriorityId": 273,
+  "SupportLanguageId": 332,
+  "SupportAssociateId": 572,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

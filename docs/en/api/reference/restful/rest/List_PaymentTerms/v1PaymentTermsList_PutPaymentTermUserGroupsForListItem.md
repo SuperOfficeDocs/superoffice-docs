@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Becker-Feest",
-    "ToolTip": "Id vitae beatae.",
+    "Id": 521,
+    "Name": "Oberbrunner-Lehner",
+    "ToolTip": "Saepe impedit voluptates.",
     "Deleted": false,
-    "Rank": 681,
-    "Type": "accusantium",
-    "ColorBlock": 757,
-    "IconHint": "veritatis",
+    "Rank": 335,
+    "Type": "at",
+    "ColorBlock": 32,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2011-10-07T10:18:01.051244+02:00",
+    "LastChanged": "2022-03-19T13:13:33.1829847+01:00",
     "ChildItems": [
       {
-        "Id": 636,
-        "Name": "Kuphal Group",
-        "ToolTip": "Soluta ut.",
-        "Deleted": true,
-        "Rank": 510,
-        "Type": "corporis",
-        "ColorBlock": 315,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2011-09-21T10:18:01.051244+02:00",
+        "Id": 368,
+        "Name": "Lang-Feil",
+        "ToolTip": "Quia pariatur sit aut officiis inventore rerum.",
+        "Deleted": false,
+        "Rank": 921,
+        "Type": "aspernatur",
+        "ColorBlock": 873,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2019-10-21T13:13:33.1829847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "sit",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Mrs. Greg Harold Thiel DDS"
+        "FullName": "Nick Haley"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "vitae",
+    "ExtraInfo": "fugit",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Ayden White"
+    "FullName": "Natalie Gislason"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Toy-Huel",
-    "ToolTip": "Tempore omnis perspiciatis accusamus repudiandae omnis.",
+    "Id": 903,
+    "Name": "D'Amore-Strosin",
+    "ToolTip": "Ad est possimus.",
     "Deleted": true,
-    "Rank": 901,
-    "Type": "odit",
-    "ColorBlock": 942,
-    "IconHint": "cupiditate",
+    "Rank": 949,
+    "Type": "deserunt",
+    "ColorBlock": 201,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2017-10-15T10:18:01.051244+02:00",
+    "LastChanged": "2022-03-10T13:13:33.1829847+01:00",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Johnson LLC",
-        "ToolTip": "Sed sed et minus quia ut eaque rerum.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "quia",
-        "ColorBlock": 511,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2005-08-20T10:18:01.051244+02:00",
+        "Id": 399,
+        "Name": "Conn Group",
+        "ToolTip": "Qui qui.",
+        "Deleted": true,
+        "Rank": 991,
+        "Type": "molestias",
+        "ColorBlock": 454,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2023-10-03T13:13:33.1829847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Eladio Lemke",
+        "ExtraInfo": "error",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Keira Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 290
+            "FieldType": "System.Int32",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Prof. Savanna Shanahan",
+    "ExtraInfo": "sequi",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Ms. Nyasia Lenna Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

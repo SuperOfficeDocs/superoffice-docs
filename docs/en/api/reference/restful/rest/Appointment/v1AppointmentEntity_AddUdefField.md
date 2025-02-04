@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 208,
-  "ColumnId": 332,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 829,
-  "FieldLabel": "dolorem",
-  "FieldLeft": 36,
-  "FieldTop": 479,
+  "UDefFieldId": 298,
+  "ColumnId": 614,
+  "FieldDefault": "ut",
+  "FieldHeight": 308,
+  "FieldLabel": "corrupti",
+  "FieldLeft": 681,
+  "FieldTop": 333,
   "FieldType": "Checkbox",
-  "FieldWidth": 495,
-  "FormatMask": "exercitationem",
+  "FieldWidth": 699,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 534,
-  "LabelLeft": 287,
-  "LabelTop": 649,
-  "LabelWidth": 386,
-  "LastVersionId": 790,
-  "ListTableId": 744,
-  "IsMandatory": true,
+  "LabelHeight": 868,
+  "LabelLeft": 928,
+  "LabelTop": 461,
+  "LabelWidth": 695,
+  "LastVersionId": 282,
+  "ListTableId": 45,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 368,
-  "ProgId": "est",
+  "Page1LineNo": 590,
+  "ProgId": "nulla",
   "IsReadOnly": false,
-  "ShortLabel": "vitae",
-  "TabOrder": 254,
-  "TextLength": 551,
-  "Tooltip": "optio",
-  "UdefIdentity": 812,
-  "UDListDefinitionId": 414,
+  "ShortLabel": "expedita",
+  "TabOrder": 231,
+  "TextLength": 911,
+  "Tooltip": "debitis",
+  "UdefIdentity": 102,
+  "UDListDefinitionId": 675,
   "Justification": "Center",
-  "Version": 348,
-  "TemplateVariableName": "Ward-Witting",
+  "Version": 701,
+  "TemplateVariableName": "Parker, Block and Volkman",
   "HasBeenPublished": false,
-  "MdoListName": "Lockman-Johnston",
+  "MdoListName": "Steuber LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 74
     }
   }
 }

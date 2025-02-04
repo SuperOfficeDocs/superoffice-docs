@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 736,
-  "WorkflowId": 577,
+  "WorkflowGoalId": 415,
+  "WorkflowId": 971,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Schumm Group",
-      "Description": "Stand-alone cohesive orchestration",
-      "Rank": 873,
+      "Name": "Braun Group",
+      "Description": "Down-sized human-resource knowledge base",
+      "Rank": 17,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schumm Group",
-      "Description": "Stand-alone cohesive orchestration",
-      "Rank": 873,
+      "Name": "Braun Group",
+      "Description": "Down-sized human-resource knowledge base",
+      "Rank": 17,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 16,
-  "WorkflowId": 344,
+  "WorkflowGoalId": 49,
+  "WorkflowId": 363,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Kiehn, Skiles and Skiles",
-      "Description": "Distributed assymetric standardization",
-      "Rank": 463,
+      "Name": "Gottlieb, Conroy and Trantow",
+      "Description": "Secured zero administration interface",
+      "Rank": 668,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kiehn, Skiles and Skiles",
-      "Description": "Distributed assymetric standardization",
-      "Rank": 463,
+      "Name": "Gottlieb, Conroy and Trantow",
+      "Description": "Secured zero administration interface",
+      "Rank": 668,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 95
     }
   }
 }

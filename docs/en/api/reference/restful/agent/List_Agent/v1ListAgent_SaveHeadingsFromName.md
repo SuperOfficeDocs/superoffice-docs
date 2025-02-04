@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schimmel Inc and Sons",
+  "Name": "Moore Group",
   "Entities": [
     {
-      "HeadingId": 945,
-      "Name": "Stark Group",
-      "Tooltip": "quia",
+      "HeadingId": 34,
+      "Name": "Bergnaum-Bayer",
+      "Tooltip": "facilis",
       "Deleted": false,
-      "Rank": 412,
-      "UdListDefinitionId": 15
+      "Rank": 976,
+      "UdListDefinitionId": 464
     },
     {
-      "HeadingId": 945,
-      "Name": "Stark Group",
-      "Tooltip": "quia",
+      "HeadingId": 34,
+      "Name": "Bergnaum-Bayer",
+      "Tooltip": "facilis",
       "Deleted": false,
-      "Rank": 412,
-      "UdListDefinitionId": 15
+      "Rank": 976,
+      "UdListDefinitionId": 464
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Rempel Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 753,
+    "Name": "Medhurst, Hermann and Sanford",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 80,
-    "UdListDefinitionId": 562,
+    "Rank": 310,
+    "UdListDefinitionId": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 744
       }
     }
   }

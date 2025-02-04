@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 150,
-  "ERPQuoteAlternativeKey": "ratione",
-  "QuoteVersionId": 441,
-  "Name": "Harvey LLC",
-  "Description": "Secured client-server monitoring",
+  "QuoteAlternativeId": 797,
+  "ERPQuoteAlternativeKey": "ab",
+  "QuoteVersionId": 763,
+  "Name": "Franecki, Bauch and Powlowski",
+  "Description": "Expanded executive migration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1175.25,
-  "ERPDiscountAmount": 23266.816,
-  "DiscountPercent": 16785.703999999998,
-  "DiscountAmount": 7766.052,
+  "ERPDiscountPercent": 31130.021999999997,
+  "ERPDiscountAmount": 24720.992,
+  "DiscountPercent": 27638.746,
+  "DiscountAmount": 22846.86,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "at",
-  "VAT": 27378.624,
-  "EarningPercent": 31167.629999999997,
-  "EarningAmount": 13488.735999999999,
-  "SubTotal": 16039.812,
-  "TotalPrice": 5365.4079999999994,
-  "ExtraField1": "sed",
-  "ExtraField2": "est",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "quia",
-  "ExtraField5": "aut",
+  "VATInfo": "dolores",
+  "VAT": 30315.182,
+  "EarningPercent": 200.576,
+  "EarningAmount": 12890.142,
+  "SubTotal": 9746.74,
+  "TotalPrice": 24909.032,
+  "ExtraField1": "assumenda",
+  "ExtraField2": "dolorum",
+  "ExtraField3": "ut",
+  "ExtraField4": "ut",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

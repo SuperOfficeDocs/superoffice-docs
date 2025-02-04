@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845
+  "Id": 849
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 429,
-    "Name": "Kirlin-Heathcote",
-    "Tooltip": "dicta",
-    "Deleted": true,
-    "Rank": 349,
-    "UdListDefinitionId": 687,
+    "HeadingId": 40,
+    "Name": "Kulas Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 550,
+    "UdListDefinitionId": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 684
       }
     }
   }

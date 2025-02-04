@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 56,
-  "Name": "Gerlach Group",
-  "Tooltip": "commodi",
+  "WebPanelId": 743,
+  "Name": "Hegmann-Schaden",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 367,
+  "Rank": 734,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Kulas-Mertz",
+  "WindowName": "Gaylord-Kerluke",
   "Url": "http://www.example.com/",
-  "ProgId": "debitis",
-  "Icon": 53,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "quod",
+  "Icon": 991,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

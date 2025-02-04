@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Facilis impedit laudantium dolores ullam iste.",
+    "Id": 189,
+    "Name": "Sporer-Zulauf",
+    "ToolTip": "Culpa neque occaecati placeat unde vero explicabo fugit.",
     "Deleted": false,
-    "Rank": 796,
-    "Type": "alias",
-    "ColorBlock": 539,
-    "IconHint": "enim",
+    "Rank": 749,
+    "Type": "sapiente",
+    "ColorBlock": 458,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2024-07-15T10:18:00.9887407+02:00",
+    "LastChanged": "2014-07-07T13:13:33.0111516+02:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Franecki-Breitenberg",
-        "ToolTip": "Temporibus esse.",
+        "Id": 141,
+        "Name": "Boehm-Schiller",
+        "ToolTip": "Rem aut quasi facere labore autem.",
         "Deleted": false,
-        "Rank": 692,
-        "Type": "iusto",
-        "ColorBlock": 610,
-        "IconHint": "ducimus",
+        "Rank": 406,
+        "Type": "dolor",
+        "ColorBlock": 929,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2022-11-26T10:18:00.9887407+01:00",
+        "LastChanged": "2009-06-06T13:13:33.0111516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "expedita",
+        "ExtraInfo": "nihil",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Filiberto Hamill"
+        "FullName": "Isaiah Cummings"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Winston Halvorson"
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Josefa Homenick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Brakus, Johnston and Rippin",
-    "ToolTip": "Laborum amet similique eveniet consequatur.",
+    "Id": 566,
+    "Name": "Smitham Group",
+    "ToolTip": "Sit omnis non dolor.",
     "Deleted": true,
-    "Rank": 560,
-    "Type": "temporibus",
-    "ColorBlock": 305,
-    "IconHint": "consequatur",
+    "Rank": 62,
+    "Type": "voluptatum",
+    "ColorBlock": 347,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2020-04-06T10:18:00.9887407+02:00",
+    "LastChanged": "2012-05-31T13:13:33.0111516+02:00",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Waelchi-Dietrich",
-        "ToolTip": "Corrupti et molestias nam.",
+        "Id": 816,
+        "Name": "Nolan-Schoen",
+        "ToolTip": "Accusantium veniam rem error et natus.",
         "Deleted": false,
-        "Rank": 191,
-        "Type": "omnis",
-        "ColorBlock": 219,
-        "IconHint": "sequi",
+        "Rank": 495,
+        "Type": "quia",
+        "ColorBlock": 180,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2000-12-21T10:18:00.9887407+01:00",
+        "LastChanged": "2015-06-30T13:13:33.0111516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Darien Mertz",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Ernestina Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldType": "System.String",
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Mrs. Alexandre Champlin DVM",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "cupiditate",
+    "Hidden": false,
+    "FullName": "Rhiannon Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 623
       }
     }
   }

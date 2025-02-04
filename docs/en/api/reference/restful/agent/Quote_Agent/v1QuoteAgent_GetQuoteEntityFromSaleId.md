@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 402
+  "SaleId": 272
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 967,
-  "SaleId": 691,
-  "QuoteConnectionId": 741,
-  "ERPQuoteKey": "dignissimos",
-  "ERPOrderKey": "totam",
-  "ActiveQuoteVersionId": 528,
-  "AcceptedQuoteAlternativeId": 654,
-  "UseValuesFromQuote": 669,
-  "DocumentId": 299,
-  "PoNumber": "798824",
-  "OrderComment": "consequatur",
-  "PreferredEmailCulture": "tierra@smith.name",
+  "QuoteId": 448,
+  "SaleId": 777,
+  "QuoteConnectionId": 256,
+  "ERPQuoteKey": "eum",
+  "ERPOrderKey": "optio",
+  "ActiveQuoteVersionId": 295,
+  "AcceptedQuoteAlternativeId": 896,
+  "UseValuesFromQuote": 87,
+  "DocumentId": 724,
+  "PoNumber": "1237373",
+  "OrderComment": "ipsa",
+  "PreferredEmailCulture": "elaina@mcclure.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 494,
-      "ERPQuoteVersionKey": "neque",
-      "QuoteId": 117,
-      "Description": "Switchable attitude-oriented solution",
-      "Number": "1180117",
+      "QuoteVersionId": 908,
+      "ERPQuoteVersionKey": "ad",
+      "QuoteId": 330,
+      "Description": "Assimilated logistical initiative",
+      "Number": "1520069",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 39,
-      "SentDate": "2008-02-08T10:17:55.9415595+01:00",
-      "FollowupId": 755,
-      "ExpirationDate": "2007-02-28T10:17:55.9415595+01:00",
-      "DeliveryCountryId": 711,
+      "LikelyQuoteAlternativeId": 707,
+      "SentDate": "2000-01-23T13:13:23.7581921+01:00",
+      "FollowupId": 46,
+      "ExpirationDate": "2011-06-10T13:13:23.7581921+02:00",
+      "DeliveryCountryId": 191,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 586,
+      "InvoiceCountryId": 165,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ullam",
-      "ERPPaymentTypeKey": "aspernatur",
-      "ERPDeliveryTermsKey": "earum",
-      "ERPDeliveryTypeKey": "quisquam",
-      "Rank": 652,
-      "ApprovedBy": 442,
-      "ApprovedText": "aperiam",
-      "ApprovedRegisteredBy": 467,
-      "ApprovedRegisteredDate": "1999-09-15T10:17:55.9415595+02:00",
-      "ExtraField1": "voluptas",
-      "ExtraField2": "quia",
-      "ExtraField3": "exercitationem",
-      "ExtraField4": "praesentium",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2023-08-04T10:17:55.9415595+02:00",
-      "Updated": "2015-02-04T10:17:55.9415595+01:00",
-      "UpdatedAssociateId": 696,
-      "Registered": "2023-06-14T10:17:55.9415595+02:00",
-      "RegisteredAssociateId": 552,
-      "RequestAssociateId": 16,
-      "RequestComment": "ut",
+      "ERPPaymentTermsKey": "quod",
+      "ERPPaymentTypeKey": "molestias",
+      "ERPDeliveryTermsKey": "natus",
+      "ERPDeliveryTypeKey": "eos",
+      "Rank": 401,
+      "ApprovedBy": 327,
+      "ApprovedText": "ut",
+      "ApprovedRegisteredBy": 404,
+      "ApprovedRegisteredDate": "2000-04-24T13:13:23.7581921+02:00",
+      "ExtraField1": "omnis",
+      "ExtraField2": "perferendis",
+      "ExtraField3": "corporis",
+      "ExtraField4": "accusamus",
+      "ExtraField5": "sed",
+      "LastRecalculated": "1999-03-11T13:13:23.7581921+01:00",
+      "Updated": "2021-04-06T13:13:23.7581921+02:00",
+      "UpdatedAssociateId": 670,
+      "Registered": "2005-12-02T13:13:23.7581921+01:00",
+      "RegisteredAssociateId": 834,
+      "RequestAssociateId": 352,
+      "RequestComment": "enim",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 117
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

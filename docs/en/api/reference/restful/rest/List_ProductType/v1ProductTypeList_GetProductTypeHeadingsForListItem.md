@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Murphy, Kreiger and Von",
-    "ToolTip": "Tempora minima omnis odio eius rerum.",
+    "Id": 11,
+    "Name": "Price-Miller",
+    "ToolTip": "Ea et maiores reiciendis et.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "expedita",
-    "ColorBlock": 590,
-    "IconHint": "commodi",
+    "Rank": 660,
+    "Type": "blanditiis",
+    "ColorBlock": 408,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2006-07-22T10:18:01.0981224+02:00",
+    "LastChanged": "2018-01-31T13:13:33.3548212+01:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Ratke, Kunze and Herman",
-        "ToolTip": "Reprehenderit omnis molestiae molestias.",
+        "Id": 582,
+        "Name": "Jacobson Group",
+        "ToolTip": "At sed repellendus iusto nisi consectetur laborum.",
         "Deleted": true,
-        "Rank": 503,
-        "Type": "vero",
-        "ColorBlock": 891,
-        "IconHint": "veniam",
+        "Rank": 577,
+        "Type": "odio",
+        "ColorBlock": 781,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2020-01-22T10:18:01.0981224+01:00",
+        "LastChanged": "2008-09-17T13:13:33.3548212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Ozella Bria Goyette DDS",
+        "ExtraInfo": "eaque",
+        "StyleHint": "minus",
+        "Hidden": true,
+        "FullName": "Dr. Bridgette Collins V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 435
+            "FieldType": "System.Int32",
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "delectus",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Ms. Loma King",
+    "FullName": "Emiliano Kacie Thiel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 219
       }
     }
   }

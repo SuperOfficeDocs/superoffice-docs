@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 825,
-  "ColumnId": 136,
-  "FieldDefault": "et",
-  "FieldHeight": 362,
-  "FieldLabel": "ad",
-  "FieldLeft": 11,
-  "FieldTop": 760,
+  "UDefFieldId": 408,
+  "ColumnId": 865,
+  "FieldDefault": "ut",
+  "FieldHeight": 188,
+  "FieldLabel": "nemo",
+  "FieldLeft": 933,
+  "FieldTop": 94,
   "FieldType": "Checkbox",
-  "FieldWidth": 122,
-  "FormatMask": "culpa",
+  "FieldWidth": 469,
+  "FormatMask": "quaerat",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 854,
-  "LabelLeft": 820,
-  "LabelTop": 979,
+  "IsIndexed": false,
+  "LabelHeight": 301,
+  "LabelLeft": 577,
+  "LabelTop": 454,
   "LabelWidth": 419,
-  "LastVersionId": 951,
-  "ListTableId": 31,
+  "LastVersionId": 157,
+  "ListTableId": 919,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 128,
-  "ProgId": "sed",
+  "Page1LineNo": 486,
+  "ProgId": "ipsa",
   "IsReadOnly": true,
-  "ShortLabel": "fugiat",
-  "TabOrder": 56,
-  "TextLength": 693,
-  "Tooltip": "dolore",
-  "UdefIdentity": 649,
-  "UDListDefinitionId": 549,
+  "ShortLabel": "et",
+  "TabOrder": 229,
+  "TextLength": 601,
+  "Tooltip": "et",
+  "UdefIdentity": 10,
+  "UDListDefinitionId": 670,
   "Justification": "Center",
-  "Version": 426,
-  "TemplateVariableName": "Nolan, Spencer and Roob",
+  "Version": 284,
+  "TemplateVariableName": "Krajcik, Mertz and McKenzie",
   "HasBeenPublished": false,
-  "MdoListName": "Greenholt-Hand",
+  "MdoListName": "Stehr-Cummings",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 893
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 31,
-  "Name": "Kub LLC",
-  "Rank": 449,
-  "Tooltip": "repudiandae",
+  "AssociateId": 81,
+  "Name": "Shields-Volkman",
+  "Rank": 697,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Windler-Lakin",
-      "Description": "Proactive secondary extranet",
+      "Name": "Feest Group",
+      "Description": "Open-source optimal website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 492
+          "FieldLength": 457
         }
       }
     },
     {
-      "Name": "Windler-Lakin",
-      "Description": "Proactive secondary extranet",
+      "Name": "Feest Group",
+      "Description": "Open-source optimal website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 492
+          "FieldLength": 457
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "at",
-      "Tooltip": "natus",
-      "Id": 388,
-      "Rank": 165,
-      "Deleted": true,
+      "Value": "ut",
+      "Tooltip": "vitae",
+      "Id": 669,
+      "Rank": 16,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 139
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2003-07-04T10:18:00.8949851+02:00",
-  "Lastlogout": "2014-04-06T10:18:00.8949851+02:00",
-  "EjUserId": 999,
-  "RequestSignature": "in",
+  "Deleted": true,
+  "Lastlogin": "2006-02-27T13:13:32.6830407+01:00",
+  "Lastlogout": "2001-12-11T13:13:32.6830407+01:00",
+  "EjUserId": 594,
+  "RequestSignature": "magnam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "hic",
-      "DisplayValue": "laborum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "hic",
-      "DisplayValue": "laborum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
-        }
-      }
-    }
-  ],
-  "UserName": "Bashirian, Romaguera and Upton",
-  "TicketCategories": [
-    {
-      "Id": 432,
-      "Name": "Cronin-Bartell",
-      "ToolTip": "Et modi.",
-      "Deleted": true,
-      "Rank": 648,
-      "Type": "rem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "veritatis",
-      "ColorBlock": 482,
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "facilis",
-      "FullName": "Gladys Satterfield",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
-        }
-      }
-    }
-  ],
-  "NickName": "Cartwright-O'Keefe",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "placeat"
-  },
-  "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "similique"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Waelchi-Reilly",
-      "DisplayName": "Kiehn Inc and Sons",
-      "Description": "Future-proofed eco-centric frame",
-      "ToolTip": "Quis expedita temporibus non vitae.",
-      "Actions": "Implicit",
-      "ActionData": "non",
+      "Value": "ut",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 998
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ut",
+      "DisplayValue": "minus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 998
+        }
+      }
+    }
+  ],
+  "UserName": "Reilly, Hettinger and Erdman",
+  "TicketCategories": [
+    {
+      "Id": 800,
+      "Name": "Von-Gorczany",
+      "ToolTip": "Facere rem veritatis et ut explicabo molestias et.",
+      "Deleted": true,
+      "Rank": 22,
+      "Type": "eveniet",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "sunt",
+      "ColorBlock": 699,
+      "ExtraInfo": "veritatis",
+      "StyleHint": "suscipit",
+      "FullName": "Ola Johnson",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 404
+        }
+      }
+    }
+  ],
+  "NickName": "Becker, Dietrich and Cartwright",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "enim",
+    "ExtraFields2": "totam"
+  },
+  "CustomFields": {
+    "CustomFields1": "ut",
+    "CustomFields2": "reiciendis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Treutel-Cummings",
+      "DisplayName": "Schuppe, Adams and Schmeler",
+      "Description": "Multi-layered national solution",
+      "ToolTip": "Sit qui voluptas fugit sed.",
+      "Actions": "Implicit",
+      "ActionData": "ad",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 408
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 967
     }
   }
 }

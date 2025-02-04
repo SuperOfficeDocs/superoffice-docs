@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 667,
+  "ReportId": 587,
   "ReportCategory": "All",
-  "Description": "Configurable optimizing time-frame",
+  "Description": "Reactive 3rd generation task-force",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bartell-Beier",
-  "AssociateId": 144,
-  "TemplateId": 614,
-  "Published": false,
+  "Name": "Simonis-Glover",
+  "AssociateId": 475,
+  "TemplateId": 665,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 818
     }
   }
 }

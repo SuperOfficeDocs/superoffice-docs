@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=427
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=554
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 288,
-  "WorkflowStepId": 806,
-  "WorkflowId": 102,
-  "Rank": 825,
+  "WorkflowWaitForActionId": 304,
+  "WorkflowStepId": 149,
+  "WorkflowId": 787,
+  "Rank": 821,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Leannon-Rutherford",
-      "Description": "Progressive assymetric infrastructure",
-      "Rank": 979,
+      "Name": "Schulist, Schumm and Harvey",
+      "Description": "Enterprise-wide 3rd generation superstructure",
+      "Rank": 906,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Leannon-Rutherford",
-      "Description": "Progressive assymetric infrastructure",
-      "Rank": 979,
+      "Name": "Schulist, Schumm and Harvey",
+      "Description": "Enterprise-wide 3rd generation superstructure",
+      "Rank": 906,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 268
     }
   }
 }

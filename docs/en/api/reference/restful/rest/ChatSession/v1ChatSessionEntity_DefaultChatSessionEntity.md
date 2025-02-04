@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 831,
-  "TopicId": 231,
+  "ChatSessionId": 311,
+  "TopicId": 184,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "cupiditate",
-  "CustomerName": "Reilly, Wolff and Marquardt",
-  "CustomerEmail": "jeramie@wiza.name",
-  "CustomerPhone": "1-032-404-6105",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Bergstrom, DuBuque and Thompson",
+  "CustomerAlias": "temporibus",
+  "CustomerHost": "delectus",
+  "CustomerName": "McKenzie-Spinka",
+  "CustomerEmail": "jamir.deckow@walsh.ca",
+  "CustomerPhone": "1-182-424-4454",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Smitham-Kerluke",
   "Status": "Closed",
-  "FirstMessage": "minima",
-  "LastMessage": "numquam",
-  "WhenRequested": "2002-08-29T10:18:00.1761898+02:00",
-  "WhenStarted": "2013-10-24T10:18:00.1761898+02:00",
-  "WhenEnded": "2002-11-29T10:18:00.1761898+01:00",
-  "WhenIdle": "2010-05-22T10:18:00.1761898+02:00",
-  "WhenFetched": "2016-12-22T10:18:00.1761898+01:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 257,
-  "AlertLevel": 704,
-  "Rank": 60,
+  "FirstMessage": "sint",
+  "LastMessage": "quo",
+  "WhenRequested": "2006-10-20T13:13:31.2927009+02:00",
+  "WhenStarted": "2002-12-03T13:13:31.2927009+01:00",
+  "WhenEnded": "2020-11-01T13:13:31.2927009+01:00",
+  "WhenIdle": "2000-07-08T13:13:31.2927009+02:00",
+  "WhenFetched": "2000-07-09T13:13:31.2927009+02:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 42,
+  "AlertLevel": 817,
+  "Rank": 569,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 549,
+  "ChatbotIsActive": true,
+  "Rating": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 88
     }
   }
 }

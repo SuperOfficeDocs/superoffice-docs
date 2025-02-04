@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "minima",
+  "SearchString": "unde",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(097)037-0808 x080",
-    "PersonCellPhone": "1-686-300-7924 x975",
-    "PersonPrivatePhone": "163-772-1401 x187",
-    "PersonFaxNumber": "789173",
-    "PersonPagerNumber": "1663943",
-    "PersonEmail": "rickie@wolfweissnat.ca",
-    "Id": 434,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "non",
-    "UniqueId": "voluptas",
+    "PersonDirectPhone": "696-959-2219 x0968",
+    "PersonCellPhone": "197.494.0185",
+    "PersonPrivatePhone": "446-108-3672 x1254",
+    "PersonFaxNumber": "1161822",
+    "PersonPagerNumber": "678965",
+    "PersonEmail": "angelina@borer.info",
+    "Id": 323,
+    "Name": "Cole Inc and Sons",
+    "Tooltip": "numquam",
+    "UniqueId": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 550
       }
     }
   }

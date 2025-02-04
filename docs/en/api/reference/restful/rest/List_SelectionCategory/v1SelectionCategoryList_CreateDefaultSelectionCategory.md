@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Upton, Harris and Kuhic",
-  "Tooltip": "ut",
+  "Id": 673,
+  "Name": "Kunde Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 718,
-  "Rank": 181,
+  "UdListDefinitionId": 520,
+  "Rank": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

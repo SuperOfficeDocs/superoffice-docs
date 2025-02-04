@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Stiedemann, Hudson and Ortiz",
-  "Tooltip": "aliquam",
+  "Id": 986,
+  "Name": "Koch Group",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 603,
-  "Rank": 737,
+  "UdListDefinitionId": 651,
+  "Rank": 230,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 48
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 326,
-    "Name": "Schimmel-Breitenberg",
-    "Tooltip": "aut",
+    "HeadingId": 599,
+    "Name": "Lesch-Gulgowski",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 51,
-    "UdListDefinitionId": 262,
+    "Rank": 1000,
+    "UdListDefinitionId": 574,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

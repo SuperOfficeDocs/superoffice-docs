@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Bruen-Ruecker",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "Rank": 536,
+  "Id": 970,
+  "Name": "Lind-Lesch",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 303,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "placeat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Howe Group",
-  "Tooltip": "ea",
+  "Id": 213,
+  "Name": "Jones, Rutherford and Tremblay",
+  "Tooltip": "cum",
   "Deleted": true,
-  "Rank": 427,
+  "Rank": 115,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "error",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 396
     }
   }
 }

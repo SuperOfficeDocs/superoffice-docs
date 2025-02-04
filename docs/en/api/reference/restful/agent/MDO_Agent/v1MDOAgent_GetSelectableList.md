@@ -94,10 +94,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerhold, Von and Reilly",
+  "Name": "Becker-Pacocha",
   "ForceFlatList": false,
-  "AdditionalInfo": "eos",
-  "OnlyHistory": true
+  "AdditionalInfo": "quia",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Schoen-O'Kon",
-    "ToolTip": "Aut dolor repellendus.",
-    "Deleted": false,
-    "Rank": 403,
-    "Type": "et",
-    "ColorBlock": 125,
-    "IconHint": "ratione",
+    "Id": 22,
+    "Name": "Jaskolski LLC",
+    "ToolTip": "Magnam sunt tempore ullam.",
+    "Deleted": true,
+    "Rank": 17,
+    "Type": "laudantium",
+    "ColorBlock": 874,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-01-26T10:17:55.7696734+01:00",
+    "LastChanged": "2004-06-30T13:13:23.3676626+02:00",
     "ChildItems": [
       {
-        "Id": 316,
-        "Name": "Rippin LLC",
-        "ToolTip": "Inventore enim.",
+        "Id": 170,
+        "Name": "Harvey-Beatty",
+        "ToolTip": "Quis reprehenderit voluptatem quo et nostrum eum commodi.",
         "Deleted": false,
-        "Rank": 348,
-        "Type": "velit",
-        "ColorBlock": 592,
-        "IconHint": "ea",
+        "Rank": 312,
+        "Type": "ut",
+        "ColorBlock": 384,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2020-02-23T10:17:55.7696734+01:00",
+        "LastChanged": "1998-12-15T13:13:23.3676626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Freida Feest",
+        "ExtraInfo": "aut",
+        "StyleHint": "temporibus",
+        "Hidden": true,
+        "FullName": "Prof. Reese Newell Wunsch III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 820
+            "FieldLength": 176
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Roma Schumm",
+    "ExtraInfo": "labore",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Ms. Deondre Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 396
       }
     }
   }

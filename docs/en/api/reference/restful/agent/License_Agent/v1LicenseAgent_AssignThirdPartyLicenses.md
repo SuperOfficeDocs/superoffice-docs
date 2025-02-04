@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 404,
-  "ModuleOwner": "non",
+  "AssociateId": 402,
+  "ModuleOwner": "sunt",
   "ModuleLicenseNames": [
-    "Erdman LLC",
-    "Carroll LLC"
+    "Bailey Inc and Sons",
+    "Koepp-McLaughlin"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 179,
-    "Tooltip": "dignissimos",
+    "Unrestricted": true,
+    "Total": 547,
+    "Tooltip": "exercitationem",
     "CanAssign": false,
-    "Free": 378,
-    "InUse": 673,
+    "Free": 744,
+    "InUse": 716,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 879,
-    "Name": "Stoltenberg LLC",
-    "Description": "Object-based client-server support",
-    "PrerequisiteModuleName": "Turcotte Inc and Sons",
-    "SortOrder": 52,
-    "ExtraFlags": 444,
+    "Assigned": false,
+    "ModuleLicenseId": 859,
+    "Name": "Walter Inc and Sons",
+    "Description": "Synergized maximized Graphic Interface",
+    "PrerequisiteModuleName": "Braun, Grimes and Kunze",
+    "SortOrder": 745,
+    "ExtraFlags": 508,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 499
       }
     }
   }

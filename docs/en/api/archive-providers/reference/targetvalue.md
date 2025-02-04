@@ -394,13 +394,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
-|contact/selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|contact/selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |contact/selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=contact/postAddress/county,contact/contactAssociate/contactFullName,contact/contactSupportPerson/personExtra/x_person_contact_relation
+GET /api/v1/archive/TargetValue?$select=contact/contactAssociate/locationAddress,contact/contactSupportAssociate/personId,contact/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

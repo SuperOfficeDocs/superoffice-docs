@@ -151,18 +151,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "iste",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "iste",
     "value": {}
   }
 ]
@@ -175,157 +175,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274,
-  "Name": "Dare-Gerhold",
+  "ContactId": 384,
+  "Name": "Mayer, Jacobi and Muller",
   "Department": "",
-  "OrgNr": "452284",
-  "Number1": "393232",
-  "Number2": "995645",
-  "UpdatedDate": "2016-09-08T10:18:00.3168238+02:00",
-  "CreatedDate": "2001-06-08T10:18:00.3168238+02:00",
+  "OrgNr": "1699585",
+  "Number1": "994271",
+  "Number2": "1309662",
+  "UpdatedDate": "1999-10-03T13:13:31.5582689+02:00",
+  "CreatedDate": "1999-03-02T13:13:31.5582689+01:00",
   "Emails": [
     {
-      "Value": "excepturi",
-      "StrippedValue": "ut",
-      "Description": "Multi-layered 4th generation alliance",
+      "Value": "sequi",
+      "StrippedValue": "porro",
+      "Description": "Face to face static focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 638
         }
       }
     },
     {
-      "Value": "excepturi",
-      "StrippedValue": "ut",
-      "Description": "Multi-layered 4th generation alliance",
+      "Value": "sequi",
+      "StrippedValue": "porro",
+      "Description": "Face to face static focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 638
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 897,
-      "Name": "Beier, Hoeger and Turner",
-      "ToolTip": "Et quos sed ut ab consequatur cumque fuga.",
-      "Deleted": true,
-      "Rank": 617,
-      "Type": "et",
-      "ColorBlock": 866,
-      "IconHint": "tempore",
-      "Selected": false,
-      "LastChanged": "2016-10-11T10:18:00.3168238+02:00",
+      "Id": 456,
+      "Name": "Bashirian LLC",
+      "ToolTip": "Repellendus dolorem fugit.",
+      "Deleted": false,
+      "Rank": 520,
+      "Type": "maiores",
+      "ColorBlock": 478,
+      "IconHint": "nesciunt",
+      "Selected": true,
+      "LastChanged": "2011-07-21T13:13:31.5582689+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "temporibus",
-      "Hidden": false,
-      "FullName": "Soledad Gutmann",
+      "ExtraInfo": "nobis",
+      "StyleHint": "harum",
+      "Hidden": true,
+      "FullName": "Ms. Loma Genoveva Buckridge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldType": "System.Int32",
+          "FieldLength": 249
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "dolores",
-      "StrippedValue": "qui",
-      "Description": "Proactive encompassing customer loyalty",
+      "Value": "laudantium",
+      "StrippedValue": "consequuntur",
+      "Description": "Team-oriented mission-critical throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 207
         }
       }
     },
     {
-      "Value": "dolores",
-      "StrippedValue": "qui",
-      "Description": "Proactive encompassing customer loyalty",
+      "Value": "laudantium",
+      "StrippedValue": "consequuntur",
+      "Description": "Team-oriented mission-critical throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 207
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "ut",
-      "StrippedValue": "labore",
-      "Description": "Fully-configurable foreground adapter",
+      "Value": "non",
+      "StrippedValue": "iusto",
+      "Description": "Advanced stable projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldType": "System.String",
+          "FieldLength": 920
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "labore",
-      "Description": "Fully-configurable foreground adapter",
+      "Value": "non",
+      "StrippedValue": "iusto",
+      "Description": "Advanced stable projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldType": "System.String",
+          "FieldLength": 920
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "aperiam",
-      "Description": "Monitored composite initiative",
+      "Value": "corrupti",
+      "StrippedValue": "odio",
+      "Description": "Sharable multi-tasking project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 669
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "aperiam",
-      "Description": "Monitored composite initiative",
+      "Value": "corrupti",
+      "StrippedValue": "odio",
+      "Description": "Sharable multi-tasking project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 669
         }
       }
     }
   ],
-  "Description": "Up-sized incremental synergy",
+  "Description": "Innovative empowering Graphical User Interface",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -334,105 +334,105 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 357,
-      "Mrmrs": "dolorem",
-      "Firstname": "Sigurd",
-      "Lastname": "Heidenreich",
-      "MiddleName": "Marvin-Kling",
-      "Title": "maxime",
-      "Description": "Synchronised zero defect model",
-      "Email": "joan.kreiger@rowe.us",
-      "FullName": "Mrs. Karianne Clovis Legros",
-      "DirectPhone": "(032)717-7218",
-      "FormalName": "Murazik-Wolff",
-      "CountryId": 572,
-      "ContactId": 62,
-      "ContactName": "Ziemann-Tremblay",
-      "Retired": 720,
-      "Rank": 248,
-      "ActiveInterests": 101,
+      "Position": "aliquid",
+      "PersonId": 755,
+      "Mrmrs": "iure",
+      "Firstname": "Alejandrin",
+      "Lastname": "Cummerata",
+      "MiddleName": "Bartoletti, Brown and Pacocha",
+      "Title": "sapiente",
+      "Description": "Quality-focused heuristic hardware",
+      "Email": "jackeline.aufderhar@rau.name",
+      "FullName": "Ms. Blanca Mariah Lesch Jr.",
+      "DirectPhone": "1-147-025-3443 x5975",
+      "FormalName": "Morar Group",
+      "CountryId": 49,
+      "ContactId": 644,
+      "ContactName": "Yost, Reynolds and Smitham",
+      "Retired": 968,
+      "Rank": 928,
+      "ActiveInterests": 506,
       "ContactDepartment": "",
-      "ContactCountryId": 56,
-      "ContactOrgNr": "1731276",
-      "FaxPhone": "1-750-292-6448 x649",
-      "MobilePhone": "(503)757-3274",
-      "ContactPhone": "218.086.2448",
-      "AssociateName": "Ledner-Zulauf",
-      "AssociateId": 209,
+      "ContactCountryId": 253,
+      "ContactOrgNr": "1266004",
+      "FaxPhone": "1-825-886-9207",
+      "MobilePhone": "323.105.1045",
+      "ContactPhone": "776-244-5655 x473",
+      "AssociateName": "Sauer LLC",
+      "AssociateId": 88,
       "UsePersonAddress": true,
-      "ContactFax": "vero",
-      "Kanafname": "consequatur",
-      "Kanalname": "eveniet",
-      "Post1": "corrupti",
-      "Post2": "aliquid",
-      "Post3": "iste",
-      "EmailName": "hassie@fritsch.uk",
-      "ContactFullName": "Una Dibbert",
-      "ActiveErpLinks": 310,
-      "TicketPriorityId": 35,
-      "SupportLanguageId": 40,
-      "SupportAssociateId": 434,
+      "ContactFax": "voluptas",
+      "Kanafname": "ut",
+      "Kanalname": "sunt",
+      "Post1": "dicta",
+      "Post2": "doloribus",
+      "Post3": "qui",
+      "EmailName": "thalia@bruen.name",
+      "ContactFullName": "Miss Sharon Khalid Nicolas DVM",
+      "ActiveErpLinks": 770,
+      "TicketPriorityId": 526,
+      "SupportLanguageId": 685,
+      "SupportAssociateId": 707,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldType": "System.String",
+          "FieldLength": 53
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "asperiores",
-  "Xstop": false,
-  "ActiveInterests": 535,
-  "GroupId": 150,
-  "ActiveStatusMonitorId": 783,
+  "Kananame": "ut",
+  "Xstop": true,
+  "ActiveInterests": 455,
+  "GroupId": 481,
+  "ActiveStatusMonitorId": 790,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 527,
-  "DbiAgentId": 72,
-  "DbiLastSyncronized": "2011-12-14T10:18:00.3168238+01:00",
-  "DbiKey": "voluptatem",
-  "DbiLastModified": "2020-02-22T10:18:00.3168238+01:00",
+  "Deleted": 801,
+  "DbiAgentId": 990,
+  "DbiLastSyncronized": "2015-08-25T13:13:31.5582689+02:00",
+  "DbiKey": "ut",
+  "DbiLastModified": "2024-11-30T13:13:31.5582689+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 289,
-  "ActiveErpLinks": 857,
+  "Source": 324,
+  "ActiveErpLinks": 837,
   "BounceEmails": [
-    "gabe@fisherokon.uk",
-    "reyna_goodwin@carterwindler.com"
+    "tatum_wisozk@jones.biz",
+    "eleazar.dare@ernser.ca"
   ],
   "Domains": [
-    "maiores",
-    "dolor"
+    "ullam",
+    "magnam"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Garret Goldner MD",
-    "SuperOffice:2": "Johnny Grant"
+    "SuperOffice:1": "Ms. Avis Lockman PhD",
+    "SuperOffice:2": "Earnest Schroeder"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 625
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

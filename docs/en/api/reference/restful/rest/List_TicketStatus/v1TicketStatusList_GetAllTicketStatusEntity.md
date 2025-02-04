@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 438,
-    "Name": "Bergnaum, Glover and Hirthe",
+    "TicketStatusId": 252,
+    "Name": "Hudson, Pfannerstill and McGlynn",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 626
       }
     }
   }

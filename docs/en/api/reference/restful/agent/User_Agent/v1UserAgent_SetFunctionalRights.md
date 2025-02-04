@@ -74,10 +74,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 549,
+  "RoleId": 9,
   "FunctionalRightIds": [
-    560,
-    363
+    826,
+    520
   ]
 }
 ```

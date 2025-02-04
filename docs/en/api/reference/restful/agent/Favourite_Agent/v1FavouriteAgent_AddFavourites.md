@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Smith-Walsh",
+  "TableName": "Watsica-Botsford",
   "RecordIds": [
-    812,
-    615
+    760,
+    922
   ],
-  "AssociateId": 971,
-  "ExtraInfo": "ad"
+  "AssociateId": 983,
+  "ExtraInfo": "amet"
 }
 ```
 

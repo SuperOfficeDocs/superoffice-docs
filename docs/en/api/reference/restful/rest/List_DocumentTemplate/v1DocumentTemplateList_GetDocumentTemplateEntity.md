@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 442,
-  "Name": "Muller, Predovic and Watsica",
-  "Tooltip": "et",
-  "SaveInDb": 138,
-  "Filename": "sit",
-  "DefaultOref": "incidunt",
+  "DocumentTemplateId": 416,
+  "Name": "Ledner Group",
+  "Tooltip": "vel",
+  "SaveInDb": 736,
+  "Filename": "atque",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 168,
-  "IntentId": 503,
-  "IsDefaultPublished": false,
-  "Rank": 452,
-  "LoadTemplateFromPlugin": 428,
-  "MimeType": "maiores",
+  "AutoeventId": 160,
+  "IntentId": 669,
+  "IsDefaultPublished": true,
+  "Rank": 572,
+  "LoadTemplateFromPlugin": 396,
+  "MimeType": "velit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 557,
+  "DocumentTypeKey": 340,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "taurean@rohan.us",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "sallie@dickens.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brett_bernhard@schaden.biz",
+  "SenderEmailAddress": "eldridge@batzwisozk.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   }
 }

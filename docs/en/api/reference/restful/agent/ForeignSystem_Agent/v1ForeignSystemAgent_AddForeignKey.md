@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Bayer, Treutel and Littel",
-  "DeviceName": "Balistreri Group",
-  "DeviceIdentifier": "cum"
+  "ApplicationName": "Koepp-Mitchell",
+  "DeviceName": "Barrows Inc and Sons",
+  "DeviceIdentifier": "sed"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "unde",
-  "Value": "adipisci",
-  "RecordId": 385,
-  "CreatedDate": "2010-05-26T10:17:55.660285+02:00",
-  "UpdatedDate": "2015-10-11T10:17:55.660285+02:00",
-  "UpdatedBy": "vitae",
-  "CreatedBy": "magni",
-  "TableName": "Ortiz Group",
+  "Key": "eligendi",
+  "Value": "necessitatibus",
+  "RecordId": 194,
+  "CreatedDate": "2001-06-19T13:13:23.1645837+02:00",
+  "UpdatedDate": "2008-04-26T13:13:23.1645837+02:00",
+  "UpdatedBy": "asperiores",
+  "CreatedBy": "doloribus",
+  "TableName": "Stiedemann, Mueller and Goldner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

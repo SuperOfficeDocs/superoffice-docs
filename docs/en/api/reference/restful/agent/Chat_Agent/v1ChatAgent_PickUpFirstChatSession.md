@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 888,
-  "TopicId": 574,
+  "ChatSessionId": 319,
+  "TopicId": 490,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quis",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Ullrich, Borer and Lebsack",
-  "CustomerEmail": "trace@gorczanyswaniawski.info",
-  "CustomerPhone": "1-183-910-9516 x306",
+  "CustomerAlias": "molestiae",
+  "CustomerHost": "rerum",
+  "CustomerName": "Batz-Howell",
+  "CustomerEmail": "kenton.hegmann@feil.info",
+  "CustomerPhone": "154-164-9875 x008",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Monahan Group",
+  "CustomerCompanyName": "Streich LLC",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2014-11-16T10:17:55.1915141+01:00",
-  "WhenStarted": "1998-02-04T10:17:55.1915141+01:00",
-  "WhenEnded": "2000-08-27T10:17:55.1915141+02:00",
-  "WhenIdle": "2015-06-14T10:17:55.1915141+02:00",
-  "WhenFetched": "1998-02-08T10:17:55.1915141+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 432,
-  "AlertLevel": 447,
-  "Rank": 418,
+  "FirstMessage": "est",
+  "LastMessage": "quia",
+  "WhenRequested": "2018-08-22T13:13:22.2739246+02:00",
+  "WhenStarted": "2020-05-29T13:13:22.2739246+02:00",
+  "WhenEnded": "2004-11-21T13:13:22.2739246+01:00",
+  "WhenIdle": "2022-07-10T13:13:22.2739246+02:00",
+  "WhenFetched": "2003-11-02T13:13:22.2739246+01:00",
+  "SessionKey": "amet",
+  "InitialQueuePos": 727,
+  "AlertLevel": 654,
+  "Rank": 517,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 348,
+  "ChatbotIsActive": true,
+  "Rating": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 262
     }
   }
 }

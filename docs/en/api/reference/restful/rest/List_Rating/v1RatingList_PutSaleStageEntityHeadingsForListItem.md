@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Franecki-Wolf",
-    "ToolTip": "Dolore doloribus occaecati.",
+    "Id": 701,
+    "Name": "Thiel-Kovacek",
+    "ToolTip": "Eaque nemo accusantium accusamus fuga magni quia.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "non",
-    "ColorBlock": 615,
-    "IconHint": "nihil",
+    "Rank": 365,
+    "Type": "eligendi",
+    "ColorBlock": 224,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2005-12-13T10:18:01.1293744+01:00",
+    "LastChanged": "2019-03-04T13:13:33.4797789+01:00",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Renner-Jacobs",
-        "ToolTip": "Officiis ut.",
+        "Id": 673,
+        "Name": "Cormier-Strosin",
+        "ToolTip": "Dolor iste tenetur dolor et fuga porro.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "vel",
-        "ColorBlock": 533,
-        "IconHint": "ea",
+        "Rank": 231,
+        "Type": "incidunt",
+        "ColorBlock": 979,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2003-11-26T10:18:01.1293744+01:00",
+        "LastChanged": "2009-03-24T13:13:33.4797789+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Lilliana Rodriguez"
+        "FullName": "Prof. Davonte Fahey"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "minima",
-    "Hidden": true,
-    "FullName": "Jadon Deckow I"
+    "ExtraInfo": "minus",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Dr. Liana Gaston Will"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Welch-Rempel",
-    "ToolTip": "Accusantium non ullam omnis asperiores atque enim.",
+    "Id": 80,
+    "Name": "Luettgen LLC",
+    "ToolTip": "Et ut rerum nemo dolore suscipit.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "quibusdam",
-    "ColorBlock": 363,
-    "IconHint": "doloremque",
-    "Selected": true,
-    "LastChanged": "2024-05-27T10:18:01.1293744+02:00",
+    "Rank": 528,
+    "Type": "est",
+    "ColorBlock": 68,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2015-11-18T13:13:33.4797789+01:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Heller LLC",
-        "ToolTip": "Praesentium dolores.",
-        "Deleted": false,
-        "Rank": 540,
-        "Type": "et",
-        "ColorBlock": 661,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2007-11-03T10:18:01.1293744+01:00",
+        "Id": 803,
+        "Name": "Greenfelder LLC",
+        "ToolTip": "Maxime atque rerum.",
+        "Deleted": true,
+        "Rank": 704,
+        "Type": "recusandae",
+        "ColorBlock": 289,
+        "IconHint": "ipsa",
+        "Selected": false,
+        "LastChanged": "2018-12-21T13:13:33.4797789+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Pablo Ivy Abernathy II",
+        "FullName": "Dr. Jimmy Savanah Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldType": "System.String",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "fuga",
+    "ExtraInfo": "quam",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Savanna Abbott",
+    "FullName": "Lexi Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

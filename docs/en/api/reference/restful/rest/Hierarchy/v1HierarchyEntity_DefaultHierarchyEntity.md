@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 814,
+  "HierarchyId": 878,
   "Domain": "Dashboards",
-  "Name": "Marks LLC",
-  "Fullname": "aut",
-  "ParentId": 596,
+  "Name": "Green LLC",
+  "Fullname": "quo",
+  "ParentId": 622,
   "Children": [
     {
-      "HierarchyId": 776,
+      "HierarchyId": 652,
       "Domain": "Dashboards",
-      "Name": "Gibson-Hirthe",
-      "Fullname": "eligendi",
-      "ParentId": 895,
+      "Name": "Harber, Lowe and Shields",
+      "Fullname": "in",
+      "ParentId": 802,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-01-19T10:18:00.4262067+01:00",
-      "RegisteredAssociateId": 119,
-      "Updated": "2021-05-28T10:18:00.4262067+02:00",
-      "UpdatedAssociateId": 541,
+      "Registered": "2012-02-08T13:13:31.7613495+01:00",
+      "RegisteredAssociateId": 807,
+      "Updated": "2009-01-27T13:13:31.7613495+01:00",
+      "UpdatedAssociateId": 708,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 486
         }
       }
     }
   ],
-  "Registered": "2009-06-17T10:18:00.4262067+02:00",
-  "RegisteredAssociateId": 602,
-  "Updated": "2003-12-24T10:18:00.4262067+01:00",
-  "UpdatedAssociateId": 427,
+  "Registered": "2020-02-17T13:13:31.7613495+01:00",
+  "RegisteredAssociateId": 791,
+  "Updated": "2021-05-07T13:13:31.7613495+02:00",
+  "UpdatedAssociateId": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 571
     }
   }
 }

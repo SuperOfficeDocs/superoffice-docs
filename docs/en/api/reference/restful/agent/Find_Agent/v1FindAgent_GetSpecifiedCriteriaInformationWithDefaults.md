@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Paucek Inc and Sons",
-  "StorageKey": "excepturi",
+  "StorageType": "nesciunt",
+  "ProviderName": "Larson, Considine and Carroll",
+  "StorageKey": "dolorem",
   "DesiredColumnNames": [
-    "Gottlieb-Will",
-    "Ruecker Group"
+    "Botsford-Emard",
+    "Mohr Group"
   ],
   "StaticColumns": [
-    "sint",
-    "ea"
+    "animi",
+    "quas"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cassin, Keebler and Parisian",
-      "Operator": "dolorem",
+      "Name": "Strosin LLC",
+      "Operator": "dolorum",
       "Values": [
-        "architecto",
-        "sit"
+        "eveniet",
+        "expedita"
       ],
       "DisplayValues": [
-        "doloremque",
-        "deleniti"
+        "nihil",
+        "assumenda"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 721,
+      "InterParenthesis": 539,
       "InterOperator": "And",
-      "UniqueHash": 508
+      "UniqueHash": 774
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Torphy, Renner and Kautzer",
-      "DisplayTooltip": "commodi",
-      "DisplayType": "saepe",
+      "DisplayName": "Little, Sawayn and Waters",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "non",
       "CanOrderBy": false,
-      "Name": "Langworth LLC",
+      "Name": "Lueilwitz, Lockman and Mohr",
       "CanRestrictBy": false,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Swift Group",
-      "IsVisible": true,
+      "RestrictionType": "inventore",
+      "RestrictionListName": "Dibbert-Gulgowski",
+      "IsVisible": false,
       "ExtraInfo": "et",
-      "Width": "natus",
-      "IconHint": "ad",
-      "HeadingIconHint": "velit"
+      "Width": "ex",
+      "IconHint": "earum",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kertzmann-Pacocha",
-      "PrimaryKey": 148,
+      "EntityName": "Bechtelar Group",
+      "PrimaryKey": 62,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "sint",
-          "LinkHint": "ad"
+          "DisplayValue": "temporibus",
+          "TooltipHint": "qui",
+          "LinkHint": "esse"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "ut",
+      "LinkHint": "saepe",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 300
+          "FieldLength": 404
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Langworth Group",
-      "Description": "Mandatory hybrid monitoring",
-      "Rank": 162,
+      "Name": "Jast, Kuhlman and Larson",
+      "Description": "Synergistic multi-tasking database",
+      "Rank": 207,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langworth Group",
-      "Description": "Mandatory hybrid monitoring",
-      "Rank": 162,
+      "Name": "Jast, Kuhlman and Larson",
+      "Description": "Synergistic multi-tasking database",
+      "Rank": 207,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldLength": 877
     }
   }
 }

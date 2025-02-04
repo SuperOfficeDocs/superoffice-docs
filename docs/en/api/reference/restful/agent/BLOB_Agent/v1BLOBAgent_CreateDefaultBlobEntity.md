@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 292,
-  "BlobSize": 708,
-  "Description": "Stand-alone next generation concept",
-  "ExtraInfo": "et",
+  "BlobId": 837,
+  "BlobSize": 430,
+  "Description": "Organic global adapter",
+  "ExtraInfo": "maiores",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quasi",
-  "OriginalSize": 388,
-  "CreatedDate": "2015-05-10T10:17:55.1290102+02:00",
-  "UpdatedDate": "2003-11-29T10:17:55.1290102+01:00",
+  "IsZipped": false,
+  "MimeType": "totam",
+  "OriginalSize": 211,
+  "CreatedDate": "2004-05-20T13:13:22.1489532+02:00",
+  "UpdatedDate": "2010-03-04T13:13:22.1489532+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "maiores",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

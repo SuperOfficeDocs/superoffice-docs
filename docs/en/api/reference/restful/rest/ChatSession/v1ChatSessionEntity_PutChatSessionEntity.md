@@ -143,29 +143,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 727,
-  "TopicId": 144,
+  "ChatSessionId": 607,
+  "TopicId": 11,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "accusantium",
-  "CustomerName": "Johnston Group",
-  "CustomerEmail": "skylar@schuster.ca",
-  "CustomerPhone": "1-410-201-1817 x15355",
+  "CustomerAlias": "molestiae",
+  "CustomerHost": "est",
+  "CustomerName": "Dicki-Graham",
+  "CustomerEmail": "carley.medhurst@mayert.info",
+  "CustomerPhone": "1-443-508-0727",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Heidenreich Inc and Sons",
+  "CustomerCompanyName": "Marvin LLC",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "unde",
-  "WhenRequested": "2022-04-29T10:18:00.1918158+02:00",
-  "WhenStarted": "2011-05-22T10:18:00.1918158+02:00",
-  "WhenEnded": "2013-09-10T10:18:00.1918158+02:00",
-  "WhenIdle": "2020-02-12T10:18:00.1918158+01:00",
-  "WhenFetched": "2023-09-16T10:18:00.1918158+02:00",
+  "FirstMessage": "cum",
+  "LastMessage": "praesentium",
+  "WhenRequested": "2024-10-10T13:13:31.3239446+02:00",
+  "WhenStarted": "2021-10-12T13:13:31.3239446+02:00",
+  "WhenEnded": "2004-07-17T13:13:31.3239446+02:00",
+  "WhenIdle": "2001-11-12T13:13:31.3239446+01:00",
+  "WhenFetched": "2001-03-03T13:13:31.3239446+01:00",
   "SessionKey": "eligendi",
-  "InitialQueuePos": 198,
-  "AlertLevel": 993,
-  "Rank": 335,
+  "InitialQueuePos": 874,
+  "AlertLevel": 503,
+  "Rank": 957,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 807
+  "Rating": 707
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 107,
-  "TopicId": 73,
+  "ChatSessionId": 767,
+  "TopicId": 680,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "ipsa",
-  "CustomerName": "Botsford-Torphy",
-  "CustomerEmail": "roberto@rowe.us",
-  "CustomerPhone": "1-997-550-7803",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Prosacco, Lang and Marvin",
+  "CustomerAlias": "architecto",
+  "CustomerHost": "ducimus",
+  "CustomerName": "White-Parker",
+  "CustomerEmail": "adam@marquardtweimann.com",
+  "CustomerPhone": "(576)106-8254 x003",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Wolf, Rohan and Leannon",
   "Status": "Closed",
-  "FirstMessage": "perspiciatis",
-  "LastMessage": "consequatur",
-  "WhenRequested": "2013-12-13T10:18:00.2074417+01:00",
-  "WhenStarted": "2019-01-27T10:18:00.2074417+01:00",
-  "WhenEnded": "2005-11-16T10:18:00.2074417+01:00",
-  "WhenIdle": "2012-11-06T10:18:00.2074417+01:00",
-  "WhenFetched": "1998-06-12T10:18:00.2074417+02:00",
-  "SessionKey": "exercitationem",
-  "InitialQueuePos": 744,
-  "AlertLevel": 363,
-  "Rank": 702,
+  "FirstMessage": "quidem",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2004-02-06T13:13:31.3395668+01:00",
+  "WhenStarted": "2000-02-01T13:13:31.3395668+01:00",
+  "WhenEnded": "2003-10-15T13:13:31.3395668+02:00",
+  "WhenIdle": "2006-05-13T13:13:31.3395668+02:00",
+  "WhenFetched": "2001-10-06T13:13:31.3395668+02:00",
+  "SessionKey": "dolorem",
+  "InitialQueuePos": 171,
+  "AlertLevel": 802,
+  "Rank": 127,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,18 +214,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 516,
+  "Rating": 251,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 379
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

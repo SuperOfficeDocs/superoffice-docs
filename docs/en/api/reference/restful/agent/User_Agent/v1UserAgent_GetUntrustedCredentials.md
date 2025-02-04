@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "earum"
+  "Type": "porro"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2010-08-13T10:17:56.347833+02:00",
-    "ValidTo": "1998-01-13T10:17:56.347833+01:00",
-    "Comment": "consequatur",
-    "SecretValue": "consequuntur",
-    "PublicValue": "quisquam",
-    "IsActive": true,
+    "ValidFrom": "2013-05-29T13:13:24.5246568+02:00",
+    "ValidTo": "2022-02-15T13:13:24.5246568+01:00",
+    "Comment": "similique",
+    "SecretValue": "illum",
+    "PublicValue": "modi",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

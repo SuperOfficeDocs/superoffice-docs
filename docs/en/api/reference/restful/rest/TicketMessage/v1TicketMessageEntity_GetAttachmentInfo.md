@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 422,
-    "Name": "Gleason, Hilpert and Moore",
-    "ContentType": "dolorem",
-    "AttSize": 242,
+    "AttachmentId": 125,
+    "Name": "Mitchell-Hegmann",
+    "ContentType": "odit",
+    "AttSize": 125,
     "InlineImage": false,
-    "ContentId": "veniam",
-    "AuthKey": "mollitia",
-    "IsSafeFileExtension": false,
+    "ContentId": "cum",
+    "AuthKey": "voluptatem",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 473
       }
     }
   }

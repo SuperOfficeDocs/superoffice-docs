@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 452,
-    "Name": "Jerde, Leffler and Mayer",
-    "Tooltip": "itaque",
-    "SaveInDb": 502,
-    "Filename": "repudiandae",
-    "DefaultOref": "a",
+    "DocumentTemplateId": 844,
+    "Name": "Luettgen-Zboncak",
+    "Tooltip": "eos",
+    "SaveInDb": 919,
+    "Filename": "doloremque",
+    "DefaultOref": "nesciunt",
     "RecordType": "Appointment",
-    "Deleted": 214,
+    "Deleted": 931,
     "Direction": "Incoming",
-    "AutoeventId": 934,
+    "AutoeventId": 608,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

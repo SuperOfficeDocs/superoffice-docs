@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 534,
-  "PersonName": "Braun-West",
+  "ContactId": 974,
+  "PersonName": "Larson, Lubowitz and Daugherty",
   "PhoneNumbers": [
-    "1660734",
-    "1630918"
+    "1421966",
+    "623795"
   ],
   "Emails": [
-    "nikki@ratkeveum.name",
-    "theodora@nolanlockman.info"
+    "lyric_anderson@jacobsmacejkovic.uk",
+    "minerva@windler.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldLength": 459
     }
   }
 }

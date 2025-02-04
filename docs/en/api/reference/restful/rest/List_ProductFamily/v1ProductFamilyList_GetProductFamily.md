@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "fugiat",
-  "Deleted": false,
-  "UdListDefinitionId": 152,
-  "Rank": 303,
+  "Id": 990,
+  "Name": "Botsford Inc and Sons",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "UdListDefinitionId": 480,
+  "Rank": 449,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

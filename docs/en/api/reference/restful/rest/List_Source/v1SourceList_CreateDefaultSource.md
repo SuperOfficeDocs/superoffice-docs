@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Herman-Botsford",
-  "Tooltip": "minus",
+  "Id": 997,
+  "Name": "Pollich Group",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 886,
-  "Rank": 293,
+  "UdListDefinitionId": 394,
+  "Rank": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 835
     }
   }
 }

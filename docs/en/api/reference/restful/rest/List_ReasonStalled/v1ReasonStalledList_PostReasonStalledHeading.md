@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 718,
-  "Name": "Mraz Inc and Sons",
-  "Tooltip": "quae",
+  "HeadingId": 699,
+  "Name": "Hirthe-Douglas",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 496,
-  "UdListDefinitionId": 765
+  "Rank": 259,
+  "UdListDefinitionId": 782
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 517,
-  "Name": "Greenholt, Huel and Erdman",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 680,
-  "UdListDefinitionId": 439,
+  "HeadingId": 476,
+  "Name": "Heathcote Group",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 225,
+  "UdListDefinitionId": 250,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 675
     }
   }
 }

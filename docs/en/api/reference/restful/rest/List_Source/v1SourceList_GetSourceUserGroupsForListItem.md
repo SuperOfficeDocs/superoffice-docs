@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Denesik LLC",
-    "ToolTip": "Labore facere ad.",
-    "Deleted": false,
-    "Rank": 592,
-    "Type": "adipisci",
-    "ColorBlock": 521,
-    "IconHint": "vero",
+    "Id": 42,
+    "Name": "Grimes, Corwin and Boyer",
+    "ToolTip": "Magni enim natus culpa error qui autem.",
+    "Deleted": true,
+    "Rank": 25,
+    "Type": "consectetur",
+    "ColorBlock": 305,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2022-12-22T10:18:01.1762521+01:00",
+    "LastChanged": "2021-05-09T13:13:33.6203821+02:00",
     "ChildItems": [
       {
-        "Id": 719,
-        "Name": "Powlowski, Denesik and Hauck",
-        "ToolTip": "Molestias consequuntur exercitationem corporis quis omnis enim minima.",
-        "Deleted": false,
-        "Rank": 277,
-        "Type": "pariatur",
-        "ColorBlock": 615,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2007-04-04T10:18:01.1762521+02:00",
+        "Id": 338,
+        "Name": "Lemke Group",
+        "ToolTip": "Ex debitis et hic est sed.",
+        "Deleted": true,
+        "Rank": 918,
+        "Type": "est",
+        "ColorBlock": 171,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "1999-01-18T13:13:33.6203821+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "veniam",
-        "Hidden": false,
-        "FullName": "Marjolaine Ruthie Hirthe III",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Zoe Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 600
+            "FieldType": "System.Int32",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Dee Dicki",
+    "ExtraInfo": "nobis",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Ms. Melody Tod Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

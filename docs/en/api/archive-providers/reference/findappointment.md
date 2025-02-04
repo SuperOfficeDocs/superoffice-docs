@@ -726,7 +726,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=contact/countryId,contact/contactAssociate/contactName,person/retired,person/personAssociate/contactId,sale/amountWeightedInBaseCurrency
+GET /api/v1/archive/FindAppointment?$select=registeredByFullName,contact/contactAssociate/middleName,person/personCountry,person/personDirectPhone/formattedNumber,person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

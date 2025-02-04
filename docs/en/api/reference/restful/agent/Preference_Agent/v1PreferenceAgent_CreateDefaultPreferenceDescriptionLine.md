@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 435,
-  "PrefDescId": 683,
-  "PrefValue": "ab",
-  "PrefShowValue": "doloribus",
-  "Description": "Fundamental bandwidth-monitored database",
+  "PrefDescLineId": 432,
+  "PrefDescId": 479,
+  "PrefValue": "ad",
+  "PrefShowValue": "saepe",
+  "Description": "Reverse-engineered dynamic matrices",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

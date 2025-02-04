@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 522,
-    "Name": "Bergstrom, Pouros and Johns",
-    "Tooltip": "labore",
+    "HeadingId": 197,
+    "Name": "Ryan-Paucek",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 872,
-    "UdListDefinitionId": 640
+    "Rank": 310,
+    "UdListDefinitionId": 622
   },
   {
-    "HeadingId": 522,
-    "Name": "Bergstrom, Pouros and Johns",
-    "Tooltip": "labore",
+    "HeadingId": 197,
+    "Name": "Ryan-Paucek",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 872,
-    "UdListDefinitionId": 640
+    "Rank": 310,
+    "UdListDefinitionId": 622
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 524,
-    "Name": "Cruickshank Group",
-    "Tooltip": "totam",
+    "HeadingId": 751,
+    "Name": "Stiedemann, Renner and Reilly",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 619,
-    "UdListDefinitionId": 638,
+    "Rank": 230,
+    "UdListDefinitionId": 141,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 550
       }
     }
   }

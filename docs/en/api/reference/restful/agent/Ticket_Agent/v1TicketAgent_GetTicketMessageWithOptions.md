@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 647,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 123,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 847,
+  "EjMessageId": 310,
   "Ticket": null,
-  "CreatedAt": "2012-12-25T10:17:56.1759487+01:00",
+  "CreatedAt": "2001-06-11T13:13:24.024762+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "hic",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 851,
-  "Body": "sit",
-  "HtmlBody": "in",
-  "EmailHeader": "hudson@sanford.uk",
-  "DebugInfo": "odit",
-  "MailSorter": "maiores",
+  "MessageId": "quibusdam",
+  "TimeSpent": 863,
+  "Body": "minima",
+  "HtmlBody": "neque",
+  "EmailHeader": "noemie@weissnat.biz",
+  "DebugInfo": "qui",
+  "MailSorter": "quos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "porro",
+  "SearchTitle": "magni",
   "MessageHeaders": [
     {
-      "Id": 317,
-      "Name": "White, Johnson and Mueller",
-      "Value": "dolores",
+      "Id": 708,
+      "Name": "Lueilwitz, Klein and Kling",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     }
   ],
   "Important": false,
-  "Language": "animi",
-  "Sentiment": 118,
-  "SentimentConfidence": 370,
+  "Language": "quam",
+  "Sentiment": 597,
+  "SentimentConfidence": 878,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 963,
-      "Name": "Yost, Schamberger and Kuhic",
-      "ContentType": "exercitationem",
-      "AttSize": 155,
+      "AttachmentId": 234,
+      "Name": "Abshire-Jast",
+      "ContentType": "et",
+      "AttSize": 935,
       "InlineImage": false,
-      "ContentId": "eum",
-      "AuthKey": "velit",
+      "ContentId": "rerum",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 28
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "quia",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

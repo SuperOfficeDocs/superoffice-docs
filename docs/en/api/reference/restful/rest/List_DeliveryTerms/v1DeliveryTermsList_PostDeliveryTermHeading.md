@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 365,
-  "Name": "Pacocha, Howe and Abernathy",
-  "Tooltip": "earum",
+  "HeadingId": 663,
+  "Name": "Williamson-Cartwright",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 984,
-  "UdListDefinitionId": 973
+  "Rank": 892,
+  "UdListDefinitionId": 847
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 882,
-  "Name": "Rolfson LLC",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 308,
-  "UdListDefinitionId": 295,
+  "HeadingId": 973,
+  "Name": "Jast Inc and Sons",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 823,
+  "UdListDefinitionId": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 416
     }
   }
 }

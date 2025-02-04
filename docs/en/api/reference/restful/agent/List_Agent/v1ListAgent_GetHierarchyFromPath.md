@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "voluptas",
-  "Children": true
+  "Path": "sed",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 156,
+  "HierarchyId": 254,
   "Domain": "Dashboards",
-  "Name": "Howe, Schultz and Wintheiser",
-  "Fullname": "aut",
-  "ParentId": 263,
+  "Name": "Borer Group",
+  "Fullname": "consequatur",
+  "ParentId": 356,
   "Children": [
     {
-      "HierarchyId": 541,
+      "HierarchyId": 207,
       "Domain": "Dashboards",
-      "Name": "Legros Group",
-      "Fullname": "laudantium",
-      "ParentId": 742,
+      "Name": "Quitzon Inc and Sons",
+      "Fullname": "iste",
+      "ParentId": 141,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-08-18T10:17:55.7227953+02:00",
-      "RegisteredAssociateId": 681,
-      "Updated": "2012-03-19T10:17:55.7227953+01:00",
-      "UpdatedAssociateId": 856,
+      "Registered": "2001-01-05T13:13:23.3051742+01:00",
+      "RegisteredAssociateId": 23,
+      "Updated": "2013-06-21T13:13:23.3051742+02:00",
+      "UpdatedAssociateId": 973,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 553
         }
       }
     }
   ],
-  "Registered": "1998-09-27T10:17:55.7227953+02:00",
-  "RegisteredAssociateId": 65,
-  "Updated": "2011-11-28T10:17:55.7227953+01:00",
-  "UpdatedAssociateId": 954,
+  "Registered": "2001-10-25T13:13:23.3051742+02:00",
+  "RegisteredAssociateId": 957,
+  "Updated": "2017-06-11T13:13:23.3051742+02:00",
+  "UpdatedAssociateId": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 500
     }
   }
 }

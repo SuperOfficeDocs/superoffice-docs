@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 74,
+  "UdListDefinitionId": 945,
   "Items": [
     {
-      "Id": 827,
-      "Name": "Halvorson, Kiehn and Donnelly",
-      "Tooltip": "quas",
+      "Id": 850,
+      "Name": "Auer Inc and Sons",
+      "Tooltip": "labore",
       "Deleted": false,
-      "UdListDefinitionId": 203,
-      "Rank": 123
+      "UdListDefinitionId": 370,
+      "Rank": 786
     },
     {
-      "Id": 827,
-      "Name": "Halvorson, Kiehn and Donnelly",
-      "Tooltip": "quas",
+      "Id": 850,
+      "Name": "Auer Inc and Sons",
+      "Tooltip": "labore",
       "Deleted": false,
-      "UdListDefinitionId": 203,
-      "Rank": 123
+      "UdListDefinitionId": 370,
+      "Rank": 786
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Bergstrom-Hodkiewicz",
-    "Tooltip": "quia",
+    "Id": 807,
+    "Name": "Gaylord, Bins and Koepp",
+    "Tooltip": "hic",
     "Deleted": false,
-    "UdListDefinitionId": 767,
-    "Rank": 700,
+    "UdListDefinitionId": 396,
+    "Rank": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

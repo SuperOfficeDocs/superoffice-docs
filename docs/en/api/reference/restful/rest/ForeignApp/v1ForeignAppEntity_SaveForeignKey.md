@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vel",
-  "Value": "impedit",
-  "RecordId": 426,
-  "CreatedDate": "2018-02-18T10:18:00.4262067+01:00",
-  "UpdatedDate": "2020-01-18T10:18:00.4262067+01:00",
-  "UpdatedBy": "temporibus",
-  "CreatedBy": "vel",
-  "TableName": "Pouros LLC"
+  "Key": "expedita",
+  "Value": "qui",
+  "RecordId": 645,
+  "CreatedDate": "2016-06-14T13:13:31.7613495+02:00",
+  "UpdatedDate": "2010-03-22T13:13:31.7613495+01:00",
+  "UpdatedBy": "nisi",
+  "CreatedBy": "praesentium",
+  "TableName": "Fritsch, Konopelski and Howell"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "debitis",
-  "RecordId": 712,
-  "CreatedDate": "2021-08-14T10:18:00.4262067+02:00",
-  "UpdatedDate": "2010-09-22T10:18:00.4262067+02:00",
-  "UpdatedBy": "officiis",
-  "CreatedBy": "cumque",
-  "TableName": "Kshlerin, Spinka and Block",
+  "Key": "magni",
+  "Value": "doloremque",
+  "RecordId": 436,
+  "CreatedDate": "2008-06-28T13:13:31.7613495+02:00",
+  "UpdatedDate": "2015-12-23T13:13:31.7613495+01:00",
+  "UpdatedBy": "consectetur",
+  "CreatedBy": "ipsum",
+  "TableName": "Windler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldLength": 449
     }
   }
 }

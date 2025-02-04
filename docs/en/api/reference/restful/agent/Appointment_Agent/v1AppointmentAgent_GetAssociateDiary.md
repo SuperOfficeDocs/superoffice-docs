@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 10,
-  "StartTime": "2014-08-08T10:17:54.8321167+02:00",
-  "EndTime": "2005-03-03T10:17:54.8321167+01:00",
-  "Count": 330
+  "AssociateId": 949,
+  "StartTime": "2008-07-06T13:13:21.5553436+02:00",
+  "EndTime": "2004-05-23T13:13:21.5553436+02:00",
+  "Count": 435
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 897,
-    "StartDate": "2008-02-15T10:17:54.8321167+01:00",
-    "EndDate": "2000-11-02T10:17:54.8321167+01:00",
+    "AppointmentId": 179,
+    "StartDate": "2005-01-29T13:13:21.5553436+01:00",
+    "EndDate": "2008-02-04T13:13:21.5553436+01:00",
     "Type": "BookingForChecklist",
-    "Task": "alias",
-    "AssociateFullName": "Sylvester Daniel",
-    "ContactName": "Langworth Inc and Sons",
-    "Description": "Enterprise-wide contextually-based attitude",
-    "PersonFullName": "Willie Goyette",
-    "PersonId": 52,
-    "ContactId": 319,
-    "ProjectId": 429,
-    "ProjectName": "Friesen LLC",
+    "Task": "optio",
+    "AssociateFullName": "Elnora Conn",
+    "ContactName": "Wyman LLC",
+    "Description": "Cross-platform well-modulated standardization",
+    "PersonFullName": "Mr. Russel Hegmann IV",
+    "PersonId": 888,
+    "ContactId": 177,
+    "ProjectId": 87,
+    "ProjectName": "Ortiz-Wintheiser",
     "IsPublished": true,
-    "AssociateId": 698,
-    "ColorIndex": 236,
-    "IsFree": true,
+    "AssociateId": 29,
+    "ColorIndex": 232,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 206,
-    "PriorityName": "Crona-Rutherford",
+    "PriorityId": 731,
+    "PriorityName": "Kertzmann LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2004-07-05T10:17:54.8477431+02:00",
+    "ActiveDate": "2018-08-06T13:13:21.5553436+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-10-14T10:17:54.8477431+02:00",
-    "RecurringEndDate": "2015-01-16T10:17:54.8477431+01:00",
-    "MotherId": 991,
-    "AssignedBy": 270,
-    "AssignedByFullName": "Myrtie Graham",
+    "RecurringStartDate": "2013-05-15T13:13:21.5553436+02:00",
+    "RecurringEndDate": "2024-06-27T13:13:21.5553436+02:00",
+    "MotherId": 233,
+    "AssignedBy": 984,
+    "AssignedByFullName": "Lora West",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "dignissimos",
-    "SaleId": 859,
-    "SaleName": "Hilll LLC",
-    "AssociateName": "Romaguera LLC",
-    "CreatedDate": "2017-01-28T10:17:54.8477431+01:00",
-    "CreatedBy": "illo",
-    "CreatedByFullName": "Herbert Bogisich DVM",
-    "CreatedByAssociateId": 191,
+    "Location": "quidem",
+    "AlarmLeadTime": "tempora",
+    "SaleId": 87,
+    "SaleName": "Stanton LLC",
+    "AssociateName": "Cassin Inc and Sons",
+    "CreatedDate": "2024-02-13T13:13:21.5553436+01:00",
+    "CreatedBy": "quaerat",
+    "CreatedByFullName": "Kevon Smith",
+    "CreatedByAssociateId": 555,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 983,
-    "Title": "nisi",
-    "Agenda": "aut",
-    "InternalNotes": "culpa",
+    "PreferredTZLocation": 319,
+    "Title": "suscipit",
+    "Agenda": "dolore",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 88
       }
     }
   }

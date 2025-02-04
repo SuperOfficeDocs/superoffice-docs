@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Zboncak LLC",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "Rank": 43,
-    "UdListDefinitionId": 301,
+    "HeadingId": 894,
+    "Name": "Flatley Inc and Sons",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 461,
+    "UdListDefinitionId": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldType": "System.String",
+        "FieldLength": 948
       }
     }
   }

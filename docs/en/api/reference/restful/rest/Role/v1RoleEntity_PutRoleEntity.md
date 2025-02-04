@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 669,
-  "Name": "Krajcik, Quigley and Murazik",
-  "Tooltip": "sunt",
+  "RoleId": 661,
+  "Name": "Quigley-Mueller",
+  "Tooltip": "unde",
   "RoleType": "Anonymous",
-  "Deleted": 846,
-  "Rank": 421,
-  "Created": "2010-05-17T10:18:00.5355883+02:00",
-  "UseCategories": 891,
+  "Deleted": 18,
+  "Rank": 292,
+  "Created": "2012-11-04T13:13:31.9800495+01:00",
+  "UseCategories": 761,
   "CreatedBy": null,
-  "Updated": "2018-01-26T10:18:00.5355883+01:00",
+  "Updated": "2006-09-09T13:13:31.9800495+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 99,
-  "Name": "Corwin-Armstrong",
-  "Tooltip": "et",
+  "RoleId": 89,
+  "Name": "Carter, Doyle and Lockman",
+  "Tooltip": "laudantium",
   "RoleType": "Anonymous",
-  "Deleted": 159,
-  "Rank": 489,
-  "Created": "2005-08-24T10:18:00.5355883+02:00",
-  "UseCategories": 174,
+  "Deleted": 202,
+  "Rank": 293,
+  "Created": "2019-11-23T13:13:31.9956719+01:00",
+  "UseCategories": 200,
   "CreatedBy": null,
-  "Updated": "2015-06-10T10:18:00.5355883+02:00",
+  "Updated": "2010-10-09T13:13:31.9956719+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldType": "System.String",
+      "FieldLength": 914
     }
   },
   "_Links": {

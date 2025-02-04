@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 314,
-  "Name": "Schmeler LLC",
-  "Tooltip": "laboriosam",
+  "HeadingId": 1002,
+  "Name": "Pfannerstill Group",
+  "Tooltip": "animi",
   "Deleted": true,
-  "Rank": 130,
-  "UdListDefinitionId": 588
+  "Rank": 497,
+  "UdListDefinitionId": 384
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Grant Group",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 918,
-  "UdListDefinitionId": 15,
+  "HeadingId": 161,
+  "Name": "Kunde Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 578,
+  "UdListDefinitionId": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 899
     }
   }
 }

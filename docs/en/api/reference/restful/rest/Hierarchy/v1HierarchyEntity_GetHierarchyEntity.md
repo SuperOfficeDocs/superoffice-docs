@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 209,
+  "HierarchyId": 792,
   "Domain": "Dashboards",
-  "Name": "Halvorson-Waelchi",
-  "Fullname": "dolorem",
-  "ParentId": 538,
+  "Name": "Hackett Group",
+  "Fullname": "quisquam",
+  "ParentId": 512,
   "Children": [
     {
-      "HierarchyId": 983,
+      "HierarchyId": 844,
       "Domain": "Dashboards",
-      "Name": "Terry Inc and Sons",
-      "Fullname": "quis",
-      "ParentId": 682,
+      "Name": "Bednar, Ryan and Johns",
+      "Fullname": "eos",
+      "ParentId": 545,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2024-08-19T10:18:00.4262067+02:00",
-      "RegisteredAssociateId": 498,
-      "Updated": "2023-10-28T10:18:00.4262067+02:00",
-      "UpdatedAssociateId": 810,
+      "Registered": "2001-06-24T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 997,
+      "Updated": "2020-11-15T13:13:31.7613495+01:00",
+      "UpdatedAssociateId": 603,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
   ],
-  "Registered": "2024-06-10T10:18:00.4262067+02:00",
-  "RegisteredAssociateId": 488,
-  "Updated": "1999-06-09T10:18:00.4262067+02:00",
-  "UpdatedAssociateId": 705,
+  "Registered": "2011-11-03T13:13:31.7613495+01:00",
+  "RegisteredAssociateId": 250,
+  "Updated": "1999-06-07T13:13:31.7613495+02:00",
+  "UpdatedAssociateId": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 267
     }
   },
   "_Links": {

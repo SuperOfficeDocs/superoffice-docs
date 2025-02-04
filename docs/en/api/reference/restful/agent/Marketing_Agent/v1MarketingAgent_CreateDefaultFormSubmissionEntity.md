@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 539,
-  "FormId": 88,
-  "WhenSubmitted": "2017-01-04T10:17:55.7540473+01:00",
-  "ContactId": 99,
-  "PersonId": 768,
-  "EmailAddress": "donnell@wyman.uk",
-  "ResponseShipmentAddrId": 407,
-  "Response": "rem",
+  "FormSubmissionId": 722,
+  "FormId": 941,
+  "WhenSubmitted": "2020-10-31T13:13:23.3520388+01:00",
+  "ContactId": 568,
+  "PersonId": 597,
+  "EmailAddress": "adolph_reichel@wolf.com",
+  "ResponseShipmentAddrId": 971,
+  "Response": "itaque",
   "Status": "EmailVerification",
-  "ProcessingLog": "id",
+  "ProcessingLog": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 113
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 401,
-  "Name": "Macejkovic, Paucek and Hauck",
-  "Tooltip": "magnam",
+  "HeadingId": 285,
+  "Name": "Heidenreich LLC",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 562,
-  "UdListDefinitionId": 135
+  "Rank": 184,
+  "UdListDefinitionId": 614
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 440,
-  "Name": "Rutherford, Renner and Wehner",
-  "Tooltip": "soluta",
+  "HeadingId": 821,
+  "Name": "Mills Group",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 378,
-  "UdListDefinitionId": 366,
+  "Rank": 723,
+  "UdListDefinitionId": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 940
     }
   }
 }

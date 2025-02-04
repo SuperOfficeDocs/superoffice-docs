@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Turcotte Inc and Sons",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "UdListDefinitionId": 736,
-    "Rank": 435,
+    "Id": 840,
+    "Name": "Hyatt LLC",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 813,
+    "Rank": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

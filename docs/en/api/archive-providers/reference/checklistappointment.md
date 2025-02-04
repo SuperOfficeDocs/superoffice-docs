@@ -727,7 +727,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=alarm,contact/postAddress/wgs84longitude,person/personAddress/line1,person/consentSourceEmarketing,sale/salePublish/publishedFrom
+GET /api/v1/archive/ChecklistAppointment?$select=contact/code,contact/email/emailHasBounced,project/projectAssociate/fullName,project/projectAssociate/contactDepartment,sale/associate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

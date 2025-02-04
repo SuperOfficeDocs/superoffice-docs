@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Murray-Hintz",
-    "ToolTip": "Itaque aut.",
-    "Deleted": false,
-    "Rank": 279,
-    "Type": "est",
-    "ColorBlock": 897,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2017-12-06T10:18:01.0668705+01:00",
+    "Id": 790,
+    "Name": "West-Koelpin",
+    "ToolTip": "Unde enim architecto quia facilis.",
+    "Deleted": true,
+    "Rank": 803,
+    "Type": "culpa",
+    "ColorBlock": 617,
+    "IconHint": "inventore",
+    "Selected": false,
+    "LastChanged": "2015-09-14T13:13:33.2767137+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Stokes, O'Conner and Parker",
-        "ToolTip": "Voluptatem repudiandae quisquam.",
-        "Deleted": false,
-        "Rank": 342,
-        "Type": "et",
-        "ColorBlock": 997,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2010-02-16T10:18:01.0668705+01:00",
+        "Id": 300,
+        "Name": "Zboncak, Brown and Gislason",
+        "ToolTip": "Qui culpa nihil et ea ullam.",
+        "Deleted": true,
+        "Rank": 772,
+        "Type": "iusto",
+        "ColorBlock": 797,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "1998-12-15T13:13:33.2767137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Reuben Parisian"
+        "ExtraInfo": "et",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Roel Turcotte"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "omnis",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Gail Carter"
+    "FullName": "Colten Sipes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Kihn Group",
-    "ToolTip": "Et nihil voluptatem ad quis nemo id.",
+    "Id": 720,
+    "Name": "Muller-Bayer",
+    "ToolTip": "Veniam totam mollitia ducimus reprehenderit quos suscipit quam.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "excepturi",
-    "ColorBlock": 354,
-    "IconHint": "ut",
+    "Rank": 565,
+    "Type": "necessitatibus",
+    "ColorBlock": 165,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-07-16T10:18:01.0668705+02:00",
+    "LastChanged": "2007-08-23T13:13:33.2767137+02:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Volkman, Satterfield and McClure",
-        "ToolTip": "Et non aliquid dolor.",
-        "Deleted": false,
-        "Rank": 573,
-        "Type": "atque",
-        "ColorBlock": 594,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2021-05-20T10:18:01.0668705+02:00",
+        "Id": 315,
+        "Name": "Mills-Wiza",
+        "ToolTip": "Corporis omnis qui ut autem deserunt accusantium hic.",
+        "Deleted": true,
+        "Rank": 300,
+        "Type": "provident",
+        "ColorBlock": 202,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2013-01-20T13:13:33.2767137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "velit",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Brycen Zemlak",
+        "FullName": "Michale Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 640
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "nulla",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Greyson Rath",
+    "FullName": "Jazmin Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 724
       }
     }
   }

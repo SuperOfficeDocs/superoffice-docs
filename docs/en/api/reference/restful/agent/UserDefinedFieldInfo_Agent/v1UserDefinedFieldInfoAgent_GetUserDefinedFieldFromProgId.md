@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "necessitatibus",
+  "ProgId": "veritatis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 955,
-  "ColumnId": 772,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 452,
-  "FieldLabel": "dolores",
-  "FieldLeft": 385,
-  "FieldTop": 535,
+  "UDefFieldId": 752,
+  "ColumnId": 19,
+  "FieldDefault": "et",
+  "FieldHeight": 713,
+  "FieldLabel": "non",
+  "FieldLeft": 894,
+  "FieldTop": 952,
   "FieldType": "Checkbox",
-  "FieldWidth": 31,
-  "FormatMask": "modi",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 864,
-  "LabelLeft": 464,
-  "LabelTop": 272,
-  "LabelWidth": 128,
-  "LastVersionId": 868,
-  "ListTableId": 139,
-  "IsMandatory": true,
+  "FieldWidth": 665,
+  "FormatMask": "molestias",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 138,
+  "LabelLeft": 622,
+  "LabelTop": 214,
+  "LabelWidth": 785,
+  "LastVersionId": 937,
+  "ListTableId": 386,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 504,
-  "ProgId": "quo",
+  "Page1LineNo": 76,
+  "ProgId": "aliquid",
   "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 561,
-  "TextLength": 947,
-  "Tooltip": "eum",
-  "UdefIdentity": 360,
-  "UDListDefinitionId": 268,
+  "ShortLabel": "quia",
+  "TabOrder": 366,
+  "TextLength": 807,
+  "Tooltip": "maiores",
+  "UdefIdentity": 686,
+  "UDListDefinitionId": 663,
   "Justification": "Center",
-  "Version": 680,
-  "TemplateVariableName": "Nader, Lakin and Johnson",
+  "Version": 260,
+  "TemplateVariableName": "Bayer-Klocko",
   "HasBeenPublished": false,
-  "MdoListName": "Pfannerstill-Beer",
+  "MdoListName": "Balistreri Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 662
     }
   }
 }

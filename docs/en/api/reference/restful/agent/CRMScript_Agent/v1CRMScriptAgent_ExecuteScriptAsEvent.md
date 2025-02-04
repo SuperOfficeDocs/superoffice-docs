@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 97,
+  "CRMScriptId": 161,
   "EventData": null
 }
 ```
@@ -110,34 +110,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "et"
+    "InputValues1": "ratione",
+    "InputValues2": "eligendi"
   },
   "BlockExecution": false,
-  "NavigateTo": "reprehenderit",
-  "Message": "rerum",
-  "ShowDialog": "et",
+  "NavigateTo": "ut",
+  "Message": "labore",
+  "ShowDialog": "consequuntur",
   "OutputValues": {
-    "OutputValues1": "recusandae",
-    "OutputValues2": "quasi"
+    "OutputValues1": "necessitatibus",
+    "OutputValues2": "dolor"
   },
   "StateValues": {
-    "StateValues1": "nobis",
-    "StateValues2": "ratione"
+    "StateValues1": "placeat",
+    "StateValues2": "officiis"
   },
-  "Exception": "provident",
+  "Exception": "quae",
   "ParserValues": {
-    "ParserValues1": "impedit",
-    "ParserValues2": "quia"
+    "ParserValues1": "doloribus",
+    "ParserValues2": "veniam"
   },
   "CgiVariables": {
-    "CgiVariables1": "sit",
-    "CgiVariables2": "rem"
+    "CgiVariables1": "optio",
+    "CgiVariables2": "facilis"
   },
-  "CgiContent": "facere",
+  "CgiContent": "qui",
   "Headers": {
-    "Headers1": "quo",
-    "Headers2": "eum"
+    "Headers1": "fugit",
+    "Headers2": "ea"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldLength": 595
     }
   }
 }

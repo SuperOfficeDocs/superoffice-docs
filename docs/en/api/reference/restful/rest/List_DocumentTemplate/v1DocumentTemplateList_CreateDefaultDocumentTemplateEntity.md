@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 644,
-  "Name": "Grady, Marks and Monahan",
-  "Tooltip": "provident",
-  "SaveInDb": 518,
-  "Filename": "possimus",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 764,
+  "Name": "Fay-Hartmann",
+  "Tooltip": "ab",
+  "SaveInDb": 318,
+  "Filename": "nisi",
+  "DefaultOref": "quasi",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 332,
-  "IntentId": 248,
+  "AutoeventId": 208,
+  "IntentId": 435,
   "IsDefaultPublished": false,
-  "Rank": 747,
-  "LoadTemplateFromPlugin": 824,
-  "MimeType": "rerum",
+  "Rank": 377,
+  "LoadTemplateFromPlugin": 805,
+  "MimeType": "numquam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 641,
+  "DocumentTypeKey": 657,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "donato@stroman.uk",
+  "EmailSubject": "julio@smith.info",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "summer_mills@bergstromgoodwin.info",
+  "SenderEmailAddress": "haskell.mclaughlin@ritchieeichmann.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

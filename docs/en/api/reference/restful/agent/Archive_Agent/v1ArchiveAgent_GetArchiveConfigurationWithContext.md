@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Williamson-Deckow",
-  "ProviderName": "Hartmann, Smith and Kunde",
-  "Context": "rem"
+  "GuiName": "Rogahn-Wolff",
+  "ProviderName": "Rempel LLC",
+  "Context": "enim"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Goodwin, Krajcik and Cremin",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "modi",
+      "DisplayName": "Lubowitz, Zemlak and King",
+      "DisplayTooltip": "et",
+      "DisplayType": "sit",
       "CanOrderBy": false,
-      "Name": "Murphy Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Hand-Ward",
+      "Name": "Ziemann, Welch and Connelly",
+      "CanRestrictBy": false,
+      "RestrictionType": "saepe",
+      "RestrictionListName": "Feil Group",
       "IsVisible": true,
-      "ExtraInfo": "sunt",
-      "Width": "molestiae",
-      "IconHint": "sed",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "illum",
+      "Width": "repellat",
+      "IconHint": "veniam",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 602,
-      "Name": "Abshire-Gerlach",
-      "ToolTip": "Molestiae aut eveniet facilis velit.",
+      "Id": 979,
+      "Name": "Kohler-Runolfsdottir",
+      "ToolTip": "Fugiat sint.",
       "Deleted": false,
-      "Rank": 796,
-      "Type": "voluptatibus",
-      "ColorBlock": 451,
-      "IconHint": "alias",
+      "Rank": 529,
+      "Type": "perferendis",
+      "ColorBlock": 860,
+      "IconHint": "eaque",
       "Selected": false,
-      "LastChanged": "2024-03-09T10:17:55.0977583+01:00",
+      "LastChanged": "2009-12-06T13:13:22.0864676+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "aut",
+      "ExtraInfo": "impedit",
+      "StyleHint": "nemo",
       "Hidden": false,
-      "FullName": "Mrs. Claude Denesik MD",
+      "FullName": "Jace Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Heaney-Gutmann",
+      "Name": "Hermann-Hamill",
       "Direction": "ASC"
     },
     {
-      "Name": "Heaney-Gutmann",
+      "Name": "Hermann-Hamill",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "possimus",
+  "OwnerKeys": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 185
     }
   }
 }

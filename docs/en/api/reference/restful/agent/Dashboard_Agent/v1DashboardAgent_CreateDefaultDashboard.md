@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 205,
-  "AssociateId": 775,
-  "Caption": "quasi",
+  "DashboardId": 437,
+  "AssociateId": 463,
+  "Caption": "quae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 32,
-      "Caption": "similique",
-      "Description": "Cross-group heuristic knowledge base",
-      "ChartName": "Sipes, Tremblay and White",
-      "ChartId": "qui",
-      "IsDefault": false,
-      "AssociateId": 64,
-      "GroupId": 83,
-      "SelectionId": 478,
-      "Config": "deserunt",
+      "DashboardTileId": 753,
+      "Caption": "officiis",
+      "Description": "Multi-lateral neutral interface",
+      "ChartName": "Boehm Group",
+      "ChartId": "mollitia",
+      "IsDefault": true,
+      "AssociateId": 47,
+      "GroupId": 269,
+      "SelectionId": 597,
+      "Config": "earum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldType": "System.String",
+          "FieldLength": 721
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

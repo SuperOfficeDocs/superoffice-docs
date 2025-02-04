@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=dolor
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Auer, Fisher and Kovacek",
-    "ToolTip": "Deleniti dolor molestias enim.",
+    "Id": 290,
+    "Name": "Wisozk, Kertzmann and Ankunding",
+    "ToolTip": "Id in laudantium laboriosam est et dolorem.",
     "Deleted": false,
-    "Rank": 927,
-    "Type": "et",
+    "Rank": 189,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Haag, Satterfield and Stracke",
-        "ToolTip": "Aut quo provident accusamus nostrum earum.",
-        "Deleted": true,
-        "Rank": 745,
-        "Type": "unde",
+        "Id": 881,
+        "Name": "Halvorson Inc and Sons",
+        "ToolTip": "Quo iure dolores iure.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 93,
-        "ExtraInfo": "iusto",
-        "StyleHint": "maiores",
-        "FullName": "Miss Scot Botsford V",
+        "IconHint": "animi",
+        "ColorBlock": 973,
+        "ExtraInfo": "hic",
+        "StyleHint": "eaque",
+        "FullName": "Jovan Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 952
+            "FieldLength": 500
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 126,
-    "ExtraInfo": "magni",
-    "StyleHint": "numquam",
-    "FullName": "Christop Madonna Purdy V",
+    "IconHint": "officiis",
+    "ColorBlock": 33,
+    "ExtraInfo": "vel",
+    "StyleHint": "quos",
+    "FullName": "Lavern Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 147
       }
     }
   }

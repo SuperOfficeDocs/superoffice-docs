@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Gerhold-Streich",
-  "StorageKey": "atque",
-  "Rank": 407,
-  "Context": "sit"
+  "StorageType": "provident",
+  "ProviderName": "Turcotte-Bernier",
+  "StorageKey": "delectus",
+  "Rank": 856,
+  "Context": "facere"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quigley LLC",
-  "Description": "Extended solution-oriented migration",
-  "Rank": 450,
+  "Name": "Reilly, Wilderman and Marquardt",
+  "Description": "Synchronised grid-enabled artificial intelligence",
+  "Rank": 45,
   "Restrictions": [
     {
-      "Name": "Hammes-Hilll",
-      "Operator": "consectetur",
+      "Name": "Medhurst LLC",
+      "Operator": "impedit",
       "Values": [
-        "nostrum",
-        "similique"
+        "odit",
+        "enim"
       ],
       "DisplayValues": [
-        "et",
-        "in"
+        "expedita",
+        "quisquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 977,
+      "InterParenthesis": 881,
       "InterOperator": "And",
-      "UniqueHash": 270
+      "UniqueHash": 68
     }
   ]
 }

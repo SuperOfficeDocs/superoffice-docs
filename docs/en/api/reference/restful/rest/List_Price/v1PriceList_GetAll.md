@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=et
-GET /api/v1/Pricelist?$top=443
-GET /api/v1/Pricelist?$skip=898
+GET /api/v1/Pricelist?$entities=consequatur
+GET /api/v1/Pricelist?$top=586
+GET /api/v1/Pricelist?$skip=850
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=in
+GET /api/v1/Pricelist?$context=perspiciatis
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nostrum",
+  "odata.nextLink": "veritatis",
   "value": [
     {
-      "PrimaryKey": 4382,
-      "EntityName": "sale",
-      "saleId": 4382,
-      "contactId": 4505,
-      "name": "Swift, Goodwin and Pfeffer"
+      "PrimaryKey": 2704,
+      "EntityName": "person",
+      "personId": 2704,
+      "fullName": "Kip Wisoky"
     },
     {
-      "PrimaryKey": 3214,
-      "EntityName": "sale",
-      "saleId": 3214,
-      "contactId": 3826,
-      "name": "O'Reilly Group"
+      "PrimaryKey": 2022,
+      "EntityName": "person",
+      "personId": 2022,
+      "fullName": "Jonathon Cole"
     }
   ]
 }

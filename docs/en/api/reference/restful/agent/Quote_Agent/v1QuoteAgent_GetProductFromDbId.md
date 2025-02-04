@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 521
+  "ProductId": 427
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 590,
-  "ERPProductKey": "consequatur",
-  "ERPPriceListKey": "illo",
-  "Name": "Kohler LLC",
-  "Description": "Mandatory clear-thinking encoding",
-  "Code": "placeat",
-  "PriceUnit": "quo",
-  "QuantityUnit": "earum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 12959.09,
-  "ItemNumber": "1076797",
+  "ProductId": 251,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Reilly LLC",
+  "Description": "Decentralized bi-directional artificial intelligence",
+  "Code": "rerum",
+  "PriceUnit": "doloremque",
+  "QuantityUnit": "quis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "necessitatibus",
+  "DefaultSubscriptionQuantity": 18371.507999999998,
+  "ItemNumber": "755828",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "facilis",
-  "ProductTypeKey": "aliquid",
-  "VAT": 413.688,
-  "VATInfo": "fugiat",
-  "UnitCost": 8132.73,
-  "UnitMinimumPrice": 23448.588,
-  "UnitListPrice": 30365.325999999997,
+  "ProductFamilyKey": "maiores",
+  "ProductTypeKey": "ratione",
+  "VAT": 20245.64,
+  "VATInfo": "consequatur",
+  "UnitCost": 11316.874,
+  "UnitMinimumPrice": 30152.214,
+  "UnitListPrice": 12087.838,
   "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "ut",
-  "Rights": "non",
-  "Rule": "vel",
+  "Supplier": "voluptatum",
+  "SupplierCode": "distinctio",
+  "Rights": "omnis",
+  "Rule": "unde",
   "ExtraInfo": [
     {
-      "Name": "Terry, Weber and Langosh",
-      "Value": "excepturi",
+      "Name": "Runolfsdottir Inc and Sons",
+      "Value": "quasi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 847
         }
       }
     },
     {
-      "Name": "Terry, Weber and Langosh",
-      "Value": "excepturi",
+      "Name": "Runolfsdottir Inc and Sons",
+      "Value": "quasi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 847
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "tempora",
-  "ExtraField2": "qui",
-  "ExtraField3": "rerum",
-  "ExtraField4": "cumque",
-  "ExtraField5": "ut",
-  "InStock": 11902.931999999999,
+  "RawExtraInfo": "non",
+  "ExtraField1": "corporis",
+  "ExtraField2": "est",
+  "ExtraField3": "dolores",
+  "ExtraField4": "eos",
+  "ExtraField5": "dolor",
+  "InStock": 21239.118,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

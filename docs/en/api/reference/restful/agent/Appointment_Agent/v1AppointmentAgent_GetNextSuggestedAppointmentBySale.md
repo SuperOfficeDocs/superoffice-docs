@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 798,
-  "CurrentAppointmentId": 141,
-  "SkipCompleteCheck": false
+  "SaleId": 782,
+  "CurrentAppointmentId": 764,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 94,
-  "Deleted": 36,
-  "DaysFuture": 557,
-  "Tooltip": "eum",
-  "Text": "rem",
-  "TaskId": 723,
-  "SuggestedAppointmentId": 566,
-  "SaleTypeStageLinkId": 720,
-  "RegisteredAssociateId": 407,
-  "Rank": 569,
-  "ProjectTypeStatusLinkId": 311,
-  "Name": "Schinner, Goyette and Gleichner",
-  "Duration": 156,
+  "AutoSuggest": 617,
+  "Deleted": 544,
+  "DaysFuture": 331,
+  "Tooltip": "itaque",
+  "Text": "accusamus",
+  "TaskId": 106,
+  "SuggestedAppointmentId": 163,
+  "SaleTypeStageLinkId": 428,
+  "RegisteredAssociateId": 753,
+  "Rank": 958,
+  "ProjectTypeStatusLinkId": 190,
+  "Name": "Hagenes, Gusikowski and Huel",
+  "Duration": 756,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 751
     }
   }
 }

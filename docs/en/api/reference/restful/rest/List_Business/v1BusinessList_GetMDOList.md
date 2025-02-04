@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=ratione
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=praesentium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Schamberger, Kilback and Kovacek",
-    "ToolTip": "Molestiae est voluptas cupiditate voluptatem.",
-    "Deleted": false,
-    "Rank": 556,
-    "Type": "suscipit",
+    "Id": 533,
+    "Name": "Koepp, Funk and Wolf",
+    "ToolTip": "Eos voluptates.",
+    "Deleted": true,
+    "Rank": 242,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Lubowitz-Bechtelar",
-        "ToolTip": "Quos quod aliquam.",
+        "Id": 33,
+        "Name": "Larson LLC",
+        "ToolTip": "Sit earum.",
         "Deleted": true,
-        "Rank": 58,
-        "Type": "consequatur",
+        "Rank": 730,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 430,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "ducimus",
-        "FullName": "Ms. Mariane Sidney Von V",
+        "IconHint": "cupiditate",
+        "ColorBlock": 793,
+        "ExtraInfo": "architecto",
+        "StyleHint": "cum",
+        "FullName": "Alvera Roosevelt Stark II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 406
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       }
     ],
-    "IconHint": "dolore",
-    "ColorBlock": 920,
-    "ExtraInfo": "dicta",
-    "StyleHint": "omnis",
-    "FullName": "Ms. Elisa Smitham",
+    "IconHint": "facere",
+    "ColorBlock": 128,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "quis",
+    "FullName": "Keenan Schowalter PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

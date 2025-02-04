@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Zieme Inc and Sons",
-    "DisplayName": "Reynolds Inc and Sons",
-    "Description": "Monitored bifurcated hardware",
-    "ShortLabel": "sunt",
+    "FieldName": "Pfeffer Inc and Sons",
+    "DisplayName": "Schimmel, Ward and Steuber",
+    "Description": "User-centric intangible migration",
+    "ShortLabel": "ea",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 44,
-    "TemplateVariableName": "O'Conner-Casper"
+    "IsDisplayField": true,
+    "Rank": 669,
+    "TemplateVariableName": "Kuphal-Gulgowski"
   }
 ]
 ```

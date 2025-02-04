@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 260,
-    "Name": "Langosh-Wintheiser",
-    "Tooltip": "quo",
+    "WebPanelId": 892,
+    "Name": "Dare-Rolfson",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 685,
+    "Rank": 796,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
     "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Kuvalis, Cronin and Fisher",
+    "WindowName": "Rau, Hessel and Greenfelder",
     "Url": "http://www.example.com/",
-    "ProgId": "excepturi",
-    "Icon": 234,
+    "ProgId": "ut",
+    "Icon": 349,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 597
       }
     }
   }

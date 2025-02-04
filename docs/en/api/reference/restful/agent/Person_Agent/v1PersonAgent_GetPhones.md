@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 167
+  "PersonId": 603
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "repellendus",
-    "StrippedValue": "consequatur",
-    "Description": "Fundamental even-keeled hardware",
+    "Value": "est",
+    "StrippedValue": "laborum",
+    "Description": "Right-sized multimedia toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   },
   {
-    "Value": "repellendus",
-    "StrippedValue": "consequatur",
-    "Description": "Fundamental even-keeled hardware",
+    "Value": "est",
+    "StrippedValue": "laborum",
+    "Description": "Right-sized multimedia toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

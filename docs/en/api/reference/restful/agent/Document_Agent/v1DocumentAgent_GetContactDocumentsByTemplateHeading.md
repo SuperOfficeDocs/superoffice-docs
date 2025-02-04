@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 283,
-  "StartTime": "1999-08-26T10:17:55.3477735+02:00",
-  "EndTime": "2016-04-26T10:17:55.3477735+02:00",
-  "Count": 812,
-  "TemplateHeadingId": 252
+  "ContactId": 810,
+  "StartTime": "2009-05-30T13:13:22.6019709+02:00",
+  "EndTime": "1999-02-25T13:13:22.6019709+01:00",
+  "Count": 552,
+  "TemplateHeadingId": 410
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 159,
-    "Attention": "quaerat",
-    "Header": "rerum",
-    "Name": "Harvey LLC",
-    "OurRef": "quo",
-    "YourRef": "aut",
-    "Description": "Seamless non-volatile service-desk",
-    "DocumentTemplate": "qui",
+    "DocumentId": 817,
+    "Attention": "nihil",
+    "Header": "id",
+    "Name": "Macejkovic-Volkman",
+    "OurRef": "enim",
+    "YourRef": "vel",
+    "Description": "Assimilated motivating policy",
+    "DocumentTemplate": "asperiores",
     "IsPublished": false,
-    "PersonId": 993,
-    "PersonFullName": "Marjolaine Rath",
-    "AssociateFullName": "Elian Crist II",
-    "ContactId": 650,
-    "ContactName": "Gislason Inc and Sons",
-    "ProjectId": 93,
-    "ProjectName": "Gorczany LLC",
-    "AssociateId": 820,
-    "Snum": 124,
-    "SaleId": 243,
-    "SaleName": "Moore, Schulist and Collins",
+    "PersonId": 671,
+    "PersonFullName": "Alva Abbott",
+    "AssociateFullName": "Prof. Naomie Hartmann III",
+    "ContactId": 988,
+    "ContactName": "Volkman-Waelchi",
+    "ProjectId": 261,
+    "ProjectName": "Shanahan Group",
+    "AssociateId": 717,
+    "Snum": 717,
+    "SaleId": 63,
+    "SaleName": "Kilback LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 925
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 368,
-    "ParentId": 560,
-    "Name": "Gottlieb-Rippin",
-    "Fullname": "delectus",
-    "CategoryMaster": 802,
+    "TicketCategoryId": 608,
+    "ParentId": 353,
+    "Name": "Gutkowski Inc and Sons",
+    "Fullname": "ullam",
+    "CategoryMaster": 212,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Abernathy-Moore",
+    "ExternalName": "Schiller-Reichert",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 122,
-    "ReplyTemplate": 112,
-    "NotificationEmail": "mariane@raynor.ca",
+    "AssignmentLag": 364,
+    "ReplyTemplate": 67,
+    "NotificationEmail": "terrance@shields.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 549,
+    "EffectiveReplyTemplateId": 240,
     "ExtraFields": {
-      "ExtraFields1": "rem",
-      "ExtraFields2": "commodi"
+      "ExtraFields1": "officiis",
+      "ExtraFields2": "voluptatem"
     },
     "CustomFields": {
-      "CustomFields1": "soluta",
-      "CustomFields2": "et"
+      "CustomFields1": "quam",
+      "CustomFields2": "nesciunt"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 196
       }
     }
   }

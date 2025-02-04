@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Herman-Wilderman",
-    "ToolTip": "Sit magni ex voluptate excepturi odio perferendis.",
-    "Deleted": false,
-    "Rank": 936,
-    "Type": "commodi",
-    "ColorBlock": 402,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2019-05-10T10:18:00.9731148+02:00",
+    "Id": 327,
+    "Name": "Yost-Wilderman",
+    "ToolTip": "Odio aspernatur eos odio et sit expedita veritatis.",
+    "Deleted": true,
+    "Rank": 13,
+    "Type": "minima",
+    "ColorBlock": 144,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2020-12-14T13:13:32.933046+01:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Fahey-Cronin",
-        "ToolTip": "Aut cupiditate mollitia.",
+        "Id": 976,
+        "Name": "Collins-Becker",
+        "ToolTip": "Sit rerum eveniet dolor.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "ipsa",
-        "ColorBlock": 196,
-        "IconHint": "harum",
+        "Rank": 617,
+        "Type": "quo",
+        "ColorBlock": 409,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2017-05-14T10:18:00.9731148+02:00",
+        "LastChanged": "2001-12-07T13:13:32.933046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "omnis",
+        "ExtraInfo": "sed",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Kristoffer Hagenes",
+        "FullName": "Dannie O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Mrs. Mabelle Labadie IV",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Turner O'Connell DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 776
       }
     }
   }

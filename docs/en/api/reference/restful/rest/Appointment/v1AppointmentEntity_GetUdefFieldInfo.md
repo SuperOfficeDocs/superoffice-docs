@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 710,
-  "ColumnId": 927,
-  "FieldDefault": "ut",
-  "FieldHeight": 25,
-  "FieldLabel": "sed",
-  "FieldLeft": 695,
-  "FieldTop": 783,
+  "UDefFieldId": 67,
+  "ColumnId": 867,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 362,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 201,
+  "FieldTop": 317,
   "FieldType": "Checkbox",
-  "FieldWidth": 701,
-  "FormatMask": "minima",
+  "FieldWidth": 112,
+  "FormatMask": "temporibus",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 595,
-  "LabelLeft": 856,
-  "LabelTop": 48,
-  "LabelWidth": 254,
-  "LastVersionId": 334,
-  "ListTableId": 581,
+  "LabelHeight": 783,
+  "LabelLeft": 780,
+  "LabelTop": 644,
+  "LabelWidth": 897,
+  "LastVersionId": 300,
+  "ListTableId": 235,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 800,
-  "ProgId": "beatae",
+  "Page1LineNo": 251,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "dolor",
-  "TabOrder": 935,
-  "TextLength": 447,
-  "Tooltip": "sint",
-  "UdefIdentity": 73,
-  "UDListDefinitionId": 208,
+  "ShortLabel": "et",
+  "TabOrder": 143,
+  "TextLength": 842,
+  "Tooltip": "qui",
+  "UdefIdentity": 518,
+  "UDListDefinitionId": 26,
   "Justification": "Center",
-  "Version": 312,
-  "TemplateVariableName": "Emard-Murphy",
-  "HasBeenPublished": true,
-  "MdoListName": "Feest, Kozey and Barton",
+  "Version": 889,
+  "TemplateVariableName": "Swift-Lockman",
+  "HasBeenPublished": false,
+  "MdoListName": "Rogahn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 910
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 818
+  "DashboardId": 341
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 143,
-  "Name": "Bogisich-Kemmer",
-  "Description": "Persistent reciprocal utilisation",
-  "OwnedByFullName": "Mrs. Dwight Katrina Sipes DDS",
-  "Registered": "2000-04-27T10:17:55.3321476+02:00",
+  "DashboardId": 982,
+  "Name": "Schiller, Kerluke and Emard",
+  "Description": "Diverse modular access",
+  "OwnedByFullName": "Angus Russel",
+  "Registered": "2003-08-26T13:13:22.5707294+02:00",
   "Tiles": [
     {
-      "Name": "Denesik LLC",
+      "Name": "Abernathy Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldLength": 156
         }
       }
     },
     {
-      "Name": "Denesik LLC",
+      "Name": "Abernathy Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldLength": 156
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

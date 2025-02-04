@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "molestias",
-    "sint"
+    "eius",
+    "in"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 332,
-    "ColumnId": 153,
-    "FieldDefault": "officiis",
-    "FieldHeight": 380,
-    "FieldLabel": "eum",
-    "FieldLeft": 833,
-    "FieldTop": 124,
+    "UDefFieldId": 904,
+    "ColumnId": 709,
+    "FieldDefault": "ducimus",
+    "FieldHeight": 733,
+    "FieldLabel": "nihil",
+    "FieldLeft": 262,
+    "FieldTop": 533,
     "FieldType": "Checkbox",
-    "FieldWidth": 328,
-    "FormatMask": "sunt",
+    "FieldWidth": 354,
+    "FormatMask": "nemo",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 276,
-    "LabelLeft": 494,
-    "LabelTop": 998,
-    "LabelWidth": 692,
-    "LastVersionId": 829,
-    "ListTableId": 980,
+    "IsIndexed": false,
+    "LabelHeight": 361,
+    "LabelLeft": 288,
+    "LabelTop": 809,
+    "LabelWidth": 816,
+    "LastVersionId": 703,
+    "ListTableId": 585,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 762,
-    "ProgId": "sit",
-    "IsReadOnly": true,
-    "ShortLabel": "enim",
-    "TabOrder": 131,
-    "TextLength": 555,
-    "Tooltip": "delectus",
-    "UdefIdentity": 379,
-    "UDListDefinitionId": 778,
+    "Page1LineNo": 351,
+    "ProgId": "dolor",
+    "IsReadOnly": false,
+    "ShortLabel": "eius",
+    "TabOrder": 154,
+    "TextLength": 732,
+    "Tooltip": "velit",
+    "UdefIdentity": 303,
+    "UDListDefinitionId": 611,
     "Justification": "Center",
-    "Version": 354,
-    "TemplateVariableName": "Lebsack, Reinger and Medhurst",
+    "Version": 438,
+    "TemplateVariableName": "Hudson Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "King-Runolfsdottir",
+    "MdoListName": "Flatley, Ratke and Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

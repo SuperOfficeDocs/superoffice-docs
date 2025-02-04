@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "illo",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illo",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -157,79 +157,79 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 6,
+  "EjMessageId": 496,
   "Ticket": null,
-  "CreatedAt": "2016-08-16T10:18:00.8012286+02:00",
+  "CreatedAt": "2024-09-04T13:13:32.4954878+02:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "asperiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nisi",
-  "TimeSpent": 987,
-  "Body": "maxime",
-  "HtmlBody": "laboriosam",
-  "EmailHeader": "america.windler@littlemurray.biz",
-  "DebugInfo": "corrupti",
-  "MailSorter": "esse",
+  "MessageId": "assumenda",
+  "TimeSpent": 909,
+  "Body": "voluptatem",
+  "HtmlBody": "necessitatibus",
+  "EmailHeader": "hunter@fritsch.us",
+  "DebugInfo": "iusto",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "corporis",
   "MessageHeaders": [
     {
-      "Id": 196,
-      "Name": "Sipes Inc and Sons",
-      "Value": "itaque",
+      "Id": 259,
+      "Name": "Gutmann Group",
+      "Value": "modi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 396
+          "FieldType": "System.Int32",
+          "FieldLength": 229
         }
       }
     }
   ],
   "Important": false,
-  "Language": "occaecati",
-  "Sentiment": 260,
-  "SentimentConfidence": 584,
+  "Language": "molestiae",
+  "Sentiment": 184,
+  "SentimentConfidence": 121,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 125,
-      "Name": "Crist Inc and Sons",
-      "ContentType": "dicta",
-      "AttSize": 401,
+      "AttachmentId": 324,
+      "Name": "Gutkowski-Murphy",
+      "ContentType": "ducimus",
+      "AttSize": 49,
       "InlineImage": true,
-      "ContentId": "saepe",
-      "AuthKey": "rerum",
+      "ContentId": "exercitationem",
+      "AuthKey": "doloremque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldLength": 201
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "fugit"
+    "CustomFields1": "tempora",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 499
     }
   },
   "_Links": {

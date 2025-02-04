@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectStatusId": 283
+  "ProjectStatusId": 400
 }
 ```
 

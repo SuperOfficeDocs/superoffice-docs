@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=dolores
-GET /api/v1/Project?$top=792
-GET /api/v1/Project?$skip=255
+GET /api/v1/Project?$entities=velit
+GET /api/v1/Project?$top=735
+GET /api/v1/Project?$skip=836
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=culpa
+GET /api/v1/Project?$context=velit
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vitae",
+  "odata.nextLink": "exercitationem",
   "value": [
     {
-      "PrimaryKey": 8775,
-      "EntityName": "sale",
-      "saleId": 8775,
-      "contactId": 7187,
-      "name": "Borer, Tremblay and Hoeger"
+      "PrimaryKey": 6906,
+      "EntityName": "person",
+      "personId": 6906,
+      "fullName": "Miss Tamara Casper"
     },
     {
-      "PrimaryKey": 4739,
-      "EntityName": "sale",
-      "saleId": 4739,
-      "contactId": 1020,
-      "name": "Rosenbaum LLC"
+      "PrimaryKey": 3880,
+      "EntityName": "person",
+      "personId": 3880,
+      "fullName": "Horace Boehm IV"
     }
   ]
 }

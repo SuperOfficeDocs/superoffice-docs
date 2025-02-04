@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=optio
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Aug 2017 10:18:00 G8T
+Last-Modified: Tue, 16 Jun 2015 13:13:31 G6T
 
 {
-  "Key": "cumque",
-  "Value": "repudiandae",
-  "RecordId": 566,
-  "CreatedDate": "2010-01-09T10:18:00.4262067+01:00",
-  "UpdatedDate": "2017-08-08T10:18:00.4262067+02:00",
-  "UpdatedBy": "autem",
-  "CreatedBy": "ea",
-  "TableName": "O'Connell-Willms",
+  "Key": "harum",
+  "Value": "rerum",
+  "RecordId": 756,
+  "CreatedDate": "2021-10-29T13:13:31.7613495+02:00",
+  "UpdatedDate": "2015-06-16T13:13:31.7613495+02:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "nemo",
+  "TableName": "Wilderman-Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 924
     }
   }
 }

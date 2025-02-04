@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 245,
-  "Name": "Williamson-Ebert",
+  "WebhookId": 802,
+  "Name": "Jewess-Mitchell",
   "Events": [
-    "voluptatibus",
-    "numquam"
+    "recusandae",
+    "quo"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "quia",
+  "Type": "repellendus",
   "Headers": {
-    "Headers1": "tenetur",
-    "Headers2": "ut"
+    "Headers1": "rerum",
+    "Headers2": "quasi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-08-05T10:17:56.3634594+02:00",
+  "Registered": "2023-08-14T13:13:24.5715146+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-09-03T10:17:56.3634594+02:00",
+  "Updated": "2000-06-29T13:13:24.5715146+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "hilda.schamberger@schmidt.uk"
+  "ErrorsEmail": "esmeralda_sawayn@cartwrightmueller.com"
 }
 ```

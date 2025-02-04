@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 571,
-  "UniqueId": "dolores",
-  "Name": "Deckow Inc and Sons",
-  "Description": "User-friendly homogeneous local area network",
-  "AssociateId": 458,
-  "Columns": 700,
+  "DashboardId": 350,
+  "UniqueId": "sed",
+  "Name": "Walter, Corwin and Murphy",
+  "Description": "Enterprise-wide high-level success",
+  "AssociateId": 559,
+  "Columns": 932,
   "Theme": null,
-  "VisibleForAll": 724,
+  "VisibleForAll": 702,
   "VisibleForAssociates": [
-    392,
-    464
+    905,
+    312
   ],
   "VisibleForGroups": [
-    969,
-    582
+    580,
+    399
   ],
-  "PinForAll": 214,
+  "PinForAll": 38,
   "PinForAssociates": [
-    169,
-    905
+    584,
+    933
   ],
   "PinForGroups": [
-    359,
-    632
+    698,
+    348
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 458,
-  "UniqueId": "est",
-  "Name": "Auer, Herman and Leuschke",
-  "Description": "Operative upward-trending matrix",
-  "AssociateId": 608,
-  "Columns": 812,
+  "DashboardId": 549,
+  "UniqueId": "sit",
+  "Name": "Littel, Bashirian and Swift",
+  "Description": "Multi-lateral tertiary application",
+  "AssociateId": 364,
+  "Columns": 888,
   "Theme": null,
-  "VisibleForAll": 512,
+  "VisibleForAll": 603,
   "VisibleForAssociates": [
-    654,
-    999
+    727,
+    798
   ],
   "VisibleForGroups": [
-    666,
-    843
+    661,
+    429
   ],
-  "PinForAll": 95,
+  "PinForAll": 54,
   "PinForAssociates": [
-    638,
-    475
+    620,
+    979
   ],
   "PinForGroups": [
-    5,
-    791
+    480,
+    340
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 770
     }
   }
 }

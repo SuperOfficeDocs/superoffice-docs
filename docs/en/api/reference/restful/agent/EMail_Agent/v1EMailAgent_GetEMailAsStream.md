@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAsStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 458,
-  "StripAttachments": true
+  "MessageServerId": 725,
+  "StripAttachments": false
 }
 ```
 

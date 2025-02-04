@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 638,
-  "Section": "aut",
-  "Key": "odit",
-  "Name": "Gutkowski-Beahan",
+  "PrefDescId": 80,
+  "Section": "inventore",
+  "Key": "fugiat",
+  "Name": "Cummerata, Stokes and Hoppe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone bifurcated infrastructure",
+  "Description": "Profound zero administration knowledge user",
   "IsBuiltin": false,
-  "TableName": "Crona Group",
-  "UserDefinedListId": 106,
-  "Rank": 545,
-  "SubGroup": "pariatur",
-  "MinLevel": 734,
-  "MaxValue": 283,
-  "MinValue": 726,
-  "RequiredLicense": "assumenda",
+  "TableName": "Ratke LLC",
+  "UserDefinedListId": 560,
+  "Rank": 379,
+  "SubGroup": "quaerat",
+  "MinLevel": 526,
+  "MaxValue": 533,
+  "MinValue": 774,
+  "RequiredLicense": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 806
     }
   }
 }

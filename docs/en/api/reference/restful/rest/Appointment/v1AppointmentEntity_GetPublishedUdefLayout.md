@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 863,
-    "ColumnId": 865,
-    "FieldDefault": "id",
-    "FieldHeight": 151,
-    "FieldLabel": "esse",
-    "FieldLeft": 620,
-    "FieldTop": 294,
+    "UDefFieldId": 567,
+    "ColumnId": 38,
+    "FieldDefault": "nisi",
+    "FieldHeight": 740,
+    "FieldLabel": "et",
+    "FieldLeft": 405,
+    "FieldTop": 548,
     "FieldType": "Checkbox",
-    "FieldWidth": 143,
-    "FormatMask": "quis",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 208,
-    "LabelLeft": 728,
-    "LabelTop": 49,
-    "LabelWidth": 893,
-    "LastVersionId": 432,
-    "ListTableId": 112,
-    "IsMandatory": false,
+    "FieldWidth": 299,
+    "FormatMask": "et",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 776,
+    "LabelLeft": 381,
+    "LabelTop": 797,
+    "LabelWidth": 763,
+    "LastVersionId": 31,
+    "ListTableId": 549,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 332,
-    "ProgId": "reiciendis",
-    "IsReadOnly": false,
-    "ShortLabel": "sint",
-    "TabOrder": 909,
-    "TextLength": 816,
-    "Tooltip": "quia",
-    "UdefIdentity": 495,
-    "UDListDefinitionId": 269,
+    "Page1LineNo": 846,
+    "ProgId": "temporibus",
+    "IsReadOnly": true,
+    "ShortLabel": "asperiores",
+    "TabOrder": 364,
+    "TextLength": 87,
+    "Tooltip": "fuga",
+    "UdefIdentity": 794,
+    "UDListDefinitionId": 494,
     "Justification": "Center",
-    "Version": 625,
-    "TemplateVariableName": "Moen, Larson and Haag",
-    "HasBeenPublished": false,
-    "MdoListName": "Koch LLC",
+    "Version": 827,
+    "TemplateVariableName": "O'Keefe-Lang",
+    "HasBeenPublished": true,
+    "MdoListName": "Johnson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 728
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 873,
-    "Id": 1001,
-    "HistoryName": "Cassin-Kirlin",
-    "HistoryId": 892,
-    "AssociateId": 479,
-    "Name": "Doyle-Langosh",
-    "ItemInfo": "totam",
+    "Rank": 78,
+    "Id": 339,
+    "HistoryName": "Legros Inc and Sons",
+    "HistoryId": 989,
+    "AssociateId": 300,
+    "Name": "Mayer-Turner",
+    "ItemInfo": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

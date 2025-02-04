@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=laborum
+GET /api/v1/List/Country/MDOItems?query=modi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Bogisich Inc and Sons",
-    "ToolTip": "Dolores nisi molestiae dicta.",
+    "Id": 58,
+    "Name": "Hoeger, Leuschke and Will",
+    "ToolTip": "Quia veritatis aliquid itaque vel suscipit totam consequatur.",
     "Deleted": false,
-    "Rank": 531,
-    "Type": "quia",
+    "Rank": 746,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "D'Amore, Hoppe and Heller",
-        "ToolTip": "Voluptates porro qui voluptatem.",
-        "Deleted": true,
-        "Rank": 765,
-        "Type": "sapiente",
+        "Id": 246,
+        "Name": "Haag, Nitzsche and Jewess",
+        "ToolTip": "Ex aut tempora laudantium laboriosam est.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 181,
-        "ExtraInfo": "ut",
-        "StyleHint": "asperiores",
-        "FullName": "Mr. Sammy Ernser PhD",
+        "IconHint": "cumque",
+        "ColorBlock": 792,
+        "ExtraInfo": "sint",
+        "StyleHint": "ut",
+        "FullName": "Ara O'Keefe DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 927
+            "FieldLength": 418
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 599,
-    "ExtraInfo": "qui",
-    "StyleHint": "corrupti",
-    "FullName": "Felipa Bradtke",
+    "IconHint": "consequatur",
+    "ColorBlock": 580,
+    "ExtraInfo": "at",
+    "StyleHint": "et",
+    "FullName": "Lauriane Eino Dach III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 827
       }
     }
   }

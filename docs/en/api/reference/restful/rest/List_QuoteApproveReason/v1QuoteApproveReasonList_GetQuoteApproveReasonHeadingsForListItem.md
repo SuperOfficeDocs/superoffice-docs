@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Donnelly LLC",
-    "ToolTip": "Quae voluptate culpa iste vel id dolorem soluta.",
+    "Id": 545,
+    "Name": "Cronin Inc and Sons",
+    "ToolTip": "Deleniti hic repellendus nulla enim sequi autem maiores.",
     "Deleted": false,
-    "Rank": 247,
-    "Type": "dolor",
-    "ColorBlock": 499,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2020-10-27T10:18:01.1137483+01:00",
+    "Rank": 707,
+    "Type": "modi",
+    "ColorBlock": 328,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2000-04-04T13:13:33.4329262+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Lueilwitz-Block",
-        "ToolTip": "Earum optio ut quae cum voluptatem.",
-        "Deleted": false,
-        "Rank": 599,
-        "Type": "dolorem",
-        "ColorBlock": 89,
-        "IconHint": "at",
+        "Id": 592,
+        "Name": "Bins, Lehner and Wiegand",
+        "ToolTip": "Suscipit magni in possimus sint sed.",
+        "Deleted": true,
+        "Rank": 248,
+        "Type": "voluptas",
+        "ColorBlock": 262,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "2022-04-03T10:18:01.1137483+02:00",
+        "LastChanged": "2012-07-29T13:13:33.4329262+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "non",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Effie Quitzon",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Gregg Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 339
+            "FieldType": "System.Int32",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Leilani Shields MD",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "odio",
+    "Hidden": true,
+    "FullName": "Deonte Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

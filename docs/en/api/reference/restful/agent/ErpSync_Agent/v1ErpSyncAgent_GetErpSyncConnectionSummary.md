@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 583
+  "ErpSyncConnectionId": 806
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Barton-Cremin",
-  "DisplayDescription": "Digitized maximized customer loyalty",
+  "DisplayName": "Brekke LLC",
+  "DisplayDescription": "Front-line holistic conglomeration",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2020-05-19T10:17:55.6290333+02:00",
+  "LastSync": "2018-05-29T13:13:23.1020321+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "fugit",
-      "Mappings": "quis",
+      "Defaults": "eum",
+      "Mappings": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 31
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "fugit",
-      "Mappings": "quis",
+      "Defaults": "eum",
+      "Mappings": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 31
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 724
     }
   }
 }

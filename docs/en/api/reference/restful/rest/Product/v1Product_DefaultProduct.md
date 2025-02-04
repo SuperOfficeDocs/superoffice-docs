@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 79,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "magnam",
-  "Name": "Kuphal Group",
-  "Description": "Intuitive leading edge data-warehouse",
-  "Code": "et",
-  "PriceUnit": "molestiae",
-  "QuantityUnit": "dolor",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatibus",
-  "DefaultSubscriptionQuantity": 8828.478,
-  "ItemNumber": "1105649",
+  "ProductId": 791,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "quia",
+  "Name": "Hartmann-Emmerich",
+  "Description": "Enhanced local toolset",
+  "Code": "harum",
+  "PriceUnit": "sed",
+  "QuantityUnit": "atque",
+  "IsSubscription": false,
+  "SubscriptionUnit": "possimus",
+  "DefaultSubscriptionQuantity": 2140.522,
+  "ItemNumber": "714108",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ducimus",
-  "ProductTypeKey": "reiciendis",
-  "VAT": 26018.468,
-  "VATInfo": "et",
-  "UnitCost": 9207.692,
-  "UnitMinimumPrice": 4205.8279999999995,
-  "UnitListPrice": 11066.154,
+  "ProductFamilyKey": "inventore",
+  "ProductTypeKey": "repudiandae",
+  "VAT": 9837.626,
+  "VATInfo": "illum",
+  "UnitCost": 12206.93,
+  "UnitMinimumPrice": 22439.44,
+  "UnitListPrice": 27532.19,
   "InAssortment": true,
-  "Supplier": "eos",
-  "SupplierCode": "dolores",
-  "Rights": "est",
-  "Rule": "pariatur",
+  "Supplier": "qui",
+  "SupplierCode": "voluptas",
+  "Rights": "cum",
+  "Rule": "laudantium",
   "ExtraInfo": [
     {
-      "Name": "Bogan, Hilll and Buckridge",
-      "Value": "adipisci",
+      "Name": "Von Group",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 811
         }
       }
     },
     {
-      "Name": "Bogan, Hilll and Buckridge",
-      "Value": "adipisci",
+      "Name": "Von Group",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 811
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsam",
-  "ExtraField1": "natus",
-  "ExtraField2": "molestias",
-  "ExtraField3": "quisquam",
-  "ExtraField4": "aliquid",
-  "ExtraField5": "exercitationem",
-  "InStock": 21035.408,
+  "RawExtraInfo": "est",
+  "ExtraField1": "fugiat",
+  "ExtraField2": "nihil",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "rerum",
+  "ExtraField5": "qui",
+  "InStock": 485.77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldLength": 77
     }
   }
 }

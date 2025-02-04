@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie LLC",
-    "DisplayName": "Stroman LLC",
-    "DisplayTooltip": "voluptates",
+    "Name": "Hintz-Rosenbaum",
+    "DisplayName": "Konopelski-Deckow",
+    "DisplayTooltip": "repellat",
     "IsActive": true
   },
   {
-    "Name": "McKenzie LLC",
-    "DisplayName": "Stroman LLC",
-    "DisplayTooltip": "voluptates",
+    "Name": "Hintz-Rosenbaum",
+    "DisplayName": "Konopelski-Deckow",
+    "DisplayTooltip": "repellat",
     "IsActive": true
   }
 ]

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 988,
-    "Name": "Brakus, Rosenbaum and Kihn",
-    "Description": "Enterprise-wide 4th generation pricing structure",
+    "ProjectId": 610,
+    "Name": "Mayert, Lubowitz and Will",
+    "Description": "Diverse asynchronous conglomeration",
     "URL": "http://www.example.com/",
-    "Type": "saepe",
-    "AssociateId": 619,
-    "AssociateFullName": "Prof. Jacey Steuber",
-    "TypeId": 661,
-    "Updated": "2008-12-27T10:17:55.9103076+01:00",
-    "StatusId": 446,
-    "Status": "rerum",
-    "TextId": 814,
-    "PublishTo": "2016-12-27T10:17:55.9103076+01:00",
-    "PublishFrom": "1999-01-18T10:17:55.9103076+01:00",
+    "Type": "et",
+    "AssociateId": 450,
+    "AssociateFullName": "Verna Jaskolski",
+    "TypeId": 806,
+    "Updated": "2006-08-20T13:13:23.664465+02:00",
+    "StatusId": 806,
+    "Status": "culpa",
+    "TextId": 474,
+    "PublishTo": "2016-02-18T13:13:23.664465+01:00",
+    "PublishFrom": "1998-08-09T13:13:23.664465+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "343246",
-    "ActiveErpLinks": 6,
+    "ProjectNumber": "1333042",
+    "ActiveErpLinks": 17,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldType": "System.String",
+        "FieldLength": 734
       }
     }
   }

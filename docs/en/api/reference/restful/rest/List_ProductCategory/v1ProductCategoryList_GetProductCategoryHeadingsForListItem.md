@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "O'Connell, Rutherford and Pacocha",
-    "ToolTip": "Quia asperiores vero nisi asperiores quidem iusto reprehenderit.",
+    "Id": 361,
+    "Name": "Schuppe, Quitzon and Murazik",
+    "ToolTip": "Voluptate deleniti doloribus.",
     "Deleted": false,
-    "Rank": 768,
-    "Type": "repellendus",
-    "ColorBlock": 151,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "2016-09-25T10:18:01.0824964+02:00",
+    "Rank": 354,
+    "Type": "nostrum",
+    "ColorBlock": 301,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2005-01-30T13:13:33.3079559+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Mayer Inc and Sons",
-        "ToolTip": "Enim quidem ut consequatur aspernatur.",
-        "Deleted": true,
-        "Rank": 26,
-        "Type": "vel",
-        "ColorBlock": 578,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2018-07-19T10:18:01.0824964+02:00",
+        "Id": 885,
+        "Name": "Herman Group",
+        "ToolTip": "Quibusdam nihil dolorem rerum.",
+        "Deleted": false,
+        "Rank": 350,
+        "Type": "natus",
+        "ColorBlock": 695,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2009-04-03T13:13:33.3079559+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Marjolaine Buckridge",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Shanel Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 942
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "tenetur",
-    "Hidden": true,
-    "FullName": "Mrs. Shakira Harmon Olson II",
+    "ExtraInfo": "possimus",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Filiberto Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

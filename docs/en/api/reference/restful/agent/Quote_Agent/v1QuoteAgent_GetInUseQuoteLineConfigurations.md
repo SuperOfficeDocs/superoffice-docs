@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 435,
-    "FieldName": "Heidenreich, Shields and Jacobi",
-    "Label": "rerum",
-    "Tooltip": "et",
-    "Editable": false,
-    "InUse": true,
+    "QuoteLineConfigurationId": 886,
+    "FieldName": "Tremblay LLC",
+    "Label": "dolor",
+    "Tooltip": "aut",
+    "Editable": true,
+    "InUse": false,
     "Mandatory": true,
-    "Rank": 302,
+    "Rank": 643,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

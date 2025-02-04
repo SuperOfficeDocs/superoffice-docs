@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "non",
+      "RawValue": "autem",
       "Specification": null,
-      "DisplayValue": "perferendis",
-      "DisplayTooltip": "beatae",
+      "DisplayValue": "consequatur",
+      "DisplayTooltip": "non",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 495,
-      "PrefDescId": 730,
-      "TableName": "Stark-Johnston",
-      "UserPreferenceId": 191
+      "TargetId": 460,
+      "PrefDescId": 360,
+      "TableName": "Predovic, Jakubowski and Braun",
+      "UserPreferenceId": 925
     }
   ]
 }

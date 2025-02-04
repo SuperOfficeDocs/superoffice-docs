@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
+  "Id": 960,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 845,
+  "EjMessageId": 978,
   "Ticket": null,
-  "CreatedAt": "2014-02-22T10:17:56.2853287+01:00",
+  "CreatedAt": "2018-09-14T13:13:24.430923+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 6,
-  "Body": "et",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "verda_hane@hilpert.name",
-  "DebugInfo": "ut",
-  "MailSorter": "totam",
+  "MessageId": "cupiditate",
+  "TimeSpent": 989,
+  "Body": "explicabo",
+  "HtmlBody": "quod",
+  "EmailHeader": "jeramy@christiansenleuschke.name",
+  "DebugInfo": "iste",
+  "MailSorter": "expedita",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "atque",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 859,
-      "Name": "Rempel Group",
-      "Value": "illo",
+      "Id": 63,
+      "Name": "Bruen Group",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 568
+          "FieldType": "System.Int32",
+          "FieldLength": 444
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "est",
-  "Sentiment": 765,
-  "SentimentConfidence": 784,
+  "Important": false,
+  "Language": "repellendus",
+  "Sentiment": 579,
+  "SentimentConfidence": 575,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 615,
-      "Name": "Walker, Schuster and Lebsack",
-      "ContentType": "aut",
-      "AttSize": 350,
+      "AttachmentId": 345,
+      "Name": "Bruen-Kreiger",
+      "ContentType": "nisi",
+      "AttSize": 655,
       "InlineImage": false,
-      "ContentId": "porro",
-      "AuthKey": "ipsam",
+      "ContentId": "qui",
+      "AuthKey": "dolor",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 388
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "quo"
+    "CustomFields1": "nemo",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 820
     }
   }
 }

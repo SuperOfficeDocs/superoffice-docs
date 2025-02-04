@@ -484,7 +484,7 @@ This is the archive Provider for the Selection Mailings archive.
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -659,7 +659,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/deletedDate,mailingAddr/contact/contactPhone/formattedNumber,mailingAddr/person/personMobilePhone/formattedNumber,mailingAddr/person/correspondingAssociate/assocName,associate/ejDisplayName
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/associateId,mailingAddr/contact/streetAddress/wgs84latitude,mailingAddr/person/whenUpdatedByWorkflow,mailingAddr/person/personInterestIds,mailingAddr/person/personUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

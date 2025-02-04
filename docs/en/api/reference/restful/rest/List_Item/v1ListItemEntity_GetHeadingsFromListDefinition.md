@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 196,
-    "Name": "Cassin, Vandervort and Braun",
-    "Tooltip": "magnam",
-    "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 477,
+    "HeadingId": 439,
+    "Name": "Runolfsson LLC",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 894,
+    "UdListDefinitionId": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 801
       }
     }
   }

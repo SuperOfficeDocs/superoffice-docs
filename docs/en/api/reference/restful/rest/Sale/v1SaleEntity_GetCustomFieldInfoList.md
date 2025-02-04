@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Heaney, Schuppe and Stokes",
-    "DisplayName": "Bartoletti, Jacobs and Toy",
-    "Description": "Reduced leading edge support",
-    "ShortLabel": "aut",
+    "FieldName": "Runte-Lynch",
+    "DisplayName": "Kihn Inc and Sons",
+    "Description": "Profit-focused mission-critical open architecture",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 417,
-    "TemplateVariableName": "Lind Group"
+    "Rank": 362,
+    "TemplateVariableName": "Pouros LLC"
   }
 ]
 ```

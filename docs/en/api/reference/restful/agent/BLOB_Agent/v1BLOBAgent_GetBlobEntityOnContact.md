@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 936
+  "ContactId": 562
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 472,
-  "BlobSize": 836,
-  "Description": "Open-architected interactive migration",
-  "ExtraInfo": "minus",
-  "IsEncrypted": false,
+  "BlobId": 276,
+  "BlobSize": 607,
+  "Description": "Realigned demand-driven budgetary management",
+  "ExtraInfo": "consequatur",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ratione",
-  "OriginalSize": 377,
-  "CreatedDate": "2017-10-26T10:17:55.1446361+02:00",
-  "UpdatedDate": "2001-03-09T10:17:55.1446361+01:00",
+  "MimeType": "et",
+  "OriginalSize": 939,
+  "CreatedDate": "2006-02-18T13:13:22.1645758+01:00",
+  "UpdatedDate": "2011-03-03T13:13:22.1645758+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "numquam",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 591
     }
   }
 }

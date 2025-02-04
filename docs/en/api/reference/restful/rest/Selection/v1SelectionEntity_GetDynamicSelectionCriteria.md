@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Breitenberg-Mosciski",
-    "Operator": "nihil",
+    "Name": "Quigley-Jaskolski",
+    "Operator": "modi",
     "Values": [
-      "hic",
-      "veniam"
+      "ab",
+      "aperiam"
     ],
     "DisplayValues": [
-      "et",
-      "ullam"
+      "saepe",
+      "beatae"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Moore, Hansen and Pouros",
-        "Operator": "et",
+        "Name": "Johns, Kuphal and Schmitt",
+        "Operator": "molestias",
         "Values": [
-          "mollitia",
-          "id"
+          "ullam",
+          "qui"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "debitis"
+          "delectus",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 14,
+        "InterParenthesis": 138,
         "InterOperator": "And",
-        "UniqueHash": 511
+        "UniqueHash": 309
       }
     ],
-    "InterParenthesis": 604,
+    "InterParenthesis": 434,
     "InterOperator": "And",
-    "UniqueHash": 803
+    "UniqueHash": 6
   }
 ]
 ```

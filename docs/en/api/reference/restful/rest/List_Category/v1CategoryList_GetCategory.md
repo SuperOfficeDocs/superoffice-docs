@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Hoeger Inc and Sons",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "UdListDefinitionId": 909,
-  "Rank": 490,
+  "Id": 669,
+  "Name": "Graham Group",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "UdListDefinitionId": 752,
+  "Rank": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=515
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=84
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 811,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "exercitationem",
-  "SmsMessage": "aliquid",
-  "Description": "Reactive hybrid solution",
-  "Subject": "quia",
-  "FolderId": 620,
-  "HeaderField": "quis",
-  "Design": "eos",
+  "ShipmentMessageId": 200,
+  "PlainMessage": "sit",
+  "HtmlMessage": "itaque",
+  "SmsMessage": "quibusdam",
+  "Description": "Universal transitional migration",
+  "Subject": "voluptatem",
+  "FolderId": 568,
+  "HeaderField": "et",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Operative global strategy",
-  "AccessKey": "harum",
-  "DocumentMessage": 478,
-  "Registered": "2022-05-06T10:17:55.7540473+02:00",
-  "RegisteredAssociateId": 677,
-  "Updated": "2006-12-16T10:17:55.7540473+01:00",
-  "UpdatedAssociateId": 572,
-  "UpdatedCount": 165,
+  "InlineImages": true,
+  "LongDescription": "Advanced value-added product",
+  "AccessKey": "modi",
+  "DocumentMessage": 239,
+  "Registered": "2022-01-27T13:13:23.3676626+01:00",
+  "RegisteredAssociateId": 464,
+  "Updated": "1997-12-10T13:13:23.3676626+01:00",
+  "UpdatedAssociateId": 668,
+  "UpdatedCount": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

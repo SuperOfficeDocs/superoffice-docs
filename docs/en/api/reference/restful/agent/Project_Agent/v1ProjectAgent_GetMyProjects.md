@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 683,
-    "Name": "Hand-Mosciski",
-    "Description": "Multi-tiered zero defect process improvement",
+    "ProjectId": 371,
+    "Name": "Barton-Cormier",
+    "Description": "Sharable zero defect approach",
     "URL": "http://www.example.com/",
-    "Type": "quos",
-    "AssociateId": 517,
-    "AssociateFullName": "Neha Moen",
-    "TypeId": 37,
-    "Updated": "2009-03-11T10:17:55.9103076+01:00",
-    "StatusId": 465,
-    "Status": "tenetur",
-    "TextId": 271,
-    "PublishTo": "2024-08-15T10:17:55.9103076+02:00",
-    "PublishFrom": "2005-04-27T10:17:55.9103076+02:00",
+    "Type": "facere",
+    "AssociateId": 241,
+    "AssociateFullName": "Mr. Timothy Nikolaus",
+    "TypeId": 154,
+    "Updated": "2006-01-26T13:13:23.664465+01:00",
+    "StatusId": 379,
+    "Status": "vitae",
+    "TextId": 863,
+    "PublishTo": "2022-10-01T13:13:23.664465+02:00",
+    "PublishFrom": "2001-07-07T13:13:23.664465+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1192947",
-    "ActiveErpLinks": 656,
+    "ProjectNumber": "1398503",
+    "ActiveErpLinks": 302,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 167
       }
     }
   }

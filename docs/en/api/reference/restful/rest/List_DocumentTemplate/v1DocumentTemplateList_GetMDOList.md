@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=esse
+GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Koch-Kozey",
-    "ToolTip": "Reiciendis est ut.",
-    "Deleted": false,
-    "Rank": 428,
-    "Type": "deserunt",
+    "Id": 548,
+    "Name": "Hartmann, Larkin and Zboncak",
+    "ToolTip": "Cumque id suscipit cum porro vitae.",
+    "Deleted": true,
+    "Rank": 419,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Bergnaum, Welch and Schiller",
-        "ToolTip": "Dolorem rerum recusandae sed laboriosam in.",
-        "Deleted": true,
-        "Rank": 448,
-        "Type": "aut",
+        "Id": 95,
+        "Name": "Stokes-Emard",
+        "ToolTip": "Et enim id qui non laborum voluptates.",
+        "Deleted": false,
+        "Rank": 193,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 709,
-        "ExtraInfo": "animi",
-        "StyleHint": "fuga",
-        "FullName": "Kelvin Purdy",
+        "IconHint": "aut",
+        "ColorBlock": 303,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "at",
+        "FullName": "Dr. Jaunita Melyna Kilback PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldType": "System.String",
+            "FieldLength": 47
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 552,
-    "ExtraInfo": "magnam",
-    "StyleHint": "dolorem",
-    "FullName": "Dariana Schowalter",
+    "IconHint": "omnis",
+    "ColorBlock": 590,
+    "ExtraInfo": "quae",
+    "StyleHint": "in",
+    "FullName": "Dr. Jermaine Rosina Adams Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 295
       }
     }
   }

@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    646,
-    880
+    447,
+    540
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 676,
+  "EjMessageId": 364,
   "Ticket": null,
-  "CreatedAt": "2023-11-26T10:17:56.2853287+01:00",
+  "CreatedAt": "2008-10-13T13:13:24.4153047+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "dolorum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 816,
-  "Body": "quia",
-  "HtmlBody": "neque",
-  "EmailHeader": "esta@morissette.ca",
-  "DebugInfo": "illum",
-  "MailSorter": "est",
+  "MessageId": "illum",
+  "TimeSpent": 107,
+  "Body": "recusandae",
+  "HtmlBody": "molestias",
+  "EmailHeader": "hattie@abshire.co.uk",
+  "DebugInfo": "veniam",
+  "MailSorter": "doloremque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eius",
+  "SearchTitle": "necessitatibus",
   "MessageHeaders": [
     {
-      "Id": 851,
-      "Name": "Nolan, Botsford and King",
-      "Value": "sequi",
+      "Id": 409,
+      "Name": "Weber-Predovic",
+      "Value": "quod",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 582
         }
       }
     }
   ],
   "Important": false,
-  "Language": "similique",
-  "Sentiment": 713,
-  "SentimentConfidence": 171,
+  "Language": "quod",
+  "Sentiment": 392,
+  "SentimentConfidence": 474,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 274,
-      "Name": "Anderson, Gutmann and King",
-      "ContentType": "nesciunt",
-      "AttSize": 679,
+      "AttachmentId": 54,
+      "Name": "Reinger Inc and Sons",
+      "ContentType": "sed",
+      "AttSize": 744,
       "InlineImage": true,
-      "ContentId": "rerum",
-      "AuthKey": "cumque",
+      "ContentId": "laudantium",
+      "AuthKey": "doloremque",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 544
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "sint"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 816
     }
   }
 }

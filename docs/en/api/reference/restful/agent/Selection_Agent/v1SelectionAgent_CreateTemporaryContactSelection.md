@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved tertiary installation",
-  "Postit": "earum",
+  "Description": "Cross-group multi-tasking middleware",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 207,
-  "IncludePerson": 209,
+  "GroupIdx": 403,
+  "IncludePerson": 99,
   "MemberCount": 99.99,
-  "Name": "Thompson Inc and Sons",
-  "PostitTextId": 648,
-  "CreatedDate": "2003-11-26T10:17:56.0353154+01:00",
-  "SelectionId": 425,
-  "SoundEx": "ullam",
-  "Source": 946,
-  "TextId": 483,
-  "UpdatedDate": "2001-05-22T10:17:56.0353154+02:00",
-  "UpdatedCount": 822,
-  "Visibility": 285,
+  "Name": "Koepp-Bayer",
+  "PostitTextId": 690,
+  "CreatedDate": "2008-03-17T13:13:23.946561+01:00",
+  "SelectionId": 306,
+  "SoundEx": "facere",
+  "Source": 570,
+  "TextId": 484,
+  "UpdatedDate": "2022-11-15T13:13:23.946561+01:00",
+  "UpdatedCount": 459,
+  "Visibility": 874,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 390,
-  "TargetTableName": "Powlowski-Johnson",
+  "TargetTableNumber": 905,
+  "TargetTableName": "Ondricka, Collier and Fisher",
   "Completed": false,
-  "LeftSelectionId": 623,
-  "RightSelectionId": 374,
+  "LeftSelectionId": 382,
+  "RightSelectionId": 968,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ledner-Moore",
-  "ShadowProviderName": "Breitenberg-Cassin",
-  "ChartKey": "dicta",
-  "LastLoaded": "1998-10-17T10:17:56.0353154+02:00",
-  "LastLoadedBy": 910,
+  "MainProviderName": "Huels Group",
+  "ShadowProviderName": "Hessel LLC",
+  "ChartKey": "qui",
+  "LastLoaded": "2016-05-08T13:13:23.946561+02:00",
+  "LastLoadedBy": 183,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-07-12T10:17:56.0353154+02:00",
-  "LastMembershipChangeBy": 434,
+  "LastMembershipChange": "2003-06-17T13:13:23.946561+02:00",
+  "LastMembershipChangeBy": 691,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deleniti",
-  "MemberTabHeading": "autem",
-  "MailingsProviderName": "Streich-Dibbert",
-  "DashboardTileDefinitionId": 502,
+  "MainHeading": "eum",
+  "MemberTabHeading": "repudiandae",
+  "MailingsProviderName": "Mertz, Towne and Keeling",
+  "DashboardTileDefinitionId": 806,
   "VisibleFor": [
     {
-      "VisibleId": 217,
+      "VisibleId": 782,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 555
         }
       }
     },
     {
-      "VisibleId": 217,
+      "VisibleId": 782,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 555
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 953
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

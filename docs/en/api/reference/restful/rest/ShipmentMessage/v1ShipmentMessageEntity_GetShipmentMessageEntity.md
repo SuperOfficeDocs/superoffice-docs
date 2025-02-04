@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 407,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "perferendis",
-  "SmsMessage": "rem",
-  "Description": "Horizontal coherent neural-net",
-  "Subject": "a",
-  "FolderId": 234,
-  "HeaderField": "velit",
-  "Design": "atque",
+  "ShipmentMessageId": 906,
+  "PlainMessage": "sed",
+  "HtmlMessage": "est",
+  "SmsMessage": "id",
+  "Description": "Distributed mission-critical focus group",
+  "Subject": "molestiae",
+  "FolderId": 635,
+  "HeaderField": "sapiente",
+  "Design": "sunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Multi-channelled static neural-net",
-  "AccessKey": "rerum",
-  "DocumentMessage": 217,
-  "Registered": "2001-05-09T10:18:00.723098+02:00",
-  "RegisteredAssociateId": 902,
-  "Updated": "2001-11-12T10:18:00.723098+01:00",
-  "UpdatedAssociateId": 400,
-  "UpdatedCount": 670,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "User-friendly multi-state task-force",
+  "AccessKey": "sed",
+  "DocumentMessage": 30,
+  "Registered": "2009-01-31T13:13:32.3392746+01:00",
+  "RegisteredAssociateId": 874,
+  "Updated": "2018-06-19T13:13:32.3392746+02:00",
+  "UpdatedAssociateId": 26,
+  "UpdatedCount": 16,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 858,
-  "StartTime": "2015-05-28T10:17:55.3477735+02:00",
-  "EndTime": "2009-12-05T10:17:55.3477735+01:00",
-  "Count": 560,
+  "ContactId": 528,
+  "StartTime": "2002-06-26T13:13:22.5863494+02:00",
+  "EndTime": "2003-08-16T13:13:22.5863494+02:00",
+  "Count": 980,
   "DocumentTemplateIds": [
-    271,
-    656
+    830,
+    862
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 882,
-    "Attention": "exercitationem",
-    "Header": "animi",
-    "Name": "O'Reilly Group",
-    "OurRef": "dolor",
-    "YourRef": "consequatur",
-    "Description": "Multi-lateral web-enabled utilisation",
-    "DocumentTemplate": "sunt",
-    "IsPublished": true,
-    "PersonId": 277,
-    "PersonFullName": "Cyrus Batz",
-    "AssociateFullName": "Ms. Eusebio Herman",
-    "ContactId": 405,
-    "ContactName": "Olson LLC",
-    "ProjectId": 823,
-    "ProjectName": "Lindgren LLC",
-    "AssociateId": 705,
-    "Snum": 776,
-    "SaleId": 875,
-    "SaleName": "Gusikowski-Romaguera",
+    "DocumentId": 151,
+    "Attention": "dolores",
+    "Header": "aliquam",
+    "Name": "Daugherty LLC",
+    "OurRef": "laborum",
+    "YourRef": "quae",
+    "Description": "Down-sized composite database",
+    "DocumentTemplate": "hic",
+    "IsPublished": false,
+    "PersonId": 383,
+    "PersonFullName": "Dr. Elna Emelia Reilly IV",
+    "AssociateFullName": "William Heaney",
+    "ContactId": 806,
+    "ContactName": "Farrell, Bogan and Jaskolski",
+    "ProjectId": 27,
+    "ProjectName": "Moen, Friesen and Turcotte",
+    "AssociateId": 585,
+    "Snum": 198,
+    "SaleId": 360,
+    "SaleName": "Skiles, Stamm and Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

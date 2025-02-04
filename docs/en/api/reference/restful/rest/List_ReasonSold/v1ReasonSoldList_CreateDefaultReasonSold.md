@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "Bogisich-Skiles",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "UdListDefinitionId": 710,
-  "Rank": 994,
+  "Id": 270,
+  "Name": "Jenkins-Littel",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 40,
+  "Rank": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 323
     }
   }
 }

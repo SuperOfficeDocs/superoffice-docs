@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCaches
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

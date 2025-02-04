@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 381,
-      "DisplayName": "Crona LLC",
-      "OngoingChats": 640,
+      "UserId": 859,
+      "DisplayName": "Bergnaum-Streich",
+      "OngoingChats": 636,
       "Present": false,
       "ChatTopics": [
         913,
-        846
+        807
       ]
     },
     {
-      "UserId": 381,
-      "DisplayName": "Crona LLC",
-      "OngoingChats": 640,
+      "UserId": 859,
+      "DisplayName": "Bergnaum-Streich",
+      "OngoingChats": 636,
       "Present": false,
       "ChatTopics": [
         913,
-        846
+        807
       ]
     }
   ]

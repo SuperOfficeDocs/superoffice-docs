@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 302,
+  "TargetYear": 162,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 960,
-  "DimensionId": 77
+  "Id": 298,
+  "DimensionId": 999
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 118,
+  "TargetAssignmentInfoId": 260,
   "Values": [
-    631,
-    241
+    452,
+    130
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 61,
-  "DimensionListItemDisplayName": "Keeling-Hessel",
+  "DimensionListItem": 533,
+  "DimensionListItemDisplayName": "Boyle Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

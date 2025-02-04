@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 607,
-  "Name": "Ward-Fritsch",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 528,
-  "UdListDefinitionId": 713
+  "HeadingId": 364,
+  "Name": "Walker Inc and Sons",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 902,
+  "UdListDefinitionId": 495
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 991,
-  "Name": "Stroman, Mertz and Shields",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 840,
-  "UdListDefinitionId": 763,
+  "HeadingId": 726,
+  "Name": "Little-Johnston",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 145,
+  "UdListDefinitionId": 760,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 930
     }
   }
 }

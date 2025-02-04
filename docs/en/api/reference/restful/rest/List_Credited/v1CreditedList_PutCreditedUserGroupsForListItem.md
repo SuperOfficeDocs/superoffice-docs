@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Lindgren, Fisher and Mayer",
-    "ToolTip": "Recusandae aut facilis est dolorem.",
+    "Id": 210,
+    "Name": "Pfeffer-Thiel",
+    "ToolTip": "Quod aut sint.",
     "Deleted": false,
-    "Rank": 564,
-    "Type": "optio",
-    "ColorBlock": 567,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2023-04-24T10:18:00.9887407+02:00",
+    "Rank": 788,
+    "Type": "ipsa",
+    "ColorBlock": 973,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2002-11-08T13:13:32.9799092+01:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Hickle-Erdman",
-        "ToolTip": "Quibusdam dolores quaerat blanditiis et quia error et.",
+        "Id": 716,
+        "Name": "Dare, Abshire and Harber",
+        "ToolTip": "Dolor fuga beatae non.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "eum",
-        "ColorBlock": 116,
-        "IconHint": "aliquid",
+        "Rank": 445,
+        "Type": "expedita",
+        "ColorBlock": 571,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2018-04-04T10:18:00.9887407+02:00",
+        "LastChanged": "2006-09-11T13:13:32.9799092+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "et",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Yadira Bogan Sr."
+        "FullName": "Prof. Kale Marina McGlynn V"
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Antwan Jacobs PhD"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Miss Nikita Jerrell Gleason"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Huel-Bergnaum",
-    "ToolTip": "Accusamus est molestiae.",
+    "Id": 235,
+    "Name": "Mueller-Kemmer",
+    "ToolTip": "Quae fugiat qui officia tempore et.",
     "Deleted": false,
-    "Rank": 987,
-    "Type": "ut",
-    "ColorBlock": 424,
-    "IconHint": "vero",
+    "Rank": 98,
+    "Type": "alias",
+    "ColorBlock": 521,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2003-08-06T10:18:00.9887407+02:00",
+    "LastChanged": "2010-03-02T13:13:32.9955292+01:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "McKenzie Inc and Sons",
-        "ToolTip": "Exercitationem sint sunt autem quidem quis sit.",
+        "Id": 573,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Eligendi blanditiis quo sit optio dicta necessitatibus qui.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "qui",
-        "ColorBlock": 383,
-        "IconHint": "libero",
+        "Rank": 636,
+        "Type": "et",
+        "ColorBlock": 616,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2012-04-09T10:18:00.9887407+02:00",
+        "LastChanged": "2014-06-03T13:13:32.9955292+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "distinctio",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Gerson O'Kon",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Prof. Jerry Ignacio Medhurst PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quia",
+    "ExtraInfo": "repellat",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Prof. Guillermo Joelle Upton I",
+    "FullName": "Rose West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldLength": 479
       }
     }
   }

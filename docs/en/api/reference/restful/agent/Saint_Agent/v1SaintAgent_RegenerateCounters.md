@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Goyette-Wehner",
-  "AssociateId": 959,
-  "DetailsTable": 860,
-  "DetailsRecord": 250,
-  "IsSystemTask": false,
+  "Id": 576,
+  "Name": "Schultz Group",
+  "AssociateId": 414,
+  "DetailsTable": 165,
+  "DetailsRecord": 65,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sunt",
-    "ParameterObject2": "temporibus"
+    "ParameterObject1": "totam",
+    "ParameterObject2": "harum"
   },
-  "LastStarted": "2011-01-22T10:17:55.9728114+01:00",
-  "Created": "2010-10-25T10:17:55.9728114+02:00",
-  "StartCount": 178,
-  "DatabaseSerialNumber": "1493745",
-  "Context": "delectus",
-  "Result": "in",
+  "LastStarted": "2004-04-19T13:13:23.8050553+02:00",
+  "Created": "2005-12-30T13:13:23.8050553+01:00",
+  "StartCount": 304,
+  "DatabaseSerialNumber": "540340",
+  "Context": "ut",
+  "Result": "accusantium",
   "State": "All",
-  "Description": "Digitized demand-driven attitude",
-  "Response": "voluptatem",
-  "Request": "magnam",
-  "ProgressDescription": "Future-proofed bifurcated challenge",
-  "ProgressPercent": 913,
-  "FileName": "Dach LLC",
+  "Description": "Vision-oriented maximized neural-net",
+  "Response": "necessitatibus",
+  "Request": "provident",
+  "ProgressDescription": "Networked transitional secured line",
+  "ProgressPercent": 249,
+  "FileName": "Stanton, Hettinger and Metz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

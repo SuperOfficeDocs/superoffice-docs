@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 378,
-  "Name": "Murazik-Kautzer",
-  "Tooltip": "hic",
+  "HeadingId": 17,
+  "Name": "Gleason, Will and Terry",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 470,
-  "UdListDefinitionId": 211
+  "Rank": 625,
+  "UdListDefinitionId": 279
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 865,
-  "Name": "Beier, Rempel and Will",
-  "Tooltip": "ea",
+  "HeadingId": 696,
+  "Name": "Leuschke Inc and Sons",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 960,
-  "UdListDefinitionId": 612,
+  "Rank": 946,
+  "UdListDefinitionId": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

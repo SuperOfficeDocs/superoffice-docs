@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Marvin-Jacobs",
-    "ToolTip": "Saepe expedita.",
-    "Deleted": false,
-    "Rank": 720,
-    "Type": "numquam",
-    "ColorBlock": 390,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2009-07-06T10:18:01.0043667+02:00",
+    "Id": 527,
+    "Name": "Hirthe LLC",
+    "ToolTip": "Temporibus et dignissimos aut quo.",
+    "Deleted": true,
+    "Rank": 105,
+    "Type": "sunt",
+    "ColorBlock": 499,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2017-12-22T13:13:33.042395+01:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Walker, Roberts and Schultz",
-        "ToolTip": "Sapiente ducimus officiis fugiat.",
+        "Id": 460,
+        "Name": "McLaughlin LLC",
+        "ToolTip": "Dolorem non.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "aut",
-        "ColorBlock": 24,
-        "IconHint": "veritatis",
+        "Rank": 682,
+        "Type": "omnis",
+        "ColorBlock": 149,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "2023-06-23T10:18:01.0043667+02:00",
+        "LastChanged": "2005-01-30T13:13:33.042395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "impedit",
+        "ExtraInfo": "quidem",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Marina Stracke",
+        "FullName": "Andy Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 808
+            "FieldType": "System.Int32",
+            "FieldLength": 768
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Major Cristobal Gleichner I",
+    "ExtraInfo": "cum",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Miss Johan Yost IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

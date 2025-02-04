@@ -115,35 +115,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 215,
-  "Name": "West Group",
-  "Rank": 87,
-  "Tooltip": "dicta",
-  "Icon": "ducimus",
-  "DefaultTicketStatus": 711,
+  "TicketTypeId": 640,
+  "Name": "Kunde Inc and Sons",
+  "Rank": 150,
+  "Tooltip": "et",
+  "Icon": "nihil",
+  "DefaultTicketStatus": 581,
   "TicketStatuses": [
-    38,
-    763
+    704,
+    50
   ],
-  "DefaultTicketPriority": 174,
+  "DefaultTicketPriority": 393,
   "TicketPriorities": [
-    723,
-    125
+    630,
+    937
   ],
-  "ReplyTemplate": 926,
+  "ReplyTemplate": 598,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    302,
-    66
+    182,
+    595
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -157,31 +157,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 413,
-  "Name": "Green-Wunsch",
-  "Rank": 821,
-  "Tooltip": "voluptates",
-  "Icon": "aperiam",
-  "DefaultTicketStatus": 379,
+  "TicketTypeId": 898,
+  "Name": "Quigley-Roob",
+  "Rank": 497,
+  "Tooltip": "labore",
+  "Icon": "laborum",
+  "DefaultTicketStatus": 953,
   "TicketStatuses": [
-    525,
-    659
+    468,
+    715
   ],
-  "DefaultTicketPriority": 646,
+  "DefaultTicketPriority": 266,
   "TicketPriorities": [
-    823,
-    727
+    750,
+    737
   ],
-  "ReplyTemplate": 413,
+  "ReplyTemplate": 315,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    744,
-    845
+    976,
+    201
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   },
   "_Links": {

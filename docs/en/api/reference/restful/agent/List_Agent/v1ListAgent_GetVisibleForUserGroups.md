@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 353,
-  "ListItemId": 98
+  "UdListDefinitionId": 6,
+  "ListItemId": 100
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Nader-Gottlieb",
-    "ToolTip": "Odio facilis nam incidunt dolorum.",
-    "Deleted": false,
-    "Rank": 468,
-    "Type": "quis",
-    "ColorBlock": 73,
-    "IconHint": "praesentium",
+    "Id": 814,
+    "Name": "Goodwin-Hettinger",
+    "ToolTip": "Dolorem voluptate veniam nisi esse nihil delectus.",
+    "Deleted": true,
+    "Rank": 447,
+    "Type": "sint",
+    "ColorBlock": 233,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2006-02-12T10:17:55.691537+01:00",
+    "LastChanged": "2019-10-12T13:13:23.2426833+02:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Rau, Sawayn and Gulgowski",
-        "ToolTip": "Excepturi veniam atque et provident beatae impedit.",
+        "Id": 759,
+        "Name": "Bartell, Daniel and Hermiston",
+        "ToolTip": "Similique rem quos id.",
         "Deleted": false,
-        "Rank": 901,
-        "Type": "aut",
-        "ColorBlock": 559,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2004-08-13T10:17:55.691537+02:00",
+        "Rank": 554,
+        "Type": "ratione",
+        "ColorBlock": 243,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2012-09-28T13:13:23.2426833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Cyrus Romaguera I",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Otis Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 693
+            "FieldType": "System.Int32",
+            "FieldLength": 265
           }
         }
       }
     ],
     "ExtraInfo": "est",
-    "StyleHint": "optio",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Arnoldo Dicki",
+    "FullName": "Gregorio Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldLength": 613
       }
     }
   }

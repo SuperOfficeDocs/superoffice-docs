@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 25 Feb 2002 10:18:00 G2T
+Last-Modified: Thu, 23 May 2013 13:13:31 G5T
 
 {
-  "BlobId": 87,
-  "BlobSize": 605,
-  "Description": "Focused upward-trending instruction set",
-  "ExtraInfo": "eaque",
+  "BlobId": 114,
+  "BlobSize": 519,
+  "Description": "Open-architected composite functionalities",
+  "ExtraInfo": "eveniet",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "est",
-  "OriginalSize": 597,
-  "CreatedDate": "2009-12-06T10:18:00.4887104+01:00",
-  "UpdatedDate": "2002-02-25T10:18:00.4887104+01:00",
+  "MimeType": "ipsa",
+  "OriginalSize": 395,
+  "CreatedDate": "2015-06-22T13:13:31.8863203+02:00",
+  "UpdatedDate": "2013-05-23T13:13:31.8863203+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quibusdam",
+  "ConceptualType": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 514
     }
   }
 }

@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "est",
+  "RawValue": "autem",
   "Specification": null,
-  "DisplayValue": "quis",
-  "DisplayTooltip": "necessitatibus",
+  "DisplayValue": "consequatur",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 135,
-  "PrefDescId": 636,
-  "TableName": "Hyatt-Abernathy",
-  "UserPreferenceId": 679
+  "TargetId": 679,
+  "PrefDescId": 365,
+  "TableName": "Mante-Parisian",
+  "UserPreferenceId": 572
 }
 ```
 

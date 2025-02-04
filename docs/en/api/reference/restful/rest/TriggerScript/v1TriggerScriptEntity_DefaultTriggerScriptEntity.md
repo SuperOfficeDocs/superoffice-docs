@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 53,
-  "Name": "Pagac-Hilpert",
+  "ScreenChooserId": 826,
+  "Name": "Welch, Prohaska and Hirthe",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dicta",
-  "Source": "a",
-  "Registered": "2007-06-24T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 101,
-  "Updated": "2024-09-07T10:18:00.8168545+02:00",
-  "UpdatedAssociateId": 790,
+  "Enabled": false,
+  "UniqueIdentifier": "illo",
+  "Source": "aliquam",
+  "Registered": "2014-02-02T13:13:32.5111102+01:00",
+  "RegisteredAssociateId": 112,
+  "Updated": "2020-02-18T13:13:32.5111102+01:00",
+  "UpdatedAssociateId": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 59
     }
   }
 }

@@ -106,7 +106,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 757
+  "ProjectId": 178
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "tempora",
-  "SignOffText": "enim",
-  "SignOnConfirmationText": "aliquid",
-  "SignOnText": "rem",
-  "EventDate": "2022-09-24T10:17:55.8946817+02:00",
+  "SignOffConfirmationText": "temporibus",
+  "SignOffText": "molestiae",
+  "SignOnConfirmationText": "vel",
+  "SignOnText": "eos",
+  "EventDate": "2001-11-04T13:13:23.664465+01:00",
   "Enabled": false,
-  "CreatedDate": "2019-08-28T10:17:55.8946817+02:00",
+  "CreatedDate": "2016-02-23T13:13:23.664465+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 513,
+  "SignOffTaskId": 735,
   "SignOffTriggersAssign": true,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 825,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2020-01-06T10:17:55.8946817+01:00",
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 36,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2024-01-14T13:13:23.664465+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 276,
-  "Id": 706,
-  "PublishFrom": "2004-02-13T10:17:55.8946817+01:00",
+  "ProjectId": 801,
+  "Id": 739,
+  "PublishFrom": "2001-06-16T13:13:23.664465+02:00",
   "PublishType": "External",
-  "PublishTo": "2014-06-27T10:17:55.8946817+02:00",
+  "PublishTo": "2010-02-19T13:13:23.664465+01:00",
   "VisibleForCategories": [
     {
-      "Id": 250,
-      "Name": "Moen, Brown and Jast",
-      "ToolTip": "Voluptatem qui id libero sint.",
+      "Id": 256,
+      "Name": "Lesch LLC",
+      "ToolTip": "Aliquam modi repellendus dolore.",
       "Deleted": false,
-      "Rank": 317,
-      "Type": "aliquam",
+      "Rank": 726,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "placeat",
-      "ColorBlock": 291,
-      "ExtraInfo": "dolore",
-      "StyleHint": "aut",
-      "FullName": "Wade Dorian Bradtke IV",
+      "IconHint": "vero",
+      "ColorBlock": 783,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "mollitia",
+      "FullName": "Ms. Winston Fahey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 538
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 730,
-      "Name": "Romaguera-Streich",
-      "ToolTip": "Tempore porro iusto voluptatum sit.",
-      "Deleted": true,
-      "Rank": 49,
-      "Type": "tempora",
+      "Id": 805,
+      "Name": "Will, Bradtke and McClure",
+      "ToolTip": "Voluptate eius vitae praesentium.",
+      "Deleted": false,
+      "Rank": 918,
+      "Type": "nihil",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 982,
-      "ExtraInfo": "quidem",
-      "StyleHint": "dolores",
-      "FullName": "Maximillian Mraz II",
+      "IconHint": "animi",
+      "ColorBlock": 877,
+      "ExtraInfo": "quis",
+      "StyleHint": "aliquam",
+      "FullName": "Novella Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldLength": 381
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 882,
+  "ProjectEventId": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 593
     }
   }
 }

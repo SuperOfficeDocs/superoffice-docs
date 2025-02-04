@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Douglas LLC",
-    "ToolTip": "Dolorem quibusdam.",
-    "Deleted": false,
-    "Rank": 370,
-    "Type": "quos",
-    "ColorBlock": 804,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2021-02-10T10:18:00.9574888+01:00",
+    "Id": 489,
+    "Name": "Bruen, Paucek and Connelly",
+    "ToolTip": "Eveniet minima qui expedita eos animi accusamus voluptatem.",
+    "Deleted": true,
+    "Rank": 763,
+    "Type": "ad",
+    "ColorBlock": 586,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2007-05-21T13:13:32.9174228+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Rath Inc and Sons",
-        "ToolTip": "Est aliquam fugiat temporibus.",
+        "Id": 371,
+        "Name": "Sanford-Maggio",
+        "ToolTip": "Non est adipisci laborum.",
         "Deleted": false,
-        "Rank": 236,
-        "Type": "dicta",
-        "ColorBlock": 660,
-        "IconHint": "qui",
+        "Rank": 587,
+        "Type": "beatae",
+        "ColorBlock": 161,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2003-07-22T10:18:00.9574888+02:00",
+        "LastChanged": "2000-11-20T13:13:32.9174228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Prof. Sherwood Senger",
+        "ExtraInfo": "enim",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Garrick Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 263
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "alias",
-    "Hidden": true,
-    "FullName": "Miss Arden Mertz Sr.",
+    "ExtraInfo": "inventore",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Gracie Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 901
       }
     }
   }

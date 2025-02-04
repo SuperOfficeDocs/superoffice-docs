@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 842,
-  "AttachmentId": "id"
+  "MailItemId": 869,
+  "AttachmentId": "blanditiis"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive local hub",
-  "Filename": "omnis",
-  "Size": 634,
-  "Type": "nemo",
-  "Encoding": "veniam",
-  "Id": "iure",
-  "Disposition": "quia",
+  "Description": "Progressive heuristic standardization",
+  "Filename": "qui",
+  "Size": 233,
+  "Type": "nisi",
+  "Encoding": "eos",
+  "Id": "velit",
+  "Disposition": "est",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

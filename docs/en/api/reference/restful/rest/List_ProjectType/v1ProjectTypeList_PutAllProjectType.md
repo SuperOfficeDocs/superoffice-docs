@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Ebert LLC",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "UdListDefinitionId": 975,
-    "Rank": 76
+    "Id": 13,
+    "Name": "Stracke-Wilkinson",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "UdListDefinitionId": 596,
+    "Rank": 941
   },
   {
-    "Id": 162,
-    "Name": "Ebert LLC",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "UdListDefinitionId": 975,
-    "Rank": 76
+    "Id": 13,
+    "Name": "Stracke-Wilkinson",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "UdListDefinitionId": 596,
+    "Rank": 941
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Mueller-Bailey",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 780,
-    "Rank": 52,
+    "Id": 976,
+    "Name": "Hayes Inc and Sons",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "UdListDefinitionId": 627,
+    "Rank": 316,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

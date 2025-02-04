@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Herman-Weissnat",
-    "ToolTip": "Eveniet tempore.",
-    "Deleted": true,
-    "Rank": 668,
-    "Type": "assumenda",
-    "ColorBlock": 882,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2007-05-16T10:18:01.0043667+02:00",
+    "Id": 6,
+    "Name": "Heller, Hartmann and Parker",
+    "ToolTip": "Exercitationem ut et.",
+    "Deleted": false,
+    "Rank": 895,
+    "Type": "asperiores",
+    "ColorBlock": 913,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "1999-04-16T13:13:33.042395+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Ullrich Inc and Sons",
-        "ToolTip": "Officia quos.",
+        "Id": 761,
+        "Name": "Mosciski Inc and Sons",
+        "ToolTip": "Rerum et.",
         "Deleted": false,
-        "Rank": 421,
-        "Type": "explicabo",
-        "ColorBlock": 214,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2018-05-30T10:18:01.0043667+02:00",
+        "Rank": 905,
+        "Type": "saepe",
+        "ColorBlock": 462,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2022-08-01T13:13:33.042395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Felicita Ankunding Sr."
+        "ExtraInfo": "doloribus",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Yasmin Boyle DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Miss Mabel Kilback II"
+    "ExtraInfo": "suscipit",
+    "StyleHint": "perferendis",
+    "Hidden": true,
+    "FullName": "Prof. Kitty Marcus Kris III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "Hilll LLC",
-    "ToolTip": "Eum qui non.",
-    "Deleted": true,
-    "Rank": 392,
-    "Type": "atque",
-    "ColorBlock": 703,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2012-08-05T10:18:01.0043667+02:00",
+    "Id": 340,
+    "Name": "Grimes-Heller",
+    "ToolTip": "Qui perferendis laborum occaecati ex facilis sunt unde.",
+    "Deleted": false,
+    "Rank": 753,
+    "Type": "doloribus",
+    "ColorBlock": 605,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2006-11-13T13:13:33.042395+01:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Lueilwitz, Franecki and Kris",
-        "ToolTip": "Sed sed porro consequatur ea.",
+        "Id": 240,
+        "Name": "Rolfson Inc and Sons",
+        "ToolTip": "Minima voluptate maxime non.",
         "Deleted": false,
-        "Rank": 547,
-        "Type": "doloribus",
-        "ColorBlock": 383,
-        "IconHint": "fugit",
+        "Rank": 95,
+        "Type": "asperiores",
+        "ColorBlock": 350,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2019-01-26T10:18:01.0043667+01:00",
+        "LastChanged": "2021-10-25T13:13:33.042395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Prof. Henri Jacobs II",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Jules Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 951
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Mr. Jakob Pollich",
+    "ExtraInfo": "quam",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Oscar Cassie Flatley II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 39
       }
     }
   }

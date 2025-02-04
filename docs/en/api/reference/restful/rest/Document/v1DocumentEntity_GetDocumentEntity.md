@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Nov 1999 10:18:00 G11T
+Last-Modified: Sat, 13 Sep 1997 13:13:31 G9T
 
 {
-  "DocumentId": 847,
+  "DocumentId": 31,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "doloremque",
-  "Name": "Fisher, Donnelly and Koepp",
-  "OurRef": "repellendus",
-  "YourRef": "voluptate",
-  "CreatedDate": "2019-09-19T10:18:00.3637024+02:00",
-  "UpdatedDate": "1999-11-21T10:18:00.3637024+01:00",
-  "Description": "Customer-focused modular collaboration",
+  "Attention": "ut",
+  "Header": "repudiandae",
+  "Name": "Hessel, Nolan and Cormier",
+  "OurRef": "quae",
+  "YourRef": "illo",
+  "CreatedDate": "2009-08-05T13:13:31.6520003+02:00",
+  "UpdatedDate": "1997-09-13T13:13:31.6520003+02:00",
+  "Description": "Visionary homogeneous secured line",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-11-23T10:18:00.3793283+01:00",
-  "ExternalRef": "deleniti",
+  "Date": "2002-05-21T13:13:31.6520003+02:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 414,
+  "ActiveLinks": 990,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Thiel, Jones and Thiel",
-      "Id": 688,
-      "Description": "Open-architected scalable hierarchy",
-      "ExtraInfo": "sunt",
-      "LinkId": 825,
+      "EntityName": "Huel-Hickle",
+      "Id": 673,
+      "Description": "Networked clear-thinking encryption",
+      "ExtraInfo": "pariatur",
+      "LinkId": 792,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldLength": 353
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 247,
-  "Snum": 547,
+  "SuggestedDocumentId": 951,
+  "Snum": 200,
   "UserDefinedFields": {
-    "SuperOffice:1": "1055216375",
-    "SuperOffice:2": "Vito Connelly"
+    "SuperOffice:1": "Miss Johan Gene Thiel",
+    "SuperOffice:2": "50860028"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "error"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "similique"
+    "CustomFields1": "est",
+    "CustomFields2": "possimus"
   },
-  "PublishEventDate": "2000-01-24T10:18:00.3793283+01:00",
-  "PublishTo": "1998-03-09T10:18:00.3793283+01:00",
-  "PublishFrom": "2010-01-25T10:18:00.3793283+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2024-09-22T13:13:31.6520003+02:00",
+  "PublishTo": "2022-01-17T13:13:31.6520003+01:00",
+  "PublishFrom": "2022-10-20T13:13:31.6520003+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 196,
+      "VisibleId": 263,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 825
         }
       }
     },
     {
-      "VisibleId": 196,
+      "VisibleId": 263,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 825
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Sun, 21 Nov 1999 10:18:00 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 319
     }
   },
   "_Links": {

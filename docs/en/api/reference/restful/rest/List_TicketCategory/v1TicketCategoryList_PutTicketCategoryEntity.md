@@ -108,29 +108,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 405,
-  "ParentId": 91,
-  "Name": "Miller, D'Amore and Witting",
-  "Fullname": "aut",
-  "CategoryMaster": 216,
+  "TicketCategoryId": 579,
+  "ParentId": 908,
+  "Name": "Waelchi Group",
+  "Fullname": "repudiandae",
+  "CategoryMaster": 894,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bahringer, Cremin and Swift",
+  "ExternalName": "Mayert, Tremblay and Leannon",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 972,
-  "ReplyTemplate": 582,
-  "NotificationEmail": "laury_maggio@zemlak.co.uk",
+  "AssignmentLag": 274,
+  "ReplyTemplate": 935,
+  "NotificationEmail": "tessie@kunze.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 449,
+  "EffectiveReplyTemplateId": 702,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "sunt"
+    "CustomFields1": "quos",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 649,
-  "ParentId": 182,
-  "Name": "Adams-Streich",
-  "Fullname": "hic",
-  "CategoryMaster": 592,
+  "TicketCategoryId": 33,
+  "ParentId": 938,
+  "Name": "Wolf, Macejkovic and Bartoletti",
+  "Fullname": "sunt",
+  "CategoryMaster": 670,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Yost Group",
+  "ExternalName": "Mante, Jenkins and Gerlach",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 318,
-  "ReplyTemplate": 284,
-  "NotificationEmail": "alden_stracke@kihn.info",
+  "AssignmentLag": 729,
+  "ReplyTemplate": 35,
+  "NotificationEmail": "chauncey@larson.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 475,
+  "EffectiveReplyTemplateId": 489,
   "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "minima"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 194
     }
   }
 }

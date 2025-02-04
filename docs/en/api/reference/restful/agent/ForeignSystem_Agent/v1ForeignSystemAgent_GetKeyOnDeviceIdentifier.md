@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Greenholt-Schaefer",
-  "DeviceName": "Dach-Mraz",
-  "DeviceIdentifier": "asperiores",
-  "KeyName": "Muller LLC",
-  "TableName": "Conn-West",
-  "RecordId": 787
+  "ApplicationName": "Christiansen, Keeling and Wintheiser",
+  "DeviceName": "Spinka-Armstrong",
+  "DeviceIdentifier": "repudiandae",
+  "KeyName": "Herman, Nolan and Torp",
+  "TableName": "Ward-Harber",
+  "RecordId": 155
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "hic",
-  "Value": "ut",
-  "RecordId": 642,
-  "CreatedDate": "2001-04-19T10:17:55.660285+02:00",
-  "UpdatedDate": "1997-11-23T10:17:55.660285+01:00",
-  "UpdatedBy": "error",
-  "CreatedBy": "sed",
-  "TableName": "Denesik, Powlowski and Hane",
+  "Key": "non",
+  "Value": "neque",
+  "RecordId": 89,
+  "CreatedDate": "2010-11-25T13:13:23.1645837+01:00",
+  "UpdatedDate": "2000-03-22T13:13:23.1645837+01:00",
+  "UpdatedBy": "vitae",
+  "CreatedBy": "facilis",
+  "TableName": "Hirthe Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 980
     }
   }
 }

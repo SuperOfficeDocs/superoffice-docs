@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "West-Emard",
-    "Tooltip": "dolor",
+    "HeadingId": 561,
+    "Name": "Johnson, Jaskolski and Marks",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 705,
-    "UdListDefinitionId": 200
+    "Rank": 488,
+    "UdListDefinitionId": 538
   },
   {
-    "HeadingId": 604,
-    "Name": "West-Emard",
-    "Tooltip": "dolor",
+    "HeadingId": 561,
+    "Name": "Johnson, Jaskolski and Marks",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 705,
-    "UdListDefinitionId": 200
+    "Rank": 488,
+    "UdListDefinitionId": 538
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 28,
-    "Name": "Schneider Group",
-    "Tooltip": "minima",
+    "HeadingId": 528,
+    "Name": "Kuhic Inc and Sons",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 24,
-    "UdListDefinitionId": 267,
+    "Rank": 846,
+    "UdListDefinitionId": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

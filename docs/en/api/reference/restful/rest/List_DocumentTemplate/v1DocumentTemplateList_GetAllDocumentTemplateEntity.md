@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 564,
-    "Name": "Stracke Inc and Sons",
-    "Tooltip": "occaecati",
-    "SaveInDb": 507,
-    "Filename": "aut",
-    "DefaultOref": "necessitatibus",
+    "DocumentTemplateId": 500,
+    "Name": "Cremin-McClure",
+    "Tooltip": "tenetur",
+    "SaveInDb": 481,
+    "Filename": "voluptas",
+    "DefaultOref": "nihil",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 613,
-    "IntentId": 380,
+    "AutoeventId": 650,
+    "IntentId": 399,
     "IsDefaultPublished": false,
-    "Rank": 507,
-    "LoadTemplateFromPlugin": 249,
-    "MimeType": "ipsum",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 349,
+    "Rank": 660,
+    "LoadTemplateFromPlugin": 924,
+    "MimeType": "minima",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 203,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "octavia.schuppe@swiftvonrueden.info",
-    "IncludeSignature": true,
+    "EmailSubject": "rolando_waters@reynoldsrunte.com",
+    "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "sheldon@rippinbeier.co.uk",
+    "SenderEmailAddress": "lera_robel@casper.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldType": "System.String",
+        "FieldLength": 82
       }
     }
   }

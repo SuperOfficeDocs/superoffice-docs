@@ -71,7 +71,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kshlerin Inc and Sons",
+  "LayoutName": "Dare-Gleichner",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

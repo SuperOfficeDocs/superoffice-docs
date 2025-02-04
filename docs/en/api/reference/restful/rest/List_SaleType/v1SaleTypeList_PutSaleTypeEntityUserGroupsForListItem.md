@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Littel, Brakus and Walsh",
-    "ToolTip": "Dolorem ratione aliquam natus fugit.",
+    "Id": 797,
+    "Name": "Jacobs LLC",
+    "ToolTip": "Voluptatibus quibusdam iure qui et.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "voluptate",
-    "ColorBlock": 521,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2007-12-05T10:18:01.1606262+01:00",
+    "Rank": 941,
+    "Type": "reprehenderit",
+    "ColorBlock": 754,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2023-08-30T13:13:33.5735178+02:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Bogan-Becker",
-        "ToolTip": "Qui voluptatem a hic labore aut.",
-        "Deleted": true,
-        "Rank": 798,
-        "Type": "aut",
-        "ColorBlock": 466,
-        "IconHint": "est",
+        "Id": 876,
+        "Name": "Hammes, Kling and Hauck",
+        "ToolTip": "Quidem ratione voluptate omnis temporibus.",
+        "Deleted": false,
+        "Rank": 363,
+        "Type": "perferendis",
+        "ColorBlock": 122,
+        "IconHint": "amet",
         "Selected": true,
-        "LastChanged": "2005-06-11T10:18:01.1606262+02:00",
+        "LastChanged": "2003-10-07T13:13:33.5735178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "vel",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Mr. Collin Carmelo Cartwright Sr."
+        "FullName": "Mrs. Rod Wiza"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "eum",
+    "ExtraInfo": "cum",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Ms. Katelynn Sibyl Pfeffer DDS"
+    "FullName": "Rosalia White"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Von, Koelpin and Lynch",
-    "ToolTip": "Quia assumenda.",
-    "Deleted": false,
-    "Rank": 567,
-    "Type": "qui",
-    "ColorBlock": 347,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2020-12-26T10:18:01.1606262+01:00",
+    "Id": 481,
+    "Name": "Erdman-Kuhlman",
+    "ToolTip": "Eaque modi deserunt autem.",
+    "Deleted": true,
+    "Rank": 63,
+    "Type": "consequuntur",
+    "ColorBlock": 493,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2005-01-23T13:13:33.5735178+01:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Pagac, Toy and Kreiger",
-        "ToolTip": "Excepturi recusandae hic et dolores et qui exercitationem.",
+        "Id": 342,
+        "Name": "Mante, Johnson and Pacocha",
+        "ToolTip": "Maiores natus est.",
         "Deleted": false,
-        "Rank": 19,
-        "Type": "sint",
-        "ColorBlock": 841,
-        "IconHint": "omnis",
+        "Rank": 445,
+        "Type": "recusandae",
+        "ColorBlock": 561,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2021-03-17T10:18:01.1606262+01:00",
+        "LastChanged": "2024-09-14T13:13:33.5735178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "numquam",
+        "ExtraInfo": "natus",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Sandy Effertz",
+        "FullName": "Vivien Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 24
+            "FieldType": "System.Int32",
+            "FieldLength": 118
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Ms. Americo Adolph O'Hara",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Madelyn Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 806
       }
     }
   }

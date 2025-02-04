@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 706,
+  "AssociateId": 449,
   "Type": "AnonymousAssociate",
-  "PersonId": 473,
-  "UserName": "Lesch-Hoeger"
+  "PersonId": 355,
+  "UserName": "Daugherty Group"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hirthe-Upton"
+"Schaden Inc and Sons"
 ```

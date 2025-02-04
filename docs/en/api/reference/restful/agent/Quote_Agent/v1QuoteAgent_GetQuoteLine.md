@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 828
+  "QuoteLineId": 244
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 503,
-  "ERPQuoteLineKey": "rerum",
-  "QuoteAlternativeId": 79,
-  "ERPProductKey": "et",
+  "QuoteLineId": 657,
+  "ERPQuoteLineKey": "autem",
+  "QuoteAlternativeId": 498,
+  "ERPProductKey": "minima",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20414.876,
-  "DeliveredQuantity": 2366.17,
-  "Rank": 268,
-  "Name": "Kilback-McLaughlin",
-  "Description": "Multi-tiered 6th generation flexibility",
-  "Code": "error",
-  "QuantityUnit": "qui",
-  "PriceUnit": "nemo",
-  "ItemNumber": "732990",
+  "Quantity": 23718.112,
+  "DeliveredQuantity": 18992.04,
+  "Rank": 152,
+  "Name": "Marvin-Waelchi",
+  "Description": "Virtual mission-critical policy",
+  "Code": "ea",
+  "QuantityUnit": "corrupti",
+  "PriceUnit": "eaque",
+  "ItemNumber": "453320",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatum",
-  "ProductTypeKey": "vitae",
-  "Supplier": "et",
-  "SupplierCode": "et",
-  "Thumbnail": "eos",
-  "VATInfo": "quod",
-  "VAT": 27171.78,
-  "UnitCost": 8442.996,
-  "UnitMinimumPrice": 10489.498,
-  "UnitListPrice": 13755.126,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "nemo",
+  "Supplier": "debitis",
+  "SupplierCode": "est",
+  "Thumbnail": "nihil",
+  "VATInfo": "sapiente",
+  "VAT": 23699.308,
+  "UnitCost": 30587.84,
+  "UnitMinimumPrice": 6653.482,
+  "UnitListPrice": 27328.48,
   "ExtraInfo": [
     {
-      "Name": "Baumbach, Runolfsdottir and O'Keefe",
-      "Value": "excepturi",
+      "Name": "Pollich, Shields and Barrows",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 967
         }
       }
     },
     {
-      "Name": "Baumbach, Runolfsdottir and O'Keefe",
-      "Value": "excepturi",
+      "Name": "Pollich, Shields and Barrows",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 967
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
+  "RawExtraInfo": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "facilis",
-  "SubscriptionQuantity": 21395.818,
-  "SubscriptionStart": "2009-11-19T10:17:55.9571855+01:00",
-  "ERPDiscountPercent": 25269.442,
-  "ERPDiscountAmount": 3231.154,
-  "DiscountPercent": 29563.022,
-  "DiscountAmount": 14024.65,
+  "SubscriptionUnit": "debitis",
+  "SubscriptionQuantity": 21925.464,
+  "SubscriptionStart": "2021-03-05T13:13:23.7581921+01:00",
+  "ERPDiscountPercent": 25689.397999999997,
+  "ERPDiscountAmount": 1698.628,
+  "DiscountPercent": 7073.438,
+  "DiscountAmount": 26670.34,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14018.382,
-  "EarningAmount": 4522.362,
-  "SubTotal": 25300.782,
-  "TotalPrice": 8853.55,
-  "Rights": "tempora",
-  "Rule": "nobis",
-  "ExtraField1": "adipisci",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "autem",
-  "ExtraField4": "tempore",
-  "ExtraField5": "labore",
+  "EarningPercent": 10132.222,
+  "EarningAmount": 1827.1219999999998,
+  "SubTotal": 26516.773999999998,
+  "TotalPrice": 20123.414,
+  "Rights": "in",
+  "Rule": "iusto",
+  "ExtraField1": "impedit",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "praesentium",
+  "ExtraField4": "omnis",
+  "ExtraField5": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 656
     }
   }
 }

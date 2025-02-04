@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessageSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 181,
-  "ReplyTemplateId": 965,
+  "TicketMessageEntityId": 389,
+  "ReplyTemplateId": 244,
   "Sms": [
-    "quasi",
-    "recusandae"
+    "porro",
+    "molestiae"
   ]
 }
 ```

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Oberbrunner-Walter",
-  "ProviderName": "Reinger, Walsh and Mosciski",
-  "Context": "veniam",
-  "OwnerKeys": "et"
+  "GuiName": "Reinger-Borer",
+  "ProviderName": "Gutmann, Lebsack and Braun",
+  "Context": "nihil",
+  "OwnerKeys": "delectus"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Nienow-Jerde",
-      "DisplayTooltip": "nihil",
-      "DisplayType": "et",
+      "DisplayName": "DuBuque, Beer and Carter",
+      "DisplayTooltip": "quos",
+      "DisplayType": "id",
       "CanOrderBy": true,
-      "Name": "Keeling, Ryan and Friesen",
+      "Name": "Klocko, Metz and Daniel",
       "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Wintheiser LLC",
+      "RestrictionType": "mollitia",
+      "RestrictionListName": "Morar-Block",
       "IsVisible": true,
-      "ExtraInfo": "iste",
-      "Width": "ad",
-      "IconHint": "deleniti",
-      "HeadingIconHint": "saepe"
+      "ExtraInfo": "dolores",
+      "Width": "a",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "quisquam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 483,
-      "Name": "Denesik-Marvin",
-      "ToolTip": "Ut eum magnam culpa voluptatem totam ad at.",
+      "Id": 265,
+      "Name": "Emard, Lemke and Trantow",
+      "ToolTip": "Vel rerum cumque.",
       "Deleted": false,
-      "Rank": 535,
-      "Type": "cum",
-      "ColorBlock": 87,
-      "IconHint": "rerum",
+      "Rank": 239,
+      "Type": "quia",
+      "ColorBlock": 497,
+      "IconHint": "fugit",
       "Selected": true,
-      "LastChanged": "2002-04-18T10:17:55.1133842+02:00",
+      "LastChanged": "2021-06-29T13:13:22.0864676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "architecto",
+      "ExtraInfo": "veniam",
+      "StyleHint": "totam",
       "Hidden": false,
-      "FullName": "Mr. Keaton Marjolaine Kertzmann",
+      "FullName": "Buford Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 981
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Jacobs, Waters and Wunsch",
+      "Name": "Beer, Emard and Braun",
       "Direction": "ASC"
     },
     {
-      "Name": "Jacobs, Waters and Wunsch",
+      "Name": "Beer, Emard and Braun",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "provident",
+  "OwnerKeys": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

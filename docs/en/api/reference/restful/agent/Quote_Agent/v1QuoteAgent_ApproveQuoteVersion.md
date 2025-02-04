@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 656,
-  "ApprovedByText": "reiciendis",
-  "ApprovedByAssociateId": 948,
-  "ApprovalText": "pariatur"
+  "QuoteVersionId": 992,
+  "ApprovedByText": "a",
+  "ApprovedByAssociateId": 888,
+  "ApprovalText": "dolor"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 810,
+  "CreatedAppointmentId": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 278,
-    "Name": "Crooks-Lang",
-    "HtmlBody": "sit",
+    "QuickReplyId": 588,
+    "Name": "Beer Group",
+    "HtmlBody": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   },
   {
-    "QuickReplyId": 278,
-    "Name": "Crooks-Lang",
-    "HtmlBody": "sit",
+    "QuickReplyId": 588,
+    "Name": "Beer Group",
+    "HtmlBody": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

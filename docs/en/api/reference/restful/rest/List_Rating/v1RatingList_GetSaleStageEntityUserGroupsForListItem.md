@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Nienow, Satterfield and Beier",
-    "ToolTip": "Quam voluptas et distinctio.",
+    "Id": 197,
+    "Name": "Braun, Turcotte and Volkman",
+    "ToolTip": "Minima asperiores.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "et",
-    "ColorBlock": 475,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2004-01-30T10:18:01.1293744+01:00",
+    "Rank": 159,
+    "Type": "totam",
+    "ColorBlock": 56,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2001-05-18T13:13:33.4641689+02:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "VonRueden, Gaylord and Runolfsdottir",
-        "ToolTip": "Voluptatibus et illum nulla et perferendis odio.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "praesentium",
-        "ColorBlock": 64,
-        "IconHint": "harum",
+        "Id": 877,
+        "Name": "Keeling Group",
+        "ToolTip": "Nisi et minus eos ipsam enim nihil.",
+        "Deleted": false,
+        "Rank": 556,
+        "Type": "itaque",
+        "ColorBlock": 675,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2003-10-31T10:18:01.1293744+01:00",
+        "LastChanged": "2008-08-15T13:13:33.4641689+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "veniam",
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Dr. Elian Ryan I",
+        "FullName": "Skyla Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldLength": 43
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "error",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Vicente Ashtyn Kertzmann III",
+    "FullName": "Isac Kub PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldType": "System.Int32",
+        "FieldLength": 158
       }
     }
   }

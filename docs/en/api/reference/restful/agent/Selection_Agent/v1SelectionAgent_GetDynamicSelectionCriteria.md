@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 106
+  "SelectionId": 444
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat, Hand and Huel",
-    "Operator": "cumque",
+    "Name": "Blick-Cartwright",
+    "Operator": "quam",
     "Values": [
-      "natus",
-      "omnis"
+      "officia",
+      "repudiandae"
     ],
     "DisplayValues": [
-      "repellendus",
-      "debitis"
+      "perferendis",
+      "vel"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Cremin-Bechtelar",
-        "Operator": "molestias",
+        "Name": "Heidenreich-Kirlin",
+        "Operator": "quo",
         "Values": [
-          "et",
-          "in"
+          "est",
+          "et"
         ],
         "DisplayValues": [
-          "blanditiis",
-          "est"
+          "aut",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 402,
+        "InterParenthesis": 797,
         "InterOperator": "And",
-        "UniqueHash": 436
+        "UniqueHash": 514
       }
     ],
-    "InterParenthesis": 233,
+    "InterParenthesis": 662,
     "InterOperator": "And",
-    "UniqueHash": 190
+    "UniqueHash": 880
   }
 ]
 ```

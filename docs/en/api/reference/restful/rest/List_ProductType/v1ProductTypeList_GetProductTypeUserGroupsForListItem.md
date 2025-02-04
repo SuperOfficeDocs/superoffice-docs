@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Fadel LLC",
-    "ToolTip": "Molestiae soluta.",
+    "Id": 8,
+    "Name": "Klocko-Connelly",
+    "ToolTip": "Ipsa necessitatibus dicta numquam impedit.",
     "Deleted": false,
-    "Rank": 43,
-    "Type": "laudantium",
-    "ColorBlock": 276,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2003-08-29T10:18:01.0981224+02:00",
+    "Rank": 151,
+    "Type": "sunt",
+    "ColorBlock": 894,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "2024-12-23T13:13:33.3391989+01:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Torp, Krajcik and Conroy",
-        "ToolTip": "Qui ducimus aut.",
+        "Id": 995,
+        "Name": "Morar-Gleason",
+        "ToolTip": "Maxime animi qui similique qui.",
         "Deleted": false,
-        "Rank": 304,
-        "Type": "dolorem",
-        "ColorBlock": 89,
-        "IconHint": "dolorem",
+        "Rank": 619,
+        "Type": "totam",
+        "ColorBlock": 302,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2013-05-19T10:18:01.0981224+02:00",
+        "LastChanged": "2021-10-10T13:13:33.3391989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quod",
-        "Hidden": false,
-        "FullName": "Anissa Kozey",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Mrs. Camila Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 600
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mrs. Christopher Monahan DVM",
+    "FullName": "Zoila Barton Nicolas III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   }

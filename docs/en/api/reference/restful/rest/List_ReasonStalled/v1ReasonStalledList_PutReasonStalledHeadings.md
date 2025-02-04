@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Johns, Jast and Gulgowski",
-    "Tooltip": "esse",
+    "HeadingId": 277,
+    "Name": "McLaughlin-McCullough",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 34,
-    "UdListDefinitionId": 325
+    "Rank": 68,
+    "UdListDefinitionId": 811
   },
   {
-    "HeadingId": 877,
-    "Name": "Johns, Jast and Gulgowski",
-    "Tooltip": "esse",
+    "HeadingId": 277,
+    "Name": "McLaughlin-McCullough",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 34,
-    "UdListDefinitionId": 325
+    "Rank": 68,
+    "UdListDefinitionId": 811
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 803,
-    "Name": "Hamill LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 756,
-    "UdListDefinitionId": 670,
+    "HeadingId": 926,
+    "Name": "Steuber-Russel",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 495,
+    "UdListDefinitionId": 600,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldType": "System.String",
+        "FieldLength": 670
       }
     }
   }

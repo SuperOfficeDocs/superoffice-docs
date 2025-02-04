@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 936,
-  "Name": "Keeling, O'Reilly and Moore",
-  "CreatedDate": "2021-12-02T10:18:00.4105739+01:00",
-  "UpdatedDate": "2012-01-11T10:18:00.4105739+01:00",
+  "ForeignAppId": 819,
+  "Name": "Renner, Bayer and Ledner",
+  "CreatedDate": "2011-08-09T13:13:31.7301065+02:00",
+  "UpdatedDate": "2011-04-29T13:13:31.7301065+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 739,
-      "Name": "West Group",
-      "CreatedDate": "2006-10-02T10:18:00.4105739+02:00",
-      "UpdatedDate": "2024-10-07T10:18:00.4105739+02:00",
-      "AssociateFullName": "Brianne Klocko",
-      "CreatedBy": "odio",
-      "UpdatedBy": "rem",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 65,
+      "ForeignDeviceId": 602,
+      "Name": "Tromp Inc and Sons",
+      "CreatedDate": "2017-01-25T13:13:31.7301065+01:00",
+      "UpdatedDate": "2009-08-10T13:13:31.7301065+02:00",
+      "AssociateFullName": "Ofelia Jast Sr.",
+      "CreatedBy": "eum",
+      "UpdatedBy": "modi",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 258,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 54
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldLength": 157
     }
   }
 }

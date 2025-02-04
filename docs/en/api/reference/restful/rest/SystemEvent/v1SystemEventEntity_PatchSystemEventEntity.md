@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 321,
+  "SystemEventId": 702,
   "Scope": "Database",
-  "Eta": "2006-01-28T10:18:00.723098+01:00",
-  "Eventkey": "sint",
-  "Eventmess": "consequatur",
-  "ExtraInfo": 379,
-  "Owner": 931,
-  "UpdatedCount": 616,
-  "Registered": "2011-09-04T10:18:00.723098+02:00",
+  "Eta": "2012-12-14T13:13:32.3548955+01:00",
+  "Eventkey": "voluptatem",
+  "Eventmess": "nulla",
+  "ExtraInfo": 325,
+  "Owner": 167,
+  "UpdatedCount": 800,
+  "Registered": "1998-10-24T13:13:32.3548955+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   },
   "_Links": {

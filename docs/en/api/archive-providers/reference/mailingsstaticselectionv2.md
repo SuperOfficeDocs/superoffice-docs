@@ -484,7 +484,7 @@ Static archive Provider for a Selection of Mailingss archive.
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -659,7 +659,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/streetAddress/wgs84latitude,mailingAddr/contact/contactAssociate/assocTooltip,mailingAddr/person/personHasInterests,mailingAddr/person/personAssociate/associateDbId,mailingAddr/person/personAssociate/ejDisplayName
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/hasInterests,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/personRegisteredBy,mailingAddr/person/personAssociate/associateDbId,mailingAddr/person/personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

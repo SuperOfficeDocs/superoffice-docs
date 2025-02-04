@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 120,
-  "UniqueIdentifier": "eaque",
-  "Name": "Schmidt Inc and Sons",
-  "Description": "Organized local infrastructure",
-  "IncludeId": "cupiditate",
-  "AccessKey": "sint",
-  "HierarchyId": 182,
-  "Source": "modi",
-  "SourceCode": "in",
+  "EjscriptId": 249,
+  "UniqueIdentifier": "voluptates",
+  "Name": "Koch-Zulauf",
+  "Description": "Streamlined bandwidth-monitored flexibility",
+  "IncludeId": "ut",
+  "AccessKey": "magnam",
+  "HierarchyId": 565,
+  "Source": "cupiditate",
+  "SourceCode": "repellendus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 84,
+  "HtmlOutput": 787,
   "Includes": [
-    737,
-    307
+    209,
+    153
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 516,
-      "LineNumberTo": 92,
-      "Delta": 240,
-      "IncludeId": "accusamus",
+      "LineNumberFrom": 922,
+      "LineNumberTo": 309,
+      "Delta": 473,
+      "IncludeId": "nulla",
       "IncludedFrom": [
-        "numquam",
-        "delectus"
+        "officia",
+        "molestiae"
       ]
     },
     {
-      "LineNumberFrom": 516,
-      "LineNumberTo": 92,
-      "Delta": 240,
-      "IncludeId": "accusamus",
+      "LineNumberFrom": 922,
+      "LineNumberTo": 309,
+      "Delta": 473,
+      "IncludeId": "nulla",
       "IncludedFrom": [
-        "numquam",
-        "delectus"
+        "officia",
+        "molestiae"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-11-21T10:18:00.3480699+01:00",
-  "RegisteredAssociateId": 958,
-  "Updated": "2019-04-11T10:18:00.3480699+02:00",
-  "UpdatedAssociateId": 5
+  "Registered": "1999-09-21T13:13:31.6207599+02:00",
+  "RegisteredAssociateId": 853,
+  "Updated": "1998-01-25T13:13:31.6207599+01:00",
+  "UpdatedAssociateId": 512
 }
 ```
 
@@ -171,57 +171,57 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 583,
-  "UniqueIdentifier": "laudantium",
-  "Name": "Flatley, Walker and Farrell",
-  "Description": "Vision-oriented didactic archive",
-  "IncludeId": "repellendus",
-  "AccessKey": "dolorem",
-  "HierarchyId": 399,
-  "Source": "error",
-  "SourceCode": "quis",
+  "EjscriptId": 355,
+  "UniqueIdentifier": "nostrum",
+  "Name": "Weissnat-Crist",
+  "Description": "Programmable bandwidth-monitored product",
+  "IncludeId": "possimus",
+  "AccessKey": "laborum",
+  "HierarchyId": 848,
+  "Source": "est",
+  "SourceCode": "cumque",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 297,
+  "HtmlOutput": 743,
   "Includes": [
-    770,
-    966
+    520,
+    969
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 896,
-      "LineNumberTo": 177,
-      "Delta": 905,
-      "IncludeId": "asperiores",
+      "LineNumberFrom": 271,
+      "LineNumberTo": 642,
+      "Delta": 589,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "impedit",
-        "voluptas"
+        "deserunt",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 573
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2006-10-28T10:18:00.3480699+02:00",
-  "RegisteredAssociateId": 451,
-  "Updated": "2015-04-12T10:18:00.3480699+02:00",
-  "UpdatedAssociateId": 784,
+  "Registered": "2024-09-19T13:13:31.6207599+02:00",
+  "RegisteredAssociateId": 652,
+  "Updated": "2008-09-12T13:13:31.6207599+02:00",
+  "UpdatedAssociateId": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 36
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

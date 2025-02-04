@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 302,
-  "CurrencyId": 562
+  "QuoteConnectionId": 629,
+  "CurrencyId": 97
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 189,
-    "ERPPriceListKey": "corrupti",
-    "QuoteConnectionId": 624,
-    "Name": "Davis Inc and Sons",
-    "Description": "Programmable content-based website",
-    "Currency": "consequuntur",
-    "CurrencyName": "DuBuque Inc and Sons",
-    "ValidFrom": "1998-12-10T10:17:55.9415595+01:00",
-    "ValidTo": "2011-12-08T10:17:55.9415595+01:00",
-    "IsActive": false,
+    "PriceListId": 848,
+    "ERPPriceListKey": "quas",
+    "QuoteConnectionId": 478,
+    "Name": "Grady LLC",
+    "Description": "Persevering incremental concept",
+    "Currency": "vitae",
+    "CurrencyName": "Hauck-Fahey",
+    "ValidFrom": "2008-08-03T13:13:23.7425716+02:00",
+    "ValidTo": "2005-10-30T13:13:23.7425716+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 520
       }
     }
   }

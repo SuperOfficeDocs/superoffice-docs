@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 730
+  "PersonId": 71
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 544,
-  "InstanceLayout": "reiciendis",
-  "InstanceName": "Cummerata Inc and Sons",
-  "CreatedDate": "1999-05-16T10:17:55.1290102+02:00",
-  "UpdatedDate": "2002-02-13T10:17:55.1290102+01:00",
+  "AudienceLayoutId": 600,
+  "InstanceLayout": "consectetur",
+  "InstanceName": "Quitzon, Kuphal and Marks",
+  "CreatedDate": "1997-10-28T13:13:22.133333+01:00",
+  "UpdatedDate": "2015-07-29T13:13:22.133333+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 46
     }
   }
 }

@@ -82,8 +82,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 251,
-  "SelectionId": 989,
+  "DocumentPluginId": 950,
+  "SelectionId": 447,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 625,
-  "NumDocumentsAlreadyMigrated": 854,
+  "NumDocumentsOmitted": 821,
+  "NumDocumentsAlreadyMigrated": 470,
   "Documents": [
     {
-      "DocumentId": 570,
-      "ContactId": 18,
-      "PersonId": 917,
-      "SaleId": 436,
-      "ProjectId": 480,
-      "DocTmplId": 954,
-      "AssociateId": 118,
-      "UserGroupId": 625,
-      "VisibleForId": 551
+      "DocumentId": 202,
+      "ContactId": 194,
+      "PersonId": 796,
+      "SaleId": 106,
+      "ProjectId": 919,
+      "DocTmplId": 915,
+      "AssociateId": 607,
+      "UserGroupId": 653,
+      "VisibleForId": 389
     }
   ],
   "Associates": [
     {
-      "AssociateId": 80,
-      "EmailAddress": "lew.stiedemann@becker.us"
+      "AssociateId": 630,
+      "EmailAddress": "alisa.buckridge@grady.co.uk"
     },
     {
-      "AssociateId": 80,
-      "EmailAddress": "lew.stiedemann@becker.us"
+      "AssociateId": 630,
+      "EmailAddress": "alisa.buckridge@grady.co.uk"
     }
   ]
 }

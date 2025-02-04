@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 612,
-  "Count": 984
+  "WeightedAmountLimit": 202,
+  "Count": 929
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cremin-Gorczany",
-    "SaleDate": "1999-09-15T10:17:56.0040633+02:00",
-    "SaleId": 718,
-    "Probability": 237,
-    "Title": "commodi",
-    "Amount": 29559.888,
-    "Currency": "minima",
-    "ProjectName": "Dooley, Schmeler and Murazik",
-    "AssociateFullName": "Nicklaus Macejkovic",
-    "Description": "Object-based disintermediate interface",
+    "ContactName": "Legros-Cassin",
+    "SaleDate": "2009-01-10T13:13:23.8729256+01:00",
+    "SaleId": 481,
+    "Probability": 723,
+    "Title": "quas",
+    "Amount": 6515.586,
+    "Currency": "accusantium",
+    "ProjectName": "Gislason, Wyman and Bechtelar",
+    "AssociateFullName": "Dr. Casper Emard DVM",
+    "Description": "Configurable needs-based leverage",
     "Status": "Lost",
-    "WeightedAmount": 29606.897999999997,
-    "ProjectId": 763,
-    "EarningPercent": 25532.698,
-    "Earning": 8442.996,
-    "ContactId": 384,
-    "AssociateId": 812,
-    "PersonId": 400,
-    "SaleTypeId": 712,
-    "SaleTypeName": "Dooley LLC",
-    "PersonFullName": "Mrs. Josue Auer",
+    "WeightedAmount": 27359.82,
+    "ProjectId": 318,
+    "EarningPercent": 6684.822,
+    "Earning": 28415.978,
+    "ContactId": 948,
+    "AssociateId": 903,
+    "PersonId": 833,
+    "SaleTypeId": 580,
+    "SaleTypeName": "Haley, Crooks and Rempel",
+    "PersonFullName": "Gay Leuschke",
     "Completed": "Completed",
-    "ActiveErpLinks": 237,
-    "NextDueDate": "2001-07-14T10:17:56.0040633+02:00",
-    "Number": "925648",
+    "ActiveErpLinks": 842,
+    "NextDueDate": "2011-05-17T13:13:23.8729256+02:00",
+    "Number": "1031452",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 743
       }
     }
   }

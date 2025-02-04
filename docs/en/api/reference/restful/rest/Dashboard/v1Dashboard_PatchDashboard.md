@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "minus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "minus",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 388,
-  "AssociateId": 454,
-  "Caption": "et",
+  "DashboardId": 110,
+  "AssociateId": 780,
+  "Caption": "repellendus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 359,
-      "Caption": "dolorum",
-      "Description": "Customer-focused global approach",
-      "ChartName": "Harvey-Howell",
-      "ChartId": "aut",
+      "DashboardTileId": 417,
+      "Caption": "est",
+      "Description": "Total coherent installation",
+      "ChartName": "Bergstrom, Block and Reichert",
+      "ChartId": "iusto",
       "IsDefault": false,
-      "AssociateId": 51,
-      "GroupId": 702,
-      "SelectionId": 593,
-      "Config": "harum",
+      "AssociateId": 745,
+      "GroupId": 532,
+      "SelectionId": 641,
+      "Config": "voluptatum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldType": "System.String",
+          "FieldLength": 892
         }
       }
     }
@@ -177,12 +177,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 488
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

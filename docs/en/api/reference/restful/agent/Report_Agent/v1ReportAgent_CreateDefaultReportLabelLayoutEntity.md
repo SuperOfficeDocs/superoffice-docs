@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 798,
-  "Name": "Connelly Group",
-  "Description": "Implemented zero defect website",
+  "ReportLabelLayoutId": 713,
+  "Name": "Frami, Green and Ullrich",
+  "Description": "Intuitive neutral leverage",
   "Orientation": "Landscape",
-  "PaperWidth": 182,
-  "PaperHeight": 868,
-  "LeftMargin": 155,
-  "RightMargin": 540,
-  "TopMargin": 423,
-  "BottomMargin": 983,
-  "CountColumns": 722,
-  "CountRows": 489,
+  "PaperWidth": 788,
+  "PaperHeight": 801,
+  "LeftMargin": 686,
+  "RightMargin": 64,
+  "TopMargin": 608,
+  "BottomMargin": 330,
+  "CountColumns": 424,
+  "CountRows": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 323
     }
   }
 }

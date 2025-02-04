@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 305
+  "ProjectId": 201
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quia",
-    "PersonId": 431,
-    "Mrmrs": "sed",
-    "Firstname": "Fabian",
-    "Lastname": "Abshire",
-    "MiddleName": "Dach, Borer and Purdy",
-    "Title": "dolores",
-    "Description": "Realigned 24/7 support",
-    "Email": "catherine_zboncak@klockoschuppe.uk",
-    "FullName": "Mrs. Elmer Zora Larson Sr.",
-    "DirectPhone": "728.280.5917 x940",
-    "FormalName": "King Inc and Sons",
-    "CountryId": 348,
-    "ContactId": 809,
-    "ContactName": "Kunze, Streich and Effertz",
-    "Retired": 868,
-    "Rank": 402,
-    "ActiveInterests": 569,
+    "Position": "voluptatem",
+    "PersonId": 243,
+    "Mrmrs": "modi",
+    "Firstname": "Freda",
+    "Lastname": "Gaylord",
+    "MiddleName": "Hilpert Group",
+    "Title": "nemo",
+    "Description": "Business-focused global middleware",
+    "Email": "allison@crooksbarton.info",
+    "FullName": "Francesca Reinger",
+    "DirectPhone": "676-931-0570 x936",
+    "FormalName": "Volkman Group",
+    "CountryId": 398,
+    "ContactId": 12,
+    "ContactName": "Schoen Inc and Sons",
+    "Retired": 758,
+    "Rank": 57,
+    "ActiveInterests": 517,
     "ContactDepartment": "",
-    "ContactCountryId": 22,
-    "ContactOrgNr": "1570726",
-    "FaxPhone": "167.683.4549",
-    "MobilePhone": "425-956-9652 x1730",
-    "ContactPhone": "736.639.5520",
-    "AssociateName": "Considine Group",
-    "AssociateId": 960,
+    "ContactCountryId": 101,
+    "ContactOrgNr": "1278212",
+    "FaxPhone": "425-468-6867",
+    "MobilePhone": "074.837.8811 x562",
+    "ContactPhone": "580.183.4527 x0636",
+    "AssociateName": "Effertz Group",
+    "AssociateId": 285,
     "UsePersonAddress": false,
-    "ContactFax": "numquam",
-    "Kanafname": "aut",
-    "Kanalname": "est",
-    "Post1": "mollitia",
-    "Post2": "fuga",
-    "Post3": "ipsum",
-    "EmailName": "delmer.upton@nikolauskilback.ca",
-    "ContactFullName": "Isaiah Schamberger II",
-    "ActiveErpLinks": 413,
-    "TicketPriorityId": 677,
-    "SupportLanguageId": 504,
-    "SupportAssociateId": 474,
+    "ContactFax": "assumenda",
+    "Kanafname": "alias",
+    "Kanalname": "eligendi",
+    "Post1": "voluptatum",
+    "Post2": "sit",
+    "Post3": "ea",
+    "EmailName": "brayan_herzog@conroy.biz",
+    "ContactFullName": "Monty Brakus",
+    "ActiveErpLinks": 49,
+    "TicketPriorityId": 492,
+    "SupportLanguageId": 220,
+    "SupportAssociateId": 464,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   }

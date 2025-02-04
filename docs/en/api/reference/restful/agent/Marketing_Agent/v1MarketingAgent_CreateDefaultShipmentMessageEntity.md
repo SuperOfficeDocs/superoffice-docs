@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 59,
-  "PlainMessage": "nobis",
-  "HtmlMessage": "consequuntur",
-  "SmsMessage": "quo",
-  "Description": "Object-based contextually-based contingency",
-  "Subject": "occaecati",
-  "FolderId": 197,
-  "HeaderField": "aut",
-  "Design": "dolorem",
+  "ShipmentMessageId": 239,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "error",
+  "SmsMessage": "esse",
+  "Description": "Customizable directional productivity",
+  "Subject": "est",
+  "FolderId": 737,
+  "HeaderField": "asperiores",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Upgradable empowering policy",
-  "AccessKey": "delectus",
-  "DocumentMessage": 10,
-  "Registered": "2008-12-10T10:17:55.7540473+01:00",
-  "RegisteredAssociateId": 891,
-  "Updated": "1999-04-08T10:17:55.7540473+02:00",
-  "UpdatedAssociateId": 846,
-  "UpdatedCount": 551,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Triple-buffered multi-tasking standardization",
+  "AccessKey": "enim",
+  "DocumentMessage": 435,
+  "Registered": "2003-01-26T13:13:23.3520388+01:00",
+  "RegisteredAssociateId": 153,
+  "Updated": "2011-03-29T13:13:23.3520388+02:00",
+  "UpdatedAssociateId": 990,
+  "UpdatedCount": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 45
     }
   }
 }

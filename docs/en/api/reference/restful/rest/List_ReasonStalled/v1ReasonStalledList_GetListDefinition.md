@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Rippin LLC",
-  "Tooltip": "tempora",
+  "Id": 68,
+  "Name": "Upton Group",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 703,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 976,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "unde",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 131
     }
   },
   "_Links": {

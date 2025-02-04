@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 428,
-    "ERPName": "Moore-Mitchell",
-    "DisplayName": "Durgan-Zemlak",
-    "DisplayDescription": "Focused bottom-line initiative",
-    "Rank": 437,
-    "ConnectorName": "Jewess, Connelly and Block",
-    "ErpConnectionId": 472,
-    "ExtraData": "laborum",
-    "IsAvailable": true,
+    "QuoteConnectionId": 516,
+    "ERPName": "Wunsch LLC",
+    "DisplayName": "Barton, Erdman and Treutel",
+    "DisplayDescription": "Reverse-engineered background concept",
+    "Rank": 649,
+    "ConnectorName": "Green LLC",
+    "ErpConnectionId": 560,
+    "ExtraData": "non",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 457,
-        "ERPPriceListKey": "rem",
-        "QuoteConnectionId": 1002,
-        "Name": "Heathcote Inc and Sons",
-        "Description": "Enhanced tertiary parallelism",
-        "Currency": "in",
-        "CurrencyName": "O'Hara-Macejkovic",
-        "ValidFrom": "2003-11-24T10:17:55.9415595+01:00",
-        "ValidTo": "2023-06-06T10:17:55.9415595+02:00",
-        "IsActive": true,
+        "PriceListId": 391,
+        "ERPPriceListKey": "aut",
+        "QuoteConnectionId": 800,
+        "Name": "Kuhic-Luettgen",
+        "Description": "Automated web-enabled frame",
+        "Currency": "repudiandae",
+        "CurrencyName": "Grant-Raynor",
+        "ValidFrom": "2014-07-02T13:13:23.7425716+02:00",
+        "ValidTo": "2001-11-15T13:13:23.7425716+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 254
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": false,
+    "AllAccess": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      573,
-      404
+      688,
+      384
     ],
     "AssociateAccessIds": [
-      792,
-      908
+      239,
+      145
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldLength": 13
       }
     }
   }

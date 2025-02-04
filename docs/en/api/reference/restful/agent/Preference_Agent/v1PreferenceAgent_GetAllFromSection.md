@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "nam"
+  "Section": "assumenda"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 830,
-    "Section": "sed",
-    "Key": "beatae",
-    "Name": "Mills-Nikolaus",
+    "PrefDescId": 870,
+    "Section": "ullam",
+    "Key": "cupiditate",
+    "Name": "Krajcik Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Distributed discrete forecast",
-    "IsBuiltin": true,
-    "TableName": "Okuneva-Strosin",
-    "UserDefinedListId": 131,
-    "Rank": 595,
-    "SubGroup": "non",
-    "MinLevel": 350,
-    "MaxValue": 250,
-    "MinValue": 866,
-    "RequiredLicense": "quo",
+    "Description": "Exclusive directional archive",
+    "IsBuiltin": false,
+    "TableName": "Mitchell, Huel and Schmitt",
+    "UserDefinedListId": 222,
+    "Rank": 856,
+    "SubGroup": "et",
+    "MinLevel": 592,
+    "MaxValue": 139,
+    "MinValue": 391,
+    "RequiredLicense": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldLength": 453
       }
     }
   }

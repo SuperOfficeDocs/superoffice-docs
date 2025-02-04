@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "UdListDefinitionId": 604
+  "Id": 220,
+  "UdListDefinitionId": 676
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
-  "Name": "Hansen-Lebsack",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 793,
-  "Rank": 153,
+  "Id": 804,
+  "Name": "Oberbrunner LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 506,
+  "Rank": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

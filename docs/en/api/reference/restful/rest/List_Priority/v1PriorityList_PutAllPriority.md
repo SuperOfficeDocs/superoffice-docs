@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Wolff Group",
-    "Tooltip": "consequatur",
+    "Id": 938,
+    "Name": "Reinger Group",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 967
+    "UdListDefinitionId": 576,
+    "Rank": 782
   },
   {
-    "Id": 474,
-    "Name": "Wolff Group",
-    "Tooltip": "consequatur",
+    "Id": 938,
+    "Name": "Reinger Group",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 967
+    "UdListDefinitionId": 576,
+    "Rank": 782
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Pacocha LLC",
-    "Tooltip": "minima",
+    "Id": 728,
+    "Name": "Kuphal, Auer and Gaylord",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "UdListDefinitionId": 452,
-    "Rank": 694,
+    "UdListDefinitionId": 244,
+    "Rank": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 499
       }
     }
   }

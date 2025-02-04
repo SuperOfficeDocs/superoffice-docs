@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "in",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 502,
-  "SourcePersonId": 755,
-  "DestinationContactId": 926,
-  "DestinationPersonId": 536,
-  "RelationId": 562,
-  "Comment": "aliquam",
-  "RelationDefinitionId": 43,
-  "Reversed": 999,
-  "UpdatedDate": "2013-05-26T10:18:00.3480699+02:00",
-  "CreatedDate": "2004-02-27T10:18:00.3480699+01:00",
+  "SourceContactId": 318,
+  "SourcePersonId": 759,
+  "DestinationContactId": 569,
+  "DestinationPersonId": 115,
+  "RelationId": 466,
+  "Comment": "consectetur",
+  "RelationDefinitionId": 161,
+  "Reversed": 311,
+  "UpdatedDate": "2010-12-13T13:13:31.605139+01:00",
+  "CreatedDate": "2000-10-26T13:13:31.605139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Crist, Runolfsdottir and Heller",
-  "SourcePersonName": "Batz LLC",
-  "DestinationContactName": "Bednar-Goyette",
-  "DestinationPersonName": "Terry Group",
-  "ActiveText": "hic",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Pouros Group",
+  "SourcePersonName": "Cummings-Cronin",
+  "DestinationContactName": "Berge-Herzog",
+  "DestinationPersonName": "Bednar-Glover",
+  "ActiveText": "quidem",
+  "PassiveText": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 262
     }
   },
   "_Links": {

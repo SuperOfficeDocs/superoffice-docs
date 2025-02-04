@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 484
+  "QuoteVersionId": 580
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 236,
-  "ERPQuoteVersionKey": "quaerat",
-  "QuoteId": 382,
-  "Description": "Phased zero defect process improvement",
-  "Number": "1009704",
+  "QuoteVersionId": 995,
+  "ERPQuoteVersionKey": "nulla",
+  "QuoteId": 781,
+  "Description": "Robust analyzing interface",
+  "Number": "1687581",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 317,
-  "SentDate": "1999-09-07T10:17:55.9259336+02:00",
-  "FollowupId": 9,
-  "ExpirationDate": "2014-07-31T10:17:55.9259336+02:00",
-  "DeliveryCountryId": 542,
+  "LikelyQuoteAlternativeId": 198,
+  "SentDate": "2008-01-11T13:13:23.6957086+01:00",
+  "FollowupId": 989,
+  "ExpirationDate": "2007-08-24T13:13:23.6957086+02:00",
+  "DeliveryCountryId": 76,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 62,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "non",
-  "ERPPaymentTypeKey": "error",
-  "ERPDeliveryTermsKey": "enim",
-  "ERPDeliveryTypeKey": "sed",
-  "Rank": 810,
-  "ApprovedBy": 563,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 934,
-  "ApprovedRegisteredDate": "2014-08-06T10:17:55.9259336+02:00",
-  "ExtraField1": "voluptate",
-  "ExtraField2": "vitae",
-  "ExtraField3": "quis",
-  "ExtraField4": "porro",
-  "ExtraField5": "nobis",
-  "LastRecalculated": "2009-03-22T10:17:55.9259336+01:00",
-  "Updated": "2009-12-28T10:17:55.9259336+01:00",
-  "UpdatedAssociateId": 161,
-  "Registered": "2019-03-16T10:17:55.9259336+01:00",
-  "RegisteredAssociateId": 290,
-  "RequestAssociateId": 123,
-  "RequestComment": "aspernatur",
+  "InvoiceCountryId": 96,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "incidunt",
+  "ERPPaymentTypeKey": "omnis",
+  "ERPDeliveryTermsKey": "laudantium",
+  "ERPDeliveryTypeKey": "sit",
+  "Rank": 719,
+  "ApprovedBy": 364,
+  "ApprovedText": "ratione",
+  "ApprovedRegisteredBy": 747,
+  "ApprovedRegisteredDate": "2011-11-30T13:13:23.6957086+01:00",
+  "ExtraField1": "non",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "corporis",
+  "ExtraField4": "id",
+  "ExtraField5": "est",
+  "LastRecalculated": "2013-11-05T13:13:23.6957086+01:00",
+  "Updated": "2012-12-31T13:13:23.6957086+01:00",
+  "UpdatedAssociateId": 706,
+  "Registered": "1999-06-23T13:13:23.6957086+02:00",
+  "RegisteredAssociateId": 12,
+  "RequestAssociateId": 115,
+  "RequestComment": "at",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 67,
-      "ERPQuoteAlternativeKey": "voluptas",
-      "QuoteVersionId": 240,
-      "Name": "Treutel-Hintz",
-      "Description": "Open-source global workforce",
+      "QuoteAlternativeId": 981,
+      "ERPQuoteAlternativeKey": "quae",
+      "QuoteVersionId": 538,
+      "Name": "Jaskolski-Nolan",
+      "Description": "Reduced leading edge initiative",
       "Status": "Error",
-      "Reason": "drive mission-critical web-readiness",
-      "ERPDiscountPercent": 27331.613999999998,
-      "ERPDiscountAmount": 16669.746,
-      "DiscountPercent": 6032.95,
-      "DiscountAmount": 15873.71,
+      "Reason": "",
+      "ERPDiscountPercent": 7170.592,
+      "ERPDiscountAmount": 13993.31,
+      "DiscountPercent": 30907.507999999998,
+      "DiscountAmount": 1579.536,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "omnis",
-      "VAT": 20255.041999999998,
-      "EarningPercent": 25263.174,
-      "EarningAmount": 30042.523999999998,
-      "SubTotal": 7095.376,
-      "TotalPrice": 28475.523999999998,
-      "ExtraField1": "temporibus",
-      "ExtraField2": "possimus",
-      "ExtraField3": "eos",
-      "ExtraField4": "quia",
-      "ExtraField5": "ut",
+      "VATInfo": "impedit",
+      "VAT": 30503.221999999998,
+      "EarningPercent": 26031.004,
+      "EarningAmount": 25050.061999999998,
+      "SubTotal": 29023.974,
+      "TotalPrice": 7646.96,
+      "ExtraField1": "animi",
+      "ExtraField2": "assumenda",
+      "ExtraField3": "necessitatibus",
+      "ExtraField4": "recusandae",
+      "ExtraField5": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 417
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   }
 }

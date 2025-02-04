@@ -26,7 +26,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
+|emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow|  |
 |emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
 |overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |

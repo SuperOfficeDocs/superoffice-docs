@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 407,
-  "Value": "est",
+  "TaskListItemId": 510,
+  "Value": "nesciunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "IntentId": 153,
-  "Rank": 392,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
+  "Tooltip": "similique",
+  "Deleted": false,
+  "IntentId": 528,
+  "Rank": 471,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 129,
-    "Name": "Bechtelar-Klein",
-    "Tooltip": "nulla",
+    "HeadingId": 86,
+    "Name": "Simonis, Welch and Lueilwitz",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 344,
+    "Rank": 866,
+    "UdListDefinitionId": 46,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

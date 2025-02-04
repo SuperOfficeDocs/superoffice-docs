@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 310
+  "SelectedListId": 930
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 85,
-  "ColumnId": 646,
-  "FieldDefault": "porro",
-  "FieldHeight": 829,
-  "FieldLabel": "porro",
-  "FieldLeft": 985,
-  "FieldTop": 677,
+  "UDefFieldId": 953,
+  "ColumnId": 228,
+  "FieldDefault": "est",
+  "FieldHeight": 304,
+  "FieldLabel": "alias",
+  "FieldLeft": 225,
+  "FieldTop": 902,
   "FieldType": "Checkbox",
-  "FieldWidth": 771,
-  "FormatMask": "nulla",
+  "FieldWidth": 42,
+  "FormatMask": "nemo",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 152,
-  "LabelLeft": 379,
-  "LabelTop": 869,
-  "LabelWidth": 695,
-  "LastVersionId": 676,
-  "ListTableId": 348,
+  "IsIndexed": true,
+  "LabelHeight": 102,
+  "LabelLeft": 747,
+  "LabelTop": 927,
+  "LabelWidth": 864,
+  "LastVersionId": 679,
+  "ListTableId": 741,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 768,
-  "ProgId": "qui",
+  "Page1LineNo": 175,
+  "ProgId": "autem",
   "IsReadOnly": false,
-  "ShortLabel": "alias",
-  "TabOrder": 292,
-  "TextLength": 928,
-  "Tooltip": "eum",
-  "UdefIdentity": 899,
-  "UDListDefinitionId": 518,
+  "ShortLabel": "eum",
+  "TabOrder": 339,
+  "TextLength": 488,
+  "Tooltip": "animi",
+  "UdefIdentity": 601,
+  "UDListDefinitionId": 329,
   "Justification": "Center",
-  "Version": 401,
-  "TemplateVariableName": "Wunsch, Harris and Kuphal",
+  "Version": 399,
+  "TemplateVariableName": "Stark, Johnston and Roob",
   "HasBeenPublished": false,
-  "MdoListName": "West Inc and Sons",
+  "MdoListName": "Kovacek, Hodkiewicz and Durgan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   }
 }

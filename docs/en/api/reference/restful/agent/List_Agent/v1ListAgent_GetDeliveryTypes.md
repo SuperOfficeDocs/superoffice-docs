@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Value": "ut",
-    "Tooltip": "voluptatem",
+    "Id": 594,
+    "Value": "inventore",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   },
   {
-    "Id": 57,
-    "Value": "ut",
-    "Tooltip": "voluptatem",
+    "Id": 594,
+    "Value": "inventore",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   }

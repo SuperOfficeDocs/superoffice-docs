@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Schuppe, Schuster and Tremblay",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "UdListDefinitionId": 940,
-  "Rank": 758,
+  "Id": 214,
+  "Name": "VonRueden-Ledner",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "UdListDefinitionId": 118,
+  "Rank": 387,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

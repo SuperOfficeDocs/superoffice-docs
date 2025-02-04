@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 781,
-  "BlobSize": 851,
-  "Description": "Managed national database",
-  "ExtraInfo": "sit",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "officia",
-  "OriginalSize": 534,
-  "CreatedDate": "2007-05-14T10:18:00.2699456+02:00",
-  "UpdatedDate": "2002-09-07T10:18:00.2699456+02:00",
+  "BlobId": 217,
+  "BlobSize": 762,
+  "Description": "Assimilated tangible policy",
+  "ExtraInfo": "qui",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "harum",
+  "OriginalSize": 822,
+  "CreatedDate": "2021-02-05T13:13:31.4645446+01:00",
+  "UpdatedDate": "2021-07-21T13:13:31.4645446+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsam"
+  "ConceptualType": "in"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 282,
-  "BlobSize": 799,
-  "Description": "Up-sized eco-centric hierarchy",
-  "ExtraInfo": "inventore",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 591,
-  "CreatedDate": "2006-03-26T10:18:00.2699456+02:00",
-  "UpdatedDate": "2012-04-19T10:18:00.2699456+02:00",
+  "BlobId": 390,
+  "BlobSize": 649,
+  "Description": "Triple-buffered solution-oriented core",
+  "ExtraInfo": "dolore",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "laboriosam",
+  "OriginalSize": 422,
+  "CreatedDate": "2015-11-10T13:13:31.4645446+01:00",
+  "UpdatedDate": "2013-01-14T13:13:31.4645446+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "totam",
+  "ConceptualType": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

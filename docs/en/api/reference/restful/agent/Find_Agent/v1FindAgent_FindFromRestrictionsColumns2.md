@@ -168,11 +168,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "vitae",
-  "ProviderName": "Kiehn Inc and Sons",
-  "DesiredColumns": "ducimus",
-  "PageSize": 194,
-  "PageNumber": 23
+  "Restrictions": "nisi",
+  "ProviderName": "Breitenberg-Stracke",
+  "DesiredColumns": "et",
+  "PageSize": 445,
+  "PageNumber": 904
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Goodwin-Barrows",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "dolorum",
-      "CanOrderBy": false,
-      "Name": "Paucek-Wintheiser",
+      "DisplayName": "Reinger-Daniel",
+      "DisplayTooltip": "neque",
+      "DisplayType": "non",
+      "CanOrderBy": true,
+      "Name": "Schaden, Marvin and Mitchell",
       "CanRestrictBy": false,
-      "RestrictionType": "occaecati",
-      "RestrictionListName": "Koepp LLC",
+      "RestrictionType": "placeat",
+      "RestrictionListName": "Lebsack-Schmitt",
       "IsVisible": false,
-      "ExtraInfo": "suscipit",
-      "Width": "sit",
-      "IconHint": "culpa",
-      "HeadingIconHint": "excepturi"
+      "ExtraInfo": "laudantium",
+      "Width": "perferendis",
+      "IconHint": "debitis",
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mertz, Tillman and Zieme",
-      "PrimaryKey": 624,
+      "EntityName": "Funk, Nikolaus and Wisozk",
+      "PrimaryKey": 456,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "earum",
-          "LinkHint": "neque"
+          "DisplayValue": "ab",
+          "TooltipHint": "error",
+          "LinkHint": "accusantium"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "eveniet",
+      "LinkHint": "omnis",
+      "StyleHint": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldType": "System.Int32",
+          "FieldLength": 330
         }
       }
     }
   ],
-  "RowCount": 745,
+  "RowCount": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 450
     }
   }
 }

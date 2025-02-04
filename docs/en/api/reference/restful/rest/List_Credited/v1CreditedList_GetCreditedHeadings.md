@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 15,
-    "Name": "McDermott LLC",
-    "Tooltip": "sed",
+    "HeadingId": 369,
+    "Name": "Senger Inc and Sons",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 857,
-    "UdListDefinitionId": 968,
+    "Rank": 186,
+    "UdListDefinitionId": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 100
       }
     }
   }

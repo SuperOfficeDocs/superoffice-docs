@@ -83,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Wiegand LLC",
-      "Operator": "corrupti",
+      "Name": "Leuschke, Ritchie and Hammes",
+      "Operator": "sapiente",
       "Values": [
-        "impedit",
-        "nesciunt"
+        "et",
+        "ut"
       ],
       "DisplayValues": [
-        "molestias",
-        "vel"
+        "soluta",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 1000,
+      "InterParenthesis": 235,
       "InterOperator": "And",
-      "UniqueHash": 931
+      "UniqueHash": 209
     }
   ],
   "Columns": [
-    "rerum",
-    "recusandae"
+    "quis",
+    "dolor"
   ],
-  "ConnectionId": 587,
+  "ConnectionId": 536,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,13 +123,13 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "itaque",
-        "vero"
+        "optio",
+        "veniam"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "nam",
+      "ExternalKey": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -142,28 +142,28 @@ Content-Type: application/json; charset=utf-8
   ],
   "ColumnInfos": [
     {
-      "Name": "Macejkovic LLC",
-      "DisplayName": "Hammes Inc and Sons",
-      "Locked": true,
+      "Name": "Bernhard Inc and Sons",
+      "DisplayName": "Conn-McClure",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldType": "System.Int32",
+          "FieldLength": 341
         }
       }
     },
     {
-      "Name": "Macejkovic LLC",
-      "DisplayName": "Hammes Inc and Sons",
-      "Locked": true,
+      "Name": "Bernhard Inc and Sons",
+      "DisplayName": "Conn-McClure",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldType": "System.Int32",
+          "FieldLength": 341
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 829
     }
   }
 }

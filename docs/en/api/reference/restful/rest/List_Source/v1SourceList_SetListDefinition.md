@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Satterfield Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 816,
+  "Id": 146,
+  "Name": "Raynor, Kohler and Schoen",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 608,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "ex",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Reynolds, Kozey and Bosco",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 659,
-  "IsCustomList": true,
+  "Id": 476,
+  "Name": "Rath Group",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 787,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "error",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 825
     }
   }
 }

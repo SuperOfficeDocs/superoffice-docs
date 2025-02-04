@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Value": "id",
-    "Tooltip": "quidem",
+    "Id": 197,
+    "Value": "voluptatum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   },
   {
-    "Id": 491,
-    "Value": "id",
-    "Tooltip": "quidem",
+    "Id": 197,
+    "Value": "voluptatum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

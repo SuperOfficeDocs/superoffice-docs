@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 632,
-  "Name": "Kassulke Inc and Sons",
-  "Tooltip": "vel",
-  "PassiveText": "quo",
+  "ReldefId": 132,
+  "Name": "Ziemann, Medhurst and Herzog",
+  "Tooltip": "cum",
+  "PassiveText": "voluptates",
   "Deleted": false,
-  "Rank": 343,
+  "Rank": 709,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

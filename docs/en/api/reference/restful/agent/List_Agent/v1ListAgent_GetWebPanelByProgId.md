@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "delectus"
+  "ProgId": "vel"
 }
 ```
 
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 555,
-  "Name": "Stark, Koss and Baumbach",
-  "Tooltip": "possimus",
+  "WebPanelId": 904,
+  "Name": "Jenkins-Bernhard",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 771,
+  "Rank": 939,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
@@ -124,11 +124,11 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Blick, Becker and Watsica",
+  "ShowInStatusBar": true,
+  "WindowName": "Schmidt-Von",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 712,
+  "ProgId": "aperiam",
+  "Icon": 879,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 309
     }
   }
 }

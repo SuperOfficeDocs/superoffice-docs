@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Value": "enim",
-    "Tooltip": "aut",
+    "Id": 863,
+    "Value": "temporibus",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 862
       }
     }
   },
   {
-    "Id": 768,
-    "Value": "enim",
-    "Tooltip": "aut",
+    "Id": 863,
+    "Value": "temporibus",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 862
       }
     }
   }

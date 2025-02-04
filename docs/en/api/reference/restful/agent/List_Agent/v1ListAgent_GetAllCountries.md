@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 748,
-    "Name": "Purdy-Gerhold",
-    "CurrencyId": 712,
-    "EnglishName": "Huels-Kulas",
+    "CountryId": 827,
+    "Name": "Legros, Hagenes and O'Connell",
+    "CurrencyId": 254,
+    "EnglishName": "Walker-Bradtke",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Networked exuding benchmark",
-    "OrgNrText": "767621",
-    "InterAreaPrefix": "sed",
-    "DialInPrefix": "id",
-    "ZipPrefix": "deserunt",
-    "DomainName": "Carroll, Schoen and Treutel",
-    "AddressLayoutId": 970,
-    "DomesticAddressLayoutId": 884,
-    "ForeignAddressLayoutId": 800,
-    "Rank": 625,
-    "Tooltip": "debitis",
-    "Deleted": false,
+    "ImageDescription": "Reduced coherent open architecture",
+    "OrgNrText": "1743339",
+    "InterAreaPrefix": "qui",
+    "DialInPrefix": "omnis",
+    "ZipPrefix": "voluptas",
+    "DomainName": "Sanford LLC",
+    "AddressLayoutId": 664,
+    "DomesticAddressLayoutId": 991,
+    "ForeignAddressLayoutId": 943,
+    "Rank": 529,
+    "Tooltip": "omnis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   }

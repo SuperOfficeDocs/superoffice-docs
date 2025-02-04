@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 922,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "sint",
-  "TableName": "Metz-Brown",
-  "Area": "quas",
+  "TaskMenuId": 614,
+  "Name": "Harris, Sporer and Kautzer",
+  "Tooltip": "nulla",
+  "TableName": "O'Conner, Keebler and Fay",
+  "Area": "recusandae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 177,
+  "CrmScriptId": 626,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 883,
+  "Rank": 712,
   "Encoding": "ANSI",
-  "ProgId": "dolorum",
-  "Deleted": true
+  "ProgId": "quia",
+  "Deleted": false
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 51,
-  "Name": "Fay-Daugherty",
-  "Tooltip": "veniam",
-  "TableName": "Bode, Wilkinson and Roob",
-  "Area": "recusandae",
+  "TaskMenuId": 333,
+  "Name": "Deckow, Reichel and Herzog",
+  "Tooltip": "quae",
+  "TableName": "Kling-Koss",
+  "Area": "quo",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 222,
+  "CrmScriptId": 609,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 381,
+  "Rank": 776,
   "Encoding": "ANSI",
-  "ProgId": "minima",
+  "ProgId": "labore",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 728
     }
   }
 }

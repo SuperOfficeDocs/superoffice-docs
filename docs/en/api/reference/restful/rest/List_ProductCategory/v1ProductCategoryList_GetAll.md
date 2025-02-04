@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Gorczany, Hahn and Abbott",
-    "Tooltip": "ut",
+    "Id": 492,
+    "Name": "Oberbrunner-Langworth",
+    "Tooltip": "modi",
     "Deleted": false,
-    "UdListDefinitionId": 582,
-    "Rank": 536,
+    "UdListDefinitionId": 103,
+    "Rank": 879,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

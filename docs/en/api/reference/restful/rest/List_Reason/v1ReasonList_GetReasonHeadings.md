@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Gerhold-Macejkovic",
-    "Tooltip": "ut",
+    "HeadingId": 537,
+    "Name": "Nolan-Hahn",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 421,
-    "UdListDefinitionId": 78,
+    "Rank": 197,
+    "UdListDefinitionId": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldType": "System.Int32",
+        "FieldLength": 281
       }
     }
   }

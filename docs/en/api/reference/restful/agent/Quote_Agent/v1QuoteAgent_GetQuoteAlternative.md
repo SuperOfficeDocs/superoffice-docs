@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=804
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=191
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 535,
-  "ERPQuoteAlternativeKey": "in",
-  "QuoteVersionId": 289,
-  "Name": "Cummerata, Lind and Pouros",
-  "Description": "Advanced demand-driven protocol",
+  "QuoteAlternativeId": 1000,
+  "ERPQuoteAlternativeKey": "inventore",
+  "QuoteVersionId": 244,
+  "Name": "Howell-Kuvalis",
+  "Description": "Sharable intangible open system",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 27503.984,
-  "ERPDiscountAmount": 25576.574,
-  "DiscountPercent": 25554.636,
-  "DiscountAmount": 2080.976,
+  "ERPDiscountPercent": 21887.856,
+  "ERPDiscountAmount": 5938.9299999999994,
+  "DiscountPercent": 11222.854,
+  "DiscountAmount": 24564.291999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "esse",
-  "VAT": 5587.922,
-  "EarningPercent": 9223.362,
-  "EarningAmount": 18067.51,
-  "SubTotal": 4763.68,
-  "TotalPrice": 7653.228,
-  "ExtraField1": "expedita",
-  "ExtraField2": "occaecati",
-  "ExtraField3": "quis",
-  "ExtraField4": "est",
-  "ExtraField5": "quibusdam",
+  "VATInfo": "velit",
+  "VAT": 30565.902,
+  "EarningPercent": 11313.74,
+  "EarningAmount": 11793.242,
+  "SubTotal": 247.58599999999998,
+  "TotalPrice": 26852.111999999997,
+  "ExtraField1": "ad",
+  "ExtraField2": "ratione",
+  "ExtraField3": "nihil",
+  "ExtraField4": "ut",
+  "ExtraField5": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 715
     }
   }
 }

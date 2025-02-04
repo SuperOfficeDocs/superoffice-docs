@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 270,
-    "Name": "Bogan-Conroy",
+    "TicketPriorityId": 192,
+    "Name": "Bartell, Fritsch and Kutch",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 554,
+    "SortOrder": 627,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 203,
-    "MonStart": "2006-01-29T10:17:55.675911+01:00",
-    "MonStop": "2010-09-21T10:17:55.675911+02:00",
-    "TueStart": "2004-05-11T10:17:55.675911+02:00",
-    "TueStop": "2001-11-05T10:17:55.675911+01:00",
-    "WedStart": "1997-09-16T10:17:55.675911+02:00",
-    "WedStop": "2006-04-25T10:17:55.675911+02:00",
-    "ThuStart": "2002-05-13T10:17:55.675911+02:00",
-    "ThuStop": "2023-01-27T10:17:55.675911+01:00",
-    "FriStart": "2010-02-10T10:17:55.675911+01:00",
-    "FriStop": "1998-12-20T10:17:55.675911+01:00",
-    "SatStart": "2013-02-09T10:17:55.675911+01:00",
-    "SatStop": "2022-01-08T10:17:55.675911+01:00",
-    "SunStart": "2023-01-05T10:17:55.675911+01:00",
-    "SunStop": "2000-12-31T10:17:55.675911+01:00",
+    "Deadline": 216,
+    "MonStart": "2001-01-11T13:13:23.2113821+01:00",
+    "MonStop": "2001-01-25T13:13:23.2113821+01:00",
+    "TueStart": "2011-05-29T13:13:23.2113821+02:00",
+    "TueStop": "2009-06-28T13:13:23.2113821+02:00",
+    "WedStart": "2022-05-12T13:13:23.2113821+02:00",
+    "WedStop": "2012-09-25T13:13:23.2113821+02:00",
+    "ThuStart": "2019-07-21T13:13:23.2113821+02:00",
+    "ThuStop": "2022-01-03T13:13:23.2113821+01:00",
+    "FriStart": "2017-02-02T13:13:23.2113821+01:00",
+    "FriStop": "2010-11-13T13:13:23.2113821+01:00",
+    "SatStart": "2010-09-01T13:13:23.2113821+02:00",
+    "SatStop": "2008-03-11T13:13:23.2113821+01:00",
+    "SunStart": "2012-11-14T13:13:23.2113821+01:00",
+    "SunStop": "1998-09-27T13:13:23.2113821+02:00",
     "NonDates": [
-      "porro",
-      "aliquam"
+      "enim",
+      "officiis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 880,
-        "AlertLevel": 333,
-        "AlertTimeout": 700,
-        "Action": 224,
-        "DelegateTo": 461,
-        "ScriptId": 732,
-        "EmailTo": "william_will@gottlieb.ca",
-        "SmsTo": "molestiae",
-        "ReplyTemplateIdCustomer": 324,
-        "ReplyTemplateIdUser": 192,
-        "ReplyTemplateIdCatmast": 289,
-        "ReplyTemplateIdEmail": 456,
-        "RtiCustomerSms": 140,
-        "ReplyTemplateIdUserSms": 200,
-        "ReplyTemplateIdCatmastSms": 725,
-        "ReplyTemplateIdSms": 457,
+        "TicketAlertId": 673,
+        "AlertLevel": 73,
+        "AlertTimeout": 266,
+        "Action": 79,
+        "DelegateTo": 926,
+        "ScriptId": 529,
+        "EmailTo": "laurence.pouros@russelhaley.com",
+        "SmsTo": "veritatis",
+        "ReplyTemplateIdCustomer": 223,
+        "ReplyTemplateIdUser": 463,
+        "ReplyTemplateIdCatmast": 654,
+        "ReplyTemplateIdEmail": 410,
+        "RtiCustomerSms": 532,
+        "ReplyTemplateIdUserSms": 179,
+        "ReplyTemplateIdCatmastSms": 630,
+        "ReplyTemplateIdSms": 339,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldType": "System.String",
+            "FieldLength": 981
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 83
       }
     }
   }

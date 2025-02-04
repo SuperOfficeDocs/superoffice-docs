@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 850,
-  "Section": "ad",
-  "Key": "tempora",
-  "Name": "Hessel-Streich",
+  "PrefDescId": 719,
+  "Section": "maiores",
+  "Key": "et",
+  "Name": "Herman, Kuhic and Casper",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable zero administration algorithm",
+  "Description": "Horizontal national support",
   "IsBuiltin": false,
-  "TableName": "Baumbach Group",
-  "UserDefinedListId": 543,
-  "Rank": 445,
-  "SubGroup": "ut",
-  "MinLevel": 453,
-  "MaxValue": 512,
-  "MinValue": 27,
-  "RequiredLicense": "eaque"
+  "TableName": "White, Langosh and Gleason",
+  "UserDefinedListId": 838,
+  "Rank": 738,
+  "SubGroup": "nisi",
+  "MinLevel": 671,
+  "MaxValue": 854,
+  "MinValue": 595,
+  "RequiredLicense": "ab"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 962,
-  "Section": "quia",
-  "Key": "in",
-  "Name": "Schmidt Inc and Sons",
+  "PrefDescId": 448,
+  "Section": "et",
+  "Key": "deleniti",
+  "Name": "Hansen-Langworth",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synchronised tangible concept",
-  "IsBuiltin": false,
-  "TableName": "Larkin-Rolfson",
-  "UserDefinedListId": 244,
-  "Rank": 506,
-  "SubGroup": "eius",
-  "MinLevel": 455,
-  "MaxValue": 378,
-  "MinValue": 970,
-  "RequiredLicense": "tempora",
+  "Description": "Mandatory 6th generation structure",
+  "IsBuiltin": true,
+  "TableName": "Bashirian, Smith and Jast",
+  "UserDefinedListId": 219,
+  "Rank": 579,
+  "SubGroup": "corrupti",
+  "MinLevel": 228,
+  "MaxValue": 619,
+  "MinValue": 118,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

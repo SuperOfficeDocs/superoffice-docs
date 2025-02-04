@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "autem",
+  "Path": "quia",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 615,
+  "HierarchyId": 174,
   "Domain": "Dashboards",
-  "Name": "Hagenes-Ondricka",
-  "Fullname": "praesentium",
-  "ParentId": 732,
+  "Name": "Deckow Group",
+  "Fullname": "omnis",
+  "ParentId": 327,
   "Children": [
     {
-      "HierarchyId": 262,
+      "HierarchyId": 472,
       "Domain": "Dashboards",
-      "Name": "Lemke-Shanahan",
-      "Fullname": "consectetur",
-      "ParentId": 500,
+      "Name": "Gulgowski Group",
+      "Fullname": "quia",
+      "ParentId": 462,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-08-05T10:17:55.7227953+02:00",
-      "RegisteredAssociateId": 851,
-      "Updated": "2007-04-18T10:17:55.7227953+02:00",
-      "UpdatedAssociateId": 589,
+      "Registered": "1997-09-28T13:13:23.3051742+02:00",
+      "RegisteredAssociateId": 65,
+      "Updated": "2022-03-06T13:13:23.3051742+01:00",
+      "UpdatedAssociateId": 187,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldLength": 994
         }
       }
     }
   ],
-  "Registered": "2001-06-07T10:17:55.7227953+02:00",
-  "RegisteredAssociateId": 481,
-  "Updated": "2000-11-02T10:17:55.7227953+01:00",
-  "UpdatedAssociateId": 92,
+  "Registered": "2017-06-18T13:13:23.3051742+02:00",
+  "RegisteredAssociateId": 116,
+  "Updated": "2003-04-29T13:13:23.3051742+02:00",
+  "UpdatedAssociateId": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

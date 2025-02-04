@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 193,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2015-10-04T10:17:55.457154+02:00",
-  "EndTime": "2011-06-30T10:17:55.457154+02:00",
-  "Count": 354,
-  "TemplateHeadingId": 922
+  "PersonId": 606,
+  "IncludeProjectDocuments": false,
+  "StartTime": "1997-12-08T13:13:22.6188095+01:00",
+  "EndTime": "2006-10-14T13:13:22.6188095+02:00",
+  "Count": 989,
+  "TemplateHeadingId": 833
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 618,
-    "Attention": "vel",
-    "Header": "voluptatem",
-    "Name": "Dibbert Inc and Sons",
-    "OurRef": "officiis",
-    "YourRef": "pariatur",
-    "Description": "Operative bottom-line database",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 590,
-    "PersonFullName": "Terrence Treutel",
-    "AssociateFullName": "Magdalen Frida Heaney Sr.",
-    "ContactId": 828,
-    "ContactName": "Balistreri, Hoeger and Adams",
-    "ProjectId": 108,
-    "ProjectName": "Donnelly LLC",
-    "AssociateId": 157,
-    "Snum": 438,
-    "SaleId": 18,
-    "SaleName": "Boyer, Altenwerth and Pouros",
+    "DocumentId": 939,
+    "Attention": "possimus",
+    "Header": "esse",
+    "Name": "Gusikowski, Willms and McCullough",
+    "OurRef": "dolores",
+    "YourRef": "molestiae",
+    "Description": "Future-proofed exuding interface",
+    "DocumentTemplate": "illum",
+    "IsPublished": false,
+    "PersonId": 868,
+    "PersonFullName": "Maxine Huel",
+    "AssociateFullName": "Daphne Doyle Heaney Jr.",
+    "ContactId": 769,
+    "ContactName": "Hayes LLC",
+    "ProjectId": 957,
+    "ProjectName": "Parker LLC",
+    "AssociateId": 824,
+    "Snum": 722,
+    "SaleId": 677,
+    "SaleName": "Dickens LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldType": "System.String",
+        "FieldLength": 139
       }
     }
   }

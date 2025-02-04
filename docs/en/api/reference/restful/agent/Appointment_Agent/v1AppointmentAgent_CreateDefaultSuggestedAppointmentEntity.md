@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 91,
-  "Name": "Schneider, Monahan and Jacobi",
-  "Tooltip": "ea",
-  "Rank": 230,
+  "SuggestedAppointmentId": 733,
+  "Name": "Mueller-Glover",
+  "Tooltip": "est",
+  "Rank": 514,
   "Deleted": false,
-  "DaysFuture": 455,
-  "Duration": "debitis",
+  "DaysFuture": 684,
+  "Duration": "necessitatibus",
   "AutoSuggest": false,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "voluptatibus",
+  "Text": "ut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 915
     }
   }
 }

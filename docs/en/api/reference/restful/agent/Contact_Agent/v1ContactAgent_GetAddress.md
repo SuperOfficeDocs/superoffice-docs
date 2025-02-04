@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 450
+  "ContactId": 457
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22969.086,
-  "Wgs84Longitude": 13676.776,
+  "Wgs84Latitude": 23871.678,
+  "Wgs84Longitude": 4143.148,
   "LocalizedAddress": [
     [
       {
-        "Name": "Goodwin Inc and Sons",
-        "Value": "explicabo",
-        "Tooltip": "fugiat",
-        "Label": "sequi",
-        "ValueLength": 397,
-        "AddressType": "dicta",
+        "Name": "Mertz Group",
+        "Value": "dolorem",
+        "Tooltip": "dolore",
+        "Label": "vero",
+        "ValueLength": 974,
+        "AddressType": "nostrum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldType": "System.String",
+            "FieldLength": 979
           }
         }
       }
     ],
     [
       {
-        "Name": "Rath, Parisian and Hodkiewicz",
-        "Value": "laborum",
-        "Tooltip": "nulla",
-        "Label": "deleniti",
-        "ValueLength": 279,
-        "AddressType": "sequi",
+        "Name": "Graham, Emmerich and Sawayn",
+        "Value": "tenetur",
+        "Tooltip": "assumenda",
+        "Label": "dolor",
+        "ValueLength": 347,
+        "AddressType": "nisi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 975
+            "FieldType": "System.Int32",
+            "FieldLength": 657
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "consequuntur",
+  "Formatted": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 421
     }
   }
 }

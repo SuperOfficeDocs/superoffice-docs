@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dooley-Kris",
-  "IncludeStandard": false
+  "TableName": "Schaden-Auer",
+  "IncludeStandard": true
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ryan LLC",
-    "DisplayName": "Flatley-Nader",
-    "Description": "Enhanced web-enabled collaboration",
-    "ShortLabel": "iusto",
+    "FieldName": "Nienow-Auer",
+    "DisplayName": "Stamm LLC",
+    "Description": "Organic upward-trending functionalities",
+    "ShortLabel": "quibusdam",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 525,
-    "TemplateVariableName": "Wilderman, Conroy and Emard"
+    "Rank": 839,
+    "TemplateVariableName": "Gerhold-Schmeler"
   }
 ]
 ```

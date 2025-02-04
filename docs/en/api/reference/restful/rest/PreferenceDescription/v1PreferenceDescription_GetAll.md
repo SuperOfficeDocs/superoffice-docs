@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 509,
-    "Section": "sint",
-    "Key": "optio",
-    "Name": "Friesen, Goyette and Schoen",
+    "PrefDescId": 395,
+    "Section": "ipsum",
+    "Key": "quo",
+    "Name": "Cruickshank-Rippin",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reduced optimal implementation",
+    "Description": "Digitized scalable matrix",
     "IsBuiltin": false,
-    "TableName": "Rogahn-McKenzie",
-    "UserDefinedListId": 740,
-    "Rank": 780,
-    "SubGroup": "totam",
-    "MinLevel": 19,
-    "MaxValue": 869,
-    "MinValue": 236,
-    "RequiredLicense": "nobis",
+    "TableName": "Hilll, Franecki and Durgan",
+    "UserDefinedListId": 313,
+    "Rank": 194,
+    "SubGroup": "repudiandae",
+    "MinLevel": 28,
+    "MaxValue": 338,
+    "MinValue": 445,
+    "RequiredLicense": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 329
       }
     }
   }

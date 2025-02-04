@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 151,
-  "Name": "Torphy LLC",
-  "Description": "Stand-alone eco-centric frame",
-  "WelcomeMessage": "suscipit",
+  "ChatTopicId": 269,
+  "Name": "Purdy Inc and Sons",
+  "Description": "Devolved leading edge hardware",
+  "WelcomeMessage": "modi",
   "Language": null,
-  "LastAccept": "2015-05-31T10:18:00.2543195+02:00",
-  "SecondsPrAccept": 904,
-  "AlertRecipient": "in",
+  "LastAccept": "2005-08-13T13:13:31.4333046+02:00",
+  "SecondsPrAccept": 272,
+  "AlertRecipient": "quo",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sit",
+  "BadgeHeader": "harum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "vero",
-  "WarnNewChatMinutes": 941,
-  "WarnManagerNewChatMinutes": 865,
+  "CustomQueueText": "nemo",
+  "WarnNewChatMinutes": 496,
+  "WarnManagerNewChatMinutes": 237,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 14,
-  "WarnManagerChatMessageMinutes": 744,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 499,
-  "OfflineFormQueueLength": 631,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 840,
+  "WarnManagerChatMessageMinutes": 468,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 938,
+  "OfflineFormQueueLength": 868,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "maxime",
+  "WidgetRatingText": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldLength": 579
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

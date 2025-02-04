@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms, Stoltenberg and Sporer"
+  "Name": "Jast-Reilly"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kutch Inc and Sons",
-    "SoPrimaryKey": 426,
-    "EntryName": "Fritsch Inc and Sons",
-    "EntryIdentifier": "deleniti",
-    "RuleDisplayName": "Schamberger, Haag and Towne",
+    "RuleName": "Lesch-Howell",
+    "SoPrimaryKey": 740,
+    "EntryName": "Schimmel, Friesen and Witting",
+    "EntryIdentifier": "voluptatum",
+    "RuleDisplayName": "Hoeger, Sporer and Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

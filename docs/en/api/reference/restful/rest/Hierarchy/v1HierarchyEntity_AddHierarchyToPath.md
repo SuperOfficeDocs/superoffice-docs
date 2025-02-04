@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 715,
+  "HierarchyId": 365,
   "Domain": "Dashboards",
-  "Name": "Kub-Stiedemann",
-  "Fullname": "nulla",
-  "ParentId": 649,
+  "Name": "Toy Group",
+  "Fullname": "nam",
+  "ParentId": 169,
   "Children": [
     {
-      "HierarchyId": 291,
+      "HierarchyId": 436,
       "Domain": "Dashboards",
-      "Name": "Hyatt-Little",
-      "Fullname": "perferendis",
-      "ParentId": 365,
+      "Name": "Rodriguez, Hintz and Goldner",
+      "Fullname": "et",
+      "ParentId": 880,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-05-07T10:18:00.4262067+02:00",
-      "RegisteredAssociateId": 410,
-      "Updated": "2023-05-03T10:18:00.4262067+02:00",
-      "UpdatedAssociateId": 64,
+      "Registered": "2022-06-24T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 862,
+      "Updated": "2003-03-07T13:13:31.7613495+01:00",
+      "UpdatedAssociateId": 457,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
   ],
-  "Registered": "2015-06-08T10:18:00.4262067+02:00",
-  "RegisteredAssociateId": 163,
-  "Updated": "2021-07-12T10:18:00.4262067+02:00",
-  "UpdatedAssociateId": 90,
+  "Registered": "2012-03-30T13:13:31.7613495+02:00",
+  "RegisteredAssociateId": 760,
+  "Updated": "2014-11-14T13:13:31.7613495+01:00",
+  "UpdatedAssociateId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 558
     }
   }
 }

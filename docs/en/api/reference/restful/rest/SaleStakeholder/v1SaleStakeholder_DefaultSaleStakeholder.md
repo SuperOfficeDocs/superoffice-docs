@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kiehn-Grimes",
-  "Comment": "et",
-  "StakeholderRoleId": 61,
-  "CountryId": 533,
-  "PersonId": 833,
-  "EmailDescription": "okey_macejkovic@lakin.info",
-  "EmailId": 22,
-  "EmailAddress": "era@durganlowe.us",
-  "PhoneId": 52,
-  "ContactName": "Beer-Hand",
-  "ContactId": 324,
-  "SaleId": 608,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Jaqueline",
-  "MiddleName": "Kuhlman, Gutkowski and Barrows",
-  "Lastname": "Schiller",
-  "SaleStakeholderId": 138,
-  "Rank": 898,
-  "Phone": "330.312.7348 x03733",
+  "StakeholderRoleName": "Stracke, Jenkins and Rath",
+  "Comment": "laborum",
+  "StakeholderRoleId": 645,
+  "CountryId": 630,
+  "PersonId": 202,
+  "EmailDescription": "juliet@croningreenholt.com",
+  "EmailId": 279,
+  "EmailAddress": "tessie_bartoletti@breitenberg.uk",
+  "PhoneId": 813,
+  "ContactName": "Rogahn LLC",
+  "ContactId": 502,
+  "SaleId": 82,
+  "Mrmrs": "expedita",
+  "Firstname": "Valerie",
+  "MiddleName": "Macejkovic, Rempel and Carter",
+  "Lastname": "Terry",
+  "SaleStakeholderId": 404,
+  "Rank": 32,
+  "Phone": "1-013-737-7821",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 302
     }
   }
 }

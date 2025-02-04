@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "dolore",
+  "Provider": "vero",
   "Restrictions": [
     {
-      "Name": "Beatty LLC",
-      "Operator": "consectetur",
+      "Name": "Eichmann-Monahan",
+      "Operator": "ducimus",
       "Values": [
-        "dolores",
-        "temporibus"
+        "et",
+        "et"
       ],
       "DisplayValues": [
-        "sapiente",
-        "iusto"
+        "ipsam",
+        "animi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 593,
+      "InterParenthesis": 132,
       "InterOperator": "And",
-      "UniqueHash": 625
+      "UniqueHash": 973
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  30,
-  322
+  98,
+  966
 ]
 ```

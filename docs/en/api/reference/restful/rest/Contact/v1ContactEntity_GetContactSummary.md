@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=172
+GET /api/v1/Contact/{contactId}/Summary?limit=467
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 871,
-      "TicketStatus": 519,
-      "Title": "est",
-      "Registered": "1999-07-08T10:18:00.3324502+02:00",
-      "IconHint": "odio"
+      "TicketId": 977,
+      "TicketStatus": 260,
+      "Title": "et",
+      "Registered": "2014-05-16T13:13:31.5738909+02:00",
+      "IconHint": "iure"
     },
     {
-      "TicketId": 871,
-      "TicketStatus": 519,
-      "Title": "est",
-      "Registered": "1999-07-08T10:18:00.3324502+02:00",
-      "IconHint": "odio"
+      "TicketId": 977,
+      "TicketStatus": 260,
+      "Title": "et",
+      "Registered": "2014-05-16T13:13:31.5738909+02:00",
+      "IconHint": "iure"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 316,
-      "DocumentId": 933,
-      "Date": "2024-02-13T10:18:00.3324502+01:00",
-      "Description": "Right-sized explicit monitoring",
+      "AppointmentId": 454,
+      "DocumentId": 223,
+      "Date": "2021-02-22T13:13:31.5738909+01:00",
+      "Description": "Decentralized radical info-mediaries",
       "Completed": "Completed",
-      "Registered": "2000-05-20T10:18:00.3324502+02:00"
+      "Registered": "2020-03-23T13:13:31.5738909+01:00"
     },
     {
-      "AppointmentId": 316,
-      "DocumentId": 933,
-      "Date": "2024-02-13T10:18:00.3324502+01:00",
-      "Description": "Right-sized explicit monitoring",
+      "AppointmentId": 454,
+      "DocumentId": 223,
+      "Date": "2021-02-22T13:13:31.5738909+01:00",
+      "Description": "Decentralized radical info-mediaries",
       "Completed": "Completed",
-      "Registered": "2000-05-20T10:18:00.3324502+02:00"
+      "Registered": "2020-03-23T13:13:31.5738909+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 252,
-      "DocumentId": 660,
-      "Date": "2005-06-12T10:18:00.3324502+02:00",
-      "Description": "Face to face 4th generation knowledge base",
+      "AppointmentId": 854,
+      "DocumentId": 941,
+      "Date": "2012-03-26T13:13:31.5738909+02:00",
+      "Description": "Down-sized zero defect benchmark",
       "Completed": "Completed",
-      "Registered": "2015-07-12T10:18:00.3324502+02:00"
+      "Registered": "2000-04-26T13:13:31.5738909+02:00"
     },
     {
-      "AppointmentId": 252,
-      "DocumentId": 660,
-      "Date": "2005-06-12T10:18:00.3324502+02:00",
-      "Description": "Face to face 4th generation knowledge base",
+      "AppointmentId": 854,
+      "DocumentId": 941,
+      "Date": "2012-03-26T13:13:31.5738909+02:00",
+      "Description": "Down-sized zero defect benchmark",
       "Completed": "Completed",
-      "Registered": "2015-07-12T10:18:00.3324502+02:00"
+      "Registered": "2000-04-26T13:13:31.5738909+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 709,
-      "SaleDate": "1998-06-07T10:18:00.3324502+02:00",
-      "Probability": 454,
-      "Heading": "ipsum",
-      "Amount": 4951.72,
-      "Currency": "est",
-      "AmountInBaseCurrency": 6531.2559999999994,
+      "SaleId": 71,
+      "SaleDate": "2009-09-06T13:13:31.5738909+02:00",
+      "Probability": 599,
+      "Heading": "beatae",
+      "Amount": 22718.365999999998,
+      "Currency": "inventore",
+      "AmountInBaseCurrency": 6600.204,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2001-04-11T10:18:00.3324502+02:00"
+      "Registered": "2019-09-17T13:13:31.5738909+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 778,
-      "Name": "Dooley LLC",
-      "CompanyName": "Aufderhar Inc and Sons",
-      "FirstMessage": "dolores",
+      "ChatSessionId": 736,
+      "Name": "Kuhlman, Runte and O'Keefe",
+      "CompanyName": "Bayer, Huel and Abbott",
+      "FirstMessage": "amet",
       "LastMessage": "minus",
-      "WhenRequested": "2019-04-16T10:18:00.3324502+02:00",
-      "WhenEnded": "2003-02-01T10:18:00.3324502+01:00"
+      "WhenRequested": "2021-12-01T13:13:31.5738909+01:00",
+      "WhenEnded": "1998-11-29T13:13:31.5738909+01:00"
     }
   ]
 }

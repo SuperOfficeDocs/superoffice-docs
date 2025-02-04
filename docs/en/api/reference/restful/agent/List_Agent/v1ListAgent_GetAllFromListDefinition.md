@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 952,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 29,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Huels-Rice",
-    "Tooltip": "nobis",
+    "Id": 705,
+    "Name": "Trantow, VonRueden and Schulist",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 459,
-    "Rank": 236,
+    "UdListDefinitionId": 229,
+    "Rank": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

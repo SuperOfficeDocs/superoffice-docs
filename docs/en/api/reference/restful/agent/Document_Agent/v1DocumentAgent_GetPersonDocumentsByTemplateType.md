@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 996,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2018-05-04T10:17:55.457154+02:00",
-  "EndTime": "2001-04-01T10:17:55.457154+02:00",
-  "Count": 624,
-  "DocumentTemplateId": 923
+  "PersonId": 532,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2010-04-30T13:13:22.6188095+02:00",
+  "EndTime": "1998-03-13T13:13:22.6188095+01:00",
+  "Count": 351,
+  "DocumentTemplateId": 434
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 671,
-    "Attention": "aut",
-    "Header": "et",
-    "Name": "Schmidt-Ward",
-    "OurRef": "eveniet",
-    "YourRef": "placeat",
-    "Description": "Optimized attitude-oriented algorithm",
-    "DocumentTemplate": "est",
-    "IsPublished": false,
-    "PersonId": 943,
-    "PersonFullName": "Pasquale DuBuque",
-    "AssociateFullName": "Zechariah Dooley",
-    "ContactId": 239,
-    "ContactName": "Bruen, Gleason and Baumbach",
-    "ProjectId": 198,
-    "ProjectName": "D'Amore-Hintz",
-    "AssociateId": 882,
-    "Snum": 359,
-    "SaleId": 52,
-    "SaleName": "Moore-Wisoky",
+    "DocumentId": 903,
+    "Attention": "consequatur",
+    "Header": "beatae",
+    "Name": "Dickinson, Lubowitz and Ernser",
+    "OurRef": "architecto",
+    "YourRef": "et",
+    "Description": "Cloned bottom-line adapter",
+    "DocumentTemplate": "a",
+    "IsPublished": true,
+    "PersonId": 963,
+    "PersonFullName": "Karianne Gutmann",
+    "AssociateFullName": "Carmen Jerde",
+    "ContactId": 807,
+    "ContactName": "Crona, Vandervort and Wehner",
+    "ProjectId": 254,
+    "ProjectName": "Kautzer-Baumbach",
+    "AssociateId": 847,
+    "Snum": 676,
+    "SaleId": 395,
+    "SaleName": "Ebert, McLaughlin and Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 768
       }
     }
   }

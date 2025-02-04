@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 810,
-  "Name": "Kiehn-Prohaska",
-  "CreatedDate": "2024-02-15T10:18:00.4105739+01:00",
-  "UpdatedDate": "2019-09-17T10:18:00.4105739+02:00",
+  "ForeignAppId": 660,
+  "Name": "Kunde, Keeling and Renner",
+  "CreatedDate": "2022-08-06T13:13:31.7301065+02:00",
+  "UpdatedDate": "2012-12-25T13:13:31.7301065+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 412,
-      "Name": "Luettgen, Cartwright and Tillman",
-      "CreatedDate": "2010-10-13T10:18:00.4105739+02:00",
-      "UpdatedDate": "2023-06-23T10:18:00.4105739+02:00",
-      "AssociateFullName": "Leslie Veum",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "earum",
-      "DeviceIdentifier": "velit",
-      "ForeignAppId": 718,
+      "ForeignDeviceId": 486,
+      "Name": "Heathcote Inc and Sons",
+      "CreatedDate": "2024-06-02T13:13:31.7301065+02:00",
+      "UpdatedDate": "2019-10-22T13:13:31.7301065+02:00",
+      "AssociateFullName": "Leonel Grimes",
+      "CreatedBy": "autem",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 5,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 950
+      "FieldLength": 700
     }
   }
 }

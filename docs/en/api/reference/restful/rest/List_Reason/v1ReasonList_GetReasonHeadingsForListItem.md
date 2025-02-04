@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Satterfield LLC",
-    "ToolTip": "Officiis doloremque.",
-    "Deleted": true,
-    "Rank": 887,
-    "Type": "dolorum",
-    "ColorBlock": 232,
-    "IconHint": "rerum",
+    "Id": 227,
+    "Name": "Wolff-Wuckert",
+    "ToolTip": "Quasi voluptate quasi recusandae assumenda qui.",
+    "Deleted": false,
+    "Rank": 642,
+    "Type": "dolorem",
+    "ColorBlock": 572,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2017-09-04T10:18:01.1450002+02:00",
+    "LastChanged": "1998-08-21T13:13:33.4954014+02:00",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Sawayn Inc and Sons",
-        "ToolTip": "Est amet sequi accusantium consequatur ipsam totam eos.",
+        "Id": 14,
+        "Name": "Zieme-Mertz",
+        "ToolTip": "Assumenda nobis.",
         "Deleted": false,
-        "Rank": 293,
-        "Type": "consequatur",
-        "ColorBlock": 931,
-        "IconHint": "omnis",
+        "Rank": 766,
+        "Type": "aliquam",
+        "ColorBlock": 304,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2011-02-05T10:18:01.1450002+01:00",
+        "LastChanged": "2019-02-24T13:13:33.4954014+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Kim Dion Padberg MD",
+        "ExtraInfo": "amet",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Rubie Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "cum",
+    "ExtraInfo": "rerum",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Prof. Giovanny Ruecker",
+    "FullName": "Miss Kiel Clarabelle Bauch PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   }

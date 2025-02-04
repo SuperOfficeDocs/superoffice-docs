@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 167,
-  "AssociateId": 431,
-  "Caption": "illo",
+  "DashboardId": 393,
+  "AssociateId": 701,
+  "Caption": "dolore",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 4,
-      "Caption": "totam",
-      "Description": "Quality-focused demand-driven conglomeration",
-      "ChartName": "Deckow-Thompson",
-      "ChartId": "reiciendis",
+      "DashboardTileId": 197,
+      "Caption": "et",
+      "Description": "Assimilated zero tolerance functionalities",
+      "ChartName": "McClure Inc and Sons",
+      "ChartId": "modi",
       "IsDefault": false,
-      "AssociateId": 222,
-      "GroupId": 316,
-      "SelectionId": 455,
-      "Config": "fugiat",
+      "AssociateId": 375,
+      "GroupId": 321,
+      "SelectionId": 961,
+      "Config": "esse",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 104,
-  "AssociateId": 480,
-  "Caption": "animi",
+  "DashboardId": 995,
+  "AssociateId": 53,
+  "Caption": "ea",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 669,
-      "Caption": "voluptatum",
-      "Description": "Public-key high-level help-desk",
-      "ChartName": "Altenwerth, Swift and Romaguera",
-      "ChartId": "in",
+      "DashboardTileId": 107,
+      "Caption": "reiciendis",
+      "Description": "Ergonomic directional conglomeration",
+      "ChartName": "Lemke-Borer",
+      "ChartId": "cum",
       "IsDefault": false,
-      "AssociateId": 298,
-      "GroupId": 365,
-      "SelectionId": 671,
-      "Config": "rerum",
+      "AssociateId": 776,
+      "GroupId": 706,
+      "SelectionId": 782,
+      "Config": "ea",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 10
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 23
     }
   },
   "_Links": {

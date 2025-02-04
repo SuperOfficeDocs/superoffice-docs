@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 997,
+  "LatestKnownEventId": 898,
   "PublishEvents": [
     {
-      "EventId": 981,
-      "EventName": "Turcotte-Kozey",
-      "EntityType": "voluptatibus",
-      "EntityKey": 784,
-      "AssociateId": 848,
-      "AssociateName": "Weissnat-Ziemann",
-      "EventDateTime": "2020-02-07T10:17:56.3634594+01:00"
+      "EventId": 102,
+      "EventName": "Reilly Group",
+      "EntityType": "quidem",
+      "EntityKey": 78,
+      "AssociateId": 986,
+      "AssociateName": "Ledner-Lockman",
+      "EventDateTime": "2002-09-26T13:13:24.5715146+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Doyle Inc and Sons",
-      "Value": 291
+      "Name": "Monahan Inc and Sons",
+      "Value": 31
     },
     {
-      "Name": "Doyle Inc and Sons",
-      "Value": 291
+      "Name": "Monahan Inc and Sons",
+      "Value": 31
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 788,
-    "EventName": "Anderson Inc and Sons",
-    "EntityType": "in",
-    "EntityKey": 732,
-    "AssociateId": 228,
-    "AssociateName": "Hills, Kessler and Effertz",
-    "EventDateTime": "2016-11-16T10:17:56.3634594+01:00",
+    "EventId": 421,
+    "EventName": "Veum-Hirthe",
+    "EntityType": "autem",
+    "EntityKey": 167,
+    "AssociateId": 498,
+    "AssociateName": "Rempel-Kuhic",
+    "EventDateTime": "2024-07-31T13:13:24.5715146+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldLength": 755
       }
     }
   }

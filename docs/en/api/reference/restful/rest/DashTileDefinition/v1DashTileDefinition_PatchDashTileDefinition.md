@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 412,
-  "Name": "Will Inc and Sons",
-  "Description": "Right-sized multimedia artificial intelligence",
-  "DefaultHeight": 379,
-  "DefaultWidth": 963,
+  "DashboardTileDefinitionId": 97,
+  "Name": "Kub, Johns and D'Amore",
+  "Description": "Team-oriented methodical algorithm",
+  "DefaultHeight": 125,
+  "DefaultWidth": 526,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Glover Group",
-  "SelectionId": 863,
+  "EntityName": "Kshlerin-Bechtelar",
+  "SelectionId": 884,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "porro",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "cumque",
-  "SecondarySelectionId": 801,
-  "MeasureByField": "in",
+  "MeasureField": "possimus",
+  "SortBy": "a",
+  "LayoutConfig": "ducimus",
+  "SecondarySelectionId": 334,
+  "MeasureByField": "itaque",
   "Usage": "Dashboard",
-  "ProviderName": "Nikolaus, Turner and White",
+  "ProviderName": "Swift-Wilkinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   },
   "_Links": {

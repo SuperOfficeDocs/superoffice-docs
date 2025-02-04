@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 626
+  "ProjectId": 159
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 358,
-  "StartDate": "2012-01-12T10:17:55.8946817+01:00",
-  "EndDate": "1997-12-30T10:17:55.8946817+01:00",
+  "AppointmentId": 700,
+  "StartDate": "2023-11-24T13:13:23.648844+01:00",
+  "EndDate": "2013-04-20T13:13:23.648844+02:00",
   "Type": "BookingForChecklist",
-  "Task": "assumenda",
-  "AssociateFullName": "Karlie Manuela Douglas III",
-  "ContactName": "Reilly LLC",
-  "Description": "Enterprise-wide human-resource projection",
-  "PersonFullName": "Prof. Walton Ferry IV",
-  "PersonId": 866,
-  "ContactId": 845,
-  "ProjectId": 801,
-  "ProjectName": "Emard-Schamberger",
+  "Task": "architecto",
+  "AssociateFullName": "Mckayla Ritchie",
+  "ContactName": "Friesen LLC",
+  "Description": "User-centric intermediate Graphical User Interface",
+  "PersonFullName": "Kristina Davis",
+  "PersonId": 558,
+  "ContactId": 200,
+  "ProjectId": 183,
+  "ProjectName": "Sauer, Donnelly and Moore",
   "IsPublished": true,
-  "AssociateId": 585,
-  "ColorIndex": 694,
+  "AssociateId": 818,
+  "ColorIndex": 164,
   "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 955,
-  "PriorityName": "King, D'Amore and Zulauf",
+  "PriorityId": 547,
+  "PriorityName": "Grant, Farrell and Cronin",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsBookingMain": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2021-03-07T10:17:55.8946817+01:00",
+  "ActiveDate": "2017-03-31T13:13:23.648844+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2018-11-18T10:17:55.8946817+01:00",
-  "RecurringEndDate": "1999-07-22T10:17:55.8946817+02:00",
-  "MotherId": 760,
-  "AssignedBy": 496,
-  "AssignedByFullName": "Brionna Rasheed Casper IV",
+  "RecurringStartDate": "1998-05-16T13:13:23.648844+02:00",
+  "RecurringEndDate": "2003-10-25T13:13:23.648844+02:00",
+  "MotherId": 790,
+  "AssignedBy": 882,
+  "AssignedByFullName": "Jonathon Rodriguez",
   "RejectReason": "",
-  "Location": "iusto",
-  "AlarmLeadTime": "reiciendis",
-  "SaleId": 9,
-  "SaleName": "Wyman-Bergstrom",
-  "AssociateName": "Moore-Rolfson",
-  "CreatedDate": "2013-03-07T10:17:55.8946817+01:00",
-  "CreatedBy": "sit",
-  "CreatedByFullName": "Mr. Dario Sylvia Little Sr.",
-  "CreatedByAssociateId": 352,
+  "Location": "illum",
+  "AlarmLeadTime": "ut",
+  "SaleId": 375,
+  "SaleName": "Moen-Reichel",
+  "AssociateName": "Bahringer, Frami and Bechtelar",
+  "CreatedDate": "2002-05-17T13:13:23.648844+02:00",
+  "CreatedBy": "quo",
+  "CreatedByFullName": "Candace Buckridge",
+  "CreatedByAssociateId": 58,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 294,
-  "Title": "voluptatem",
-  "Agenda": "nisi",
-  "InternalNotes": "facere",
+  "PreferredTZLocation": 482,
+  "Title": "modi",
+  "Agenda": "in",
+  "InternalNotes": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 228
     }
   }
 }

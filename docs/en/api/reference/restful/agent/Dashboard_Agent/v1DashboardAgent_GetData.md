@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 761,
-  "Restrictions": "est"
+  "DashboardTileId": 671,
+  "Restrictions": "dolorum"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Wolf Inc and Sons",
-        "DisplayTooltip": "libero",
-        "DisplayType": "magnam",
-        "CanOrderBy": false,
-        "Name": "Grant-Larson",
+        "DisplayName": "Dickens-Price",
+        "DisplayTooltip": "qui",
+        "DisplayType": "qui",
+        "CanOrderBy": true,
+        "Name": "Shanahan, Yundt and Little",
         "CanRestrictBy": true,
-        "RestrictionType": "repellat",
-        "RestrictionListName": "Howell, Lebsack and Renner",
-        "IsVisible": false,
-        "ExtraInfo": "eum",
-        "Width": "praesentium",
-        "IconHint": "voluptas",
-        "HeadingIconHint": "quo"
+        "RestrictionType": "ut",
+        "RestrictionListName": "Zieme, Kuphal and Walker",
+        "IsVisible": true,
+        "ExtraInfo": "dolores",
+        "Width": "expedita",
+        "IconHint": "doloribus",
+        "HeadingIconHint": "repellat"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Wolf Inc and Sons",
-        "DisplayTooltip": "libero",
-        "DisplayType": "magnam",
-        "CanOrderBy": false,
-        "Name": "Grant-Larson",
+        "DisplayName": "Dickens-Price",
+        "DisplayTooltip": "qui",
+        "DisplayType": "qui",
+        "CanOrderBy": true,
+        "Name": "Shanahan, Yundt and Little",
         "CanRestrictBy": true,
-        "RestrictionType": "repellat",
-        "RestrictionListName": "Howell, Lebsack and Renner",
-        "IsVisible": false,
-        "ExtraInfo": "eum",
-        "Width": "praesentium",
-        "IconHint": "voluptas",
-        "HeadingIconHint": "quo"
+        "RestrictionType": "ut",
+        "RestrictionListName": "Zieme, Kuphal and Walker",
+        "IsVisible": true,
+        "ExtraInfo": "dolores",
+        "Width": "expedita",
+        "IconHint": "doloribus",
+        "HeadingIconHint": "repellat"
       }
     ],
     "Result": null

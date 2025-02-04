@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 924,
-  "Select": "rerum"
+  "SelectionId": 709,
+  "Select": "mollitia"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rice, Effertz and Jakubowski",
-    "PrimaryKey": 991,
+    "EntityName": "Lowe Inc and Sons",
+    "PrimaryKey": 632,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "natus",
-        "TooltipHint": "ab",
-        "LinkHint": "at"
+        "DisplayValue": "nostrum",
+        "TooltipHint": "reiciendis",
+        "LinkHint": "consequuntur"
       }
     },
-    "LinkHint": "molestias",
-    "StyleHint": "veritatis",
+    "LinkHint": "in",
+    "StyleHint": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 92
       }
     }
   }

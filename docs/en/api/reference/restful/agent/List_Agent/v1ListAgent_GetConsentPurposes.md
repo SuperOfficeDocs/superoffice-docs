@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 880,
-    "Name": "Rippin-McGlynn",
-    "ConsentText": "dolorum",
-    "FormText": "ut",
-    "Key": "cum",
-    "Tooltip": "commodi",
-    "Active": 202,
-    "UpdatedDate": "2012-09-12T10:17:55.7227953+02:00",
+    "ConsentPurposeId": 458,
+    "Name": "Pacocha Inc and Sons",
+    "ConsentText": "delectus",
+    "FormText": "est",
+    "Key": "laboriosam",
+    "Tooltip": "laborum",
+    "Active": 351,
+    "UpdatedDate": "2002-04-10T13:13:23.2739325+02:00",
     "UpdatedBy": null,
     "Deleted": true,
-    "Rank": 288,
-    "PrivacyStatementDesc": "reiciendis",
+    "Rank": 85,
+    "PrivacyStatementDesc": "ut",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 971
       }
     }
   }

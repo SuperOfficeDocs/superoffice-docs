@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 425,
+  "ContactId": 80,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Sipes-Kerluke",
-    "SaleDate": "2010-11-11T10:17:56.0040633+01:00",
-    "SaleId": 183,
-    "Probability": 491,
-    "Title": "et",
-    "Amount": 2087.244,
-    "Currency": "eum",
-    "ProjectName": "Roberts, Nitzsche and Hane",
-    "AssociateFullName": "Dr. Terrance Orn II",
-    "Description": "Versatile stable hub",
+    "ContactName": "Kuhlman-DuBuque",
+    "SaleDate": "2008-06-20T13:13:23.8839994+02:00",
+    "SaleId": 329,
+    "Probability": 134,
+    "Title": "nisi",
+    "Amount": 8126.4619999999995,
+    "Currency": "omnis",
+    "ProjectName": "Bechtelar, Predovic and O'Keefe",
+    "AssociateFullName": "Rebeka Farrell III",
+    "Description": "Re-engineered even-keeled circuit",
     "Status": "Lost",
-    "WeightedAmount": 21837.712,
-    "ProjectId": 346,
-    "EarningPercent": 17979.757999999998,
-    "Earning": 26648.402,
-    "ContactId": 823,
-    "AssociateId": 56,
-    "PersonId": 938,
-    "SaleTypeId": 205,
-    "SaleTypeName": "Dicki, Koepp and Simonis",
-    "PersonFullName": "Turner Kunze",
+    "WeightedAmount": 4516.094,
+    "ProjectId": 501,
+    "EarningPercent": 12448.248,
+    "Earning": 27353.552,
+    "ContactId": 193,
+    "AssociateId": 60,
+    "PersonId": 819,
+    "SaleTypeId": 60,
+    "SaleTypeName": "Runte, Beer and Miller",
+    "PersonFullName": "Dante Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 869,
-    "NextDueDate": "2005-10-16T10:17:56.0040633+02:00",
-    "Number": "846424",
+    "ActiveErpLinks": 299,
+    "NextDueDate": "2016-06-13T13:13:23.8839994+02:00",
+    "Number": "1613301",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 596
       }
     }
   }

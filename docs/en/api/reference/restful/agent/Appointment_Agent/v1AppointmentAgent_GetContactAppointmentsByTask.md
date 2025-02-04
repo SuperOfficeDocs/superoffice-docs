@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 571,
-  "StartTime": "2006-06-26T10:17:54.8321167+02:00",
-  "EndTime": "2008-06-03T10:17:54.8321167+02:00",
-  "Count": 518,
-  "TaskId": 401
+  "ContactId": 376,
+  "StartTime": "2017-01-01T13:13:21.5397229+01:00",
+  "EndTime": "2000-01-18T13:13:21.5397229+01:00",
+  "Count": 203,
+  "TaskId": 66
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 771,
-    "StartDate": "2006-09-04T10:17:54.8321167+02:00",
-    "EndDate": "2010-02-15T10:17:54.8321167+01:00",
+    "AppointmentId": 18,
+    "StartDate": "2014-01-05T13:13:21.5397229+01:00",
+    "EndDate": "2001-09-03T13:13:21.5397229+02:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Cydney Baylee Haag II",
-    "ContactName": "Cremin-Fisher",
-    "Description": "Customizable cohesive Graphical User Interface",
-    "PersonFullName": "Jaida Jacinto Greenfelder IV",
-    "PersonId": 180,
-    "ContactId": 871,
-    "ProjectId": 607,
-    "ProjectName": "Dietrich, Braun and McCullough",
+    "Task": "perspiciatis",
+    "AssociateFullName": "Isaiah Bayer",
+    "ContactName": "Crist, Mann and Stiedemann",
+    "Description": "Future-proofed explicit framework",
+    "PersonFullName": "Arvid Schoen",
+    "PersonId": 70,
+    "ContactId": 300,
+    "ProjectId": 737,
+    "ProjectName": "Barrows Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 415,
-    "ColorIndex": 294,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 991,
+    "ColorIndex": 133,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 404,
-    "PriorityName": "Rolfson, Adams and Huel",
+    "PriorityId": 713,
+    "PriorityName": "Johnston, Wolff and Ward",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1997-11-20T10:17:54.8321167+01:00",
+    "ActiveDate": "1997-09-23T13:13:21.5397229+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-04T10:17:54.8321167+02:00",
-    "RecurringEndDate": "2020-04-02T10:17:54.8321167+02:00",
-    "MotherId": 155,
-    "AssignedBy": 142,
-    "AssignedByFullName": "Prof. Corine Elijah Flatley",
+    "RecurringStartDate": "2016-01-25T13:13:21.5397229+01:00",
+    "RecurringEndDate": "2001-11-25T13:13:21.5397229+01:00",
+    "MotherId": 580,
+    "AssignedBy": 662,
+    "AssignedByFullName": "Ubaldo Wiegand",
     "RejectReason": "",
-    "Location": "doloribus",
-    "AlarmLeadTime": "vitae",
-    "SaleId": 428,
-    "SaleName": "Beer-Smith",
-    "AssociateName": "Schinner, VonRueden and Pollich",
-    "CreatedDate": "2006-08-18T10:17:54.8321167+02:00",
-    "CreatedBy": "reiciendis",
-    "CreatedByFullName": "Taylor Treutel MD",
-    "CreatedByAssociateId": 291,
+    "Location": "sed",
+    "AlarmLeadTime": "reiciendis",
+    "SaleId": 391,
+    "SaleName": "Fadel, Rodriguez and Parisian",
+    "AssociateName": "Blick, Bayer and Osinski",
+    "CreatedDate": "2016-10-20T13:13:21.5397229+02:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Prof. Hertha Wallace Koss",
+    "CreatedByAssociateId": 535,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 66,
-    "Title": "maiores",
-    "Agenda": "sit",
-    "InternalNotes": "quo",
+    "PreferredTZLocation": 985,
+    "Title": "sit",
+    "Agenda": "esse",
+    "InternalNotes": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

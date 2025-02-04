@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Kshlerin, Harvey and Bartell",
-    "ToolTip": "Consequatur nesciunt quidem ducimus minus sed velit.",
-    "Deleted": true,
-    "Rank": 505,
-    "Type": "voluptatibus",
-    "ColorBlock": 416,
-    "IconHint": "est",
+    "Id": 874,
+    "Name": "Kunze-West",
+    "ToolTip": "Adipisci quibusdam.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "minus",
+    "ColorBlock": 531,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2017-05-24T10:18:01.1293744+02:00",
+    "LastChanged": "2008-02-18T13:13:33.4954014+01:00",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Sanford Group",
-        "ToolTip": "Aut ut ex quidem odio impedit dolore aut.",
-        "Deleted": true,
-        "Rank": 503,
-        "Type": "libero",
-        "ColorBlock": 233,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2012-01-12T10:18:01.1293744+01:00",
+        "Id": 647,
+        "Name": "Kutch, Schultz and Dooley",
+        "ToolTip": "Voluptas harum maiores ea.",
+        "Deleted": false,
+        "Rank": 986,
+        "Type": "aut",
+        "ColorBlock": 850,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1997-10-18T13:13:33.4954014+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Tressa Larkin"
+        "FullName": "Meggie Bradtke"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quis",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Martina Kerluke"
+    "FullName": "Mrs. Philip Strosin Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Howell Inc and Sons",
-    "ToolTip": "Dolores labore sunt tempore.",
-    "Deleted": true,
-    "Rank": 408,
-    "Type": "et",
-    "ColorBlock": 667,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2018-03-08T10:18:01.1293744+01:00",
+    "Id": 191,
+    "Name": "Mosciski-Predovic",
+    "ToolTip": "Ullam nulla.",
+    "Deleted": false,
+    "Rank": 791,
+    "Type": "dignissimos",
+    "ColorBlock": 75,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2008-01-02T13:13:33.4954014+01:00",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Price, Goyette and Swaniawski",
-        "ToolTip": "Quisquam voluptatem qui facilis distinctio sed laudantium.",
-        "Deleted": true,
-        "Rank": 566,
-        "Type": "blanditiis",
-        "ColorBlock": 101,
-        "IconHint": "praesentium",
+        "Id": 407,
+        "Name": "Berge-Dibbert",
+        "ToolTip": "Aut neque vel magnam.",
+        "Deleted": false,
+        "Rank": 839,
+        "Type": "libero",
+        "ColorBlock": 338,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2006-01-07T10:18:01.1293744+01:00",
+        "LastChanged": "2008-02-14T13:13:33.4954014+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Trudie Bednar",
+        "ExtraInfo": "est",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Glenda Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 113
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "officiis",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Tod Thiel",
+    "FullName": "Mark Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 9
       }
     }
   }

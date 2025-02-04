@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 975,
-  "Name": "Hammes Inc and Sons",
-  "Tooltip": "sed",
-  "Rank": 17,
-  "AmountFrom": 8781.4679999999989,
-  "AmountTo": 10044.47,
+  "AmountClassId": 941,
+  "Name": "Dach-Lang",
+  "Tooltip": "quia",
+  "Rank": 116,
+  "AmountFrom": 20267.577999999998,
+  "AmountTo": 5879.384,
   "Deleted": false,
-  "CurrencyId": 268,
+  "CurrencyId": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldLength": 481
     }
   }
 }

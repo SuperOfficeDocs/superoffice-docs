@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Kunze-Gislason",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 226,
-  "Rank": 299,
+  "Id": 83,
+  "Name": "Bartell, Bruen and Dietrich",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 113,
+  "Rank": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 653
     }
   }
 }

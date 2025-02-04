@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "josiah@schmitt.co.uk",
-  "Counts": 599,
-  "Code": 546,
-  "Reason": ""
+  "EmailAddress": "cecilia.schuster@hudson.info",
+  "Counts": 423,
+  "Code": 260,
+  "Reason": "deliver innovative e-business"
 }
 ```
 

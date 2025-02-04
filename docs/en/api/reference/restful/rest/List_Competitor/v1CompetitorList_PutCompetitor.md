@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Name": "Hoeger, McDermott and Flatley",
-  "Tooltip": "voluptatem",
+  "Id": 115,
+  "Name": "McClure-Jewess",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "UdListDefinitionId": 699,
-  "Rank": 464
+  "UdListDefinitionId": 675,
+  "Rank": 296
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Schoen Inc and Sons",
-  "Tooltip": "nulla",
+  "Id": 545,
+  "Name": "Konopelski LLC",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "UdListDefinitionId": 498,
-  "Rank": 349,
+  "UdListDefinitionId": 772,
+  "Rank": 872,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

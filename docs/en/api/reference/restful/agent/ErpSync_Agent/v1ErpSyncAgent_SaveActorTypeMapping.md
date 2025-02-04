@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 263,
+  "ErpConnectionId": 338,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 410,
-      "CrmFieldKey": "et",
-      "CrmDisplayName": "Hahn, Kozey and Greenfelder",
-      "CrmDisplayTooltip": "omnis",
-      "ErpFieldKey": "velit",
+      "ErpFieldId": 657,
+      "CrmFieldKey": "tempora",
+      "CrmDisplayName": "Hodkiewicz, Hoeger and Fadel",
+      "CrmDisplayTooltip": "deleniti",
+      "ErpFieldKey": "omnis",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Beier-Ferry",
-      "ErpDisplayTooltip": "voluptatibus",
+      "ErpDisplayName": "O'Hara, Kutch and Russel",
+      "ErpDisplayTooltip": "excepturi",
       "SyncToCrm": false,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "labore",
+      "ListReference": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 650
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 279
     }
   }
 }

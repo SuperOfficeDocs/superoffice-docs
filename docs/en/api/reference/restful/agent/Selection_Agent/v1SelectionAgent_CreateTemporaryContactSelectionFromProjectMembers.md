@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 283
+  "ProjectId": 512
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented real-time throughput",
-  "Postit": "nam",
+  "Description": "Distributed content-based ability",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 927,
-  "IncludePerson": 531,
+  "GroupIdx": 749,
+  "IncludePerson": 598,
   "MemberCount": 99.99,
-  "Name": "Torphy, Larkin and Little",
-  "PostitTextId": 623,
-  "CreatedDate": "2011-01-12T10:17:56.0353154+01:00",
-  "SelectionId": 285,
-  "SoundEx": "non",
-  "Source": 572,
-  "TextId": 910,
-  "UpdatedDate": "2006-05-02T10:17:56.0353154+02:00",
-  "UpdatedCount": 120,
-  "Visibility": 323,
+  "Name": "Heidenreich, Cartwright and Mann",
+  "PostitTextId": 322,
+  "CreatedDate": "2000-01-25T13:13:23.9309404+01:00",
+  "SelectionId": 207,
+  "SoundEx": "sunt",
+  "Source": 316,
+  "TextId": 995,
+  "UpdatedDate": "2020-01-18T13:13:23.9309404+01:00",
+  "UpdatedCount": 113,
+  "Visibility": 416,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 674,
-  "TargetTableName": "Reichert, Rowe and Christiansen",
-  "Completed": true,
-  "LeftSelectionId": 812,
-  "RightSelectionId": 297,
+  "TargetTableNumber": 431,
+  "TargetTableName": "Powlowski Group",
+  "Completed": false,
+  "LeftSelectionId": 571,
+  "RightSelectionId": 983,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Murazik, Klein and Schoen",
-  "ShadowProviderName": "Bahringer LLC",
-  "ChartKey": "aut",
-  "LastLoaded": "2005-05-27T10:17:56.0353154+02:00",
-  "LastLoadedBy": 921,
+  "MainProviderName": "Upton, Haag and Grant",
+  "ShadowProviderName": "Mante-Halvorson",
+  "ChartKey": "modi",
+  "LastLoaded": "2010-09-07T13:13:23.9309404+02:00",
+  "LastLoadedBy": 879,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-05-24T10:17:56.0353154+02:00",
-  "LastMembershipChangeBy": 50,
+  "LastMembershipChange": "2001-08-11T13:13:23.9309404+02:00",
+  "LastMembershipChangeBy": 946,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vitae",
-  "MemberTabHeading": "pariatur",
-  "MailingsProviderName": "Bernhard, Braun and Fisher",
-  "DashboardTileDefinitionId": 866,
+  "MainHeading": "magni",
+  "MemberTabHeading": "vel",
+  "MailingsProviderName": "Wilderman LLC",
+  "DashboardTileDefinitionId": 827,
   "VisibleFor": [
     {
-      "VisibleId": 645,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 645,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldLength": 642
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 722
     }
   }
 }

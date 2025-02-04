@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 841,
-    "ColumnId": 868,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 115,
-    "FieldLabel": "enim",
-    "FieldLeft": 869,
-    "FieldTop": 20,
+    "UDefFieldId": 204,
+    "ColumnId": 550,
+    "FieldDefault": "sit",
+    "FieldHeight": 211,
+    "FieldLabel": "vero",
+    "FieldLeft": 611,
+    "FieldTop": 262,
     "FieldType": "Checkbox",
-    "FieldWidth": 167,
-    "FormatMask": "velit",
+    "FieldWidth": 181,
+    "FormatMask": "omnis",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 493,
-    "LabelLeft": 445,
-    "LabelTop": 134,
-    "LabelWidth": 527,
-    "LastVersionId": 702,
-    "ListTableId": 905,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 275,
+    "LabelLeft": 978,
+    "LabelTop": 51,
+    "LabelWidth": 594,
+    "LastVersionId": 117,
+    "ListTableId": 452,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 125,
-    "ProgId": "quia",
+    "Page1LineNo": 523,
+    "ProgId": "aut",
     "IsReadOnly": true,
-    "ShortLabel": "quisquam",
-    "TabOrder": 839,
-    "TextLength": 768,
-    "Tooltip": "laudantium",
-    "UdefIdentity": 114,
-    "UDListDefinitionId": 993,
+    "ShortLabel": "ab",
+    "TabOrder": 330,
+    "TextLength": 857,
+    "Tooltip": "delectus",
+    "UdefIdentity": 340,
+    "UDListDefinitionId": 945,
     "Justification": "Center",
-    "Version": 48,
-    "TemplateVariableName": "Brakus Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Langosh-Stamm",
+    "Version": 660,
+    "TemplateVariableName": "Stark, Wilderman and Kuhn",
+    "HasBeenPublished": false,
+    "MdoListName": "Gerlach-Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

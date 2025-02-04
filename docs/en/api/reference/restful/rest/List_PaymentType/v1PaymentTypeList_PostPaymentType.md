@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "UdListDefinitionId": 870,
-  "Rank": 956
+  "Id": 295,
+  "Name": "Turner, Batz and Bogan",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "UdListDefinitionId": 314,
+  "Rank": 807
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Fisher Inc and Sons",
-  "Tooltip": "voluptatibus",
+  "Id": 686,
+  "Name": "Lowe-Boehm",
+  "Tooltip": "accusantium",
   "Deleted": true,
-  "UdListDefinitionId": 149,
-  "Rank": 836,
+  "UdListDefinitionId": 846,
+  "Rank": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

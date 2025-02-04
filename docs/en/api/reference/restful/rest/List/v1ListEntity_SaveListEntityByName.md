@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Sipes-Gutmann",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 238,
+  "Id": 390,
+  "Name": "Moen, Lemke and Greenholt",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "Rank": 71,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "O'Connell-Moen",
-  "Tooltip": "a",
-  "Deleted": true,
-  "Rank": 101,
+  "Id": 37,
+  "Name": "Rempel Group",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 787,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 660
     }
   }
 }

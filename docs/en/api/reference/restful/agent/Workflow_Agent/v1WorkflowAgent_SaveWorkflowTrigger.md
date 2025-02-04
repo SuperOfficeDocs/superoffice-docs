@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 209,
-  "WorkflowId": 67,
+  "WorkflowTriggerId": 419,
+  "WorkflowId": 789,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Emmerich-Legros",
-      "Description": "Quality-focused bottom-line analyzer",
-      "Rank": 431,
+      "Name": "Halvorson-Hermiston",
+      "Description": "Vision-oriented incremental core",
+      "Rank": 225,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emmerich-Legros",
-      "Description": "Quality-focused bottom-line analyzer",
-      "Rank": 431,
+      "Name": "Halvorson-Hermiston",
+      "Description": "Vision-oriented incremental core",
+      "Rank": 225,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 727,
-  "WorkflowId": 945,
+  "WorkflowTriggerId": 481,
+  "WorkflowId": 793,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Walsh Inc and Sons",
-      "Description": "Quality-focused explicit application",
-      "Rank": 322,
+      "Name": "Olson Inc and Sons",
+      "Description": "Visionary object-oriented implementation",
+      "Rank": 149,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walsh Inc and Sons",
-      "Description": "Quality-focused explicit application",
-      "Rank": 322,
+      "Name": "Olson Inc and Sons",
+      "Description": "Visionary object-oriented implementation",
+      "Rank": 149,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

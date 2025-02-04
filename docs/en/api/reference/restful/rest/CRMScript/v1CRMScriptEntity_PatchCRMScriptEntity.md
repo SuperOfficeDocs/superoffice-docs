@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aliquid",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquid",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -152,57 +152,57 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 730,
-  "UniqueIdentifier": "rerum",
-  "Name": "Brekke, Collier and Beatty",
-  "Description": "Upgradable bifurcated Graphical User Interface",
-  "IncludeId": "voluptas",
-  "AccessKey": "voluptatum",
-  "HierarchyId": 626,
-  "Source": "optio",
-  "SourceCode": "non",
+  "EjscriptId": 406,
+  "UniqueIdentifier": "quas",
+  "Name": "Gorczany Inc and Sons",
+  "Description": "Customizable didactic instruction set",
+  "IncludeId": "est",
+  "AccessKey": "quidem",
+  "HierarchyId": 226,
+  "Source": "expedita",
+  "SourceCode": "qui",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 854,
+  "HtmlOutput": 563,
   "Includes": [
-    295,
-    179
+    871,
+    726
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 804,
-      "LineNumberTo": 134,
-      "Delta": 633,
-      "IncludeId": "hic",
+      "LineNumberFrom": 806,
+      "LineNumberTo": 89,
+      "Delta": 478,
+      "IncludeId": "nemo",
       "IncludedFrom": [
-        "dolorem",
-        "saepe"
+        "eveniet",
+        "quis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldLength": 325
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-10-04T10:18:00.3480699+02:00",
-  "RegisteredAssociateId": 483,
-  "Updated": "2005-01-08T10:18:00.3480699+01:00",
-  "UpdatedAssociateId": 763,
+  "Registered": "2017-06-06T13:13:31.6207599+02:00",
+  "RegisteredAssociateId": 337,
+  "Updated": "2023-02-28T13:13:31.6207599+01:00",
+  "UpdatedAssociateId": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 318
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

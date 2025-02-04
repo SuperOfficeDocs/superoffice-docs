@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 275,
-  "StartDate": "2016-07-07T10:17:55.0040026+02:00",
-  "EndDate": "2009-03-07T10:17:55.0040026+01:00",
-  "RecurrenceCounter": 384,
+  "RecurrenceId": 480,
+  "StartDate": "2008-01-29T13:13:21.8677656+01:00",
+  "EndDate": "2004-11-28T13:13:21.8677656+01:00",
+  "RecurrenceCounter": 884,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-10-19T10:17:55.0040026+02:00",
-      "IsConflict": true,
-      "Description": "Fundamental multi-state pricing structure",
-      "DescriptionStyleHint": "Extended cohesive policy",
-      "Tooltip": "harum"
+      "Date": "2009-11-23T13:13:21.8677656+01:00",
+      "IsConflict": false,
+      "Description": "Right-sized systemic hierarchy",
+      "DescriptionStyleHint": "Persevering client-driven secured line",
+      "Tooltip": "magnam"
     },
     {
-      "Date": "2010-10-19T10:17:55.0040026+02:00",
-      "IsConflict": true,
-      "Description": "Fundamental multi-state pricing structure",
-      "DescriptionStyleHint": "Extended cohesive policy",
-      "Tooltip": "harum"
+      "Date": "2009-11-23T13:13:21.8677656+01:00",
+      "IsConflict": false,
+      "Description": "Right-sized systemic hierarchy",
+      "DescriptionStyleHint": "Persevering client-driven secured line",
+      "Tooltip": "magnam"
     }
   ],
   "IsRecurrence": false

@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Dooley Group",
-      "DisplayName": "Wisoky LLC",
-      "DisplayTooltip": "eveniet",
-      "IsActive": true
+      "Name": "King-Renner",
+      "DisplayName": "Rohan-Bednar",
+      "DisplayTooltip": "ad",
+      "IsActive": false
     },
     {
-      "Name": "Dooley Group",
-      "DisplayName": "Wisoky LLC",
-      "DisplayTooltip": "eveniet",
-      "IsActive": true
+      "Name": "King-Renner",
+      "DisplayName": "Rohan-Bednar",
+      "DisplayTooltip": "ad",
+      "IsActive": false
     }
   ]
 }

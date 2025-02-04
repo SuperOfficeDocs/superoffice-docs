@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 958,
-  "Name": "Bahringer LLC",
-  "Tooltip": "facilis",
+  "RoleId": 483,
+  "Name": "Maggio Inc and Sons",
+  "Tooltip": "possimus",
   "RoleType": "Anonymous",
-  "Deleted": 334,
-  "Rank": 160,
-  "Created": "2021-04-24T10:17:56.3165751+02:00",
-  "UseCategories": 285,
+  "Deleted": 406,
+  "Rank": 678,
+  "Created": "2008-02-15T13:13:24.4621693+01:00",
+  "UseCategories": 190,
   "CreatedBy": null,
-  "Updated": "2020-03-29T10:17:56.3165751+02:00",
+  "Updated": "1999-02-10T13:13:24.4621693+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 742
     }
   }
 }

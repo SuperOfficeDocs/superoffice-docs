@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "vitae",
+  "RawValue": "perferendis",
   "Specification": null,
-  "DisplayValue": "corporis",
-  "DisplayTooltip": "id",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "excepturi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 110,
-  "PrefDescId": 125,
-  "TableName": "Lockman Group",
-  "UserPreferenceId": 934
+  "TargetId": 857,
+  "PrefDescId": 818,
+  "TableName": "Armstrong, Brown and Franecki",
+  "UserPreferenceId": 870
 }
 ```
 

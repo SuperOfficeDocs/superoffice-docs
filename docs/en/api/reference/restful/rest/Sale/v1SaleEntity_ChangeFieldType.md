@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 994,
-  "ColumnId": 234,
-  "FieldDefault": "dolores",
-  "FieldHeight": 567,
-  "FieldLabel": "provident",
-  "FieldLeft": 165,
-  "FieldTop": 719,
+  "UDefFieldId": 123,
+  "ColumnId": 425,
+  "FieldDefault": "quae",
+  "FieldHeight": 336,
+  "FieldLabel": "asperiores",
+  "FieldLeft": 108,
+  "FieldTop": 779,
   "FieldType": "Checkbox",
-  "FieldWidth": 661,
-  "FormatMask": "enim",
-  "HideLabel": false,
+  "FieldWidth": 667,
+  "FormatMask": "esse",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 574,
-  "LabelLeft": 213,
-  "LabelTop": 181,
-  "LabelWidth": 806,
-  "LastVersionId": 51,
-  "ListTableId": 402,
-  "IsMandatory": true,
+  "LabelHeight": 332,
+  "LabelLeft": 415,
+  "LabelTop": 998,
+  "LabelWidth": 325,
+  "LastVersionId": 170,
+  "ListTableId": 867,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 621,
-  "ProgId": "sit",
-  "IsReadOnly": false,
-  "ShortLabel": "odio",
-  "TabOrder": 127,
-  "TextLength": 768,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 430,
-  "UDListDefinitionId": 341,
+  "Page1LineNo": 123,
+  "ProgId": "accusantium",
+  "IsReadOnly": true,
+  "ShortLabel": "ex",
+  "TabOrder": 310,
+  "TextLength": 905,
+  "Tooltip": "aut",
+  "UdefIdentity": 80,
+  "UDListDefinitionId": 650,
   "Justification": "Center",
-  "Version": 294,
-  "TemplateVariableName": "O'Hara Inc and Sons",
+  "Version": 991,
+  "TemplateVariableName": "Gulgowski, Simonis and Swaniawski",
   "HasBeenPublished": false,
-  "MdoListName": "Hills-Hills",
+  "MdoListName": "Homenick, Pouros and Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 362
     }
   }
 }

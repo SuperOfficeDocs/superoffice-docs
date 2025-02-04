@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=debitis
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=cum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Stamm-Goyette",
-    "ToolTip": "Deleniti sit cupiditate facere est non.",
-    "Deleted": true,
-    "Rank": 439,
+    "Id": 115,
+    "Name": "Auer-Schimmel",
+    "ToolTip": "Ad officia.",
+    "Deleted": false,
+    "Rank": 680,
     "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "Cummerata-Bartell",
-        "ToolTip": "Ea sed laborum.",
+        "Id": 961,
+        "Name": "Heidenreich-Rau",
+        "ToolTip": "Totam aspernatur a enim deserunt consequuntur.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "ut",
+        "Rank": 320,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 619,
-        "ExtraInfo": "harum",
-        "StyleHint": "et",
-        "FullName": "Mrs. Alyson Rempel Sr.",
+        "IconHint": "deserunt",
+        "ColorBlock": 263,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "numquam",
+        "FullName": "Prof. Brandyn Lera Bergnaum Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 294
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 97,
-    "ExtraInfo": "sed",
-    "StyleHint": "ratione",
-    "FullName": "Harmon Mante",
+    "IconHint": "esse",
+    "ColorBlock": 507,
+    "ExtraInfo": "numquam",
+    "StyleHint": "vel",
+    "FullName": "Hassie Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 684
       }
     }
   }

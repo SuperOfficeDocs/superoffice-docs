@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=ipsam
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=nam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Feeney, Emmerich and Ryan",
-    "ToolTip": "Nihil voluptas animi ut quaerat assumenda.",
+    "Id": 650,
+    "Name": "Keebler, Beatty and Conn",
+    "ToolTip": "Quaerat temporibus.",
     "Deleted": false,
-    "Rank": 579,
-    "Type": "odio",
+    "Rank": 789,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "West-Prohaska",
-        "ToolTip": "Laborum illo.",
+        "Id": 525,
+        "Name": "Pollich-Ferry",
+        "ToolTip": "Molestias omnis tempora.",
         "Deleted": false,
-        "Rank": 557,
-        "Type": "sint",
+        "Rank": 478,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 460,
-        "ExtraInfo": "dicta",
-        "StyleHint": "quia",
-        "FullName": "Dr. Amelie Randi Sporer",
+        "IconHint": "asperiores",
+        "ColorBlock": 762,
+        "ExtraInfo": "est",
+        "StyleHint": "numquam",
+        "FullName": "Miss Nicholas Gretchen Monahan DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 282
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 164,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "molestiae",
-    "FullName": "Ms. Destany Jacobson",
+    "IconHint": "sed",
+    "ColorBlock": 738,
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "FullName": "Marley Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

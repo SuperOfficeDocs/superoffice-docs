@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 458,
-  "BlobSize": 785,
-  "Description": "Innovative exuding service-desk",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
+  "BlobId": 456,
+  "BlobSize": 927,
+  "Description": "Proactive optimizing collaboration",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "minima",
-  "OriginalSize": 203,
-  "CreatedDate": "2017-11-25T10:17:55.1290102+01:00",
-  "UpdatedDate": "2003-05-13T10:17:55.1290102+02:00",
+  "MimeType": "ut",
+  "OriginalSize": 924,
+  "CreatedDate": "2003-10-02T13:13:22.1489532+02:00",
+  "UpdatedDate": "2018-03-09T13:13:22.1489532+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sunt"
+  "ConceptualType": "nulla"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 993,
-  "BlobSize": 348,
-  "Description": "Profound zero defect model",
-  "ExtraInfo": "similique",
+  "BlobId": 111,
+  "BlobSize": 332,
+  "Description": "Secured uniform forecast",
+  "ExtraInfo": "in",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "eligendi",
-  "OriginalSize": 474,
-  "CreatedDate": "2005-01-23T10:17:55.1290102+01:00",
-  "UpdatedDate": "2020-06-14T10:17:55.1290102+02:00",
+  "IsZipped": true,
+  "MimeType": "ea",
+  "OriginalSize": 620,
+  "CreatedDate": "2019-11-10T13:13:22.1489532+01:00",
+  "UpdatedDate": "2014-01-01T13:13:22.1489532+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "exercitationem",
+  "ConceptualType": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 114
     }
   }
 }

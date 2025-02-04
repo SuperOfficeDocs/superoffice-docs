@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Beatty Inc and Sons"
+  "FunctionalRightName": "Hessel-Swift"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Adams Group",
-    "ToolTip": "Ipsa quod.",
+    "Id": 825,
+    "Name": "Fisher-Tromp",
+    "ToolTip": "Exercitationem sed quo ut.",
     "Deleted": false,
-    "Rank": 866,
-    "Type": "quibusdam",
+    "Rank": 191,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Haley Group",
-        "ToolTip": "Facere qui quia aut.",
+        "Id": 755,
+        "Name": "Smith, Murray and Goyette",
+        "ToolTip": "Alias recusandae dolore eum voluptates enim.",
         "Deleted": true,
-        "Rank": 675,
-        "Type": "quo",
+        "Rank": 151,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 941,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "eum",
-        "FullName": "Darien Herman",
+        "IconHint": "quasi",
+        "ColorBlock": 721,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "perferendis",
+        "FullName": "Conner Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 449,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "voluptatum",
-    "FullName": "Ms. Ramiro Emard",
+    "IconHint": "vitae",
+    "ColorBlock": 737,
+    "ExtraInfo": "error",
+    "StyleHint": "in",
+    "FullName": "Evangeline Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 701
       }
     }
   }

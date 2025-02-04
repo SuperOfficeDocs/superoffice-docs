@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 60,
-  "QuoteAlternativeId": 845,
-  "QuoteAlternativeName": "Streich-Becker"
+  "QuoteVersionId": 342,
+  "QuoteAlternativeId": 738,
+  "QuoteAlternativeName": "Dietrich, Hodkiewicz and Marvin"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 370,
-  "ERPQuoteAlternativeKey": "voluptate",
-  "QuoteVersionId": 383,
-  "Name": "Rodriguez, Doyle and Deckow",
-  "Description": "Persistent homogeneous Graphic Interface",
+  "QuoteAlternativeId": 900,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 128,
+  "Name": "Hackett, Hirthe and Gottlieb",
+  "Description": "Face to face scalable extranet",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 29105.458,
-  "ERPDiscountAmount": 12940.286,
-  "DiscountPercent": 29964.174,
-  "DiscountAmount": 21483.57,
+  "Reason": "leverage user-centric deliverables",
+  "ERPDiscountPercent": 22784.18,
+  "ERPDiscountAmount": 8994.58,
+  "DiscountPercent": 22687.025999999998,
+  "DiscountAmount": 20737.678,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "doloremque",
-  "VAT": 10727.681999999999,
-  "EarningPercent": 10564.714,
-  "EarningAmount": 17898.273999999998,
-  "SubTotal": 7816.196,
-  "TotalPrice": 9903.44,
-  "ExtraField1": "eligendi",
-  "ExtraField2": "tempore",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "aut",
-  "ExtraField5": "voluptatem",
+  "VATInfo": "et",
+  "VAT": 1125.106,
+  "EarningPercent": 13864.815999999999,
+  "EarningAmount": 28898.613999999998,
+  "SubTotal": 3713.79,
+  "TotalPrice": 10561.58,
+  "ExtraField1": "maiores",
+  "ExtraField2": "quidem",
+  "ExtraField3": "ea",
+  "ExtraField4": "vel",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

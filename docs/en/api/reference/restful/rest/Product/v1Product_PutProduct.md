@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 984,
-  "ERPProductKey": "iusto",
-  "ERPPriceListKey": "non",
-  "Name": "Schumm Group",
-  "Description": "Total analyzing ability",
-  "Code": "ut",
-  "PriceUnit": "nobis",
-  "QuantityUnit": "ducimus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "magni",
-  "DefaultSubscriptionQuantity": 4675.928,
-  "ItemNumber": "746907",
+  "ProductId": 555,
+  "ERPProductKey": "nihil",
+  "ERPPriceListKey": "nobis",
+  "Name": "Hilll, Spinka and Klocko",
+  "Description": "Sharable attitude-oriented capacity",
+  "Code": "temporibus",
+  "PriceUnit": "aut",
+  "QuantityUnit": "ut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatum",
+  "DefaultSubscriptionQuantity": 16948.672,
+  "ItemNumber": "1430403",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ipsa",
-  "ProductTypeKey": "recusandae",
-  "VAT": 23824.667999999998,
-  "VATInfo": "et",
-  "UnitCost": 3231.154,
-  "UnitMinimumPrice": 28306.288,
-  "UnitListPrice": 786.634,
-  "InAssortment": true,
+  "ProductFamilyKey": "quisquam",
+  "ProductTypeKey": "quos",
+  "VAT": 11341.946,
+  "VATInfo": "quasi",
+  "UnitCost": 24065.986,
+  "UnitMinimumPrice": 17077.166,
+  "UnitListPrice": 16538.118,
+  "InAssortment": false,
   "Supplier": "soluta",
-  "SupplierCode": "veritatis",
-  "Rights": "reiciendis",
-  "Rule": "qui",
+  "SupplierCode": "ut",
+  "Rights": "sunt",
+  "Rule": "vel",
   "ExtraInfo": [
     {
-      "Name": "Schinner-Durgan",
-      "Value": "id",
+      "Name": "Sauer, Donnelly and Kuphal",
+      "Value": "omnis",
       "Type": "Image"
     },
     {
-      "Name": "Schinner-Durgan",
-      "Value": "id",
+      "Name": "Sauer, Donnelly and Kuphal",
+      "Value": "omnis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "beatae",
-  "ExtraField2": "aut",
-  "ExtraField3": "iure",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "placeat",
-  "InStock": 13927.496
+  "RawExtraInfo": "dicta",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "ex",
+  "ExtraField3": "ea",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "reprehenderit",
+  "InStock": 30543.964
 }
 ```
 
@@ -203,35 +203,35 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 419,
-  "ERPProductKey": "suscipit",
-  "ERPPriceListKey": "aut",
-  "Name": "Doyle, Stamm and Schulist",
-  "Description": "Monitored global support",
-  "Code": "repudiandae",
-  "PriceUnit": "vitae",
-  "QuantityUnit": "blanditiis",
+  "ProductId": 338,
+  "ERPProductKey": "doloribus",
+  "ERPPriceListKey": "est",
+  "Name": "D'Amore-Ebert",
+  "Description": "Ergonomic tangible structure",
+  "Code": "modi",
+  "PriceUnit": "incidunt",
+  "QuantityUnit": "vel",
   "IsSubscription": true,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 476.368,
-  "ItemNumber": "787921",
+  "SubscriptionUnit": "debitis",
+  "DefaultSubscriptionQuantity": 23862.275999999998,
+  "ItemNumber": "1683087",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolor",
-  "ProductTypeKey": "consequatur",
-  "VAT": 25391.667999999998,
-  "VATInfo": "delectus",
-  "UnitCost": 1319.414,
-  "UnitMinimumPrice": 27388.025999999998,
-  "UnitListPrice": 12379.3,
-  "InAssortment": true,
-  "Supplier": "asperiores",
-  "SupplierCode": "ut",
-  "Rights": "aut",
-  "Rule": "natus",
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "aperiam",
+  "VAT": 5070.812,
+  "VATInfo": "minima",
+  "UnitCost": 10461.292,
+  "UnitMinimumPrice": 17246.402,
+  "UnitListPrice": 4854.566,
+  "InAssortment": false,
+  "Supplier": "quasi",
+  "SupplierCode": "expedita",
+  "Rights": "repudiandae",
+  "Rule": "deserunt",
   "ExtraInfo": [
     {
-      "Name": "Kshlerin-Lind",
+      "Name": "Mayer-Kirlin",
       "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
@@ -239,12 +239,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 144
         }
       }
     },
     {
-      "Name": "Kshlerin-Lind",
+      "Name": "Mayer-Kirlin",
       "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
@@ -252,24 +252,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 144
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "est",
-  "ExtraField3": "modi",
-  "ExtraField4": "quasi",
-  "ExtraField5": "eos",
-  "InStock": 5597.324,
+  "RawExtraInfo": "sit",
+  "ExtraField1": "fugit",
+  "ExtraField2": "et",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "officiis",
+  "InStock": 31296.124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldLength": 860
     }
   }
 }

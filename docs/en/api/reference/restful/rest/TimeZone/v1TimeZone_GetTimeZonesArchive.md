@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=placeat
-GET /api/v1/TimeZone?$top=24
-GET /api/v1/TimeZone?$skip=987
+GET /api/v1/TimeZone?$entities=autem
+GET /api/v1/TimeZone?$top=877
+GET /api/v1/TimeZone?$skip=571
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=maiores
+GET /api/v1/TimeZone?$context=expedita
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,21 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "perspiciatis",
   "value": [
     {
-      "PrimaryKey": 7799,
-      "EntityName": "sale",
-      "saleId": 7799,
-      "contactId": 2106,
-      "name": "Hodkiewicz Group"
+      "PrimaryKey": 7088,
+      "EntityName": "person",
+      "personId": 7088,
+      "fullName": "Miss Imani Vaughn Terry"
     },
     {
-      "PrimaryKey": 3007,
-      "EntityName": "sale",
-      "saleId": 3007,
-      "contactId": 5451,
-      "name": "Lakin Inc and Sons"
+      "PrimaryKey": 2198,
+      "EntityName": "person",
+      "personId": 2198,
+      "fullName": "Dr. Nella Princess Vandervort IV"
     }
   ]
 }

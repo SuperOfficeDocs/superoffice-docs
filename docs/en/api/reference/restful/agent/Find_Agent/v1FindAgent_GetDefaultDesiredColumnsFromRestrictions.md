@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Waelchi-Purdy",
+  "ProviderName": "Wilkinson, Erdman and Daugherty",
   "Restrictions": [
     {
-      "Name": "Franecki LLC",
-      "Operator": "rerum",
+      "Name": "Zemlak Inc and Sons",
+      "Operator": "non",
       "Values": [
         "quia",
-        "accusantium"
+        "totam"
       ],
       "DisplayValues": [
-        "quasi",
-        "sed"
+        "earum",
+        "corrupti"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 539,
+      "InterParenthesis": 679,
       "InterOperator": "And",
-      "UniqueHash": 840
+      "UniqueHash": 437
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Luettgen, Dietrich and Nader",
-    "DisplayTooltip": "perspiciatis",
-    "DisplayType": "temporibus",
+    "DisplayName": "Turcotte-Hermiston",
+    "DisplayTooltip": "velit",
+    "DisplayType": "repellendus",
     "CanOrderBy": false,
-    "Name": "Price-Metz",
-    "CanRestrictBy": true,
-    "RestrictionType": "consequatur",
-    "RestrictionListName": "Schimmel, Ortiz and Dooley",
-    "IsVisible": true,
-    "ExtraInfo": "corrupti",
-    "Width": "voluptates",
-    "IconHint": "dolor",
-    "HeadingIconHint": "omnis"
+    "Name": "Farrell LLC",
+    "CanRestrictBy": false,
+    "RestrictionType": "magni",
+    "RestrictionListName": "Kiehn LLC",
+    "IsVisible": false,
+    "ExtraInfo": "eaque",
+    "Width": "optio",
+    "IconHint": "nesciunt",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 371,
-    "ERPName": "Turcotte-Green",
-    "DisplayName": "Kuphal LLC",
-    "DisplayDescription": "Centralized uniform productivity",
-    "Rank": 372,
-    "ConnectorName": "Baumbach, Reichel and Goyette",
-    "ErpConnectionId": 835,
-    "ExtraData": "est",
-    "IsAvailable": true,
+    "QuoteConnectionId": 152,
+    "ERPName": "Kirlin, Rath and Waters",
+    "DisplayName": "Koch, Kunze and Ledner",
+    "DisplayDescription": "Polarised methodical info-mediaries",
+    "Rank": 531,
+    "ConnectorName": "Morissette-Lemke",
+    "ErpConnectionId": 902,
+    "ExtraData": "laboriosam",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 403,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 175,
-        "Name": "Towne-Runte",
-        "Description": "Expanded responsive service-desk",
-        "Currency": "aut",
-        "CurrencyName": "Dooley-Rice",
-        "ValidFrom": "2003-07-23T10:17:55.9415595+02:00",
-        "ValidTo": "2004-01-27T10:17:55.9415595+01:00",
-        "IsActive": true,
+        "PriceListId": 844,
+        "ERPPriceListKey": "omnis",
+        "QuoteConnectionId": 584,
+        "Name": "DuBuque Group",
+        "Description": "Focused 24 hour knowledge user",
+        "Currency": "quo",
+        "CurrencyName": "Roob LLC",
+        "ValidFrom": "2001-07-16T13:13:23.7425716+02:00",
+        "ValidTo": "2016-06-27T13:13:23.7425716+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 726
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      689,
-      27
+      899,
+      139
     ],
     "AssociateAccessIds": [
-      958,
-      606
+      926,
+      269
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 535
       }
     }
   }

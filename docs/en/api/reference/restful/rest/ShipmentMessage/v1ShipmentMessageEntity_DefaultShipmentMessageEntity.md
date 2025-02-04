@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 855,
-  "PlainMessage": "ipsa",
-  "HtmlMessage": "quas",
-  "SmsMessage": "similique",
-  "Description": "Secured 6th generation capacity",
-  "Subject": "sint",
-  "FolderId": 320,
-  "HeaderField": "omnis",
-  "Design": "aut",
+  "ShipmentMessageId": 643,
+  "PlainMessage": "eligendi",
+  "HtmlMessage": "totam",
+  "SmsMessage": "omnis",
+  "Description": "Switchable asynchronous matrix",
+  "Subject": "aperiam",
+  "FolderId": 957,
+  "HeaderField": "est",
+  "Design": "ex",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Multi-channelled zero administration throughput",
-  "AccessKey": "laudantium",
-  "DocumentMessage": 934,
-  "Registered": "2012-09-01T10:18:00.723098+02:00",
-  "RegisteredAssociateId": 400,
-  "Updated": "2005-09-20T10:18:00.723098+02:00",
-  "UpdatedAssociateId": 439,
-  "UpdatedCount": 578,
+  "LongDescription": "Customizable systematic model",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 765,
+  "Registered": "2008-09-22T13:13:32.3392746+02:00",
+  "RegisteredAssociateId": 762,
+  "Updated": "2004-06-06T13:13:32.3392746+02:00",
+  "UpdatedAssociateId": 815,
+  "UpdatedCount": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 97
     }
   }
 }

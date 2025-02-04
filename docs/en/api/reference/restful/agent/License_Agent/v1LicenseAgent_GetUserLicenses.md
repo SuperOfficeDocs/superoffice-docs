@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 408
+  "AssociateId": 578
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shanahan Inc and Sons",
-    "Description": "Reactive 4th generation product",
+    "Name": "Bahringer LLC",
+    "Description": "Ameliorated methodical implementation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 777,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 471,
-        "InUse": 761,
+        "Total": 593,
+        "Tooltip": "ipsam",
+        "CanAssign": false,
+        "Free": 229,
+        "InUse": 417,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 466,
-        "Name": "Becker-Dicki",
-        "Description": "Cloned local benchmark",
-        "PrerequisiteModuleName": "Lueilwitz-Lynch",
-        "SortOrder": 541,
-        "ExtraFlags": 9,
+        "ModuleLicenseId": 57,
+        "Name": "Mills-Bruen",
+        "Description": "Mandatory 5th generation contingency",
+        "PrerequisiteModuleName": "Roob LLC",
+        "SortOrder": 508,
+        "ExtraFlags": 45,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 963
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 68,
-        "Tooltip": "est",
+        "Total": 594,
+        "Tooltip": "vel",
         "CanAssign": false,
-        "Free": 794,
-        "InUse": 271,
+        "Free": 535,
+        "InUse": 101,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 915,
-        "Name": "Abshire-Hudson",
-        "Description": "Up-sized bandwidth-monitored pricing structure",
-        "PrerequisiteModuleName": "Rodriguez Group",
-        "SortOrder": 460,
-        "ExtraFlags": 10,
+        "Assigned": true,
+        "ModuleLicenseId": 298,
+        "Name": "Kassulke Inc and Sons",
+        "Description": "Multi-tiered value-added attitude",
+        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
+        "SortOrder": 938,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldType": "System.Int32",
+            "FieldLength": 667
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 459
       }
     }
   },
   {
-    "Name": "Shanahan Inc and Sons",
-    "Description": "Reactive 4th generation product",
+    "Name": "Bahringer LLC",
+    "Description": "Ameliorated methodical implementation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 777,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 471,
-        "InUse": 761,
+        "Total": 593,
+        "Tooltip": "ipsam",
+        "CanAssign": false,
+        "Free": 229,
+        "InUse": 417,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 466,
-        "Name": "Becker-Dicki",
-        "Description": "Cloned local benchmark",
-        "PrerequisiteModuleName": "Lueilwitz-Lynch",
-        "SortOrder": 541,
-        "ExtraFlags": 9,
+        "ModuleLicenseId": 57,
+        "Name": "Mills-Bruen",
+        "Description": "Mandatory 5th generation contingency",
+        "PrerequisiteModuleName": "Roob LLC",
+        "SortOrder": 508,
+        "ExtraFlags": 45,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 963
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 68,
-        "Tooltip": "est",
+        "Total": 594,
+        "Tooltip": "vel",
         "CanAssign": false,
-        "Free": 794,
-        "InUse": 271,
+        "Free": 535,
+        "InUse": 101,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 915,
-        "Name": "Abshire-Hudson",
-        "Description": "Up-sized bandwidth-monitored pricing structure",
-        "PrerequisiteModuleName": "Rodriguez Group",
-        "SortOrder": 460,
-        "ExtraFlags": 10,
+        "Assigned": true,
+        "ModuleLicenseId": 298,
+        "Name": "Kassulke Inc and Sons",
+        "Description": "Multi-tiered value-added attitude",
+        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
+        "SortOrder": 938,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldType": "System.Int32",
+            "FieldLength": 667
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 459
       }
     }
   }

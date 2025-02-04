@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 680,
+  "SystemEventId": 663,
   "Scope": "Database",
-  "Eta": "2003-03-17T10:18:00.723098+01:00",
-  "Eventkey": "dicta",
-  "Eventmess": "sapiente",
-  "ExtraInfo": 88,
-  "Owner": 140,
-  "UpdatedCount": 559,
-  "Registered": "1997-07-23T10:18:00.723098+02:00",
+  "Eta": "2013-04-25T13:13:32.3392746+02:00",
+  "Eventkey": "velit",
+  "Eventmess": "non",
+  "ExtraInfo": 853,
+  "Owner": 697,
+  "UpdatedCount": 51,
+  "Registered": "2021-04-30T13:13:32.3392746+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 810
     }
   },
   "_Links": {

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Fisher-Gislason",
-    "ToolTip": "Fugit est et fugit asperiores quo.",
+    "Id": 129,
+    "Name": "Harber Group",
+    "ToolTip": "Sed debitis blanditiis veniam dolor porro.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "eius",
-    "ColorBlock": 567,
-    "IconHint": "aspernatur",
+    "Rank": 754,
+    "Type": "quibusdam",
+    "ColorBlock": 570,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2004-03-15T10:18:01.0668705+01:00",
+    "LastChanged": "2008-01-15T13:13:33.2767137+01:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "O'Reilly, Johnson and Reinger",
-        "ToolTip": "Amet similique consectetur et.",
-        "Deleted": true,
-        "Rank": 839,
-        "Type": "nam",
-        "ColorBlock": 180,
-        "IconHint": "ab",
-        "Selected": false,
-        "LastChanged": "1999-07-23T10:18:01.0668705+02:00",
+        "Id": 575,
+        "Name": "Schowalter, Harris and Klocko",
+        "ToolTip": "Molestiae quam delectus aliquam.",
+        "Deleted": false,
+        "Rank": 695,
+        "Type": "qui",
+        "ColorBlock": 392,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2018-10-30T13:13:33.2767137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "vitae",
+        "ExtraInfo": "quia",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Fritz Cole",
+        "FullName": "Mrs. Rick Shad Pollich DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Prof. Clyde Anika Harvey PhD",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Prof. Jaden Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 599
       }
     }
   }

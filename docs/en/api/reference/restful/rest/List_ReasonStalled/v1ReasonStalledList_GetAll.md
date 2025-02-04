@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Turner, Fadel and Blick",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 417,
+    "Id": 492,
+    "Name": "Harris-Stoltenberg",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "UdListDefinitionId": 260,
     "Rank": 32,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 538
       }
     }
   }

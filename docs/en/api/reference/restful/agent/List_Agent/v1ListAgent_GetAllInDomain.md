@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 281,
+    "HierarchyId": 723,
     "Domain": "Dashboards",
-    "Name": "Rau, Grady and Mohr",
-    "Fullname": "officia",
-    "ParentId": 72,
+    "Name": "Mueller Inc and Sons",
+    "Fullname": "harum",
+    "ParentId": 768,
     "Children": [
       {
-        "HierarchyId": 930,
+        "HierarchyId": 472,
         "Domain": "Dashboards",
-        "Name": "Okuneva Inc and Sons",
-        "Fullname": "aut",
-        "ParentId": 616,
+        "Name": "Halvorson Inc and Sons",
+        "Fullname": "optio",
+        "ParentId": 332,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2021-04-29T10:17:55.7227953+02:00",
-        "RegisteredAssociateId": 600,
-        "Updated": "2013-11-27T10:17:55.7227953+01:00",
-        "UpdatedAssociateId": 783,
+        "Registered": "2022-10-06T13:13:23.3051742+02:00",
+        "RegisteredAssociateId": 259,
+        "Updated": "2019-07-29T13:13:23.3051742+02:00",
+        "UpdatedAssociateId": 578,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 496
           }
         }
       }
     ],
-    "Registered": "2011-01-12T10:17:55.7227953+01:00",
-    "RegisteredAssociateId": 85,
-    "Updated": "2023-08-02T10:17:55.7227953+02:00",
-    "UpdatedAssociateId": 655,
+    "Registered": "2015-05-28T13:13:23.3051742+02:00",
+    "RegisteredAssociateId": 333,
+    "Updated": "2018-10-15T13:13:23.3051742+02:00",
+    "UpdatedAssociateId": 7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 88
       }
     }
   }

@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    167,
-    644
+    93,
+    265
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schulist-Predovic",
-    "Comment": "delectus",
-    "StakeholderRoleId": 623,
-    "CountryId": 404,
-    "PersonId": 135,
-    "EmailDescription": "rosalee.zulauf@roweglover.biz",
-    "EmailId": 618,
-    "EmailAddress": "godfrey@leuschkeleffler.us",
-    "PhoneId": 488,
-    "ContactName": "Nicolas-Nitzsche",
-    "ContactId": 402,
-    "SaleId": 850,
-    "Mrmrs": "eum",
-    "Firstname": "Roberto",
-    "MiddleName": "Bartoletti Inc and Sons",
-    "Lastname": "Schiller",
-    "SaleStakeholderId": 872,
-    "Rank": 497,
-    "Phone": "333-277-0817 x604",
+    "StakeholderRoleName": "Sawayn, Nolan and Nitzsche",
+    "Comment": "maxime",
+    "StakeholderRoleId": 99,
+    "CountryId": 972,
+    "PersonId": 832,
+    "EmailDescription": "litzy@friesen.biz",
+    "EmailId": 571,
+    "EmailAddress": "marcelino@goldner.info",
+    "PhoneId": 245,
+    "ContactName": "Harvey, Weissnat and Beahan",
+    "ContactId": 425,
+    "SaleId": 45,
+    "Mrmrs": "error",
+    "Firstname": "Brent",
+    "MiddleName": "Thiel, Shanahan and Jacobs",
+    "Lastname": "Wiegand",
+    "SaleStakeholderId": 528,
+    "Rank": 80,
+    "Phone": "(540)233-8421",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 663
       }
     }
   }

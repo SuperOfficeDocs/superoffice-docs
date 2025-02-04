@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Cormier, Deckow and Lebsack",
-  "Tooltip": "consequatur",
+  "Id": 5,
+  "Name": "Auer, Schmeler and Lesch",
+  "Tooltip": "provident",
   "Deleted": true,
-  "Rank": 591,
+  "Rank": 979,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nisi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Huels-Schumm",
-  "Tooltip": "tempore",
+  "Id": 961,
+  "Name": "Shanahan, Dietrich and Gutkowski",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 927,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquid",
+  "Rank": 236,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "animi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 708
     }
   }
 }

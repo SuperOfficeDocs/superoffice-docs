@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=quia
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Green Group",
-    "ToolTip": "Dolore eaque.",
+    "Id": 975,
+    "Name": "Bailey, Mitchell and Sawayn",
+    "ToolTip": "Quia sit vitae rerum tempore rerum non.",
     "Deleted": false,
-    "Rank": 486,
-    "Type": "rerum",
+    "Rank": 230,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Hudson-Hilpert",
-        "ToolTip": "Doloremque ut eius eos ut.",
+        "Id": 273,
+        "Name": "Zieme, Anderson and Marvin",
+        "ToolTip": "Eaque quaerat aliquam cupiditate.",
         "Deleted": false,
-        "Rank": 741,
-        "Type": "aliquid",
+        "Rank": 422,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 975,
-        "ExtraInfo": "distinctio",
-        "StyleHint": "molestias",
-        "FullName": "Orval Bode",
+        "IconHint": "tempora",
+        "ColorBlock": 381,
+        "ExtraInfo": "minus",
+        "StyleHint": "nostrum",
+        "FullName": "Prof. Fannie Jerrold Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldLength": 623
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 994,
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptate",
-    "FullName": "Ms. Cletus Moshe Herzog Jr.",
+    "IconHint": "unde",
+    "ColorBlock": 942,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "inventore",
+    "FullName": "Clay Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 266
       }
     }
   }

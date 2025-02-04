@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 341,
-  "ColumnId": 507,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 829,
-  "FieldLabel": "natus",
-  "FieldLeft": 944,
-  "FieldTop": 289,
+  "UDefFieldId": 156,
+  "ColumnId": 826,
+  "FieldDefault": "sequi",
+  "FieldHeight": 86,
+  "FieldLabel": "impedit",
+  "FieldLeft": 208,
+  "FieldTop": 13,
   "FieldType": "Checkbox",
-  "FieldWidth": 646,
-  "FormatMask": "ex",
+  "FieldWidth": 131,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 988,
-  "LabelLeft": 253,
-  "LabelTop": 392,
-  "LabelWidth": 144,
-  "LastVersionId": 102,
-  "ListTableId": 156,
+  "LabelHeight": 239,
+  "LabelLeft": 320,
+  "LabelTop": 761,
+  "LabelWidth": 105,
+  "LastVersionId": 972,
+  "ListTableId": 340,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 26,
-  "ProgId": "explicabo",
-  "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 320,
-  "TextLength": 782,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 103,
-  "UDListDefinitionId": 610,
+  "Page1LineNo": 985,
+  "ProgId": "magnam",
+  "IsReadOnly": true,
+  "ShortLabel": "laboriosam",
+  "TabOrder": 63,
+  "TextLength": 635,
+  "Tooltip": "maiores",
+  "UdefIdentity": 726,
+  "UDListDefinitionId": 1002,
   "Justification": "Center",
-  "Version": 208,
-  "TemplateVariableName": "Kertzmann Group",
+  "Version": 825,
+  "TemplateVariableName": "Breitenberg LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Dach Group",
+  "MdoListName": "Predovic, Kunze and Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

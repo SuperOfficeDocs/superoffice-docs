@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Bernier-Block",
-  "Tooltip": "molestiae",
+  "Id": 989,
+  "Name": "King, Lebsack and Hegmann",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 831,
+  "Rank": 591,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Gutmann-Nitzsche",
-  "Tooltip": "quia",
+  "Id": 735,
+  "Name": "Heller-Hackett",
+  "Tooltip": "recusandae",
   "Deleted": true,
-  "Rank": 87,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "Rank": 784,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 95
     }
   }
 }

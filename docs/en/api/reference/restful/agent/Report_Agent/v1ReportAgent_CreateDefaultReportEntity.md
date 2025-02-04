@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 976,
+  "ReportId": 971,
   "ReportCategory": "All",
-  "Description": "Progressive optimal open architecture",
+  "Description": "Realigned global moderator",
   "ReportLayout": "CalendarMonth",
-  "Name": "Walter, Hilpert and Reichert",
-  "AssociateId": 9,
-  "TemplateId": 938,
+  "Name": "Hyatt-Kessler",
+  "AssociateId": 761,
+  "TemplateId": 787,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldType": "System.String",
+      "FieldLength": 485
     }
   }
 }

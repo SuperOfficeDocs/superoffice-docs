@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Jenkins-Thiel",
-    "ToolTip": "A nihil.",
+    "Id": 202,
+    "Name": "Becker Group",
+    "ToolTip": "Qui velit et voluptas.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "magnam",
-    "ColorBlock": 794,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "1999-11-16T10:18:01.0043667+01:00",
+    "Rank": 410,
+    "Type": "ut",
+    "ColorBlock": 909,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2000-08-02T13:13:33.0580147+02:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Gorczany-Williamson",
-        "ToolTip": "Magni ab consequatur assumenda nobis quia.",
+        "Id": 911,
+        "Name": "Legros-Champlin",
+        "ToolTip": "Expedita cumque est iusto et et.",
         "Deleted": false,
-        "Rank": 608,
-        "Type": "asperiores",
-        "ColorBlock": 434,
-        "IconHint": "qui",
+        "Rank": 630,
+        "Type": "similique",
+        "ColorBlock": 435,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2019-03-20T10:18:01.0043667+01:00",
+        "LastChanged": "2007-09-17T13:13:33.0580147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "dolores",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Morton Madyson Rau Sr.",
+        "FullName": "Daryl Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 955
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Morris Hoeger DVM",
+    "ExtraInfo": "dolore",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Bethany Osinski Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 Jul 2015 10:18:00 G7T
+Last-Modified: Wed, 19 Nov 1997 13:13:31 G11T
 
 {
-  "SourceContactId": 465,
-  "SourcePersonId": 453,
-  "DestinationContactId": 834,
-  "DestinationPersonId": 592,
-  "RelationId": 624,
-  "Comment": "aut",
-  "RelationDefinitionId": 119,
-  "Reversed": 455,
-  "UpdatedDate": "2015-07-25T10:18:00.3324502+02:00",
-  "CreatedDate": "2005-10-25T10:18:00.3324502+02:00",
+  "SourceContactId": 699,
+  "SourcePersonId": 630,
+  "DestinationContactId": 281,
+  "DestinationPersonId": 588,
+  "RelationId": 672,
+  "Comment": "earum",
+  "RelationDefinitionId": 822,
+  "Reversed": 480,
+  "UpdatedDate": "1997-11-19T13:13:31.5895173+01:00",
+  "CreatedDate": "2015-05-03T13:13:31.5895173+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ebert-Baumbach",
-  "SourcePersonName": "Mosciski, Mann and Monahan",
-  "DestinationContactName": "Davis-Stracke",
-  "DestinationPersonName": "Muller, Fadel and Ferry",
-  "ActiveText": "doloribus",
-  "PassiveText": "aliquam",
+  "SourceContactName": "Veum, Bailey and Jacobs",
+  "SourcePersonName": "Legros Inc and Sons",
+  "DestinationContactName": "Davis Group",
+  "DestinationPersonName": "Mraz, Deckow and Zemlak",
+  "ActiveText": "ut",
+  "PassiveText": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 523
     }
   }
 }

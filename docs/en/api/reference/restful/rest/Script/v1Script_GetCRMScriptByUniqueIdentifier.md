@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "autem",
-  "Name": "Schneider Group",
-  "Description": "Profit-focused impactful initiative",
-  "IncludeId": "deserunt",
+  "UniqueIdentifier": "nemo",
+  "Name": "Sauer, Schneider and McKenzie",
+  "Description": "Reverse-engineered 6th generation forecast",
+  "IncludeId": "praesentium",
   "Source": "et",
-  "Registered": "2019-10-24T10:18:00.8793591+02:00",
-  "RegisteredBy": "ipsa",
-  "Updated": "2004-01-28T10:18:00.8793591+01:00",
-  "UpdatedBy": "iure",
-  "Path": "commodi",
+  "Registered": "2006-01-04T13:13:32.6204588+01:00",
+  "RegisteredBy": "sit",
+  "Updated": "1998-05-10T13:13:32.6204588+02:00",
+  "UpdatedBy": "et",
+  "Path": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 234
     }
   }
 }

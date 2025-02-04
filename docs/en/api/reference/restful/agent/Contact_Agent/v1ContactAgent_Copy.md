@@ -77,8 +77,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 941,
-  "DestinationContactName": "Moore-Feeney",
+  "SourceContactId": 390,
+  "DestinationContactName": "Spinka-Schneider",
   "DestinationContactDepartment": "",
   "CopyPersons": false
 }
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-366
+805
 ```

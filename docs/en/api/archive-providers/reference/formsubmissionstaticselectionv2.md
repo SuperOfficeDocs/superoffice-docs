@@ -477,7 +477,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/hasInterests,person/personPager/description,person/correspondingAssociate/locationAddress
+GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=type,person/personAddress/county,person/personAddress/city,person/restrictionAddress/zip,person/restrictionAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

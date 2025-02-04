@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morar, O'Kon and Lubowitz",
-  "AssociateId": 482
+  "TableName": "Strosin-Roberts",
+  "AssociateId": 233
 }
 ```
 

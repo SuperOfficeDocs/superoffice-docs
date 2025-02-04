@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 534,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 598,
-  "UdListDefinitionId": 920
+  "HeadingId": 338,
+  "Name": "Green Inc and Sons",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 168,
+  "UdListDefinitionId": 300
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 494,
-  "Name": "Witting LLC",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 92,
-  "UdListDefinitionId": 88,
+  "HeadingId": 472,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 485,
+  "UdListDefinitionId": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

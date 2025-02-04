@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 466,
-  "Width": 506,
-  "Height": 543
+  "ChatTopicId": 887,
+  "Width": 92,
+  "Height": 516
 }
 ```
 

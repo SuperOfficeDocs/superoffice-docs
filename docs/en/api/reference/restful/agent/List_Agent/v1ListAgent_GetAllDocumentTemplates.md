@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 347,
-    "Name": "Runolfsdottir-Schaefer",
-    "Tooltip": "necessitatibus",
-    "SaveInDb": 261,
-    "Filename": "doloribus",
-    "DefaultOref": "temporibus",
+    "DocumentTemplateId": 181,
+    "Name": "Morar-Willms",
+    "Tooltip": "adipisci",
+    "SaveInDb": 217,
+    "Filename": "fugit",
+    "DefaultOref": "excepturi",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 688,
-    "IntentId": 774,
+    "AutoeventId": 152,
+    "IntentId": 82,
     "IsDefaultPublished": false,
-    "Rank": 556,
-    "LoadTemplateFromPlugin": 546,
-    "MimeType": "magni",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 953,
+    "Rank": 324,
+    "LoadTemplateFromPlugin": 32,
+    "MimeType": "sequi",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 847,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "sincere.goodwin@blockbotsford.co.uk",
+    "EmailSubject": "emilio_smith@hand.us",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "leonel.borer@cartwrightklocko.name",
+    "SenderEmailAddress": "katarina@macejkovic.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

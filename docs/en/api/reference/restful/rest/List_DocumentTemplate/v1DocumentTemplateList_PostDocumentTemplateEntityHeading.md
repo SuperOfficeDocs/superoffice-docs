@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 394,
-  "Name": "Abernathy LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 320,
-  "UdListDefinitionId": 853
+  "HeadingId": 485,
+  "Name": "Mosciski-Swift",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 73,
+  "UdListDefinitionId": 671
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 432,
-  "Name": "Cummings Group",
-  "Tooltip": "dolores",
+  "HeadingId": 229,
+  "Name": "Lynch Group",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 159,
-  "UdListDefinitionId": 856,
+  "Rank": 330,
+  "UdListDefinitionId": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

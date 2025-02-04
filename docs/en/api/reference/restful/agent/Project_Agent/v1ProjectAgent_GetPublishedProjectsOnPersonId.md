@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 333
+  "PersonId": 335
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 749,
-    "Name": "Jacobs, Medhurst and O'Conner",
-    "Description": "Polarised bifurcated monitoring",
+    "ProjectId": 976,
+    "Name": "Becker LLC",
+    "Description": "Cross-platform solution-oriented Graphical User Interface",
     "URL": "http://www.example.com/",
-    "Type": "assumenda",
-    "AssociateId": 107,
-    "AssociateFullName": "Amara Heathcote",
-    "TypeId": 813,
-    "Updated": "2001-06-29T10:17:55.9103076+02:00",
-    "StatusId": 920,
-    "Status": "ipsa",
-    "TextId": 789,
-    "PublishTo": "2007-11-19T10:17:55.9103076+01:00",
-    "PublishFrom": "2002-09-08T10:17:55.9103076+02:00",
+    "Type": "molestias",
+    "AssociateId": 214,
+    "AssociateFullName": "Charlene O'Conner",
+    "TypeId": 882,
+    "Updated": "2023-06-12T13:13:23.664465+02:00",
+    "StatusId": 426,
+    "Status": "unde",
+    "TextId": 731,
+    "PublishTo": "2001-09-13T13:13:23.664465+02:00",
+    "PublishFrom": "2016-08-16T13:13:23.664465+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1583730",
-    "ActiveErpLinks": 755,
+    "ProjectNumber": "1787052",
+    "ActiveErpLinks": 285,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 528
       }
     }
   }

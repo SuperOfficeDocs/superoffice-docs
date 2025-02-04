@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 828,
-  "ERPName": "Torp, Schmitt and Denesik",
-  "DisplayName": "Willms Group",
-  "DisplayDescription": "Synchronised non-volatile structure",
-  "Rank": 580,
-  "ConnectorName": "Osinski-Sawayn",
-  "ErpConnectionId": 345,
-  "ExtraData": "ipsam",
+  "QuoteConnectionId": 11,
+  "ERPName": "Bartell Group",
+  "DisplayName": "Kunze-Ziemann",
+  "DisplayDescription": "Customer-focused uniform projection",
+  "Rank": 299,
+  "ConnectorName": "Braun-Wiegand",
+  "ErpConnectionId": 887,
+  "ExtraData": "tenetur",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 833,
-      "ERPPriceListKey": "ratione",
-      "QuoteConnectionId": 171,
-      "Name": "Spinka, Connelly and Stehr",
-      "Description": "Secured leading edge utilisation",
-      "Currency": "eaque",
-      "CurrencyName": "Wunsch Inc and Sons",
-      "ValidFrom": "2008-07-29T10:17:55.9415595+02:00",
-      "ValidTo": "1999-11-13T10:17:55.9415595+01:00",
-      "IsActive": false,
+      "PriceListId": 413,
+      "ERPPriceListKey": "quam",
+      "QuoteConnectionId": 550,
+      "Name": "Thiel-Carter",
+      "Description": "Synergized bandwidth-monitored strategy",
+      "Currency": "et",
+      "CurrencyName": "Gulgowski, Keeling and Smith",
+      "ValidFrom": "2007-02-08T13:13:23.7425716+01:00",
+      "ValidTo": "2016-06-08T13:13:23.7425716+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldLength": 947
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    894,
-    536
+    876,
+    908
   ],
   "AssociateAccessIds": [
-    425,
-    508
+    521,
+    499
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 691
     }
   }
 }

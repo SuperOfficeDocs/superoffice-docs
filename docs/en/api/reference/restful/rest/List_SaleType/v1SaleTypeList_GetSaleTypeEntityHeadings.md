@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 322,
-    "Name": "Orn, Wisoky and Bartell",
-    "Tooltip": "voluptatem",
+    "HeadingId": 393,
+    "Name": "Lakin-Hirthe",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 975,
+    "Rank": 988,
+    "UdListDefinitionId": 909,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldType": "System.String",
+        "FieldLength": 389
       }
     }
   }

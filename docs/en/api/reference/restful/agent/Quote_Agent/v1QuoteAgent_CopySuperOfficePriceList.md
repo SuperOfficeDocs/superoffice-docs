@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 504,
-  "NewName": "Huels-Kozey",
-  "ValidFrom": "2015-10-09T10:17:55.9259336+02:00",
-  "ValidTo": "2000-10-22T10:17:55.9259336+02:00",
-  "NewCurrencyId": 794,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 603,
+  "NewName": "O'Connell Inc and Sons",
+  "ValidFrom": "2015-12-01T13:13:23.7113275+01:00",
+  "ValidTo": "2007-02-23T13:13:23.7113275+01:00",
+  "NewCurrencyId": 843,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 42,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 903,
-  "Name": "Bartell-Hagenes",
-  "Description": "Synergistic content-based productivity",
-  "Currency": "aspernatur",
-  "CurrencyName": "Gerlach-Kreiger",
-  "ValidFrom": "2021-10-27T10:17:55.9259336+02:00",
-  "ValidTo": "2009-01-25T10:17:55.9259336+01:00",
-  "IsActive": true,
+  "PriceListId": 290,
+  "ERPPriceListKey": "modi",
+  "QuoteConnectionId": 729,
+  "Name": "Runte LLC",
+  "Description": "Automated human-resource task-force",
+  "Currency": "explicabo",
+  "CurrencyName": "Bechtelar-Cummings",
+  "ValidFrom": "2016-08-24T13:13:23.7113275+02:00",
+  "ValidTo": "2015-10-24T13:13:23.7113275+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 610
     }
   }
 }

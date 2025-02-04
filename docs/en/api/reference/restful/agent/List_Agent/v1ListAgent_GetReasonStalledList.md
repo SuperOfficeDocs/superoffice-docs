@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Value": "vero",
-    "Tooltip": "sequi",
+    "Id": 470,
+    "Value": "ut",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 365
       }
     }
   },
   {
-    "Id": 274,
-    "Value": "vero",
-    "Tooltip": "sequi",
+    "Id": 470,
+    "Value": "ut",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 365
       }
     }
   }

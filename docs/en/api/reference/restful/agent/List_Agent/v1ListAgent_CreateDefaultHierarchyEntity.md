@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 27,
+  "HierarchyId": 827,
   "Domain": "Dashboards",
-  "Name": "Goyette-Padberg",
-  "Fullname": "officia",
-  "ParentId": 263,
+  "Name": "Ankunding Group",
+  "Fullname": "dolorum",
+  "ParentId": 742,
   "Children": [
     {
-      "HierarchyId": 568,
+      "HierarchyId": 466,
       "Domain": "Dashboards",
-      "Name": "Kshlerin, Zulauf and Trantow",
-      "Fullname": "qui",
-      "ParentId": 79,
+      "Name": "Senger, Bailey and Mayer",
+      "Fullname": "labore",
+      "ParentId": 10,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2024-06-08T10:17:55.7384214+02:00",
-      "RegisteredAssociateId": 827,
-      "Updated": "2016-01-29T10:17:55.7384214+01:00",
-      "UpdatedAssociateId": 816,
+      "Registered": "2012-11-24T13:13:23.3207956+01:00",
+      "RegisteredAssociateId": 812,
+      "Updated": "2011-01-12T13:13:23.3207956+01:00",
+      "UpdatedAssociateId": 319,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldLength": 543
         }
       }
     }
   ],
-  "Registered": "2021-09-16T10:17:55.7384214+02:00",
-  "RegisteredAssociateId": 770,
-  "Updated": "2005-12-26T10:17:55.7384214+01:00",
-  "UpdatedAssociateId": 13,
+  "Registered": "2020-04-16T13:13:23.3207956+02:00",
+  "RegisteredAssociateId": 879,
+  "Updated": "1998-06-18T13:13:23.3207956+02:00",
+  "UpdatedAssociateId": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 17
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 381,
+  "SystemEventId": 360,
   "Scope": "Database",
-  "Eta": "1998-09-23T10:18:00.723098+02:00",
-  "Eventkey": "iusto",
-  "Eventmess": "vitae",
-  "ExtraInfo": 745,
-  "Owner": 627,
-  "UpdatedCount": 785,
-  "Registered": "2020-03-01T10:18:00.723098+01:00",
+  "Eta": "1999-11-04T13:13:32.3392746+01:00",
+  "Eventkey": "hic",
+  "Eventmess": "nisi",
+  "ExtraInfo": 24,
+  "Owner": 199,
+  "UpdatedCount": 169,
+  "Registered": "2020-05-12T13:13:32.3392746+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 232
     }
   }
 }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 187
+  "UserGroupId": 826
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 975,
-    "ColumnId": 919,
-    "FieldDefault": "mollitia",
-    "FieldHeight": 292,
-    "FieldLabel": "neque",
-    "FieldLeft": 865,
-    "FieldTop": 690,
+    "UDefFieldId": 678,
+    "ColumnId": 899,
+    "FieldDefault": "fugiat",
+    "FieldHeight": 987,
+    "FieldLabel": "suscipit",
+    "FieldLeft": 526,
+    "FieldTop": 132,
     "FieldType": "Checkbox",
-    "FieldWidth": 4,
-    "FormatMask": "fugiat",
-    "HideLabel": true,
+    "FieldWidth": 279,
+    "FormatMask": "quaerat",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 650,
-    "LabelLeft": 815,
-    "LabelTop": 591,
-    "LabelWidth": 875,
-    "LastVersionId": 575,
-    "ListTableId": 248,
-    "IsMandatory": false,
+    "LabelHeight": 881,
+    "LabelLeft": 342,
+    "LabelTop": 473,
+    "LabelWidth": 230,
+    "LastVersionId": 751,
+    "ListTableId": 525,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 969,
-    "ProgId": "aut",
+    "Page1LineNo": 968,
+    "ProgId": "dolorum",
     "IsReadOnly": true,
-    "ShortLabel": "asperiores",
-    "TabOrder": 145,
-    "TextLength": 985,
-    "Tooltip": "nulla",
-    "UdefIdentity": 362,
-    "UDListDefinitionId": 520,
+    "ShortLabel": "qui",
+    "TabOrder": 260,
+    "TextLength": 874,
+    "Tooltip": "ut",
+    "UdefIdentity": 284,
+    "UDListDefinitionId": 460,
     "Justification": "Center",
-    "Version": 217,
-    "TemplateVariableName": "Schuster-Collins",
-    "HasBeenPublished": true,
-    "MdoListName": "Jones-Toy",
+    "Version": 720,
+    "TemplateVariableName": "Stiedemann-Wehner",
+    "HasBeenPublished": false,
+    "MdoListName": "Ondricka Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

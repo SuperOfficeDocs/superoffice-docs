@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Rau Group",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "Rank": 174,
+  "Id": 789,
+  "Name": "Rowe Group",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 188,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Funk Inc and Sons",
+  "Id": 365,
+  "Name": "Cummerata LLC",
   "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 671,
+  "Rank": 629,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sunt",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

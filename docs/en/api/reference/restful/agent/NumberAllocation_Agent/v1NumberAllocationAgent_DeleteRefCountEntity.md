@@ -25,7 +25,7 @@ Deletes the RefCountEntity
 | RefCountEntityId | int32 | **Required** The id of the RefCountEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?RefCountEntityId=54
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?RefCountEntityId=874
 ```
 
 

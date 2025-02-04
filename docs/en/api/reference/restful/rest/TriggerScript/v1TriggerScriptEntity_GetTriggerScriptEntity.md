@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 484,
-  "Name": "Bergnaum LLC",
+  "ScreenChooserId": 817,
+  "Name": "Heaney, Walsh and Quitzon",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "id",
-  "Source": "numquam",
-  "Registered": "2014-10-20T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 190,
-  "Updated": "2016-11-03T10:18:00.8168545+01:00",
-  "UpdatedAssociateId": 793,
+  "UniqueIdentifier": "voluptate",
+  "Source": "vel",
+  "Registered": "2014-02-21T13:13:32.5111102+01:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2011-03-10T13:13:32.5111102+01:00",
+  "UpdatedAssociateId": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   },
   "_Links": {

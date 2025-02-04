@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "repudiandae",
-  "ProviderName": "Davis, Jerde and Dach",
-  "PageSize": 277,
-  "PageNumber": 307
+  "Restrictions": "quas",
+  "ProviderName": "Keebler, Gusikowski and Herzog",
+  "PageSize": 541,
+  "PageNumber": 139
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bergnaum-Emard",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "et",
+      "DisplayName": "Willms-Lang",
+      "DisplayTooltip": "aut",
+      "DisplayType": "repellendus",
       "CanOrderBy": true,
-      "Name": "Hayes-Carroll",
+      "Name": "Reichert-Gislason",
       "CanRestrictBy": true,
-      "RestrictionType": "quasi",
-      "RestrictionListName": "O'Connell LLC",
+      "RestrictionType": "delectus",
+      "RestrictionListName": "Mante-Frami",
       "IsVisible": true,
-      "ExtraInfo": "earum",
-      "Width": "mollitia",
-      "IconHint": "autem",
-      "HeadingIconHint": "iure"
+      "ExtraInfo": "laboriosam",
+      "Width": "est",
+      "IconHint": "aut",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobs-Robel",
-      "PrimaryKey": 675,
+      "EntityName": "Rohan-Wisozk",
+      "PrimaryKey": 281,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "facilis",
-          "TooltipHint": "maiores",
-          "LinkHint": "voluptates"
+          "DisplayValue": "perferendis",
+          "TooltipHint": "suscipit",
+          "LinkHint": "corporis"
         }
       },
-      "LinkHint": "inventore",
-      "StyleHint": "consequatur",
+      "LinkHint": "ut",
+      "StyleHint": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 417
         }
       }
     }
   ],
-  "RowCount": 482,
+  "RowCount": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 589
     }
   }
 }

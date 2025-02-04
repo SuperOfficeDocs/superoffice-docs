@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 604
+  "ErpConnectionId": 175
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Orn-Collier",
+      "ErpListName": "Bins, O'Keefe and Gutkowski",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Gleichner, Bednar and Shields",
-      "ErpFieldId": 71,
+      "ErpActorTypeName": "Von, Bergnaum and Abbott",
+      "ErpFieldId": 304,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 717
         }
       }
     }
   ],
-  "ErpConnectionId": 237,
-  "ErpConnectionName": "Bogan, Hyatt and Casper",
+  "ErpConnectionId": 297,
+  "ErpConnectionName": "Shanahan-Rolfson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 357
     }
   }
 }

@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 533,
-  "ParentId": 436,
-  "Name": "Beatty LLC",
-  "Fullname": "et",
-  "CategoryMaster": 111,
+  "TicketCategoryId": 864,
+  "ParentId": 635,
+  "Name": "Stracke-Hauck",
+  "Fullname": "quis",
+  "CategoryMaster": 754,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Turcotte Inc and Sons",
+  "ExternalName": "Koss, Morar and Larkin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 240,
-  "ReplyTemplate": 866,
-  "NotificationEmail": "colin@reynoldsgleichner.name",
+  "AssignmentLag": 671,
+  "ReplyTemplate": 990,
+  "NotificationEmail": "gudrun_ziemann@hilll.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 255,
+  "EffectiveReplyTemplateId": 581,
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "at"
+    "CustomFields1": "nemo",
+    "CustomFields2": "porro"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 738,
-  "ParentId": 39,
-  "Name": "Blanda LLC",
-  "Fullname": "et",
-  "CategoryMaster": 548,
+  "TicketCategoryId": 632,
+  "ParentId": 478,
+  "Name": "Jenkins LLC",
+  "Fullname": "asperiores",
+  "CategoryMaster": 476,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stanton Group",
+  "ExternalName": "Thiel LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 367,
-  "ReplyTemplate": 458,
-  "NotificationEmail": "golden.upton@rath.co.uk",
+  "AssignmentLag": 502,
+  "ReplyTemplate": 647,
+  "NotificationEmail": "ronaldo_harvey@kiehnhirthe.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 951,
+  "EffectiveReplyTemplateId": 733,
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "enim"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

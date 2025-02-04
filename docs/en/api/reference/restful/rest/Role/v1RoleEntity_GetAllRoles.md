@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Hickle-Pagac",
-    "ToolTip": "Minus sed corrupti quidem ut quibusdam.",
-    "Deleted": false,
-    "Rank": 210,
-    "Type": "illum",
-    "ColorBlock": 620,
-    "IconHint": "est",
+    "Id": 449,
+    "Name": "Harber, Kuphal and Gerhold",
+    "ToolTip": "A facere.",
+    "Deleted": true,
+    "Rank": 364,
+    "Type": "at",
+    "ColorBlock": 823,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2000-03-11T10:18:00.5355883+01:00",
+    "LastChanged": "2005-01-29T13:13:31.9956719+01:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Bauch LLC",
-        "ToolTip": "Rem qui vitae esse.",
+        "Id": 908,
+        "Name": "Murazik-Lindgren",
+        "ToolTip": "Facere illum est ut deserunt doloribus est omnis.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "labore",
-        "ColorBlock": 350,
-        "IconHint": "suscipit",
+        "Rank": 625,
+        "Type": "distinctio",
+        "ColorBlock": 905,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2008-04-11T10:18:00.5355883+02:00",
+        "LastChanged": "2001-07-14T13:13:31.9956719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "delectus",
+        "ExtraInfo": "sed",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Kristian Salvatore Kling PhD",
+        "FullName": "Mr. Jose Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "vel",
+    "ExtraInfo": "optio",
+    "StyleHint": "blanditiis",
     "Hidden": true,
-    "FullName": "Mack Durgan",
+    "FullName": "Lafayette Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

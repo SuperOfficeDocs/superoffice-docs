@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 985
+  "ChatTopicId": 686
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 637,
-  "TopicId": 210,
+  "ChatSessionId": 369,
+  "TopicId": 345,
   "User": null,
   "Person": null,
-  "CustomerAlias": "atque",
-  "CustomerHost": "fugit",
-  "CustomerName": "Kirlin-Fisher",
-  "CustomerEmail": "isobel@green.co.uk",
-  "CustomerPhone": "505.503.1898",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "nostrum",
+  "CustomerName": "Marvin-Lemke",
+  "CustomerEmail": "elvera.quitzon@thompsonklein.co.uk",
+  "CustomerPhone": "427.922.7016",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Weissnat-Rippin",
+  "CustomerCompanyName": "Gibson-Watsica",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "qui",
-  "WhenRequested": "2002-03-22T10:17:55.2227659+01:00",
-  "WhenStarted": "2020-09-23T10:17:55.2227659+02:00",
-  "WhenEnded": "1998-10-28T10:17:55.2227659+01:00",
-  "WhenIdle": "2019-04-01T10:17:55.2227659+02:00",
-  "WhenFetched": "2014-01-08T10:17:55.2227659+01:00",
-  "SessionKey": "earum",
-  "InitialQueuePos": 91,
-  "AlertLevel": 999,
-  "Rank": 420,
+  "FirstMessage": "et",
+  "LastMessage": "expedita",
+  "WhenRequested": "2011-07-02T13:13:22.3207878+02:00",
+  "WhenStarted": "1999-11-22T13:13:22.3207878+01:00",
+  "WhenEnded": "2011-04-29T13:13:22.3207878+02:00",
+  "WhenIdle": "2018-12-08T13:13:22.3207878+01:00",
+  "WhenFetched": "1999-10-30T13:13:22.3207878+02:00",
+  "SessionKey": "aliquam",
+  "InitialQueuePos": 287,
+  "AlertLevel": 419,
+  "Rank": 448,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 112,
+  "Rating": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

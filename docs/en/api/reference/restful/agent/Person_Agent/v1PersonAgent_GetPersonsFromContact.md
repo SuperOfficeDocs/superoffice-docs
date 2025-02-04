@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 687
+  "ContactId": 289
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nisi",
-    "PersonId": 852,
-    "Mrmrs": "laudantium",
-    "Firstname": "Ashtyn",
-    "Lastname": "Hauck",
-    "MiddleName": "Ratke, Barrows and Bailey",
-    "Title": "ut",
-    "Description": "Organic bandwidth-monitored migration",
-    "Email": "dena_treutel@altenwerthwillms.name",
-    "FullName": "Reina Gulgowski",
-    "DirectPhone": "(134)136-1479",
-    "FormalName": "Kris, Kerluke and Schmeler",
-    "CountryId": 288,
-    "ContactId": 199,
-    "ContactName": "Dibbert LLC",
-    "Retired": 228,
-    "Rank": 611,
-    "ActiveInterests": 420,
+    "Position": "ea",
+    "PersonId": 117,
+    "Mrmrs": "sint",
+    "Firstname": "Noemie",
+    "Lastname": "Barton",
+    "MiddleName": "Frami, Schroeder and Lueilwitz",
+    "Title": "expedita",
+    "Description": "Balanced next generation knowledge base",
+    "Email": "major@bartoletticole.info",
+    "FullName": "Miss Dixie Abigail Howe IV",
+    "DirectPhone": "747-552-7778",
+    "FormalName": "Cummings LLC",
+    "CountryId": 246,
+    "ContactId": 992,
+    "ContactName": "Huel Inc and Sons",
+    "Retired": 217,
+    "Rank": 351,
+    "ActiveInterests": 400,
     "ContactDepartment": "",
-    "ContactCountryId": 11,
-    "ContactOrgNr": "932032",
-    "FaxPhone": "(730)043-8544 x9056",
-    "MobilePhone": "1-451-831-7619 x024",
-    "ContactPhone": "1-034-794-6663",
-    "AssociateName": "Dibbert-Connelly",
-    "AssociateId": 152,
+    "ContactCountryId": 97,
+    "ContactOrgNr": "1014782",
+    "FaxPhone": "(020)040-9008 x9121",
+    "MobilePhone": "(058)540-9567",
+    "ContactPhone": "322-781-6064 x4585",
+    "AssociateName": "Brown, Lebsack and Cruickshank",
+    "AssociateId": 868,
     "UsePersonAddress": false,
-    "ContactFax": "ratione",
-    "Kanafname": "quos",
-    "Kanalname": "qui",
-    "Post1": "ea",
-    "Post2": "ut",
-    "Post3": "mollitia",
-    "EmailName": "freida@mann.com",
-    "ContactFullName": "Ali Satterfield",
-    "ActiveErpLinks": 273,
-    "TicketPriorityId": 535,
-    "SupportLanguageId": 257,
-    "SupportAssociateId": 358,
+    "ContactFax": "cum",
+    "Kanafname": "est",
+    "Kanalname": "ipsa",
+    "Post1": "dolorem",
+    "Post2": "accusamus",
+    "Post3": "repellat",
+    "EmailName": "carmelo@rempelwillms.info",
+    "ContactFullName": "Jonathan Gilda Hand PhD",
+    "ActiveErpLinks": 459,
+    "TicketPriorityId": 551,
+    "SupportLanguageId": 890,
+    "SupportAssociateId": 604,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 682
       }
     }
   }

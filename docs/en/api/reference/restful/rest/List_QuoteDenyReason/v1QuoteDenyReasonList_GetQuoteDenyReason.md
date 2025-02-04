@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Torp, Hermiston and Hirthe",
-  "Tooltip": "sint",
+  "Id": 67,
+  "Name": "Bernier Inc and Sons",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "UdListDefinitionId": 987,
-  "Rank": 728,
+  "UdListDefinitionId": 241,
+  "Rank": 239,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

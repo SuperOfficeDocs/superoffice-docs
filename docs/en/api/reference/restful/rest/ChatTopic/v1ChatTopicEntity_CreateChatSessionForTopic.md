@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 573,
-  "TopicId": 319,
+  "ChatSessionId": 972,
+  "TopicId": 386,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "velit",
-  "CustomerName": "Gerlach LLC",
-  "CustomerEmail": "monroe@willfadel.us",
-  "CustomerPhone": "331-843-3677 x28247",
+  "CustomerAlias": "et",
+  "CustomerHost": "aut",
+  "CustomerName": "Bednar Group",
+  "CustomerEmail": "gerald@weissnat.name",
+  "CustomerPhone": "(617)401-8808",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Predovic-VonRueden",
+  "CustomerCompanyName": "Bahringer Group",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "quas",
-  "WhenRequested": "2019-04-22T10:18:00.2699456+02:00",
-  "WhenStarted": "2019-05-21T10:18:00.2699456+02:00",
-  "WhenEnded": "2008-04-05T10:18:00.2699456+02:00",
-  "WhenIdle": "2014-05-07T10:18:00.2699456+02:00",
-  "WhenFetched": "2023-08-23T10:18:00.2699456+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 205,
-  "AlertLevel": 615,
-  "Rank": 871,
+  "FirstMessage": "sequi",
+  "LastMessage": "omnis",
+  "WhenRequested": "2022-09-07T13:13:31.4645446+02:00",
+  "WhenStarted": "2017-11-29T13:13:31.4645446+01:00",
+  "WhenEnded": "2000-06-12T13:13:31.4645446+02:00",
+  "WhenIdle": "2003-02-14T13:13:31.4645446+01:00",
+  "WhenFetched": "2018-05-27T13:13:31.4645446+02:00",
+  "SessionKey": "repudiandae",
+  "InitialQueuePos": 570,
+  "AlertLevel": 453,
+  "Rank": 977,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 638,
+  "ChatbotIsActive": true,
+  "Rating": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 919
     }
   }
 }

@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "esse",
+  "SaleText": "sit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-09-30T10:18:00.6918462+02:00",
-  "Amount": 12664.493999999999,
-  "SaleId": 490,
-  "Earning": 24843.218,
-  "EarningPercent": 27190.584,
-  "Heading": "tempore",
-  "Number": "1446006",
-  "Probability": 869,
-  "CreatedDate": "2011-05-13T10:18:00.6918462+02:00",
-  "UpdatedDate": "2003-12-20T10:18:00.6918462+01:00",
+  "Saledate": "2013-01-26T13:13:32.2767896+01:00",
+  "Amount": 10846.774,
+  "SaleId": 161,
+  "Earning": 990.34399999999994,
+  "EarningPercent": 25535.832,
+  "Heading": "nemo",
+  "Number": "1473117",
+  "Probability": 220,
+  "CreatedDate": "2015-09-24T13:13:32.2767896+02:00",
+  "UpdatedDate": "2022-06-07T13:13:32.2767896+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 479,
   "Links": [
     {
-      "EntityName": "Schultz, Bogisich and Kerluke",
-      "Id": 638,
-      "Description": "Business-focused fresh-thinking customer loyalty",
-      "ExtraInfo": "ea",
-      "LinkId": 107,
+      "EntityName": "Stiedemann Inc and Sons",
+      "Id": 262,
+      "Description": "Public-key 24 hour product",
+      "ExtraInfo": "debitis",
+      "LinkId": 875,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldLength": 698
         }
       }
     }
   ],
-  "NextDueDate": "2013-07-08T10:18:00.6918462+02:00",
-  "Postit": "rerum",
+  "NextDueDate": "2006-01-10T13:13:32.2767896+01:00",
+  "Postit": "explicabo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-01-22T10:18:00.6918462+01:00",
+  "ReopenDate": "2001-11-15T13:13:32.2767896+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dooley, Bergstrom and Crist",
-      "Comment": "magnam",
-      "StakeholderRoleId": 777,
-      "CountryId": 294,
-      "PersonId": 624,
-      "EmailDescription": "grover_waelchi@orndouglas.info",
-      "EmailId": 813,
-      "EmailAddress": "ora_hettinger@botsford.biz",
-      "PhoneId": 413,
-      "ContactName": "Mayer Inc and Sons",
-      "ContactId": 246,
-      "SaleId": 613,
-      "Mrmrs": "et",
-      "Firstname": "Declan",
-      "MiddleName": "Grady, Marvin and Schimmel",
-      "Lastname": "Fahey",
-      "SaleStakeholderId": 841,
-      "Rank": 753,
-      "Phone": "609-133-2827",
+      "StakeholderRoleName": "Steuber Inc and Sons",
+      "Comment": "quasi",
+      "StakeholderRoleId": 630,
+      "CountryId": 965,
+      "PersonId": 502,
+      "EmailDescription": "jodie@schimmel.info",
+      "EmailId": 466,
+      "EmailAddress": "annabel@parker.biz",
+      "PhoneId": 236,
+      "ContactName": "Klocko, Hoppe and Deckow",
+      "ContactId": 523,
+      "SaleId": 201,
+      "Mrmrs": "sunt",
+      "Firstname": "Mikayla",
+      "MiddleName": "Lemke Group",
+      "Lastname": "Fay",
+      "SaleStakeholderId": 150,
+      "Rank": 146,
+      "Phone": "027-452-4184 x910",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 250
         }
       }
     }
   ],
-  "ActiveErpLinks": 329,
+  "ActiveErpLinks": 7,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Israel Erin Dare V",
-    "SuperOffice:2": "Arjun Tillman"
+    "SuperOffice:1": "1298497074",
+    "SuperOffice:2": "1461464949"
   },
   "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "sunt"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "vero"
   },
-  "PublishEventDate": "2016-01-12T10:18:00.6918462+01:00",
-  "PublishTo": "2014-04-29T10:18:00.6918462+02:00",
-  "PublishFrom": "2003-02-26T10:18:00.6918462+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-02-15T13:13:32.2767896+01:00",
+  "PublishTo": "2021-01-25T13:13:32.2767896+01:00",
+  "PublishFrom": "2001-03-09T13:13:32.2767896+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 179,
+      "VisibleId": 317,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 179,
+      "VisibleId": 317,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 507
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```
