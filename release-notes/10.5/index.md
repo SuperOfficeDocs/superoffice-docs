@@ -90,8 +90,8 @@ Latest released versions:
 
 * The user guide for [SuperOffice for Outlook][11] in Docs - and it's available in six languages.
 * User guide for [SuperOffice Mobile CRM][12] in Docs.
-* [Docs and Learn for version 10.2][14] in help.superoffice.com
-* [Docs and Learn for version 10.3][15] in help.superoffice.com
+* [Learn and Docs for version 10.2][14] in help.superoffice.com
+* [Learn and Docs for version 10.3][15] in help.superoffice.com
 
 ### SuperOffice App Store
 
