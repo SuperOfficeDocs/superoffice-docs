@@ -5,7 +5,7 @@ description: How to close one or multiple request in SuperOffice.
 keywords: close request, set status closed, closed, bulk update, request
 author: Bergfrid Dias, kirstiaa
 date: 01.15.2025
-version: 10.5
+version: 10.5.1
 topic: howto
 license: serviceessentials
 audience: person

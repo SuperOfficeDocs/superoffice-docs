@@ -31,7 +31,8 @@ You can move a user from one company to another, if your organization consists o
 
     [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    > [!NOTE]
+    > To see the results before you confirm the action, click **Show results** <i class="ph ph-info" aria-hidden="true"></i>.
 
 1. Click **Move**. The user is moved to the specified company.
 

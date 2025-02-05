@@ -46,7 +46,7 @@ The search field at the upper right in SuperOffice CRM is used for freetext sear
 
 * You can search for text from the **Document** dialog, but you cannot search the actual contents of documents. A search is always made first on text that is in the **Our Ref** field in the **Document** dialog.
 
-* Certain words are ignored in the freetext search. [!include[SM](../../learn/includes/are-defined-sm.md)]
+* Certain words are ignored in the freetext search. These are defined in Settings and maintenance.
 
 ## Why am I getting no hits for a search word that I know is in the database?
 

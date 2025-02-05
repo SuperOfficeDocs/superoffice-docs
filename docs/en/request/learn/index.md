@@ -3,6 +3,7 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
+author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
 topic: concept

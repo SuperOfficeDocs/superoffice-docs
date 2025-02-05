@@ -24,7 +24,8 @@ Below the card, the **section tabs** allow you to view additional information an
 
 The screen also lets you search for companies, create new records, manage contacts, write documents, and generate follow-ups.
 
-[!include[Tip](../../learn/includes/tip-open-website.md)]
+> [!TIP]
+> You can open the company's Internet home page from SuperOffice CRM by clicking the address specified in the **Website** field on the company or project card. The page is then opened in your default browser.
 
 ## Tabs on the Company card
 

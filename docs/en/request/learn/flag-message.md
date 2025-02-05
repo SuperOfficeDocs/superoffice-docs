@@ -5,7 +5,7 @@ description: Keep track of messages
 keywords: request, message, flag
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 10.5.1
 topic: howto
 license: serviceessentials
 audience: person
