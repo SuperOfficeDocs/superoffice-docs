@@ -86,7 +86,7 @@ Her vises alle brukerne og ressursene du har lagt til i gruppeoversikten. Hvis d
 
 ## <a id="troubleshoot"></a>Hvorfor er Rediger-knappen grå?
 
-Du kan bare endre gruppeoversikter som du har opprettet selv. I en forhåndsdefinert gruppevisning er **Rediger**-knappen grå for å vise at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. [!include[SM](../../learn/includes/are-defined-sm.md)]
+Du kan bare endre gruppeoversikter som du har opprettet selv. I en forhåndsdefinert gruppevisning er **Rediger**-knappen grå for å vise at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. Disse er definert i Innstillinger og vedlikehold.
 
 For å redigere og lagre en forhåndsdefinert gruppeoversikt velger du alternativet **Kopier**, og deretter lagrer du oversikten med et nytt navn.
 

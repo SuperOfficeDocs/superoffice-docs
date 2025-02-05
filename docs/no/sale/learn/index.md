@@ -113,7 +113,7 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 [3]: ../../learn/section-tabs/index.md
 [4]: create.md
 [5]: stakeholders/create.md
-[6]: sales-guide/working-with-sales-guide.md
+[6]: tutorial.md
 [7]: sales-targets/index.md
 [21]: forecasting.md
 [10]: ../../learn/basics/fav.md
@@ -122,13 +122,13 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: stakeholders/index.md
-[16]: sales-guide/index.md
+[16]: sales-guides.md
 [17]: ../../quote/learn/quote-tab.md
 [18]: ../../learn/basics/links.md
 [19]: ../../learn/basics/notes.md
 [20]: ../../learn/getting-started/main-screen/side-panel.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/sale/sales-screen.png
-[img2]: ../../../media/loc/no/sale/getstarted-sidepanel-saleselection.png
-[img3]: ../../../media/loc/no/sale/user-diary-sales.png
+[img1]: ../../../media/loc/en/sale/sales-screen.png
+[img2]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png
+[img3]: ../../../media/loc/en/sale/user-diary-sales.png

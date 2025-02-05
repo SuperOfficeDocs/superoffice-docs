@@ -5,7 +5,7 @@ description: Lær hvordan du kan se, legge til og administrere Service-saker i S
 keywords: Saksfanen, Saker-fanen, detaljkortet Saker, detaljkort, saksarkiv, sak, henvendelse, forespørsel, forespørsler
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5version: 10
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

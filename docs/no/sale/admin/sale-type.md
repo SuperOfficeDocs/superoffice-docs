@@ -147,4 +147,4 @@ Hvis en salgstype har blitt slettet, kan du gjenopprette den fra listen **Salg â
 [7]: ../../search-options/learn/find-screen.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/sale/edit-sale-type.png
+[img1]: ../../../media/loc/en/sale/edit-sale-type.png

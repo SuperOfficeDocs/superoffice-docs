@@ -159,4 +159,4 @@ Dette fungerer på samme måte som [masseoppdatering][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
+[14]: ../../../sale/learn/sales-guides.md

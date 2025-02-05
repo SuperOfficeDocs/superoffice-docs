@@ -5,6 +5,40 @@ items:
   href: screen/index.md
 - name: Håndter saker med AI
   href: handle-request-ai.md
-- name: Arbeide med saker
-  href: howto/toc.yml
-  topicHref: find.md
+- name: Finn sak
+  href: find.md
+- name: Opprette sak
+  href: create.md
+- name: Redigere melding
+  href: edit-message.md
+- name: Automatisk tilordning
+  href: assign.md
+- name: Ta ansvar for sak
+  href: accept.md
+- name: Be en annen saksbehandler om hjelp
+  href: transfer.md
+- name: Videresende til ekstern kontakt
+  href: forward.md
+- name: Svare kunde
+  href: reply.md
+- name: Legg til FAQ-oppføringer i meldinger
+  href: ../../faq/learn/add-to-request.md
+- name: Emneknagger
+  href: tags.md
+- name: Holde oversikt over meldinger
+  href: flag-message.md
+- name: Del sak
+  href: split-request.md
+- name: Slå sammen saker
+  href: merge.md
+- name: Dele melding
+  href: split-message.md
+- name: Avslutt sak
+  href: close.md
+- name: Slette sak
+  href: delete.md
+- name: Sakslogg
+  href: screen/ticket-log.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

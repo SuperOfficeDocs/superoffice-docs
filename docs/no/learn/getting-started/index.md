@@ -83,4 +83,4 @@ Oppdag hele potensialet til SuperOffice CRM. Bruk våre veiledninger for å komm
 [21]: ../../../en/onsite/requirements/index.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/learn/getstarted-personalsettings.png
+[img1]: ../../../media/loc/en/learn/getstarted-personalsettings.png

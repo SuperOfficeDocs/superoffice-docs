@@ -5,7 +5,7 @@ description: Lær hvordan du administrerer og interagerer med personinformasjon 
 keywords: detaljkortet Personer, Personfanen, Personer-fanen, seksjonsfane, personarkiv, aktiver mellomnavn
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5version: 10
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

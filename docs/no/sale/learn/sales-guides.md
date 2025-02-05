@@ -172,13 +172,13 @@ Alternativt:
 <!-- Refererte lenker -->
 [1]: index.md
 [2]: create.md
-[3]: working-with-sales-guide.md
+[3]: tutorial.md
 [4]: ../admin/create-sales-guide.md
 [5]: ../admin/edit-sales-guide.md
 [6]: ../../diary/learn/create-follow-up.md
 [7]: ../../document/learn/edit.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/sale/sales-guide-tab.png
-[img2]: ../../../media/loc/no/sale/guide-stages.png
-[img3]: ../../../media/loc/no/sale/goto-next-stage.png
+[img1]: ../../../media/loc/en/sale/sales-guide-tab.png
+[img2]: ../../../media/loc/en/sale/guide-stages.png
+[img3]: ../../../media/loc/en/sale/goto-next-stage.png

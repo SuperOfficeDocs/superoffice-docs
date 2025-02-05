@@ -42,4 +42,4 @@ Du kan kopiere et eksisterende firma for å opprette et nytt. For eksempel kan d
 [2]: edit.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/loc/no/company/copy-company.png
+[img3]: ../../../media/loc/en/company/copy-company.png

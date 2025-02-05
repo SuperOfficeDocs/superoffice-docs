@@ -38,4 +38,4 @@ language: no
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/contact/edit-person.png
+[img1]: ../../../media/loc/en/contact/edit-person.png

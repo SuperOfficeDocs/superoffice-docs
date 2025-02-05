@@ -59,4 +59,4 @@ Hvis samme person er registrert under forskjellige navn eller firmaer i SuperOff
 [2]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/contact/merge-contacts.png
+[img1]: ../../../media/loc/en/contact/merge-contacts.png

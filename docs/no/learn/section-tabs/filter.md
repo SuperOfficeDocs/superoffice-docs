@@ -5,8 +5,8 @@ description: Slik bruker du filtre i detaljkortene.
 keywords: detaljkort, filter
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5date: 01.29.2025
-version: 10.5topic: howto
+version: 10.5
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

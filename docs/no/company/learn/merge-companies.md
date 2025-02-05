@@ -55,4 +55,4 @@ Hold kundebasen ryddig og effektiv ved å slå sammen dupliserte firmaer eller k
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/loc/no/company/merge-companies.png
+[img4]: ../../../media/loc/en/company/merge-companies.png

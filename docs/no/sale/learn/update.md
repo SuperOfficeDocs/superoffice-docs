@@ -108,6 +108,6 @@ Hvis salget har status **Vunnet** eller **Tapt**, kan du merke av for **Fullfør
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/sale/stalled-sale.png
-[img2]: ../../../media/loc/no/sale/won-sale.png
-[img3]: ../../../media/loc/no/sale/lost-sale.png
+[img1]: ../../../media/loc/en/sale/stalled-sale.png
+[img2]: ../../../media/loc/en/sale/won-sale.png
+[img3]: ../../../media/loc/en/sale/lost-sale.png

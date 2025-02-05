@@ -56,4 +56,4 @@ Hvis du har to nesten identiske prosjekter, kan du slå dem sammen, inkludert pr
 [3]: edit.md
 
 <!-- Refererte bilder -->
-[img2]: ../../../media/loc/no/project/merge-projects.png
+[img2]: ../../../media/loc/en/project/merge-projects.png

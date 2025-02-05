@@ -5,8 +5,8 @@ description: Lær hvordan du kan administrere og se salgsinformasjon i Salg-deta
 keywords: Salgsfanen, Salg-fanen, detaljkortet Salg, detaljkort, salgsarkiv
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5date: 01.29.2025
-version: 10.5topic: howto
+version: 10.5
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

@@ -24,7 +24,8 @@ Under firmakortet lar **detaljkortene** deg se ytterligere informasjon og admini
 
 Bildet lar deg også søke etter firmaer, opprette nye oppføringer, administrere personer, skrive dokumenter og lage oppfølginger.
 
-[!include[Tips](../../learn/includes/tip-open-website.md)]
+> [!TIP]
+> Du kan åpne firmaets Internett-hjemmeside fra SuperOffice CRM ved å klikke på adressen som er angitt i **Webside**-feltet på firma- eller prosjektkortet. Hjemmesiden åpnes da i den nettleseren du har angitt som standard.
 
 ## Faner på Firmakortet
 

@@ -27,4 +27,4 @@ language: no
 ![Firma-skjermbildet i redigeringsmodus som viser firmadetaljer -screenshot][img1]
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/company/edit-company.png
+[img1]: ../../../media/loc/en/company/edit-company.png

@@ -97,5 +97,5 @@ Interesser hjelper deg med å lage målrettede utvalg. Du kan for eksempel defin
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/company/new-company.png
-[img2]: ../../../media/loc/no/company/interests.png
+[img1]: ../../../media/loc/en/company/new-company.png
+[img2]: ../../../media/loc/en/company/interests.png

@@ -53,4 +53,4 @@ Bruk dette alternativet når en person bytter avdeling eller firma, eller hvis d
 [3]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/contact/move-contact.png
+[img1]: ../../../media/loc/en/contact/move-contact.png

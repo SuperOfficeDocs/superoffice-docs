@@ -62,4 +62,4 @@ Du kan sende e-post til personer fra både Person-bildet og Firma-bildet. Proses
 [3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/no/contact/send-email.png
+[img2]: ../../../media/loc/en/contact/send-email.png

@@ -171,5 +171,5 @@ Du kan manuelt flytte prosjektet til neste status uten å fullføre alle oppføl
 [8]: ../../document/learn/edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/project/project-guide-tab.png
-[img2]: ../../../media/loc/no/project/guide-statuses.png
+[img1]: ../../../media/loc/en/project/project-guide-tab.png
+[img2]: ../../../media/loc/en/project/guide-statuses.png

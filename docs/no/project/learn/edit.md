@@ -46,4 +46,4 @@ Du kan redigere prosjektinformasjon direkte fra fanene i **Prosjekt**-bildet.
 [6]: ../../learn/basics/links.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/project/edit-project.png
+[img1]: ../../../media/loc/en/project/edit-project.png

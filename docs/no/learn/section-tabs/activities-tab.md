@@ -5,7 +5,7 @@ description: Lær hvordan du bruker Aktivitetsdetaljkortet i SuperOffice CRM for
 keywords: detaljkortet Aktiviteter, Aktiviteter-fanen, Aktivitetsfanen, detaljkort, aktivitetsarkiv, aktivitet
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5version: 10
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

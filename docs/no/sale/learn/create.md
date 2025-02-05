@@ -113,4 +113,4 @@ Verdier for *Konkurrent* og *Kreditert* defineres i Innstillinger og vedlikehold
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../media/loc/no/sale/create-sale.png
+[img1]: ../../../media/loc/en/sale/create-sale.png

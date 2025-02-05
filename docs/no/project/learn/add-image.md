@@ -49,4 +49,4 @@ Fanen **Bilde** lar deg laste opp og administrere bilder for et prosjekt.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/no/project/project-image.png
+[img1]: ../../../media/loc/en/project/project-image.png

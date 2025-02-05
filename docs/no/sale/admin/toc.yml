@@ -1,11 +1,11 @@
 items:
-- name: Overview
+- name: Oversikt
   href: index.md
-- name: Add sale stage
+- name: Legg til salgsfase
   href: sale-stage.md
-- name: Add sale type
+- name: Legg til salgstype
   href: sale-type.md
-- name: Create new sales guide
+- name: Opprette ny salgsguide
   href: create-sales-guide.md
-- name: Edit or deactivate sales guide
+- name: Redigere eller deaktivere salgsguide
   href: edit-sales-guide.md
