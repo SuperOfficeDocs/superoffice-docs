@@ -50,7 +50,7 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 10.5.2 (11.02.2025):
-  * [Diary - Follow-up context menu includes Create new based on this (10.5.2)][19] in Core CRM
+  * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
   * [CRMScript - Trigger to Split Request (10.5.2)][17] in Settings and maintenance / Service
   * [CRMScript - Close request tab (10.5.2)][18] in Settings and maintenance / Service
 

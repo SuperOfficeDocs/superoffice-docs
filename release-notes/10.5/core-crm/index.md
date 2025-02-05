@@ -13,7 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
-* [Diary - Follow-up context menu includes Create new based on this (10.5.2)][2]
+* [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][2]
 * [Top bar - New button (10.5.1)][1]
 * [Top bar - Freetext search (10.5.1)][1]
 * [Top bar - In-app Resource centre button (10.5.1)][1]
