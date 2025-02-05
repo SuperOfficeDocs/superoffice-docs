@@ -11,6 +11,9 @@ items:
   items:
   - name: 10.5.1 update
     href: admin/10.5.1-update.md
+    items:
+    - name: Database changes 10.5.1
+      href: ../database/changes-10.5.1.md
 #- name: Service
 #  href: service/index.md
 #  items:
