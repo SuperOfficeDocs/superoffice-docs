@@ -32,7 +32,7 @@ Du kan eksportere alle detaljkort som inneholder oppføringer i SuperOffice CRM,
 3. Lagre regnearket på ønsket plassering.
 
 > [!NOTE]
-> Hvis du vet at denne funksjonen var aktivert i Innstillinger og vedlikehold, men du ikke kan se **Eksporter**-knappen nederst på detaljkortene, gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Vis Eksporter-knapp i detaljkortene** og velg**JA**.
+> Hvis du vet at denne funksjonen var aktivert i Innstillinger og vedlikehold, men du ikke kan se **Eksporter**-knappen nederst på detaljkortene, gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Vis Eksporter-knapp i detaljkortene** og velg **JA**.
 
 <!-- Referenced links -->
 [1]: configure-columns.md

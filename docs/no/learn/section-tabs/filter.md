@@ -24,10 +24,12 @@ Filtre er personlige. Filtrene du bruker, er bare synlige for deg, og du kan leg
 
 Flere filtre kan være aktive samtidig. Hvis et detaljkort ikke viser de forventede oppføringene, må du kontrollere filterinnstillingene.
 
-Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte videoen, eller les instruksjonene nedenfor (videolengde - 2:10):
+Lær hvordan du tilpasser visninger ved å konfigurere kolonner med denne korte videoen, eller les instruksjonene nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(videolengde - 2:10)
 
 ## Systemvalg
 

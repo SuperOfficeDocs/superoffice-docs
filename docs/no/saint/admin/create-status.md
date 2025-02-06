@@ -32,7 +32,7 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
     * **Navn**: Angi et beskrivende navn på statusen du skal legge til.
 
-        Valgfritt: Klikk på **A-Z** for å [legge til oversettelser][8] av statusnavnet.
+        Valgfritt: Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til oversettelser][8] av statusnavnet.
 
     * **Beskrivelse**: Angi en forklarende beskrivelse av statusen, og hvilke tiltak som kreves eller anbefales. I dette feltet kan du i tillegg bruke [malvariabler][9] for å skreddersy teksten til gjeldende firma, person eller prosjekt.
 

@@ -86,7 +86,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 7. Gå til dialogboksen Dokument.
 
     > [!NOTE]
-    > Hvis **Fullført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
+    > Hvis **Utført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
 
 8. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
 

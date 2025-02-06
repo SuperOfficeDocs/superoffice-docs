@@ -16,10 +16,12 @@ language: no
 
 Du kan tilpasse kolonnene i detaljkortene for å vise nøyaktig den informasjonen du trenger. Du kan endre hvilke kolonner som vises, samt rekkefølge og bredde.
 
-Ved å konfigurere kolonner kan du tilpasse vist informasjon og arbeide med CRM-data slik du trenger. Lær hvordan du konfigurerer kolonner med denne videoen, eller følg trinnene nedenfor (videolengde - 1:44):
+Ved å konfigurere kolonner kan du tilpasse vist informasjon og arbeide med CRM-data slik du trenger. Lær hvordan du konfigurerer kolonner med denne videoen, eller følg trinnene nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
+
+(videolengde - 1:44)
 
 ## Endre rekkefølge på kolonnene
 

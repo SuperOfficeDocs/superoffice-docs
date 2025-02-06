@@ -9,7 +9,7 @@
 
 1. Legg til en beskrivelse av utvalget i feltet **Beskrivelse**,hvis relevant.
 
-1. Merk av for **Fullført** for å angi at valget er inaktivt. Hvis du vil at utvalget skal være aktivt, lar du avmerkingsboksen stå tom.
+1. Merk av for **Utført** for å angi at valget er inaktivt. Hvis du vil at utvalget skal være aktivt, lar du avmerkingsboksen stå tom.
 
 <!-- Referenced links -->
 [1]: ../../update/index.md

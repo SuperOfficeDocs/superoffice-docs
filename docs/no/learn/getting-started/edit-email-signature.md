@@ -25,7 +25,7 @@ Standardsignaturmalene inneholder variabler som blir erstattet med data fra Supe
 
 ## Trinn
 
-1. Klikk på **Personlige innstillinger**-knappen (<i class="ph ph-user-circle" aria-hidden="true"></i>) i topplinjen.
+1. Klikk på **Personlige innstillinger**-knappen (<i class="ph ph-user-circle" aria-hidden="true"></i>) i toppraden.
 
 1. Velg **Rediger personlig signatur**.
 

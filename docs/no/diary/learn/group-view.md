@@ -23,13 +23,13 @@ language: no
 
 1. Velg en gruppe fra listen (<i class="ph ph-caret-down" aria-label="Nedtrekksikon"></i>).
 
-    * Forhåndsdefinerte grupper er basert på organisasjonens oppsett og inkluderer brukergrupper eller ressurser, for eksempel avdelinger eller møterom.
+    Forhåndsdefinerte grupper er basert på organisasjonens oppsett og inkluderer brukergrupper eller ressurser, for eksempel avdelinger eller møterom.
 
 1. De valgte dagbøkene vises i **Oversikt**-fanen, hvor du kan sjekke timeplaner eller planlegge oppfølginger.
 
 ## Opprette en ny gruppeoversikt
 
-1. Gå til fanen ***Oversikt** i dagboken.
+1. Gå til fanen **Oversikt** i dagboken.
 
 1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="oppgaveknappen"></i> og velg **Ny gruppeoversikt**.
 
@@ -50,7 +50,7 @@ language: no
     > [!TIP]
     > Klikk på **Velg alle** for å legge til alle i listen med ett klikk.
 
-1. Endre rekkefølgen i gruppen ved behov: Velg en person eller ressurs, og bruk <i class="ph ph-caret-circle-up" aria-label="Flytt opp"></i> og <i class="ph ph-caret-circle-down" aria-label="Flytt ned"></i> for å justere plasseringen. Denne rekkefølgen bestemmer hvordan gruppen vises i ***Oversikt**-fanen.
+1. Endre rekkefølgen i gruppen ved behov: Velg en person eller ressurs, og bruk <i class="ph ph-caret-circle-up" aria-label="Flytt opp"></i> og <i class="ph ph-caret-circle-down" aria-label="Flytt ned"></i> for å justere plasseringen. Denne rekkefølgen bestemmer hvordan gruppen vises i **Oversikt**-fanen.
 
 1. Klikk på **Lagre** for å fullføre gruppeoversikten, eller **Avbryt** for å forkaste endringene.
 
@@ -108,7 +108,7 @@ Du kan bare redigere gruppeoversikter du har opprettet selv. Forhåndsdefinerte 
 
 Du kan slette gruppeoversikter som du har opprettet. Forhåndsdefinerte gruppeoversikter kan ikke fjernes.
 
-1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i>) i ***Oversikt**-fanen.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i>) i **Oversikt**-fanen.
 
 1. Velg **Slett gruppeoversikt** fra menyen.
 

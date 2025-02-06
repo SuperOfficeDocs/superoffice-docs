@@ -48,9 +48,9 @@ Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffic
 
 ### Tilgjengelige parametere
 
-**IP-telefon**: tel:%p (standardverdi)
-**Skype**: callto:%p
-**FaceTime**: facetime:%p
+* **IP-telefon**: `tel:%p` (standardverdi)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
 Det er også mulig å bruke [malvariabler][2] i telefonparameterne.
 

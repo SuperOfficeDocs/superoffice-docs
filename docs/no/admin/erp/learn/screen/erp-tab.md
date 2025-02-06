@@ -21,8 +21,8 @@ language: no
 
 Denne integrasjonen sikrer datakonsistens på tvers av systemer, og reduserer behovet for manuelle oppdateringer og feil.
 
-[!NOTE]
-ERP-fanen vil kun være synlig for brukere med riktig lisens og innstillinger aktivert i Innstillinger og vedlikehold.
+> [!NOTE]
+> ERP-fanen vil kun være synlig for brukere med riktig lisens og innstillinger aktivert i Innstillinger og vedlikehold.
 
 <!-- Referenced links -->
 [1]: ../../../../../en/admin/license/expander-services/tool-box.md

@@ -16,7 +16,7 @@ language: no
 
 Du kan legge til en person i SuperOffice CRM på flere måter:
 
-* Fra **topplinjen** eller **Firma-bildet** (se trinn nedenfor).
+* Fra **toppraden** eller **Firma-bildet** (se trinn nedenfor).
 * [Skann et visittkort][1] med SuperOffice Mobile CRM-appen.
 * [Masseimporter personer][2] (krever administratorrettigheter).
 
@@ -24,7 +24,7 @@ Du kan legge til en person i SuperOffice CRM på flere måter:
 
 1. **Åpne Person-bildet:**
 
-    * Klikk på **Ny** i **topplinjen**, og velg **Person**.
+    * Klikk på **Ny** i toppraden, og velg **Person**.
     * Eller, gå til ønsket firma i **Firma-bildet**, velg detaljekortet **Personer**, og klikk på **Legg til**-knappen.
 
 1. **Oppgi grunnleggende personopplysninger:**

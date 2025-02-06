@@ -29,7 +29,7 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 ![Endre fullført status for en oppfølging -screenshot][img4]
 
 > [!NOTE]
-> Hvis du vil redigere en fullført aktivitet, må du først fjerne merket for **Fullført**-statusen.
+> Hvis du vil redigere en fullført aktivitet, må du først fjerne merket for **Utført**-statusen.
 
 <!-- Referenced links -->
 

@@ -23,7 +23,7 @@ Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På
 
 ## Søke etter informasjon i SuperOffice CRM
 
-1. Klikk på **Finn**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [topplinjen][1].
+1. Klikk på **Finn**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
 
 2. Klikk på typen post du vil søke etter, eller klikk på **Vanlige søk** for å vise en liste over forhåndsdefinerte søk. Fanen **Kriterier** åpnes.
 
@@ -55,10 +55,12 @@ Med Finn-funksjonen kan du utføre et søk ved å kombinere søkekriterier med v
 
 La oss ta en titt på noen praktiske eksempler på hvordan du kan bruke ELLER-funksjonen. Du kan søke etter alle kunder som har kjøpt "Produkt A" og kunder som ikke har kjøpt "Produkt B" for å øke kryssalg. Eller du kan søke etter alle store kunder basert i Liverpool eller Manchester, slik at du kan kontakte dem om et kommende arrangement i en av disse byene.
 
-Se denne videoen for å lære hvordan du oppretter et søk ved hjelp av ELLER-funksjonen (videolengde - 4:08):
+Se denne videoen for å lære hvordan du oppretter et søk ved hjelp av ELLER-funksjonen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+(videolengde - 4:08)
 
 ## <a id="results"></a>Jobbe med søkeresultater
 
@@ -237,7 +239,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 4. Klikk på **Legg til**.
 
-5. [!include[Select field](includes/select-field.md)] Klikk først på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Oppfølgings**, og deretter på **Hensikt**.
+5. [!include[Select field](includes/select-field.md)] Klikk først på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Oppfølging**, og deretter på **Hensikt**.
 
 6. I den andre listeboksen velger du **Er en av**.
 
@@ -247,7 +249,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 9. Klikk på **Legg til**.
 
-10. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgings**, og deretter på **Sluttdato**.
+10. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølging**, og deretter på **Sluttdato**.
 
 11. I den andre listeboksen velger du **Forrige**.
 
@@ -259,7 +261,7 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 
 15. Klikk på **Legg til**.
 
-16. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgings**, og deretter på **Fullført**.
+16. [!include[Select field](includes/select-field.md)] Klikk først på **Oppfølgingen**, og deretter på **Utført**.
 
 17. Merk av for **Ja**. Du har nå angitt at du vil søke etter oppfølginger som er satt til **Utført**.
 

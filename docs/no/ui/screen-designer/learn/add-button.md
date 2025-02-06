@@ -79,7 +79,7 @@ Navnet og verktøytipsteksten kan oversettes til andre språk.
 
 Når elementet er valgt:
 
-1. Klikk på **A-Z**-knappen ved siden av etiketten.
+1. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> ved siden av etiketten.
 1. Klikk på **Legg til** og velg et språk fra listen.
 1. Skriv inn tekst for det nye språket.
 

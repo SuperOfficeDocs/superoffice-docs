@@ -85,4 +85,4 @@ Du oppdager at kontaktfeltet **Posisjon** sjelden brukes. For å komme i gang me
 
 ## Oppdatere prosjekt
 
-Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Fullført** for disse prosjektene til **Ja**.
+Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Utført** for disse prosjektene til **Ja**.

@@ -32,7 +32,7 @@ Du kan lage en oppfølging som for eksempel vises på aktivitetslisten til alle 
 
 8. I feltet **Prioritet** angir du hvordan du vil prioritere oppfølgingen. Hvis du klikker på pilen, vises en liste med standardalternativene høy, middels og lav prioritet.
 
-9. Merk av for **Fullført** hvis oppfølgingen skal angis som avsluttet.
+9. Merk av for **Utført** hvis oppfølgingen skal angis som avsluttet.
 
     Da blir det ikke inkludert ved bruk av hurtigsøk og i tellere, men vil fortsatt vises i historikklisten.
 

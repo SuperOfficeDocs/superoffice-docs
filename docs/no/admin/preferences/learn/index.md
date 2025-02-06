@@ -15,7 +15,7 @@ language: no
 
 I bildet Preferanser kan du angi preferanser for hele systemet (globalt), én database, én brukergruppe eller én bruker. Preferanser som bare kan angis på globalt nivå (system), er plassert i fanen **[Globale preferanser][1]**.
 
-Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferanser** i topplinjen. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
+Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferanser** i toppraden. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
 
 I tillegg kan du konfigurere videomøter i fanen [Videomøter][8] og dokumentbibliotek i fanen [Dokumentbibliotek][9].
 

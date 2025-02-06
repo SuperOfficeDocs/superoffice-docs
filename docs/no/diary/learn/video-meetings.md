@@ -27,10 +27,12 @@ SuperOffice-videomøtene lar deg planlegge og opprette videomøter direkte fra d
 
 ## Opprette et videomøte
 
-Du kan enkelt konfigurere et videomøte når du oppretter en oppfølging. Se denne videoen for å lære hvordan du oppretter et videomøte, eller følg trinnene nedenfor (videolengde - 1:09):
+Du kan enkelt konfigurere et videomøte når du oppretter en oppfølging. Se denne videoen for å lære hvordan du oppretter et videomøte, eller følg trinnene nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
+
+(videolengde - 1:09)
 
 ### Trinn
 
@@ -65,10 +67,12 @@ Du kan bli med på et videomøte i SuperOffice på flere måter:
 * Klikk på et nettleservarsel (bare tilgjengelig hvis **Alarm**-alternativet er aktivt).
 * Høyreklikk på et videomøte i dagboken, og velg **Bli med i møte**.
 
-Se denne videoen eller følg trinnene nedenfor (videolengde - 1:11):
+Se denne videoen eller følg trinnene nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/uee_XO1kwTc]
+
+(videolengde - 1:11)
 
 ### Trinn
 

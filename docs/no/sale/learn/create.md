@@ -15,10 +15,12 @@ language: no
 
 # Registrer et salg
 
-Du kan opprette et salg i SuperOffice CRM ved å bruke **Ny**-knappen i toppraden. Se denne videoen eller følg trinnene nedenfor for å registrere et salg (videolengde – 2:10):
+Du kan opprette et salg i SuperOffice CRM ved å bruke **Ny**-knappen i toppraden. Se denne videoen eller følg trinnene nedenfor for å registrere et salg:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
+
+(videolengde – 2:10)
 
 ## Trinn
 

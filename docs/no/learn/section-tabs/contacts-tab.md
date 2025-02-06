@@ -25,7 +25,7 @@ Detaljkortet **Personer** i SuperOffice CRM lar brukere se og administrere alle 
 | Kolonne | Beskrivelse av detaljkortet |
 |---|---|
 | Info           | Viser et binders-ikon (<i class="ph ph-paperclip" aria-hidden="true"></i>) hvis **Notat**-fanen i Personkortet har et notat. Hold musepekeren over ikonet for å vise notatet. |
-| Interesser     | Viser et nålikon (<i class="ph ph-push-pin" aria-hidden="true"></i>) hvis personen har interesser. Hold musepekeren over ikonet for å se interessene. |
+| Interesser     | Viser en prikk hvis personen har interesser. Hold musepekeren over ikonet for å se interessene. |
 | Hr/Fr       | Viser hvordan personen skal tituleres. |
 | Fornavn / Mellomnavn / Etternavn | Fullt navn på personen. Bruken av mellomnavn kan konfigureres i **Innstillinger og vedlikehold**. |
 | Tittel         | Viser personens profesjonelle tittel eller rolle i firmaet. |

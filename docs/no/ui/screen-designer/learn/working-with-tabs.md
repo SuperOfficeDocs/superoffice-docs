@@ -28,7 +28,7 @@ Opprettelse av tilpassede faner lar deg gruppere relaterte felter på en måte s
 
 2. Under **Fanenavn**, erstatt teksten "Ny fane" med det nye fanenavnet.
 
-    Du kan også klikke på **A-Z** for å [legge til fanenavnet på andre språk][3].
+    Du kan også klikke på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til fanenavnet på andre språk][3].
 
 3. Velg antall kolonner du vil bruke i den nye fanen.
 

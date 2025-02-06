@@ -25,7 +25,7 @@ Gjør ett av følgende:
 * Bruk [dashbord][18].
 * Bruk [utvalg][10] for saker.
 * Bruk [navigatørsøket][19] på Saker.
-* Bruk [Finn][11] i topplinjen, velg et av de vanlige søkene, eller legg til ønskede kriterier.
+* Bruk [Finn][11] i toppraden, velg et av de vanlige søkene, eller legg til ønskede kriterier.
 
 ## <a id="list"></a>Bruk lister
 

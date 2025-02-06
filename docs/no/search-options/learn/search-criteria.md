@@ -17,10 +17,12 @@ Overalt der du kan legge inn søkekriterier, finner du en liste over kriterier s
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
 
-Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor (videolengde – 3:01):
+Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolengde – 3:01)
 
 ## Legg til søkekriterier
 

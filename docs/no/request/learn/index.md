@@ -4,8 +4,8 @@ title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, sak, service
 author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 license: serviceessentials
 audience: person
@@ -23,10 +23,12 @@ Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttesp
 
 ![Sak med liste over ufordelte saker med forhåndsvisning -screenshot][img1]
 
-Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52):
+Helt ny innen sakshåndtering i SuperOffice? Start med denne korte produktomvisningen for en introduksjon til hva du kan forvente :
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2mRyStK5xPs]
+
+(videolengde – 2:52)
 
 ## <a id="open"></a>Hvor får jeg tilgang til saker?
 

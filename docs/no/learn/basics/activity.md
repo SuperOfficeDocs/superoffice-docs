@@ -48,7 +48,7 @@ Hvilke aktiviteter som vises, avhenger av filtrene du velger nederst i fanen. Du
 
 Kolonnene i aktivitetslisten inneholder følgende informasjon:
 
-* Den første kolonnen angir om en aktivitet er **Fullført**. En hake (<i class="ph ph-check" aria-hidden="true"></i>) betyr at aktiviteten er fullført, mens en tom boks betyr at den ikke er fullført.
+* Den første kolonnen angir om en aktivitet er **Utført**. En hake (<i class="ph ph-check" aria-hidden="true"></i>) betyr at aktiviteten er fullført, mens en tom boks betyr at den ikke er fullført.
 
 * **Kategori**-kolonnen viser ikoner som angir aktivitetstype, for eksempel en kalender for et møte. Disse ikonene gjenspeiler teksten i **Type**-kolonnen.
 

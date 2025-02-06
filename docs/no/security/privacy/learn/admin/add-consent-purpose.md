@@ -45,7 +45,7 @@ Se denne videoen og finn ut hvordan du legger til og redigerer formål for behan
         * Bekreftelse om at dataene vil ikke bli delt med andre parter og lagres på en sikker måte
         * Informasjon om hvordan de kan endre eller trekke tilbake samtykke når som helst
 
-4. Klikk på **A-Z** ved siden av et felt for å legge til nye eller redigere eksisterende [oversettelser][1] av felttekstene.
+4. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> ved siden av et felt for å legge til nye eller redigere eksisterende [oversettelser][1] av felttekstene.
 
 5. Klikk på **Lagre** når du er ferdig.
 

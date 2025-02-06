@@ -18,10 +18,12 @@ Hvis du lager nye maler eller endrer en standardmal og lagrer den med et annet f
 
 Maler vises som forekomster på listen **Dokument - mal**, og du knytter en mal til SuperOffice CRM ved å legge den til som en forekomst på listen.
 
-Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan du kan legge til en dokumentmal (videolengde – 2.30):
+Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan du kan legge til en dokumentmal:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(videolengde – 2.30)
 
 ## Trinn
 

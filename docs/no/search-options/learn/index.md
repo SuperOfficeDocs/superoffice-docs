@@ -47,9 +47,9 @@ Choose the right tool for your task:
 |---|---|
 | Finn og gå til noe spesifikt, slik som et salg. | Hurtigsøk i navigator, eller favoritter, eller histrorielisten|
 | Kontroller før du legger til et firma eller en person for å unngå duplikater. | Hurtigsøk i navigator |
-| Finn alle data av en spesifikk type basert på kriterier | Finn knappen |
-| Lage et utvalg (lagre søkeresultat) | Finn knappen |
-| Utføre et forhåndsdefinert søk | Finn knappen |
+| Finn alle data av en spesifikk type basert på kriterier | Finn-knappen |
+| Lage et utvalg (lagre søkeresultat) | Finn-knappen |
+| Utføre et forhåndsdefinert søk | Finn-knappen |
 | Finne alle treff for et spesifikt ord eller frase uavhengig av type | Fritekstsøk |
 
 Hovedforskjellen mellom disse verktøyene er om du angir nøkkelord eller betingelser.
@@ -106,10 +106,12 @@ Dette søket gir deg en liste over alle aktivitetene du ikke har fullført ennå
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
 
-Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor (videolengde – 3:01):
+Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolengde – 3:01)
 
 ## <a id="search-to-selection"></a>Opprett et søk og lagre det som et utvalg
 
@@ -129,10 +131,12 @@ Det finnes tre måter å lagre søkeresultatene på som utvalg:
 
 * **Legg til i eksisterende statisk utvalg:** Du kan legge til alle postene du fant i søket, i et eksisterende statisk utvalg i stedet for å opprette et nytt utvalg.
 
-Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan opprette et søk og lagre det som et dynamisk utvalg (videolengde - 1:26):
+Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan opprette et søk og lagre det som et dynamisk utvalg:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
+
+(videolengde - 1:26)
 
 ## Aktuelt innhold
 
