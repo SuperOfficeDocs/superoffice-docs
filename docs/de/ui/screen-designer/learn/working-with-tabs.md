@@ -1,7 +1,7 @@
 ---
 uid: help-de-screen-designer-tabs
 title: Arbeiten mit Registerkarten
-description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Wartung.
+description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Verwaltung.
 keywords: Ansichtsdesigner,Layout, Registerkarten-Layout, Überschrift, Bezeichnung, Trennlinie
 author: Bergfrid Dias
 date: 10.07.2024
@@ -28,7 +28,7 @@ Das Erstellen benutzerdefinierter Registerkarten ermöglicht es Ihnen, verwandte
 
 2. Ersetzen Sie unter **Registerkartetitel** den Text "Neue Registerkarte" durch den neuen Namen für die Registerkarte.
 
-    Sie können auch auf die **A-Z**-Schaltfläche klicken, um den Titel in anderen Sprachen hinzuzufügen.
+    Sie können auch <i class="ph ph-translate" aria-label="Translate"></i> klicken, um den Titel in anderen Sprachen hinzuzufügen.
 
 3. Wählen Sie die Anzahl der Spalten, die Sie in der neue Registerkarte verwenden möchten.
 
@@ -67,7 +67,7 @@ Bezeichnungen und Trennlinien helfen dabei, Felder innerhalb einer Registerkarte
 2. Klicken Sie auf den Abschnitt **Elemente**.
 3. Um eine Überschrift hinzuzufügen, ziehen Sie das Element **Bezeichnung** in das Layout.
 
-    * Ersetzen Sie im Abschnitt **Einstellungen** den Text "Neues Bezeichnung" durch den neuen Bezeichnungen-Namen. Optional können Sie auf die **A-Z**-Schaltfläche neben der Beschriftung klicken, um den Registerkarten-Namen in anderen Sprachen hinzuzufügen.
+    * Ersetzen Sie im Abschnitt **Einstellungen** den Text "Neues Bezeichnung" durch den neuen Bezeichnungen-Namen. Optional können Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben der Beschriftung klicken, um den Registerkarten-Namen in anderen Sprachen hinzuzufügen.
     * Passen Sie die Schriftart bei Bedarf an.
 
 4. Um eine horizontale Trennlinie hinzuzufügen, ziehen Sie das **Trennlinie**-Element in das Layout. Ändern Sie gegebenenfalls den Abstandhaltertyp.

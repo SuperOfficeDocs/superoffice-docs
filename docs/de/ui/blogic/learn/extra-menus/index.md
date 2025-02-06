@@ -22,7 +22,7 @@ In der Ansicht **Zusatzmenüs** können Sie Zusatzmenüs (Schaltflächen, Menüs
 * **Hauptmenü**
 
 * Die Kachel **Status** im Dashboard
-  * Schaltflächen ![Symbol][img1] **Aufgabe** in den Hauptansichten
+  * Schaltflächen **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in den Hauptansichten
   * Menüschaltflächen in der Zusatztabelle-Ansicht
 
 * **Navigator**
@@ -49,6 +49,3 @@ Siehe auch [Eigenschaften des Menüs][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

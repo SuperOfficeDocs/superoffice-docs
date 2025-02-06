@@ -33,20 +33,18 @@ Das Erscheinungsbild der Mitgliederliste variiert ein wenig, je nachdem, welche 
 | Kampagnen | Eine Kampagne erstellen, die an Personen in einer Selektion gesendet werden soll. [Kampagnen anzeigen](#mailing), die in dieser Selektion archiviert sind. |
 
 > [!TIP]
-> Klicken Sie auf ![Symbol][img3] rechts neben den Spaltenkopfzeilen in einer Selektion, um Datensätze zu gruppieren und zu filtern, Spalten hinzuzufügen/zu entfernen, und Berechnungen angeben. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][9] für zusätzliche Funktionen.
+> Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenkopfzeilen in einer Selektion, um Datensätze zu gruppieren und zu filtern, Spalten hinzuzufügen/zu entfernen, und Berechnungen angeben. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][9] für zusätzliche Funktionen.
 
-Um zwischen Selektionen zu wechseln, klicken Sie auf die Schaltflächen Zurück/Weiter (![Symbol][img2] ![Symbol][img1]) weiter oben rechts in der Ansicht.
+Um zwischen Selektionen zu wechseln, klicken Sie auf die Schaltflächen Zurück/Weiter (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) weiter oben rechts in der Ansicht.
 
 ### <a id="filter"></a>Mitgliederliste filtern
 
 > [!NOTE]
 > Bevor Sie die Mitgliederliste filtern (zum Beispiel nach Verkäufen oder Folgeaufgaben), müssen Sie in der Registerkarte Fußzeile auf **Alle anzeigen** klicken. So stellen Sie sicher, dass auf der Registerkarte alle Datensätze in der Selektion angezeigt werden. Zur Optimierung der Leistung bei der Arbeit mit großen Selektionen werden üblicherweise nur die ersten 100 Datensätze in die Mitgliederliste geladen.
 
-Um den Spaltenfilter zu aktivieren, klicken Sie auf ![Symbol][img3] rechts neben den Spaltenkopfzeilen und dann auf **Filter aktivieren**. Die Filterschaltfläche (![Symbol][img7]) wird jetzt in der Spalte angezeigt, die [gefiltert][8] werden kann.
+Um den Spaltenfilter zu aktivieren, klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenkopfzeilen und dann auf **Filter aktivieren**. Die Filterschaltfläche (<i class="ph ph-funnel" aria-hidden="true"></i>) wird jetzt in der Spalte angezeigt, die [gefiltert][8] werden kann.
 
-### Schaltfläche Aufgabe
-
-![Symbol][img6]
+### Schaltfläche Aufgabe <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
 Verwenden Sie die Schaltfläche **Aufgabe**, um verschiedene Aufgaben für alle oder einige Mitglieder der Selektion auszuführen. Beispiele: Senden von E-Mails, Massenbearbeitung und Exportieren. Welche Aufgaben angezeigt werden, hängt vom Datensatztyp in der Selektion ab (welche Auswahl Sie im Feld **Selektion aus** getroffen haben).
 
@@ -59,9 +57,9 @@ Verwenden Sie die Schaltfläche **Aufgabe**, um verschiedene Aufgaben für alle 
 * **Alle anzeigen**. Wird verwendet, um alle Selektionsmitglieder anzuzeigen.
 
     > [!NOTE]
-    > Standardmäßig zeigt die Liste nur die ersten 100 Datensätze in der Selektion. Gehen Sie zu ![Symbol][img4] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** > **Größe der Archivseite**, um diesen Wert zu ändern.
+    > Standardmäßig zeigt die Liste nur die ersten 100 Datensätze in der Selektion. Gehen Sie zu <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** > **Größe der Archivseite**, um diesen Wert zu ändern.
 
-* ![Symbol][img5]: Aktualisiert die Daten in der Liste.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Aktualisiert die Daten in der Liste.
 
 ### <a id="mailing"></a> Bei Selektion archivierte Kampagnen anzeigen
 
@@ -91,10 +89,3 @@ Doppelklicken Sie auf eine Kampagne, um sie zu öffnen.
 [4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../common/icons/cog-wheel.png
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/arrow-left.png
-[img4]: ../../../../../media/icons/personal-settings-small.png
-[img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../../media/loc/en/learn/task.png

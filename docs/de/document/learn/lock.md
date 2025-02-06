@@ -2,11 +2,12 @@
 uid: help-de-document-lock
 title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
-keywords: Dokument
+keywords: einschecken, auschecken, dokument Dearbeinten, Bearbeitungsmodus, Lesemodus, Dokument
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -24,33 +25,15 @@ In SuperOffice CRM sind häufig viele Benutzer gleichzeitig damit befasst, Dokum
 
 * Lesemodus: Das Dokument ist zum Lesen geöffnet. Änderungen, die Sie am Dokument vornehmen, werden nicht gespeichert. Um das [Dokument mit den Änderungen speichern][1] möchten, müssen Sie in SuperOffice CRM ein neues Dokument erstellen und die Datei mit den Änderungen hochladen.
 
-Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
+Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
 
 ## Woran erkannt man, ob ein Dokument ausgecheckt wurde?
 
-<!-- markdownlint-disable MD051 -->
-### [Neu (ab Version 10.3.1)](#tab/lock-new)
-
 Im Dialogfeld **Dokument** zeigt ein ausgechecktes Dokument ein Banner mit Informationen darüber, wer das Dokument bearbeitet.
 
-![Symbol][img5] **Sie** bearbeiten dieses Dokument.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> **Sie** bearbeiten dieses Dokument.
 
-![Symbol][img5] Sie können dieses Dokument nicht bearbeiten, da es von **NN** gesperrt ist.
-
-### [Klassisch (onsite)](#tab/lock-old)
-
-Im Dialogfeld **Dokument** ist ein ausgechecktes Dokument mit einem der folgenden Symbole gekennzeichnet:
-
-![Symbol][img3] Das Dokument ist derzeit zur Bearbeitung durch Sie ausgecheckt.
-
-![Symbol][img4] Das Dokument ist derzeit zur Bearbeitung durch einen anderen Benutzer ausgecheckt.
-
-Zeigen Sie mit dem Mauszeiger auf ein Symbol, um Informationen über den Benutzer anzuzeigen, der das Dokument ausgecheckt hat.
-
-Wenn Sie versuchen, ein ausgechecktes Dokument zu öffnen, wird ein Dialogfeld mit Informationen über den Benutzer angezeigt, der das Dokument ausgecheckt hat. Sie können das Dokument nur im Lesemodus öffnen.
-
-***
-<!-- markdownlint-restore -->
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> Sie können dieses Dokument nicht bearbeiten, da es von **NN** gesperrt ist.
 
 ## Dokument zur Bearbeitung auschecken
 
@@ -72,13 +55,9 @@ Für den Zugriff auf diese Option benötigen Sie spezielle Rechte. Zudem benöti
 Wenn ein Dokument von Ihnen oder einem anderen Benutzer ausgecheckt wurde und Sie das Dokument bearbeiten möchten, können Sie das Auschecken wie folgt abbrechen:
 
 1. Klicken Sie mit der rechten Maustaste auf das Dokument und wählen Sie **Dokument**.
-2. Klicken Sie in der Anzeige Dokument auf **Aufgabe** und wählen Sie **Zurück zur gespeicherten Version** aus.
+2. Klicken Sie im Dokument-Dialogfeld auf <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-knappen"></i> und wählen Sie **Zurück zur gespeicherten Version** aus.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/document-lock-editing.png
-[img4]: ../../../media/icons/document-lock-locked.png
-[img5]: ../../../../common/icons/ops.png

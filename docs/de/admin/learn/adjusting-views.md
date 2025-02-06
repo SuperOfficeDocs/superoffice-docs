@@ -33,7 +33,7 @@ Viele der Ansichten in Einstellungen und Verwaltung bestehen aus unterschiedlich
 
 In Einstellungen und Verwaltung sind verschiedene Listenansichten enthalten, wie zum Beispiel Listen für Einstellungen, für Listen und für benutzerdefinierte Felder. So passen Sie die Spaltenbreite in diesen Ansichten an:
 
-1. Positionieren Sie den Mauszeiger über der vertikalen Trennlinie vor oder hinter einem Spaltentitel. Der Mauszeiger wird zu einem ![Symbol][img3], einer vertikalen Doppellinie mit Pfeilen.
+1. Positionieren Sie den Mauszeiger über der vertikalen Trennlinie vor oder hinter einem Spaltentitel. Der Mauszeiger wird zu einer vertikalen Doppellinie mit Pfeilen (<i class="ph ph-split-horizontal" aria-hidden="true"></i>).
 2. Halten Sie die Maustaste gedrückt, während Sie die Trennlinie in die gewünschte Richtung ziehen, die Spalte also entweder verschmälern oder verbreitern.
 
 Die Spalten behalten beim nächsten Ausführen des Programms die festgelegte Breite bei.
@@ -46,22 +46,13 @@ Sie können festlegen, welche Spalten in der Liste angezeigt werden und in welch
 
 2. Nehmen Sie in den Spalten die gewünschten Änderungen vor:
 
-    * Spalten hinzufügen: Wählen Sie im Fenster **Verfügbare Spalten** die hinzuzufügenden Spalten aus, und klicken Sie auf den ![Symbol][img1] rechten Pfeil, um die Spalten in das Fenster **Ausgewählte Spalten** zu verschieben.
+    * Spalten hinzufügen: Wählen Sie im Fenster **Verfügbare Spalten** die hinzuzufügenden Spalten aus, und klicken Sie auf den rechten Pfeil, um die Spalten in das Fenster **Ausgewählte Spalten** zu verschieben.
 
-    * Spalten entfernen: Wählen Sie im Bereich **Ausgewählte Spalten** die zu entfernenden Spalten aus, und klicken Sie auf den ![Symbol][img2] Nach-Links-Pfeil, um sie in den Bereich **Verfügbare Spalten** zu verschieben.
+    * Spalten entfernen: Wählen Sie im Bereich **Ausgewählte Spalten** die zu entfernenden Spalten aus, und klicken Sie auf den Nach-Links-Pfeil, um sie in den Bereich **Verfügbare Spalten** zu verschieben.
 
-    * Spaltenreihenfolge ändern: Wählen Sie im Bereich **Ausgewählte Spalten** die Spalte aus, die Sie in der Ansicht nach links oder rechts verschieben möchten, und klicken Sie anschließend auf den ![Symbol][img4] Nach-Oben- oder auf den ![Symbol][img5] Nach-Unten-Pfeil.
+    * Spaltenreihenfolge ändern: Wählen Sie im Bereich **Ausgewählte Spalten** die Spalte aus, die Sie in der Ansicht nach links oder rechts verschieben möchten, und klicken Sie anschließend auf <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> oder auf <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>.
 
 3. Klicken Sie auf **Speichern**.
 
 > [!TIP]
 > Klicken Sie zum Zurücksetzen der Spaltenanordnung unten im Fenster **Ausgewählte Spalten** auf **Zurücksetzen**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.png
-[img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/arrow-down.png

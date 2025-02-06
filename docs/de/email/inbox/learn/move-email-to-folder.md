@@ -15,7 +15,7 @@ language: de
 
 1. Gehen Sie zur Schaltfläche E-Mail.
 2. Wählen Sie eine E-Mail im Posteingang aus.
-3. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aktionen** und wählen Sie **In Ordner verschieben** aus.
+3. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **In Ordner verschieben** aus.
 4. Wählen Sie den gewünschten Ordner aus. Die Nachricht wird in den angegebenen Ordner verschoben.
 
 ## Mehrere E-Mail-Nachrichten in einen anderen Ordner verschieben
@@ -24,8 +24,3 @@ language: de
 2. Wählen Sie die E-Mails im Posteingang aus.
 3. Wählen Sie im Vorschaufenster rechts **In Ordner verschieben**.
 4. Wählen Sie den gewünschten Ordner aus. Die Nachrichten werden in den angegebenen Ordner verschoben.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

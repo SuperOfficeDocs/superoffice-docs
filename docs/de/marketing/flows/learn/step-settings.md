@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice Marketing
 # Schrittoptionen
 
 > [!NOTE]
-> Viele Felder bieten eine Liste vordefinierter Werte, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img4], um die Liste zu erweitern, oder beginnen Sie mit der Eingabe im Feld, um nach einem bestimmten Wert zu suchen.
+> Viele Felder bieten eine Liste vordefinierter Werte, aus denen Sie wählen können. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i>, um die Liste zu erweitern, oder beginnen Sie mit der Eingabe im Feld, um nach einem bestimmten Wert zu suchen.
 
 ## Zu Selektion und/oder Projekt hinzufügen
 
@@ -157,7 +157,4 @@ Funktioniert ähnlich wie [Massenabgleich][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png
+[14]: ../../../sale/learn/sales-guides.md

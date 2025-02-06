@@ -22,7 +22,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihr Chat-Widget einrichten
 
 ## Schritte
 
-1. Klicken Sie im Navigator auf ![Symbol][img2] **Chat** .
+1. Klicken Sie im Navigator auf <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** .
 
 2. Klicken Sie in der Liste der Chat-Kanäle unten auf **Hinzufügen**.
 
@@ -35,7 +35,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihr Chat-Widget einrichten
 5. Klicken Sie, sobald Sie fertig sind, auf **Speichern**.
 
 > [!NOTE]
-> Felder mit rotem Rahmen sind Pflichtfelder. Registerkarten mit dem ![Symbol][img4] enthalten leere Pflichtfelder.
+> Felder mit rotem Rahmen sind Pflichtfelder. Registerkarten mit dem Symbol <i class="ph ph-warning-circle" aria-label="Warning icon"></i> enthalten leere Pflichtfelder.
 
 ## Eigenschaften
 
@@ -144,9 +144,3 @@ In der Vorschau auf der rechten Seite ist das Chat-Fenster mit den aktuellen Ein
 ### Kann ich einen Chat-Kanal löschen?
 
 Ja, aber achten Sie darauf, dass der Chat-Kanal nicht auf einer Website verwendet wird. Ansonsten ist das Chatfenster zwar sichtbar, aber nicht funktionsfähig.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

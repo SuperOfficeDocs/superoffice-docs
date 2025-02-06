@@ -13,7 +13,7 @@ language: de
 
 # FAQ-Einträge anzeigen (in SuperOffice)
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus. Sie gelangen zur Ansicht FAQ, die FAQ-Einträge in einer [Ordnerstruktur][1], die Sie selbst erstellen und bearbeiten können.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus. Sie gelangen zur Ansicht FAQ, die FAQ-Einträge in einer [Ordnerstruktur][1], die Sie selbst erstellen und bearbeiten können.
 
 2. Falls die Liste mehrere Unterordner enthält, wählen Sie den gewünschten Unterordner aus.
 
@@ -41,6 +41,3 @@ Um den aktuellen FAQ-Eintrag zu veröffentlichen, wählen Sie **Im Workflow vorw
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

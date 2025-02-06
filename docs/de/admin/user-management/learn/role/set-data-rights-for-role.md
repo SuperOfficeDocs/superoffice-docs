@@ -28,7 +28,7 @@ Sie können Rechte für [Datenobjekte][2] festlegen, die davon abhängen, wer Ei
 
 3. Wählen Sie die gewünschte Rolle in der Liste **Rollen**. Die Rechte für die ausgewählte Rolle werden auf der Registerkarte **Datenrechte** angezeigt.
 
-4. Klicken Sie auf das ![Symbol][img3] Pfeil neben dem zu ändernden Recht und wählen Sie das gewünschte Recht aus.
+4. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem zu ändernden Recht und wählen Sie das gewünschte Recht aus.
 
     | Name | Rechte | QuickInfo |
     |---|---|---|
@@ -70,6 +70,3 @@ Wenn externe Benutzer (Audience-Benutzer) Zugriff auf die Datenobjekte (Firmen, 
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
 [3]: functional-rights.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

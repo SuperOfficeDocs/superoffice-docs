@@ -38,13 +38,13 @@ In der Ecke rechts oben in der Ansicht **Chat** können Sie Ihren Anwesenheitsst
 3. Klicken Sie auf **Nächsten in Warteschlange abrufen**, um den nächsten Chat in der Warteschlange zu beantworten.
 
     > [!NOTE]
-    > Um auf einen bestimmten Chat zu antworten (z. B. von einem wiederkehrenden Kunden, doppelklicken Sie auf die entsprechende Zeile in der Liste**Eingehender Chat** auf der Registerkarte **Dashboard**).
+    > Um auf einen bestimmten Chat zu antworten (z. B. von einem wiederkehrenden Kunden), doppelklicken Sie auf die entsprechende Zeile in der Liste**Eingehender Chat** auf der Registerkarte **Dashboard**.
 
 4. Versuchen Sie, die Option [Kunden in SuperOffice suchen][1] auszuführen, damit Sie relevante Informationen über ihn in der Seitenleiste sehen können, um Ihnen bei der Beantwortung seiner Anfrage zu helfen.
 
 5. Geben Sie zum Chatten Text in den unteren Bereich des Bildschirms ein und drücken Sie danach die **EINGABETASTE** oder klicken Sie auf **Senden**.
 
-6. Um Emojis/Sticker zu verwenden, klicken Sie auf ![Symbol][img5] neben dem Textfeld.
+6. Um Emojis/Sticker zu verwenden, klicken Sie auf <i class="ph ph-smiley" aria-label="Smiley"></i> neben dem Textfeld.
 
 7. Wenn Sie dem Kunden bei seiner Frage nicht helfen können, führen Sie einen der folgenden Schritte aus:
 
@@ -55,7 +55,7 @@ In der Ecke rechts oben in der Ansicht **Chat** können Sie Ihren Anwesenheitsst
     * [FAQ, eine Antwortvorlage oder eine Schnellantwort send][4], und/oder
     * [Datei senden][5]
 
-9. Wenn die Konversation beendet ist, können Sie auf das ![Symbol][img1] klicken und **Chat beenden** auswählen (es sei denn, der Kunde schließt zuerst das Chat-Fenster). Der Chat wird nach **Letzte Chat-Sitzungen** verschoben. Sie können auch eine Aufzeichnung des Chats auf der Registerkarte **Aktivitäten** in SuperOffice CRM finden.
+9. Wenn die Konversation beendet ist, können Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> klicken und **Chat beenden** auswählen (es sei denn, der Kunde schließt zuerst das Chat-Fenster). Der Chat wird nach **Letzte Chat-Sitzungen** verschoben. Sie können auch eine Aufzeichnung des Chats auf der Registerkarte **Aktivitäten** in SuperOffice CRM finden.
 
 > [!NOTE]
 > Wenn das Post-Chat-Formular für diesen Chat-Kanal aktiv ist, kann der Kunde zum Chat zurückkehren. Der Chat wird reaktiviert.
@@ -83,9 +83,7 @@ Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfrage
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

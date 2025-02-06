@@ -42,7 +42,7 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 1. Wählen Sie das Feld **Person - Name** aus und klicken Sie auf das rote X, um dieses Feld zu entfernen.
 
-1. Klicken Sie auf die Schaltfläche **Hinzufügen** ![Symbol][img1] und fügen Sie die folgenden Felder hinzu:
+1. Klicken Sie auf <i class="ph ph-plus" aria-label="Add"></i> und fügen Sie die folgenden Felder hinzu:
 
     * Vor- und Nachname.
 
@@ -107,9 +107,9 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
     Ihr SuperShop-Team
     </details>
 
-1. Klicken Sie auf **Bestätigungs-Link einfügen** ![Symbol][img3]. Der Bestätigungs-Link wird in den Text eingefügt.
+1. Klicken Sie auf **Bestätigungs-Link einfügen** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>). Der Bestätigungs-Link wird in den Text eingefügt.
 
-1. Klicken Sie auf den Bestätigungs-Link, wählen Sie **Link bearbeiten** ![Symbol][img5] und ändern Sie den Link-Text in "Zum Bestätigen der E-Mail-Adresse hier klicken". Der Link ist standardmäßig 30 Minuten lang gültig.
+1. Klicken Sie auf den Bestätigungs-Link, wählen Sie **Link bearbeiten** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) und ändern Sie den Link-Text in "Zum Bestätigen der E-Mail-Adresse hier klicken". Der Link ist standardmäßig 30 Minuten lang gültig.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 
@@ -165,9 +165,6 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

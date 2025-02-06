@@ -35,7 +35,7 @@ Wenn Sie auf eine Anfrage antworten und denken, dass dieselbe Frage erneut geste
 
 1. [Öffnen Sie eine Anfrage][1].
 
-1. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** und wählen Sie **In FAQ veröffentlichen** aus. Sie gelangen zur Ansicht **Eigenschaften des FAQ-Eintrags**.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **In FAQ veröffentlichen** aus. Sie gelangen zur Ansicht **Eigenschaften des FAQ-Eintrags**.
 
    ![Die Ansicht Eigenschaften des FAQ-Eintrags -screenshot][img5]
 
@@ -69,14 +69,14 @@ Wenn Sie auf eine Anfrage antworten und denken, dass dieselbe Frage erneut geste
 
     1. Klicken Sie neben **Anlage** auf **Datei auswählen**.
     2. Navigieren Sie im Dialogfeld zum erforderlichen Dokument.
-    3. Klicken Sie auf ![Symbol][img1], um die Anlage hinzuzufügen.
+    3. Klicken Sie auf **+**, um die Anlage hinzuzufügen.
     4. Fügen Sie weitere Anlagen auf dieselbe Weise hinzu.
 
 1. Im Feld **Link** können Sie eine oder mehrere Adressen von relevanten Websites hinzufügen:
 
     1. Geben Sie im Feld auf der linken Seite den Namen ein, unter dem der Link angezeigt werden soll.
     2. Geben Sie im Feld auf der rechten Seite die eigentliche Webadresse nach `http://` ein.
-    3. Klicken Sie auf ![Symbol][img1] **Hinzufügen**, um den Link hinzuzufügen.
+    3. Klicken Sie auf **+**, um den Link hinzuzufügen.
     4. Fügen Sie weitere Links auf dieselbe Weise hinzu.
 
 1. Gehen Sie zur Registerkarte **Frage**.
@@ -84,7 +84,7 @@ Wenn Sie auf eine Anfrage antworten und denken, dass dieselbe Frage erneut geste
 1. Geben Sie die Frage ein, die der FAQ-Eintrag enthalten soll. Standardmäßig wird die erste Nachricht in der Anfrage in die Registerkarte **Frage** eingefügt.
 
     > [!TIP]
-    > Klicken Sie auf ![Symbol][img2] **Schriftart**, um das Layout des Textes zu ändern.
+    > Klicken Sie auf **Schriftart** (<i class="ph ph-text-a-underline" aria-hidden="true"></i>), um das Layout des Textes zu ändern.
 
 1. Gehen Sie zur Registerkarte **Antwort** und geben Sie die Antwort ein. Standardmäßig werden die nächsten Nachrichten in der Anfrage in die Registerkarte **Antwort** eingefügt.
 
@@ -94,7 +94,7 @@ Wenn Sie auf eine Anfrage antworten und denken, dass dieselbe Frage erneut geste
 
 ## Neuen FAQ-Eintrag erstellen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 
 1. Wechseln Sie zu dem Ordner, in den Sie den FAQ-Eintrag stellen möchten. Wenn er noch nicht vorhanden ist, können Sie einen [neuen Ordner erstellen][2].
 
@@ -121,8 +121,5 @@ Da nur **Administratoren** FAQ-Einträge so erstellen können, muss hierbei kein
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

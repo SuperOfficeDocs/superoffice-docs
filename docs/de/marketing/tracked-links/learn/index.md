@@ -38,10 +38,10 @@ Auf der Registerkarte **Überwachte Links** stehen folgende Optionen zur Verfüg
 
 | Symbol | Option | Weiterlesen |
 |:-:|---|---|
-| ![Symbol][img2] | Nachricht | [Neuen Link erstellen][1], [Verknüpfungsaktionen definieren][7] |
-| ![Symbol][img3] | Ordner hinzufügen | Für Ihre Links einen [Ordner erstellen][5] |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Nachricht | [Neuen Link erstellen][1], [Verknüpfungsaktionen definieren][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Ordner hinzufügen | Für Ihre Links einen [Ordner erstellen][5] |
 | Link | Klicken Sie auf einen Link, um die Ansicht **Link anzeigen** zu öffnen. | [Nach der Kampagne mit überwachten Links arbeiten][2] |
-| ![Symbol][img1] | Menü | Klicken Sie auf die Menüschaltfläche neben einem Link, um mehr Optionen aufzurufen. |
+| <i class="ph ph-list" aria-label="Aufgabe"></i> | Menü | Klicken Sie auf die Menüschaltfläche neben einem Link, um mehr Optionen aufzurufen. |
 
 Menüoptionen:
 
@@ -111,7 +111,4 @@ Die Google Analytics-Funktion in SuperOffice Marketing identifiziert Ihre Kampag
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

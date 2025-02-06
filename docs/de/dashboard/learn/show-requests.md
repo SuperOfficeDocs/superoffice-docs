@@ -23,7 +23,7 @@ Es ist üblich, sich zu Beginn des Tages einen Überblick über den aktuellen St
 
 Wenn Sie bzw. Ihre Rolle über die erforderlichen Rechte verfügen, können Sie den in den Kacheln im Dashboard angezeigten Inhalt auswählen.
 
-1. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
 
 2. Wählen Sie in der Liste **Kacheln anzeigen für** die Option **Anfrage** und eine der vordefinierten Kacheln aus, oder nehmen Sie **Kachelanfrage löschen**
 
@@ -69,8 +69,8 @@ Listet Anfragen auf, die noch niemandem zugeordnet sind. Wenn Sie die [Verantwor
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

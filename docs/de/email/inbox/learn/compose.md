@@ -26,7 +26,7 @@ Füllen Sie die folgenden Felder aus, klicken Sie auf **Erstellen** und erstelle
 
 | Feld | Beschreibung |
 |---|---|
-| Dokumentvorlage | Wenn Sie oben im Dialogfeld auf den Pfeil ![Symbol][img2] neben dem Feld Typ klicken, wird eine Liste der Dokumentvorlagen eingeblendet, aus der Sie wählen können. Die verfügbaren Vorlagen sind in Einstellungen und Verwaltung definiert. |
+| Dokumentvorlage | Wenn Sie oben im Dialogfeld auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem Feld Typ klicken, wird eine Liste der Dokumentvorlagen eingeblendet, aus der Sie wählen können. Die verfügbaren Vorlagen sind in Einstellungen und Verwaltung definiert. |
 | Firma | Geben Sie hier den Namen der Firma ein, an die das Dokument gerichtet ist. |
 | Kontaktperson | Wenn Sie auf den Pfeil neben diesem Feld klicken, wird eine Liste der Personen eingeblendet, die für diese Firma eingetragen sind. |
 | Projekt | Geben Sie den Namen des Projekts ein, mit dem die E-Mail verknüpft werden soll. |
@@ -44,12 +44,10 @@ Wenn Sie die Nachricht fertiggestellt haben und abschicken möchten, haben Sie f
 > [!TIP]
 > Wenn Sie die E-Mail nicht beim Senden archivieren, können Sie immer noch die Option [Gehe zum Ordner mit den gesendeten E-Mails und die Mitteilung archivieren][2] ausführen.
 >
-> Die Signaturvorlage unten in der Nachricht kann unter ![Symbol][img1] **Persönliche Einstellungen** > **Persönliche Signatur bearbeiten** bearbeitet werden.
+> Die Signaturvorlage unten in der Nachricht kann unter <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Persönliche Signatur bearbeiten** bearbeitet werden.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

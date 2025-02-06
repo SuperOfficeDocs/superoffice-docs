@@ -1,15 +1,18 @@
 ---
 uid: help-de-search-intro
 title: Suchoptionen in CRM
-description: "Lernen Sie, wie Sie Daten in SuperOffice CRM mit nur wenigen Klicks suchen und finden können."
-author: Bergfrid Dias
-date: 05.25.2023
+description: Lernen Sie, wie Sie Daten in SuperOffice CRM mit nur wenigen Klicks suchen und finden können.
 keywords: Suchen
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Suchoptionen
+# Suchoptionen <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Die Suche nach Informationen in Ihrer CRM-Datenbank ist eine alltägliche Tätigkeit. Die Suchfunktion hilft Ihnen, die Informationen schneller zu finden, wobei es egal ist, ob Sie nach einer Telefonnummer oder einer Liste aller Ihrer offenen Verkäufe suchen.
 
@@ -78,7 +81,7 @@ Verwenden Sie das Suchfeld für die [Volltextsuche][2] in der oberen rechten Eck
 
 Verwenden Sie bei der Suche **%** als Platzhalter. Das Prozentzeichen (%) entspricht jeder Zeichenfolge mit 0 oder mehr Zeichen. Zum Beispiel: J%son entspricht Jackson, Johnson, Jason und Json.
 
-## Schaltfläche Suchen verwenden
+## Schaltfläche Suchen verwenden <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Wenn Sie in der oberen Leiste auf die Schaltfläche **Suchen** klicken, wird die Ansicht [Suchen][1] geöffnet, in der Sie nach Daten in SuperOffice suchen können. Mit der Schaltfläche Suchen können Sie Datensätze [gemäß beliebigen Kriterien][6] aus Firmen, Personen, Projekten, Selektionen, Verkäufen, Produkten, Folgeaufgaben, Dokumenten und Anfragen suchen.
 
@@ -100,10 +103,12 @@ Durch diese Suche erhalten Sie eine Liste aller Aktivitäten, die Sie noch nicht
 
 Typische Suchanfragen sollen Ihnen den Einstieg und die Erstellung Ihrer eigenen Suche nach CRM-Daten erleichtern. Nachdem Sie eine typische Suchanfrage ausgewählt haben, können Sie die Suchkriterien hinzufügen und bearbeiten. Und nachdem Sie eine nützliche Suche erstellt haben, die Sie erneut verwenden möchten, können Sie diese als Selektion speichern.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen (Videolänge – 3:01):
+Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(Videolänge – 3:01)
 
 ## <a id="search-to-selection"></a>Suche erstellen und als Selektion speichern
 
@@ -123,10 +128,12 @@ Es gibt drei Möglichkeiten, Ihre Suchergebnisse als Selektion zu speichern:
 
 * **Zu bestehender statischer Selektion hinzufügen:** Anstatt eine neue Selektion zu erstellen, können Sie alle bei Ihrer Suche gefundenen Datensätze zu einer vorhandenen statischen Selektion hinzufügen.
 
-Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus, um zu erfahren, wie Sie eine Suchanfrage erstellen und als dynamische Selektion speichern können (Videolänge - 1:26):
+Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus, um zu erfahren, wie Sie eine Suchanfrage erstellen und als dynamische Selektion speichern können:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
+
+(Videolänge - 1:26)
 
 ## Zugehörige Inhalte
 
@@ -149,4 +156,4 @@ Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus, um z
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
 [img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
 [img3]: ../../../media/loc/en/search-options/freetext-search-find.png
-[img5]: ../../../media/loc/en/search-options/typical-search.png
+[img5]: ../../../media/loc/en/request/typical-searches-for-request.png

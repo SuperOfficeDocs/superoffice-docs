@@ -27,7 +27,7 @@ In der Registerkarte **Inhalt** können Sie das Erscheinungsbild und den Inhalt 
 SuperOffice Marketing stellt Ihnen viele [vorbereitete Mitteilungsvorlagen][9] zur Verfügung. Außerdem können Sie Inhalte einfach verschieben, um das gewünschte Erscheinungsbild zu erstellen. Speichern Sie häufig verwendete Inhalte als Blöcke, um Zeit zu sparen.
 
 > [!TIP]
-> Es wird empfohlen, für Kampagnen eine maximale Breite von 600 Pixeln zu verwenden. Sie können auch prüfen, wie die Kampagne beispielsweise auf einem Smartphone aussieht indem Sie im Menü unten links auf **Mobil** ![Symbol][img4] klicken. Siehe auch die [Mitteilung für die Anzeige auf mobilen Geräten anpassen][3].
+> Es wird empfohlen, für Kampagnen eine maximale Breite von 600 Pixeln zu verwenden. Sie können auch prüfen, wie die Kampagne beispielsweise auf einem Smartphone aussieht indem Sie im Menü unten links auf **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) klicken. Siehe auch die [Mitteilung für die Anzeige auf mobilen Geräten anpassen][3].
 
 ## Bearbeiten von Spalten und Blöcken/Bereichen
 
@@ -87,8 +87,8 @@ Im globalen Menü können Sie eine Vorschau anzeigen, Aktionen rückgängig mach
 | Symbol | Name | Funktion |
 |:-:|---|---|
 | ![Symbol][img11] | Rückgängig/Wiederholen | Letzte Aktion rückgängig machen oder rückgängig gemachte Aktion wiederholen. |
-| ![Symbol][img2] | Vorschau | Öffnet eine Vorschau der Mitteilung auf einem Desktop- oder Mobil-Display. |
-| ![Symbol][img3], ![Symbol][img4] | Anzeige für Desktop- oder Mobilgeräte aktivieren | Wird verwendet, um zu sehen, wie die Mitteilung auf einem Desktop oder Smartphone aussieht. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Vorschau | Öffnet eine Vorschau der Mitteilung auf einem Desktop- oder Mobil-Display. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Anzeige für Desktop- oder Mobilgeräte aktivieren | Wird verwendet, um zu sehen, wie die Mitteilung auf einem Desktop oder Smartphone aussieht. |
 
 ## Kontextmenü
 
@@ -159,9 +159,6 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

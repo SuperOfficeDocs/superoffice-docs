@@ -80,6 +80,6 @@ Die Registerkarte **E-Mail-Filter** enthält eine Liste der vorhandenen E-Mail-F
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
-[3]: ../../../../request/learn/type/index.md
+[3]: ../../../../request/admin/type/index.md
 
 <!-- Referenced images -->

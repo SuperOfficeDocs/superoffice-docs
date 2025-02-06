@@ -1,7 +1,7 @@
 ---
 uid: help-de-screen-designer-button
 title: Schaltfläche oder Link hinzufügen
-description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Wartung eine Schaltfläche oder einen Link zu einem Layout hinzu.
+description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung eine Schaltfläche oder einen Link zu einem Layout hinzu.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Schaltfläche, Link
 author: Bergfrid Dias
 date: 10.07.2024
@@ -79,7 +79,7 @@ Der Name und der Quickinfo-Text können in andere Sprachen übersetzt werden.
 
 Wenn das Element ausgewählt ist:
 
-1. Klicken Sie auf die **A-Z**-Schaltfläche neben der Beschriftung.
+1. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben der Beschriftung.
 1. Klicken Sie auf **Hinzufügen** und wählen Sie eine Sprache aus der Liste aus.
 1. Geben Sie den Text für die neue Sprache ein.
 

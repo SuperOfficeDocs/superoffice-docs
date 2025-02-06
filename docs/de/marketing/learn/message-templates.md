@@ -59,7 +59,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 
 3. Verwenden Sie ggf. das Suchfeld, um eine bestimmte Vorlage zu finden.
 
-4. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben der Vorlage, die Sie verwenden möchten.
+4. Klicken Sie auf die Menüschaltfläche <i class="ph ph-list" aria-label="Aufgabe"></i> neben der Vorlage, die Sie verwenden möchten.
 
 5. Wählen Sie **Kampagne erstellen**. Die Vorlage wird im [Kampagnen-Assistent][1] geöffnet.
 
@@ -93,7 +93,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 
 1. Gehen Sie zur Registerkarte **Nachrichtenvorlagen**.
 
-2. Klicken Sie auf das ![Symbol][img2] **SMS hinzufügen**. Daraufhin wird die Ansicht **Vorlage bearbeiten** angezeigt.
+2. Klicken Sie auf **SMS hinzufügen**. Daraufhin wird die Ansicht **Vorlage bearbeiten** angezeigt.
 
 3. Geben Sie einen aussagekräftigen Namen für die Vorlage in das Feld **Name** ein.
 
@@ -104,7 +104,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 ## Eine Vorlage auf der Grundlage einer vorhandenen Kampagne erstellen
 
 1. Gehen Sie zur Registerkarte **Kampagnen**.
-2. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben der Kampagne, die Sie als Grundlage für die Vorlage verwenden möchten.
+2. Klicken Sie auf die Menüschaltfläche <i class="ph ph-list" aria-label="Aufgabe"></i> neben der Kampagne, die Sie als Grundlage für die Vorlage verwenden möchten.
 3. Wählen Sie **Kopie in Vorlage**.
 4. Geben Sie in der Anzeige **Vorlage bearbeiten** einen aussagekräftigen Namen für die Vorlage in das Feld **Name** ein.
 5. Falls erforderlich, klicken Sie auf **Ordner**, um einen Ordner für die Vorlage auszuwählen.
@@ -113,7 +113,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 ## Eine Vorlage auf der Grundlage einer vorhandenen Vorlage (Kopie) erstellen
 
 1. Gehen Sie zur Registerkarte **Nachrichtenvorlagen**.
-2. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben der Vorlage, die Sie verwenden möchten.
+2. Klicken Sie auf die Menüschaltfläche <i class="ph ph-list" aria-label="Aufgabe"></i> neben der Vorlage, die Sie verwenden möchten.
 3. Wählen Sie **Kopie erstellen**.
 4. Geben Sie in der Anzeige **Vorlage bearbeiten** einen aussagekräftigen Namen für die Vorlage in das Feld **Name** ein.
 5. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie auf **OK**.
@@ -134,6 +134,4 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

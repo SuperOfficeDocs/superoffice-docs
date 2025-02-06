@@ -12,7 +12,7 @@ language: de
 # Dashboards löschen
 
 1. Öffnen Sie die Ansicht **Dashboard**.
-2. Wählen Sie das zu bearbeitende Dashboard aus, klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Dieses Dashboard löschen** aus.
+2. Wählen Sie das zu bearbeitende Dashboard aus, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dieses Dashboard löschen** aus.
 3. Klicken Sie zur Bestätigung auf **OK**. Das Dashboard wird gelöscht.
 
     Wenn das Dashboard für andere Benutzer oder Benutzergruppen angeheftet war, haben diese keinen Zugriff mehr darauf.

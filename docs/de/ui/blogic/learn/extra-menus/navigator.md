@@ -17,9 +17,9 @@ language: de
 
 Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im Navigator links in SuperOffice hinzugefügt. Wir werden ein Zusatzmenü in der neuen Navigatorgruppe hinzufügen. In unserem Beispiel werden wir die Navigatorgruppe "Webseiten" mit einigen nützlichen Webseiten hinzufügen.
 
-1. Wählen Sie das ![Symbol][img2] **Systemeinstellungen** > **Systemdesign** > **Zusatzmenüs** aus.
+1. Wählen Sie <i class="ph ph-list" aria-label="Main menu"></i> > **Systemeinstellungen** > **Systemdesign** > **Zusatzmenüs** aus.
 
-2. Zeigen Sie mit dem Mauszeiger auf den Ordner **Navigator** und klicken Sie auf ![Symbol][img1].
+2. Zeigen Sie mit dem Mauszeiger auf den Ordner **Navigator** und klicken Sie auf **+**.
 
 3. Geben Sie "Webseiten" in das Feld **Bezeichnung** ein (maximal 14 Zeichen).
 
@@ -29,11 +29,11 @@ Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im 
 
 6. Klicken Sie auf **OK**. Die neue Navigatorgruppe wird links auf dem Bildschirm angezeigt. Die Navigatorgruppe ist leer, es müssen also Websites hinzugefügt werden. In diesem Fall fügen wir Google hinzu.
 
-7. Zeigen Sie mit dem Mauszeiger auf die Navigatorgruppe, die Sie gerade erstellt haben, und klicken Sie auf ![Symbol][img1]. Die Ansicht **Eigenschaften des Menüs** wird geöffnet.
+7. Zeigen Sie mit dem Mauszeiger auf die Navigatorgruppe, die Sie gerade erstellt haben, und klicken Sie auf **+**. Die Ansicht **Eigenschaften des Menüs** wird geöffnet.
 
 8. Geben Sie "Google" in das Feld **Bezeichnung** ein (maximal 20 Zeichen).
 
-9. Aktivieren Sie die Option **URL verwenden** und geben Sie "<http://www.google.com"> in das Feld **URL** ein.
+9. Aktivieren Sie die Option **URL verwenden** und geben Sie `http://www.google.com` in das Feld **URL** ein.
 
 10. Aktivieren Sie NICHT **ID anhängen** oder **&lt;usec&gt; anhängen**, damit keine Werte hinter der definierten URL hinzugefügt werden.
 
@@ -47,7 +47,3 @@ Um diese Funktion zu veranschaulichen, werden wird eine neue Navigatorgruppe im 
 
 <!-- Referenced links -->
 [1]: properties.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

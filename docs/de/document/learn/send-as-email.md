@@ -21,7 +21,7 @@ language: de
         2. Klicken Sie mit der rechten Maustaste und wählen Sie **Als E-Mail senden** aus.
     * Vom Dialogfeld Dokument
         1. Öffnen Sie das Dokument im Modus **Bearbeiten**.
-        2. Klicken Sie auf die Schaltfläche **Aufgabe**.
+        2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i>.
         3. Wählen Sie **Als E-Mail senden** aus.
 
         > [!NOTE]

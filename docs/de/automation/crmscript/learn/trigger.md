@@ -28,7 +28,7 @@ Dies ist ein Beispiel für einen ganz einfachen Auslöser. Sie können den Aktio
 Wir werden jetzt eine Reihe von Aktionen basierend auf dem Beispiel oben erstellen.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Klicken Sie auf das ![Symbol][img2] **CRMScript** und wählen Sie die Registerkarte **Auslöser** aus.
+1. Klicken Sie auf <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** und wählen Sie die Registerkarte **Auslöser** aus.
 1. Klicken Sie auf die Schaltfläche **Neuer Auslöser (Makro)**. In der Ansicht **Auslöser wählen** werden die verfügbaren Auslöser angezeigt. Dies sind Ereignisse im System, mit denen Aktionen/Makros ausgelöst werden können. In unserem Beispiel wählen wir **Anfrage bearbeitet**, sodass das Makro ausgeführt wird, wenn eine Anfrage in SuperOffice Service bearbeitet wird.
 1. Geben Sie "Anfrage" in das Suchfeld ein und wählen Sie den Auslöser namens **Anfrage bearbeitet**.
 1. Geben Sie eine kurze Beschreibung für den Auslöser in das Feld **Beschreibung** ein.
@@ -43,7 +43,7 @@ Wir werden jetzt eine Reihe von Aktionen basierend auf dem Beispiel oben erstell
 1. Klicken Sie auf **Übernehmen**.
 1. Klicken Sie auf **Neue Aktion**, und wählen Sie **E-Mail oder SMS** senden aus. Wir passen nun die E-Mail an, die an den Kunden gesendet wird.
 1. Aktivieren Sie **Betreff**.
-1. Klicken Sie auf das ![Symbol][img1] für den Symbolparameter auf der rechten Seite, und klicken Sie dann auf das Feld **Parameter auswählen**.
+1. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> auf der rechten Seite, und klicken Sie dann auf das Feld **Parameter auswählen**.
 1. Wählen Sie **Anfrage ändern** > **Titel**. Dadurch wird der Anforderungstitel in den Betreff der E-Mail eingefügt.
 1. Markieren Sie das Kontrollkästchen **Von** und wählen Sie **Anfrage ändern** > **Eigentümer**.
 1. Markieren Sie das Kontrollkästchen **An** und wählen Sie **Anfrage ändern** > **Person: E-Mail-Adresse**.
@@ -51,9 +51,3 @@ Wir werden jetzt eine Reihe von Aktionen basierend auf dem Beispiel oben erstell
 1. Klicken Sie auf **Übernehmen**.
 
 Sie haben nun ein Makro erstellt, das eine E-Mail mit "Anfrage geschlossen" an den Kunden sendet, wenn eine Anfrage geschlossen wird. Dieser Auslöser ist sofort aktiv, wenn Sie oben die Option **Aktiviert** aktiviert haben.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

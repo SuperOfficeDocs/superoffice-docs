@@ -25,7 +25,7 @@ Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach 
 
 Mit dieser Option werden nur Benutzer angezeigt, die aktiv sind (nicht deaktiviert wurden).
 
-## Liste filtern
+## Liste filtern <i class="ph ph-funnel" aria-hidden="true"></i>
 
 Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
 
@@ -33,10 +33,10 @@ Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
 > Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gefiltert werden soll.
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
-2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf ![Symbol][img1] in der Ecke oben rechts in der Liste.
+2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
 3. Wählen Sie **Filter aktivieren**.
-4. Klicken Sie auf **OK**. Es werden Filter-Schaltflächen (![Symbol][img2]) zu jeder Spaltenkopfzeile hinzugefügt.
-5. Klicken Sie in der zu filternden Spalte auf ![Symbol][img2].
+4. Klicken Sie auf **OK**. Es werden Filter-Schaltflächen zu jeder Spaltenkopfzeile hinzugefügt.
+5. Klicken Sie in der zu filternden Spalte auf <i class="ph ph-funnel" aria-label="Filter icon"></i>.
 6. Wählen Sie die entsprechenden Werte in der Liste aus. Bei einer langen Liste verwenden Sie die Suchfunktion.
 7. Klicken Sie auf **Filter**.
 8. Gehen Sie wie in Schritt 5-7 erläutert vor, um nach weiteren Spalten zu filtern.
@@ -49,7 +49,7 @@ Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und �
 > Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][1]).
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
-2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf ![Symbol][img1] in der Ecke oben rechts in der Liste.
+2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
 3. Wählen Sie **Gruppierung aktivieren**.
 4. Klicken Sie auf **OK**.
 5. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten ("Ziehen Sie einen Spaltenkopf ..."). Die Liste wird nun nach diesem Wert gruppiert.
@@ -62,7 +62,3 @@ Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und �
 
 <!-- Referenced links -->
 [1]: ../../learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/filter-column.png

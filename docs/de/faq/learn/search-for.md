@@ -15,7 +15,7 @@ language: de
 
 Wenn sich viele FAQ-Einträge in einem Ordner befinden, kann es ggf. schwierig sein, den gewünschten Eintrag zu finden. In diesem Fall kann die Durchführung einer Suche hilfreich sein.
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 2. Klicken Sie auf die Schaltfläche **Suchen**. Sie gelangen zur Ansicht **Kriterien**.
 3. Geben Sie den Text, nach dem Sie suchen möchten, oder optional andere Kriterien ein.
 4. Klicken Sie auf **Suchen**.
@@ -26,6 +26,3 @@ Wenn sich viele FAQ-Einträge in einem Ordner befinden, kann es ggf. schwierig s
 
 <!-- Referenced links -->
 [2]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

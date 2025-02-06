@@ -22,14 +22,14 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu l
 
 1. Öffnen Sie die Ansicht **Dashboard**.
 
-2. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Neues Dashboard erstellen**.
+2. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Neues Dashboard erstellen**.
 
 3. Geben Sie Im Dialogfeld den Namen für das Dashboard ein. Es erhält den Namen der Dashboard-Registerkarte.
 
 4. Geben Sie eine Beschreibung für das Dashboard ein. Die Beschreibung wird oben im Dashboard angezeigt.
 
     > [!TIP]
-    > Sie können auch den Namen und die Beschreibung [in anderen Sprachen][1] hinzufügen, indem Sie auf ![Symbol][img1] klicken.
+    > Sie können auch den Namen und die Beschreibung [in anderen Sprachen][1] hinzufügen, indem Sie auf <i class="ph ph-translate" aria-label="Translate"></i> klicken.
 
 5. Wählen Sie das Design des Dashboards in der Liste **Design** aus.
 
@@ -66,5 +66,4 @@ In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können ab
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

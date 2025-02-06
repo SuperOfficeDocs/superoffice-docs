@@ -43,11 +43,11 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 [9]: web-panel.md
 [10]: privacy-legal-base-add.md
 [11]: privacy-source-add.md
-[12]: ../../../project/learn/screen/project-status-admin.md
-[13]: ../../../project/learn/screen/project-type-admin.md
+[12]: ../../../project/admin/project-status.md
+[13]: ../../../project/admin/project-type.md
 [14]: sale-amount-class.md
-[15]: sale-stage.md
+[15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
-[17]: ../../../sale/learn/screen/sales-type-for-stages.md
+[17]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

@@ -32,11 +32,6 @@ Wenn Sie eine Rolle löschen, müssen Sie die Benutzer mit dieser Rolle in eine 
 
     Ist die Schaltfläche Löschen deaktiviert (ausgegraut)? Die Rolle, zu der Sie selbst gehören, oder die Systembenutzerrolle (**Benutzerebene 0**) kann nicht gelöscht werden. Wenn nur noch eine einzige Rolle vorhanden ist, können Sie diese nicht löschen.
 
-5. Klicken Sie im Dialogfeld **Rolle löschen** auf das ![Symbol][img3] neben dem Feld **Alle Benutzer mit dieser Rolle zuweisen zu** und wählen Sie eine andere Rolle für die Benutzer der zu löschenden Rolle aus.
+5. Klicken Sie im Dialogfeld **Rolle löschen** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem Feld **Alle Benutzer mit dieser Rolle zuweisen zu** und wählen Sie eine andere Rolle für die Benutzer der zu löschenden Rolle aus.
 
 6. Klicken Sie auf **Löschen**. Die Rolle wird aus der Liste entfernt. Eine gelöschte Rolle kann nicht wiederhergestellt werden.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

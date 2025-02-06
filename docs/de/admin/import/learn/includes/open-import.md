@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Öffnen Sie die Ansicht Importieren, indem Sie auf das ![Symbol][img1] der Schaltfläche Importieren im Navigator klicken.
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-import-active.png
+Öffnen Sie die Ansicht Importieren, indem Sie auf der Schaltfläche Importieren (<i class="ph ph-file-arrow-up" aria-hidden="true"></i>) im Navigator klicken.

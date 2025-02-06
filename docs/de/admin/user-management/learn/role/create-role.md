@@ -33,8 +33,8 @@ language: de
 
 6. Wählen Sie eine der folgenden Optionen:
 
-    * Klicken Sie auf das ![Symbol][img5] Pfeil neben **Rechte kopieren aus** und wählen Sie die gewünschte Rolle als Basis für die neue Rolle aus.
-    * Klicken Sie auf das ![Symbol][img5] Pfeil und wählen Sie **Ohne Berechtigungen beginnen** aus, um die Rolle völlig neu zu erstellen.
+    * Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben **Rechte kopieren aus** und wählen Sie die gewünschte Rolle als Basis für die neue Rolle aus.
+    * Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie **Ohne Berechtigungen beginnen** aus, um die Rolle völlig neu zu erstellen.
 
 7. Klicken Sie auf **Speichern**. Die neue Rolle wird in der Liste **Rollen** angezeigt.
 
@@ -65,6 +65,3 @@ language: de
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png

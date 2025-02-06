@@ -46,7 +46,7 @@ Verwenden Sie die Filterschaltflächen (Gesendet, Unzustellbar und Geöffnet), d
 
 1. Wählen Sie diese in der Liste aus und klicken in der Seitenleiste auf **Öffnen**, um die Person zu bearbeiten.
 2. Wechseln Sie zur Registerkarte **Details**.
-3. Ein Warnsymbol ![Symbol][img1] neben der E-Mail-Adresse weist auf ein Problem hin. Halten Sie den Mauszeiger über das Symbol, um die Ursache des Problems anzuzeigen.
+3. Ein Warnsymbol (<i class="ph ph-warning" aria-hidden="true"></i>) neben der E-Mail-Adresse weist auf ein Problem hin. Halten Sie den Mauszeiger über das Symbol, um die Ursache des Problems anzuzeigen.
 
 > [!TIP]
 > Klicken Sie auf eine Spalte, um Sortier- und Gruppierungsfunktionen aufzurufen.
@@ -129,5 +129,4 @@ Mit dieser Option können Sie eine Person als ausgeschiedenen Mitarbeiter festle
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png

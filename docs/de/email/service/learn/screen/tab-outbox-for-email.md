@@ -15,7 +15,7 @@ Die Registerkarte **E-Mail-Postausgang** enthält eine Liste der E-Mails in der 
 
 Wählen Sie **Gesendete E-Mails anzeigen** unten rechts, um auch die zuletzt gesendeten E-Mails anzuzeigen.
 
-Die folgenden Optionen sind auch unter der Schaltfläche **Aktionen** (![Symbol][img1]) verfügbar:
+Die folgenden Optionen sind auch unter der Schaltfläche <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> verfügbar:
 
 * **Exportieren**: Wird für den Export der Liste in eine Datei verwendet. Sie können unter diesen Formaten auswählen: Excel, HTML und Nur-Text.
 
@@ -27,8 +27,3 @@ Die folgenden Optionen sind auch unter der Schaltfläche **Aktionen** (![Symbol]
     > Dieser Vorgang lässt sich nicht rückgängig machen.
 
 Wenn Sie auf eine der Nachrichten auf dieser Registerkarte klicken, wird die Ansicht **Ausgehende E-Mails** angezeigt. Sie enthält Informationen über die ausgewählte Nachricht, z. B. die Größe und den Benutzer, der sie erstellt hat. Fehlermeldungen werden ggf. ebenfalls angezeigt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

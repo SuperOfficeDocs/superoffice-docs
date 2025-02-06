@@ -15,9 +15,9 @@ language: de
 
 2. Wählen Sie das zu bearbeitende Dashboard aus.
 
-3. Um den Namen des Dashboards zu ändern und andere Einstellungen vorzunehmen, klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Dashboard bearbeiten** aus.
+3. Um den Namen des Dashboards zu ändern und andere Einstellungen vorzunehmen, klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Dashboard bearbeiten** aus.
 
-4. Zum Hinzufügen von Kacheln und Bearbeiten des Dashboard-Layouts klicken Sie auf die Schaltfläche **Aufgabe** und wählen **Kachel hinzufügen/Layout bearbeiten** aus.
+4. Zum Hinzufügen von Kacheln und Bearbeiten des Dashboard-Layouts klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen **Kachel hinzufügen/Layout bearbeiten** aus.
 
 5. Klicken Sie auf **Speichern**.
 

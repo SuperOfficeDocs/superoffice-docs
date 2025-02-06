@@ -80,7 +80,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Wechseln Sie zur Registerkarte **Alias**. Hier können Sie einen beliebigen E-Mail-Alias für ein Postfach eingeben (zum Beispiel, gehen Sei zum selben Postfach, wenn <sales@company.com> und <sale@company.com>). Um einen Alias hinzuzufügen, müssen Sie eine E-Mail-Adresse angeben und anschließend auf ![Symbol][img1] klicken.
+1. Wechseln Sie zur Registerkarte **Alias**. Hier können Sie einen beliebigen E-Mail-Alias für ein Postfach eingeben (zum Beispiel, gehen Sei zum selben Postfach, wenn <sales@company.com> und <sale@company.com>). Um einen Alias hinzuzufügen, müssen Sie eine E-Mail-Adresse angeben und anschließend auf **+** klicken.
 
 1. [!include[Import stuff](includes/step-import.md)]
 
@@ -95,6 +95,3 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

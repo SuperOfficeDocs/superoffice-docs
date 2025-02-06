@@ -19,11 +19,11 @@ Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage diese
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie ![Symbol][img2] **Listen** im Navigator aus (1).
+1. Wählen Sie <i class="ph ph-list-bullets" aria-hidden="true"></i> **Listen** im Navigator aus.
 
     ![Benutzergruppen erstellen -screenshot][img3]
 
-1. Wählen Sie **Allgemein - Benutzergruppe** von der Liste aus (2) und klicken Sie auf **+Neu** (3).
+1. Wählen Sie **Allgemein - Benutzergruppe** von der Liste aus und klicken Sie auf **Neu**.
 
 1. Geben Sie Informationen in das Dialogfeld ein. Optional, wählen Sie eine oder mehrere [Anfragekategorie][4] für diese Gruppe.
 
@@ -49,10 +49,9 @@ Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage diese
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

@@ -48,7 +48,7 @@ Um Daten in der Mehr-Registerkarte anzuzeigen:
 
 ## Informationen in der Mehr-Registerkarte bearbeiten
 
-Klicken Sie auf **Bearbeiten**, um die Informationen in der **Mehr-Registerkarte** zu bearbeiten.
+Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Edit"></i>, um die Informationen in der **Mehr-Registerkarte** zu bearbeiten.
 
 ## Zusätzliche Tipps
 

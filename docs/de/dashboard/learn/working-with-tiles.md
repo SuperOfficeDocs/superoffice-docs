@@ -23,7 +23,7 @@ Die Daten in den Kacheln machen die Nützlichkeit des Dashboards aus. Lernen Sie
 
 * Klicken Sie auf die Datenbezeichnungen (Legende) unter der Kachel, um die betreffenden Daten in den Kacheln aus- bzw. einzublenden. Dies kann zum Drucken oder Exportieren von Kacheln nützlich sein.
 
-* Klicken Sie auf ![Symbol][img1] in der Kopfzeile einer Kachel und wählen Sie **Vollbildansicht anzeigen** aus, um die Kachel als Vollbild zu öffnen. Dies ist für Kacheln mit viel Inhalt nützlich.
+* Klicken Sie <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel und wählen Sie **Vollbildansicht anzeigen** aus, um die Kachel als Vollbild zu öffnen. Dies ist für Kacheln mit viel Inhalt nützlich.
 
 ### Basisdaten untersuchen
 
@@ -43,13 +43,13 @@ Befolgen Sie die folgenden Schritte in diesem GIF oder die folgenden Schritte, u
 
     * Doppelklicken Sie auf einen Datensatz, um ihn zu öffnen (bzw. wählen Sie einen Datensatz aus und klicken Sie auf **Öffnen**).
 
-    * Um die Option **Datensätze in eine Selektion kopieren** auszuführen, klicken Sie auf die Schaltfläche [Aufgabe][4] und wählen Sie **In Selektion kopieren** aus. Wenn Sie keine Datensätze auswählen, werden alle Datensätze kopiert.
+    * Um die Option [**Datensätze in eine Selektion kopieren**][4] auszuführen, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **In Selektion kopieren** aus. Wenn Sie keine Datensätze auswählen, werden alle Datensätze kopiert.
 
 5. Klicken Sie, sobald Sie fertig sind, auf **Schließen**.
 
 ## Kacheln exportieren
 
-Klicken Sie auf das ![Symbol][img1] in der Kopfzeile einer Kachel, um auf folgenden Optionen zuzugreifen:
+Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel, um auf folgenden Optionen zuzugreifen:
 
 * **PDF-Dokument herunterladen**/**PNG-Dokument herunterladen**: Laden Sie die Kachel im PDF- oder PNG-Format herunter. Die Exportdateien werden in den Browser heruntergeladen (Ordner **Downloads**).
 
@@ -73,5 +73,4 @@ Klicken Sie auf das ![Symbol][img1] in der Kopfzeile einer Kachel, um auf folgen
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

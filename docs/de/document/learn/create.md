@@ -1,12 +1,13 @@
 ---
 uid: help-de-document-create
 title: Neues Dokument erstellen
-description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
-keywords: Dokument
+description: Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können.
+keywords: neues Dokument, Dokument hinzufügen, Dokument erstellen, WebTools, SharePoint, Dokument
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -89,8 +90,6 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 8. Klicken Sie auf den Link, um das Dokument hochzuladen oder ziehen und legen Sie das Dokument vom Windows Explorer im Dialogfeld **Dokument** ab.
 
-    ![Neues Dokument erstellen -screenshot][img2]
-
 9. Schließen Sie das Dialogfeld **Dokument**, indem Sie auf **Speichern** klicken.
 
 ***
@@ -98,7 +97,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 ## <a id="fields"></a>Wie man Informationen eingibt
 
 > [!NOTE]
-> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img5], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
+> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i>, um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
 
 ![Dokument aus Vorlage erstellen (neu) -screenshot][img4]
 
@@ -136,16 +135,13 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 2. Ziehen Sie das Dokument aus dem Windows Explorer in das Dialogfeld **Dokument** und legen Sie es dort ab.
 
-3. (Optional) Markieren Sie das Dokument als abgeschlossen:
-
-    * Neu (ab Version 10.3.11): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
-    * Klassischer Dialog (onsite): Klicken Sie auf das Häkchensymbol oben rechts im Dialog.
+3. (Optional) Wählen Sie das Kontrollkästchen in der Fußzeile aus, um das Dokument als abgeschlossen zu markieren.
 
 4. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein](#fields).
 
 5. Klicken Sie auf die Schaltfläche **Erstellen**, um in SuperOffice CRM ein neues Dokument zu erstellen. Das Dokument wird zur Bereichsregisterkarte **Aktivitäten** hinzugefügt.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Dokumente bearbeiten][1]
 * [Dokumente ein-/auschecken][3]
@@ -165,6 +161,4 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

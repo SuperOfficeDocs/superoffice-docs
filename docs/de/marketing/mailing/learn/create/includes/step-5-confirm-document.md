@@ -16,12 +16,9 @@ Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statisti
 ## <a id="open-and-print-the-document"></a>Dokument öffnen und drucken
 
 1. Wählen Sie die Registerkarte **Kampagnen** aus.
-2. Suchen Sie das Dokument, klicken Sie auf ![Symbol][img2] und wählen Sie **Ansicht**.
+2. Suchen Sie das Dokument, klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> und wählen Sie **Ansicht**.
 3. Klicken Sie auf die Schaltfläche unter **Erstelltes Dokument herunterladen**. Das Dokument wird in Ihrem Browser heruntergeladen.
 4. Öffnen und drucken Sie das Dokument.
 
 <!-- Referenced links -->
 [1]: ../../view-statistics.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../../media/icons/btn-menu.png

@@ -69,7 +69,7 @@ Da eine Excel-Tabellenkalkulation sowohl wenig als auch viele Spalten enthalten 
 
     | Symbol | Beschreibung |
     |---|---|
-    | ![Symbol][img2] | In dieser Reihe gibt es ein Datenproblem. Siehe erklärenden Text im Tabellenkopf. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | In dieser Reihe gibt es ein Datenproblem. Siehe erklärenden Text im Tabellenkopf. |
     | ![Symbol][img3] | Das Produkt ist noch nicht vorhanden und wird nun hinzugefügt. |
     | ![Symbol][img4] | Das Produkt ist bereits vorhanden und wird nun aktualisiert. |
     | leer | Keine Aktualisierung. |
@@ -95,6 +95,5 @@ Wenn der Import abgeschlossen ist, wird eine Liste importierter Produkte angezei
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

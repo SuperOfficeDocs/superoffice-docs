@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: de
 ---
 
-# Ansichtsdesigner ![icon][img1]
+# Ansichtsdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>
 
 Der **Ansichtsdesigner** in SuperOffice CRM ermöglicht es Ihnen, das Layout der Hauptanzeigen anzupassen, sodass die Benutzeroberfläche den spezifischen Anforderungen verschiedener Benutzergruppen in Ihrer Organisation entspricht. Diese Funktion ersetzt das alte [PageBuilder][9]-Tool und bietet eine effizientere und flexiblere Möglichkeit, Bildschirme ohne Programmierkenntnisse zu konfigurieren.
 
@@ -127,7 +127,6 @@ Durch die Anpassung der Ansichtslayouts mit dem Ansichtsdesigner können Sie unn
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
 [img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png

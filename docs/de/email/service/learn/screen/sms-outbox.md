@@ -16,7 +16,7 @@ Auf der Registerkarte **SMS-Postausgang** werden alle abgehenden SMS-Nachrichten
 > [!NOTE]
 > Wenn diese Registerkarte nicht angezeigt wird, ist das SMS-Modul nicht installiert oder die SMS-Funktion wurde für die verwendete Lizenz nicht aktiviert. Weitere Informationen erhalten Sie von Ihrem Systemadministrator.
 
-Die folgenden Optionen sind auch unter der Menüschaltfläche ![Symbol][img1] verfügbar:
+Die folgenden Optionen sind auch unter der Menüschaltfläche verfügbar:
 
 * **Exportieren**: Wird für den Export der Liste in eine Datei verwendet. Sie können unter diesen Formaten auswählen: Excel, HTML und Nur-Text.
 
@@ -28,8 +28,3 @@ Die folgenden Optionen sind auch unter der Menüschaltfläche ![Symbol][img1] ve
     > Dieser Vorgang lässt sich nicht rückgängig machen.
 
 Wenn Sie auf eine der Nachrichten auf dieser Registerkarte klicken, wird die Ansicht **Abgehende SMS** angezeigt. Sie enthält Informationen über die ausgewählte Nachricht, z. B. die Größe und den Benutzer, der sie erstellt hat. Fehlermeldungen werden ggf. ebenfalls angezeigt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

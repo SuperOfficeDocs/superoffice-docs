@@ -22,7 +22,7 @@ Ein Feldidentifikator ist eine eindeutige ID für ein bestimmtes Feld. Sie wird 
 
 1. [Erstellen Sie ein neues Formular][1].
 
-2. Bei jedem Feld, das vorausgefüllt werden soll: Klicken Sie auf ![Symbol][img1] **Erweiterte Optionen**, um das Feld **Bezeichnung** anzuzeigen, in dem Sie eine ID für das Feld hinzufügen können.
+2. Bei jedem Feld, das vorausgefüllt werden soll: Klicken Sie auf **Erweiterte Optionen** (<i class="ph ph-gear" aria-hidden="true"></i>), um das Feld **Bezeichnung** anzuzeigen, in dem Sie eine ID für das Feld hinzufügen können.
 
 3. [Veröffentlichen Sie Formulare][2].
 
@@ -48,6 +48,3 @@ Ein Feldidentifikator ist eine eindeutige ID für ein bestimmtes Feld. Sie wird 
 [1]: create.md
 [2]: publish.md
 [3]: ../../../request/reply-templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

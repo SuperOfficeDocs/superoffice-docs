@@ -2,14 +2,17 @@
 uid: help-de-find-screen
 title: Ansicht Suchen
 description: Ansicht Suchen
-author: SuperOffice RnD
-date: 12.13.2023
-keywords: Suchen, Suchen
-topic: howto
+keywords: Suchen
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Die Ansicht Suchen
+# Die Ansicht Suchen <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 Verwenden Sie die Ansicht **Suchen**, um in SuperOffice CRM nach Datensätzen und Daten zu suchen.
 
@@ -20,15 +23,13 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 
 ## Schritte
 
-1. Klicken Sie in der [oberen Leiste][1] auf die Schaltfläche **Suchen**.
-
-     ![Suchen][img2]
+1. Klicken Sie in der [oberen Leiste][1] auf die Schaltfläche **Suchen** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>).
 
 2. Klicken Sie auf den Datensatztyp, nach dem Sie suchen möchten, oder klicken Sie auf **Typische Suchanfragen**, um eine Liste vordefinierter Suchanfragen anzuzeigen. Die Registerkarte **Kriterien** wird geöffnet.
 
 3. Die Ansicht **Suchen** enthält die vordefinierten Suchkriterien oder die zuletzt verwendeten Suchkriterien. Führen Sie einen der folgenden Schritte aus:
 
-    * Klicken Sie auf ![Symbol][img3], um alle Kriterien zu entfernen, die Sie nicht verwenden möchten.
+    * Klicken Sie auf <i class="ph ph-x-circle" aria-label="X"></i>, um alle Kriterien zu entfernen, die Sie nicht verwenden möchten.
     * Klicken Sie auf die Schaltfläche **Hinzufügen**, um neue Suchkriterien hinzuzufügen. In die Kriterienliste wird eine neue Zeile eingefügt.
 
 4. Wählen Sie im ersten Listenfeld auf der Zeile das Feld aus, in dem Sie nach Informationen suchen möchten. Sie können auch den [Anfang des Namens in das entsprechende Feld eingeben][2]. Es gibt [verschiedene Arten von Feldern][3].
@@ -39,7 +40,7 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 
 6. Klicken Sie unter der Kriterienliste auf **Hinzufügen**, um mehr Suchkriterien festzulegen. In die Kriterienliste wird eine neue Zeile eingefügt, und Sie können die Schritte 4 und 5 wiederholen.
 
-7. Um Kriterien zu verschieben, ziehen Sie mit gedrückter Maustaste ![Symbol][img4].
+7. Um Kriterien zu verschieben, ziehen Sie mit gedrückter Maustaste <i class="ph ph-equals" aria-label="="></i>.
 
 8. Klicken Sie auf **Oder**, um einen weiteren Satz von Kriterien hinzuzufügen.
 
@@ -54,10 +55,12 @@ Mit der Funktion Suchen können Sie eine Suche durchführen, indem Sie Suchkrite
 
 Schauen wir uns einige praktische Beispiele an, wie Sie die ODER-Funktion verwenden können. Sie können nach allen Kunden suchen, die das "Produkt A" gekauft haben, und nach Kunden, die "Produkt B" nicht gekauft haben, um Ihre Querverkäufe zu steigern. Sie können aber auch nach allen Großkunden mit Sitz in Liverpool oder Manchester suchen, damit Sie sie wegen eines bevorstehenden Ereignisses in einer dieser Orte kontaktieren können.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine Suche mit der ODER-Funktion erstellen (Videolänge - 4:08):
+Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine Suche mit der ODER-Funktion erstellen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+(Videolänge - 4:08)
 
 ## <a id="results"></a>Mit Suchergebnissen arbeiten
 
@@ -94,9 +97,9 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** ![Symbol][img5] und dann auf **Betrag**.
+5. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) und dann auf **Betrag**.
 
-6. Klicken Sie im Listenfeld rechts neben **Betrag** auf den Pfeil (![Symbol][img1]) und wählen Sie die Option **>** (größer als) aus.
+6. Klicken Sie im Listenfeld rechts neben **Betrag** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie die Option **>** (größer als) aus.
 
 7. Geben Sie im letzten Feld in der Linie den Mindestbetrag ein. Zum Beispiel, "100 000".
 
@@ -104,9 +107,9 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und dann auf **Erfasstes Datum**.
+10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Verkauf** und dann auf **Erfasstes Datum**.
 
-11. Klicken Sie im zweiten Listenfeld auf den Pfeil ![Symbol][img1] und wählen Sie **Zwischen** aus.
+11. Klicken Sie im zweiten Listenfeld auf den Pfeil und wählen Sie **Zwischen** aus.
 
 12. Geben Sie im dritten Listenfeld das Startdatum des gewünschten Zeitraums und im vierten Listenfeld das Enddatum ein.
 
@@ -116,7 +119,7 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 15. Geben Sie in der angezeigten Liste "Status" ein, um eine Schnellsuche in dem Feld durchzuführen.
 
-16. Wählen Sie in der angezeigten Liste **Verkauf** – **Status** (mit dem Verkaufssymbol ![Symbol][img5] davor).
+16. Wählen Sie in der angezeigten Liste **Verkauf** – **Status** (mit dem Verkaufssymbol davor).
 
 17. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -143,7 +146,7 @@ Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin re
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Firma** (![Symbol][img6]) und anschließend auf **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Firma** (<i class="ph ph-buildings" aria-hidden="true"></i>) und anschließend auf **Land**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -153,7 +156,7 @@ Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin re
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Firma** (![Symbol][img6]) und anschließend auf **Verantwortlich**.
+10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Firma** und anschließend auf **Verantwortlich**.
 
 11. Wählen Sie im zweiten Listenfeld **Aktueller Benutzer** aus. Ihr Name wird im letzten Feld in der Zeile angezeigt.
 
@@ -177,7 +180,7 @@ Angenommen, Sie sind der Manager einer Firma und möchten herausfinden, welche V
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Verkauf** (![Symbol][img5]) und anschließend auf **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Verkauf** und anschließend auf **Status**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -200,7 +203,7 @@ Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Ge
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Person** (![Symbol][img7]) und anschließend auf **Nachname**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf <i class="ph ph-user-circle" aria-hidden="true"></i> **Person** und anschließend auf **Nachname**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist gleich** aus.
 
@@ -210,7 +213,7 @@ Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Ge
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf **Projekt** (![Symbol][img8]) und anschließend auf **Ab**.
+10. Wählen Sie in der angezeigten Liste das Feld aus, in dem Sie nach Informationen suchen möchten: Klicken Sie zuerst auf <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** und anschließend auf **Ab**.
 
 11. Wählen Sie im zweiten Listenfeld **Nach** aus.
 
@@ -236,7 +239,7 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 4. Klicken Sie auf **Hinzufügen**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Zweck**.
+5. [!include[Select field](includes/select-field.md)]: Klicken Sie zuerst auf <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Folgeaufgabe** und anschließend auf **Zweck**.
 
 6. Wählen Sie im zweiten Listenfeld **Ist eines von** aus.
 
@@ -246,7 +249,7 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 9. Klicken Sie auf **Hinzufügen**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Enddatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** und anschließend auf **Enddatum**.
 
 11. Wählen Sie im zweiten Listenfeld **vorherige/r/s** aus.
 
@@ -258,7 +261,7 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 
 15. Klicken Sie auf **Hinzufügen**.
 
-16. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** (![Symbol][img9]) und anschließend auf **Abgeschlossen**.
+16. [!include[Select field](includes/select-field.md)]. Klicken Sie zuerst auf **Folgeaufgabe** und anschließend auf **Abgeschlossen**.
 
 17. Aktivieren Sie das Kontrollkästchen **Ja**. Sie haben nun festgelegt, dass Sie nach Folgeaufgaben suchen möchten, die als **Abgeschlossen** angegeben sind.
 
@@ -288,13 +291,4 @@ Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie 
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/learn/find.png
-[img3]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/singlecolour/sale.png
-[img6]: ../../../../common/icons/singlecolour/contact.png
-[img7]: ../../../../common/icons/singlecolour/person.png
-[img8]: ../../../../common/icons/singlecolour/project.png
-[img9]: ../../../../common/icons/singlecolour/appointment.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png

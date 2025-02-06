@@ -74,7 +74,7 @@ Wählen Sie zwischen der Listen- oder Kachelansicht im unteren rechten Bereich a
 
 | Symbol | Modus | Beschreibung |
 |:-:|---|---|
-| ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf die Menütaste ![icon][img3], um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
+| ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i>, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
 | ![icon][img8] | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
 
 ## <a id="view"></a>Die Ansicht Flow anzeigen
@@ -156,6 +156,6 @@ Der Zugriff auf Flows und Flow-Inhalte wird durch die Rolle und die [funktionale
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img3]: ../../../../media/icons/btn-menu.png
+
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png

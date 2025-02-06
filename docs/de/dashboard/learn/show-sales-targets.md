@@ -23,16 +23,16 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 2. Wählen Sie das zu bearbeitende Dashboard aus.
 
-3. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
+3. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
 
 4. Wählen Sie **Verkauf** in der Liste **Kacheln anzeigen für** aus.
 
 5. Wählen Sie auf der Registerkarte **Bibliothek** eines der folgenden Diagramme aus:
 
-    * ![Symbol][img2] - Diagramm mit großen Zahlen
-    * ![Symbol][img3] - Balkendiagramm
-    * ![Symbol][img4] - Säulendiagramm
-    * ![Symbol][img5] - Messdiagramm
+    * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Diagramm mit großen Zahlen
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Balkendiagramm
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Säulendiagramm
+    * <i class="ph ph-gauge" aria-hidden="true"></i> - Messdiagramm
     * Leere Verkaufskachel
 
     > [!TIP]
@@ -46,7 +46,7 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
     * Klicken Sie auf die Kopfzeile einer Kachel und ziehen Sie sie an eine andere Position.
 
-8. Klicken Sie im Dashboard auf das ![Symbol][img6] **Kachel bearbeiten** auf der neuen Kachel.
+8. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) auf der neuen Kachel.
 
 9. Legen Sie auf der Registerkarte **Datensatz** das **Verkaufsdatum** auf dieses Jahr, Quartal bzw. diesen Monat fest. Bearbeiten Sie gegebenenfalls die anderen [Kriterien][2]. Aktualisieren Sie unbedingt den Kachelnamen, damit dieser Aufschluss über hier vorgenommene Änderungen gibt.
 
@@ -59,14 +59,14 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
     * **Gruppieren** oder **Fußzeile**: Wählen Sie **Mit Ziel vergleichen**.
       * Wenn diese Option nicht sichtbar oder inaktiv ist, prüfen Sie erneut, ob Sie die Schritte oben abgeschlossen haben. Wenn Sie die Option **Mit Ziel vergleichen** nicht auswählen können (sie ist deaktiviert), können Sie den Mauszeiger auf den Text bewegen. Dadurch wird eine QuickInfo mit Erläuterungen angezeigt, was geändert werden muss, um die Option zu aktivieren und auszuwählen.
     * **Ziel**: Wählen Sie das Ziel aus, das zur Kachel hinzugefügt werden soll. (Nicht für Balkendiagramme relevant.)
-    * **Als % anzeigen**: Wählen Sie diese Option, um das Ziel nicht als Summe oder Anzahl, sondern als Prozentsatz anzuzeigen. Nicht für Säulendiagramme und Diagramme mit großen Zahlen nicht relevant.)
+    * **Als % anzeigen**: Wählen Sie diese Option, um das Ziel nicht als Summe oder Anzahl, sondern als Prozentsatz anzuzeigen. (Nicht für Säulendiagramme und Diagramme mit großen Zahlen nicht relevant.)
 
 11. Bearbeiten Sie die Formatierung. Je nach dem ausgewählten Diagrammtyp, stehen Ihnen unter **Formatierung läuft** weitere Optionen zur Verfügung:
 
     * Diagramm mit großen Zahlen: Sie können die Farben bearbeiten, mit denen Ziele angezeigt werden.
     * Messdiagramm: Legen Sie mit der Option **Ziel markieren bei** das Ziel im Messdiagramm fest.
 
-12. Klicken Sie auf das ![Symbol][img1], um für Kachelnamen, Titel und Bezeichnungen die Option [Übersetzung hinzufügen][3] auszuführen.
+12. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um für Kachelnamen, Titel und Bezeichnungen die Option [Übersetzung hinzufügen][3] auszuführen.
 
 13. Klicken Sie auf **Speichern**. Klicken Sie dann auf **Fertig**.
 
@@ -95,11 +95,5 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 [7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/big-numbers.png
-[img3]: ../../../../common/icons/column-bar.png
-[img4]: ../../../../common/icons/bar.png
-[img5]: ../../../../common/icons/gauge.png
-[img6]: ../../../../common/icons/edit-pen.png
 [img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
 [img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

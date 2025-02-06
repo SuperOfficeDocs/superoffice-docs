@@ -31,7 +31,8 @@ Sie können einen Benutzer von einer Firma zu einer anderen verschieben, wenn Ih
 
     [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    > [!NOTE]
+    > Um die Ergebnisse anzuzeigen, bevor Sie die Aktion bestätigen, müssen Sie auf <i class="ph ph-info" aria-label="Ergebnisse anzeigen"></i> klicken.
 
 1. Klicken Sie auf **Verschieben**. Der Benutzer wird zur die angegebenen Firma verschoben.
 

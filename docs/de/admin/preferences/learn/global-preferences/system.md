@@ -12,9 +12,9 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Globale Einstellungen
+# Globale Einstellungen <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-**Globale Einstellungen** unter dem ![Symbol][img1] **Einstellungen** werden verwendet, um einige der Schlüsseleinstellungen in SuperOffice CRM zu konfigurieren.
+**Globale Einstellungen** unter **Einstellungen** werden verwendet, um einige der Schlüsseleinstellungen in SuperOffice CRM zu konfigurieren.
 
 Bereiche, für die Sie Einstellungen konfigurieren können:
 
@@ -41,4 +41,3 @@ Bereiche, für die Sie Einstellungen konfigurieren können:
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

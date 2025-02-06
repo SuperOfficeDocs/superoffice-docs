@@ -24,7 +24,7 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu l
 
 2. Wählen Sie das zu bearbeitende Dashboard aus.
 
-3. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
+3. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
 
     ![Kacheltyp auswählen -screenshot][img1]
 

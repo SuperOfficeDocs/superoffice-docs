@@ -86,7 +86,7 @@ Aktiviere diese Funktion, indem du **Folgeaufgabe** auswählst.
 > [!TIP]
 > Als Beschreibung geben Sie an, zu welcher Kampagne es gehört, welchen Link der Empfänger geklickt hat und möglicherweise, wie die Aufgabe bzw. die Besprechung weiterverfolgt werden soll.
 >
-> Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1] klicken, um sich selbst auszuwählen.
+> Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) klicken, um sich selbst auszuwählen.
 
 ## <a id="request"></a>Anfrage
 
@@ -104,12 +104,11 @@ In dem Skript verfügbare Variablen sind custId, linkId, shipmentId, linkUrl, li
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

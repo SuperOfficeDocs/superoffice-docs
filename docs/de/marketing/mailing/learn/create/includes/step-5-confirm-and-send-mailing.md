@@ -21,7 +21,7 @@ Um Ihre E-Mail-Server während der Arbeitszeit nicht zu überlasten, wird empfoh
 
 1. Klicken Sie auf **Zeitplan**.
 2. Wählen Sie unter **Geplanter Versand am** eine der folgenden Optionen:
-    * Klicken Sie auf das Symbol **Datum auswählen** ![Symbol][img3] und wählen Sie das Datum und die Uhrzeit für den Start der Kampagne.
+    * Klicken Sie auf das Symbol **Datum auswählen** (<i class="ph ph-calendar-blank" aria-hidden="true"></i>) und wählen Sie das Datum und die Uhrzeit für den Start der Kampagne.
     * Klicken Sie auf **Auf jetzt festlegen**, um das heutige Datum und die aktuelle Uhrzeit einzugeben.
 3. Klicken Sie auf **OK**. Der Workflow wird abgeschlossen und Sie gelangen wieder zur Registerkarte **Kampagnen**.
 
@@ -35,5 +35,4 @@ Klicken Sie auf **Stopp** oder **Start**, um die geplante Kampagne anzuhalten od
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

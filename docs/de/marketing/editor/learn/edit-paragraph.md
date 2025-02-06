@@ -14,12 +14,12 @@ audience_tooltip: SuperOffice Marketing
 
 # Inhalt bearbeiten
 
-![Symbol][img1]
+![Edit content -screenshot][img1]
 
 > [!TIP]
 > Um globale Eigenschaften und das Layout der Mitteilung zu bearbeiten, wählen Sie den **Textbereich** in der Seitenleiste aus. Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt.
 >
-> Verwenden Sie **Desktop** und ![Symbol][img3] und **Mobil** ![Symbol][img4] oben in der Seitenleiste, um die Eigenschaften für die Desktop- und Mobil-Versionen der Mitteilung zu bearbeiten.
+> Verwenden Sie **Desktop** und (<i class="ph ph-monitor" aria-hidden="true"></i>) und **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) oben in der Seitenleiste, um die Eigenschaften für die Desktop- und Mobil-Versionen der Mitteilung zu bearbeiten.
 
 ## Inhalt (Textblöcke) in einer Mitteilung zu bearbeiten
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Überwachte Links zu einer Mitteilung hinzufügen][8]. Sie können z. B. einen Link zu einer Informationsseite für ein Produkt hinzufügen. Sie können einen neuen Link erstellen oder einen vorhandenen Link hinzufügen.
 
-    So fügen Sie einen regulären Link hinzu (nicht überwacht): Wählen Sie einen Text aus und klicken auf ![Symbol][img6] in der Werkzeugleiste. Geben Sie den Link in das Feld **URL** ein.
+    So fügen Sie einen regulären Link hinzu (nicht überwacht): Wählen Sie einen Text aus und klicken auf <i class="ph ph-link" aria-label="Link"></i> in der Werkzeugleiste. Geben Sie den Link in das Feld **URL** ein.
 
 6. Bearbeiten Sie die Formatierung des Textes mithilfe der Felder in der Seitenleiste.
 
@@ -84,7 +84,4 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png

@@ -25,7 +25,7 @@ Um die Liste der Teilnehmer für einen bestimmten Flow anzuzeigen:
 
 ![Die Liste der Flowteilnehmer -screenshot][img1]
 
-Verwenden Sie das Zahnrad ![icon][img4] im Kopf der Liste, um die Spalten anzupassen.
+Verwenden Sie das Zahnrad (<i class="ph ph-gear" aria-hidden="true"></i>) im Kopf der Liste, um die Spalten anzupassen.
 
 ![Die Liste der Flowteilnehmer, Spalten anpassen -screenshot][img2]
 
@@ -83,4 +83,3 @@ In einer Aufteilung folgen Teilnehmer dem ersten (linken) Zweig, in dem sie die 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

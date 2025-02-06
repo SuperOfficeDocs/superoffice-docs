@@ -29,7 +29,7 @@ Die Zeitzonenfunktion berücksichtigt auch die Umstellung von Winter- und Sommer
 
 ## Wie werden Zeitzonen ausgewählt?
 
-Zeitzonen werden im [Kalender][1] in einem Listenfeld und für [Folgeaufgaben][3] angezeigt. Dabei steht die Standardzeitzone der SuperOffice-Datenbank an erster Stelle und wird durch folgendes Symbol dargestellt: ![Symbol][img1].
+Zeitzonen werden im [Kalender][1] in einem Listenfeld und für [Folgeaufgaben][3] angezeigt. Dabei steht die Standardzeitzone der SuperOffice-Datenbank an erster Stelle.
 
 Die Zeitzonenliste ist nach Ländern sortiert. Ganz oben in der Liste stehen der Name des ausgewählten Landes und die zugehörige Flagge.
 
@@ -57,6 +57,3 @@ Durch Suchen nach einer bestimmten Zeitabweichung zur Ermittlung der Zeitzone: W
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
 [3]: ../../diary/learn/follow-ups.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.png

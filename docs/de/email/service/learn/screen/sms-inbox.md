@@ -14,7 +14,7 @@ language: de
 > [!NOTE]
 > Wenn diese Registerkarte nicht angezeigt wird, ist das SMS-Modul nicht installiert oder die SMS-Funktion wurde für die verwendete Lizenz nicht aktiviert. Weitere Informationen erhalten Sie von Ihrem Systemadministrator.
 
-Die Registerkarte **E-Mail-Posteingang** enthält eine Liste der SMS-Nachrichten in der Warteschlange, die eingelesen werden sollen. Die folgenden Optionen sind auch unter der Menüschaltfläche ![Symbol][img1] verfügbar:
+Die Registerkarte **E-Mail-Posteingang** enthält eine Liste der SMS-Nachrichten in der Warteschlange, die eingelesen werden sollen. Die folgenden Optionen sind auch unter der Menüschaltfläche verfügbar:
 
 * **Exportieren**: Wird für den Export der Liste in eine Datei verwendet. Sie können unter diesen Formaten auswählen: Excel, HTML und Nur-Text.
 
@@ -33,6 +33,3 @@ Klicken Sie in dieser Registerkarte auf eine der Nachrichten, um Informationen z
 <!-- Referenced links -->
 [1]: ../create-sms-mailbox.md
 [2]: sms-outbox.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

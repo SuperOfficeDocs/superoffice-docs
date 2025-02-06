@@ -17,7 +17,7 @@ Sie können eine Liste mit E-Mail-Adressen erstellen, die Sie häufig verwenden,
 
 ## Liste der E-Mail-Adressen
 
-Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste gehen und **Wissensdatenbank** > **E-Mail-Adressen** auswählen. Sie gelangen zur Ansicht **E-Mail-Adressen**, die E-Mail-Adressen in einer Ordnerstruktur enthält, die Sie selbst erstellen können.
+Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum <i class="ph ph-list" aria-label="Hauptmenü"></i> in der oberen Leiste gehen und **Wissensdatenbank** > **E-Mail-Adressen** auswählen. Sie gelangen zur Ansicht **E-Mail-Adressen**, die E-Mail-Adressen in einer Ordnerstruktur enthält, die Sie selbst erstellen können.
 
 * Um eine neue E-Mail-Adresse zu [erstellen][2], siehe **E-Mail-Adressen erstellen**.
 * Um eine vorhandene E-Mail-Adresse zu **bearbeiten**, müssen Sie auf den Namen in der Liste klicken.
@@ -32,6 +32,3 @@ Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum 
 <!-- Referenced links -->
 [2]: add-email-address.md
 [3]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/main-menu.png

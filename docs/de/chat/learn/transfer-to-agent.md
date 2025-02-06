@@ -20,10 +20,10 @@ Sie können Chats anderen Mitarbeitern übergeben und übergebene Chats von ande
 
 ## Wie man übergibt
 
-1. Klicken Sie auf das ![Symbol][img1] und wählen Sie **Übertragen** aus.
+1. Klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> und wählen Sie **Übertragen** aus.
 2. Wählen Sie einen Mitarbeiter aus der Liste **Übergeben an** aus. Hier werden nur Mitarbeiter mit dem Status **Anwesend** angezeigt.
 3. Klicken Sie auf **Übergeben**. Der Chat wird in der Liste der Sitzungen hervorgehoben. Nun gibt es folgende Möglichkeiten:
-    * Wenn der empfangende Mitarbeiter den übergebenen Chat annimmt, schalten Sie in den Mitlesemodus. Sie können den laufenden Chat lesen, aber nicht auf Nachrichten antworten. Um diese Chat-Sitzung zu schließen, klicken Sie auf das ![Symbol][img1] und wählen Sie **Fenster schließen** aus.
+    * Wenn der empfangende Mitarbeiter den übergebenen Chat annimmt, schalten Sie in den Mitlesemodus. Sie können den laufenden Chat lesen, aber nicht auf Nachrichten antworten. Um diese Chat-Sitzung zu schließen, klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> und wählen Sie **Fenster schließen** aus.
     * Wenn der empfangende Mitarbeiter den übergebenen Chat ablehnt, wird er in der Liste der Sitzungen nicht mehr hervorgehoben. Sie können den Chat fortsetzen oder eine [Anfrage erstellen][1], ob sich ein anderer Mitarbeiter darum kümmert.
     * Wenn der empfangende Mitarbeiter nicht antwortet, klicken Sie auf **Übergabe abbrechen**. Sie können den Chat fortsetzen oder eine [Anfrage erstellen][1], ob sich ein anderer Mitarbeiter darum kümmert.
 
@@ -46,4 +46,3 @@ Wenn ein Mitarbeiter Ihnen einen Chat übergibt, wird der Chat automatisch auf d
 [2]: respond.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

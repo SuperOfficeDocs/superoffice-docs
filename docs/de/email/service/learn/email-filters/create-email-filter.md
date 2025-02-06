@@ -48,7 +48,7 @@ language: de
     4. Klicken Sie auf **Hinzufügen**, um den Wert hinzuzufügen.
 
         > [!TIP]
-        > Zum Löschen eines Werts wählen Sie ihn aus und klicken auf das ![Symbol][img1] Löschen.
+        > Zum Löschen eines Werts wählen Sie ihn aus und klicken auf <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
 
 1. Auf der Registerkarte **Eigenschaften festlegen** können Sie bestimmte Eigenschaften für Anfragen festlegen, die aus E-Mails erzeugt wurden, die dem aktuellen Filter entsprechen:
 
@@ -67,6 +67,3 @@ language: de
 [1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../request/reply-templates/learn/index.md
 [3]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

@@ -49,17 +49,17 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 
   * **Vertikal:** Hiermit legen Sie fest, ob die Werte horizontal oder vertikal angezeigt werden.
 
-  * **Daten:** Hier geben Sie die Werte für die einzelnen Optionsfelder ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf die Plus-Schaltfläche ![Symbol][img1]. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
+  * **Daten:** Hier geben Sie die Werte für die einzelnen Optionsfelder ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf **+**. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
 
 * **Kontrollkästchen:** Ein Auswahlfeld, in dem mehrere Werte ausgewählt werden können.
 
   * **Vertikal:** Hiermit legen Sie fest, ob die Werte horizontal oder vertikal angezeigt werden.
 
-  * **Daten:** Hier geben Sie die Werte für die einzelnen Kontrollkästchen ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf die Plus-Schaltfläche ![Symbol][img1]. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
+  * **Daten:** Hier geben Sie die Werte für die einzelnen Kontrollkästchen ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf **+**. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
 
 * **Dropdown:** Ein Auswahlfeld, in dem ein Wert aus einer Liste ausgewählt werden kann.
 
-  * **Daten:** Hier geben Sie die Listenwerte ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf die Plus-Schaltfläche ![Symbol][img1]. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
+  * **Daten:** Hier geben Sie die Listenwerte ein. Geben Sie einen Wert in das Feld ein und klicken Sie auf **+**. Wiederholen Sie diesen Schritt, um weitere Werte hinzuzufügen.
 
 * **Verborgen:** Ein Feld, das im veröffentlichten Formular nicht sichtbar ist. In das Feld **Standardwert** können Sie einen Code, einen Projektnamen bzw. eine Projektnummer oder andere Informationen eingeben, die diesem Formular zugeordnet werden sollen.
 
@@ -92,6 +92,3 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

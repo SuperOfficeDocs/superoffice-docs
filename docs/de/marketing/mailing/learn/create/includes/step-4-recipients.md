@@ -19,7 +19,7 @@ Sie können Empfänger aus Selektionen (SuperOffice CRM und SuperOffice Service)
 
 3. Klicken Sie auf eine Selektion oder ein Projekt in der Liste.
 
-4. Klicken Sie auf das ![Symbol][img1]. Die Selektion oder das Projekt wird zur Liste **Empfängerquellen** hinzugefügt und die Liste **Empfänger** wird aktualisiert.
+4. Klicken Sie auf **+**. Die Selektion oder das Projekt wird zur Liste **Empfängerquellen** hinzugefügt und die Liste **Empfänger** wird aktualisiert.
 
 5. Wiederholen Sie die Schritte 1-4, um weitere Selektionen oder Projekte hinzuzufügen.
 
@@ -36,7 +36,7 @@ Sie können einzelne Personen aus SuperOffice hinzufügen.
 
 3. Wählen Sie die gewünschte Person aus der angezeigten Liste aus.
 
-4. Klicken Sie auf das ![Symbol][img1]. Die Person wird zur Liste **Empfängerquellen** hinzugefügt. Die Liste **Empfänger** wird aktualisiert.
+4. Klicken Sie auf **+**. Die Person wird zur Liste **Empfängerquellen** hinzugefügt. Die Liste **Empfänger** wird aktualisiert.
 
 5. Gehen Sie wie in Schritt 2 bis 5 erläutert vor, um weitere Personen hinzuzufügen. Zusätzliche Personen werden zur gleichen Zeile in der Liste **Empfängerquellen** hinzugefügt. Die Personenanzahl wird in der Spalte **Name** angezeigt.
 
@@ -52,7 +52,7 @@ Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOff
 
 2. Speicherort der entsprechenden Datei (.txt, .csv oder ähnliches Format) angeben.
 
-3. Klicken Sie auf das ![Symbol][img1]. Die Liste wird zur Liste **Empfängerquellen** hinzugefügt. Die Liste **Empfänger** wird aktualisiert.
+3. Klicken Sie auf **+**. Die Liste wird zur Liste **Empfängerquellen** hinzugefügt. Die Liste **Empfänger** wird aktualisiert.
 
 4. Wiederholen Sie die Schritte 2 bis 4, um weitere Empfänger hinzuzufügen. Zusätzliche Empfänger werden zur gleichen Zeile in der Liste **Empfängerquellen** hinzugefügt. Die Gesamtanzahl der Empfänger wird in der Spalte **Name** angezeigt.
 
@@ -118,7 +118,7 @@ Nachdem Sie Empfänger zur Liste **Empfänger** hinzugefügt haben, können Sie 
 
 3. Klicken Sie auf Links, um zu überprüfen, ob sie funktionieren. Vergessen Sie jedoch nicht, diese zurückzusetzen, falls sie überwacht werden.
 
-4. Klicken Sie auf ![Symbol][img2], um das Fenster **Vorschau** zu schließen.
+4. Klicken Sie auf X, um das Fenster **Vorschau** zu schließen.
 
 ## Liste Empfänger prüfen und aktualisieren
 
@@ -132,6 +132,4 @@ Zusätzlich dazu können Sie auf die Schaltfläche **Liste aktualisieren** unter
 Klicken Sie auf **Weiter**, um zu Schritt 5 zu gehen: Bestätigen Sie. Sie können immer noch zum Schritt **Empfänger** zurückkehren, um die Empfängerliste zu bearbeiten.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

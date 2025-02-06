@@ -44,7 +44,7 @@ Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine ne
 
 1. Ersetzen Sie "Neue Registerkarte" durch den Archivnamen und geben Sie eine Beschreibung für das neue Archiv ein.
 
-    Optional klicken Sie auf die **A-Z**-Schaltfläche klicken, um die Texte in anderen Sprachen hinzuzufügen.
+    Optional klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um die Texte in anderen Sprachen hinzuzufügen.
 
 1. Passen Sie den **Eindeutigen Namen für die Registerkarte** (soprotocol) nach Bedarf an.
 
@@ -59,7 +59,7 @@ Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine ne
 1. (Optional) Verwenden Sie **Erweiterte Optionen**, um Aktionen für Einzel- und Doppelklicks anzupassen. Standardmäßig wird bei einem Einzelklick eine Zeile ausgewählt und bei einem Doppelklick ein Datensatz/Eintrag in SuperOffice geöffnet.
 
     > [!TIP]
-    > Stellen Sie den Mauszeiger über das Info-Symbol ![icon][img4], um Beispiele zu sehen.
+    > Stellen Sie den Mauszeiger über <i class="ph ph-info" aria-label="Info"></i>, um Beispiele zu sehen.
 
 1. Ziehen Sie das Archiv an die gewünschte Position in der Vorschau.
 
@@ -98,7 +98,6 @@ Um diese Änderungen rückgängig zu machen, klicken Sie auf **Registerkarten wi
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

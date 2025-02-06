@@ -36,7 +36,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie man ein Web-Formular erstellt 
 
 1. Wählen Sie die Registerkarte **Formularvorlagen**.
 2. Klicken Sie auf **Alle Vorlagen**.
-3. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben der Vorlage, die Sie verwenden möchten.
+3. Klicken Sie auf die Menüschaltfläche <i class="ph ph-list" aria-label="Aufgabe"></i> neben der Vorlage, die Sie verwenden möchten.
 4. Wählen Sie **Kopie in neues Formular**. Die Vorlage wird im Dialogfeld **Formular bearbeiten** geöffnet.
 5. [Aktivieren und veröffentlichen Sie das Formular][2].
 
@@ -46,7 +46,7 @@ Um die Benutzerfreundlichkeit zu erhöhen und die Lesbarkeit zu erleichtern, kö
 
 1. Erstellen Sie ein Formular wie oben beschrieben.
 2. Wählen Sie **Felder** im linken Menü (im Dialogfeld).
-3. Klicken Sie auf die Schaltfläche **Hinzufügen** ![Symbol][img2].
+3. Klicken Sie auf die Schaltfläche **Hinzufügen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Wählen Sie **Ansichtselemente** im Fenster **Elemente hinzufügen** aus.
 5. Wählen Sie **Bereich** und klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und ein Bereich wird zum Formular hinzugefügt. Sie können den Bereich auch in der Vorschau des Formulars sehen.
 6. Klicken Sie auf ![Symbol][img3] oben im Bereich und ziehen Sie ihn an die gewünschte Position auf dem Formular. Die Felder über und unter dem Bereich befinden sich auf zwei separaten Seiten des Formulars.
@@ -83,7 +83,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 1. Wählen Sie **Felder** im linken Menü. Standardmäßig wurden das Feld **Person - Name** und die Schaltfläche **OK** bereits zum neuen Formular hinzugefügt.
 
-2. Klicken Sie auf die Schaltfläche **Hinzufügen** ![Symbol][img2].
+2. Klicken Sie auf die Schaltfläche **Hinzufügen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. Wählen Sie im Fenster **Element hinzufügen** eine der folgenden Feldkategorien aus:
 
@@ -107,7 +107,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
     * Aktivieren Sie das Kontrollkästchen **Obligatorisch**, wenn dieses Feld ausgefüllt werden muss. Das Formular kann nicht übermittelt werden, wenn nicht alle Pflichtfelder ausgefüllt sind.
 
-    * Klicken Sie auf ![Symbol][img5] **Erweiterte Optionen**, um das Feld **Bezeichnung** anzuzeigen, in dem Sie eine ID für das Feld hinzufügen können. Diese Angabe stellt eine eindeutige ID für das Feld dar und ändert sich nicht, wenn der Feldname bzw. die Feldbezeichnung oder die Sprache geändert wird. Damit können Sie sicherstellen, dass Links auf das Feld nach Veröffentlichung des Formulars weiterhin funktionieren.
+    * Klicken Sie auf **Erweiterte Optionen** (<i class="ph ph-gear" aria-hidden="true"></i>), um das Feld **Bezeichnung** anzuzeigen, in dem Sie eine ID für das Feld hinzufügen können. Diese Angabe stellt eine eindeutige ID für das Feld dar und ändert sich nicht, wenn der Feldname bzw. die Feldbezeichnung oder die Sprache geändert wird. Damit können Sie sicherstellen, dass Links auf das Feld nach Veröffentlichung des Formulars weiterhin funktionieren.
 
     * Aktivieren Sie das Kontrollkästchen **Volle Breite**, wenn das ausgewählte Feld genauso breit wie das Formular sein soll.
 
@@ -115,7 +115,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 10. Klicken Sie, sobald Sie fertig sind, auf **Aktivieren**.
 
-11. Wiederholen Sie Schritt 2-10, um weitere Felder hinzuzufügen. Sie können auch auf ![Symbol][img6] **Feld duplizieren** klicken, um eine Kopie eines Felds zu erstellen.
+11. Wiederholen Sie Schritt 2-10, um weitere Felder hinzuzufügen. Sie können auch auf **Feld duplizieren** (<i class="ph ph-copy" aria-hidden="true"></i>) klicken, um eine Kopie eines Felds zu erstellen.
 
 ### Stil
 
@@ -149,7 +149,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie man die doppelte Opt-in-Funkti
 
     3. **Bestätigungstext**: Geben Sie den Textkörper der E-Mail ein.
 
-    4. Wählen Sie **Bestätigungs-Link einfügen** ![Symbol][img9] aus der Symbolleiste (klicken Sie auf ![Symbol][img7], um anzuzeigen). Der Link wird in den Text eingefügt. Klicken Sie zum Bearbeiten auf den Link und wählen Sie **Link bearbeiten** ![Symbol][img8] aus.
+    4. Wählen Sie **Bestätigungs-Link einfügen** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) aus der Symbolleiste (klicken Sie auf <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i>, um anzuzeigen). Der Link wird in den Text eingefügt. Klicken Sie zum Bearbeiten auf den Link und wählen Sie **Link bearbeiten** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) aus.
 
 4. Klicken Sie, sobald Sie fertig sind, auf **Aktivieren**.
 
@@ -201,12 +201,5 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

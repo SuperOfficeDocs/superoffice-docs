@@ -43,7 +43,7 @@ Das Textfeld weiter oben rechts in SuperOffice CRM dient zur Volltextsuche. In d
 
 Sie können im Dialogfeld **Dokument** nach Text suchen, aber nicht den tatsächlichen Inhalt von Dokumenten durchsuchen. Es wird immer zuerst nach Text im Feld **Unser Zeichen** des Dialogfelds **Dokument** gesucht.
 
-Bestimmte Wörter werden bei der Volltextsuche ignoriert. [!include[SM](../../learn/includes/are-defined-sm.md)]
+Bestimmte Wörter werden bei der Volltextsuche ignoriert. Diese wurden in Einstellungen und Verwaltung definiert.
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## Warum erhalte ich keine Treffer für ein Suchwort, von dem ich weiß, dass es in der Datenbank enthalten ist?

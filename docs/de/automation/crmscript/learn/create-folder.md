@@ -17,7 +17,7 @@ In dieser Ansicht können Sie die Eigenschaften eines neuen oder vorhandenen Skr
 
 ## Ordner erstellen
 
-1. Klicken Sie auf das ![Symbol][img1] **Neuer Ordner** oben in der Anzeige.
+1. Klicken Sie auf <i class="ph ph-folder" aria-hidden="true"></i> **Neuer Ordner** oben in der Anzeige.
 2. Wählen Sie im Feld **Ordner** einen übergeordneten Ordner in der Liste aus.
 3. Geben Sie einen aussagekräftigen Namen für den Ordner in das Feld **Name** ein.
 4. Klicken Sie auf **OK**. Der neue Ordner wird erstellt.
@@ -39,8 +39,3 @@ Wenn Sie einen Ordner löschen, wird der gesamte Inhalt (wie Selektionen, FAQ-Ei
 2. Klicken Sie auf den Namen des Ordners.
 3. Klicken Sie auf **Löschen**.
 4. Klicken Sie zur Bestätigung auf **OK**. Der Ordner wird mit seinem Inhalt aus SuperOffice entfernt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

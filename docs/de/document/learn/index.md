@@ -4,15 +4,16 @@ title: Mit Dokumenten arbeiten
 description: Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM erstellen und speichern können und wie Sie sie direkt in Ihrer CRM-Lösung senden und empfangen können.
 keywords: Dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Mit Dokumenten arbeiten ![Symbol][img1]
+# Mit Dokumenten arbeiten <i class="ph ph-files" aria-hidden="true"></i>
 
 Durch die Speicherung aller Dokumente an einem Ort können Sie und Ihr Team leichter auf aktuelle Informationen zugreifen und die Kontrolle über die Kundenbeziehungen behalten.
 
@@ -27,14 +28,14 @@ Sie können Dokumente im [Bearbeitungs- oder im Lesemodus][7] öffnen. Wenn Sie 
 
 | Symbol | Eigenschaft | Beschreibung |
 |:-:|---|---|
-| ![icon][img11] | Sprache | Eine Liste der verfügbaren Übersetzungen der Vorlage. "Standard", wenn nicht übersetzt. |
-| ![icon][img4] | Datum | Heutiges Datum (Standard). Klicken Sie auf den Pfeil neben dem **Datum**-Feld, um einen Monatskalender zu öffnen, in dem Sie das gewünschte Datum auswählen können. |
-| ![icon][img3] | Betreff | Die Überschrift des Dokuments. |
-| ![icon][img2] | Vorlage | Eine Liste der verfügbaren [Dokumentvorlagen][11] wie Brief oder Angebot. |
-| ![icon][img7], ![icon][img8] | Firma / Kontakt | Um wen es sich bei dem Dokument handelt. |
-| ![icon][img5] | Verkauf | Ein Verkauf, der mit dem Dokument verknüpft ist. |
-| ![icon][img6] | Projekt | Ein Projekt, das mit dem Dokument verknüpft ist. |
-| | Unsere Ref | Zugewiesene Dokumentnummer. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Sprache | Eine Liste der verfügbaren Übersetzungen der Vorlage. "Standard", wenn nicht übersetzt. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Datum | Heutiges Datum (Standard). Klicken Sie auf den Pfeil neben dem **Datum**-Feld, um einen Monatskalender zu öffnen, in dem Sie das gewünschte Datum auswählen können. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Betreff | Die Überschrift des Dokuments. |
+| <i class="ph ph-files" aria-label="Document"></i> | Vorlage | Eine Liste der verfügbaren [Dokumentvorlagen][11] wie Brief oder Angebot. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Firma / Kontakt | Um wen es sich bei dem Dokument handelt. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Verkauf | Ein Verkauf, der mit dem Dokument verknüpft ist. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Projekt | Ein Projekt, das mit dem Dokument verknüpft ist. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i> | Unsere Ref | Zugewiesene Dokumentnummer. |
 | | Ihre Ref | Die Referenz des Adressaten aus ihrer Kommunikation. |
 
 ## Neu erstellen
@@ -51,7 +52,7 @@ Ganz gleich, wo Sie sich in SuperOffice CRM befinden, Sie können ein neues Doku
 
 ## Datensatz als Favoriten hinzufügen
 
-Wenn Sie einen Datensatz zu den Favoriten hinzufügen möchten, klicken Sie auf das Sternsymbol ![Symbol][img13] in der Ecke der jeweiligen Karte bzw. Registerkarte oder im jeweiligen Dialogfeld. Der Stern wird daraufhin in Gelb ![Symbol][img12] angezeigt und der Datensatz wird sofort zu den Favoriten hinzugefügt. Sie brauchen nicht auf **Speichern** zu klicken.
+Wenn Sie einen Datensatz zu den Favoriten hinzufügen möchten, klicken Sie auf <i class="ph ph-star" aria-label="Star icon"></i> in der jeweiligen Karte bzw. Registerkarte oder im jeweiligen Dialogfeld. Der Stern wird daraufhin in Gelb angezeigt und der Datensatz wird sofort zu den Favoriten hinzugefügt. Sie brauchen nicht auf **Speichern** zu klicken.
 
 ## Dokumente standardisieren
 
@@ -85,15 +86,3 @@ Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für das Dok
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/document-h32.png
-[img2]: ../../../../common/icons/singlecolour/document.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diaryblack.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-
-[img11]: ../../../../common/icons/az.png
-[img12]: ../../../../common/icons/favourite-yes.png
-[img13]: ../../../../common/icons/favourite-no.png

@@ -64,7 +64,7 @@ Sie finden diese Ressourcen nützlich:
 ## Schritt verschieben, duplizieren oder entfernen
 
 * **Verschieben:** Klicken Sie auf einen Schritt und ziehen Sie ihn an eine neue Position.
-* **Duplizieren:** Zeigen Sie auf einen Schritt und klicken Sie auf das **Duplikat**-Symbol ![icon][img11]. Dies erstellt einen neuen Schritt basierend auf dem aktuellen und fügt ihn als nächsten Schritt hinzu. Verwenden Sie diese Option, um einen Schritt im selben Flow wiederzuverwenden.
+* **Duplizieren:** Zeigen Sie auf einen Schritt und klicken Sie auf das **Duplikat**-Symbol (<i class="ph ph-copy" aria-hidden="true"></i>). Dies erstellt einen neuen Schritt basierend auf dem aktuellen und fügt ihn als nächsten Schritt hinzu. Verwenden Sie diese Option, um einen Schritt im selben Flow wiederzuverwenden.
 * **Entfernen:** Zeigen Sie auf einen Schritt und klicken Sie auf das rote X. Dies entfernt den Schritt aus dem Flow (aber nicht dessen Inhalt).
 
 > [!NOTE]
@@ -115,6 +115,3 @@ Gehen Sie zum Registerkarte **Flow**, um zu überprüfen, ob sich jemand im Zwei
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenzierte Bilder -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

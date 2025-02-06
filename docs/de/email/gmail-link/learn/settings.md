@@ -26,9 +26,9 @@ Manchmal wird immer das Dialogfeld **E-Mail archivieren in SuperOffice** angezei
 
 ## Andere als E-Mail-Vorlagen in Vorlagenliste hinzufügen
 
-![Symbol][img2] aktiviert: Alle Dokumentvorlagen werden in der Liste **Typ** im Dialogfeld **E-Mail in SuperOffice archivieren** angezeigt.
+Aktiviert (<i class="ph ph-check" aria-hidden="true"></i>): Alle Dokumentvorlagen werden in der Liste **Typ** im Dialogfeld **E-Mail in SuperOffice archivieren** angezeigt.
 
-![Symbol][img3] deaktiviert: Es werden nur Dokumentvorlagen des Typs **E-Mail** angezeigt.
+Deaktiviert: Es werden nur Dokumentvorlagen des Typs **E-Mail** angezeigt.
 
 ## Standardvorlage für ausgehende E-Mail
 
@@ -65,5 +65,3 @@ Klicken Sie auf diese Schaltfläche, um die Verbindung zu einer anderen SuperOff
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

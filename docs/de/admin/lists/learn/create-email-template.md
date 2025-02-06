@@ -29,19 +29,19 @@ Sie können Ihre eigenen Vorlagen erstellen, die Sie beim Erstellen von E-Mails 
 
 7. [!include[Click arrow and select](includes/expand-list.md)] Wählen Sie **Dokumentvorlage** von der Dropdown-**Liste** aus.
 
-8. Klicken Sie auf das **Symbol** der Schaltfläche **Hinzufügen** unter der Liste ![Objekte][img2].
+8. Klicken Sie auf der Schaltfläche **Hinzufügen** unter der Liste.
 
 9. Geben Sie im Dialogfeld den gewünschten Namen für die Vorlage im Pflichtfeld **Name** ein.
 
-10. Klicken Sie im Feld **Dateiname** auf das ![Symbol][img1] Pfeil und wählen Sie die Datei *.somail* aus, die Sie gerade erstellt haben.
+10. Klicken Sie im Feld **Dateiname** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie die Datei *.somail* aus, die Sie gerade erstellt haben.
 
-11. Klicken Sie im Feld **Richtung** auf das ![Symbol][img1] Pfeil und wählen Sie vom Dropdown-Menü **Ausgehende** aus.
+11. Klicken Sie im Feld **Richtung** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie vom Dropdown-Menü **Ausgehende** aus.
 
-12. Klicken Sie im Feld **Datensatztyp** auf das ![Symbol][img1] Pfeil und wählen Sie **E-Mail** aus.
+12. Klicken Sie im Feld **Datensatztyp** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie **E-Mail** aus.
 
-13. Wählen Sie im Feld **Dokument-Plugin** das Programm aus, mit dem das Dokument angezeigt werden soll. Klicken Sie dazu auf den Pfeil ![Symbol][img1] und wählen Sie eine Option im Dropdown aus.
+13. Wählen Sie im Feld **Dokument-Plugin** das Programm aus, mit dem das Dokument angezeigt werden soll. Klicken Sie dazu auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine Option im Dropdown aus.
 
-14. Klicken Sie im Feld **Zweck** auf den ![Symbol][img1] Pfeil und wählen Sie eine der voreingestellten Optionen vom Dropdown-Menü aus. Diese Objekte gehören zur Statuskontrollfunktion von SuperOffice CRM, für die eine SAINT-Lizenz erforderlich ist.
+14. Klicken Sie im Feld **Zweck** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine der voreingestellten Optionen vom Dropdown-Menü aus. Diese Objekte gehören zur Statuskontrollfunktion von SuperOffice CRM, für die eine SAINT-Lizenz erforderlich ist.
 
 15. Aktivieren Sie das Feld **Veröffentlichen**, damit ein Benutzer in dem Dialogfeld Dokument auswählen kann, ob die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
 
@@ -58,7 +58,3 @@ Sie können Ihre eigenen Vorlagen erstellen, die Sie beim Erstellen von E-Mails 
 21. Klicken Sie auf **Speichern**.
 
 Mit dieser Vorlage können Sie jetzt neue E-Mails aus SuperOffice CRM erstellen.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

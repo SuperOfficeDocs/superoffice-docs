@@ -28,7 +28,7 @@ Wenn Sie eine Liste mit zwei Ebenen möchten, müssen Sie für jedes individuell
 
 4. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** oben rechts.
 
-5. Klicken Sie in der Liste **Überschriften** auf das Kontrollkästchen neben dem Namen der gewünschten Überschrift, um festzulegen, dass das ausgewählte Objekt unter dieser Überschrift angezeigt wird. Das Kontrollkästchen wird mit einem Häkchen (![Symbol][img1]) markiert.
+5. Klicken Sie in der Liste **Überschriften** auf das Kontrollkästchen neben dem Namen der gewünschten Überschrift, um festzulegen, dass das ausgewählte Objekt unter dieser Überschrift angezeigt wird. Das Kontrollkästchen wird mit einem Häkchen (<i class="ph ph-check" aria-hidden="true"></i>) markiert.
 
     Die Änderungen werden automatisch gespeichert.
 
@@ -63,6 +63,3 @@ Wenn Sie eine Liste mit zwei Ebenen möchten, müssen Sie für jedes individuell
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

@@ -13,7 +13,7 @@ language: de
 
 Wenn Sie das Problem nicht über den Chat lösen können, können Sie eine Anfrage erstellen, die von einem anderen Spezialisten bearbeitet wird.
 
-1. Klicken Sie auf das ![Symbol][img1] und wählen Sie **Anforderung erstellen** aus.
+1. Klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> und wählen Sie **Anforderung erstellen** aus.
 
     ![Klicken Sie auf die Schaltfläche Aktion und Anfrage erstellen, und alle Informationen im Chat werden in der Anfrage gespeichert -screenshot][img2]
 
@@ -36,5 +36,4 @@ Wenn Sie das Problem nicht über den Chat lösen können, können Sie eine Anfra
 [4]: ../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-create-request.png

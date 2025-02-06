@@ -26,7 +26,7 @@ language: de
 
 4. Geben Sie in das Feld **Präfix** die Buchstaben ein, die vor der Postleitzahl angegeben werden müssen, wenn Briefe aus dem Ausland in das betreffende Land geschickt werden, z. B. *D* für Deutschland.
 
-5. In den folgenden drei Feldern können Sie auf den Pfeil ![Symbol][img1] klicken, um das gewünschte Adressformat in der Liste auszuwählen. Im Allgemeinen gilt dasselbe Format für alle drei Felder, für einige Länder kann es jedoch nützlich sein, je nach Verwendungszweck der Adresse verschiedene Formate zu verwenden:
+5. In den folgenden drei Feldern können Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken, um das gewünschte Adressformat in der Liste auszuwählen. Im Allgemeinen gilt dasselbe Format für alle drei Felder, für einige Länder kann es jedoch nützlich sein, je nach Verwendungszweck der Adresse verschiedene Formate zu verwenden:
     * **Visuelles Adressformat**:
         Das normale Format, das in der Ansicht Firma angezeigt wird. In der Regel genügt es, nur hier ein Format auszuwählen.
     * **Lokales Adressformat** und **Internationales Adressformat**:
@@ -34,7 +34,7 @@ language: de
 
 6. Die Ansicht Firma enthält ein Feld mit der Bezeichnung **Ust-IdNr.**, in das die Umsatzsteuernummer bzw. eine vergleichbare Nummer des Unternehmens eingegeben werden kann. Sie können diese Feldbezeichnung in Einstellungen und Verwaltung ändern. Geben Sie den gewünschten Text in das Feld **Leittext Organisationsnr.** ein, zum Beispiel *Handelsregister-Nr.* für Norwegen. Wenn Sie eine norwegische Firma in SuperOffice CRM registrieren, lautet die Bezeichnung für die Organisationsnummer des Unternehmens *Handelsregister-Nr.* statt *Ust-IdNr.*.
 
-7. Klicken Sie auf den ![Symbol][img1] Pfeil neben dem Feld **Währung** und wählen Sie eine Währung von der Liste aus.
+7. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem Feld **Währung** und wählen Sie eine Währung von der Liste aus.
 
     > [!NOTE]
     > Diese Optionen werden in der Liste [**Allgemein - Währung**][2] festgelegt.
@@ -49,6 +49,3 @@ language: de
 
 <!-- Referenced links -->
 [2]: currency.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

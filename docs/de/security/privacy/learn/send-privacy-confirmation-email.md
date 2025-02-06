@@ -36,7 +36,7 @@ Von der Ansicht Person können Sie einer Person erneut die E-Mail zur Datenschut
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klicken Sie auf **Aufgabe** (![Symbol][img1]) &gt; **E-Mail zur Datenschutzbestätigung senden**.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> und wählen Sie **E-Mail zur Datenschutzbestätigung senden**.
 
     ![Senden Sie eine Bestätigungs-E-Mail, um die Personen darüber zu informieren, dass ihre Informationen in Ihrer CRM-Datenbank gespeichert werden -screenshot][img2]
 
@@ -70,5 +70,4 @@ Die E-Mail kann auch einen Link zu einem Kundenzentrum enthalten, wo die Person 
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

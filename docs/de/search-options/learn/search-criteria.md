@@ -17,10 +17,12 @@ Suchkriterien werden verwendet, um Suchanfragen zu definieren, wie zum Beispiel 
 
 Typische Suchanfragen sollen Ihnen den Einstieg und die Erstellung Ihrer eigenen Suche nach CRM-Daten erleichtern. Nachdem Sie eine typische Suchanfrage ausgewählt haben, können Sie die Suchkriterien hinzufügen und bearbeiten. Und nachdem Sie eine nützliche Suche erstellt haben, die Sie erneut verwenden möchten, können Sie diese als Selektion speichern.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen (Videolänge – 3:01):
+Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(Videolänge – 3:01)
 
 ## Suchkriterien hinzufügen
 
@@ -65,7 +67,7 @@ Wenn das Feld, das Sie durchsuchen, ein Datumsfeld ist (zum Beispiel das Feld **
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Wählen Sie die gewünschte Option. Je nach Ihrer Auswahl wird das Feld automatisch mit einem Datum oder Datumsbereich ausgefüllt, oder Sie können das gewünschte Datum auch selbst eingeben. Sie können auch ein Datum aus dem Kalender auswählen, der angezeigt wird, wenn Sie auf die Pfeilschaltfläche ![Symbol][img1] klicken.
+Wählen Sie die gewünschte Option. Je nach Ihrer Auswahl wird das Feld automatisch mit einem Datum oder Datumsbereich ausgefüllt, oder Sie können das gewünschte Datum auch selbst eingeben. Sie können auch ein Datum aus dem Kalender auswählen, der angezeigt wird, wenn Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken.
 
 ### <a id="number"></a>Nummernfeld
 
@@ -115,15 +117,15 @@ Wenn Sie die Ansicht **Suchen** öffnen, enthält diese die Standardsuchkriterie
 
 | Aufgabe | Action |
 |---|---|
-| Suchkriterien verschieben | Klicken und ziehen Sie ![Symbol][img2]. |
+| Suchkriterien verschieben | Klicken und ziehen Sie <i class="ph ph-equals" aria-label="="></i>. |
 | Suchkriterien ändern | Darauf klicken und ein anderes Kriterium aus der angezeigten Liste auswählen. |
 | Ein oder mehrere Suchkriterien deaktivieren | Lassen Sie das Wertfeld leer. |
 | Alle Suchkriterien deaktivieren | Klicken Sie auf **Alle löschen**. |
-| Ein Suchkriterium zu löschen | Klicken Sie auf ![Symbol][img3]. |
+| Ein Suchkriterium zu löschen | Klicken Sie auf <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Standardsuchkriterien wiederherstellen | Klicken Sie **Auf Standard zurücksetzen**. |
 
 > [!NOTE]
-> Um Kriterien zu verschieben, ziehen Sie mit gedrückter Maustaste ![Symbol][img2]. Dies hat keine praktischen Auswirkungen auf die Suche, aber Sie können so die Kriterien in der gewünschten Reihenfolge anordnen. Wenn einige der Kriterien nicht verwendet werden, Sie sie aber beibehalten möchten, können Sie inaktive Kriterien in der Liste nach unten verschieben.
+> Um Kriterien zu verschieben, ziehen Sie mit gedrückter Maustaste. Dies hat keine praktischen Auswirkungen auf die Suche, aber Sie können so die Kriterien in der gewünschten Reihenfolge anordnen. Wenn einige der Kriterien nicht verwendet werden, Sie sie aber beibehalten möchten, können Sie inaktive Kriterien in der Liste nach unten verschieben.
 >
 > Ein deaktiviertes Suchkriterium bleibt in der Kriterienliste erhalten und kann bei Bedarf einfach wieder aktiviert werden.
 
@@ -135,8 +137,3 @@ Wenn Sie die Ansicht **Suchen** öffnen, enthält diese die Standardsuchkriterie
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

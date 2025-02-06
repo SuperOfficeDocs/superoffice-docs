@@ -69,7 +69,7 @@ Oben haben Sie folgende Optionen:
 | Inaktiv/Aktiv | Schieben Sie diesen Schalter, um das Formular zu aktivieren bzw. zu deaktivieren. |
 | Aktualisieren | Aktualisiert die Ansicht. |
 | Bearbeiten | Öffnet das Formular im Bearbeitungsmodus. |
-| ![Symbol][img5] | Setzt das Formular als [Favorit][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Setzt das Formular als [Favorit][11]. |
 
 Der Bildschirm **Formular anzeigen** besteht aus den folgenden Registerkarten:
 
@@ -118,4 +118,3 @@ Durch die Double-Opt-In-Funktion wird sichergestellt, dass die richtige E-Mail-A
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img3]: ../../../../media/loc/en/marketing/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png

@@ -1,7 +1,7 @@
 ---
 uid: help-de-screen-designer-fields
 title: Arbeiten mit Feldern
-description: So fügen Sie Felder in einem Layout mit dem Ansichtsdesigner in Einstellungen und Wartung hinzu, verschieben und löschen sie.
+description: So fügen Sie Felder in einem Layout mit dem Ansichtsdesigner in Einstellungen und Verwaltung hinzu, verschieben und löschen sie.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Feld, Feldlayout, Feld-Einstellung
 author: Bergfrid Dias
 date: 10.07.2024

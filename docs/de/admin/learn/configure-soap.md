@@ -29,9 +29,4 @@ language: de
 1. Klicken Sie auf die Schaltfläche **Hinzufügen**, um den IP-Adressen-Bereich der Liste unten hinzuzufügen.
 
 > [!TIP]
-> Klicken Sie auf das ![Symbol][img1] Löschen, um einen IP-Adressen-Bereich von der Liste zu entfernen.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> Klicken Sie auf <i class="ph ph-x-circle" aria-label="Remove icon"></i>, um einen IP-Adressen-Bereich von der Liste zu entfernen.

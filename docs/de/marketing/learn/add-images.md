@@ -17,7 +17,7 @@ language: de
 
     [Wie man einen Kampagnenordner erstellt][2]
 
-3. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Hinzufügen**. Damit gelangen Sie zur Ansicht **Bildeigenschaften**.
+3. Klicken Sie auf der Schaltfläche **Hinzufügen** (<i class="ph ph-plus" aria-hidden="true"></i>). Damit gelangen Sie zur Ansicht **Bildeigenschaften**.
 
 4. Geben Sie einen aussagekräftigen Namen für das Bild in das Feld **Name** ein.
 
@@ -39,6 +39,3 @@ language: de
 <!-- Referenced links -->
 [1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

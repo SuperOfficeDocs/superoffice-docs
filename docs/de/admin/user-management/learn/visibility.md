@@ -15,10 +15,7 @@ Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen k
 
 Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
 
-Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf die Registerkarte **Lizenzen** und dann das Kontrollkästchen ![Symbol][img1] für **Vertrauliche Aktivitäten** anklicken.
+Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf die Registerkarte **Lizenzen** und dann das Kontrollkästchen für **Vertrauliche Aktivitäten** anklicken.
 
 <!-- Referenced links -->
 [1]: role/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-selected.png
