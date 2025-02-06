@@ -48,9 +48,9 @@ If IP phone, Skype or FaceTime is installed, you can make phone calls from Super
 
 ### Available parameters
 
-**IP phone**: tel:%p (default value)
-**Skype**: callto:%p
-**FaceTime**: facetime:%p
+* **IP phone**: `tel:%p` (default value)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
 [Template variables][2] can also be used in the phone parameters.
 

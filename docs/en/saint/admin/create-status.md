@@ -32,7 +32,7 @@ You want to monitor companies that you have very few activities with, to avoid u
 
     * **Name**: Enter a descriptive name for the status you want to add.
 
-        Optional: Click **A-Z** to [add translations][8] of the status name.
+        Optional: Click <i class="ph ph-translate" aria-label="Translate"></i> to [add translations][8] of the status name.
 
     * **Description**: Enter an explanatory description of the status and what measures are required or recommended. In this field you can also use [template variables][9] to tailor the text to the relevant company, contact or project.
 

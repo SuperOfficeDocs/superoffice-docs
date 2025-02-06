@@ -21,8 +21,8 @@ The **ERP** tab is displayed if your organization has a license for [Development
 
 This integration ensures data consistency across systems, reducing manual updates and errors.
 
-[!NOTE]
-The ERP tab will only appear for users with the appropriate license and settings enabled in Settings and maintenance.
+> [!NOTE]
+> The ERP tab will only appear for users with the appropriate license and settings enabled in Settings and maintenance.
 
 <!-- Referenced links -->
 [1]: ../../../../../en/admin/license/expander-services/tool-box.md

@@ -25,7 +25,7 @@ The **Contacts** section tab contains the following columns to display key infor
 | Column | Description |
 |---|---|
 | Info | Displays a paperclip icon (<i class="ph ph-paperclip" aria-hidden="true"></i>) if the **Note** tab in the Contact card has a note. Hover over the icon to view it. |
-| Interests | Displays a pin icon (<i class="ph ph-push-pin" aria-hidden="true"></i>) if the contact has interests. Hover over the icon to see the interests. |
+| Interests | Displays a dot if the contact has interests. Hover over the icon to see the interests. |
 | Mr/Ms | Indicates the appropriate way of addressing the contact. |
 | First name / Middle name / Last name | The full name of the contact. The middle name usage can be configured in **Settings and maintenance**. |
 | Title | Displays the contact's professional title or role within the company. |
