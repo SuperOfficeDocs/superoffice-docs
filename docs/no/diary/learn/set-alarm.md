@@ -2,11 +2,14 @@
 uid: help-no-follow-up-alarms
 title: Still inn alarmer for oppfølging
 description: Slik stiller du en alarm for oppfølging i SuperOffice.
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbok, oppfølging, alarm, varsling
+keywords: sett alarm, møtepåminnelse, bli med, varsel, nettleservarsel, ledetid, påminnelse, minn meg, dagbok, oppfølging, alarm, varsling
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

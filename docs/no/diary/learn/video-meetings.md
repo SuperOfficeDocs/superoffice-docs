@@ -36,12 +36,12 @@ Du kan enkelt konfigurere et videomøte når du oppretter en oppfølging. Se den
 
 1. Opprett en ny avtale, og velg navnet på firmaet og personen du planlegger å møte.
 
-2. Hvis du vil opprette en videomøte-URL, klikker du på <i class="ph ph-video-camera" aria-label="Camera icon"></i>. Ikonet endres til ![icon][img2] og en videomøtekobling legges til. SuperOffice CRM oppretter og legger til nettadressen for videomøter for videoleverandøren du bruker.
+2. Hvis du vil opprette en videomøte-URL, klikker du på <i class="ph ph-video-camera" aria-label="Camera icon"></i>. Ikonet endrer farge og en videomøtekobling legges til. SuperOffice CRM oppretter og legger til nettadressen for videomøter for videoleverandøren du bruker.
 
     ![Klikk på videomøteikonet for å opprette nettadressen til videomøtet -screenshot][img5]
 
     > [!NOTE]
-    > Første gang du velger videoikonet, må du logge på for å godkjenne brukeren i videomøtetjenesten som er definert av administratoren.
+    > Første gang du velger <i class="ph ph-video-camera" aria-label="Video meeting"></i>, må du logge på for å godkjenne brukeren i videomøtetjenesten som er definert av administratoren.
     >
     > Hvis du ikke ser iconet, betyr dette at videomøtefunksjonen ikke er konfigurert ennå. Ta kontakt med SuperOffice-administratoren din, som kan konfigurere funksjonen og videoleverandørtilkoblingen.
 
@@ -94,5 +94,4 @@ For å bli med i videomøtet via forhåndsvisningsskjermen, klikker du bare på 
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/videocall.png
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

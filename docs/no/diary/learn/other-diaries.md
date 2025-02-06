@@ -1,40 +1,61 @@
 ---
 uid: help-no-diary-other
-title: Se andres dagbok
-description: Se andres dagbok.
+title: Se en annen dagbok
+description: Du kan bytte til en annen brukers eller en ressurs sin dagbok for å sjekke tilgjengelighet, planlegge oppfølginger eller administrere oppgaver.
+keywords: dagbokeier, bytte dagbokeier, se en annen dagbok, se en ressurs sin dagbok, dagbok, oppfølging, ressurs, eier
 author: Bergfrid Dias
-date: 10.05.2023
-keywords: dagbok, oppfølging, ressurs, eier
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Se andres dagbok
 
-Hvis du klikker på navnet til en bruker eller ressurs, blir denne brukeren eller ressursen eieren av dagboken, og du kommer rett til fanen **Dag** for denne brukeren eller ressursen. For å gå tilbake til din egen dagbok velger du navnet ditt fra dagbokeierlisten.
+Du kan bytte til en annen brukers eller ressurs sin dagbok for å sjekke tilgjengelighet, planlegge oppfølginger eller administrere oppgaver.
 
-1. Klikk på navnet ditt i en hvilken som helst fane i Dagbok-bildet. Det vises en listeboks med andre ressurser, brukergrupper og brukere som er tilknyttet nettverket. Denne oversikten kalles *dagbokeierlisten*.
+## Hvilken dagbok er jeg i?
+
+Når du ser på en dagbok, vises eieren øverst til høyre i kalenderen. Du kan også identifisere om du ser din egen dagbok, en annen brukers dagbok eller en ressurs sin dagbok basert på følgende visuelle indikatorer:
+
+* **Din egen dagbok:** Viser navnet ditt med en lys grå ramme og <i class="ph ph-user" aria-label="Brukerikon"></i>-symbolet i grønt.
+
+* **En annen brukers dagbok:** Viser brukerens navn med en rød ramme og <i class="ph ph-user" aria-label="Brukerikon"></i>-symbolet i blått.
+
+* **En ressurs sin dagbok:** Viser ressursens navn med en blå ramme og <i class="ph ph-chair" aria-label="Ressursikon"></i>-symbolet.
+
+Disse indikatorene gjør det enkelt å se hvilken dagbok du for øyeblikket administrerer eller ser på.
+
+## Bytte dagbokeier
+
+1. Klikk på navnet ditt øverst til høyre i Dagbok-bildet. En liste over brukere, brukergrupper og ressurser i systemet vises. Denne listen kalles *dagbokeierlisten*.
 
     > [!TIP]
-    > Ved hjelp av hurtigsøk kan du søke etter brukere ved hjelp av navn eller bruker-ID.
+    > Begynn å skrive for raskt å finne brukere etter navn eller bruker-ID.
 
-2. Velg en ressurs eller bruker direkte, eller klikk på en brukergruppe ![ikon][img1]. Da kan du velge fra en liste over alle personene som er tilknyttet denne gruppen som brukere av SuperOffice CRM.
+1. Velg en ressurs eller bruker direkte fra listen, eller klikk på en brukergruppe (<i class="ph ph-caret-right" aria-label="Chevron"></i>) for å se alle brukere i gruppen.
 
-3. Dagboken til den andre brukeren eller ressursen åpnes, og navnet deres (ikke ditt eget) vises øverst til høyre i Dagbok-bildet. Du får også se aktivitetslisten til den andre brukeren eller ressursen.
+    ![Bytte eier i dagbokoverskriften -screenshot][img1]
 
-> [!NOTE]
-> Andre brukere vises med ![ikon][img2] ikonet og en rød strek under navnet. Ressurser vises med ![ikon][img3] ikonet og en blå strek under navnet.
+1. Dagboken oppdateres til å vise den valgte brukerens eller ressursens kalender og aktivitetsliste. Navnet deres vises øverst til høyre.
 
-Når du er inne i dagboken til en annen bruker eller ressurs, kan du skifte mellom de ulike fanene som i din egen dagbok, og du kan [opprette oppfølginger][2] i deres dagbøker ved å klikke og velge tidsperioder med musen, hvis du har rettigheter til dette.
+    Du kan bruke alle standardfanene (Dag, Uke, Måned eller Oversikt) og opprette oppfølginger i deres kalender ved å velge tidspunkter, forutsatt at du har de nødvendige tilgangsrettighetene.
 
-## Hva vil du gjøre nå?
+1. For å gå tilbake til din egen dagbok, klikk på navnet ditt i dagbokeierlisten.
 
-* [Opprette avtale][2]
+## Relatert innhold
 
-<!-- Referenced links -->
-[2]: create-follow-up.md
+* [Opprette møte][2]
+* [Tilordne oppfølging][1]
+* [Gruppeoversikt – se flere dagbøker][3]
 
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.png
-[img3]: ../../../media/icons/diary-owner-resource.png
+<!-- Refererte lenker -->
+[1]: follow-up-assign.md
+[2]: create-follow-up.md#associate
+[3]: group-view.md
+
+<!-- Refererte bilder -->
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png

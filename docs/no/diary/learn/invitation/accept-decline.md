@@ -2,11 +2,14 @@
 uid: help-no-invitation-accept
 title: Oppfølginger du er invitert til
 description: Vise oppfølginger du er invitert til; Godta eller avslå invitasjoner
-author: Bergfrid Dias
-date: 02.16.2024
-version: 10.3.2
 keywords: dagbok, oppfølging, invitasjon
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

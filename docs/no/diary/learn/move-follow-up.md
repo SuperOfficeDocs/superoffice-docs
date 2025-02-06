@@ -1,12 +1,15 @@
 ---
 uid: help-no-follow-up-move
-title: Flytte oppfølginger
-description: Flytte oppfølginger
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: dagbok, oppfølging
+title: Flytte en oppfølging
+description: Hvordan flytte en oppfølging
+keywords: flytt oppfølging, flytt møte, endre møtetid, møtetidspunkt, møte, dagbok, oppfølging
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

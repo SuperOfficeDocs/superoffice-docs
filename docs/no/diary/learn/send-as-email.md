@@ -1,11 +1,15 @@
 ---
 uid: help-no-follow-up-send
-title: Sende oppfølginger
-description: Sende oppfølginger
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: dagbok, oppfølging
+title: Sende en oppfølging som e-post
+description: Sende en oppfølging som e-post
+keywords: send som e-post, dagbok, oppfølging
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

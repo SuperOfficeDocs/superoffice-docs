@@ -1,10 +1,15 @@
 ---
 uid: help-no-invitation-add-attendee
 title: Legge til deltakere i oppfølginger
-description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
+description: Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale.
+keywords: inviter deltaker, inviter person, inviter kollega, legg til deltaker, legg til ressurs, dagbok, oppfølging, invitasjon, deltaker, møte
 author: Bergfrid Dias
-keywords: dagbok, oppfølging, invitasjon, deltaker
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

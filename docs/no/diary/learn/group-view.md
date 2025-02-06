@@ -1,107 +1,127 @@
 ---
 uid: help-no-diary-group-view
 title: Gruppeoversikt
-description: Gruppeoversikt; Opprette dagbokvisninger; Dialogboksen Ny gruppeoversikt
+description: Gruppeoversikt; hvordan opprette dagbokvisninger; dialogboksen Ny gruppeoversikt.
+keywords: legge til gruppeoversikt, ny gruppeoversikt, redigere gruppeoversikt, Oversikt-fanen, dagbok, oppfølging, gruppeoversikt
 author: Bergfrid Dias
-date: 10.03.2023
-keywords: dagbok, oppfølging, gruppeoversikt
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Gruppeoversikt
 
-Du kan vise brukere og ressurser som du vil se dagbøkene til, og lagre oversiktene i listeboksen **Vis** med navn du velger selv.
+**Gruppeoversikt** i dagboken lar deg vise og administrere timeplanene til flere brukere eller ressurser i én samlet kalender. Bruk gruppeoversikter for å effektivisere planlegging, sjekke tilgjengelighet og opprette oppfølginger direkte for teammedlemmer eller ressurser.
 
 ## Vise flere dagbøker
 
-1. Klikk på **Vis**-fanen i Dagbok-bildet.
+1. Gå til **Oversikt**-fanen i dagboken.
 
-2. Klikk på listeboksen **Vis** nederst i Dagbok-bildet. Da får du frem en listeboks med alle gruppene og ressursene som er satt opp i din organisasjon.
+1. Velg en gruppe fra listen (<i class="ph ph-caret-down" aria-label="Nedtrekksikon"></i>).
 
-3. Velg ønsket gruppe fra listen. Fanen **Oversikt** inneholder nå dagbøkene til alle personene i den valgte brukergruppen.
+    * Forhåndsdefinerte grupper er basert på organisasjonens oppsett og inkluderer brukergrupper eller ressurser, for eksempel avdelinger eller møterom.
 
-## Opprette en gruppeoversikt
+1. De valgte dagbøkene vises i **Oversikt**-fanen, hvor du kan sjekke timeplaner eller planlegge oppfølginger.
 
-1. Klikk på **Vis**-fanen i Dagbok-bildet.
+## Opprette en ny gruppeoversikt
 
-1. Klikk på ![ikon][img5] **Oppgave**-knappen nede til høyre, og velg deretter **Ny gruppeoversikt**.
+1. Gå til fanen ***Oversikt** i dagboken.
 
-    > [!NOTE]
-    > Hvis du vil redigere en eksisterende oversikt, klikker du på **Rediger**. [Du kan bare endre gruppeoversikter som du har opprettet selv.](#troubleshoot) Hvis du vil kopiere en eksisterende oversikt, klikker du på **Kopier**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="oppgaveknappen"></i> og velg **Ny gruppeoversikt**.
 
-1. I dialogboksen **Ny gruppeoversikt** skriver du inn relevant informasjon i feltene **Navn** og **Beskrivelse**.
+    Alternativt kan du velge **Kopier** for å lage en ny oversikt basert på en eksisterende.
 
-1. Velg å vise dagboken for **Medarbeidere**, **Prosjekt** eller **Ressurs** i det neste **Velg fra**-feltet. Innholdet i listeboksen like under feltet **Velg fra** varierer, avhengig av hva du valgte.
+1. I dialogboksen **Ny gruppeoversikt** skriver du inn et **Navn** og en valgfri **Beskrivelse**.
 
-1. Velg brukerne/ressursene du trenger, og klikk deretter på pil til høyre ![ikon][img2] for å legge dem til i ruten til høyre. Du kan også legge til brukere og ressurser enkeltvis ved å dobbeltklikke på dem.
+    ![Dialogboksen Ny gruppeoversikt i dagboken -screenshot][img1]
 
-1. I ruten til høyre vises alle brukere og ressurser som du har lagt til i gruppeoversikten. For å fjerne en bruker eller en ressurs fra denne listen merker du den og klikker på **Slett**.
+1. Velg hvem og hvilke ressurser som skal inkluderes i gruppeoversikten. Du har flere alternativer:
 
-1. Brukerne og ressursene du har valgt, vises i gruppeoversikten i den rekkefølgen de vises i ruten til høyre. Hvis du vil endre denne rekkefølgen, velger du en bruker eller ressurs og klikker på pil opp ![ikon][img3] eller pil ned ![ikon][img4] for å flytte brukeren eller ressursen opp eller ned.
+    * **Medarbeidere:** Velg en bruker fra organisasjonen, og klikk deretter på <i class="ph ph-caret-circle-right" aria-label="Pil høyre"></i> for å legge dem til i oversikten. Du kan filtrere listen etter brukergruppe for enklere søk.
 
-1. Klikk på **Lagre** etter å ha valgt brukere og ressurser, eller klikk på **Avbryt** for å lukke dialogboksen uten å lagre. Du kommer nå tilbake til fanen **Oversikt** og kan blant annet opprette avtaler for andre medarbeidere.
+    * **Prosjekt:** Velg et prosjekt, velg en prosjektdeltaker, og klikk deretter på <i class="ph ph-caret-circle-right" aria-label="Pil høyre"></i> for å legge dem til i oversikten.
+
+    * **Ressurs:** Velg en ressurs, for eksempel et møterom eller utstyr, og klikk deretter på <i class="ph ph-caret-circle-right" aria-label="Pil høyre"></i> for å legge den til i oversikten.
+
+    > [!TIP]
+    > Klikk på **Velg alle** for å legge til alle i listen med ett klikk.
+
+1. Endre rekkefølgen i gruppen ved behov: Velg en person eller ressurs, og bruk <i class="ph ph-caret-circle-up" aria-label="Flytt opp"></i> og <i class="ph ph-caret-circle-down" aria-label="Flytt ned"></i> for å justere plasseringen. Denne rekkefølgen bestemmer hvordan gruppen vises i ***Oversikt**-fanen.
+
+1. Klikk på **Lagre** for å fullføre gruppeoversikten, eller **Avbryt** for å forkaste endringene.
 
 > [!TIP]
-> Hvis du vil slette den aktive gruppeoversikten, klikker du på knappen **Oppgave** nederst til høyre, og deretter velger du **Slett gruppeoversikt**.
+> Bruk **Oppgave**-menyen til å administrere eksisterende visninger. Du kan **Kopiere** forhåndsdefinerte grupper, samt **Redigere** eller **Slette** grupper du har opprettet selv.
 
-## <a id="fields"></a>Felt
+## Hvilke dagbøker kan jeg inkludere?
 
-### Navn
+Når du oppretter en gruppeoversikt, kan du inkludere en hvilken som helst kombinasjon av medarbeidere, ressurser eller prosjektdeltakere:
 
-Her står navnet på oversikten du redigerer. Du kan endre navnet på oversikten.
+* **Medarbeidere:** Legg til teammedlemmer eller kollegaer for å følge med på timeplanene deres.
+* **Prosjektdeltakere:** Legg til medlemmer av et spesifikt prosjekt for å se tilgjengeligheten til teamet.
+* **Ressurser:** Inkluder delte ressurser som møterom eller utstyr. Ressurslisten defineres i **Innstillinger og vedlikehold**.
 
-### Beskrivelse
+## Alternativer i Oppgave-menyen <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
-Her kan du legge inn en beskrivelse av oversikten.
+**Oppgave**-menyen gir følgende alternativer for å administrere gruppeoversikter:
 
-### Velg fra
+| Alternativ | Beskrivelse |
+|---|---|
+| Rediger | Endre en gruppeoversikt du har opprettet. Forhåndsdefinerte gruppeoversikter kan ikke redigeres. |
+| Ny gruppeoversikt | Opprett en ny tilpasset gruppeoversikt. |
+| Kopier | Dupliser en eksisterende gruppeoversikt. |
+| Slett gruppeoversikt | Fjern en gruppeoversikt du har opprettet. |
+| Inviter deltakere | Legg til deltakere i en oppfølging direkte fra gruppeoversikten. |
+| Hjelp | Åpne brukerveiledningen (denne siden). |
 
-* Velg **Medarbeidere** for å legge til brukere fra organisasjonen din i visningen.
-* Velg **Prosjekt** for å legge til prosjektdeltakere fra organisasjonen din i visningen.
-* Velg **Ressurs** for å legge til ressurser som konferanserom og projektorer fra organisasjonen din i visningen.
+## Redigere gruppeoversikt
 
-### Listeboks
+Du kan redigere gruppeoversikter som du har opprettet selv. Forhåndsdefinerte gruppeoversikter kan ikke endres. Følg disse trinnene for å oppdatere en gruppeoversikt:
 
-Når du velger et alternativ for **Velg fra**, vises en liste nedenfor. Innholdet i denne listeboksen varierer etter hva du valgte i trinnet over:
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velg **Rediger**.
 
-* Hvis du valgte **Medarbeidere**, vises en liste over brukergrupper i organisasjonen din. Du kan også velge **Alle** for å vise alle brukerne i organisasjonen.
+1. I dialogboksen **Rediger gruppeoversikt**:
 
-* Hvis du valgte **Prosjekt**, vises historikklisten over prosjekter. Du kan også begynne å skrive inn navnet.
+    * **For å legge til personer eller ressurser:** Velg dem fra listen og klikk på <i class="ph ph-caret-circle-right" aria-label="Pil høyre"></i>.
 
-* Hvis du valgte **Ressurs**, vises en liste over ressurser i organisasjonen din. Denne listen er definert i Innstillinger og vedlikehold. Velg **Alle** for å se alle ressursene i organisasjonen.
+    * **For å fjerne brukere eller ressurser:** Velg dem i ruten til høyre og klikk på <i class="ph ph-caret-circle-left" aria-label="Pil venstre"></i>.
 
-### Venstre rute
+    * **For å endre rekkefølgen:** Velg en person eller ressurs og bruk <i class="ph ph-caret-circle-up" aria-label="Flytt opp"></i> og <i class="ph ph-caret-circle-down" aria-label="Flytt ned"></i>.
 
-Her finner du listen over tilgjengelige brukere og/eller ressurser som kan legges til i gruppeoversikten. Velg brukerne/ressursene du trenger, og klikk høyrepilen ![icon][img2] for å legge dem til i ruten til høyre.
+1. Klikk på **Lagre** for å lagre endringene, eller **Avbryt** for å forkaste dem.
 
-> [!NOTE]
-> Du kan også velge brukere og ressurser enkeltvis ved å dobbeltklikke på dem.
+### <a id="troubleshoot"></a>Hvorfor er Rediger-alternativet utilgjengelig?
 
-Klikk på **Velg alle** ![icon][img6] for å velge alle brukerne/ressursene i listen ovenfor. Klikk på **Fjern merking av alle** ![icon][img7] for å fjerne markeringen av alle brukere og ressursene.
+Du kan bare redigere gruppeoversikter du har opprettet selv. Forhåndsdefinerte gruppeoversikter, for eksempel de som er opprettet av administratorer eller definert i **Innstillinger og vedlikehold**, kan ikke endres. For å gjøre endringer:
 
-### Høyre rute
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i>) og velg **Kopier**.
 
-Her vises alle brukerne og ressursene du har lagt til i gruppeoversikten. Hvis du vil fjerne en bruker eller en ressurs fra denne listen, velg den og klikk på venstrepilen ![icon][img1]. Brukerne og ressursene du har valgt, vises i gruppeoversikten i samme rekkefølge som i ruten til høyre. Hvis du vil endre denne rekkefølgen, velger du en bruker eller ressurs og klikker pil opp ![icon][img3] eller pil ned ![icon][img4] for å flytte den opp eller ned.
+1. Lagre den nye gruppeoversikten med et annet navn.
 
-## <a id="troubleshoot"></a>Hvorfor er Rediger-knappen grå?
+1. Rediger den kopierte gruppeoversikten etter behov.
 
-Du kan bare endre gruppeoversikter som du har opprettet selv. I en forhåndsdefinert gruppevisning er **Rediger**-knappen grå for å vise at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. Disse er definert i Innstillinger og vedlikehold.
+## Slette gruppeoversikt
 
-For å redigere og lagre en forhåndsdefinert gruppeoversikt velger du alternativet **Kopier**, og deretter lagrer du oversikten med et nytt navn.
+Du kan slette gruppeoversikter som du har opprettet. Forhåndsdefinerte gruppeoversikter kan ikke fjernes.
 
-## Aktuelt innhold
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i>) i ***Oversikt**-fanen.
 
-* [Opprett avtaler for andre medarbeidere][4]
+1. Velg **Slett gruppeoversikt** fra menyen.
 
-<!-- Referenced links -->
+1. Bekreft slettingen i dialogboksen ved å velge **Ja**.
+
+## Relatert innhold
+
+* [Lær mer om Vis-fanen][2]
+* [Opprett avtale for en medarbeider][4]
+
+<!-- Refererte lenker -->
+[2]: index.md#tabs
 [4]: create-follow-up.md#associate
 
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../media/icons/select-all.png
-[img7]: ../../../media/icons/unselect-all.png
+<!-- Refererte bilder -->
+[img1]: ../../../media/loc/en/diary/new-group-view.png

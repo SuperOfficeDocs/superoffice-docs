@@ -2,11 +2,14 @@
 uid: help-no-follow-up-assign
 title: Delegere
 description: Overføre en oppfølging til noen andre
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: dagbok, oppfølging, delegere, tilordne, invitasjon, medarbeider
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
