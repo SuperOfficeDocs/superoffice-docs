@@ -4,15 +4,16 @@ title: Dokument
 description: Introduksjon til dokumenter og dokumenthåndtering i SuperOffice.
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.05.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Dokument ![icon][img1]
+# Dokument <i class="ph ph-files" aria-hidden="true"></i>
 
 Lagring av alle dokumenter på ett sted hjelper deg og teamet ditt med å få tilgang til oppdatert informasjon og ha kontroll over kunderelasjoner.
 
@@ -27,14 +28,14 @@ Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][7]. Når du åpn
 
 | Ikon | Egenskap | Beskrivelse |
 |:-:|---|---|
-| ![icon][img11] | Språk | En liste over tilgjengelige oversettelser av malen. "Standard" hvis ikke oversatt. |
-| ![icon][img4] | Dato | Dagens dato (standard). Klikk på pilen ved siden av **Dato**-feltet for å åpne en månedlig kalender hvor du kan velge ønsket dato. |
-| ![icon][img3] | Emne | Overskriften på dokumentet. |
-| ![icon][img2] | Mal | En liste over tilgjengelige [dokumentmaler][11] som Brev eller Tilbud. |
-| ![icon][img7], ![icon][img8] | Firma / kontakt | Hvem dokumentet angår. |
-| ![icon][img5] | Salg | Et salg knyttet til dokumentet. |
-| ![icon][img6] | Prosjekt | Et prosjekt knyttet til dokumentet. |
-| | Vår ref | Tildelt dokumentnummer. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Språk | En liste over tilgjengelige oversettelser av malen. "Standard" hvis ikke oversatt. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Dato | Dagens dato (standard). Klikk på pilen ved siden av **Dato**-feltet for å åpne en månedlig kalender hvor du kan velge ønsket dato. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Emne | Overskriften på dokumentet. |
+| <i class="ph ph-files" aria-label="Document"></i> | Mal | En liste over tilgjengelige [dokumentmaler][11] som Brev eller Tilbud. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Firma / kontakt | Hvem dokumentet angår. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Salg | Et salg knyttet til dokumentet. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Prosjekt | Et prosjekt knyttet til dokumentet. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i> | Vår ref | Tildelt dokumentnummer. |
 | | Din ref | Adressatens referanse fra deres kommunikasjon. |
 
 ## Opprett ny
@@ -51,7 +52,7 @@ Uansett hvor du er i SuperOffice CRM, kan du opprette eller laste opp et nytt do
 
 ## Legge til oppføring som en favoritt
 
-For å legge til en post i favoritter, klikk på stjerneikonet ![icon][img13] i hjørnet av det aktuelle kortet, fanen eller dialogboksen. Stjernen blir gul ![icon][img12], og oppføringen blir umiddelbart lagt til favoritter. Du trenger ikke klikke på **Lagre**.
+For å legge til en post i favoritter, klikk på <i class="ph ph-star" aria-label="Star icon"></i> i det aktuelle kortet, fanen eller dialogboksen. Stjernen blir gul, og oppføringen blir umiddelbart lagt til favoritter. Du trenger ikke klikke på **Lagre**.
 
 ## Standardiser dokumentene dine
 
@@ -67,7 +68,7 @@ I SuperOffice CRM kan du enkelt opprette dokumentmaler for Word, e-post, Excel, 
 
 I [fanen **Mer**][12] finner du brukerdefinerte felt for dokumentet.
 
-## Aktuelle emner
+## Relatert innhold
 
 * [Koble til e-post, dokumenter og dagbok][9]
 * [Opprett nye dokumenter][3]
@@ -85,15 +86,3 @@ I [fanen **Mer**][12] finner du brukerdefinerte felt for dokumentet.
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/document-h32.png
-[img2]: ../../../../common/icons/singlecolour/document.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diaryblack.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-
-[img11]: ../../../../common/icons/az.png
-[img12]: ../../../../common/icons/favourite-yes.png
-[img13]: ../../../../common/icons/favourite-no.png
