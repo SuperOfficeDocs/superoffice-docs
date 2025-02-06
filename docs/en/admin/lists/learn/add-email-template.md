@@ -48,9 +48,9 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking **A-Z**.
+1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking <i class="ph ph-translate" aria-label="Translate"></i>.
 
-2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking **A-Z**.
+2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking <i class="ph ph-translate" aria-label="Translate"></i>.
 
 3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 
@@ -83,7 +83,7 @@ Here you can add translated versions of the document template.
 5. Repeat the steps above to add additional languages.
 
 > [!TIP]
-> Click **A-Z** next to the relevant field to [add translations][1] of the template name and email subject.
+> Click <i class="ph ph-translate" aria-label="Translate"></i> next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md

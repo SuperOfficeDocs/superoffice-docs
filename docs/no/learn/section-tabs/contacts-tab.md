@@ -4,8 +4,8 @@ title: Personfanen
 description: Lær hvordan du administrerer og interagerer med personinformasjon knyttet til firmaer ved å bruke detaljkortet Personer i SuperOffice CRM. Spor personopplysninger og oppretthold kommunikasjon for sømløse kundeopplevelser.
 keywords: detaljkortet Personer, Personfanen, Personer-fanen, seksjonsfane, personarkiv, aktiver mellomnavn
 author: Bergfrid Skaara Dias
-date: 12.05.2024
-version: 10
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,8 +24,8 @@ Detaljkortet **Personer** i SuperOffice CRM lar brukere se og administrere alle 
 
 | Kolonne | Beskrivelse av detaljkortet |
 |---|---|
-| Info           | Viser et binders-ikon (![ikon][img3]) hvis **Notat**-fanen i Personkortet har et notat. Hold musepekeren over ikonet for å vise notatet. |
-| Interesser     | Viser et nålikon (![ikon][img2]) hvis personen har interesser. Hold musepekeren over ikonet for å se interessene. |
+| Info           | Viser et binders-ikon (<i class="ph ph-paperclip" aria-hidden="true"></i>) hvis **Notat**-fanen i Personkortet har et notat. Hold musepekeren over ikonet for å vise notatet. |
+| Interesser     | Viser en prikk hvis personen har interesser. Hold musepekeren over ikonet for å se interessene. |
 | Hr/Fr       | Viser hvordan personen skal tituleres. |
 | Fornavn / Mellomnavn / Etternavn | Fullt navn på personen. Bruken av mellomnavn kan konfigureres i **Innstillinger og vedlikehold**. |
 | Tittel         | Viser personens profesjonelle tittel eller rolle i firmaet. |
@@ -103,5 +103,3 @@ Hvis denne preferansen er aktivert, vil den første delen av etternavnet brukes 
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../media/icons/pin.png
-[img3]: ../../../media/icons/binders.png

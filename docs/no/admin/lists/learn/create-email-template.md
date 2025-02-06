@@ -29,19 +29,19 @@ Du kan lage dine egne maler som du kan bruke når du oppretter e-post fra SuperO
 
 7. [!include[Click arrow and select](includes/expand-list.md)] **Dokumentmal** fra nedtrekksmenyen **Liste** .
 
-8. Klikk på knappen **Legg til** ![ikon][img2] under listen **Forekomster**.
+8. Klikk på knappen **Legg til** under listen **Forekomster**.
 
 9. I dialogboksen skriver du inn ønsket navn på malen i det obligatoriske feltet **Navn** .
 
-10. I feltet **Filnavn** klikker du på pilen ![ikon][img1] og velger *.somail*-filen du nettopp opprettet.
+10. I feltet **Filnavn** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger *.somail*-filen du nettopp opprettet.
 
-11. I feltet **Retning** klikker du på pilen ![ikon][img1] og velger **Utgående** fra nedtrekksmenyen.
+11. I feltet **Retning** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger **Utgående** fra nedtrekksmenyen.
 
-12. I feltet **Radtype** klikker du på pilen ![ikon][img1] og velger **E-post**.
+12. I feltet **Radtype** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger **E-post**.
 
-13. I feltet **Dokument-plugin** velger du programmet som skal brukes til å vise dokumentet, ved å klikke på pilen ![ikon][img1] og velge i nedtrekksmenyen.
+13. I feltet **Dokument-plugin** velger du programmet som skal brukes til å vise dokumentet, ved å klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge i nedtrekksmenyen.
 
-14. I feltet **Hensikt** klikker du på pilen ![ikon][img1] og velger et av de forhåndsdefinerte alternativene fra nedtrekksmenyen. Disse forekomstene brukes i forbindelse med statusovervåking i SuperOffice CRM (krever lisens for SAINT).
+14. I feltet **Hensikt** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger et av de forhåndsdefinerte alternativene fra nedtrekksmenyen. Disse forekomstene brukes i forbindelse med statusovervåking i SuperOffice CRM (krever lisens for SAINT).
 
 15. Merk av i boksen **Publiser** for å la en bruker velge, i dialogboksen Dokument, at den aktuelle dokumentmalen skal være tilgjengelig for eksterne brukere.
 
@@ -58,7 +58,3 @@ Du kan lage dine egne maler som du kan bruke når du oppretter e-post fra SuperO
 21. Klikk på **Lagre**.
 
 Du kan nå opprette nye e-poster fra SuperOffice CRM ved hjelp av denne malen.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

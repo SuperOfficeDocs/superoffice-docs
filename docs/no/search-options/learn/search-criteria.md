@@ -17,10 +17,12 @@ Overalt der du kan legge inn søkekriterier, finner du en liste over kriterier s
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
 
-Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor (videolengde – 3:01):
+Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolengde – 3:01)
 
 ## Legg til søkekriterier
 
@@ -65,7 +67,7 @@ Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogbok
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på pilknappen ![ikon][img1].
+Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
 ### <a id="number"></a>Tallfelt
 
@@ -115,11 +117,11 @@ Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier ell
 
 | Oppgave | Handling |
 |---|---|
-| Flytte søkekriterier | Klikk ![ikon][img2] og dra linjen. |
+| Flytte søkekriterier | Klikk <i class="ph ph-equals" aria-label="="></i> og dra linjen. |
 | Endre et søkekriterium | Klikk på det og velg et annet kriterium fra listen som vises. |
 | Deaktivere ett eller flere søkekriterier | La verdifeltet stå tomt. |
 | Deaktivere alle søkekriteriene | Click **Clear all**. |
-| Slette et søkekriterium | Klikk ![icon][img3]. |
+| Slette et søkekriterium | Klikk <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Tilbakestille listen | Klikk **Tilbakestill til standard**. |
 
 > [!NOTE]
@@ -135,8 +137,3 @@ Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier ell
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

@@ -17,7 +17,7 @@ Du kan opprette en liste over e-postadresser du bruker ofte, men som ikke er reg
 
 ## Oppgi e-postadresser
 
-Hvis du vil ha detaljer om de registrerte e-postadressene, går du til ![icon][img1] **Hovedmeny** i toppraden og velger **Kunnskapsbase** > **E-postadresser**. Dette tar deg til skjermbildet **E-postadresser**, som inneholder e-postadresser i en mappestruktur som du kan opprette selv.
+Hvis du vil ha detaljer om de registrerte e-postadressene, går du til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velger **Kunnskapsbase** > **E-postadresser**. Dette tar deg til skjermbildet **E-postadresser**, som inneholder e-postadresser i en mappestruktur som du kan opprette selv.
 
 * Hvis du vil **opprette** en ny e-postadresse, kan du se [Opprette e-postadresser][2].
 * Hvis du vil **redigere** en eksisterende e-postadresse, klikker du på navnet i listen.
@@ -32,6 +32,3 @@ Hvis du vil ha detaljer om de registrerte e-postadressene, går du til ![icon][i
 <!-- Referenced links -->
 [2]: add-email-address.md
 [3]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/main-menu.png

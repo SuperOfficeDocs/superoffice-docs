@@ -5,7 +5,7 @@ description: Add a sale stage
 keywords: add sale stage, new sale stage, Sale - Stage list, sale stage, stage, sale
 author: Bergfrid Dias
 date: 01.03.2025
-version: 10
+version: 10.5
 topic: howto
 license: salesessentials
 audience: settings

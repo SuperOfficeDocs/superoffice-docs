@@ -15,7 +15,7 @@ Med masseredigering kan du endre verdier på tvers av flere oppføringer av samm
 
 1. Åpne utvalget, detaljkortet (arkiv) eller søkeresultatene (**Finn**-skjermbildet) som inneholder oppføringene du vil oppdatere.
 
-2. Utvalg: Klikk på **Oppgave**-knappen og velg **Masseredigering**.
+2. Utvalg: Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Masseredigering**.
     eller
     Velg oppføringene du vil oppdatere, høyreklikk på disse og velg **Masseredigering...**.
     Dialogboksen **Masseredigering** åpnes. Nederst i denne dialogboksen kan du se typen oppføring og hvor mange oppføringer som skal oppdateres. Eksempel: Antall personer i kø for masseredigering: 7.
@@ -38,17 +38,14 @@ Med masseredigering kan du endre verdier på tvers av flere oppføringer av samm
 
 5. Hvis du vil legge til flere felt som skal oppdateres, klikker du på **Legg til** og gjentar trinn 3 og 4.
 
-6. Pass på at du velger (![icon][img1]) feltene du vil oppdatere og fjern valget (![icon][img2]) feltene du IKKE ønsker å oppdatere.
+6. Pass på at du velger (<i class="ph ph-check" aria-hidden="true"></i>) feltene du vil oppdatere og fjern valget feltene du IKKE ønsker å oppdatere.
 
 7. Klikk på **Oppdater**. Dialogboksen **Bekreft** åpnes og viser en oversikt over oppdateringene.
 
-    > [!NOTE]
-    > Når en oppdatering er installert, kan den ikke angres.
-
 8. Klikk på **Ja** for å implementere endringene i de valgte oppføringene.
 
-    > [!NOTE]
-    > Det er mulig å stoppe oppdateringen så snart du har startet den. Elementer som ennå ikke er blitt oppdatert, vil ikke bli det.
+    > [!CAUTION]
+    > Når en oppdatering er gjort, kan den ikke angres. Du kan imidlertid stoppe oppdateringen mens den pågår. Alle poster som ennå ikke er oppdatert, forblir uendret.
 
 9. Klikk på **LOGG** for å vise endringsloggen. Hvis noen oppføringer ikke ble oppdatert, er årsaken oppført i kolonnen **Årsak**.
 
@@ -88,10 +85,4 @@ Du oppdager at kontaktfeltet **Posisjon** sjelden brukes. For å komme i gang me
 
 ## Oppdatere prosjekt
 
-Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Fullført** for disse prosjektene til **Ja**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png
+Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Utført** for disse prosjektene til **Ja**.

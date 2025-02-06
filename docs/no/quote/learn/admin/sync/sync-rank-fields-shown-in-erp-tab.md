@@ -21,7 +21,7 @@ Du kan bestemme rekkefølgen på ERP-feltene som vises i ERP-fanen i SuperOffice
 
 1. Velg fanen for den aktøren du vil konfigurere standardverdier for. Denne fanen viser alle tilgjengelige felt for den aktuelle aktøren (både felt som vises og ikke vises i **ERP**-fanen i SuperOffice CRM).
 
-1. Velg et felt i listen, og bruk pilene![ikon][img1] ![ikon][img2] til å angi feltets rekkefølge.
+1. Velg et felt i listen, og bruk <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> til å angi feltets rekkefølge.
 
 1. Gjenta trinn 4 og 5 hvis du vil endre rekkefølgen på feltene for andre aktører.
 
@@ -33,7 +33,3 @@ Du kan bestemme rekkefølgen på ERP-feltene som vises i ERP-fanen i SuperOffice
 <!-- Referenced links -->
 [1]: sync-configure-field-allocation.md
 [2]: sync-configure-default-values.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

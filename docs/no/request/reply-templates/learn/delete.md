@@ -1,25 +1,4 @@
 ---
-uid: help-no-reply-template-delete
-title: Slette svarmaler
-description: Slette svarmaler
-author: Bergfrid Dias
-date: 03.16.2023
-keywords: sak, svare
-topic: howto
-audience: person
-audience_tooltip: SuperOffice Service
-language: no
+uid: help-no-reply-template-delete-redirect
+redirect_url: https://docs.superoffice.com/no/request/reply-templates/learn/edit.html#delete
 ---
-
-# Slett svarmal
-
-1. Gå til ![ikon][img1] **Hovedmeny** i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
-1. Gå til mappen som inneholder svarmalen.
-1. Klikk på svarmalen. Du kommer til bildet **Vise svarmaler**.
-1. Klikk på **Rediger svarmal**-knappen. Du kommer til bildet **Egenskaper for svarmal**.
-1. Klikk på **Slett**-knappen nederst i bildet. Svarmalen slettes umiddelbart.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

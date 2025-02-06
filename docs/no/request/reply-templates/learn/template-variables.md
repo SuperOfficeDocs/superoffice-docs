@@ -2,10 +2,12 @@
 uid: help-no-template-variables-service
 title: Malvariabler
 description: Malvariabler
+keywords: sak
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: sak
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 
@@ -236,7 +238,3 @@ Formater dato:
 Formater klokkeslett:
 
 [[SEC-TO-TIME:"seconds","h:m:s"]]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

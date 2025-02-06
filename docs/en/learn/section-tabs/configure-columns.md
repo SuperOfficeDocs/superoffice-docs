@@ -4,7 +4,7 @@ title: Changing the column view
 description: Changing the column view
 keywords: section tab, archive, column
 author: Bergfrid Dias
-date: 01.17.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

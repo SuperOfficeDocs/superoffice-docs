@@ -18,10 +18,12 @@ Hvis du lager nye maler eller endrer en standardmal og lagrer den med et annet f
 
 Maler vises som forekomster på listen **Dokument - mal**, og du knytter en mal til SuperOffice CRM ved å legge den til som en forekomst på listen.
 
-Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan du kan legge til en dokumentmal (videolengde – 2.30):
+Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan du kan legge til en dokumentmal:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(videolengde – 2.30)
 
 ## Trinn
 
@@ -73,13 +75,13 @@ Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan d
 
 Angi følgende informasjon i fanen **Detaljer**:
 
-1. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på ![ikon][img1] pilen og velge fra listeboksen.
+1. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge fra listeboksen.
 
 2. I feltet **Dokumenttype** velger du enten **Dokument** eller **Faks** som maltype.
 
 3. I feltet **Dokument lagret i** kan du velge å lagre dokumentet et annet sted enn standardalternativet.
 
-4. I **Hensikt**-feltet klikker du på ![ikon][img1] pilen og velger et av de forhåndsdefinerte alternativene fra listen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][4]).
+4. I **Hensikt**-feltet klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger et av de forhåndsdefinerte alternativene fra listen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][4]).
 
     > [!TIP]
     > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å legge til forekomster på listen **Oppfølging - Hensikt** i Innstillinger og vedlikehold.
@@ -127,7 +129,6 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

@@ -28,7 +28,7 @@ language: no
 1. Under **Legg til som** velger du hva applikasjonen skal legges til som:
 
     * **Knapp**: applikasjonsikonet vises i Navigator. Brukeren kan da åpne applikasjonen direkte ved å klikke på ikonet i navigatoren.
-    * **Menyvalg**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen (![ikon][img2]) i navigatoren og/eller velge **Andre applikasjoner** på hovedmenyen (![ikon][img1]).
+    * **Menyvalg**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren og/eller velge **Andre applikasjoner** på hovedmenyen (<i class="ph ph-list" aria-hidden="true"></i>).
     * **Arrangement**: Applikasjonen kjøres når SuperOffice CRM startes eller avsluttes, eller ved lokal oppdatering (Travel). Se trinn 8. Du kan for eksempel kjøre et synkroniseringsprogram for en PDA når SuperOffice CRM lukkes.
     * **Oppgave**: Velg et alternativ i denne listeboksen for å gjøre applikasjonen tilgjengelig fra fanen **Oppgave** i Valg-bildet eller **Oppgave**-knappene.
 
@@ -69,7 +69,7 @@ language: no
 
 1. I listeboksen **Vis** velger du ønsket alternativ. Denne listeboksen vises bare hvis du valgte **Menyvalg** under **Legg til som**.
 
-    * **Verktøykassemenyen**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen (![ikon][img2]  ) i navigatoren eller velge **Andre applikasjoner** på hovedmenyen (![ikon][img1]) i SuperOffice CRM.
+    * **Verktøykassemenyen**: Brukeren får tilgang til applikasjonen ved å klikke på **Verktøy**-knappen i navigatoren eller velge **Andre applikasjoner** på hovedmenyen i SuperOffice CRM.
     * **Vis-menyen**: Brukeren får tilgang til applikasjonen via valget **Andre applikasjoner** på **Vis**-menyen i SuperOffice CRM.
 
 1. I listeboksen **Kjør når** velger du når applikasjonen skal kjøres. Denne listeboksen vises bare hvis du valgte **Hendelse** under **Legg til som**.
@@ -93,9 +93,3 @@ language: no
 
 > [!NOTE]
 > Brukerne må logge på SuperOffice CRM på nytt før applikasjonen vises.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

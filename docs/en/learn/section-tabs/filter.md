@@ -4,7 +4,7 @@ title: Filter the section tabs
 description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
-date: 01.20.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

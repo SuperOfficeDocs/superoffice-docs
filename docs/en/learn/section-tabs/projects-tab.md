@@ -4,7 +4,7 @@ title: Projects tab
 description: Learn how to view, add, and manage projects using the Projects section tab in SuperOffice CRM. Simplify project tracking across companies, contacts, and more.
 keywords: projects tab, section tab, project archive
 author: Bergfrid Skaara Dias
-date: 01.17.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

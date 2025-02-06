@@ -9,7 +9,7 @@ topic: howto
 language: no
 ---
 
-# Konfigurere kundesenter
+# Konfigurere kundesenter <i class="ph ph-question" aria-label="Question mark"></i>
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
@@ -26,7 +26,7 @@ Hvis kundesenteret ditt er flerspråklig, kan du angi valg (for eksempel velkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Velg ![ikon][img1] **Kundesenter** > **Konfigurer**. Det er to faner i **Kundesenter**-bildet: **Stil** og **Systemvalg**. Øverst på denne siden finner du en kobling til en forhåndsvisning av Kundesenter-siden.
+1. Velg **Kundesenter** > **Konfigurer**. Det er to faner i **Kundesenter**-bildet: **Stil** og **Systemvalg**. Øverst på denne siden finner du en kobling til en forhåndsvisning av Kundesenter-siden.
 
 1. I fanen **Stil** kan du tilpasse utseendet til kundesenteret: Logo, foretrukket bredde, farger og skrifttyper. Forhåndsvisningen oppdateres automatisk.
 
@@ -66,6 +66,5 @@ Hvis kundesenteret ditt er flerspråklig, kan du angi valg (for eksempel velkoms
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
 [img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

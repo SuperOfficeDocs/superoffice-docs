@@ -13,8 +13,6 @@ language: no
 
 # Saksbilde
 
-![Oversikt over saksbildet eller saksfanen -screenshot][img3]
-
 ## Oversikt over saker
 
 Bildet Sak har følgende deler:
@@ -28,7 +26,7 @@ Bildet Sak har følgende deler:
 
 ### Topptekst for sak
 
-Toppteksten i saken inneholder egenskapene som ble definert da [saken ble opprettet][12]. Toppteksten består av sakstittel, person, tidsfrist og saks-ID (i fanen). I tillegg kan du klikke på ![ikon][img6] for å angi saken som en favoritt. Saken vil deretter være tilgjengelig via **Mine favoritter** på **Saker** i navigatoren, og i figuren **Mine favoritter** på et [dashbord][17].
+Toppteksten i saken inneholder egenskapene som ble definert da [saken ble opprettet][12]. Toppteksten består av sakstittel, person, tidsfrist og saks-ID (i fanen). I tillegg kan du klikke på <i class="ph ph-star" aria-label="Star icon"></i> for å angi saken som en favoritt. Saken vil deretter være tilgjengelig via **Mine favoritter** på **Saker** i navigatoren, og i figuren **Mine favoritter** på et [dashbord][17].
 
 ### Meldingstyper
 
@@ -39,22 +37,22 @@ Det finnes tre typer meldinger:
 * Interne kommentarer om saken, for eksempel spørsmål til en kollega
 
 > [!TIP]
-> Interne meldinger er merket med ![ikon][img5].
+> Interne meldinger er merket med <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Fanen Meldinger
 
 Fanen **Meldinger** viser meldingene som er knyttet til saken.
 
-Du kan endre hvor mange meldinger som vises, i ![ikon][img2] **Personlige innstillinger**:
+Du kan endre hvor mange meldinger som vises, i **Personlige innstillinger**:
 
-1. Velg ![ikon][img2] **Personlige innstillinger** > **Preferanser**.
+1. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser**.
 1. Velg gruppen for **Sak**.
 1. Angi antall meldinger i feltet **Antall ekspanderte meldinger**.
 1. Klikk på **OK**.
 
 ### Meldingsoppgaver
 
-Klikk på ![ikon][img1] **Oppgave**-knappen på en melding for å tilgang til flere alternativer for meldingen:
+Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på en melding for å tilgang til flere alternativer for meldingen:
 
 * **Endre**: Klikk her for å [redigere][8] eller slette meldingen.
 * **Svar**: Klikk her for å svare personen i Til-feltet.
@@ -96,7 +94,7 @@ Sidestolpen Egenskaper for sak inneholder følgende alternativer:
 
 ### Alternativer for oppgave
 
-![ikon][img1] **Oppgave**-knapp: Klikk på denne knappen for å få tilgang til følgende alternativer:
+**Oppgave**-knapp: Klikk på denne knappen for å få tilgang til følgende alternativer:
 
 * **Rediger**: Klikk her for å endre egenskapene for denne saken. Du kan f.eks. tildele saken til en annen saksbehandler hvis du trenger å [be en kollega om råd][1].
 * **Godta**: Klikk her for å [overta saken][5]. Du blir da sakens nye eier.
@@ -120,27 +118,20 @@ Sidestolpen Egenskaper for sak inneholder følgende alternativer:
 * [Avslutt sak][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

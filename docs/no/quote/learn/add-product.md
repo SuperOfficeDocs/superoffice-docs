@@ -24,7 +24,7 @@ I dialogboksen **Legg til / rediger produkt** kan du legge til et produkt, angi 
 1. Begynn å skrive inn navnet på produktet eller produktkoden i feltet **Produktsøk**. Trefflisten oppdateres automatisk. Du kan søke på hele eller deler av både produktnavn og -kode.
 
     > [!TIP]
-    >Hvis det er støtte for avanserte søk, kan du klikke på søkeknappen![ikon][img1] i feltet **Produktsøk** for å søke etter og [legge til flere produkter samtidig](#add-multiple).
+    >Hvis det er støtte for avanserte søk, kan du klikke på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> i feltet **Produktsøk** for å søke etter og [legge til flere produkter samtidig](#add-multiple).
 
 1. Klikk på ønsket produkt i listen. Dialogboksen oppdateres med produktinformasjon.
 
@@ -40,7 +40,7 @@ I dialogboksen **Legg til / rediger produkt** kan du legge til et produkt, angi 
 
 1. Klikk på **Legg til** nederst i fanen **Produkter** i dialogboksen **Rediger tilbud**.
 
-2. Begynn å skrive inn et produktnavn i feltet**Produktsøk** for å søke etter et produkt. Klikk på søkeikonet ![ikon][img1] for å søke etter produkter ved hjelp av en rekke forskjellige kriterier, for eksempel etter produktsortiment, produktgrupper/kategorier, navn, varekoder osv. Søket inneholder alle aktive prislister med gjeldende valuta.
+2. Begynn å skrive inn et produktnavn i feltet**Produktsøk** for å søke etter et produkt. Klikk på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> for å søke etter produkter ved hjelp av en rekke forskjellige kriterier, for eksempel etter produktsortiment, produktgrupper/kategorier, navn, varekoder osv. Søket inneholder alle aktive prislister med gjeldende valuta.
 
 3. Når du har funnet produktene du vil legge til i tilbudet, merker du dem (**Ctrl+klikk**), og klikker på **OK**. Produktene vises i fanen **Produkter** (eller i fanen for alternativet du har opprettet).
 
@@ -101,6 +101,3 @@ Varsler og meldinger kan for eksempel gjelde følgende:
 
 <!-- Referenced links -->
 [1]: approve.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png

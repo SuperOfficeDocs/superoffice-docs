@@ -20,7 +20,7 @@ language: no
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klikk på ![ikon][img1] pilen ved siden av feltet **Type**, og velg ønsket oppfølgingstype fra listeboksen.
+2. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av feltet **Type**, og velg ønsket oppfølgingstype fra listeboksen.
 
 3. I feltet **Retning** angir du om oppfølgingen er utgående eller innkommende ved å klikke på pilen og velge fra listeboksen.
 
@@ -43,4 +43,3 @@ language: no
 [2]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

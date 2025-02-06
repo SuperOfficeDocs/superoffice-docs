@@ -4,8 +4,8 @@ title: Utskrift av poster i SuperOffice CRM
 description: Denne veiledningen gir en oversikt over hvordan du skriver ut poster som firmaer, personer, salg, prosjekter og oppfølginger, noe som gjør det praktisk å ha papirversjoner for møter, dokumentasjon eller videre analyse.
 keywords: skriv ut, utskrift
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ De generelle trinnene for utskrift av en post i SuperOffice CRM er stort sett de
 
 1. Gå til ønsket post: Gå til Firma, Person, Salg, Prosjekt eller Sak for å finne elementet du vil skrive ut.
 
-1. I det relevante kortet, fanen eller dialogen, klikk på **Oppgave**-knappen.
+1. I det relevante kortet, fanen eller dialogen, klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 1. Velg **Skriv ut** fra menyen.
 
@@ -42,7 +42,7 @@ De generelle trinnene for utskrift av en post i SuperOffice CRM er stort sett de
 
 1. Åpne den nødvendige oppfølgingen på detaljkortet **Aktiviteter** i Firma, Person, Dagbok, Salg eller Prosjekt-skjermene.
 
-1. Klikk på **Oppgave** og velg **Skriv ut**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Skriv ut**.
 
 ### Skriv ut oppfølging fra Dagbok
 

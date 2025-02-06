@@ -26,7 +26,7 @@ Når du svarer på en kundehenvendelse, kan du spare tid ved å sette inn en kob
 1. En **kobling** settes inn ved markørposisjonen. Kunden kan klikke på den for å vise den relevante FAQ-oppføringen i kundesenteret.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

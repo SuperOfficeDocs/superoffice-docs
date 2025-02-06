@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice Marketing
 # Trinninnstillinger
 
 > [!NOTE]
-> Mange felt har en liste av forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img4] for å utvide listen. Deretter velger du en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et utvalgsnavn.
+> Mange felt har en liste av forhåndsdefinerte verdier du kan velge fra. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> for å utvide listen. Deretter velger du en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et utvalgsnavn.
 
 ## Legg til i utvalg og/eller prosjekt
 
@@ -52,7 +52,7 @@ audience_tooltip: SuperOffice Marketing
 | Innstilling | Beskrivelse |
 |---|---|
 | Tittel | Et beskrivende navn på salget. Detaljer går i beskrivelsen. |
-| Salgstype | En navngitt mengde informasjon om salgsprosessen. Påvirker standard salgstrinn og estimert salgsdato. Noen salgstyper er knyttet til en [salgsveiledning][14]. |
+| Salgstype | En navngitt mengde informasjon om salgsprosessen. Påvirker standard salgstrinn og estimert salgsdato. Noen salgstyper er knyttet til en [salgsguide][14]. |
 | Trinn | Salgets nåværende trinn (åpent, tapt, solgt). |
 | Beløp | Forventet beløp for pipelinen. |
 | Beskrivelse | En mer detaljert beskrivelse av salget. |
@@ -159,7 +159,4 @@ Dette fungerer på samme måte som [masseoppdatering][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png
+[14]: ../../../sale/learn/sales-guides.md

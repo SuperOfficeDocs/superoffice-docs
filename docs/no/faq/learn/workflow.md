@@ -17,7 +17,7 @@ I en ny installasjon har du to standardfaser i arbeidsflyten: **Upublisert** og 
 
 ## Opprett ny fase
 
-1. Gå til ![icon][img4] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 1. Klikk på **Arbeidsflyt**-knappen. Du kommer til bildet **Vis arbeidsflyt**.
 1. Klikk på **Nytt trinn**-knappen. Du kommer til bildet **Nytt trinn**.
 1. Angi et beskrivende navn på trinnet i feltet **Navn**.
@@ -28,7 +28,7 @@ I en ny installasjon har du to standardfaser i arbeidsflyten: **Upublisert** og 
     * **Kan flytte**: Brukeren har tillatelse til å endre fasen i arbeidsflyten for oppføringer (publisere eller avbryte publisering).
     * **Kan redigere**: Brukeren har rettigheter til å endre FAQ-oppføringer.
     * **Full tilgang**: Brukeren har alle rettigheter i forbindelse med arbeidsflyt.
-1. Klikk på ![icon][img3] **Legg til**-knappen for å legge til brukeren i listen under **Brukertilgang**.
+1. Klikk på **+** for å legge til brukeren i listen under **Brukertilgang**.
 1. Gjenta trinn 7–9 ovenfor hvis du vil legge til flere brukere.
 1. Klikk på **OK**. Fasen opprettes og er nå tilgjengelig når du publiserer FAQ-oppføringer.
 
@@ -36,19 +36,19 @@ I en ny installasjon har du to standardfaser i arbeidsflyten: **Upublisert** og 
 
 Du kan endre både navnet på en fase og justere hvilke brukere som skal ha tilgang til den.
 
-1. Gå til ![icon][img4] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 1. Klikk på **Arbeidsflyt**-knappen.
 1. Klikk på navnet til fasen. Du kommer til bildet **Rediger trinn**.
 1. Endre navnet hvis det er behov for det.
 1. Juster hvilke brukere som skal ha tilgang til det aktuelle trinnet:
     * Hvis du vil legge til brukere, følger du fremgangsmåten ovenfor.
-    * Hvis du vil fjerne brukere, velger du brukeren(e) det gjelder, og klikker på ![icon][img1] **Handlinger**-knappen og velger **Fjern tilgang for utvalgte brukere**.
+    * Hvis du vil fjerne brukere, velger du brukeren(e) det gjelder, og klikker på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og velger **Fjern tilgang for utvalgte brukere**.
 1. Klikk på **OK**. Endringene lagres.
 
 ## Slette fase
 
-1. Gå til ![icon][img4] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
-1. Klikk på ![icon][img2] **Arbeidsflyt**-knappen.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Klikk på **Arbeidsflyt**-knappen (<i class="ph ph-gear" aria-hidden="true"></i>).
 1. Klikk på navnet til fasen. Du kommer til bildet **Rediger trinn**.
 1. Klikk på **Slett**. Hvis fasen ikke har noen tilknyttede FAQ-oppføringer, slettes den umiddelbart.
 
@@ -72,7 +72,3 @@ Du kan endre både navnet på en fase og justere hvilke brukere som skal ha tilg
 [2]: publish.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/gearblack.png
-[img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../media/icons/main-menu.png

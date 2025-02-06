@@ -20,14 +20,11 @@ Du kan fjerne figurer fra et dashbord så lenge du har redigeringstilgang.
 
 1. Gå til ønsket dashbord.
 
-2. Klikk på **Oppgave** -knappen, og velg **Legg til figurer / rediger layout**.
+2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**.
 
-3. Klikk på ikonet **Fjern figur** ![ikon][img1] på figuren du vil fjerne, i dashbordet.
+3. Klikk på <i class="ph ph-x-circle" aria-label="Remove icon"></i> på figuren du vil fjerne, i dashbordet.
 
 4. Klikk på **OK** for å bekrefte.
 
 <!-- Referenced links -->
 [1]: add-tile.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png

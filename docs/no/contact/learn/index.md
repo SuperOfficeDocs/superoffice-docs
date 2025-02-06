@@ -1,41 +1,54 @@
 ---
 uid: help-no-contact
 title: Person
-description: Et personkort lagrer verdifull informasjon om all kommunikasjon og samhandling med en person, samt dokumentasjon av vedkommendes GDPR-samtykke.
+description: Skjermbildet Person gir et øyeblikksbilde av all kommunikasjon og samhandling med en person. Her kan du administrere kontaktopplysninger, spore aktiviteter og få tilgang til GDPR-relatert dokumentasjon.
+keywords: Person-bildet, person, kontakt
 author: Bergfrid Dias
-date: 12.14.2022
-keywords: person, person
+date: 01.28.2025
+version: 10.5
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Person
 
-Et personkort lagrer verdifull informasjon om all kommunikasjon og samhandling med en person, samt dokumentasjon av vedkommendes GDPR-samtykke. Alt du vil finne ut om en person, er tilgjengelig fra ett skjermbilde.
+**Skjermbildet Person** gir et øyeblikksbilde av all kommunikasjon og samhandling med en person. Her kan du administrere kontaktopplysninger, spore aktiviteter og få tilgang til GDPR-relatert dokumentasjon – alt samlet på ett sted.
 
-![Person-bilde -screenshot][img3]
+![Skjermbildet Person som viser nøkkelinformasjon, detaljkort og navigasjonsknapper -screenshot][img3]
 
-[!include[Intro](includes/contacts-screen-intro.md)]
+Personer som er knyttet til et firma, kan også vises i detaljkortet **Personer** i [Firma-bildet][8]. Alle aktiviteter som legges til en person, knyttes automatisk til firmaet.
 
-I bildet **Person** vises alle oppføringer i databasen som et kartotekkort med all informasjon om personen.
+Du kan navigere mellom personer ved å bruke knappene **Forrige** og **Neste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre i skjermbildet.
 
-Hvis du vil flytte mellom personer, klikker du på forrige/neste-knappene (![ikon][img2] ![ikon][img1]) nederst til høyre på kortene.
+Bruk funksjonen **Søk** for å finne spesifikke personer eller filtrere oppføringer. Fra Person-bildet kan du også opprette dokumenter, sende e-poster og planlegge oppfølginger.
 
-Du kan [søke][1] etter bestemte personer basert på kriterier du angir. Du kan også skrive dokumenter, generere oppfølginger og opprette nye personer.
+## Faner på personkortet
+
+| Fane | Beskrivelse |
+|---|---|
+| [Person][2] | Hovedfane for å legge inn nøkkelinformasjon som tittel, telefonnummer, e-post og adresse. |
+| Detaljer | Viser ytterligere opplysninger som fødselsdato og foretrukket språk. |
+| [Mer][19] | Brukertilpassede felt for ytterligere persontrelatert informasjon. |
+| [Interesser][2] | Angi personens interesser for utvalg eller kampanjer. En prikk vises når interesser er valgt. |
+| [Notat][20] | Et område for fritekst til å legge til notater om personen. Notater markeres med en prikk når de er fylt ut. |
+| [www][21] | Snarvei til en URL for å få tilgang til eksterne data eller nettsteder relatert til personen. |
+| [ERP][22] | Knytter personen til ERP-systemet for integrering eller synkronisering. |
 
 ## <a id="section-tabs"></a>Detaljkort i Person-bildet
 
-Nederst i **Person**-bildet er det fem standard [detaljkort][16] med informasjon tilknyttet den gjeldende personen:
+Nederst i **Person**-bildet gir [detaljkort][16] rask tilgang til informasjon som er knyttet til personen:
 
 | Detaljkort | Beskrivelse |
 |---|---|
-| [Aktiviteter][11] | Inneholder alle aktivitetene som er knyttet til personen. |
-| [Salg][12] | Inneholder informasjon om eventuelle salg som er knyttet til personen. |
+| [Aktiviteter][11] | Inneholder alle aktiviteter tilknyttet personen. |
+| [Salg][12] | Viser informasjon om salg som er relatert til personen. |
 | [Saker][13] | Viser SuperOffice Service-saker for personen. |
-| [Prosjekter][14] | Viser alle prosjektene der den aktive personen er et prosjektmedlem. |
-| [Relasjoner][15] | Viser eventuelle koblinger som finnes mellom aktiv person og andre personer eller firmaer. |
+| [Prosjekter][14] | Viser alle prosjekter der den aktive personen er medlem. |
+| [Relasjoner][15] | Viser koblinger mellom denne personen og andre personer eller firmaer. |
 
-## Hva vil du gjøre?
+## Relatert innhold
 
 * [Opprette en ny person][2]
 * [Redigere personverninnstillinger for en person][3]
@@ -43,21 +56,15 @@ Nederst i **Person**-bildet er det fem standard [detaljkort][16] med informasjon
 * [Slå sammen personer][5]
 * [Slette personer][6]
 * [Sende e-post til en person][7]
-* [Masseredigere kontaktinformasjon][8]
-* [Massesletting av personer og firmaer fra utvalg][9]
-* [Bruke Papirkurv til å gjenopprette firmaer og personer][10]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
-[8]: ../../search-options/selection/learn/howto/bulk-update.md
-[9]: ../../search-options/selection/learn/howto/mass-delete.md
-[10]: ../../learn/basics/deleting-elements.md#restore
+[8]: ../../company/learn/index.md
 
 [11]: ../../learn/section-tabs/activities-tab.md
 [12]: ../../learn/section-tabs/sales-tab.md
@@ -65,8 +72,10 @@ Nederst i **Person**-bildet er det fem standard [detaljkort][16] med informasjon
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/relations-tab.md
 [16]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/contact/edit-person.png
+[img3]: ../../../media/loc/en/contact/contact-screen.png

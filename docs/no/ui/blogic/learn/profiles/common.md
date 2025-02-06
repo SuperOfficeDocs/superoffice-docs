@@ -24,10 +24,10 @@ Fellesprofiler er koblet til en [rolle][2] og gjelder for alle brukere som har d
 
 Fremgangsmåten nedenfor viser et eksempel på hvordan du legger til et felt i skjermbildet **Finn saker**.
 
-1. Velg ![ikon][img1] **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
+1. Velg **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
 2. Velg **System**. En hierarkisk oversikt over alle profilene i systemet vises.
 3. Klikk på **Søk**.
-4. Pek på **Finn saker**, og klikk på ![ikon][img2] (**Ny felles profil**) til høyre for navnet. Skjermbildet **Rediger elementprofil** vises.
+4. Pek på **Finn saker**, og klikk på <i class="ph ph-list" aria-label="Main menu"></i> (**Ny felles profil**) til høyre for navnet. Skjermbildet **Rediger elementprofil** vises.
 5. I feltet **Navn** skriver du inn ønsket navn på profilen.
 6. Klikk på knappen **Legg til kriterium**.
 7. Gjør følgende i dialogboksen:
@@ -38,7 +38,7 @@ Fremgangsmåten nedenfor viser et eksempel på hvordan du legger til et felt i s
 
 ## Redigere informasjon i en felles profil
 
-1. Velg ![ikon][img1] **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
+1. Velg **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
 2. Velg **System**. En hierarkisk oversikt over alle profilene i systemet vises.
 3. Bla deg nedover i hierarkiet til du kommer til ønsket profil.
 4. Klikk på profilnavnet. Skjermbildet **Rediger elementprofil** vises.
@@ -47,7 +47,7 @@ Fremgangsmåten nedenfor viser et eksempel på hvordan du legger til et felt i s
 
 ## Slett en felles profil
 
-1. Velg ![ikon][img1] **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
+1. Velg **Systeminnstillinger** > **Profil**. Skjermbildet **Vis profiler** vises.
 2. Velg **System**. En hierarkisk oversikt over alle profilene i systemet vises.
 3. Bla deg nedover i hierarkiet til du kommer til ønsket profil.
 4. Klikk på profilnavnet. Skjermbildet **Rediger elementprofil** vises.
@@ -64,7 +64,3 @@ Fremgangsmåten nedenfor viser et eksempel på hvordan du legger til et felt i s
 [3]: ../../../../admin/user-management/learn/role/create-role.md
 [4]: personal.md
 [5]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

@@ -15,10 +15,7 @@ Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ik
 
 Dette krever lisensen **Konfidensielle aktiviteter**.
 
-For å angi denne lisensen finner du ønsket bruker, klikker på fanen **Lisenser**, og deretter klikker du på avmerkingsboksen ![ikon][img1] for **Konfidensielle aktiviteter**.
+For å angi denne lisensen finner du ønsket bruker, klikker på fanen **Lisenser**, og deretter klikker du på avmerkingsboksen for **Konfidensielle aktiviteter**.
 
 <!-- Referenced links -->
 [1]: role/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-selected.png

@@ -5,7 +5,7 @@ description: Edit sales guide
 keywords: edit sales guide, update sales guide, deactivate sales guide, sales guide, guide, workflow, sale
 author: Bergfrid Dias
 date: 01.06.2025
-version: 10
+version: 10.5
 topic: howto
 license: salespremium
 audience: settings

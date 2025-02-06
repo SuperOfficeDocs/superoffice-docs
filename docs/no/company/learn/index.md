@@ -1,64 +1,75 @@
 ---
 uid: help-no-company
-title: Firmaer
-description: All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet i SuperOffice CRM.
+title: Firma
+description: All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet i SuperOffice CRM.
+keywords: Firmakort, Firmabildet, firma, kunde, partner, leverandør
 author: Bergfrid Dias
-date: 12.15.2022
-keywords: firma
+date: 01.24.2025
+version: 10.5.1
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Firma
 
-All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet. Dette kortet gir deg øyeblikk oversikt over firmaet i ett bilde.
+**Firmabildet** gir en rask oversikt over all informasjon knyttet til et firma, som kunder, partnere eller leverandører.
 
-![Firma-bilde -screenshot][img3]
+![Firmabildet med firmainformasjon, detaljkortet Personer og sidepanelet Firma. -screenshot][img3]
 
-[!include[Intro](includes/company-screen-intro.md)]
+Øverst viser **Firmakortet** viktige detaljer om firmaet, som kontaktinformasjon, kategori og hovedkontaktperson. Du kan navigere mellom firmaer ved hjelp av knappene **Forrige** og **Neste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre på kortet.
 
-I bildet **Firma** vises alle oppføringer i databasen som et kartotekkort med all informasjon om firmaet.
+Under firmakortet lar **detaljkortene** deg se ytterligere informasjon og administrere relaterte oppføringer som personer eller aktiviteter.
 
-Hvis du vil flytte mellom firmaer, klikker du på forrige/neste-knappene (![ikon][img2] ![ikon][img1]) nederst til høyre på kortene.
+Bildet lar deg også søke etter firmaer, opprette nye oppføringer, administrere personer, skrive dokumenter og lage oppfølginger.
 
-Du kan søke etter bestemte firmaer basert på kriterier du angir. Du kan også skrive dokumenter, lage oppfølginger og opprette nye firmaer og personer.
+> [!TIP]
+> Du kan åpne firmaets Internett-hjemmeside fra SuperOffice CRM ved å klikke på adressen som er angitt i **Webside**-feltet på firma- eller prosjektkortet. Hjemmesiden åpnes da i den nettleseren du har angitt som standard.
 
-## <a id="section-tabs"></a>Detaljkortene i Firma-bildet
+## Faner på Firmakortet
 
-Nederst i -bildet finner du følgende [standard detaljkort][18]:
+| Fane | Beskrivelse |
+|---|---|
+| [Firma][2] | Hovedkortet for å legge inn sentral firmainformasjon, inkludert adresse og kontaktfelt. |
+| [Mer][19] | Tilpassede felt for firmaspesifikk informasjon. |
+| [Interesser][2] | Avkrysningsbokser for å angi firmaets interesser for utvalg eller kampanjer. En prikk vises når interesser er valgt. |
+| [Notat][20] | Fritekstområde for å legge til notater om firmaet. Notater markeres med en prikk når de er fylt ut. |
+| [www][21] | Snarvei til en URL for å vise nettsider eller eksterne data relatert til firmaet. |
+| [ERP][22] | Knytter firmaer til ERP-systemet for datasynkronisering og kobling av kontakter. |
+
+## <a id="section-tabs"></a>Detaljkort i Firmabildet
+
+Nederst i bildet finner du følgende [standard detaljkort][18]:
 
 | Detaljkort | Beskrivelse |
 |---|---|
-| [Personer][11] | Inneholder opplysninger om ansatte hos det aktive firmaet. |
-| [Relasjoner][12] | Viser eventuelle koblinger mellom firmaer og/eller personer. |
-| [Aktiviteter][13] | Inneholder alle aktiviteter som er knyttet til det aktive firmaet. |
+| [Personer][11] | Inneholder informasjon om ansatte i det aktive firmaet. |
+| [Relasjoner][12] | Viser koblinger mellom firmaer og/eller personer. |
+| [Aktiviteter][13] | Inneholder alle aktiviteter knyttet til det aktive firmaet. |
 | [Prosjekter][14] | Viser alle prosjektene for det aktive firmaet. |
-| [Salg][15] | Inneholder informasjon om eventuelle salg som er tilknyttet firmaet. |
-| [Saksbehandling][16] | Viser saker fra SuperOffice Service for det aktive firmaet. |
-| [ERP][17] | Her kan du knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
+| [Salg][15] | Inneholder informasjon om salg tilknyttet firmaet. |
+| [Saker][16] | Viser saker fra SuperOffice Service for det aktive firmaet. |
+| [ERP][17] | Knytter et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
 
 > [!NOTE]
-> [Personer][1] som ikke tilhører et firma, finner du i Person-bildet.
+> [Personer][1] som ikke er knyttet til et firma, finnes i Person-bildet.
 
-## Hva vil du gjøre?
+## Relatert innhold
 
-* [Opprett et nytt firma][2]
+* [Opprette et nytt firma][2]
 * [Redigere et firma][3]
-* [Kopiere et firma][4]
 * [Slå sammen firmaer][5]
-* [Slette et firma][6]
 * [Skriv ut firmainformasjon][7]
 * [Masseredigering av firmainformasjon][9]
 * [Massesletting av personer og firmaer fra utvalg][10]
-* [Bruke Papirkurv til å gjenopprette firmaer og personer][8]
+* [Bruke papirkurven til å gjenopprette firmaer og personer][8]
 
 <!-- Referenced links -->
 [1]: ../../contact/learn/index.md
 [2]: create.md
 [3]: edit.md
-[4]: copy.md
 [5]: merge-companies.md
-[6]: delete.md
 [7]: ../../learn/basics/print.md
 [8]: ../../learn/basics/deleting-elements.md#restore
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
@@ -72,8 +83,10 @@ Nederst i -bildet finner du følgende [standard detaljkort][18]:
 [16]: ../../learn/section-tabs/requests-tab.md
 [17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/company/company-month-mini.png
+[img3]: ../../../media/loc/en/company/company-screen.png

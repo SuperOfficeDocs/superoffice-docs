@@ -13,13 +13,13 @@ items:
     href: notes.md
   - name: Utskrift av poster
     href: print.md
-  - name: Duplisere kontroller
+  - name: Håndtere duplikater
     href: duplicates.md
   - name: Slett og gjenopprett
     href: deleting-elements.md
   - name: Masseredigering
     href: bulk-update.md
-  - name: Arbeide med inndelingsfaner
+  - name: Arbeide med detaljkort
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
   - name: Aktiviteter

@@ -1,11 +1,14 @@
 ---
 uid: help-no-fastsearcher-dialog
-title: Fhurtigsøk i dialogbokser
+title: Hurtigsøk i dialogbokser
 description: Hvordan bruke hurtigsøk i dialogbokser i SuperOffice
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: søk hurtigsøk, dialog
+author: Bergfrid Dias
+date: 01.30.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -29,7 +32,7 @@ Hvis du skriver inn et prosenttegn (%) foran søketeksten, vises alle poster som
 
 Du kan bruke %% til å se alle poster av en bestemt type, for eksempel alle firmaer, alle utvalg, alle prosjekter.
 
-Hvis du for eksempel vil se alle dokumentmalene som er tilgjengelige i SuperOffice CRM, går du til menyen **+Ny** og klikker på **Dokument**. I det øverste feltet i dokumentskjermbildet, som angir typer dokumentmaler, skriver du inn %%. Da ser du en nedtrekksmeny som inneholder hele listen over tilgjengelige dokumentmaler.
+Hvis du for eksempel vil se alle dokumentmalene som er tilgjengelige i SuperOffice CRM, klikk **Ny** på toppraden og velg **Dokument**. I det øverste feltet i dokumentskjermbildet, som angir typer dokumentmaler, skriver du inn %%. Da ser du en nedtrekksmeny som inneholder hele listen over tilgjengelige dokumentmaler.
 
 ![Skriv inn to prosenttegn i hurtigsøk for å se alle postene -screenshot][img4]
 

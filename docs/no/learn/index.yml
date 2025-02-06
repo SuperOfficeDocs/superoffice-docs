@@ -220,7 +220,7 @@ conceptualContent:
       - text: Navigere i Dagbok-bildet
         itemType: library_books
         typeDesc: reference
-        url: ../diary/learn/screen/index.md
+        url: ../diary/learn/index.md
 
     # Card
     - title: Dokument
@@ -250,15 +250,15 @@ conceptualContent:
       - text: Opprette sak
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/create.md
+        url: ../request/learn/create.md
       - text: Ta ansvar for sak
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/accept.md
+        url: ../request/learn/accept.md
       - text: Svare kunde
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/reply.md
+        url: ../request/learn/reply.md
       - text: Arbeide med svarmaler
         itemType: list
         typeDesc: how-to-guide
@@ -299,7 +299,7 @@ conceptualContent:
       - text: Salgsguide
         itemType: list
         typeDesc: how-to-guide
-        url: ../sale/learn/sales-guide/working-with-sales-guide.md
+        url: ../sale/learn/sales-guides.md
       - text: Opprette et nytt dashbord
         itemType: list
         typeDesc: how-to-guide

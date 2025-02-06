@@ -16,7 +16,7 @@ language: no
 Når en saksbehandler [oppretter et forslag til en FAQ-oppføring][1], blir den upublisert og utilgjengelig i SuperOffice Kundesenter. Hvis den skal gjøres tilgjengelig må en person med administrasjonsrettigheter for FAQ publisere den.
 
 1. Når du logger deg på, vises eventuelle upubliserte FAQ-oppføringer i **Status**-panelet på dashbordet under **Upubliserte FAQ-oppføringer**.
-1. Gå til ![icon][img1] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 1. Klikk på ønsket oppføring.
 1. I skjermbildet **FAQ-oppføring** klikker du på **Rediger oppføring**.
 1. I skjermbildet **Egenskaper for FAQ-oppføring** velger du fanene **Spørsmål** og **Svar** og leser gjennom spørsmålet og svaret.
@@ -39,6 +39,3 @@ Når en saksbehandler [oppretter et forslag til en FAQ-oppføring][1], blir den 
 [2]: ../../request/learn/index.md
 [3]: workflow.md
 [4]: ../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

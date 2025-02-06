@@ -30,7 +30,7 @@ Statiske og dynamiske valg opprettes på lignende måte:
 Trinn 1 er forskjellig for kombinasjonsutvalg fordi du starter med to eksisterende utvalg i stedet for å lete etter data.
 
 > [!TIP]
-> Klikk ![på ikonet][img4] til høyre for kolonneoverskriftene. Her kan du gruppere og filtrere poster, og legge til/fjerne kolonner. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortene][4] for flere funksjoner.
+> Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene. Her kan du gruppere og filtrere poster, og legge til/fjerne kolonner. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortene][4] for flere funksjoner.
 
 ## Hva vil du gjøre?
 
@@ -46,6 +46,3 @@ Trinn 1 er forskjellig for kombinasjonsutvalg fordi du starter med to eksisteren
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md
 [6]: ../update/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../../common/icons/cog-wheel.png

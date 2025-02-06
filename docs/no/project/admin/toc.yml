@@ -1,0 +1,11 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Legg til prosjektstatus
+  href: project-status.md
+- name: Legg til prosjekttype
+  href: project-type.md
+- name: Opprette ny prosjektguide
+  href: create-project-guide.md
+- name: Redigere eller deaktivere prosjektguide
+  href: edit-project-guide.md

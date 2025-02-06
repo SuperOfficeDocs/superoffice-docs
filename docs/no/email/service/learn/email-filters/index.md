@@ -80,6 +80,6 @@ Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
-[3]: ../../../../request/learn/type/index.md
+[3]: ../../../../request/admin/type/index.md
 
 <!-- Referenced images -->

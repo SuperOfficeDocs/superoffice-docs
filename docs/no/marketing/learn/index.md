@@ -12,11 +12,11 @@ audience: person
 audience_tooltip: SuperOffice Marketing
 ---
 
-# SuperOffice Marketing
+# SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marketing handler om utgående kommunikasjon og skjemaer. Bruk utsendelser til å informere kunder om for eksempel oppgraderinger og produktnyheter. Bruk skjemaer for produkt-/nyhetsbrevregistrering, samtykkestyring, dataoppdateringer og enkle "kontakt meg"-skjemaer.
 
-Du åpner SuperOffice Marketing ved å klikke på ikonet **Markedsføring** ![ikon][img2] i Navigatoren.
+Du åpner SuperOffice Marketing ved å klikke på ikonet **Markedsføring** (<i class="ph ph-target" aria-hidden="true"></i>) i Navigatoren.
 
 Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 
@@ -104,8 +104,8 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 |---|---|---|
 | Utsendelser | Inneholder alle utsendelser og oppretter nye. | [Opprette ny utsendelse][5] |
 | Meldingsmaler | Inneholder standardmaler fra SuperOffice Marketing og maler du har opprettet, i tillegg til et bredt spekter av maler fra det elektroniske malbiblioteket. | [Arbeide med meldingsmaler][13] |
-| Sporede koblinger | Inneholder alle sporede koblinger som brukes i utsendelsene dine. Klikk på ![ikon][img1] **Legg til-**knappen for å opprette en ny kobling. | [Opprette sporede koblinger][14] |
-| Bilder | Inneholder alle tilgjengelige bilder i SuperOffice Marketing. Klikk på ![ikon][img1] **Legg til-** knappen for å legge til nye bilder. | [Legg til bilder][15] |
+| Sporede koblinger | Inneholder alle sporede koblinger som brukes i utsendelsene dine. Klikk på **Legg til-**knappen for å opprette en ny kobling. | [Opprette sporede koblinger][14] |
+| Bilder | Inneholder alle tilgjengelige bilder i SuperOffice Marketing. Klikk på **Legg til-** knappen for å legge til nye bilder. | [Legg til bilder][15] |
 | Blokkerte e-postadresser | Håndter returnerte e-poster og klager på søppelpost. | [Blokkerte e-postadresser][12], [søppelpost][16] |
 | Skjemaer | Inneholder alle skjemaer og oppretter nye. | [Opprette et nytt skjema][1] |
 | Skjemamaler | Inneholder alle skjemamaler. | [Arbeide med skjemamaler][18] |
@@ -137,7 +137,3 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

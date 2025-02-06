@@ -14,7 +14,7 @@ language: no
 
 # Globale preferanser for systeminnstillinger for SuperOffice Service
 
-Gå til ![ikonet][img2] **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **Systeminnstillinger for SuperOffice Service** har følgende valg:
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **Systeminnstillinger for SuperOffice Service** har følgende valg:
 
 * **Standard skrifttype i redigeringsprogram**: Velg hvilken skrifttype, skriftstørrelse og formatering som skal brukes som standard for meldingsregistrering.
 
@@ -22,7 +22,7 @@ Gå til ![ikonet][img2] **Preferanser** i navigatoren, og velg deretter fanen **
 
 * **Standard skrifttykkelse**: Tykkelsen på standard skrifttype i Standard-redigering.
 
-* **Send et e-postvarsel om aktive saker**: Angir om e-post om aktiv saker skal sendes til brukerne. Hvis du velger **Saksbehandler kan velge**, kan saksbehandlerne aktivere eler deaktivere e-postvarsel fra ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Varsling via e-post og SMS**.
+* **Send et e-postvarsel om aktive saker**: Angir om e-post om aktiv saker skal sendes til brukerne. Hvis du velger **Saksbehandler kan velge**, kan saksbehandlerne aktivere eler deaktivere e-postvarsel fra <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Varsling via e-post og SMS**.
 
 * **Ny status ved overtagelse av sak**: Velg hvilken status som skal brukes når en sak godtas av en bruker.
 
@@ -32,7 +32,7 @@ Gå til ![ikonet][img2] **Preferanser** i navigatoren, og velg deretter fanen **
 
 * **Systemansvarlig**: E-postadressen til den personen som er ansvarlig for drift av SuperOffice Service. Dette må være en e-postadresse som ikke importeres/behandles av SuperOffice Service.
 
-* **Standardavsender**: Systemets standard avsenderadresse for e-post. Denne adressen vil normalt overstyres av adressene som legges inn i e-postkasser. Dette må være en e-postadresse som importeres i SuperOffice Service. For eksempel support@company.com.
+* **Standardavsender**: Systemets standard avsenderadresse for e-post. Denne adressen vil normalt overstyres av adressene som legges inn i e-postkasser. Dette må være en e-postadresse som importeres i SuperOffice Service. For eksempel `<support@company.com>`.
 
 * **E-postkode**: E-postkoden som sammen med saksnummeret danner en unik nøkkel for emnet i e-postmeldinger som sendes ut fra SuperOffice Service. Du må ikke endre denne verdien med mindre du vet hva du gjør! Hvis denne verdien endres, vil ikke e-postmeldinger som mottas, kobles riktig til eksisterende saker.
 
@@ -70,7 +70,3 @@ Gå til ![ikonet][img2] **Preferanser** i navigatoren, og velg deretter fanen **
 
 <!-- Referenced links -->
 [1]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../../common/icons/nav-admin-preferences-active.png

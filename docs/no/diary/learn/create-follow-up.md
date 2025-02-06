@@ -1,12 +1,15 @@
 ---
 uid: help-no-follow-up-create
-title: "Legge til oppfølging"
-description: "Legge til eller kopiere møte, oppgave, samtale i SuperOffice"
-author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
+title: Legge til oppfølging
+description: Legge til eller kopiere møte, oppgave, samtale i SuperOffice
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -18,7 +21,7 @@ Når du oppretter oppfølginger og planlegger alle møter og aktiviteter i dagbo
 
 Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra hvor som helst i SuperOffice CRM og for alle typer oppfølginger.
 
-1. Klikk på **Ny** i toppraden, og velg deretter **Møte/Avtale**, **Oppfølging/Samtale** eller **Oppgave**.
+1. Klikk på **Ny** i toppraden, og velg deretter **Møte**, **Oppfølging** eller **Oppgave**.
 
 2. [Fyll ut de andre feltene med ønsket informasjon.](#fields)
 
@@ -37,7 +40,7 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 ### <a id="fields"></a>Hvordan legge inn informasjon
 
 > [!NOTE]
-> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![ikon][img4] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et firmanavn.
+> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et firmanavn.
 
 Hvis din SuperOffice har [tidssoner][9] aktivert, kan du velge hvilken tidssone oppfølgingen skal opprettes i. Tidssonene vises etter land, og du kan søke både etter land og by direkte i tidssonen feltet.
 
@@ -77,7 +80,7 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 
 ## Opprette oppfølging fra Oppgaveknappen
 
-1. Klikk på ![ikon][img3] **Oppgave**-knappen i personkortet.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> i personkortet.
 
     * For å opprette et møte, velg **Be om et møte**.
 
@@ -92,13 +95,13 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 * **For å bruke standardvarighet:** Dobbeltklikk på et klokkeslett i dagboken eller høyreklikk på et klokkeslett i dagboken og velg **Ny**.
 
 > [!NOTE]
-> Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at deltakerlisten skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
+> Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at deltakerlisten skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
 
 ### <a id="associate"></a>Opprette møte for en medarbeider
 
 Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
 
-1. Klikk på **Vis**-fanen i Dagbok-bildet.
+1. Klikk på **Oversikt**-fanen i Dagbok-bildet.
 
 2. Klikk på dagbokeierlisten og finn personens dagbok.
 
@@ -137,8 +140,5 @@ Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

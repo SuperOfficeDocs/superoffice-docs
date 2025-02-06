@@ -1,39 +1,31 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Avtale, telefonsamtale, oppgave
+- name: Avtale, oppgave, telefonsamtale
   href: follow-ups.md
-- name: Kalendervisninger
-  topicHref: screen/index.md
-  items:
-  - name: Dag, uke, måned
-    href: screen/index.md
-  - name: Gruppeoversikt
-    href: group-view.md
-  - name: Se andre dagbøker
-    href: other-diaries.md
-- name: Jobbe med oppfølginger
-  topicHref: create-follow-up.md
-  items:
-  - name: Videomøter
-    href: video-meetings.md
-  - name: "Legge til oppfølging (avtale, oppgave eller samtale)"
-    href: create-follow-up.md
-  - name: Redigere eller slette oppfølging
-    href: edit-follow-up.md
-  - name: Flytte oppfølgingen
-    href: move-follow-up.md
-  - name: Fullfør oppfølging
-    href: change-completed-status.md
-  - name: Gjentakelse
-    href: recurrence/toc.yml
-  - name: Overføre en oppfølging til noen andre
-    href: follow-up-assign.md
-  - name: Sette alarm for oppfølging
-    href: set-alarm.md
-  - name: Sende en oppfølging som e-post
-    href: send-as-email.md
-
+- name: Videomøter
+  href: video-meetings.md
+- name: Legg til oppfølging
+  href: create-follow-up.md
+- name: Rediger eller slett oppfølging
+  href: edit-follow-up.md
+- name: Flytt oppfølging
+  href: move-follow-up.md
+- name: Fullfør oppfølging
+  href: change-completed-status.md
+- name: Se andre dagbøker
+  href: other-diaries.md
+- name: Gruppeoversikt
+  href: group-view.md
+- name: Tildel oppfølging (overfør)
+  href: follow-up-assign.md
+- name: Sett alarm for oppfølging
+  href: set-alarm.md
+- name: Send en oppfølging som e-post
+  href: send-as-email.md
+- name: Gjentakelse
+  href: recurrence/toc.yml
+  topicHref: recurrence/index.md
 - name: Invitasjoner
   href: invitation/toc.yml
   topicHref: invitation/index.md

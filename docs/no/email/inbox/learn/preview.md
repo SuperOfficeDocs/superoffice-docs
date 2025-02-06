@@ -24,7 +24,7 @@ Fanen **Forhåndsvisning** inneholder følgende felt:
 | Vedlegg | Her vises eventuelle vedlegg i meldingen. |
 
 > [!NOTE]
-> Gå til ![icon][img1] **Personlige innstillinger** > **E-postalternativer**. Gå til fanen **Generelt**. Hvis du velger **Vis innebygde bilder**, vises innebygde bilder i forhåndsvisning.
+> Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **E-postalternativer**. Gå til fanen **Generelt**. Hvis du velger **Vis innebygde bilder**, vises innebygde bilder i forhåndsvisning.
 
 ## Aktuelle emner
 
@@ -40,6 +40,3 @@ Fanen **Forhåndsvisning** inneholder følgende felt:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

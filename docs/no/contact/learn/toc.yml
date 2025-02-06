@@ -1,23 +1,20 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Arbeid med person
-  topicHref: create.md
-  items:
-  - name: Opprette ny person
-    href: create.md
-  - name: Rediger person
-    href: edit.md
-  - name: Flytte en person
-    href: move.md
-  - name: Slå sammen personer
-    href: merge-contacts.md
-  - name: Slette en person
-    href: delete.md
-  - name: Sende e-post til en person
-    href: send-email.md
-  - name: Ringe person
-    href: dial.md
+- name: Opprett ny person
+  href: create.md
+- name: Rediger personopplysninger
+  href: edit.md
+- name: Flytt en person
+  href: move.md
+- name: Slå sammen personer
+  href: merge-contacts.md
+- name: Slett en person
+  href: delete.md
+- name: Send e-post til en person
+  href: send-email.md
+- name: Ring en person
+  href: dial.md
 - name: Personverninnstillinger og GDPR
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

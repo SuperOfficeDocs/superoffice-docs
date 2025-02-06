@@ -1,0 +1,45 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Sakstyper
+  topicHref: type/index.md
+  items:
+  - name: Oversikt
+    href: type/index.md
+  - name: Opprett sakstype
+    href: type/create.md
+  - name: Slett sakstype
+    href: type/delete.md
+- name: Kategorier
+  topicHref: category/index.md
+  items:
+  - name: Oversikt
+    href: category/index.md
+  - name: Opprett sakskategori
+    href: category/create.md
+  - name: Slett sakskategori
+    href: category/delete.md
+- name: Prioriteter
+  topicHref: priority/index.md
+  items:
+  - name: Oversikt
+    href: priority/index.md
+  - name: Opprett prioritet
+    href: priority/create.md
+  - name: Slett prioritet
+    href: priority/delete.md
+  - name: Opprette eskaleringsnivåer
+    href: priority/escalation-levels.md
+- name: Saksstatus
+  topicHref: status/index.md
+  items:
+  - name: Oversikt
+    href: status/index.md
+  - name: Opprette saksstatus
+    href: status/create.md
+  - name: Slette saksstatus
+    href: status/delete.md
+- name: Hent neste sak i køen
+  href: next-in-queue.md
+- name: Systemmaler
+  href: system-templates.md

@@ -42,11 +42,10 @@ Når du tester en utsendelse, er det viktig å kontrollere følgende:
 Når du har sendt en testutsendelse, må du nullstille tellerne for koblingen(e) i meldingen. Ellers viser oversikten dine egne og andres klikk på koblinger under testingen.
 
 1. Gå til koblingene i fanen **Sporede koblinger**
-2. Klikk på menyknappen ![ikon][img1] ved siden av den aktuelle koblingen, og velg **Nullstill**. Kolonnen **Klikk** angis til **0**. Informasjonen om hvilke kunder som har klikket på koblingen, fjernes også.
+2. Klikk på menyknappen ved siden av den aktuelle koblingen, og velg **Nullstill**. Kolonnen **Klikk** angis til **0**. Informasjonen om hvilke kunder som har klikket på koblingen, fjernes også.
 
 <!-- Referenced links -->
 [1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png
 [img2]: ../../../../../media/loc/en/marketing/test-mailing.png

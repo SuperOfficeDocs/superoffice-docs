@@ -2,11 +2,12 @@
 uid: help-no-sale
 title: Salg
 description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgspipeliner og -prosesser.
-keywords: salg
-author: SuperOffice RnD
-date: 10.29.2024
-version: 10.3.11
+keywords: salg, salgskort, salgsskjerm
+author: Bergfrid Dias
+date: 02.03.2025
+version: 10.5.2
 topic: concept
+license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -14,120 +15,120 @@ language: no
 
 # Salg
 
-Med salgsfunksjonen i SuperOffice CRM kan du registrere salg, holde rede på kostnader og fortjeneste for hvert salg og knytte salg til prosjekter.
+Salgsfunksjonen i SuperOffice CRM hjelper deg med å administrere salgsmuligheter effektivt ved å holde oversikt over all relevant informasjon, aktiviteter og dokumenter på ett sted. Ved å strukturere salgsprosessene dine sikrer du at ingen muligheter går tapt, og at teamet ditt alltid fokuserer på det viktigste – å lukke flere avtaler og nå sine mål.
 
-Ved å administrere salgsmulighetene dine effektivt kan du inngå flere avtaler. SuperOffice Salg er utviklet for å hjelpe salgsteamet med deres daglige oppgaver og legge til rette for at de alltid når målene sine.
+![Salgsskjerm -screenshot][img1]
 
-Se denne videoen, og se hvor enkelt det kan være å forfølge salgsmuligheter med SuperOffice CRM (videolengde – 2:16):
+Du kan knytte salg til firmaer, personer og prosjekter, noe som legger til rette for sømløst samarbeid mellom team. Salg kan også styres ved hjelp av salgsguider, forutsatt at salgstypen du har valgt har en definert guide.
+
+Se denne videoen for å lære hvor enkelt det er å håndtere salgsmuligheter i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
 
-**Salg**-bildet inneholder informasjon om salgene som er registrert i SuperOffice CRM. Hvert salg vises som et arkivkort som viser all informasjon om salget.
+(videolengde – 2:16)
 
-Hvis du vil flytte mellom salg, klikker du på forrige/neste-knappene (![ikon][img2] ![ikon][img4]) nederst til høyre på kortene.
-
-Du kan også [opprette tilbud][1] i detaljkortet **Tilbud** i Salg-bildet.
-
-## Hvor kan jeg se salg?
-
-I tillegg til i [Salg-bildet][2] kan salg vises på [detaljkortet Salg][13] i Firma-, Person-, Dagbok- og Prosjekt-bildet.
+Salgsskjermen organiserer salg som arkivkort, som gir en detaljert oversikt over hver mulighet. Naviger mellom salg ved å bruke **Forrige**- og **Neste**-knappene (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre på kortene. Som standard vises alle salg. Hvis du ikke vil vise fullførte salg (solgte eller tapte), klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-knapp"></i> og velg **Hopp over utførte salg**.
 
 > [!TIP]
-> Dobbeltklikk på et salg på et av disse stedene for å åpne salget i bildet Salg.
+> Salg vises også i [detaljkortet Salg][13] i Firma-, Person-, Prosjekt- og Dagbok-skjermene. Dobbeltklikk et salg i disse visningene for å åpne det i salgsskjermen.
 
-## Bruk salgsoversikt til å prioritere
+## Faner på salgskortet
 
-Hold salgene dine organisert slik at du alltid er fokusert på salgene som betyr mest for deg.
+| Fane | Beskrivelse |
+|---|---|
+| [Salg][4] | Inneholder de viktigste feltene for salget, som Tittel (obligatorisk), Fase og Beløp. |
+| [Detaljer][4] | Fokuserer på økonomiske detaljer, inkludert Totalkostnad, Fortjeneste og Konkurrent. |
+| [Mer][12] | Brukerdefinerte felt for ekstra salgsspesifikk informasjon. Opptil tre felt fra denne fanen kan også vises i **Salg**-fanen for bedre synlighet. |
+| [Notater][19] | Fri tekst-felt for å legge til notater om salget. Fanen markeres med en prikk når den inneholder tekst. |
+| [Koblinger][18] | Knytt relevante aktiviteter, dokumenter eller muligheter til salget. |
 
-Når du har registrert alle salgene dine i SuperOffice CRM, vises de i den personlige salgsoversikten din i **Salg**-fanen og i Dagboken.
-
-Du kan organisere salgslisten din ved [å filtrere, gruppere og legge til kolonnene][3] som er viktigst for deg. De mest brukte kolonnene er salgsbeløp, salgsdato og salgsfase.
-
-Fanen **Salg** fungerer også som en salgssekretær ved å fremheve alle kommende planlagte aktiviteter i feltet **Neste aktivitet**. I tillegg rettes oppmerksomheten din mot aktiviteter du kanskje har glemt, ved at disse står med rød skrift.
-
-![Gå til Dagboken, og få en oversikt over alle salg som ennå ikke er utført -screenshot][img1]
-
-## Hovedkortet for salg
-
-### Salg-fanen
-
-Denne fanen inneholder hovedfeltene du må fylle ut. Tittel er det første, og det er også obligatorisk. Les mer om hvordan du [oppretter et salg][4].
-
-![Salg-fanen i bildet Salg -screenshot][img5]
-
-### Fanen Detaljer
-
-Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysninger om salget.
-
-![Fanen Salgsdetaljer -screenshot][img3]
-
-| Felt | Beskrivelse | Definert i Innstillinger og vedlikehold |
-|---|---|---|
-|Nummer | ID-nummeret for salget, der neste ledige salgsnummer blir lagt inn automatisk. | x |
-| Kilde | Her vises kilden for salget, som angitt i **Salg**-fanen. Du kan også endre kilden herfra. | |
-| Konkurrent | Inneholder en forhåndsdefinert liste over konkurrenter. Her kan du angi en eventuell konkurrent til salget. Du kan bare angi én konkurrent. | x |
-| Total kostnad | Her kan du registrere kostnaden forbundet med salget. Den vises i samme valuta som beløpet. Standardverdien er 0. Når du skriver inn et beløp i dette feltet, blir fortjenesteprosenten og beløpet automatisk beregnet i feltet nedenfor. | |
-| Fortjeneste | Her kan du registrere fortjenesten forbundet med salget. Den vises i samme valuta som beløpet. | |
-| Kreditert | Inneholder en forhåndsdefinert liste over avdelinger som kan være ansvarlige for salget. | x |
-
-> [!NOTE]
-> Hvis du endrer verdien i feltet **Total kostnad**, feltet **Fortjeneste** eller feltet for fortjenesteprosenten, oppdateres de andre feltene automatisk.
-
-### <a id="more-tab"></a>Fanen Mer
-
-I [fanen **Mer**][12] finner du brukerdefinerte felt for salget. Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Salg**.
-
-### Fanen Notat
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
+Hver fane har en spesifikk funksjon for å holde salgsinformasjonen organisert og lett tilgjengelig.
 
 ## <a id="section-tabs"></a>Detaljkortene i Salg-bildet
 
 Den nedre delen av Salg-bildet består av detaljkort.
 
 * [Aktiviteter][14]
-* [Salgsguide][16]
-* [Interessenter][15]
-* [Tilbud][17] (krever lisens)
+* [Salgsguide][16] (krever Sales Premium)
+* [Interessenter][15] (krever Sales Premium)
+* [Tilbud][17] (krever Sales Premium)
 
-[Salgsguider][3] vises bare for bestemte salgstyper (definert i Innstillinger og vedlikehold). Hvis du velger en salgstype som det er definert en salgsguide for, vises detaljkortet **Salgsguide**.
+[Salgsguider][3] vises kun for spesifikke salgstyper (definert i Innstillinger og vedlikehold). Hvis du velger en salgstype med en definert salgsguide, vises detaljkortet **Salgsguide**.
 
-## Hva vil du gjøre nå?
+[!include[Legg til flere detaljkort](../../learn/includes/more-tab.md)]
 
-* [Legge til et salg i favoritter][10]
-* [Les om Salg-bildet][2]
+## Utsatte, solgte og tapte salg
+
+I feltet **Fase** i **Salg**-fanen kan du:
+
+* **Merk et salg som solgt eller tapt:** Dette oppdaterer statusen og lar deg spesifisere detaljer som konkurrenter eller årsaker til utfallet.
+* **Merk et salg som utsatt:** Setter salgsprosessen på pause. Ekstra felter som **Gjenåpningsdato** og **Årsak (utsatt)** blir tilgjengelige.
+
+| Symbol | Betydning |
+|:-:|---|
+| <i class="ph ph-currency-circle-dollar" aria-label="Salgsikon"></i> | Åpent |
+| <i class="ph ph-check" aria-label="Hake-ikon"></i> | Solgt |
+| <i class="ph ph-x" aria-label="X-ikon"></i> | Tapt |
+| <i class="ph ph-triangle" aria-label="Rødt trekant-ikon"></i> | Utsatt |
+
+## Bruk salgsoversikt til å prioritere
+
+Hold salgene dine organisert slik at du alltid fokuserer på de viktigste mulighetene.
+
+Når du har registrert alle salgene dine i SuperOffice CRM, vises de i din personlige salgsoversikt i **Salg**-fanen og i Dagboken. Du kan organisere salgslisten din ved [å filtrere, gruppere og legge til kolonner][3] som er viktigst for deg. De mest brukte kolonnene er salgsbeløp, salgsdato og salgsfase.
+
+Fanen **Salg** fungerer også som en salgssekretær ved å fremheve kommende planlagte aktiviteter i feltet **Neste aktivitet**, samt trekke oppmerksomheten din til forsinkede aktiviteter ved å vise dem med rød skrift.
+
+![Gå til Dagboken og få en oversikt over alle salg som ennå ikke er fullført -screenshot][img3]
+
+## <a id="side-panel"></a>Bruke sidepanelet for salg
+
+Når salgsskjermen er åpen, kan du bruke [sidepanelet][20] til å vise **Utvalgsmedlemmer** og navigere mellom salgsmulighetene dine. Klikk på en salgsmulighet for å vise den i detalj i salgsskjermen.
+
+![Bruk sidepanelet på salgskortet til å vise utvalgsmedlemmer og salgsutvalget -screenshot][img2]
+
+### Tips for effektivitet
+
+* **Sjekk forfalte salg:** Salg som er merket i **rødt** i **Utvalgsmedlemmer**-listen har enten en forfalt aktivitet eller salgsdato. Sørg for å oppdatere disse.
+* **Gjennomgå salg sekvensielt:** Bruk sidepanelet til å bla gjennom salg ett etter ett og sikre at oppfølgingsaktiviteter er på plass.
+* **Bruk utvalg som ringeliste:** Utvalg kan brukes til å følge opp kontakter eller åpne salgsmuligheter systematisk.
+
+For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgsprognoser][21].
+
+## Aktuelt innhold
+
+* [Legg til salg som favoritt][10]
 * [Registrer et salg][4]
-* [Opprette interessenter][5]
-* [Arbeide med salgsguide][6]
-* [Opprette tilbud][1]
-* [Arbeide med salgsmål][7]
-* [Utsatte, solgte og tapte salg][9]
-* [Skrive ut informasjon om et salg][11]
-* [Fanen Koblinger][18]
+* [Legg til interessenter][5]
+* [Merk salg som utsatt, tapt eller solgt][2]
+* [Opprett et tilbud][1]
+* [Arbeid med salgsguider][6]
+* [Arbeid med salgsprognoser][7]
+* [Skriv ut informasjon om et salg][11]
 
-<!-- Referenced links -->
+<!-- Refererte lenker -->
 [1]: ../../quote/learn/create.md
-[2]: screen/index.md
+[2]: update.md#stalled
 [3]: ../../learn/section-tabs/index.md
-[13]: ../../learn/section-tabs/sales-tab.md
-[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
-[15]: stakeholders/index.md
-[6]: sales-guide/working-with-sales-guide.md
-[16]: sales-guide/index.md
+[6]: tutorial.md
 [7]: sales-targets/index.md
-[9]: stages.md
+[21]: forecasting.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
-[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
+[15]: stakeholders/index.md
+[16]: sales-guides.md
 [17]: ../../quote/learn/quote-tab.md
+[18]: ../../learn/basics/links.md
+[19]: ../../learn/basics/notes.md
+[20]: ../../learn/getting-started/main-screen/side-panel.md
 
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/user-diary-sales.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/sale/sale-details.png
-[img4]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/loc/en/sale/sale-card.png
+<!-- Refererte bilder -->
+[img1]: ../../../media/loc/en/sale/sales-screen.png
+[img2]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png
+[img3]: ../../../media/loc/en/sale/user-diary-sales.png

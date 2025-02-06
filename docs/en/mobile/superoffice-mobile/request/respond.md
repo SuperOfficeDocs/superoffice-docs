@@ -114,7 +114,7 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 * [Create FAQ entry][5] (in SuperOffice CRM)
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/forward.md
+[1]: ../../../request/learn/forward.md
 [2]: ../../../request/reply-templates/learn/create.md
 [3]: ../../../request/reply-templates/learn/index.md
 [4]: ../../../faq/learn/index.md

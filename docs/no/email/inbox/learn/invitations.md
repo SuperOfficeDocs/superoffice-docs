@@ -11,7 +11,7 @@ language: no
 
 # Godta invitasjoner
 
-Du kan motta invitasjoner fra en person utenfor organisasjonen din og raskt godta den og legge den til i dagboken din. Dette krever at e-postinvitasjonen inneholder en iCal-fil (.ics.) med invitasjonsdataene. I innboksen vises e-postmeldinger med iCal-invitasjoner med disse symbolene: ![icon][img1] og![icon][img2]
+Du kan motta invitasjoner fra en person utenfor organisasjonen din og raskt godta den og legge den til i dagboken din. Dette krever at e-postinvitasjonen inneholder en iCal-fil (.ics.) med invitasjonsdataene. I innboksen vises e-postmeldinger med iCal-invitasjoner med disse symbolene: <i class="ph ph-paperclip" aria-label="Paperclip"></i> og <i class="ph ph-calendar-blank" aria-label="Calendar"></i>.
 
 > [!NOTE]
 > Hvis avsenderen/arrangøren er en registrert (unik) person i SuperOffice CRM, blir invitasjoner automatisk lagt til som foreløpige oppfølginger i dagboken din. Foreløpige oppfølginger kan også opprettes for andre medarbeidere, avhengig av om preferansen **Administrere innkommende invitasjoner, deaktiver foreløpige** (under **e-post**) er aktiv.
@@ -35,9 +35,3 @@ Du kan motta invitasjoner fra en person utenfor organisasjonen din og raskt godt
     * Godta uten å informere avsender
 
 Meldingen fjernes fra innboksen, og oppfølgingen legges til i dagboken din.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/attachments-black.png
-[img2]: ../../../../../common/icons/appointments-black.png

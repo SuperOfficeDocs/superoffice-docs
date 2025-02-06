@@ -16,7 +16,7 @@ Fanen **Utboks for SMS** inneholder alle utgående SMS-er som ennå ikke er blit
 > [!NOTE]
 > Hvis denne fanen ikke er synlig, betyr dette at du ikke har SMS-modulen installert eller at SMS ikke er aktivert for lisensen du bruker. Ta kontakt med systemansvarlig hvis du ønsker mer informasjon.
 
-Følgende alternativer er også tilgjengelige fra ![icon][img1] menyknappen:
+Følgende alternativer er også tilgjengelige fra menyknappen:
 
 * **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
 
@@ -28,8 +28,3 @@ Følgende alternativer er også tilgjengelige fra ![icon][img1] menyknappen:
     > Du kan ikke angre denne operasjonen.
 
 Hvis du klikker på en av meldingene i denne fanen, vil **Utgående SMS** vises. Her finner du informasjon om den aktuelle meldingen, f.eks. størrelse og hvem som opprettet den. Eventuelle feilmeldinger vises også.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

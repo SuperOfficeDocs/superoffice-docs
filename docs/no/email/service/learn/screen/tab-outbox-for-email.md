@@ -15,7 +15,7 @@ I fanen **Utboks for e-post** er en liste over e-postene i køen som skal sendes
 
 Velg **Vis sendte e-postmeldinger** i nedre høyre hjørne for å vise også de siste e-postmeldingene.
 
-Følgende alternativer er også tilgjengelige fra **Handlinger**-knappen (![icon][img1]):
+Følgende alternativer er også tilgjengelige fra knappen <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
 
 * **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
 
@@ -27,8 +27,3 @@ Følgende alternativer er også tilgjengelige fra **Handlinger**-knappen (![icon
     > Du kan ikke angre denne operasjonen.
 
 Hvis du klikker på en av meldingene i denne fanen, vises skjermbildet **Utgående e-post**. Her finner du informasjon om den aktuelle meldingen, f.eks. størrelse og hvem som opprettet den. Eventuelle feilmeldinger vises også.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

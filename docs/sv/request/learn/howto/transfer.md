@@ -48,4 +48,4 @@ Som ärendehandläggare är det inte alltid du kan besvara ett ärende på egen 
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/reassing-a-request.png
+[img1]: ../../../../media/loc/en/request/reassign-a-request.png

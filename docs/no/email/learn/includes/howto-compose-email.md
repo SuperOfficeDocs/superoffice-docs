@@ -3,7 +3,7 @@
 
 2. I **E-post**-dialogboksen klikker du i **Til**-feltet og begynner å skrive navnet på personen du vil sende meldingen til.
 
-3. Velg en person i resultatlisten. Du kan også klikke på ![icon][img1] for å velge en nylig person.
+3. Velg en person i resultatlisten. Du kan også klikke på <i class="ph ph-clock" aria-label="History"></i> for å velge en nylig person.
 
 4. Gjenta trinn 2 og 3 hvis du vil legge til flere mottakere.
 
@@ -13,14 +13,14 @@
 
 7. Klikk på meldingsfeltet, og skriv meldingen.
 
-8. Hvis du vil inkludere et vedlegg i meldingen, klikker du på ![icon][img2] nederst i vinduet. I seksjonen **Vedlegg** som vises øverst i vinduet, har du følgende alternativer:
+8. Hvis du vil inkludere et vedlegg i meldingen, klikker du på <i class="ph ph-paperclip" aria-label="Attachment icon"></i> nederst i vinduet. I seksjonen **Vedlegg** som vises øverst i vinduet, har du følgende alternativer:
 
     * Klikk på **Last opp filer (eller dra og slipp her)** for å bla til og legge til en fil fra en disk eller server.
     * Dra og slipp en fil fra Windows Explorer til **Vedlegg**-seksjonen.
     * Klikk på **Velg et CRM-dokument** for å velge et dokument i SuperOffice CRM.
 
     > [!TIP]
-    > Hvis du vil lagre meldingen midlertidig og fullføre den senere, klikker du på ![icon][img3] øverst til høyre. Meldingen blir da lagret i mappen for utkast.
+    > Hvis du vil lagre meldingen midlertidig og fullføre den senere, klikker du på <i class="ph ph-x" aria-label="X"></i> øverst til høyre. Meldingen blir da lagret i mappen for utkast.
 
 9. Hvis du vil inkludere en FAQ, en svarmal eller et hurtigsvar i e-postmeldingen, klikker du på ![icon][img4] nederst i vinduet.
 
@@ -36,15 +36,11 @@ Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en e-postmelding.
 
 **Trinn:**
 
-1. Klikk på ![icon][img5] **Rediger**.
+1. Klikk på <i class="ph ph-pencil-simple" aria-hidden="true"></i> **Rediger**.
 2. I **Hurtigsvar**-vinduene klikker du på **Legg til**. Et nytt svar legges til i listen.
 3. Klikk på feltet **Ny tittel** og angi en tittel for hurtigsvaret. Dette vil ikke være synlig for kunden.
 4. Klikk på feltet **Nytt innhold** og skriv inn svarteksten du vil sende til kundene.
 5. Klikk på **Lagre**. Vinduet lukkes, og det nye hurtigsvaret er lagret.
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-history.png
-[img2]: ../../../../media/icons/binders.png
-[img3]: ../../../../media/icons/window-close.png
 [img4]: ../../../../../common/icons/copy-paste-icon.png
-[img5]: ../../../../../common/icons/edit-black.png

@@ -4,8 +4,8 @@ title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 keywords: aktivitet
 author: SuperOffice RnD
-date: 12.05.2024
-version: 10.2.11
+date: 01.29.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -18,90 +18,88 @@ language: no
 
 ## Typer
 
-Det finnes to typer aktiviteter – dokumenter og oppfølginger. I tillegg vises utsendelser, skjemainnsendinger og chatoppføringer på detaljkortet **Aktiviteter**.
+Det finnes to hovedtyper aktiviteter – dokumenter og oppfølginger. I tillegg vises utsendelser, skjemainnsendinger og chatoppføringer på detaljkortet **Aktiviteter**.
 
 * [Oppfølginger][1]
-  * ![icon][img11] Møte (avtale)
-  * ![icon][img13] Oppfølging (samtale)
-  * ![icon][img12] Oppgave
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Møte (avtale)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Oppfølging (samtale)
+  * <i class="ph ph-calendar-check" aria-hidden="true"></i> Oppgave
 * [Dokumenter][4]
-  * ![icon][img14] Dokument (brev og andre dokumenter)
-  * ![icon][img15] E-post
-* ![icon][img16] [Utsendelse][3] (masseutsendelser via flettet dokument, e-post eller SMS)
-* ![icon][img18] [Chatoppføringer][12]
-* ![icon][img17] Skjemainnsendinger
+  * <i class="ph ph-files" aria-hidden="true"></i> Dokument (brev og andre dokumenter)
+  * <i class="ph ph-at" aria-hidden="true"></i> E-post
+* <i class="ph ph-target" aria-hidden="true"></i> [Utsendelser][3] (masseutsendelser via flettedokument, e-post eller SMS)
+* <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> [Chatoppføringer][12]
+* <i class="ph ph-rows" aria-hidden="true"></i> Skjemainnsendinger
 
 ## Hvor finner jeg aktiviteter?
 
-[Aktivitetsfanen][18] er tilgjengelig i skjermene for Firma, Person, Prosjekt, Salg og Kalender.
+[Aktivitetsfanen][18] er tilgjengelig i skjermene for Firma, Person, Prosjekt, Salg og Dagbok.
 
 > [!NOTE]
-> Aktiviteter vises også i de [forskjellige visningene][7] på dagbokskjermen.
+> Aktiviteter vises også i de [forskjellige visningene][7] i Dagbok-skjermen.
 
 ## <a id="view"></a>Vise aktiviteter
 
-Aktivitetene som vises, avhenger av hvilke filtre du valger nederst på detaljkortet. Du kan vise alle aktiviteter eller én av typene. Klikk på ![ikon][img5] Filtrer-knappen for å [filtrere aktiviteter][17] etter dato og bruker.
+Hvilke aktiviteter som vises, avhenger av filtrene du velger nederst i fanen. Du kan vise alle aktiviteter eller bare én type. Klikk på **Filter**-knappen (<i class="ph ph-funnel" aria-hidden="true"></i>) for å [filtrere aktiviteter][17] etter dato og bruker.
 
-![Activities section tabs shows filter options of different record types -screenshot][img4]
+![Aktivitetsfanen viser filteralternativer for ulike posttyper -screenshot][img4]
 
 ## Kolonner
 
-I kolonnene i aktivitetslisten finner du følgende informasjon:
+Kolonnene i aktivitetslisten inneholder følgende informasjon:
 
-* ![icon][img1]: Den første kolonnen i aktivitetslisten angir **Fullført**-status for en aktivitet. En hake betyr at aktiviteten er utført, mens en tom boks betyr at den ikke er utført.
+* Den første kolonnen angir om en aktivitet er **Utført**. En hake (<i class="ph ph-check" aria-hidden="true"></i>) betyr at aktiviteten er fullført, mens en tom boks betyr at den ikke er fullført.
 
-* Kategori-kolonnen inneholder ikoner som angir aktivitetstypen, for eksempel en kalender for et møte. Disse ikonene gjenspeiler teksten i kolonnen **Type**.
+* **Kategori**-kolonnen viser ikoner som angir aktivitetstype, for eksempel en kalender for et møte. Disse ikonene gjenspeiler teksten i **Type**-kolonnen.
 
-* Resten av kolonnene i aktivitetslisten viser diverse informasjon om aktiviteten. Hvis du ikke ser all teksten i et felt, kan du holde musepekeren over teksten, så vises den i en infoboks.
+* De andre kolonnene i aktivitetslisten viser ulike opplysninger om aktiviteten. Hvis ikke all tekst i et felt er synlig, kan du holde musepekeren over feltet for å se den i en infoboks.
 
-## Opprett aktivitet
+## Opprette aktivitet
 
-Du oppretter aktiviteter ved å bruke **Ny** meny i toppraden, eller ved å klikke på **Legg til**-knappen på detaljkortet.
+Du oppretter aktiviteter ved hjelp av **Ny**-menyen i toppraden eller ved å klikke på knappen **Legg til** i aktivitetsfanen.
 
 ## <a id="delete"></a>Slette aktivitet
 
-Du kan slette aktiviteter fra alle skjermbilder der de vises:
+Du kan slette aktiviteter fra hvilken som helst skjerm der de vises:
 
 1. Velg én eller flere aktiviteter du vil slette.
-
-2. Høyreklikk på valgt(e) aktivitet(er) og velg **Slett**.
-
-3. Når du blir spurt om du virkelig vil slette aktiviteten, klikker du på **Ja**.
+2. Høyreklikk på de valgte aktivitetene og velg **Slett**.
+3. Klikk på **Ja** for å bekrefte slettingen.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
-## Preferanser ![ikon][img2]
+## Preferanser <i class="ph ph-user-circle" aria-label="Personsymbol"></i>
 
-Etter at en aktivitet er utført, fjernes den fra aktivitetslisten dagen etter. Som standard viser **Aktivitetsfanen** oppgaver som du ikke har utført per dagens dato.
+Når en aktivitet er fullført, fjernes den fra aktivitetslisten dagen etter. Som standard viser **Aktivitetsfanen** oppgaver som ikke er fullført per dags dato.
 
 ### Vise fremtidige oppgaver
 
 1. Gå til **Personlige innstillinger** > **Preferanser**.
 2. Velg **Funksjoner** og finn alternativet **Vis dager fremover**.
-3. Definer hvor mange dager fremover du vil at uutførte oppgaver skal være synlige. For eksempel, ved å angi 7 her vil du vise oppgaver for den neste uken.
+3. Angi hvor mange dager fremover du vil vise oppgaver. For eksempel vil verdien 7 vise oppgaver for den neste uken.
 
-### Fjern aktivitet fra listen når den er utført
+### Fjern aktivitet fra listen når den er fullført
 
 1. Gå til **Personlige innstillinger** > **Preferanser**.
 2. Velg **Visuelle effekter**.
-3. Oppdater [preferansen][2] **Fjern fullførte aktiviteter**.
+3. Oppdater **Fjern fullførte aktiviteter** [preferansen][2].
 
 ### Marker forfalte aktiviteter
 
-Hvis en aktivitet er uthevet med rød skrift, betyr det at den planlagte datoen er passert. For å endre denne innstillingen:
+Hvis en aktivitet er markert med rød skrift, betyr det at den planlagte datoen er passert. For å endre denne innstillingen:
 
 1. Gå til **Personlige innstillinger** > **Preferanser**.
 2. Velg **Funksjoner**.
-3. Oppdater alternativet **Marker utgåtte aktiviteter**.
+3. Oppdater innstillingen **Marker forfalte aktiviteter**.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Filtrere aktiviteter][17]
 * [Endre fullført-status for en aktivitet][10]
 * [Legge til oppfølginger][8]
 * [Ringe til personer][11]
 * [Arbeide med dokumenter][4]
-* [Skriv en e-post][5]
+* [Skrive en e-post][5]
 * [Detaljkortet Aktiviteter][18] (Aktivitetsfanen)
 
 <!-- Referenced links -->
@@ -110,7 +108,7 @@ Hvis en aktivitet er uthevet med rød skrift, betyr det at den planlagte datoen 
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[7]: ../../diary/learn/screen/index.md
+[7]: ../../diary/learn/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
@@ -119,16 +117,5 @@ Hvis en aktivitet er uthevet med rød skrift, betyr det at den planlagte datoen 
 [18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
-[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
-[img5]: ../../../../common/icons/filter-icon.png
-[img11]: ../../../../common/icons/appointment.png
-[img12]: ../../../../common/icons/appointment-task.png
-[img13]: ../../../../common/icons/appointment-followup.png
-[img14]: ../../../../common/icons/document.png
-[img15]: ../../../../common/icons/email.png
-[img16]: ../../../../common/icons/marketing.png
-[img17]: ../../../../common/icons/webforms.png
-[img18]: ../../../../common/icons/chat.png

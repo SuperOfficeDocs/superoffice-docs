@@ -18,7 +18,7 @@ Kundene stiller ofte de samme spørsmålene, så du kan spare tid på å bruke f
 2. Velg et av de følgende alternativene, og bla gjennom mappene. Du kan også skrive inn søketekst i det øverste feltet, eller klikke på de relevante ikonene for å få tilgang til historikk og favoritter.
     * **FAQ**: Setter inn en kobling til en FAQ i SuperOffice Customer Centre. Bare standard FAQer som er tilgjengelige for alle og publisert, er tilgjengelige her.
     * **Svarmaler**: Setter inn malteksten.
-    * **Hurtigsvar**: Setter inn et hurtigsvar. Hvis du vil lage [hurtigsvar][1], klikker du på ![ikon][img2] **Rediger**.
+    * **Hurtigsvar**: Setter inn et hurtigsvar. Hvis du vil lage [hurtigsvar][1], klikker du på **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 3. Trykk på **ENTER** eller klikk på **Send**.
 
@@ -27,4 +27,3 @@ Kundene stiller ofte de samme spørsmålene, så du kan spare tid på å bruke f
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png
-[img2]: ../../../../common/icons/edit-black.png

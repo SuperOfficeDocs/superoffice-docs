@@ -22,7 +22,7 @@ En feltidentifikator er en unik ID for et spesifikt felt. Den vil ikke endre seg
 
 1. [Opprett et nytt skjema][1].
 
-2. For hvert felt som skal være ferdigutfylt: Klikk på **Avanserte alternativer** ![icon][img1] for å vise **Identifikator**-feltet der du kan legge til en ID for feltet.
+2. For hvert felt som skal være ferdigutfylt: Klikk på **Avanserte alternativer** (<i class="ph ph-gear" aria-hidden="true"></i>) for å vise **Identifikator**-feltet der du kan legge til en ID for feltet.
 
 3. [Publiser skjemaer][2].
 
@@ -48,6 +48,3 @@ En feltidentifikator er en unik ID for et spesifikt felt. Den vil ikke endre seg
 [1]: create.md
 [2]: publish.md
 [3]: ../../../request/reply-templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

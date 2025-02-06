@@ -5,7 +5,7 @@ description: Create a request
 keywords: create request, add request, new request, request properties, request details, message, request, ticket
 author: Bergfrid Dias
 date: 01.15.2025
-version: 10.5
+version: 10.5.1
 topic: howto
 license: serviceessentials
 audience: person
@@ -24,7 +24,7 @@ A request can arrive in the system via an email from the customer, or you can re
 1. In the **Title** field, give the request a descriptive name.
 
 1. Add a contact in the **Search for contact** field. Start typing the name (or phone number) and choose from the results.
-   * Optionally, you can skip this step and add the contact later.
+    * Optionally, you can skip this step and add the contact later.
 
 1. Use the **Request properties** panel on the right to assign and prioritize the request.
 
@@ -35,9 +35,9 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Go to the **Messages** tab to compose the request message:
 
-   * In the **To** field, add the recipient(s). Start typing the contact's name or email and select them from the list.
-   * Optional: Click **Cc/Bcc** to add recipients as a copy or blind copy.
-   * Enter the message text, attach files, or insert reply templates.
+    * In the **To** field, add the recipient(s). Start typing the contact's name or email and select them from the list.
+    * Optional: Click **Cc/Bcc** to add recipients as a copy or blind copy.
+    * Enter the message text, attach files, or insert reply templates.
 
     > [!NOTE]
     > The default request signature will be added to the message. You can edit the signature directly in the message or edit your default [email signature][11].
@@ -85,9 +85,9 @@ To attach files or CRM documents:
 
 1. Click <i class="ph ph-paperclip" aria-label="Attachments"></i>. An **Attachments** field appears below the **To** field.
 1. Add attachments using one of these methods:
-   * Click **Upload files (or drag here)** to select a file from your computer.
-   * Drag and drop files into the **Attachments** field.
-   * Click **Choose a CRM document** to select a file stored in SuperOffice CRM.
+    * Click **Upload files (or drag here)** to select a file from your computer.
+    * Drag and drop files into the **Attachments** field.
+    * Click **Choose a CRM document** to select a file stored in SuperOffice CRM.
 
 #### Insert
 
@@ -95,10 +95,10 @@ To enhance your message with additional content:
 
 1. Click <i class="ph ph-article" aria-label="Insert"></i>.
 1. Choose what to add:
-   * **Reply template:** Insert pre-written text.
-   * **FAQ entry:** Add a knowledge base article.
-   * **Previous message:** Reuse text from earlier communication.
-   * **Attachment:** Attach a file directly.
+    * **Reply template:** Insert pre-written text.
+    * **FAQ entry:** Add a knowledge base article.
+    * **Previous message:** Reuse text from earlier communication.
+    * **Attachment:** Attach a file directly.
 1. If reply templates are available in multiple languages, you can select a language.
 
 #### Time spent

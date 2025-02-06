@@ -2,9 +2,9 @@
 uid: help-no-request-ai
 title: Effektiv behandling av saker ved bruk av AI
 description: Innføringen av kunstig intelligens (AI) i SuperOffice 10 gir saksbehandlere/brukerstøtteagenter et nytt sett med smarte verktøy for å effektivisere arbeidsdagen.
+keywords: sak, AI, effektiv
 author: Kirsti Aakerholt
 date: 04.19.2023
-keywords: sak, AI, effektiv
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -30,9 +30,9 @@ Hvis du mottar en melding på et språk du ikke kan lese, kan du klikke på **Ov
 
 Er personen glad eller sint?
 
-* Negativ ![ikon][img2]
-* Nøytral ![ikon][img3]
-* Positiv ![ikon][img4]
+* Negativ <i class="ph ph-smiley-sad" aria-hidden="true"></i>
+* Nøytral <i class="ph ph-smiley-meh" aria-hidden="true"></i>
+* Positiv <i class="ph ph-smiley" aria-hidden="true"></i>
 
 Hvis denne funksjonen er aktiv, analyseres innkommende e-postsaker for å finne personens humør. Et uttrykksikon under meldingen indikerer det oppdagede sentiment (lykkelig, trist eller nøytral).
 
@@ -50,8 +50,3 @@ Spar tid ved å la systemet kategorisere saker for deg. Hvis denne funksjonen er
 [1]: ../../ai/learn/index.md
 [2]: ../../ai/learn/text-analysis.md
 [3]: ../../ai/learn/categorization.md
-
-<!-- Referenced images -->
-[img2]: ../../../../common/icons/sentiment-negative.png
-[img3]: ../../../../common/icons/sentiment-neutral.png
-[img4]: ../../../../common/icons/sentiment-positive.png

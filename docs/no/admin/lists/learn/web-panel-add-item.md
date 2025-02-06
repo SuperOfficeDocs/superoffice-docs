@@ -78,7 +78,7 @@ language: no
 
 ### Meny
 
-* **Verktøykassemeny**: URL-adressen vises når brukeren klikker på **Verktøy**-knappen ![ikon][img1] i navigatoren eller velger **Andre applikasjoner** i SuperOffice CRM.
+* **Verktøykassemeny**: URL-adressen vises når brukeren klikker på **Verktøy**-knappen (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren eller velger **Andre applikasjoner** i SuperOffice CRM.
 
 * **Vis-menyen**: URL-adressen vises når brukeren velger **Andre applikasjoner** i SuperOffice CRM.
 
@@ -97,4 +97,3 @@ language: no
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

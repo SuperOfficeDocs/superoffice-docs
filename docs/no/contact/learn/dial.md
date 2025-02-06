@@ -14,7 +14,7 @@ language: no
 Hvis IP-telefonløsningen er riktig konfigurert, kan du ringe til personer fra SuperOffice CRM på en av følgende måter:
 
 * Klikk på et telefonnummer i Firma-bildet
-* Klikk på ![ikon][img1] i en dialogboks.
+* Klikk på <i class="ph ph-phone" aria-label="Phone icon"></i> i en dialogboks.
 * Høyreklikk på en person i et detaljkort , og velg deretter **Ring *navn***.
 * Ring personer.
 
@@ -24,7 +24,7 @@ Dette kan du gjøre ved hjelp av telefonknappen i blant annet dialogboksene **Av
 
 1. Åpne en avtale, en oppgave, en samtale eller et dokument.
 2. Velg ønsket person i feltet **Person** i dialogboksen.
-3. Klikk på knappen ved siden av feltet for person ![ikon][img1]. Det vises en liste over numrene til den aktuelle personen.
+3. Klikk på ringe-knappen ved siden av feltet for person. Det vises en liste over numrene til den aktuelle personen.
 4. Velg telefonnummeret du vil ringe. Personen ringes da opp.
 
 ## Ringe fra detaljkort (til personer, utvalgsmedlemmer, interessenter og deltakere)
@@ -48,14 +48,11 @@ Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffic
 
 ### Tilgjengelige parametere
 
-**IP-telefon**: tel:%p (standardverdi)
-**Skype**: callto:%p
-**FaceTime**: facetime:%p
+* **IP-telefon**: `tel:%p` (standardverdi)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
 Det er også mulig å bruke [malvariabler][2] i telefonparameterne.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png

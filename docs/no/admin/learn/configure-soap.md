@@ -30,9 +30,4 @@ language: no
 1. Klikk på **Legg til**-knappen for å legge til IP-adresseområdet i listen nedenfor.
 
 > [!TIP]
-> Du sletter et IP-adresseområde fra listen ved å klikke på ![ikon][img1] sletteikonet.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> Du sletter et IP-adresseområde fra listen ved å klikke på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.

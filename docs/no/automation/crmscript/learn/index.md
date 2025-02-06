@@ -20,7 +20,7 @@ De forskjellige verktøyene, makroene og skriptene, utløsere og planlagte oppga
 
 ## Få tilgang til CRMScript
 
-For å få tilgang til funksjonene i CRMScript åpner du Innstillinger og vedlikehold i SuperOffice, og deretter klikker du på ![ikon][img1] **CRMScript** i navigatoren.
+For å få tilgang til funksjonene i CRMScript åpner du Innstillinger og vedlikehold i SuperOffice, og deretter klikker du på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** i navigatoren.
 
 Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel når et nytt salg opprettes eller når en sak lukkes. Triggere kan reagere stille på hva som skjer, eller blokkere operasjonen og vise en forklaring for brukeren.
 
@@ -45,6 +45,3 @@ Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel n
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

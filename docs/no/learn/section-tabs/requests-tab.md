@@ -4,8 +4,8 @@ title: Saksfanen
 description: Lær hvordan du kan se, legge til og administrere Service-saker i SuperOffice CRM, slik at du effektivt kan spore kundeinteraksjoner på tvers av firmaer og personer.
 keywords: Saksfanen, Saker-fanen, detaljkortet Saker, detaljkort, saksarkiv, sak, henvendelse, forespørsel, forespørsler
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -65,7 +65,7 @@ For å redigere en sak direkte fra Saksfanen:
 
 1. Finn og dobbeltklikk på saken du vil jobbe med.
 
-1. I vinduet som åpnes, klikk **Rediger** for å begynne å oppdatere saksdetaljene.
+1. I vinduet som åpnes, klikk **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) for å begynne å oppdatere saksdetaljene.
 
 ## Ytterligere tips
 
@@ -79,8 +79,8 @@ For å redigere en sak direkte fra Saksfanen:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

@@ -126,17 +126,17 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 
 ### SuperOffice 9
 
-1. Confirm that the user has a licence assigned (1) and **Can log in** is enabled (2).
+1. Confirm that the user has a licence assigned and **Can log in** is enabled.
 
-1. If that looks OK, try to remove the licence, **Save** the user (3). Then re-assign a licence and toggle login again.
+1. If that looks OK, try to remove the licence, **Save** the user. Then re-assign a licence and toggle login again.
 
 ![Assign licence to user -screenshot][img4]
 
 ### SuperOffice 8
 
-1. Click on the user (1) who cannot log in, deselect **Active user** (2), and click the **Save** button (4). This removes their licence.
+1. Click on the user who cannot log in, deselect **Active user**, and click the **Save** button. This removes their licence.
 
-1. Then, re-assign the licence: Make sure that the same user is selected (1), then add a tick next to **Active user** (2), select the user license from the right side list (3), and click **Save** (4).
+1. Then, re-assign the licence: Make sure that the same user is selected, then add a tick next to **Active user**, select the user license from the right side list, and click **Save**.
 
     ![Select active user -screenshot][img6]
 

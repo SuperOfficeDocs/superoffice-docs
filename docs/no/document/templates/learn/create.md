@@ -48,7 +48,7 @@ For å sette inn felter i malen din, kan du bruke en av følgende metoder:
 
 1. I **Feltegenskaper** skriver du ditt [feltnavn][3] (uten «»):
 
-    ![Feltegenskaper -screenshot][img2]
+    ![Feltegenskaper i Microsoft Word -screenshot][img2]
 
 1. Klikk på **OK**, og variabelen vil bli satt inn i dokumentet ditt:
 
@@ -107,6 +107,6 @@ For å vise prisen per enhet etter rabatter, kan du legge til et flettefelt som 
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

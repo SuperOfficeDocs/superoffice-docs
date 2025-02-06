@@ -24,7 +24,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du opprette
 
 2. Velg dashbordet du vil redigere.
 
-3. Klikk på **Oppgave** -knappen, og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
+3. Klikk på **Oppgave** -knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
 
     ![Velg figurtype -screenshot][img1]
 

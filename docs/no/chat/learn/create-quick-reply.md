@@ -15,8 +15,8 @@ Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en chatsamtale me
 
 **Trinn:**
 
-1. I en pågående chatsamtale klikker du på ![ikon][img1] nederst i chatpanelet.
-2. Klikk på ![ikon][img2] **Rediger**.
+1. I en pågående chatsamtale klikker du på <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> nederst i chatpanelet.
+2. Klikk på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 3. I **Hurtigsvar**-vinduet klikker du på **Legg til**. Et nytt svar legges til i listen.
 4. Klikk på feltet **Ny tittel** og angi en tittel for hurtigsvaret. Dette vil ikke være synlig for kunden.
 5. Klikk på feltet **Nytt innhold** og skriv inn svarteksten du vil sende til kundene.
@@ -24,7 +24,3 @@ Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en chatsamtale me
 
 <!-- Referenced links -->
 [1]: send-faq-or-reply-template.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/chat-h32.png
-[img2]: ../../../../common/icons/edit-black.png

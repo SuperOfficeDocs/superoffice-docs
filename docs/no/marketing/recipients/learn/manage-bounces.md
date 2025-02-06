@@ -46,7 +46,7 @@ Bruk filterknappene (Sendt, Returnert og Åpnet) til å [filtrere mottakerlisten
 
 1. Velg e-postmeldingen i listen og klikk på **Åpne** i sidepanelet for å redigere personen.
 2. Gå til fanen **Detaljer**.
-3. Et advarselsikon ![ikon][img1] ved siden av e-postadressen indikerer et problem. Hold musepekeren over ikonet for å vise årsaken til problemet.
+3. Et advarselsikon (<i class="ph ph-warning" aria-hidden="true"></i>) ved siden av e-postadressen indikerer et problem. Hold musepekeren over ikonet for å vise årsaken til problemet.
 
 > [!TIP]
 > Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
@@ -129,5 +129,4 @@ Bruk dette alternativet for å angi en person som tidligere ansatt.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png

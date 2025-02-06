@@ -42,7 +42,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Velg feltet **Kontakt - Navn**, og klikk på den røde X-en for å fjerne dette feltet.
 
-1. Klikk på **Legg til**-knappen ![icon][img1] og legg til følgende felt:
+1. Klikk på <i class="ph ph-plus" aria-label="Add"></i> og legg til følgende felt:
 
     * For- og etternavn.
 
@@ -121,7 +121,6 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

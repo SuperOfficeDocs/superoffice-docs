@@ -11,7 +11,7 @@ language: no
 
 # Innboks for e-post
 
-I fanen **Innboks for e-post** finner du en liste over e-postene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra **Handlinger**-knappen (![icon][img1]):
+I fanen **Innboks for e-post** finner du en liste over e-postene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra knappen <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
 
 * **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
 
@@ -21,8 +21,3 @@ I fanen **Innboks for e-post** finner du en liste over e-postene i køen som ska
     > Du kan ikke angre denne operasjonen.
 
 Hvis du klikker en av meldingene i denne fanen, vises skjermbildet **Innkommende e-post** . Her finner du informasjon om den aktuelle meldingen. I feltet **Siste feilmelding** kan du se hva som forårsaket problemet, for eksempel om det er et problem med e-postadressen eller e-postserveren. Hvis du får en feilmelding fra SuperOffice Service, kan du klikke på **Importer med feilsøking** for å vise teknisk informasjon for å hjelpe brukerstøtten med feilsøking.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

@@ -1,11 +1,11 @@
 ---
 uid: help-no-company-merge
 title: Slå sammen firmaer
-description: For å være effektiv i arbeidet med kunder og personer er det viktig å ha et ryddig miljø. Dette betyr å slette ubrukte firmaer og personer, og å slå sammen dupliserte firmaer og personer.
-keywords: firma
-author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+description: Hold kundebasen ryddig og effektiv ved å slå sammen dupliserte firmaer eller kombinere poster når et firma kjøper et annet.
+keywords: slå sammen firmaer, administrer firmaer, identiske personer, firma
+author: Bergfrid Dias
+date: 01.23.2025
+version: 10.5.1
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,45 +16,38 @@ language: no
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Du kan slå sammen dupliserte databaseoppføringer for firmaer. Personer og aktiviteter blir flyttet til målfirmaet, og kildefirmaet blir slettet.
-
-Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaene har kjøpt det andre firmaet, kan du slå sammen disse firmaene til ett firma. Personer (og relaterte saker), fakturaer og registrerte domener beholdes for begge firmaene.
+Hold kundebasen ryddig og effektiv ved å slå sammen dupliserte firmaer eller kombinere poster når et firma kjøper et annet. Personer, aktiviteter, fakturaer, registrerte domener og andre detaljer blir flyttet eller slått sammen, og kildefirmaet blir slettet.
 
 ## Trinn
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) øverst til høyre på firmakortet.
+   Velg **Vedlikehold firmaer** > **Slå sammen firmaer** fra menyen.
+   Dialogboksen **Slå sammen firmaer** åpnes, med kildefirmaet angitt under **Fra**.
 
-1. Velg **Vedlikehold firmaer** fra ![ikon][img3] **Oppgave**-knappen, og klikk deretter på **Slå sammen firmaer**.
-    Dialogboksen **Slå sammen firmaer** åpnes. Kildefirmaet er angitt under **Fra**.
-
-1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å søke etter et firma. Hvis du vil bytte **Fra**- og **Til**-firmaene, klikker du på pilknappen.
+2. I seksjonen **Til firma** søker du etter og velger målfirmaet. Klikk på pilknappen <i class="ph ph-arrows-left-right" aria-hidden="true"></i> for å bytte om på **Fra**- og **Til**-firmaene.
 
     > [!CAUTION]
-    > Velg riktig firma i Fra-feltet og Til-feltet.
+    > Sørg for at du velger riktige firmaer i både **Fra**- og **Til**-feltene før du fortsetter.
 
-1. Under **Detaljinformasjon om firma og personer** kan du merke av for følgende:
+3. Under **Detaljinformasjon om firma og personer** kan du velge ett eller begge av følgende alternativer:
 
-    * Slå sammen identiske personer. Hvis du velger dette alternativet, slås personer med likt navn sammen.
+    * **Slå sammen identiske personer:** Personer med identiske for-, mellom- og etternavn blir slått sammen.
+    * **Overskriv tomme felter med verdier fra kildefirmaet:** Tomme felter i målfirmaet oppdateres med data fra kildefirmaet.
 
-        Navnene må være helt like – fornavn, mellomnavn og etternavn – for at de skal slås sammen.
+4. Klikk på **Slå sammen**. Følgende skjer:
 
-    * **Overskriv tomme felt...**. Hvis dette alternativet velges, vil tomme felt for **Til**-firmaet overskrives med data fra **Fra**-firmaet.
-
-1. Klikk på **Slå sammen**. Da skjer følgende:
-
-    * Firmaene slås sammen.
-    * Personer flyttes eller slås sammen.
-    * Alle aktiviteter flyttes.
-    * Prosjektdeltakelse og medlemskap i statiske utvalg følger firmaet.
-    * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt...**.
+    * Personer (og relaterte saker) flyttes eller slås sammen.
+    * Aktiviteter flyttes.
+    * Prosjektdeltakelser og medlemskap i statiske utvalg følger målfirmaet.
+    * Tomme felter oppdateres hvis du valgte **Overskriv tomme felter...**.
     * Kildefirmaet slettes.
 
-![Dialogboksen Slå sammen firmaer -screenshot][img4]
+![Dialogboksen Slå sammen firmaer som viser feltene for valg av kilde- og målfirma, alternativer for å slå sammen identiske personer og erstatte tomme felter -screenshot][img4]
 
 > [!TIP]
 > Du kan også slå sammen firmaer i dynamiske og statiske utvalg.
 
-## Aktuelle emner
+## Relatert innhold
 
 * [Slå sammen personer][2]
 
@@ -62,5 +55,4 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png

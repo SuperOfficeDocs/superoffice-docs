@@ -15,7 +15,7 @@ language: en
 # Delete a company and associated data
 
 1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Company card.
-   Select **Delete &lt;company name&gt;** from the menu.
+    Select **Delete** from the menu.
 
 2. In the **Delete Company** dialog, click **Yes** to confirm that you want to delete the company.
 

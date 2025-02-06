@@ -17,7 +17,7 @@ Du kan arkivere en innkommende e-post (inkludert eventuelle vedlegg) som et doku
 
 1. Gå til innboksen eller den relevante mappen.
 2. Velg ønsket melding.
-3. Klikk på **Arkiv** ![icon][img1].
+3. Klikk på <i class="ph ph-archive" aria-hidden="true"></i> **Arkiv**.
 4. Klikk på **Arkiver e-post**. Dialogboksen [**Dokument** åpnes][1].
 
 ## <a id="out"></a>Arkivere utgående e-post
@@ -41,6 +41,3 @@ Hvis du vil sende en melding og arkivere den som et dokument i SuperOffice CRM, 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

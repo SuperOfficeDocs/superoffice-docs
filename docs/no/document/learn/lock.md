@@ -4,9 +4,10 @@ title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -24,33 +25,15 @@ I SuperOffice CRM er det mange som oppretter, redigerer og leser dokumenter til 
 
 * Lesemodus: Dokumentet åpnes for lesing. Hvis du gjør endringer i dokumentet, lagres de ikke. Hvis du vil [lagre dokumentet sammen med endringene][1], må du opprette et nytt dokument i SuperOffice CRM og laste opp filen sammen med endringene.
 
-Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til ![icon][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
+Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
 
 ## Hvordan vet jeg når et dokument er sjekket ut?
 
-<!-- markdownlint-disable MD051 -->
-### [Ny (fra version 10.3.11)](#tab/lock-new)
-
 I dialogboksen **Dokument** viser et utsjekket dokument en banner som viser hvem som redigerer det.
 
-![icon][img5] **Du** redigerer dette dokumentet.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> **Du** redigerer dette dokumentet.
 
-![icon][img5] Du kan ikke redigere dette dokumentet fordi det er låst av **NN**.
-
-### [Klassisk (onsite)](#tab/lock-old)
-
-I dialogboksen **Dokument** har et utsjekket dokument ett av følgende ikoner:
-
-![icon][img3] Dokumentet er for øyeblikket sjekket ut for redigering av deg.
-
-![icon][img4] Dokumentet er for øyeblikket sjekket ut for redigering av en annen bruker.
-
-Hold musepekeren over et ikon for å vise informasjon om hvem som sjekket ut dokumentet.
-
-Hvis du prøver å åpne et utsjekket dokument, vises en dialogboks med informasjon om hvem som sjekket ut dokumentet. Du kan bare åpne dokumentet i lesemodus.
-
-***
-<!-- markdownlint-restore -->
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> Du kan ikke redigere dette dokumentet fordi det er låst av **NN**.
 
 ## Sjekke ut et dokument for redigering
 
@@ -72,13 +55,9 @@ Du trenger spesielle privilegier for å få tilgang til dette alternativet. Du t
 Hvis du eller noen andre har sjekket ut et dokument og vil redigere dokumentet, kan du avbryte utsjekkingen:
 
 1. Høyreklikk på dokumentet og velg **Dokument**.
-2. I skjermbildet Dokument klikker du på **Oppgave** og velger **Hent lagret versjon**.
+2. I **Dokument**-dialogen, klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-knappen"></i> og velg **Hent lagret versjon**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/document-lock-editing.png
-[img4]: ../../../media/icons/document-lock-locked.png
-[img5]: ../../../../common/icons/ops.png

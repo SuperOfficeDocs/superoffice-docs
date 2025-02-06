@@ -4,7 +4,7 @@ title: Grouping lists
 description: You can group a list on one or more data types to get a better overview of the records in a section tab (archive).
 keywords: section tab, archive, filter
 author: Bergfrid Dias
-date: 01.20.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

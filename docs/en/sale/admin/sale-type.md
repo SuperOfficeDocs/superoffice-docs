@@ -2,10 +2,10 @@
 uid: help-en-sale-type-add
 title: Add sale type
 description: Add sale type
-keywords: add sale type, Sale - Type, Stages, Quote list, Sale - Category list, Quote attachments tab, Quote defaults, Quote approval, sale type, sale, quote
+keywords: add sale type, Sale - Type Stages Quote list, Sale - Category list, Quote attachments tab, Quote defaults, Quote approval, sale type, sale, quote
 author: Bergfrid Dias
 date: 01.03.2025
-version: 10
+version: 10.5
 topic: howto
 license: salesessentials
 audience: settings
@@ -57,7 +57,7 @@ Each sale must have a type, and these types can be linked to specific [stages][1
 
 1. Add a description of the sale type in the **Description** field, if needed.
 
-1. For quote management, configure the fields in the **Quote attachments**, **Quote defaults**, and **Quote approval** tabs as described in [Quote fields explained](#quote-fields) below. *(Requires the SalesPremium license)* These settings allow you to tailor quotes to match your organization's specific needs and processes.
+1. For quote management, configure the fields in the **Quote attachments**, **Quote defaults**, and **Quote approval** tabs as described in [Quote fields explained](#quote-fields) below. *(Requires the SalesPremium license)*. These settings allow you to tailor quotes to match your organization's specific needs and processes.
 
 1. Click **Save** to apply your changes or **Cancel** to discard them.
 

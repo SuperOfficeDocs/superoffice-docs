@@ -3,6 +3,7 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
+author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
 topic: concept
@@ -22,10 +23,12 @@ Each question and query can be defined as a request. These questions range from 
 
 ![Request with Unassigned request list with preview -screenshot][img1]
 
-Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52):
+Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2mRyStK5xPs]
+
+(video length - 2:52)
 
 ## <a id="open"></a>Where can I access requests?
 

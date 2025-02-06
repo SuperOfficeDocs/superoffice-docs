@@ -2,10 +2,10 @@
 uid: help-no-ui-top-bar
 title: Knapper i menylinjen
 description: Knapper i menylinjen
-keywords: toppraden, knapp
-author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+keywords: topprad, knapp, menylinje, toppfelt
+author: Bergfrid Dias
+date: 01.29.2025
+version: 10.5
 topic: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,72 +14,69 @@ language: no
 
 # Knapper på toppraden
 
-## SuperOffice-logoen
+**Toppraden** inneholder viktige verktøy for navigering i SuperOffice CRM. Knappene kan variere noe mellom modulene (CRM, Service, eller Innstillinger og vedlikehold), men funksjonene er de samme. For eksempel vises kun **Personlige innstillinger**, **Hovedmeny**, og **Hjelp** i **Innstillinger og vedlikehold**.
 
-Øverst til venstre i SuperOffice CRM finner du SuperOffice-logoen med følgende funksjoner:
+## Oversikt over knapper
 
-![Logoen til SuperOffice][img9]
+| Ikon | Navn | Beskrivelse |
+|:-:|---|---|
+| **Ny** | **Ny** | Opprett nye elementer, som firmaer, personer, salg, prosjekter, utvalg, oppfølginger, dokumenter, og saker. |
+| <i class="ph ph-list-magnifying-glass" aria-label="Finn ikon"></i> | [**Finn**][5] | Søk etter firmaer, personer, prosjekter, salg, og dokumenter (ikke tilgjengelig i Service eller Innstillinger og vedlikehold). |
+| <i class="ph ph-magnifying-glass" aria-label="Forstørrelsesglass"></i> | [**Søk**][10] | Bruk **fritekstsøk** for raskt å finne data i systemet. |
+| <i class="ph ph-bell" aria-label="Varselikon"></i> | [**Varsler**][9] | Vis nye varsler som invitasjoner, tildelte saker og godkjente salg. Klikk for å åpne den relevante posten. |
+| <i class="ph ph-user-circle" aria-label="Brukerikon"></i> | **Personlige innstillinger** | Rediger preferanser, e-postsignaturer og passord. Viser profilbildet ditt dersom det er lagt til på personkortet ditt. |
+| <i class="ph ph-list" aria-label="Hovedmeny"></i> | **Hovedmeny** | Tilgang til systeminnstillinger, bytte mellom moduler, eller åpne andre applikasjoner. |
+| **Hjelp** | **Hjelp** | Tilgang til brukerveiledninger og informasjon tilpasset oppgaven eller modulen du jobber med. |
 
-* Hvis du klikker på logoen, vises SuperOffice Community-nettstedet.
-* Hvis du holder nede **CTRL** mens du klikker på logoen, går du til firmaet du selv er en del av. (Hovedfirmaet er en [preferanse][6] som du kan endre.)
-
-Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og Innstillinger og vedlikehold. Betydningen deres er imidlertid den samme. I Innstillinger og vedlikehold vises for eksempel bare Personlige innstillinger, Hovedmeny og Hjelp.
-
-| Knapp | Navn | Beskrivelse |
-|---|---|---|
-| ![icon][img3] | Ny | Klikk på denne knappen for raskt å opprette nye firmaer, personer, salg, prosjekter, utvalg, oppfølginger, dokumenter, saker, og mer. |
-| ![icon][img8] | Finn | Klikk på denne knappen for å [søke etter][5] firmaer, personer, prosjekter, utvalg, oppfølginger, salg og dokumenter i SuperOffice CRM. NA til Service |
-| ![icon][img4] | Ingen invitasjoner / varsler | Åpner en liste over nye varsler i SuperOffice CRM, for eksempel [invitasjoner][4] og godkjente salg/tilbud. Klikk på et element i listen for å åpne den relevante oppføringen. |
-| ![icon][img5] | Uleste invitasjoner | |
-| ![icon][img6] | Ubesvarte invitasjoner | |
-| ![icon][img2] | Personlige innstillinger | Brukes til å redigere dine personlige innstillinger, for eksempel preferanser, e-postsignatur og passord. Hvis du har lagt til et bilde i ditt eget personkort vises dette bildet på knappen. (Alternativer oppført nedenfor) |
-| ![icon][img1] | Hovedmenyen | Brukes til å få tilgang til generelle systeminnstillinger (alternativer oppført nedenfor) og til å bytte mellom SuperOffice CRM og Innstillinger og vedlikehold. |
-| Hjelp | Hjelp | Ved å klikke på denne knappen får du tilgang til omfattende og lett tilgjengelig informasjon om hvordan du bruker systemet. Uansett hvor du er i programmet og hva du gjør, kan du når som helst få hjelp til akkurat den oppgaven du holder på med. |
-| ![icon][img7] | Søk | Øverst til høyre er søkefeltet. Med dette feltet kan du raskt finne opplysninger i systemet. |
-
-## Alternativer på menyen Personlige innstillinger
-
-> [!NOTE]
-> Hvis du har lagt til et bilde på ditt eget personkort, vises dette bildet på knappen Personlige innstillinger.
+## Alternativer i menyen Personlige innstillinger
 
 | Alternativ | Beskrivelse |
 |---|---|
-| Preferanser | Lar deg redigere dine [personlige preferanser][6]. |
-| Rediger personlig signatur | Lar deg [redigere signaturen][7] som er lagt til i utgående e-poster eller saker i SuperOffice Service. |
-| Alternativer for e-post | Brukes til å redigere innstillingene for e-post. |
-| Vis kontaktinformasjonen min | Åpner personkortet. |
-| Lokale innstillinger | Brukes til å endre språk, tall/dato-format og e-postklient i SuperOffice CRM. |
-| Mobile CRM-innstillinger | Brukes til å få tilgang til innstillinger for SuperOffice Mobile CRM. Her kan du konfigurere Mobile CRM-appen. |
-| Endre passord | Lar deg endre passordet ditt. |
-| Papirkurv | Brukes til å [gjenopprette slettede firma eller personer][3]. |
-| Logge av | Logger deg ut av SuperOffice CRM. |
+| **Preferanser** | Rediger [personlige preferanser][6], som standardverdier og visuelle innstillinger. |
+| **Rediger personlig signatur** | Rediger [e-postsignaturen][7] brukt i utgående e-poster eller saker. |
+| **E-postalternativer** | Konfigurer innboksinnstillinger. |
+| **Vis kontaktinformasjonen min** | Åpne personkortet ditt for å redigere detaljer som telefonnummer eller stilling. |
+| **Lokale innstillinger** | Endre språk, tall/dato-format, og e-postklientinnstillinger. |
+| **Mobile CRM-innstillinger** | Konfigurer innstillinger for SuperOffice Mobile CRM-appen. |
+| **Endre passord** | Oppdater passordet ditt for SuperOffice CRM. |
+| **Papirkurv** | [Gjenopprett slettede poster][3], som firmaer, personer, eller saker. |
+| **Logg av** | Avslutt økten din i SuperOffice CRM. |
 
 > [!NOTE]
-> I Innstillinger og vedlikehold har du bare Lokale innstillinger, Endre passord og Avlogging.
+> I Innstillinger og vedlikehold har du kun **Lokale innstillinger**, **Endre passord**, og **Logg av** tilgjengelig.
 
 ## Alternativer i hovedmenyen
 
-**Standard CRM:**
+### Standard CRM
 
 | Alternativ | Beskrivelse |
 |---|---|
-| Andre applikasjoner | Brukes til å få tilgang til [andre programmer eller koblinger][1] som er lagt til i SuperOffice CRM. I de fleste tilfellene er disse applikasjonene også tilgjengelige fra **Verktøy**-knappen i navigatoren. |
-| Last ned | Åpner en visning av tilgjengelige nedlastinger fra SuperOffice, for eksempel SuperOffice WebTools. |
-| SuperOffice App Store | Åpner SuperOffice App Store, der du kan utforske standardapper og integrasjoner som kan utvide SuperOffice CRM Online. |
-| Kopier snarvei | [Opprett snarveier til oppføringer][15] |
-| Duplikatinnstillinger | Brukes til å redigere [Duplikatinnstillinger][8] for firmaer, prosjekter og utvalg. |
-| Filter | Brukes til å redigere [filterinnstillingene][2]. |
-| Vis bekreftelsesdialog ved sending av invitasjoner | Brukes til å aktivere/deaktivere bekreftelsesdialogen når du sender e-post til møtedeltakere fra dialogboksen **Oppfølging**. |
-| Mål | Brukes til å legge til [salgsmål][17]. |
-| Redigere systemsignatur | Brukes til å redigere standard e-postsignatur. |
-| Innstillinger og vedlikehold | Åpner Innstillinger og vedlikehold. Dette alternativet er bare tilgjengelig hvis du har administratorrettigheter. |
+| **Andre applikasjoner** | Tilgang til [eksterne verktøy eller koblinger][1] lagt til i SuperOffice CRM. |
+| **Last ned** | Vis og last ned verktøy som SuperOffice WebTools. |
+| **SuperOffice App Store** | Utforsk apper og integrasjoner i **SuperOffice App Store**. |
+| **Kopier snarvei** | [Opprett snarveier til oppføringer][15]. |
+| **Duplikatinnstillinger** | Rediger innstillinger for [å finne duplikater][8]. |
+| **Filter** | Rediger [filterinnstillinger][2]. |
+| **Mål** | Legg til eller oppdater [salgsmål][17]. |
+| **Rediger systemsignatur** | Rediger standardsignaturen for e-post. |
+| **Innstillinger og vedlikehold** | Åpne **Innstillinger og vedlikehold** (kun for administratorer). |
 
-**Innstillinger og vedlikehold:**
+### Innstillinger og vedlikehold
 
 | Alternativ | Beskrivelse |
 |---|---|
-| Bytt serienummer | Lar deg endre serienummeret for SuperOffice. |
-| SuperOffice CRM | Åpner SuperOffice CRM for Web. |
+| **Bytt serienummer** | Endre serienummeret for SuperOffice-installasjonen din. |
+| **SuperOffice CRM** | Bytt tilbake til SuperOffice CRM. |
+
+## Valgmuligheter i hjelpmenyen
+
+| Alternativ | Beskrivelse |
+|---|---|
+| **In-app Resource Center** | Få tilgang til guidede turer, brukerveiledninger og nettressurser. |
+| **Community** | Åpne nettstedet SuperOffice Help center og Community. |
+| **Kontakt support** | Send inn supportforespørsler eller feilrapporter. |
+| **Hjelpefiler (F1)** | Få direkte tilgang til brukerveiledninger. |
+| **Om** | Vis programvareinformasjon, inkludert versjon, brukerinformasjon og kunde-ID. |
 
 <!-- Referenced links -->
 [1]: ../../basics/external-applications-and-url-addresses.md
@@ -88,18 +85,10 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
+[9]: ../../basics/notifications.md
+[10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
-[img2]: ../../../../media/icons/personal-settings.png
-[img4]: ../../../../media/icons/notice.png
-[img5]: ../../../../media/icons/notice-new.png
-[img6]: ../../../../media/icons/notice-pending.png
-[img7]: ../../../../../common/icons/search-icon-black.png
-[img3]: ../../../../../common/icons/plus-black.png
-[img8]: ../../../../media/loc/en/learn/find.png
-[img9]: ../../../../media/superoffice-logo.png

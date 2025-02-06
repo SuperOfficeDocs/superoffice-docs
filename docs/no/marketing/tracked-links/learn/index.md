@@ -38,10 +38,10 @@ I fanen **Sporede koblinger** har du følgende alternativer:
 
 | Ikon | Alternativ | Les mer |
 |:-:|---|---|
-| ![ikon][img2] | Legg til | [Opprett en ny kobling][1], [Definere koblingshandlinger][7] |
-| ![ikon][img3] | Legg til mappe | [Opprett en mappe][5] for koblingene |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Legg til | [Opprett en ny kobling][1], [Definere koblingshandlinger][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Legg til mappe | [Opprett en mappe][5] for koblingene |
 | Kobling | Klikk på en kobling for å åpne bildet **Vis kobling**. | [Arbeide med sporede koblinger i etterkant av utsendelsen][2] |
-| ![ikon][img1] | Meny | Klikk på knappen ved siden av en kobling for å få tilgang til flere alternativer. |
+| <i class="ph ph-list" aria-label="Task menu"></i> | Meny | Klikk på knappen ved siden av en kobling for å få tilgang til flere alternativer. |
 
 Menyalternativer:
 
@@ -111,7 +111,4 @@ Google Analytics-funksjonen i SuperOffice Marketing identifiserer utsendelsene d
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

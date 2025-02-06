@@ -1,5 +1,5 @@
 ---
 uid: help-no-sale-screen-tab-guide-redirect
-date: 12.04.2024
-redirect_url: https://docs.superoffice.com/no/learn/section-tabs/sales-tab.html
+date: 02.03.2025
+redirect_url: https://docs.superoffice.com/no/learn/sales-guides.html
 ---

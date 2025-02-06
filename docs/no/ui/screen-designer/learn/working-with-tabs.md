@@ -28,7 +28,7 @@ Opprettelse av tilpassede faner lar deg gruppere relaterte felter på en måte s
 
 2. Under **Fanenavn**, erstatt teksten "Ny fane" med det nye fanenavnet.
 
-    Du kan også klikke på ![icon][img1] for å [legge til fanenavnet på andre språk][3].
+    Du kan også klikke på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til fanenavnet på andre språk][3].
 
 3. Velg antall kolonner du vil bruke i den nye fanen.
 
@@ -67,7 +67,7 @@ Etiketter og skillelinjer hjelper deg med å organisere felter i en fane, noe so
 2. Klikk for å velge seksjonen **Elementer**.
 3. For å legge til en overskrift, dra elementet **Etikett** inn i layouten.
 
-    * I seksjonen **Innstillinger** erstatt "Ny etikett" med den nye etikettens navn. Du kan også klikke på ![icon][img1] for å [legge til overskriften på andre språk][9].
+    * I seksjonen **Innstillinger** erstatt "Ny etikett" med den nye etikettens navn. Du kan også klikke på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til overskriften på andre språk][9].
     * Juster skriften etter behov.
 
 4. For å legge til en horisontal skillelinje, dra elementet **Skillelinje** inn i layouten. Endre skilletegnet om nødvendig.
@@ -115,5 +115,4 @@ Hvis du har en bred skjerm, kan du bruke flere kolonner for å vise mer data sam
 [9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../media/loc/en/ui/field-settings.png

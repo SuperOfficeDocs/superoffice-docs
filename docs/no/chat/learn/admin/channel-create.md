@@ -23,7 +23,7 @@ Se denne videoen for å finne ut hvordan du konfigurerer kontrollprogrammet for 
 
 ## Trinn
 
-1. Klikk på ![ikon][img2] **Chat** i navigatoren.
+1. Klikk på <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
 
 2. Klikk på **Legg til** nederst i listen over chatkanaler.
 
@@ -36,7 +36,7 @@ Se denne videoen for å finne ut hvordan du konfigurerer kontrollprogrammet for 
 5. Klikk på **Lagre** når du er ferdig.
 
 > [!NOTE]
-> Felt med røde rammer er obligatoriske. Faner med ikonet ![ikon][img4] inneholder tomme obligatoriske felt.
+> Felt med røde rammer er obligatoriske. Faner med ikonet <i class="ph ph-warning-circle" aria-label="Warning icon"></i> inneholder tomme obligatoriske felt.
 
 ## Egenskaper
 
@@ -145,9 +145,3 @@ Forhåndsvisningen til høyre viser chatvinduet med de gjeldende innstillingene.
 ### Kan jeg slette en chatkanal?
 
 Ja, men sørg for at chatkanalen ikke brukes på en webside. Ellers er chattevinduet synlig, men ikke funksjonelt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

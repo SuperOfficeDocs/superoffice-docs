@@ -48,4 +48,4 @@ Als verzoekbehandelaar bent u niet altijd in staat zelf een verzoek te beantwoor
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/reassing-a-request.png
+[img1]: ../../../../media/loc/en/request/reassign-a-request.png

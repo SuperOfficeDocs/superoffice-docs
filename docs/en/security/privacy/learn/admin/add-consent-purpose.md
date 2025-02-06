@@ -45,7 +45,7 @@ Watch this video and find out how to add and edit purposes for processing person
         * Confirmation the data will not be shared with other parties and is stored securely
         * Information about how they can change or withdraw consent at any time
 
-4. Click **A-Z** next to a field to add new or edit existing [translations][1] of the field texts.
+4. Click <i class="ph ph-translate" aria-label="Translate"></i> next to a field to add new or edit existing [translations][1] of the field texts.
 
 5. Click **Save** when you are done.
 

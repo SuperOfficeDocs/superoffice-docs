@@ -25,7 +25,7 @@ Vi skal nå opprette en makro basert på eksemplet ovenfor.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Velg ![ikon][img2] **CRMScript** og fanen for **Makroer og skript**. Gjør ett av følgende:
+1. Velg <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** og fanen for **Makroer og skript**. Gjør ett av følgende:
     * Slik oppretter du en ny makro: Klikk på **Ny makro**.
     * Slik redigerer du en eksisterende makro: Klikk på makronavnet.
 
@@ -54,4 +54,3 @@ Vi skal nå opprette en makro basert på eksemplet ovenfor.
 [1]: trigger.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

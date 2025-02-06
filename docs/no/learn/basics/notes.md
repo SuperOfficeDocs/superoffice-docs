@@ -2,10 +2,10 @@
 uid: help-no-notes
 title: Ta notater
 description: Ta notater
-keywords: notat, notisblokk
+keywords: Notatfane, ta notater, opprette notat, notat, notatblokk
 author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,20 +14,23 @@ language: no
 
 # Ta notater
 
-I SuperOffice CRM kan du knytte individuelle notater til gjeldende firma, person, salg, prosjekt eller utvalg.
+I SuperOffice CRM kan du legge til notater til et firma, en person, et salg, et prosjekt eller et utvalg. Disse notatene kan brukes til å lagre all slags informasjon og kan søkes opp via [Fritekstsøk][1].
 
 ## Opprette et notat
 
-1. Gå til ønsket firma, person, salg, utvalg eller prosjekt.
-2. Velg fanen **Notat**, og klikk på **Endre**.
-3. Skriv inn ønsket informasjon på lappen.
-4. Klikk på **Lagre**.
+1. Gå til det ønskede firmaet, personen, salget, prosjektet eller utvalget.
 
-En prikk på **Notat**-fanen angir at det finnes et notat.
+1. Velg fanen **Notat**, og klikk på <i class="ph ph-pencil-simple" aria-label="Rediger"></i> øverst til høyre på kortet.
+
+1. Skriv inn nødvendig informasjon i notatet.
+
+1. Klikk på **Lagre**.
+
+En prikk på fanen **Notat** indikerer at et notat er lagt til.
 
 ## Slette et notat
 
-Du kan enkelt slette et notat ved å slette all teksten i notatet. Prikken forsvinner fra fanen **Notat**.
+For å slette et notat, slett all tekst i feltet. Prikken vil forsvinne fra fanen **Notat**.
 
 <!-- Referenced links -->
-<!-- Referenced images -->
+[1]: ../../search-options/learn/freetext-search.md

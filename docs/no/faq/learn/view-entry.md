@@ -13,7 +13,7 @@ language: no
 
 # Vis FAQ-oppføringer (i SuperOffice)
 
-1. Gå til ![icon][img1] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**. Dette tar deg til FAQ-skjermen, som inneholder FAQ-oppføringer i en [mappestruktur][1] som du kan opprette og redigere selv.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**. Dette tar deg til FAQ-skjermen, som inneholder FAQ-oppføringer i en [mappestruktur][1] som du kan opprette og redigere selv.
 
 2. Hvis listen inneholder flere undermapper, går du til den du trenger.
 
@@ -41,6 +41,3 @@ Hvis du vil publisere gjeldende oppføring i FAQ, velger du **Flytt fremover i a
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

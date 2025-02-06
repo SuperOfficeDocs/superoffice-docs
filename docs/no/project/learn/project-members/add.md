@@ -2,10 +2,10 @@
 uid: help-no-project-member-add
 title: Legg til prosjektdeltaker
 description: Slik legger du til en prosjektdeltaker i SuperOffice
-keywords: prosjekt, deltaker, prosjektdeltaker, prosjektmedlem
+keywords: legg til prosjektdeltaker, deltaker, prosjektdeltaker, prosjektmedlem, tildel funksjoner, prosjekt
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 01.31.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -32,11 +32,11 @@ Når du legger til deltakere i et prosjekt, kan du tildele funksjoner individuel
 
       ![Legg til/rediger prosjektdeltakere dialog, historikk - skjermbilde][img5]
 
-    * **Brukergruppe**: Klikk ![ikon][img2] for å bla gjennom medarbeidere etter gruppe.
+    * **Brukergruppe**: Klikk <i class="ph ph-users" aria-label="Associate icon"></i> for å bla gjennom medarbeidere etter gruppe.
 
       ![Legg til/rediger prosjektdeltakere dialog, gruppe - skjermbilde][img6]
 
-    * **Firma**: Klikk ![ikon][img3] for å bla gjennom personer i et firma eller legge til et firma som medlem.
+    * **Firma**: Klikk <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> for å bla gjennom personer i et firma eller legge til et firma som medlem.
 
       ![Legg til/rediger prosjektdeltakere dialog, firma - skjermbilde][img7]
 
@@ -79,7 +79,7 @@ Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulik
 
 * **Legg til kommentarer**
 
-    Hvis en kommentar er lagt til, vises en ![ikon][img1] binders ved siden av kolonnen **Informasjon om prosjektdeltaker** i detaljkortet **Prosjektdeltakere**. Hold musepekeren over bindersen for å se kommentartipset.
+    Hvis en kommentar er lagt til, vises en binders (<i class="ph ph-paperclip" aria-hidden="true"></i>) ved siden av kolonnen **Informasjon om prosjektdeltaker** i detaljkortet **Prosjektdeltakere**. Hold musepekeren over bindersen for å se kommentartipset.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulik
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

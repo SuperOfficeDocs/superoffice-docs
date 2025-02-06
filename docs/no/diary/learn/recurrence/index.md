@@ -2,15 +2,18 @@
 uid: help-no-recurrence
 title: Repeterende oppfølginger
 description: Repeterende oppfølginger
-author: SuperOffice RnD
+keywords: repeterende oppfølging, repeterende møte, repeterende avtale, repeter, gjenta, møtefrekvens, oppfølgingsmønster, møteserie, dagbok, oppfølging, gjenta
 author: Bergfrid Dias
-date: 10.09.2023
-keywords: dagbok, oppfølging, gjenta, repeter, hyppighet, frekvens, mønster
+date: 02.05.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Repeterende oppfølginger
+# Repeterende oppfølginger <i class="ph ph-arrows-clockwise" aria-hidden="true"></i>
 
 Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevne mellomrom, for eksempel et ukentlig statusmøte. I stedet for å registrere disse møtene enkeltvis, kan du bruke funksjonen for repeterende oppfølginger.
 

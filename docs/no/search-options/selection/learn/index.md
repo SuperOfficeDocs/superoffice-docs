@@ -76,7 +76,7 @@ Du kan opprette et utvalg som inneholder
 Du kan opprette et utvalg som inneholder
 
 * Alle kontraktene registrert i SuperOffice CRM
-* En liste over alle dokumenter som ikke har statusen **Fullført**
+* En liste over alle dokumenter som ikke har statusen **Utført**
 
 ### Oppfølging
 

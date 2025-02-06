@@ -14,7 +14,7 @@ language: no
 
 # Passordregler for Kundesenter
 
-Gå til ![ikonet][img1] **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **Passordregler for kundesenter** har følgende valg:
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **Passordregler for kundesenter** har følgende valg:
 
 * **Skjul passord for person i saksbehandlingen**: Hvis det er merket av, vises passord som prikker når du viser personer.
 * **Tillat bare vanskelige passord når kundepassord angis**: Hvis dette velges, må personenes passord oppfylle minimumskravene som er angitt nedenfor.
@@ -23,8 +23,3 @@ Gå til ![ikonet][img1] **Preferanser** i navigatoren, og velg deretter fanen **
 * **Minimum antall små bokstaver i passord**: Det minste antallet små bokstaver som passordet må inneholde.
 * **Minimum antall store bokstaver i passord**: Det minste antallet store bokstaver som passordet må inneholde.
 * **Minimum antall spesialtegn i passord**: Det minste antallet spesialtegn som passordet må inneholde. Spesialtegn er tegn som verken er bokstaver eller tall, for eksempel stjerne eller spørsmålstegn.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

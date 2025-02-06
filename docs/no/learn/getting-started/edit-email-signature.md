@@ -1,47 +1,47 @@
 ---
 uid: help-no-edit-email-signature
 title: Redigere signaturer
-description: Redigere e-postsignatur eller signatur i sak.
-keywords: e-post, signatur
+description: Hvordan redigere e-postsignaturer og signaturer i saker
+keywords: E-postsignatur, Signatur i sak, signatur
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.2.8
+date: 01.29.2025
+version: 10.5
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 ---
 
 # Redigere signaturer
 
-De standard signaturmalene inneholder malvariabler som erstattes med data fra SuperOffice, slik at signaturene dine alltid oppdateres med riktig informasjon.
+Standardsignaturmalene inneholder variabler som blir erstattet med data fra SuperOffice. Dette sikrer at signaturene dine alltid er oppdaterte med korrekt informasjon.
 
-* **E-postsignatur:**: Malen inneholder variabler for ditt navn, firma, adresse, telefonnumre, e-postadresse, nettsted, og så videre [fra ditt personkort][3].
+* **E-postsignatur:** Malen inneholder variabler for ditt navn, firma, adresse, telefonnummer, e-postadresse, nettsted osv. [fra kontaktkortet ditt][3].
 
-* **Signatur i sak:** Malen inneholder variabler for ditt navn, firma, e-postadresse, og så videre spesifikk for [svarmaler][2].
+* **Signatur i sak:** Malen inneholder variabler for ditt navn, firma, e-postadresse osv., spesifikke for [svarmaler][2].
 
 > [!NOTE]
-> Du kan ikke blande disse to settene med malvariabler.
+> Du kan ikke kombinere disse to settene med variabler.
 
 ## Trinn
 
-1. Klikk på **Personlige innstillinger**-knappen i toppraden.
+1. Klikk på **Personlige innstillinger**-knappen (<i class="ph ph-user-circle" aria-hidden="true"></i>) i toppraden.
 
-2. Velg **Rediger personlig signatur**.
+1. Velg **Rediger personlig signatur**.
 
-3. I dialogboksen, velg enten **E-postsignatur**-fanen eller **signatur i sak**-fanen.
+1. I dialogboksen velger du enten fanen **E-postsignatur** eller **Signatur i sak**.
 
-4. Klikk ![ikon][img2] for å åpne verktøylinjen for tekstredigering. Her har du ulike alternativer for å redigere tekst og legge til ekstra innhold.
+1. Rediger teksten og legg til ekstra innhold.
+
+    * Klikk på **[v]** i verktøylinjen for å legge til variabler, eller se lenkene ovenfor for en fullstendig liste over tilgjengelige variabler.
+
+    * Legg til bilder og lenker ved hjelp av knappene i verktøylinjen. Du kan også dra og slippe lenker og bilder. Velg **Sett inn kobling** for å legge til lenker til relevante ressurser eller sosiale medier.
 
     ![Rediger personlig signatur -screenshot][img1]
 
-    * Klikk ![ikon][img3] på verktøylinjen for å legge til variabler, eller gå til de ovenforlenkede referansene for den komplette listen over tilgjengelige variabler.
+1. Klikk på **Lagre** når du er ferdig.
 
-    * Legg til bilder og lenker ved hjelp av knappene på verktøylinjen. Du kan også dra og slippe lenker og bilder. Velg **Sett inn kobling** for å legge til lenker til relevante ressurser eller sosiale medier.
-
-5. Klikk **Lagre** når du er ferdig.
-
-6. Valgfritt: Test signaturen ved å sende en e-post til deg selv (for e-postsignaturer) eller ved å opprette en ny sak (for behandlingssignaturer). Sjekk at all informasjon vises riktig, og at lenkene fungerer og bildene vises som de skal.
+1. Valgfritt: Test signaturen ved å sende en e-post til deg selv (for e-postsignaturer) eller opprette en ny sak (for saksignaturer). Sjekk at all informasjon vises riktig, og at lenker og bilder fungerer som de skal.
 
 ## Eksempel
 
@@ -85,6 +85,4 @@ supershop.com
 [3]: ../../document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/editor-toolbar-icon.png
-[img3]: ../../../media/icons/sign-editor-variables.png
 [img1]: ../../../media/loc/en/learn/getstarted-preferences-email-signature.png

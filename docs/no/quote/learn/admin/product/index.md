@@ -29,7 +29,7 @@ I listen **Prisliste** velger du ønsket prisliste. Nederst i oversikten vises p
 
 ## Eksportere prisliste
 
-Du kan eksportere den åpne prislisten ved å klikke på ![ikon][img1] **Eksporter** nederst i fanen **SuperOffice-produkter**. Hvis du bare vil eksportere noen produkter, kan du merke disse i prislisten. Hvis du ikke merker noen produkter, eksporteres alle produkter i prislisten.
+Du kan eksportere den åpne prislisten ved å klikke på <i class="ph ph-download-simple" aria-hidden="true"></i> **Eksporter** nederst i fanen **SuperOffice-produkter**. Hvis du bare vil eksportere noen produkter, kan du merke disse i prislisten. Hvis du ikke merker noen produkter, eksporteres alle produkter i prislisten.
 
 ### Vises ikke Eksporter?
 
@@ -50,6 +50,3 @@ Enten har du ikke [tilgangsrettigheter][4] til eksportfunksjonen, eller så er i
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

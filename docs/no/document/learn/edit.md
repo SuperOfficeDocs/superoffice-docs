@@ -123,7 +123,7 @@ Dialogboksen er litt annerledes i Chrome, Edge, Firefox og Safari.
 
 Når du ser et spesifikt dokument:
 
-1. Klikk på **Oppgave**-knappen i **Dokument**-dialogen.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i **Dokument**-dialogen.
 2. Velg **Slett**.
 3. Bekreft eller avbryt slettingen i bekreftelsesdialogen.
 

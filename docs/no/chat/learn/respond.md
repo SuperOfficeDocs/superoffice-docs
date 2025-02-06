@@ -44,7 +44,7 @@ Innkommende chatsamtaler annonseres på følgende måter:
 
 5. For å chatte skriver du inn tekst i den nederste delen av bildet og trykker på **ENTER** eller klikker på **Send**.
 
-6. Hvis du vil bruke emojier/etiketter, klikker du på ![ikon][img5] ved siden av tekstfeltet.
+6. Hvis du vil bruke emojier/etiketter, klikker du på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden av tekstfeltet.
 
 7. Hvis du ikke kan hjelpe kunden med spørsmålet, gjør du ett av følgende:
 
@@ -55,7 +55,7 @@ Innkommende chatsamtaler annonseres på følgende måter:
     * [Sende en FAQ, en svarmal eller et hurtigsvar][4]
     * [Sende en fil][5]
 
-9. Når samtalen er avsluttet, kan du klikke på ![ikon][img1] og velge **Avslutt chat** (med mindre kunden lukker chatvinduet først). Chatsamtalen flyttes til **Nylige chatsesjoner**. Du kan også finne en oppføring av chatsamtalen i detaljkortet **Aktiviteter** i SuperOffice CRM.
+9. Når samtalen er avsluttet, kan du klikke på <i class="ph ph-list" aria-label="Task menu"></i> og velge **Avslutt chat** (med mindre kunden lukker chatvinduet først). Chatsamtalen flyttes til **Nylige chatsesjoner**. Du kan også finne en oppføring av chatsamtalen i detaljkortet **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Hvis sluttskjema for chat er aktivt for denne chattekanalen, kan kunden gå tilbake til chatten. Da aktiveres chatsamtalen igjen.
@@ -83,9 +83,7 @@ Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsm
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

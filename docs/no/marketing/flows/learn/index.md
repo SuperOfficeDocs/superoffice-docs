@@ -74,7 +74,7 @@ Velg **visningsmodus** i nedre høyre hjørne.
 
 | Ikon | Modus | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på menyknappen ![ikon][img3] for å åpne, redigere, kopiere eller slette flyten. |
+| ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> for å åpne, redigere, kopiere eller slette flyten. |
 | ![ikon][img8] | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere, kopiere eller slette flyten. |
 
 ## <a id="view"></a>Skjermbildet Vis flyt
@@ -156,6 +156,5 @@ Tilgang til flyter og flytinnhold kontrolleres av en brukers rolle og [funksjone
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img3]: ../../../../media/icons/btn-menu.png
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png

@@ -48,9 +48,9 @@ Maler vises som elementer i listen **E-post – mal**, og du kan legge til nye m
 
 Angi følgende informasjon i fanen **Detaljer**:
 
-1. (valgfritt) Endre navnet på malen i **Navn**-feltet. Du kan også [legge til malnavnet på andre språk][1] ved å klikke på ![ikon][img1].
+1. (valgfritt) Endre navnet på malen i **Navn**-feltet. Du kan også [legge til malnavnet på andre språk][1] ved å klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
-2. Skriv inn tittelen på e-postmeldingen i feltet **Emne**. Du kan også [legge til tittelen på andre språk][1] ved å klikke på ![ikon][img1].
+2. Skriv inn tittelen på e-postmeldingen i feltet **Emne**. Du kan også [legge til tittelen på andre språk][1] ved å klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 3. Velg **Bruk signatur i ny e-post** til å legge til signaturen i nye e-postmeldinger. Hvis du ikke har en egen signatur, brukes systemsignaturen.
 
@@ -58,9 +58,9 @@ Angi følgende informasjon i fanen **Detaljer**:
 
 5. Legg eventuelt inn en beskrivelse av malen i feltet **Beskrivelse**.
 
-6. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på pilen (![ikon][img2]) og velge fra listeboksen. Velg **Utgående** hvis du vil at malen skal være tilgjengelig i **Innboks**.
+6. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge fra listeboksen. Velg **Utgående** hvis du vil at malen skal være tilgjengelig i **Innboks**.
 
-7. I **Hensikt**-feltet klikker du på pilen (![ikon][img2]) og velger et av de forhåndsdefinerte alternativene fra listeboksen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][5]).
+7. I **Hensikt**-feltet klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger et av de forhåndsdefinerte alternativene fra listeboksen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][5]).
 
     > [!TIP]
     > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å legge til forekomster på listen **Oppfølging - Hensikt** i Innstillinger og vedlikehold.
@@ -83,15 +83,13 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 5. Gjenta trinnene ovenfor for å legge til flere språk.
 
 > [!TIP]
-> Klikk på ![ikon][img1] ved siden av det relevante feltet for å [legge til oversettelser][1] av malnavn og e-postemne.
+> Klikk på <i class="ph ph-translate" aria-label="Translate"></i> ved siden av det relevante feltet for å [legge til oversettelser][1] av malnavn og e-postemne.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

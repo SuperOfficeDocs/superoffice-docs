@@ -26,7 +26,7 @@ Fyll ut feltene nedenfor, klikk på **Opprett** og skriv e-posten som beskrevet 
 
 | Felt | Beskrivelse |
 |---|---|
-| Dokumentmal | Klikk pilen ![icon][img2] ved siden av typefeltet øverst i dialogboksen for å vise en liste over dokumentmaler du kan velge mellom. De tilgjengelige malene er definert i Innstillinger og vedlikehold. |
+| Dokumentmal | Klikk <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av typefeltet øverst i dialogboksen for å vise en liste over dokumentmaler du kan velge mellom. De tilgjengelige malene er definert i Innstillinger og vedlikehold. |
 | Firma | Her skriver du inn navnet på firmaet du skriver et dokument til. |
 | Person | Hvis du klikker på pilen ved siden av dette feltet, får du frem en liste over personer som er registrert på firmaet. |
 | Prosjekt | Skriv inn navnet på prosjektet som e-postmeldingen skal knyttes til. |
@@ -44,12 +44,10 @@ Når du er ferdig med meldingen og vil sende den, har du følgende alternativer:
 > [!TIP]
 > Hvis du ikke arkiverer meldingen når du sender den, kan du likevel [gå til sendt-mappen og arkivere meldingen][2].
 >
-> Signaturmalen nederst i meldingen kan redigeres i ![icon][img1] **Personlige innstillinger** > **Rediger personlig signatur**.
+> Signaturmalen nederst i meldingen kan redigeres i <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Rediger personlig signatur**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

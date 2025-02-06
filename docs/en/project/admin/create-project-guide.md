@@ -79,7 +79,7 @@ After you create statuses and specify a project type for the project guide, you 
 
 7. Repeat steps 4-6 for each status you want to add follow-ups and documents for.
 
-The changes are saved automatically. The project guide will now be displayed in SuperOffice CRM when a project is created with the project type selected in step B.
+The changes are saved automatically. The project guide will now be displayed in SuperOffice CRM when a project is created with the project type selected in step 2.
 
 ## <a id="add-fo-status"></a>Add a follow-up for a status
 

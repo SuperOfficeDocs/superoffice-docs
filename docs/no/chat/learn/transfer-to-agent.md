@@ -20,10 +20,10 @@ Du kan overføre chatsamtaler til andre agenter og motta overførte chatsamtaler
 
 ## Slik overfører du
 
-1. Klikk på ![ikon][img1], og velg deretter **Overfør**.
+1. Klikk på <i class="ph ph-list" aria-label="Task menu"></i>, og velg deretter **Overfør**.
 2. Velg en agent i listen **Overfør til**. Bare agenter med status **Til stede** vises her.
 3. Klikk på **Overfør**. Chatsamtalen utheves i sesjonslisten. Nå skjer ett av følgende:
-    * Hvis den mottakende agenten godtar den overførte chatsamtalen, går du inn i lyttemodus. Du kan vise den pågående chatsamtalen, men du kan ikke svare på meldinger. Du lukker denne chatsesjonen ved å klikke på ![ikon][img1] og velge **Lukk vindu**.
+    * Hvis den mottakende agenten godtar den overførte chatsamtalen, går du inn i lyttemodus. Du kan vise den pågående chatsamtalen, men du kan ikke svare på meldinger. Du lukker denne chatsesjonen ved å klikke på <i class="ph ph-list" aria-label="Task menu"></i> og velge **Lukk vindu**.
     * Hvis den mottakende agenten avviser den overførte chatsamtalen, vises den ikke lenger som uthevet i sesjonslisten. Du kan fortsette chatsamtalen eller [opprette en sak][1] som skal håndteres av noen andre.
     * Hvis den mottakende agenten ikke svarer, klikker du på **Avbryt overføring**. Du kan fortsette chatsamtalen eller [opprette en sak][1] som skal håndteres av noen andre.
 
@@ -46,4 +46,3 @@ Hvis en agent overfører en chatsamtale til deg, vises samtalen automatisk i cha
 [2]: respond.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

@@ -89,30 +89,12 @@ items:
       topicHref: ../quote/learn/admin/index.md
 
     - name: Arbeidsflyt
-      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      topicHref: ../sale/admin/create-sales-guide.md
       items:
       - name: Salgsguide
-        topicHref: ../sale/learn/screen/sales-guide-admin.md
-        items:
-        - name: Oversikt
-          href: ../sale/learn/screen/sales-guide-admin.md
-        - name: Opprette ny salgsguide
-          href: ../sale/learn/sales-guide/create.md
-        - name: Redigere salgsguide
-          href: ../sale/learn/sales-guide/edit.md
-        - name: Deaktivere salgsguide
-          href: ../sale/learn/sales-guide/deactivate.md
+        topicHref: ../sale/admin/create-sales-guide.md
       - name: Prosjektguide
-        topicHref: ../project/learn/screen/project-guide-admin.md
-        items:
-        - name: Oversikt
-          href: ../project/learn/screen/project-guide-admin.md
-        - name: Opprette ny prosjektguide
-          href: ../project/learn/project-guide/create.md
-        - name: Redigere prosjektguide
-          href: ../project/learn/project-guide/edit.md
-        - name: Deaktivere prosjektguide
-          href: ../project/learn/project-guide/deactivate.md
+        topicHref: ../project/admin/create-project-guide.md
 
     - name: Egendefinerte objekter
       href: ../custom-objects/learn/toc.yml
@@ -141,55 +123,11 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Saksbehandling
-      topicHref: ../request/learn/admin/index.md
-      items:
-      - name: Oversikt
-        href: ../request/learn/admin/index.md
-      - name: Sakstyper
-        topicHref: ../request/learn/type/index.md
-        items:
-        - name: Oversikt
-          href: ../request/learn/type/index.md
-        - name: Opprett sakstype
-          href: ../request/learn/type/create.md
-        - name: Slett sakstype
-          href: ../request/learn/type/delete.md
-      - name: Kategorier
-        href: ../request/learn/category/index.md
-        items:
-        - name: Oversikt
-          href: ../request/learn/category/index.md
-        - name: Opprett sakskategori
-          href: ../request/learn/category/create.md
-        - name: Slett sakskategori
-          href: ../request/learn/category/delete.md
-      - name: Prioriteter
-        topicHref: ../request/learn/priority/index.md
-        items:
-        - name: Oversikt
-          href: ../request/learn/priority/index.md
-        - name: Opprett prioritet
-          href: ../request/learn/priority/create.md
-        - name: Slett prioritet
-          href: ../request/learn/priority/delete.md
-        - name: Opprette eskaleringsnivåer
-          href: ../request/learn/priority/escalation-levels.md
-      - name: Saksstatus
-        topicHref: ../request/learn/status/index.md
-        items:
-        - name: Oversikt
-          href: ../request/learn/status/index.md
-        - name: Opprette saksstatus
-          href: ../request/learn/status/create.md
-        - name: Slette saksstatus
-          href: ../request/learn/status/delete.md
-        - name: Hent neste sak i køen
-          href: ../request/learn/next-in-queue.md
-      - name: E-post
-        href: ../email/service/learn/toc.yml
-        topicHref: ../email/service/learn/index.md
-      - name: Systemmaler
-        href: ../request/learn/screen/system-templates.md
+      topicHref: ../request/admin/index.md
+
+    - name: E-post
+      href: ../email/service/learn/toc.yml
+      topicHref: ../email/service/learn/index.md
 
     - name: Kundesenter
       href: ../customer-center/learn/toc.yml

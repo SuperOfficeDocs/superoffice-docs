@@ -4,8 +4,8 @@ title: Aktivitetsfanen
 description: Lær hvordan du bruker Aktivitetsdetaljkortet i SuperOffice CRM for å vise, administrere og følge opp aktiviteter, oppgaver og dokumenter for firmaer, personer, prosjekter og salg – alt i én organisert seksjon.
 keywords: detaljkortet Aktiviteter, Aktiviteter-fanen, Aktivitetsfanen, detaljkort, aktivitetsarkiv, aktivitet
 author: Bergfrid Skaara Dias
-date: 12.05.2024
-version: 10
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -38,7 +38,7 @@ Aktivitetsfanen inneholder følgende kolonner for å vise nøkkelinformasjon om 
 
 | Kolonne | Beskrivelse |
 |---------|-------------|
-| Utført | Avkrysningsboks som indikerer om aktiviteten er utført. En hake i boksen (![icon][img3]) betyr utført, mens en tom boks betyr at aktiviteten pågår. |
+| Utført | Avkrysningsboks som indikerer om aktiviteten er utført. En hake i boksen (<i class="ph ph-check" aria-hidden="true"></i>) betyr utført, mens en tom boks betyr at aktiviteten pågår. |
 | Typesymbol | Viser [aktivitetstypen][1] (som møte, samtale, dokument). Gjenspeiler teksten i **Type**-kolonnen. |
 | Dato | Viser når et dokument ble opprettet eller når en oppfølging er planlagt |
 | Type | Typen aktivitet, som møte, oppgave eller e-post. |
@@ -104,10 +104,9 @@ For å inkludere utførte aktiviteter i listen, må du forsikre deg om at boksen
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

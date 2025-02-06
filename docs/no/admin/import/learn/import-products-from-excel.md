@@ -69,7 +69,7 @@ Siden Excel-regnearket kan inneholde alt fra noen få kolonner til svært mange 
 
     | Ikon | Beskrivelse |
     |---|---|
-    | ![ikon][img2] | Det er et problem med dataene på denne raden. Se forklaringsteksten i tabelloverskriften. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | Det er et problem med dataene på denne raden. Se forklaringsteksten i tabelloverskriften. |
     | ![ikon][img3] | Produktet finnes ikke allerede og blir lagt til. |
     | ![ikon][img4] | Produktet finnes allerede og blir oppdatert. |
     | tom | Ingen oppdatering. |
@@ -95,6 +95,5 @@ Når importen er fullført, vises en liste over de importerte produktene. Over l
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

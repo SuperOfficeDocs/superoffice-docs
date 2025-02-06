@@ -16,22 +16,17 @@ language: no
 
 Slik legger du til en makro på **Oppgave**-knappen i skjermbildet Firma, Person, Sak eller **Melding**:
 
-1. Velg ![ikon][img3] **Systemdesign** > **Ekstramenyer**.
+1. Velg <i class="ph ph-list" aria-label="Main menu"></i> **Systemdesign** > **Ekstramenyer**.
 2. Klikk på **Toppmeny** for å vise undermappene.
-3. Hold musepekeren over en av disse mappene: **Vis sak**, **Vis person**, **Vis firma** eller **Meldingsmeny**. Deretter klikker du på ![ikon][img1]. Skjermbildet **Egenskaper for meny** vises.
+3. Hold musepekeren over en av disse mappene: **Vis sak**, **Vis person**, **Vis firma** eller **Meldingsmeny**. Deretter klikker du på **+**. Skjermbildet **Egenskaper for meny** vises.
 4. Skriv inn navnet på knappen i feltet **Etikett**. Navnet må være ganske kort, slik at det passer på knappen.
 5. Velg **Bruk skript**, og velg en makro.
 6. Velg ønsket plassering i listen **Plassering** (0 = øverst).
 7. Klikk på **OK**.
-8. Åpne en sak, person, firma eller melding, klikk på ![ikon][img2] **Oppgave**-knappen og kontroller at knappen vises og fungerer som ønsket.
+8. Åpne en sak, person, firma eller melding, klikk på **Oppgave**-knappen og kontroller at knappen vises og fungerer som ønsket.
 
 > [!NOTE]
 > Du kan også legge til en makro på **Oppgave**-knappen når du [oppretter eller redigerer en makro][1].
 
 <!-- Referenced links -->
 [1]: ../../../../automation/crmscript/learn/create-macro.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../common/icons/task.png
-[img3]: ../../../../../media/icons/main-menu-small.png

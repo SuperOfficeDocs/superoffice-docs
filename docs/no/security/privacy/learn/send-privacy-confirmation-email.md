@@ -36,7 +36,7 @@ Fra skjermbildet Person kan du sende e-postbekreftelsen for personvern til en ko
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klikk på **Oppgave** (![ikon][img1]) > **Send e-postbekreftelse om personvern**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> > **Send e-postbekreftelse om personvern**.
 
     ![Send en e-postbekreftelse for å informere personene om informasjonen som lagres i CRM-databasen -screenshot][img2]
 
@@ -70,5 +70,4 @@ E-posten kan også inneholde en kobling til et kundesenter der personen kan admi
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

@@ -29,7 +29,7 @@ Denne funksjonen støtter sommertid.
 
 ## Hvordan velger du tidssoner?
 
-Tidssoner vises i en listeboks i [Dagbok][1] og for [oppfølginger][3]. Standard tidssone for SuperOffice-databasen vises øverst, ved hjelp av dette ikonet: ![icon][img1].
+Tidssoner vises i en listeboks i [Dagbok][1] og for [oppfølginger][3]. Standard tidssone for SuperOffice-databasen vises øverst.
 
 Tidssonelisten er sortert etter land. Øverst i tidssonelisten finner du navnet på valgt land med flagg.
 
@@ -57,6 +57,3 @@ Ved å søke på antall timer for å finne riktig tidssone. Hvis du for eksempel
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
 [3]: ../../diary/learn/follow-ups.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.png

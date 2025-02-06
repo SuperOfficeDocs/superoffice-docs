@@ -25,7 +25,7 @@ For å vise listen over deltakere for en bestemt flyt:
 
 ![Liste over flytdeltakere -screenshot][img1]
 
-Bruk tannhjulikonet ![ikon][img4] i listens topptekst for å tilpasse kolonnene.
+Bruk tannhjulikonet (<i class="ph ph-gear" aria-hidden="true"></i>) i listens topptekst for å tilpasse kolonnene.
 
 ![Listen over flytdeltakere, tilpass kolonner -screenshot][img2]
 
@@ -83,4 +83,3 @@ I et grensesnitt følger deltakerne den første (venstre) grenen der de oppfylle
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

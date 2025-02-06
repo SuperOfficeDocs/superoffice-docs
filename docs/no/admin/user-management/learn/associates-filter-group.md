@@ -25,7 +25,7 @@ Med denne dynamiske søkefunksjonen kan du raskt finne bestemte brukere etter na
 
 Velg dette alternativet hvis du bare vil vise brukere som er aktive (altså som ikke er deaktivert).
 
-## Filtrere listen
+## Filtrere listen <i class="ph ph-funnel" aria-hidden="true"></i>
 
 Du kan filtrere listen med brukere etter kolonneoverskrifter.
 
@@ -33,10 +33,10 @@ Du kan filtrere listen med brukere etter kolonneoverskrifter.
 > Høyreklikk på en kolonne for å legge til flere kolonner du vil filtrere etter.
 
 1. Velg fanen **Medarbeidere**.
-2. Høyreklikk på en kolonneoverskrift, eller klikk på ![ikon][img1] øverst til høyre i listen.
+2. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
 3. Velg **Aktiver filter**.
-4. Klikk på **OK**. Det legges til filterknapper (![ikon][img2]) til hver kolonneoverskrift.
-5. Klikk på ![ikon][img2] på kolonnen du vil filtrere.
+4. Klikk på **OK**. Det legges til filterknapper til hver kolonneoverskrift.
+5. Klikk på <i class="ph ph-funnel" aria-label="Filter icon"></i> på kolonnen du vil filtrere.
 6. Velg ønskede verdier i listen. Bruk søkefunksjonen hvis listen er lang.
 7. Klikk på **Filtrer**.
 8. Gjenta trinn 5-7 for å filtrere på flere kolonner.
@@ -49,7 +49,7 @@ Du kan gruppere listen med brukere etter rolle, brukerplan, primærgruppe og lig
 > Høyreklikk på en kolonne for å legge til flere kolonner du vil gruppere på (se også [Tilpasse oversikter][1]).
 
 1. Velg fanen **Medarbeidere**.
-2. Høyreklikk på en kolonneoverskrift, eller klikk på ![ikon][img1] øverst til høyre i listen.
+2. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
 3. Se **Aktiver gruppering**.
 4. Klikk på **OK**.
 5. Klikk på kolonneoverskriften for verdien du vil gruppere på, og dra den til området over kolonnene ("Dra en kolonneoverskrift og ..."). Listen er nå gruppert etter denne verdien.
@@ -62,7 +62,3 @@ Du kan gruppere listen med brukere etter rolle, brukerplan, primærgruppe og lig
 
 <!-- Referenced links -->
 [1]: ../../learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/filter-column.png

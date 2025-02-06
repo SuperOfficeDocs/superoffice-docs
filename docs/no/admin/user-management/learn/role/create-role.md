@@ -33,8 +33,8 @@ language: no
 
 6. Velg ett av følgende alternativer:
 
-    * Klikk på ![ikon][img5] pilen ved siden av boksen **Kopier rettigheter fra**, og velg deretter rollen du ønsker å basere den nye rollen på.
-    * Klikk på ![ikon][img5] pilen, og velg deretter **Start med tomme rettigheter** hvis du vil opprette rollen fra bunnen av.
+    * Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av boksen **Kopier rettigheter fra**, og velg deretter rollen du ønsker å basere den nye rollen på.
+    * Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i>, og velg deretter **Start med tomme rettigheter** hvis du vil opprette rollen fra bunnen av.
 
 7. Klikk på **Lagre**. Den nye rollen vises i listen **Roller**.
 
@@ -65,6 +65,3 @@ language: no
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png

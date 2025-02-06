@@ -67,7 +67,7 @@ For å demonstrere hvordan du kan bruke Finn-funksjonen til salgsprognoser, vise
 
 2. Her kan du endre de forhåndsdefinerte feltene med nye inndata, slette unødvendige kriterier helt, eller klikke på Legg til-knappen for å legge til et nytt søkekriterium.
 
-3. Når du klikker på Legg til, vises en nedtrekksmeny. Klikk på Salg i nedtrekksmenyen. Velg deretter feltet som heter Beløp.
+3. Når du klikker på Legg til, vises en nedtrekksmeny. Klikk på Salg i listen. Velg deretter feltet som heter Beløp.
 
 4. Klikk på det andre feltet, som for øyeblikket viser deg tegnet =. Velg tegnet >.
 

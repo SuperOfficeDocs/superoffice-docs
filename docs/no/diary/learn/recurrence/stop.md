@@ -2,11 +2,14 @@
 uid: help-no-recurrence-stop
 title: Stoppe repeterende oppfølging
 description: Stoppe repeterende oppfølging
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbok, oppfølging, gjenta, gjenta
+keywords: stopp gjentakelse, stopp repetisjon, avbryt repetisjon, møteserie, repeterende oppfølging, repeterende møte, dagbok, oppfølging, gjenta, fremtidige instanser
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -16,10 +19,16 @@ Når du stopper repeteringen, slettes alle forekomster av oppfølgingen *etter* 
 
 ## Stopp gjentakelse (behold denne instansen)
 
-1. Åpne oppfølgingen fra Dagboken eller på fanen **Aktiviteter**.
-1. Klikk gjentakelsesikonet ![ikon][img1].
-1. Klikk på **Stopp gjentakelse**.
-1. Klikk på **Lagre** i **Oppfølging**-dialogen for å lagre alle endringer.
+1. Åpne oppfølgingen fra Dagboken eller fanen **Aktiviteter**.
+
+1. Gjør ett av følgende:
+
+    * Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velg **Stopp gjentakelse**.
+    * Klikk på frekvenslenken ved siden av <i class="ph ph-arrows-clockwise" aria-label="Gjenta"></i>, og klikk deretter på knappen **Stopp gjentakelse** i dialogboksen som åpnes.
+
+1. Bekreft handlingen ved å klikke **Ja** i bekreftelsesdialogen.
+
+1. Klikk **Lagre** i **Oppfølging**-dialogen for å lagre endringene dine.
 
 ## Slett denne og alle fremtidige instanser
 
@@ -29,6 +38,8 @@ Du kan også stoppe en gjentakende oppfølging ved å velge den i dagboken og sl
 2. Høyreklikk og velg **Slett**.
 3. Velg **Slett alle fremtidige instanser, inkludert denne**.
 4. Klikk **Ja** for å bekrefte.
+
+![Delete repeating follow-up dialog -screenshot][img1]
 
 ## Hva vil du gjøre nå?
 
@@ -40,4 +51,4 @@ Du kan også stoppe en gjentakende oppfølging ved å velge den i dagboken og sl
 [2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
+[img1]: ../../../../media/loc/en/diary/delete-repeating-fo.png

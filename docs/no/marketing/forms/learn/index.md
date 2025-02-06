@@ -69,7 +69,7 @@ SuperOffice Marketing har 3 faner som gjelder skjemaer.
 | Inaktiv/Aktiv | Bytt på denne skyveknappen for å aktivere eller deaktivere skjemaet. |
 | Oppdater | Oppdaterer skjermen. |
 | Rediger | Åpner skjemaet i redigeringsmodus. |
-| ![ikon][img5] | Setter skjemaet som [favoritt][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Setter skjemaet som [favoritt][11]. |
 
 Skjermen **Vis skjema** består av følgende faner:
 
@@ -118,4 +118,3 @@ Dette betyr at adresselisten din vil være mer pålitelig, noe som vil bidra til
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img3]: ../../../../media/loc/en/marketing/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png

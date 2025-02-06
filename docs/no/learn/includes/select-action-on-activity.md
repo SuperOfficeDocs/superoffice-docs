@@ -1,4 +1,4 @@
 <!-- markdownlint-disable-file MD041 -->
-* **La alle bli igjen hos &lt;firma&gt;**: Velg dette alternativet hvis du ikke vil overføre aktivitetene og salgene sammen med brukeren, men beholde dem på gjeldende firma.
-* **Flytt alle til ...**: Velg dette alternativet for å overføre alle aktiviteter og salg til det nye firmaet.
-* **Flytt alle aktiviteter som starter fra og med**: Velg dette alternativet for å overføre aktiviteter og salg som starter etter en bestemt dato.
+* **La alle bli igjen hos \[kildekontakt\]:** Beholder eksisterende aktiviteter knyttet til kildekontakten.
+* **Flytt alle til \[målkontakt\]:** Flytter alle aktiviteter og salg til målkontakten.
+* **Flytt alle aktiviteter fra og med \[dato\]:** Flytter aktiviteter fra en spesifisert dato og fremover.

@@ -2,10 +2,12 @@
 uid: help-no-request-find
 title: Finn en sak
 description: I denne veiledningen lærer du hvordan du finner saker i SuperOffice
+keywords: siste saker, egne aktive saker, ufordelte saker, vis bare egne kategorier, sak, søk, finne
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: sak, søk, finne
+date: 02.04.2025
+version: 10.5
 topic: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -13,105 +15,105 @@ language: no
 
 # Finn en sak
 
-Som brukerstøtteagent får du mange innkommende samtaler og e-postmeldinger om ventende eller gamle kundehenvendelser. Derfor er det viktig å vite hvordan du kan finne en sak eller en gruppe av saker så raskt som mulig.
+Som brukerstøtteagent mottar du mange innkommende samtaler og e-postmeldinger om ventende eller eldre kundehenvendelser. Derfor er det viktig å vite hvordan du raskt finner en enkelt sak eller grupper av saker.
 
 Gjør ett av følgende:
 
-* Bruke lister, som i virkeligheten er forhåndsdefinerte søk.
-* Bruk søkebildet for saker i Finn sak.
-* Bruk [fritekstsøket][3] øverst til høyre.
-* Bruk [dashbord][9].
+* Bruk lister, som er forhåndsdefinerte søk.
+* Bruk søkebildet for saker i **Finn sak**.
+* Bruk [fritekstsøket][12] øverst til høyre.
+* Bruk [dashbord][18].
 * Bruk [utvalg][10] for saker.
-* Bruk [navigatørsøket][12] på Saker.
+* Bruk [navigatørsøket][19] på Saker.
 * Bruk [Finn][11] i toppraden, velg et av de vanlige søkene, eller legg til ønskede kriterier.
 
 ## <a id="list"></a>Bruk lister
 
-Den enkleste måten å søke etter saker på er å bruke søkefeltet som er tilgjengelig i menyen for den første fanen **Finn sak** på Saker-bildet.
+Den enkleste måten å søke etter saker på er å bruke søkefeltet i menyen for den første fanen **Finn sak** i Saker-bildet.
 
 ![Søke etter saker -screenshot][img3]
 
-* **Siste saker**: Viser sakene som sist ble registrert i systemet. Hvis det er angitt i brukerinnstillingene, inneholder denne listen bare saker fra de kategoriene som du er medlem av.
-
-* **Egne aktive saker**: Her vises sakene som tilhører deg, og som har statusen **Åpen**. Denne listen inneholder sakene du er ansvarlig for, og er derfor det bildet du vil jobbe mest i.
-
-* **Ufordelte saker**: Her vises saker som ingen er tildelt ansvaret for. Hvis du ønsker å [overta ansvaret for en av sakene][6], er det viktig at du gjør det ved å åpne den og klikke på **Overta sak**. Ellers risikerer du at andre svarer på saken samtidig.
-
+* **Siste saker**: Viser de sist registrerte sakene i systemet. Hvis angitt i brukerinnstillingene, vil denne listen kun inneholde saker fra kategoriene du er medlem av.
+* **Egne aktive saker**: Viser saker som tilhører deg og har status **Åpen**. Dette er sakene du er ansvarlig for og jobber mest med.
+* **Ufordelte saker**: Viser saker som ingen er tildelt ansvar for. Hvis du ønsker å [overta en sak][6], må du klikke på **Overta sak**. Ellers risikerer du at andre svarer på saken samtidig.
 * **Mine favoritter**: Viser sakene du har lagret som favoritter.
-
-* **Hent neste fra køen**: Hvis [køsystemet er konfigurert][5] for firmaet kan du klikke på dette alternativet for å få den neste ufordelte saken i køen for kategorien du tilhører.
-
+* **Hent neste fra køen**: Hvis [køsystemet er konfigurert][9] for firmaet ditt, kan du klikke her for å få tildelt neste ufordelte sak i køen for din kategori.
 * **Saksutvalg**: Ditt eget saksutvalg vises i menyen.
 
 ### Vis bare egne kategorier
 
-1. Velg ![ikon][img2] **Personlige innstillinger** > **Preferanser**.
+1. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser**.
 1. Velg gruppen **Sak**.
 1. Sett **Vis bare egne kategorier** til Ja.
-1. Klikk på **Lagre**.
+1. Klikk **Lagre**.
 
-### Tilpasse søkekriterier
+## Bruke søkekriterier
 
-Alle disse listene er i praksis forhåndsdefinerte søk, og hvis du ønsker det, kan du tilpasse søkekriteriene:
+Du kan tilpasse søkekriterier for å finne spesifikke saker.
 
-1. Klikk på fanen **Finn sak** i toppteksten i Saker-bildet.
-1. [Juster kriteriene][4].
-1. Klikk på **Finn** nederst til høyre for å starte søket ved hjelp av de nye søkekriteriene. Hvis du velger en av sakene i listen, vises innholdet i forhåndsvisningsbildet til høyre. Hvis du merker en av sakene på listen, vises innholdet i [forhåndsvisningsdelen](#preview).
-1. Hvis du vil beholde dette søket, kan du lagre dette søkeresultatet som et [utvalg][13] og gå tilbake til listen når du vil.
+### Hvordan åpne søkekriteriene
 
-> [!TIP]
-> Hvis du vil gjenopprette standardinnstillingene, velger du **Tilbakestill**.
->
-> Hvis du vil slette alle kriteriene, velger du **Slett alt**.
+Fanen **Finn sak** har to interaktive elementer:
+
+* **Fanetekst**: Klikk på teksten for å åpne søkekriteriebildet.
+* **Nedtrekksikon** (<i class="ph ph-caret-down" aria-label="Dropdown ikon"></i>): Klikk for å åpne en meny med forhåndsdefinerte søk, som *Siste saker* eller *Egne aktive saker*.
+Hvis søkekriteriene ikke vises, må du klikke på faneteksten, ikke nedtrekksikonet.
+
+### Tilpasse kriterier
+
+1. Klikk på fanen **Finn sak** i toppteksten i Saker-bildet. Fanen **Kriterier** åpnes.
+1. Juster [søkekriteriene][14] ved å legge til eller endre filtre:
+    * Bruk nedtrekkslistene til å angi kriterier som Eier, Intern status eller Kategori.
+    * Klikk på **Legg til kriterium** for å legge til flere kriterier, eller fjern eksisterende med <i class="ph ph-x" aria-label="Fjern kriterium"></i>-ikonet.
+    * Kombiner filtre med **OG** eller **ELLER** for å finjustere søket.
+
+    ![Søke etter saker -screenshot][img2]
+
+1. Klikk på **Finn** nederst til høyre for å starte søket.
+
+    > [!TIP]
+    > Du kan lagre ofte brukte kriterier som et [utvalg][13] for enkel tilgang senere.
+
+1. Hvis du vil tilbakestille søket til standardkriterier, velg **Tilbakestill til standard**. For å slette alle filtre, velg **Slett alt**.
 
 ### <a id="result"></a>Søkeresultat
 
-Resultatet inneholder en liste over saker som samsvarer med kriteriene som er angitt ovenfor. Her kan du gjøre følgende:
+Resultatene av søket vises som en liste over saker i fanen **Resultat**. Du kan:
 
-* Du kan sortere sakene ved å klikke på ønsket kolonneoverskrift.
-* Du kan velge en rad for å vise innholdet i den aktuelle saken i forhåndsvisningsdelen.
-* Du kan åpne en sak ved å dobbeltklikke på ønsket rad.
-* I nedre venstre hjørne klikker du på knappen for å **vise/skjule forhåndsvisning**.
-* På ![ikon][img1] **Oppgave**-knappen i nedre venstre hjørne kan du få tilgang til forskjellige oppgaver som kan kjøres på utvalgte saker.
+* Sortere sakene ved å klikke på kolonneoverskriftene.
+* Klikke på en sak for å vise detaljene i forhåndsvisningsseksjonen til høyre.
+* Dobbeltklikke på en sak for å åpne den.
+* Bruke **Vis/skjul forhåndsvisning**-knappen nederst i bildet for å vise eller skjule forhåndsvisningen.
+* Klikke på <i class="ph ph-list" aria-hidden="true"></i> **Oppgave**-knappen for å utføre massehandlinger eller eksportere data, for eksempel lagre som favoritt eller slette flere saker samtidig.
 
 > [!TIP]
-> Statusen **Åpne** sammen med **Lest**-kolonnen gir oversikt over om saken er **Lest av eier**, **Ny informasjon** eller **Ikke lest av eier**.
+> Kolonnen **Lest** gir oversikt over om saken er **Lest av eier**, **Ny informasjon**, eller **Ikke lest av eier**.
 
-I bunnteksten i listen kan du klikke på ![ikon][img1] **Oppgave**-knappen for å få tilgang til følgende alternativer:
+### <a id="preview"></a>Forhåndsvisning
 
-* **Eksporter til Excel**: Klikk her hvis du vil eksportere listen under **Resultat** til en Excel-fil.
+Denne delen av skjermen viser innholdet i den valgte saken fra **Søkeresultat**. Du har de samme alternativene som når du [behandler saker][6].
 
-* **Masseredigering**: Hvis du merker av for en eller flere saker i listen, kan du klikke på dette alternativet og velge en handling du vil utføre på alle sakene samtidig. Du kan f.eks. velge å [legge den samme meldingen til i flere saker][8], [videresende flere saker][7] eller slette flere saker i en enkelt operasjon.
+Hvis forhåndsvisningen ikke er synlig, klikk **Vis forhåndsvisning** nederst i bildet.
 
-### <a id="preview"></a>Forhåndsvis
-
-I denne delen av bildet vises innholdet i saken som er valgt under **Søkeresultat**. Du har de samme alternativene som når du [behandler saker][6].
-
-Hvis forhåndsvisningsdelen ikke vises, klikker du på **Vis forhåndsvisning** nederst i bildet.
-
-## Aktuelle emner
+## Aktuelt innhold
 
 * [Bruke emneknagger i saker][1]
 * [Finn-bildet][11]
-* [Bruke Navigatorsøk][12]
+* [Bruke navigatørsøk][19]
 * [Opprette utvalg][13]
-* [Hent neste fra køen][5]
 
-<!-- Referenced links -->
+<!-- Refererte lenker -->
 [1]: tags.md
-[3]: ../../search-options/learn/freetext-search.md
-[4]: ../../search-options/learn/search-criteria.md
-[5]: next-in-queue.md
-[6]: howto/accept.md
-[7]: howto/forward.md
-[8]: howto/reply.md
-[9]: ../../dashboard/learn/index.md
+[6]: accept.md
+[9]: ../admin/next-in-queue.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
+[12]: ../../search-options/learn/freetext-search.md
 [13]: ../../search-options/selection/learn/create/tutorial.yml
+[14]: ../../search-options/learn/search-criteria.md
+[18]: ../../dashboard/learn/index.md
+[19]: ../../learn/getting-started/main-screen/navigator.md#navigator
 
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/loc/en/request/find-requests.png
+<!-- Refererte bilder -->
+[img2]: ../../../media/loc/en/request/find-request-criteria.png
+[img3]: ../../../media/loc/en/request/find-request-dropdown.png

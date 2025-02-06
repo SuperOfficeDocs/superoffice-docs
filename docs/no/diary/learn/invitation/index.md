@@ -2,11 +2,14 @@
 uid: help-no-invitation
 title: Opprette oppfølginger med medarbeiderne dine
 description: Opprette oppfølginger med medarbeiderne dine
+keywords: dagbok, oppfølging, invitasjon, møte, deltager, kalender
 author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
-keywords: dagbok, oppfølging, invitasjon, møte, deltager
-topic: howto
+date: 02.05.2025
+version: 10.5.2
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -18,17 +21,17 @@ Når du skal sette av tid til et møte med én eller flere medarbeidere, kan du 
 
 Du lager oppfølginger med andre medarbeidere ved å knytte dem til oppfølgingen som deltakere.
 
-Når vi lagrer møtet, blir en invitasjon lagt til personen vi inviterte og vises i vedkommendes dagbok på riktig dato og tidspunkt. Dette skjer bare hvis den inviterte personen også er en kollega. Du kan også invitere personer som tilhører andre kontakter; disse vil ikke ha en egen dagbok hvor møtet vises, men det vil i stedet bli vist i aktivitetsarkivet til deres kontakt.
+Når vi lagrer møtet, blir en invitasjon lagt til personen vi inviterte og vises i vedkommendes dagbok på riktig dato og tidspunkt. Dette skjer bare hvis den inviterte personen også er en kollega. Du kan også invitere personer som tilhører andre firma; disse vil ikke ha en egen dagbok hvor møtet vises, men det vil i stedet bli vist i detaljkortet **Aktiviteter** på deres personkort.
 
 ## <a id="status"></a>Status
 
 Brukerne du har valgt å knytte til en oppfølging, får melding om dette på skjermen. Hvis du åpner oppfølgingen på fanen **Deltakere**, ser du en oversikt over deltakerne og ressursene som er knyttet til oppfølgingen. Der kan du også se hvem som har godtatt eller avslått invitasjonen, og hvilke ressurser som er reservert, ved hjelp av symbolene ved siden av navnene:
 
-| Ikon | Beskrivelse |
+| Symbol | Beskrivelse |
 |:-:|---|
-| ![ikon][img1] | Invitasjon er godtatt. |
-| ![ikon][img2] | Invitasjonen er avslått. |
-| ![ikon][img3] | Invitasjon er sett, men ikke besvart. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Invitasjon er godtatt. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Invitasjonen er avslått. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Invitasjon er sett, men ikke besvart. |
 | umerket | Invitasjonen er ikke sett. |
 
 ## Ressurser
@@ -45,7 +48,7 @@ Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller a
 
 * Hvis personen godtar invitasjonen, registreres den i SuperOffice CRM på vanlig måte.
 
-## Hva vil du gjøre?
+## Relatert innhold
 
 * [Legge til deltakere i oppfølginger][2]
 * [Opprett gruppeoversikter][1]
@@ -53,8 +56,3 @@ Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller a
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-attendee.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png

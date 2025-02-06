@@ -19,11 +19,11 @@ To group colleagues together and grant them access to CRM data based on this gro
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator (1).
+1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator .
 
     ![Add new user group -screenshot][img3]
 
-1. Choose **General - User group** from the list (2) and click **+Add** (3).
+1. Choose **General - User group** from the list and click **Add**.
 
 1. Enter information in the dialog. Optionally, choose one or more [request categories][4] for this group.
 

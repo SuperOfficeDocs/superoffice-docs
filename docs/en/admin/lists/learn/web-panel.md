@@ -2,7 +2,7 @@
 uid: help-en-web-panel
 title: Web panel
 description: Web panel
-keywords: GUI - Web panel, www tab
+keywords: GUI - Web panel, web panel, www tab
 author: SuperOffice RnD
 date: 12.17.2024
 topic: concept

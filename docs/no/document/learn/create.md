@@ -2,11 +2,12 @@
 uid: help-no-document-create
 title: Opprett nytt dokument
 description: Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp eksisterende, for å sikre at du og kollegene dine alltid har tilgang til de nyeste dokumentene og versjonene. Denne veiledningen viser deg hvordan du gjør begge deler.
-keywords: dokument
+keywords: nytt dokument, legg til dokument, opprett dokument, WebTools, SharePoint, dokument
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.05.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -30,7 +31,7 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 
 Med SuperOffice CRM kan du logge på fra en hvilken som helst PC ved hjelp av en nettleser, men dokumentene dine blir deretter lagret på den sentrale serveren. Nedlasting og opplasting av dokumenter håndteres automatisk av SuperOffice WebTools.
 
-1. Klikk på **Ny** > **Dokument** på toppraden.
+1. Klikk **Ny** på toppraden og velg **Dokument**.
 
 2. [Fyll ut feltene med nødvendig informasjon](#fields).
 
@@ -44,7 +45,7 @@ Med SuperOffice CRM kan du logge på fra en hvilken som helst PC ved hjelp av en
 
 **Denne funksjonen krever en lisens.**
 
-1. Klikk på **Ny** > **Dokument** på toppraden.
+1. Klikk **Ny** på toppraden og velg **Dokument**.
 
 2. [Fyll ut feltene med nødvendig informasjon](#fields).
 
@@ -63,7 +64,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 > [!NOTE]
 > Denne fremgangsmåten beskriver hvordan du oppretter nye dokumenter hvis du bruker et skrivebordsprogram for tekstredigering. Selve prosessen kan være litt annerledes hvis du bruker et tekstbehandlingsprogram tilgjengelig på Internett (for eksempel Microsoft 365) og et dokumentbibliotek (for eksempel SharePoint).
 
-1. Klikk på **Ny** > **Dokument** på toppraden.
+1. Klikk **Ny** på toppraden og velg **Dokument**
 
 2. [Fyll ut feltene med nødvendig informasjon](#fields).
 
@@ -85,11 +86,9 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 7. Gå til dialogboksen Dokument.
 
     > [!NOTE]
-    > Hvis **Fullført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
+    > Hvis **Utført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
 
 8. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
-
-    ![Opprette nytt dokument -screenshot][img2]
 
 9. Lukk dialogboksen **Dokument** ved å klikke på **Lagre**.
 
@@ -98,7 +97,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 ## <a id="fields"></a>Slik fyller du inn informasjon
 
 > [!NOTE]
-> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
+> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
 ![Opprett dokument fra mal (ny) -screenshot][img4]
 
@@ -132,20 +131,17 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 ## <a id="upload"></a>Last opp dokumenter
 
-1. Klikk på **Ny** > **Dokument** på toppraden.
+1. Klikk **Ny** på toppraden og velg **Dokument**
 
 2. Dra og slipp dokumentet fra Windows Explorer til dialogboksen **Dokument**.
 
-3. (valgfritt) Marker dokumentet som fullført:
-
-     * Ny (fra versjon 10.3.11): Velg avmerkingsboksen i footeren.
-     * Klassisk dialog (onsite): Klikk på hakeikonet øverst til høyre i dialogboksen.
+3. (valgfritt) Velg avmerkingsboksen i footeren for å markere dokumentet som fullført.
 
 4. [Fyll ut feltene med nødvendig informasjon](#fields).
 
 5. Klikk på **Opprett**-knappen for å opprette det nye dokumentet i SuperOffice CRM. Dokumentet legges til på detaljkortet **Aktiviteter**.
 
-## Aktuelle emner
+## Relatert innhold
 
 * [Redigere dokumenter][1]
 * [Sjekke inn/ut dokumenter][3]
@@ -165,6 +161,4 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

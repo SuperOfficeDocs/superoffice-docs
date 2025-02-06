@@ -31,7 +31,7 @@ I fanen **Innstillinger** i Tilbud/Sync-bildet kan du tilpasse innstillingene fo
 Her vises feltene som brukes i hver tilbudslinje i tilbudet. Klikk på koblingen med feltnavnene eller knappen **Konfigurer produkt** for å [redigere disse feltene][2].
 
 <!-- Referenced links -->
-[1]: ../../../sale/learn/screen/sales-type-for-stages.md
+[1]: ../../../sale/admin/sale-type.md
 [2]: product/configure.md
 [3]: ../../../document/templates/learn/quote-templates.md
 

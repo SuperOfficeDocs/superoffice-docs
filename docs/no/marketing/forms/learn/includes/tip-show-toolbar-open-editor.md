@@ -1,9 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Klikk **Vis/skjul verktøylinjen** ![icon][img7] for å vise formateringsalternativer for teksten.
+> Klikk **Vis/skjul verktøylinjen** <i class="ph ph-text-a-underline" aria-hidden="true"></i> for å vise formateringsalternativer for teksten.
 >
-> Klikk **Åpne tekstredigeringsprogram** ![icon][img8] for å redigere teksten i et større redigeringsprogram.
-
-<!-- Referenced images -->
-[img7]: ../../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../../../../common/icons/pop-out-icon.png
+> Klikk **Åpne tekstredigeringsprogram** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) for å redigere teksten i et større redigeringsprogram.
