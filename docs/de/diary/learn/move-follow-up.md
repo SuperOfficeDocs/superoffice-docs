@@ -2,11 +2,14 @@
 uid: help-de-follow-up-move
 title: Folgeaufgaben verschieben
 description: Folgeaufgaben verschieben
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: Kalender, Folgeaufgabe
-topic: howto
+keywords: Folgeaufgaben verschieben, Besprechung verschieben, Meetingzeit ändern, Meetingzeitpunkt, Besprechung, Meeting, Kalender, Folgeaufgabe
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -21,7 +24,7 @@ Gelegentlich ist es notwendig, Folgeaufgaben zeitlich oder von der Aktivitätenl
 
 ## Zu einer anderen Uhrzeit oder an einem anderen Tag wechseln
 
-1. Wählen Sie die gewünschte Registerkarte in der Ansicht Kalender (**Tag**, **Woche**, **Monat** oder **Anzeigen**) aus.
+1. Wählen Sie die gewünschte Registerkarte in der Ansicht Kalender (**Tag**, **Woche**, **Monat** oder **Übersicht**) aus.
 
 2. Ziehen Sie die gewünschte Folgeaufgabe in eine andere Uhrzeit und legen Sie sie ab.
 
@@ -41,7 +44,7 @@ Gelegentlich ist es notwendig, Folgeaufgaben zeitlich oder von der Aktivitätenl
 
 Sie können eine Folgeaufgabe von der Aktivitätenliste in den Kalender verschieben. Dies kann hilfreich sein, wenn Sie eine Folgeaufgabe aus dem Kalender in die Aktivitätenliste verschoben haben und sie zum Beispiel an einem anderen Datum wieder in den Kalender einfügen möchten.
 
-1. Wählen Sie die gewünschte Registerkarte in der Ansicht Kalender (**Tag**, **Woche**, **Monat** oder **Anzeigen**) aus.
+1. Wählen Sie die gewünschte Registerkarte in der Ansicht Kalender (**Tag**, **Woche**, **Monat** oder **Übersicht**) aus.
 
 2. Klicken Sie auf die Folgeaufgabe in der Aktivitätenliste, und halten Sie dabei die Maustaste gedrückt.
 

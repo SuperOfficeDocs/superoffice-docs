@@ -1,39 +1,30 @@
 items:
 - name: Überblick
   href: index.md
-- name: Termin, Telefonanruf, Aufgabe
+- name: Besprechung, Telefonanruf, Aufgabe
   href: follow-ups.md
-- name: Kalender-Ansichten
-  topicHref: screen/index.md
-  items:
-  - name: Tag, Woche, Monat
-    href: screen/index.md
-  - name: Gruppenansicht
-    href: group-view.md
-  - name: Andere Tagebücher ansehen
-    href: other-diaries.md
-- name: Mit Folgeaufgaben arbeiten
-  topicHref: create-follow-up.md
-  items:
-  - name: Videokonferenzen
-    href: video-meetings.md
-  - name: "Eine Folgeaufgabe (Termin, Aufgabe oder Telefonanruf) hinzufügen"
-    href: create-follow-up.md
-  - name: Folgeaufgabe bearbeiten oder löschen
-    href: edit-follow-up.md
-  - name: Folgeaufgabe verschieben
-    href: move-follow-up.md
-  - name: Folgeaufgabe abschließen
-    href: change-completed-status.md
-  - name: Wiederholung
-    href: recurrence/toc.yml
-  - name: Eine Folgeaufgabe einer anderen Person zuweisen
-    href: follow-up-assign.md
-  - name: Alarm für Folgeaufgabe festlegen
-    href: set-alarm.md
-  - name: Folgeaufgabe als E-Mail senden
-    href: send-as-email.md
-
+- name: Videokonferenzen
+  href: video-meetings.md
+- name: Eine Folgeaufgabe hinzufügen
+  href: create-follow-up.md
+- name: Folgeaufgabe bearbeiten oder löschen
+  href: edit-follow-up.md
+- name: Folgeaufgabe verschieben
+  href: move-follow-up.md
+- name: Folgeaufgabe abschließen
+  href: change-completed-status.md
+- name: Andere Tagebücher ansehen
+  href: other-diaries.md
+- name: Gruppenansicht
+  href: group-view.md
+- name: Eine Folgeaufgabe zuweisen
+  href: follow-up-assign.md
+- name: Alarm für Folgeaufgabe festlegen
+  href: set-alarm.md
+- name: Folgeaufgabe als E-Mail senden
+  href: send-as-email.md
+- name: Wiederholung
+  href: recurrence/toc.yml
 - name: Einladungen
   href: invitation/toc.yml
   topicHref: invitation/index.md

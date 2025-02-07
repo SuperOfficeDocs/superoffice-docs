@@ -2,11 +2,14 @@
 uid: help-de-follow-up-assign
 title: Eine Folgeaufgabe zuweisen
 description: Eine Folgeaufgabe einer anderen Person zuweisen
+keywords: Folgeaufgabe zuweisen, Folgeaufgabe delegieren, Mitarbeiter, Kalender, Folgeaufgabe, zuweisen, delegieren, Neu zuweisen
 author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.10
-keywords: Kalender, Folgeaufgabe, zuweisen, delegieren
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -20,13 +23,13 @@ Beispiele: Ihr Kollege ist im Urlaub, muss aber einen Kunden anrufen, wenn er zu
 
 * Eine Folgeaufgabe einer anderen Person zuweisen (Eigentümer ändern)
 * Neu zuweisen
-* [Termin für einen Mitarbeiter erstellen][2]
+* [Besprechung für einen Mitarbeiter erstellen][2]
 
 ## Eine Folgeaufgabe zuweisen
 
 1. [Öffnen oder erstellen Sie eine Folgeaufgabe][1].
 
-1. Klicken Sie auf der Schaltfläche **Aufgabe** ![Symbol][img1] und wählen Sie **Zuweisen zu** aus. Alternativ können Sie die Folgeaufgabe öffnen und den Namen im Feld **Eigentümer** aktualisieren.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Zuweisen zu** aus. Alternativ können Sie die Folgeaufgabe öffnen und den Namen im Feld **Eigentümer** aktualisieren.
 
 1. Klicken Sie im Dialogfeld **Zuweisen zu** auf die Liste oben, um die anzuzeigenden Benutzer auszuwählen (Verlaufsliste, alle oder Gruppen).
 
@@ -48,6 +51,3 @@ Wenn die andere Person die Einladung ablehnt, erhalten Sie eine Einladung abgele
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
