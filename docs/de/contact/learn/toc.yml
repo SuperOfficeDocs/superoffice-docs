@@ -1,23 +1,20 @@
 items:
 - name: Überblick
   href: index.md
-- name: Arbeiten mit Personen
-  topicHref: create.md
-  items:
-  - name: Neue Person erstellen
-    href: create.md
-  - name: Personendaten bearbeiten
-    href: edit.md
-  - name: Eine Person verschieben
-    href: move.md
-  - name: Personen zusammenführen
-    href: merge-contacts.md
-  - name: Person löschen
-    href: delete.md
-  - name: E-Mail an eine Person senden
-    href: send-email.md
-  - name: Person anrufen
-    href: dial.md
+- name: Neue Person erstellen
+  href: create.md
+- name: Personendaten bearbeiten
+  href: edit.md
+- name: Eine Person verschieben
+  href: move.md
+- name: Personen zusammenführen
+  href: merge-contacts.md
+- name: Person löschen
+  href: delete.md
+- name: E-Mail an eine Person senden
+  href: send-email.md
+- name: Person anrufen
+  href: dial.md
 - name: Datenschutzeinstellungen und DSGVO
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

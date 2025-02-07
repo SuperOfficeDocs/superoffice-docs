@@ -4,8 +4,8 @@ title: Firmen zusammenführen
 description: Halten Sie Ihre Kundendatenbank sauber und effizient, indem Sie doppelte Firmen zusammenführen oder Einträge kombinieren, wenn eine Firma eine andere übernimmt.
 keywords: Firmen zusammenführen, Firmen verwalten, identische Personen zusammenführen, Firma
 author: Bergfrid Dias
-date: 01.23.2025
-version: 10.5.1
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -1,11 +1,14 @@
 ---
 uid: help-de-contact-merge
 title: Personen zusammenführen
-description: Personen zusammenführen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Firma
+description: Lernen Sie, wie Sie doppelte Personen in SuperOffice CRM zusammenführen, um Aktivitäten, Verkäufe und Projektmitgliedschaften zu konsolidieren. Enthält eine Schritt-für-Schritt-Anleitung zur Verwendung des Dialogfelds Personen zusammenführen.
+keywords: Personen zusammenführen, Personen verwalten, doppelte Einträge, Duplikat, ausgeschiedenen Mitarbeiter, Zusammenführen von Personen, Person
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -13,43 +16,47 @@ language: de
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Wenn eine natürliche Person als zwei verschiedene Kontakte in SuperOffice CRM erfasst wurde, können Sie diese Personen zusammenführen. Wenn die Person zum Beispiel unter zwei verschiedenen Namen bei derselben Firma erfasst war ("Jonathan Clark" und "Jonathon Clarke") oder wenn die Person sowohl bei ihrem alten als auch bei ihrem neuen Arbeitgeber erfasst war.
+Wenn dieselbe Person unter verschiedenen Namen oder Firmen in SuperOffice CRM erfasst wurde (z. B. "Jonathan Clark" und "Jonathon Clarke"), können Sie ihre Datensätze zusammenführen, um Aktivitäten, Verkäufe und Projektmitgliedschaften zu konsolidieren.
 
-Die Projektzugehörigkeit und die Aktivitäten werden zur neuen Person verschoben; die Quellperson kann entweder gelöscht oder als ausgeschieden gekennzeichnet werden.
+> [!NOTE]
+> Sie können keine Personen (SuperOffice-Benutzer) in Ihrer eigenen Firma zusammenführen. Sie können jedoch eine Person aus einer anderen Firma mit einer Person in Ihrer eigenen Firma zusammenführen.
 
-1. Öffnen Sie mit einem der folgenden Schritte das Dialogfeld **Personen zusammenführen**:
-    * Gehen Sie in die Anzeige Firma: Wechseln Sie zur Bereichsregisterkarte **Personen**, wählen Sie eine oder zwei zusammenzuführende Personen aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Personen verwalten** und **Personen zusammenführen**.
-    * In der Ansicht Person: Gehen Sie zur gewünschten Person, klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** in der Personenkarte und wählen Sie **Personen verwalten** und **Personen zusammenführen** aus.
+## Schritte
 
-2. Wenn Sie nur eine Person ausgewählt haben, wählen Sie unter **An** eine andere Person aus (beginnen Sie mit der Eingabe, um nach einer Person zu suchen). Die beiden Personen, die zusammengeführt werden sollen, werden nun unter **Von** und **An** angezeigt.
+1. Öffnen Sie das Dialogfeld **Personen zusammenführen**:
 
-    > [!TIP]
-    > Um die Personen **Von** und **An** umzuschalten, klicken Sie auf die Schaltfläche ![Symbol][img2].
+    * In der **Ansicht Person**: Wechseln Sie zur gewünschten Person, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe-Schaltfläche"></i> und wählen Sie **Personen verwalten** > **Personen zusammenführen** aus dem Menü.
 
-3. Wählen Sie unter **Aktion an \[contact/company\] nach dem Zusammenführen** eine der folgenden Optionen aus:
-    * **Löschen...**: Bei Auswahl dieser Option wird die Quellperson nach dem Zusammenführen gelöscht.
-        Wenn Sie zum Beispiel dieselbe Person zweimal unter derselben Firma erfasst haben.
-    * **Als ausgeschiedenen Mitarbeiter kennzeichnen**: Bei Auswahl dieser Option wird die Quellperson nach dem Zusammenführen als ausgeschiedener Mitarbeiter gekennzeichnet.
-        Wenn eine Person zum Beispiel Jobs gewechselt hat, aber immer noch unter der alten Firma erfasst bleiben soll.
+    * In der **Ansicht Firma**: Wechseln Sie zur Bereichsregisterkarte **Personen**, wählen Sie eine oder zwei Personen aus, klicken Sie mit der rechten Maustaste und wählen Sie **Personen verwalten** > **Personen zusammenführen**.
 
-4. Wählen Sie unter **Aktion für alle vorhandenen Aktivitäten und Verkäufe** eine der folgenden Optionen:
+1. Falls Sie nur eine Person ausgewählt haben, wählen Sie unter **An** eine zweite Person aus. Beginnen Sie mit der Eingabe, um nach der Person zu suchen. Um die Personen unter **Von** und **An** zu tauschen, klicken Sie auf die Pfeil-Schaltfläche <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
+
+1. Wählen Sie unter **Aktion an \[Firma\] nach dem Zusammenführen** eine der folgenden Optionen:
+
+    * **\[Quellperson\] löschen:** Löscht die Quellperson nach dem Zusammenführen (nützlich bei doppelten Einträgen).
+    * **Als ausgeschiedenen Mitarbeiter kennzeichnen:** Markiert die Quellperson als ausgeschiedenen Mitarbeiter (wenn die Person Jobs gewechselt hat).
+
+1. Wählen Sie unter **Aktion für alle vorhandenen Aktivitäten und Verkäufe** eine der folgenden Optionen:
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+1. Klicken Sie auf **Zusammenführen**. Folgendes passiert:
 
-5. Klicken Sie auf **Zusammenführen**. Die Personen werden zusammengeführt und die Projektzugehörigkeiten und Zugehörigkeiten statischer Selektionen werden verschoben.
+    * Alle Details werden zusammengeführt.
+    * Aktivitäten und Verkäufe bleiben mit der Zielperson verknüpft oder werden je nach gewählter Option verschoben.
+    * Zugehörigkeiten Projekt- und statische Selektionen folgen der Zielperson.
+    * Die festgelegte Aktion (Löschen oder als ausgeschiedenen Mitarbeiter kennzeichnen) wird auf die Quellperson angewendet.
 
-> [!NOTE]
-> Sie können keine Personen (SuperOffice-Benutzer) in Ihrer eigenen Firma zusammenführen, aber Sie können eine Person von einer anderen Firma mit einer Person in Ihrer eigenen Firma zusammenführen.
+![Dialogfeld 'Personen zusammenführen' mit Optionen zur Handhabung doppelter Einträge und Auswahl von Nachbearbeitungsaktionen. -screenshot][img4]
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Firmen zusammenführen][1]
+* [Gelöschte Firmen und Personen wiederherstellen][2]
 
-<!-- Referenced links -->
+<!-- Referenzierte Links -->
 [1]: ../../company/learn/merge-companies.md
+[2]: ../../learn/basics/deleting-elements.md#restore
 
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png
+<!-- Referenzierte Bilder -->
+[img4]: ../../../media/loc/en/contact/merge-contacts.png

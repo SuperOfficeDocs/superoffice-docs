@@ -4,8 +4,8 @@ title: Eine Firma kopieren
 description: Schritte zum Kopieren einer Firma
 keywords: Firma kopieren, Firmen verwalten
 author: Bergfrid Dias
-date: 01.23.2025
-version: 10.5.1
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

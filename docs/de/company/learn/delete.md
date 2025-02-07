@@ -4,8 +4,8 @@ title: Firma und zugehörige Daten löschen
 description: Firma und zugehörige Daten löschen
 keywords: Firma löschen, Firma entfernen, Firma
 author: SuperOffice RnD
-date: 01.21.2025
-version: 10.5.1
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

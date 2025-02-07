@@ -2,10 +2,10 @@
 uid: help-de-company-update
 title: Firmendaten bearbeiten
 description: So bearbeiten Sie die Details einer Firma.
-keywords: Firma bearbeiten, Firma aktualisieren, Firma
+keywords: Firma bearbeiten, Firma aktualisieren, Firmendaten, Firma
 author: Bergfrid Dias
-date: 01.21.2025
-version: 10.5.1
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
