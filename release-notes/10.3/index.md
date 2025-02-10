@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps, developer portal, learn, user guide,
 author: SuperOffice AS – Research and Development
-date: 12.10.2024
+date: 02.11.2025
 version: 10.3
 topic: reference
 ---
@@ -109,9 +109,9 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 ### Other highlights
 
-#### User guides - Help documentation
+#### User guides
 
-* [The user guide for Learn for version 10.3][53] in help.superoffice.com
+* [The user guide for SuperOffice version 10.3][53] at `help.superoffice.com`.
 * The user guide for [SuperOffice for Outlook][51] - it's available in six languages.
 * See the user guide for [SuperOffice Mobile CRM][52] in Docs.
 

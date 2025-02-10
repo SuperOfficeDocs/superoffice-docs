@@ -2,13 +2,11 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: new UI, diary, Copilot, AI, CRMScript, close request tab, trigger split request
+keywords: new UI, diary, Copilot, AI, CRMScript, close Request tab, trigger split request
 author: SuperOffice AS – Product and Engineering
 date: 02.11.2025
 version: 10.5
 topic: reference
-audience: person
-audience_tooltip: SuperOffice CRM
 ---
 
 # What's new in SuperOffice 10.5
@@ -51,8 +49,8 @@ Check out our **Product release** overview for more details in our [Community][1
 
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
-  * [CRMScript - Trigger to Split Request (10.5.2)][17] in Settings and maintenance / Service
-  * [CRMScript - Close request tab (10.5.2)][18] in Settings and maintenance / Service
+  * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
+  * [CRMScript - Close Request tab (10.5.2)][18] in Settings and maintenance / Service
 
 * 10.5.1 (21.01.2025):
   * [New UI for SuperOffice (10.5.1)][2] in SuperOffice CRM
@@ -86,13 +84,6 @@ Latest released versions:
 * SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.6 (20.06.2024)
 
-### User guides - Help documentation
-
-* [Learn and Docs for version 10.3][15] in help.superoffice.com
-* [Learn and Docs for version 10.2][14] in help.superoffice.com
-* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
-* User guide for [SuperOffice Mobile CRM][12] in Docs
-
 ### SuperOffice App Store
 
 See all the [new or updated apps][6]
@@ -103,11 +94,17 @@ See all the [new or updated apps][6]
 
 * [Logs - Event logs for Partners][16] (1.30)
 
+## User guides
+
+* User guide for [SuperOffice version 10.5][14] in Docs - available in six languages
+* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
+* User guide for [SuperOffice Mobile CRM][12] in Docs - English only
+
 ## Other highlights
 
 ### Ongoing pilot programs
 
-We use **pilot programs** assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
+We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
 
 * [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
@@ -125,11 +122,10 @@ We use **pilot programs** assess how well the features and functions meet our us
 [11]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [12]: ../../docs/en/mobile/superoffice-mobile/index.md
 [13]: office-integrations/6.0-update.md
-[14]: https://help.superoffice.com/docs/10.2/en/learn/index.html
-[15]: https://help.superoffice.com/docs/10.3/en/learn/index.html
-[16]: https://community.superoffice.com/en/technical/blogs/archive/developer-portal--1.30-release-
-[17]: admin/10.5.2-update.md#crmscript---trigger-to-split-request
-[18]: admin/10.5.2-update.md#crmscript---close-request-tab
+[14]: ../../docs/en/learn/index.yml
+[16]: ../../docs/en/developer-portal/analytics/logs.md
+[17]: admin/10.5.2-update.md#split-request
+[18]: admin/10.5.2-update.md#close-request
 [19]: core-crm/10.5.2-update.md
 
 <!-- Referenced images -->

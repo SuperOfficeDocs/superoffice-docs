@@ -13,8 +13,8 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
-* [CRMScript - Trigger to Split Request (10.5.2)][2] in Settings and maintenance
-* [CRMScript - Close request tab (10.5.2)][2] in Settings and maintenance
+* [CRMScript - Trigger to split request (10.5.2)][2] in Settings and maintenance
+* [CRMScript - Close Request tab (10.5.2)][2] in Settings and maintenance
 * [SuperOffice AI Lab - Easy to get started (10.5.1)][1]
 
 <!-- Referenced links-->

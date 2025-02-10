@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-date: 12.12.2023
+date: 02.11.2025
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
 topic: reference
 version: 10.2
@@ -102,9 +102,9 @@ version: 10.2
 
 ### Other highlights
 
-#### User guides - Help documentation
+#### User guides
 
-* [The user guide for Learn for version 10.3][35] in help.superoffice.com
+* [The user guide for SuperOffice version 10.2][35] at `help.superoffice.com`.
 
 #### Developer Portal
 
@@ -139,7 +139,7 @@ version: 10.2
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations
 [17]: office-integrations/3.1-update.md
-[18]: https://appstore.superoffice.com/Category/new-or-updated1
+[18]: https://appstore.superoffice.com/Category/new-and-updated
 [19]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
 [20]: ../../docs/en/developer-portal/create-app/message-center.md
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
@@ -155,6 +155,6 @@ version: 10.2
 [31]: ../../docs/en/developer-portal/widgets/index.md
 [32]: core-crm/10.2.11-update.md
 [34]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_10.2.15
-[35]: https://help.superoffice.com/docs/10.3/en/learn/index.html
+[35]: https://help.superoffice.com/docs/10.2/en/learn/index.html
 
 <!-- Referenced images -->
