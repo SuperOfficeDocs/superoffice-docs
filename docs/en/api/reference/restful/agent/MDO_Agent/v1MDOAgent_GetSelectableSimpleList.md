@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Terry, Dach and Waters"
+  "Name": "Bartell, Davis and Breitenberg"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kris, Tromp and Bailey",
-    "ToolTip": "Temporibus commodi non.",
+    "Id": 131,
+    "Name": "Koch-Kunde",
+    "ToolTip": "Necessitatibus repellat ut temporibus sint.",
     "Deleted": false,
-    "Rank": 560,
-    "Type": "est",
-    "ColorBlock": 489,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2008-01-20T13:13:23.3676626+01:00",
+    "Rank": 633,
+    "Type": "voluptatem",
+    "ColorBlock": 584,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "1998-03-22T12:01:27.9940463+01:00",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "Dicki-Leannon",
-        "ToolTip": "Voluptatem iure earum ea eos.",
-        "Deleted": true,
-        "Rank": 176,
-        "Type": "ut",
-        "ColorBlock": 641,
-        "IconHint": "et",
+        "Id": 81,
+        "Name": "Franecki, Quigley and Barton",
+        "ToolTip": "Voluptates ut nostrum.",
+        "Deleted": false,
+        "Rank": 392,
+        "Type": "est",
+        "ColorBlock": 581,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2016-08-16T13:13:23.3676626+02:00",
+        "LastChanged": "2014-04-21T12:01:27.9940463+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "iusto",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Anne Schultz",
+        "FullName": "Ms. Sofia Hansen DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 443
+            "FieldType": "System.Int32",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "inventore",
+    "ExtraInfo": "dolores",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Eulah Schowalter",
+    "FullName": "Daphney Raphaelle Hessel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 838
       }
     }
   }

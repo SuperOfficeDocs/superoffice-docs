@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Dare-Collins",
-    "ToolTip": "Debitis quo unde inventore.",
+    "Id": 599,
+    "Name": "Bednar, Kutch and Witting",
+    "ToolTip": "Earum est unde omnis enim distinctio culpa rerum.",
     "Deleted": false,
-    "Rank": 632,
-    "Type": "enim",
-    "ColorBlock": 577,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2009-06-27T13:13:32.9174228+02:00",
+    "Rank": 566,
+    "Type": "voluptatum",
+    "ColorBlock": 35,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2007-09-21T12:01:33.448849+02:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Little-Rolfson",
-        "ToolTip": "Et aut sit modi tenetur voluptas voluptatem.",
+        "Id": 115,
+        "Name": "Sanford-Kling",
+        "ToolTip": "Delectus autem et aut qui soluta nemo aut.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "velit",
-        "ColorBlock": 816,
-        "IconHint": "dolores",
+        "Rank": 174,
+        "Type": "debitis",
+        "ColorBlock": 843,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2018-11-25T13:13:32.9174228+01:00",
+        "LastChanged": "2011-04-12T12:01:33.448849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "porro",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Graciela Ward"
+        "FullName": "Alva Schmidt"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Mollie Skiles"
+    "FullName": "Prof. Pansy Morissette PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Bosco LLC",
-    "ToolTip": "Quia qui cumque eos quod expedita blanditiis.",
-    "Deleted": false,
-    "Rank": 25,
-    "Type": "aut",
-    "ColorBlock": 797,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2012-06-01T13:13:32.9174228+02:00",
+    "Id": 229,
+    "Name": "Fahey, O'Keefe and Metz",
+    "ToolTip": "Hic eligendi.",
+    "Deleted": true,
+    "Rank": 605,
+    "Type": "ut",
+    "ColorBlock": 432,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2013-06-20T12:01:33.448849+02:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Lesch, Jenkins and Corkery",
-        "ToolTip": "Consequatur corporis assumenda suscipit quasi.",
+        "Id": 323,
+        "Name": "McGlynn-Bechtelar",
+        "ToolTip": "Omnis ut quia ullam.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "facere",
-        "ColorBlock": 714,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2000-08-16T13:13:32.9174228+02:00",
+        "Rank": 767,
+        "Type": "ipsam",
+        "ColorBlock": 444,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2004-03-03T12:01:33.448849+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "sunt",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Isaac Rippin",
+        "FullName": "Waylon Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "quos",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "architecto",
     "Hidden": true,
-    "FullName": "Mrs. Garret Regan Sawayn IV",
+    "FullName": "King Orpha Lebsack MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 489
       }
     }
   }

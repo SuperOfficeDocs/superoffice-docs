@@ -89,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 767,
-  "WorkflowId": 325,
+  "WorkflowStepId": 70,
+  "WorkflowId": 477,
   "StepType": "AddToList",
-  "Rank": 725
+  "Rank": 862
 }
 ```

@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Erdman Group",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 82,
+  "Id": 485,
+  "Name": "Reilly Group",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "Rank": 725,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "ListType": "facere",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582,
-  "Name": "Marquardt-Swift",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 575,
+  "Id": 635,
+  "Name": "Quitzon, Mitchell and Little",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 817,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 26
     }
   }
 }

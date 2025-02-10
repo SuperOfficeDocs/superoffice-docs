@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "quod"
+  "Context": "quia"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "sed",
-    "ValueType": "dolore",
+    "Key": "est",
+    "ValueType": "sit",
     "Mandatory": true,
-    "EncodedDisplayName": "Kunde-Gutkowski",
-    "EncodedDisplayDescription": "Cloned directional website",
-    "IconHint": "accusantium",
+    "EncodedDisplayName": "Lowe, Wilkinson and Wiza",
+    "EncodedDisplayDescription": "Grass-roots leading edge parallelism",
+    "IconHint": "voluptatem",
     "ControlInfos": [
       {
-        "Type": "ea",
-        "Label": "laudantium",
-        "Dimension": 818,
-        "ListProviderName": "Hilll-Kunde",
-        "ListProviderExtraInfo": "ipsum",
-        "ListProviderPrimaryKeyName": "Collins Group",
-        "ListLeadText": "doloremque",
+        "Type": "molestias",
+        "Label": "asperiores",
+        "Dimension": 116,
+        "ListProviderName": "Kertzmann, Breitenberg and Schumm",
+        "ListProviderExtraInfo": "neque",
+        "ListProviderPrimaryKeyName": "Mayert-Yost",
+        "ListLeadText": "at",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldLength": 934
           }
         }
       }
     ],
-    "EncodedDataCaption": "suscipit",
-    "EncodedDataCaptionDescription": "Up-sized full-range service-desk",
-    "CurrentOperationType": "quas",
+    "EncodedDataCaption": "rerum",
+    "EncodedDataCaptionDescription": "Devolved hybrid flexibility",
+    "CurrentOperationType": "et",
     "Values": [
-      "doloribus",
-      "velit"
+      "nam",
+      "corrupti"
     ],
     "DisplayValues": [
-      "maiores",
-      "quia"
+      "id",
+      "porro"
     ],
     "OperationInfos": [
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Metz LLC",
+        "Key": "est",
+        "EncodedDisplayName": "Hagenes, Mueller and Sawayn",
         "EncodedLeadTexts": [
-          "impedit",
-          "ut"
+          "autem",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 965
+            "FieldType": "System.Int32",
+            "FieldLength": 13
           }
         }
       },
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Metz LLC",
+        "Key": "est",
+        "EncodedDisplayName": "Hagenes, Mueller and Sawayn",
         "EncodedLeadTexts": [
-          "impedit",
-          "ut"
+          "autem",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 965
+            "FieldType": "System.Int32",
+            "FieldLength": 13
           }
         }
       }

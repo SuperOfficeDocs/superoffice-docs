@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Rohan LLC"
+  "TargetTableName": "Cormier Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated zero defect installation",
-  "Postit": "necessitatibus",
+  "Description": "Versatile didactic alliance",
+  "Postit": "saepe",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 957,
-  "IncludePerson": 583,
+  "GroupIdx": 847,
+  "IncludePerson": 249,
   "MemberCount": 99.99,
-  "Name": "Hand-Ondricka",
-  "PostitTextId": 630,
-  "CreatedDate": "2014-08-18T13:13:23.9153174+02:00",
-  "SelectionId": 429,
-  "SoundEx": "eum",
-  "Source": 982,
-  "TextId": 874,
-  "UpdatedDate": "2018-05-19T13:13:23.9153174+02:00",
-  "UpdatedCount": 77,
-  "Visibility": 233,
+  "Name": "Schumm-Schneider",
+  "PostitTextId": 686,
+  "CreatedDate": "1998-01-28T12:01:28.2909425+01:00",
+  "SelectionId": 787,
+  "SoundEx": "totam",
+  "Source": 731,
+  "TextId": 124,
+  "UpdatedDate": "2023-08-28T12:01:28.2909425+02:00",
+  "UpdatedCount": 363,
+  "Visibility": 958,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 10,
-  "TargetTableName": "Bosco-Glover",
-  "Completed": true,
-  "LeftSelectionId": 226,
-  "RightSelectionId": 545,
+  "TargetTableNumber": 884,
+  "TargetTableName": "Brown, Heller and Wilderman",
+  "Completed": false,
+  "LeftSelectionId": 237,
+  "RightSelectionId": 599,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Effertz Inc and Sons",
-  "ShadowProviderName": "Mosciski, Feeney and Orn",
-  "ChartKey": "quo",
-  "LastLoaded": "2007-05-13T13:13:23.9153174+02:00",
-  "LastLoadedBy": 318,
+  "MainProviderName": "Roberts, Hodkiewicz and Purdy",
+  "ShadowProviderName": "Waelchi, Simonis and Reinger",
+  "ChartKey": "facilis",
+  "LastLoaded": "2001-08-03T12:01:28.2909425+02:00",
+  "LastLoadedBy": 36,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-01T13:13:23.9153174+01:00",
-  "LastMembershipChangeBy": 774,
+  "LastMembershipChange": "2005-02-02T12:01:28.2909425+01:00",
+  "LastMembershipChangeBy": 968,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Ruecker-Medhurst",
-  "DashboardTileDefinitionId": 569,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Huel Group",
+  "DashboardTileDefinitionId": 646,
   "VisibleFor": [
     {
-      "VisibleId": 148,
+      "VisibleId": 183,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 233
         }
       }
     },
     {
-      "VisibleId": 148,
+      "VisibleId": 183,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 233
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 48
     }
   }
 }

@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 342,
-  "QuoteAlternativeId": 738,
-  "QuoteAlternativeName": "Dietrich, Hodkiewicz and Marvin"
+  "QuoteVersionId": 824,
+  "QuoteAlternativeId": 783,
+  "QuoteAlternativeName": "Wyman, Ledner and Cruickshank"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 900,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 128,
-  "Name": "Hackett, Hirthe and Gottlieb",
-  "Description": "Face to face scalable extranet",
+  "QuoteAlternativeId": 23,
+  "ERPQuoteAlternativeKey": "doloremque",
+  "QuoteVersionId": 98,
+  "Name": "Goodwin Inc and Sons",
+  "Description": "Multi-layered modular flexibility",
   "Status": "Error",
-  "Reason": "leverage user-centric deliverables",
-  "ERPDiscountPercent": 22784.18,
-  "ERPDiscountAmount": 8994.58,
-  "DiscountPercent": 22687.025999999998,
-  "DiscountAmount": 20737.678,
+  "Reason": "",
+  "ERPDiscountPercent": 10122.82,
+  "ERPDiscountAmount": 12423.176,
+  "DiscountPercent": 26839.576,
+  "DiscountAmount": 20740.811999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 1125.106,
-  "EarningPercent": 13864.815999999999,
-  "EarningAmount": 28898.613999999998,
-  "SubTotal": 3713.79,
-  "TotalPrice": 10561.58,
-  "ExtraField1": "maiores",
-  "ExtraField2": "quidem",
-  "ExtraField3": "ea",
-  "ExtraField4": "vel",
-  "ExtraField5": "qui",
+  "VATInfo": "reprehenderit",
+  "VAT": 858.716,
+  "EarningPercent": 14077.928,
+  "EarningAmount": 27294.005999999998,
+  "SubTotal": 15582.248,
+  "TotalPrice": 3184.144,
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "iusto",
+  "ExtraField4": "sed",
+  "ExtraField5": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldLength": 288
     }
   }
 }

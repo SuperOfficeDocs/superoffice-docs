@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    972,
-    639
+    299,
+    332
   ],
-  "TargetFolder": "eos"
+  "TargetFolder": "in"
 }
 ```
 

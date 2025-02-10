@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "est",
+  "FieldLabel": "aliquam",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 414,
-  "ColumnId": 566,
-  "FieldDefault": "quasi",
-  "FieldHeight": 92,
-  "FieldLabel": "enim",
-  "FieldLeft": 832,
-  "FieldTop": 868,
+  "UDefFieldId": 690,
+  "ColumnId": 430,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 820,
+  "FieldLabel": "sunt",
+  "FieldLeft": 146,
+  "FieldTop": 551,
   "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "ab",
+  "FieldWidth": 203,
+  "FormatMask": "cupiditate",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 139,
-  "LabelLeft": 907,
-  "LabelTop": 67,
-  "LabelWidth": 43,
-  "LastVersionId": 879,
-  "ListTableId": 674,
+  "IsIndexed": false,
+  "LabelHeight": 652,
+  "LabelLeft": 702,
+  "LabelTop": 138,
+  "LabelWidth": 182,
+  "LastVersionId": 733,
+  "ListTableId": 503,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 233,
-  "ProgId": "ratione",
+  "Page1LineNo": 887,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "explicabo",
-  "TabOrder": 468,
-  "TextLength": 642,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 54,
-  "UDListDefinitionId": 806,
+  "ShortLabel": "rerum",
+  "TabOrder": 96,
+  "TextLength": 963,
+  "Tooltip": "repudiandae",
+  "UdefIdentity": 966,
+  "UDListDefinitionId": 306,
   "Justification": "Center",
-  "Version": 518,
-  "TemplateVariableName": "Kunze, Feeney and Kiehn",
-  "HasBeenPublished": true,
-  "MdoListName": "Witting Group",
+  "Version": 554,
+  "TemplateVariableName": "Marks Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Toy-Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

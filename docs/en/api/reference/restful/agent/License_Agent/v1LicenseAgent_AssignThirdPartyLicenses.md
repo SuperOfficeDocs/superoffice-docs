@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 402,
-  "ModuleOwner": "sunt",
+  "AssociateId": 113,
+  "ModuleOwner": "maxime",
   "ModuleLicenseNames": [
-    "Bailey Inc and Sons",
-    "Koepp-McLaughlin"
+    "Kilback, Leannon and Batz",
+    "Mitchell Inc and Sons"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 547,
-    "Tooltip": "exercitationem",
+    "Total": 474,
+    "Tooltip": "dolorum",
     "CanAssign": false,
-    "Free": 744,
-    "InUse": 716,
+    "Free": 130,
+    "InUse": 331,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 859,
-    "Name": "Walter Inc and Sons",
-    "Description": "Synergized maximized Graphic Interface",
-    "PrerequisiteModuleName": "Braun, Grimes and Kunze",
-    "SortOrder": 745,
-    "ExtraFlags": 508,
+    "Assigned": true,
+    "ModuleLicenseId": 434,
+    "Name": "Rempel Group",
+    "Description": "Grass-roots maximized neural-net",
+    "PrerequisiteModuleName": "Erdman LLC",
+    "SortOrder": 986,
+    "ExtraFlags": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldType": "System.String",
+        "FieldLength": 481
       }
     }
   }

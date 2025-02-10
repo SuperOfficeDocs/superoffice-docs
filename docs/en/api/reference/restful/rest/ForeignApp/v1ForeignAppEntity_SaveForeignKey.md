@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "expedita",
-  "Value": "qui",
-  "RecordId": 645,
-  "CreatedDate": "2016-06-14T13:13:31.7613495+02:00",
-  "UpdatedDate": "2010-03-22T13:13:31.7613495+01:00",
-  "UpdatedBy": "nisi",
-  "CreatedBy": "praesentium",
-  "TableName": "Fritsch, Konopelski and Howell"
+  "Key": "cum",
+  "Value": "quia",
+  "RecordId": 334,
+  "CreatedDate": "2009-11-25T12:01:32.9175621+01:00",
+  "UpdatedDate": "2010-04-22T12:01:32.9175621+02:00",
+  "UpdatedBy": "nesciunt",
+  "CreatedBy": "sed",
+  "TableName": "Erdman, Beier and Douglas"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magni",
-  "Value": "doloremque",
-  "RecordId": 436,
-  "CreatedDate": "2008-06-28T13:13:31.7613495+02:00",
-  "UpdatedDate": "2015-12-23T13:13:31.7613495+01:00",
-  "UpdatedBy": "consectetur",
-  "CreatedBy": "ipsum",
-  "TableName": "Windler Group",
+  "Key": "voluptatem",
+  "Value": "ab",
+  "RecordId": 347,
+  "CreatedDate": "2023-11-25T12:01:32.9175621+01:00",
+  "UpdatedDate": "2011-08-28T12:01:32.9175621+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "nulla",
+  "TableName": "Torphy-Wuckert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldLength": 223
     }
   }
 }

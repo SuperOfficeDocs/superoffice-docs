@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Robel Group",
-    "AssociateId": 590,
-    "DetailsTable": 964,
-    "DetailsRecord": 983,
+    "Id": 649,
+    "Name": "Renner LLC",
+    "AssociateId": 475,
+    "DetailsTable": 522,
+    "DetailsRecord": 652,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "molestiae",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "in",
+      "ParameterObject2": "modi"
     },
-    "LastStarted": "2002-09-23T13:13:22.133333+02:00",
-    "Created": "2022-02-21T13:13:22.133333+01:00",
-    "StartCount": 873,
-    "DatabaseSerialNumber": "919944",
-    "Context": "repellat",
-    "Result": "in",
+    "LastStarted": "2020-07-27T12:01:27.3533761+02:00",
+    "Created": "2023-11-24T12:01:27.3533761+01:00",
+    "StartCount": 377,
+    "DatabaseSerialNumber": "1757439",
+    "Context": "magni",
+    "Result": "nesciunt",
     "State": "All",
-    "Description": "Mandatory clear-thinking moratorium",
-    "Response": "facere",
-    "Request": "ut",
-    "ProgressDescription": "Enterprise-wide full-range local area network",
-    "ProgressPercent": 337,
-    "FileName": "Borer, Borer and Kshlerin",
+    "Description": "Secured discrete circuit",
+    "Response": "officia",
+    "Request": "ea",
+    "ProgressDescription": "Devolved dedicated collaboration",
+    "ProgressPercent": 14,
+    "FileName": "Smith Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldType": "System.Int32",
+        "FieldLength": 581
       }
     }
   }

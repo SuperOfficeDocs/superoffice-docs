@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 616,
-  "Name": "Jacobson, Kuhic and Fisher",
-  "Tooltip": "et",
+  "HeadingId": 252,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 165,
-  "UdListDefinitionId": 567
+  "Rank": 45,
+  "UdListDefinitionId": 889
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 309,
-  "Name": "Gutmann-Rau",
-  "Tooltip": "tempore",
+  "HeadingId": 333,
+  "Name": "Graham-Osinski",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 625,
+  "Rank": 704,
+  "UdListDefinitionId": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 957
     }
   }
 }

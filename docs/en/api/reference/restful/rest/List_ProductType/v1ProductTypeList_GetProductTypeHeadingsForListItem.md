@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Price-Miller",
-    "ToolTip": "Ea et maiores reiciendis et.",
+    "Id": 403,
+    "Name": "Wilkinson-Stiedemann",
+    "ToolTip": "Quo enim ut voluptates.",
     "Deleted": false,
-    "Rank": 660,
-    "Type": "blanditiis",
-    "ColorBlock": 408,
-    "IconHint": "iusto",
+    "Rank": 404,
+    "Type": "nihil",
+    "ColorBlock": 960,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2018-01-31T13:13:33.3548212+01:00",
+    "LastChanged": "2023-03-28T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Jacobson Group",
-        "ToolTip": "At sed repellendus iusto nisi consectetur laborum.",
+        "Id": 63,
+        "Name": "Corkery, Berge and Will",
+        "ToolTip": "Neque voluptate et sint maxime qui.",
         "Deleted": true,
-        "Rank": 577,
-        "Type": "odio",
-        "ColorBlock": 781,
-        "IconHint": "voluptas",
+        "Rank": 184,
+        "Type": "ut",
+        "ColorBlock": 627,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2008-09-17T13:13:33.3548212+02:00",
+        "LastChanged": "2000-12-04T12:01:33.5894836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "minus",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "illo",
         "Hidden": true,
-        "FullName": "Dr. Bridgette Collins V",
+        "FullName": "Keyshawn Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Emiliano Kacie Thiel I",
+    "FullName": "Christiana Hayes IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 975
       }
     }
   }

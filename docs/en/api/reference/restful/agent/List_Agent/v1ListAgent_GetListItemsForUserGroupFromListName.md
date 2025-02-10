@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kozey, Terry and Sanford",
-  "GroupId": 209
+  "UdListDefinitionName": "Stoltenberg Group",
+  "GroupId": 202
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Senger-Luettgen",
-    "ToolTip": "Magni maxime eius.",
+    "Id": 819,
+    "Name": "Weissnat, Hermann and Champlin",
+    "ToolTip": "Voluptatibus sit nihil ducimus porro.",
     "Deleted": false,
-    "Rank": 331,
-    "Type": "quia",
-    "ColorBlock": 324,
-    "IconHint": "fuga",
+    "Rank": 587,
+    "Type": "et",
+    "ColorBlock": 126,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2017-12-27T13:13:23.2583064+01:00",
+    "LastChanged": "2014-10-01T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Dare-O'Kon",
-        "ToolTip": "Voluptatum in laudantium expedita delectus.",
-        "Deleted": false,
-        "Rank": 136,
-        "Type": "ea",
-        "ColorBlock": 797,
-        "IconHint": "qui",
+        "Id": 885,
+        "Name": "Ullrich Group",
+        "ToolTip": "Qui perferendis beatae.",
+        "Deleted": true,
+        "Rank": 880,
+        "Type": "corporis",
+        "ColorBlock": 207,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2020-12-26T13:13:23.2583064+01:00",
+        "LastChanged": "2007-07-22T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "possimus",
+        "ExtraInfo": "amet",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Prof. Ivory Ellis Roob",
+        "FullName": "Trycia Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldType": "System.String",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ea",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Austin Erdman",
+    "FullName": "Elsa Darby Williamson IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 78
       }
     }
   }

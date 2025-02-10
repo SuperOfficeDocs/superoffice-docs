@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ullam",
-  "PluginId": 478
+  "LanguageCode": "qui",
+  "PluginId": 636
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 151,
-  "Name": "Pfeffer Inc and Sons",
-  "Tooltip": "vero",
-  "SaveInDb": 163,
-  "Filename": "commodi",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 949,
+  "Name": "Cruickshank, Jakubowski and Ward",
+  "Tooltip": "ut",
+  "SaveInDb": 988,
+  "Filename": "voluptate",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 774,
-  "IntentId": 218,
+  "AutoeventId": 729,
+  "IntentId": 842,
   "IsDefaultPublished": false,
-  "Rank": 94,
-  "LoadTemplateFromPlugin": 127,
-  "MimeType": "modi",
+  "Rank": 942,
+  "LoadTemplateFromPlugin": 653,
+  "MimeType": "doloremque",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 971,
+  "DocumentTypeKey": 341,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "destany.kunde@barton.com",
+  "EmailSubject": "edwin@wilkinsonkuvalis.name",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "laron@block.ca",
+  "SenderEmailAddress": "liliane_hermiston@okeefekassulke.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

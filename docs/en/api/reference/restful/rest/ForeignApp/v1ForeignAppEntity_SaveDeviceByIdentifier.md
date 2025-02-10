@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 351,
-  "Name": "Schaefer, Jacobi and Hahn",
-  "CreatedDate": "2002-11-07T13:13:31.7457296+01:00",
-  "UpdatedDate": "2021-07-09T13:13:31.7457296+02:00",
-  "AssociateFullName": "Adrien Gibson",
-  "CreatedBy": "delectus",
-  "UpdatedBy": "rerum",
-  "DeviceIdentifier": "recusandae",
-  "ForeignAppId": 807
+  "ForeignDeviceId": 812,
+  "Name": "Kris, Barton and Rodriguez",
+  "CreatedDate": "2016-12-01T12:01:32.9175621+01:00",
+  "UpdatedDate": "2010-03-08T12:01:32.9175621+01:00",
+  "AssociateFullName": "Kathlyn Zemlak",
+  "CreatedBy": "aut",
+  "UpdatedBy": "officiis",
+  "DeviceIdentifier": "repellendus",
+  "ForeignAppId": 814
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 569,
-  "Name": "Renner Group",
-  "CreatedDate": "2008-02-28T13:13:31.7457296+01:00",
-  "UpdatedDate": "2019-02-23T13:13:31.7457296+01:00",
-  "AssociateFullName": "Lonny Bechtelar",
-  "CreatedBy": "sint",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 274,
+  "ForeignDeviceId": 146,
+  "Name": "Sipes, Hodkiewicz and Padberg",
+  "CreatedDate": "2004-04-24T12:01:32.9175621+02:00",
+  "UpdatedDate": "2012-05-09T12:01:32.9175621+02:00",
+  "AssociateFullName": "Carmelo Littel",
+  "CreatedBy": "tempore",
+  "UpdatedBy": "nostrum",
+  "DeviceIdentifier": "numquam",
+  "ForeignAppId": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   }
 }

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Reinger-Borer",
-  "ProviderName": "Gutmann, Lebsack and Braun",
-  "Context": "nihil",
-  "OwnerKeys": "delectus"
+  "GuiName": "Schmitt Inc and Sons",
+  "ProviderName": "Bechtelar, Hermann and Murray",
+  "Context": "sed",
+  "OwnerKeys": "exercitationem"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "DuBuque, Beer and Carter",
-      "DisplayTooltip": "quos",
-      "DisplayType": "id",
+      "DisplayName": "Tillman LLC",
+      "DisplayTooltip": "ut",
+      "DisplayType": "pariatur",
       "CanOrderBy": true,
-      "Name": "Klocko, Metz and Daniel",
-      "CanRestrictBy": false,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Morar-Block",
+      "Name": "Abernathy, Dach and Huel",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Volkman Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "dolores",
-      "Width": "a",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "quisquam"
+      "ExtraInfo": "incidunt",
+      "Width": "quidem",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 265,
-      "Name": "Emard, Lemke and Trantow",
-      "ToolTip": "Vel rerum cumque.",
-      "Deleted": false,
-      "Rank": 239,
-      "Type": "quia",
-      "ColorBlock": 497,
-      "IconHint": "fugit",
-      "Selected": true,
-      "LastChanged": "2021-06-29T13:13:22.0864676+02:00",
+      "Id": 472,
+      "Name": "Bins-Beier",
+      "ToolTip": "In maxime hic nemo.",
+      "Deleted": true,
+      "Rank": 961,
+      "Type": "fugiat",
+      "ColorBlock": 962,
+      "IconHint": "qui",
+      "Selected": false,
+      "LastChanged": "2021-08-12T12:01:27.3221238+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veniam",
-      "StyleHint": "totam",
+      "ExtraInfo": "velit",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Buford Pfannerstill",
+      "FullName": "Miss Gerda Erika Treutel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 445
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Beer, Emard and Braun",
+      "Name": "Reilly-Bradtke",
       "Direction": "ASC"
     },
     {
-      "Name": "Beer, Emard and Braun",
+      "Name": "Reilly-Bradtke",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ut",
+  "OwnerKeys": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

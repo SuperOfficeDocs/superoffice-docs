@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 923,
-  "GroupId": 14
+  "UdListDefinitionId": 357,
+  "GroupId": 400
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Johnson Inc and Sons",
-    "ToolTip": "Distinctio excepturi et et voluptas dolorem est.",
+    "Id": 5,
+    "Name": "Hoppe, Johnston and Durgan",
+    "ToolTip": "Asperiores dignissimos consectetur possimus dolorum vel aut.",
     "Deleted": false,
-    "Rank": 503,
-    "Type": "dolore",
-    "ColorBlock": 455,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2003-01-13T13:13:23.2583064+01:00",
+    "Rank": 316,
+    "Type": "cumque",
+    "ColorBlock": 95,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2012-03-29T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 844,
-        "Name": "Schaden-Crooks",
-        "ToolTip": "In id aut commodi.",
-        "Deleted": false,
-        "Rank": 304,
-        "Type": "sed",
-        "ColorBlock": 828,
-        "IconHint": "quae",
+        "Id": 380,
+        "Name": "Feeney LLC",
+        "ToolTip": "Autem aut deleniti sed velit quis magnam id.",
+        "Deleted": true,
+        "Rank": 911,
+        "Type": "non",
+        "ColorBlock": 566,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2010-08-24T13:13:23.2583064+02:00",
+        "LastChanged": "2005-03-28T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "atque",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Felipe Bednar",
+        "FullName": "Dr. Laisha Fabian Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldLength": 355
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "vitae",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Emilie Balistreri",
+    "FullName": "Nathaniel Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 460
       }
     }
   }

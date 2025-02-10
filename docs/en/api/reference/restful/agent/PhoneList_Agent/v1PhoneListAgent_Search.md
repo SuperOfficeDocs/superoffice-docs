@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "assumenda"
+  "SearchString": "sed"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "357.919.5370 x963",
-    "PersonCellPhone": "322.564.0823",
-    "PersonPrivatePhone": "110-065-9038 x4750",
-    "PersonFaxNumber": "1170182",
-    "PersonPagerNumber": "918373",
-    "PersonEmail": "karlie.collins@pouros.info",
-    "Id": 865,
-    "Name": "Cassin Group",
-    "Tooltip": "pariatur",
-    "UniqueId": "soluta",
+    "PersonDirectPhone": "761-738-7797 x455",
+    "PersonCellPhone": "(135)392-5803",
+    "PersonPrivatePhone": "683-315-0913 x420",
+    "PersonFaxNumber": "260277",
+    "PersonPagerNumber": "324539",
+    "PersonEmail": "ozella@miller.uk",
+    "Id": 400,
+    "Name": "Lakin, Fay and Terry",
+    "Tooltip": "in",
+    "UniqueId": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 233
       }
     }
   }

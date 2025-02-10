@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 580
+  "QuoteVersionId": 571
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 995,
-  "ERPQuoteVersionKey": "nulla",
-  "QuoteId": 781,
-  "Description": "Robust analyzing interface",
-  "Number": "1687581",
+  "QuoteVersionId": 112,
+  "ERPQuoteVersionKey": "consectetur",
+  "QuoteId": 13,
+  "Description": "Balanced neutral interface",
+  "Number": "235835",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 198,
-  "SentDate": "2008-01-11T13:13:23.6957086+01:00",
-  "FollowupId": 989,
-  "ExpirationDate": "2007-08-24T13:13:23.6957086+02:00",
-  "DeliveryCountryId": 76,
+  "LikelyQuoteAlternativeId": 45,
+  "SentDate": "2020-12-02T12:01:28.1815588+01:00",
+  "FollowupId": 76,
+  "ExpirationDate": "2017-09-22T12:01:28.1815588+02:00",
+  "DeliveryCountryId": 462,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 96,
+  "InvoiceCountryId": 14,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "incidunt",
-  "ERPPaymentTypeKey": "omnis",
-  "ERPDeliveryTermsKey": "laudantium",
-  "ERPDeliveryTypeKey": "sit",
-  "Rank": 719,
-  "ApprovedBy": 364,
-  "ApprovedText": "ratione",
-  "ApprovedRegisteredBy": 747,
-  "ApprovedRegisteredDate": "2011-11-30T13:13:23.6957086+01:00",
-  "ExtraField1": "non",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "corporis",
-  "ExtraField4": "id",
-  "ExtraField5": "est",
-  "LastRecalculated": "2013-11-05T13:13:23.6957086+01:00",
-  "Updated": "2012-12-31T13:13:23.6957086+01:00",
-  "UpdatedAssociateId": 706,
-  "Registered": "1999-06-23T13:13:23.6957086+02:00",
-  "RegisteredAssociateId": 12,
-  "RequestAssociateId": 115,
-  "RequestComment": "at",
+  "ERPPaymentTermsKey": "perferendis",
+  "ERPPaymentTypeKey": "non",
+  "ERPDeliveryTermsKey": "sit",
+  "ERPDeliveryTypeKey": "omnis",
+  "Rank": 826,
+  "ApprovedBy": 164,
+  "ApprovedText": "sed",
+  "ApprovedRegisteredBy": 879,
+  "ApprovedRegisteredDate": "2011-02-17T12:01:28.1815588+01:00",
+  "ExtraField1": "qui",
+  "ExtraField2": "laboriosam",
+  "ExtraField3": "nemo",
+  "ExtraField4": "hic",
+  "ExtraField5": "laudantium",
+  "LastRecalculated": "2020-11-03T12:01:28.1815588+01:00",
+  "Updated": "2022-08-05T12:01:28.1815588+02:00",
+  "UpdatedAssociateId": 523,
+  "Registered": "2017-06-21T12:01:28.1815588+02:00",
+  "RegisteredAssociateId": 666,
+  "RequestAssociateId": 828,
+  "RequestComment": "eligendi",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 981,
-      "ERPQuoteAlternativeKey": "quae",
-      "QuoteVersionId": 538,
-      "Name": "Jaskolski-Nolan",
-      "Description": "Reduced leading edge initiative",
+      "QuoteAlternativeId": 495,
+      "ERPQuoteAlternativeKey": "praesentium",
+      "QuoteVersionId": 124,
+      "Name": "Schowalter Inc and Sons",
+      "Description": "Right-sized motivating infrastructure",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 7170.592,
-      "ERPDiscountAmount": 13993.31,
-      "DiscountPercent": 30907.507999999998,
-      "DiscountAmount": 1579.536,
+      "ERPDiscountPercent": 16904.796,
+      "ERPDiscountAmount": 6797.646,
+      "DiscountPercent": 9862.698,
+      "DiscountAmount": 7690.8359999999993,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "impedit",
-      "VAT": 30503.221999999998,
-      "EarningPercent": 26031.004,
-      "EarningAmount": 25050.061999999998,
-      "SubTotal": 29023.974,
-      "TotalPrice": 7646.96,
-      "ExtraField1": "animi",
-      "ExtraField2": "assumenda",
-      "ExtraField3": "necessitatibus",
-      "ExtraField4": "recusandae",
-      "ExtraField5": "sed",
+      "VATInfo": "dolorem",
+      "VAT": 24075.388,
+      "EarningPercent": 10752.753999999999,
+      "EarningAmount": 29469.002,
+      "SubTotal": 21649.672,
+      "TotalPrice": 24699.054,
+      "ExtraField1": "eaque",
+      "ExtraField2": "ratione",
+      "ExtraField3": "et",
+      "ExtraField4": "eligendi",
+      "ExtraField5": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldType": "System.String",
+          "FieldLength": 977
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 584
     }
   }
 }

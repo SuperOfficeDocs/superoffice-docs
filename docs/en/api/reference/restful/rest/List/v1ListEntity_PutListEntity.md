@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Jacobs, Runolfsson and Collins",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 497,
+  "Id": 556,
+  "Name": "Turcotte-Spinka",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 452,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": false
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "McCullough LLC",
-  "Tooltip": "deleniti",
+  "Id": 149,
+  "Name": "Sporer LLC",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 533,
+  "Rank": 969,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eveniet",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 39
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

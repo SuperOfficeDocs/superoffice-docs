@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 727,
-  "Name": "Spencer, Lemke and Gusikowski",
-  "CurrencyId": 541,
-  "EnglishName": "Shields, Schimmel and Grimes",
+  "CountryId": 102,
+  "Name": "Emard Inc and Sons",
+  "CurrencyId": 997,
+  "EnglishName": "Robel-McCullough",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Configurable explicit capability",
-  "OrgNrText": "452454",
-  "InterAreaPrefix": "placeat",
-  "DialInPrefix": "reiciendis",
-  "ZipPrefix": "maxime",
-  "DomainName": "Steuber, Mitchell and Schuster",
-  "AddressLayoutId": 834,
-  "DomesticAddressLayoutId": 540,
-  "ForeignAddressLayoutId": 887,
-  "Rank": 738,
-  "Tooltip": "tenetur",
-  "Deleted": true
+  "ImageDescription": "De-engineered heuristic help-desk",
+  "OrgNrText": "926709",
+  "InterAreaPrefix": "expedita",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "aspernatur",
+  "DomainName": "Halvorson, Bartell and Gusikowski",
+  "AddressLayoutId": 484,
+  "DomesticAddressLayoutId": 414,
+  "ForeignAddressLayoutId": 319,
+  "Rank": 608,
+  "Tooltip": "autem",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 96,
-  "Name": "Kuvalis Group",
-  "CurrencyId": 137,
-  "EnglishName": "Legros, Abshire and Hartmann",
+  "CountryId": 602,
+  "Name": "Ziemann, Gibson and Conroy",
+  "CurrencyId": 931,
+  "EnglishName": "Maggio-Conroy",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Focused zero defect focus group",
-  "OrgNrText": "839057",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "totam",
-  "ZipPrefix": "et",
-  "DomainName": "Mayert, Mante and Bergnaum",
-  "AddressLayoutId": 714,
-  "DomesticAddressLayoutId": 128,
-  "ForeignAddressLayoutId": 876,
-  "Rank": 848,
-  "Tooltip": "quo",
-  "Deleted": true,
+  "ImageDescription": "Synergistic cohesive parallelism",
+  "OrgNrText": "1941143",
+  "InterAreaPrefix": "illum",
+  "DialInPrefix": "ex",
+  "ZipPrefix": "veniam",
+  "DomainName": "Runolfsson-Wolff",
+  "AddressLayoutId": 822,
+  "DomesticAddressLayoutId": 344,
+  "ForeignAddressLayoutId": 149,
+  "Rank": 444,
+  "Tooltip": "voluptatem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 954
     }
   }
 }

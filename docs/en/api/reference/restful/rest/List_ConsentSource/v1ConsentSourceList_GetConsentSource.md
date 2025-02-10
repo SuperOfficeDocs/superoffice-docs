@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 346,
-  "Name": "Heller Inc and Sons",
-  "Tooltip": "ut",
-  "Rank": 745,
-  "Key": "voluptatem",
-  "MailTemplateId": 543,
+  "ConsentSourceId": 33,
+  "Name": "Casper LLC",
+  "Tooltip": "aut",
+  "Rank": 476,
+  "Key": "occaecati",
+  "MailTemplateId": 483,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 412
     }
   }
 }

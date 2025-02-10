@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Leuschke Inc and Sons",
-    "ToolTip": "Unde vel.",
+    "Id": 987,
+    "Name": "Anderson Inc and Sons",
+    "ToolTip": "Doloribus hic consequuntur pariatur molestiae quis et.",
     "Deleted": false,
-    "Rank": 848,
-    "Type": "rerum",
-    "ColorBlock": 749,
-    "IconHint": "impedit",
+    "Rank": 724,
+    "Type": "esse",
+    "ColorBlock": 851,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2024-01-03T13:13:32.7924497+01:00",
+    "LastChanged": "2008-01-14T12:01:33.4175965+01:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Schmeler, Simonis and Hettinger",
-        "ToolTip": "Quia id incidunt ea amet et et.",
+        "Id": 487,
+        "Name": "Barrows Group",
+        "ToolTip": "Voluptatem tenetur voluptate eveniet in quos dolorem.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "voluptatem",
-        "ColorBlock": 20,
-        "IconHint": "repellendus",
+        "Rank": 50,
+        "Type": "tempora",
+        "ColorBlock": 740,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2013-01-06T13:13:32.7924497+01:00",
+        "LastChanged": "2017-08-09T12:01:33.4175965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Naomi Bogisich"
+        "ExtraInfo": "veniam",
+        "StyleHint": "placeat",
+        "Hidden": true,
+        "FullName": "Jordyn Stiedemann Jr."
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ut",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Olin Gladyce Bins II"
+    "FullName": "Wendy Romaguera"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Sawayn Inc and Sons",
-    "ToolTip": "Ut maiores temporibus et.",
+    "Id": 608,
+    "Name": "Kemmer-Krajcik",
+    "ToolTip": "Omnis omnis officiis animi est quasi voluptatem.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "numquam",
-    "ColorBlock": 925,
-    "IconHint": "quaerat",
+    "Rank": 937,
+    "Type": "vitae",
+    "ColorBlock": 916,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "1997-12-09T13:13:32.808074+01:00",
+    "LastChanged": "2011-04-21T12:01:33.4175965+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Wunsch Inc and Sons",
-        "ToolTip": "Voluptatem temporibus non ut et occaecati a vel.",
+        "Id": 336,
+        "Name": "Johnson, Kiehn and Kautzer",
+        "ToolTip": "Quae placeat deserunt vel facere.",
         "Deleted": false,
-        "Rank": 733,
-        "Type": "placeat",
-        "ColorBlock": 66,
-        "IconHint": "aut",
+        "Rank": 612,
+        "Type": "non",
+        "ColorBlock": 476,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2008-06-08T13:13:32.808074+02:00",
+        "LastChanged": "2017-03-17T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "dolore",
+        "ExtraInfo": "velit",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Prof. Arno Buckridge DVM",
+        "FullName": "Ms. Miguel Manley Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 472
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "ut",
+    "ExtraInfo": "eum",
+    "StyleHint": "asperiores",
     "Hidden": true,
-    "FullName": "Jeremy Nader",
+    "FullName": "Edison Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   }

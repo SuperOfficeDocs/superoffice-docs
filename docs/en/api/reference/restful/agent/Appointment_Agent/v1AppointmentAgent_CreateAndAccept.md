@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 944,
+  "EmailItemId": 613,
   "UpdateMode": "OnlyThis"
 }
 ```

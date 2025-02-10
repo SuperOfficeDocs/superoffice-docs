@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Breitenberg-Schneider",
-    "Tooltip": "possimus",
+    "Id": 946,
+    "Name": "Carroll-Prosacco",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 290,
-    "Rank": 295,
+    "UdListDefinitionId": 185,
+    "Rank": 606,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

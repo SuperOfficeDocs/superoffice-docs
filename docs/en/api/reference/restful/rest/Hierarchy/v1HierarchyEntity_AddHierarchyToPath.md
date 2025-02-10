@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 365,
+  "HierarchyId": 563,
   "Domain": "Dashboards",
-  "Name": "Toy Group",
-  "Fullname": "nam",
-  "ParentId": 169,
+  "Name": "Willms-Johnson",
+  "Fullname": "maxime",
+  "ParentId": 299,
   "Children": [
     {
-      "HierarchyId": 436,
+      "HierarchyId": 486,
       "Domain": "Dashboards",
-      "Name": "Rodriguez, Hintz and Goldner",
-      "Fullname": "et",
-      "ParentId": 880,
+      "Name": "Orn Inc and Sons",
+      "Fullname": "omnis",
+      "ParentId": 323,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-06-24T13:13:31.7613495+02:00",
-      "RegisteredAssociateId": 862,
-      "Updated": "2003-03-07T13:13:31.7613495+01:00",
-      "UpdatedAssociateId": 457,
+      "Registered": "2021-10-15T12:01:32.933188+02:00",
+      "RegisteredAssociateId": 872,
+      "Updated": "2023-12-28T12:01:32.933188+01:00",
+      "UpdatedAssociateId": 198,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 906
         }
       }
     }
   ],
-  "Registered": "2012-03-30T13:13:31.7613495+02:00",
-  "RegisteredAssociateId": 760,
-  "Updated": "2014-11-14T13:13:31.7613495+01:00",
-  "UpdatedAssociateId": 645,
+  "Registered": "2008-07-04T12:01:32.933188+02:00",
+  "RegisteredAssociateId": 347,
+  "Updated": "2002-08-24T12:01:32.933188+02:00",
+  "UpdatedAssociateId": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldLength": 102
     }
   }
 }

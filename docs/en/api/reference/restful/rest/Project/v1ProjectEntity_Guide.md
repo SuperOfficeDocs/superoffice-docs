@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=vero
-GET /api/v1/Project/{id}/Guide?$top=556
-GET /api/v1/Project/{id}/Guide?$skip=253
+GET /api/v1/Project/{id}/Guide?$entities=ex
+GET /api/v1/Project/{id}/Guide?$top=198
+GET /api/v1/Project/{id}/Guide?$skip=316
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=beatae
+GET /api/v1/Project/{id}/Guide?$context=ex
 GET /api/v1/Project/{id}/Guide?$format=JSON
-GET /api/v1/Project/{id}/Guide?$jsonSafe=False
+GET /api/v1/Project/{id}/Guide?$jsonSafe=True
 GET /api/v1/Project/{id}/Guide?$output=Display
 ```
 
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laboriosam",
+  "odata.nextLink": "iure",
   "value": [
     {
-      "PrimaryKey": 1363,
+      "PrimaryKey": 3367,
       "EntityName": "person",
-      "personId": 1363,
-      "fullName": "Favian Labadie"
+      "personId": 3367,
+      "fullName": "Elian Kautzer"
     },
     {
-      "PrimaryKey": 6301,
+      "PrimaryKey": 6842,
       "EntityName": "person",
-      "personId": 6301,
-      "fullName": "Gilda Christiansen"
+      "personId": 6842,
+      "fullName": "Zoila O'Hara"
     }
   ]
 }

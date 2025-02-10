@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Sep 1997 13:13:31 G9T
+Last-Modified: Tue, 11 Oct 2011 12:01:32 G10T
 
 {
-  "DocumentId": 31,
+  "DocumentId": 120,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "repudiandae",
-  "Name": "Hessel, Nolan and Cormier",
-  "OurRef": "quae",
-  "YourRef": "illo",
-  "CreatedDate": "2009-08-05T13:13:31.6520003+02:00",
-  "UpdatedDate": "1997-09-13T13:13:31.6520003+02:00",
-  "Description": "Visionary homogeneous secured line",
+  "Attention": "qui",
+  "Header": "dolor",
+  "Name": "O'Hara-Orn",
+  "OurRef": "ipsam",
+  "YourRef": "natus",
+  "CreatedDate": "2010-08-11T12:01:32.8706837+02:00",
+  "UpdatedDate": "2011-10-11T12:01:32.8706837+02:00",
+  "Description": "Future-proofed tangible task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-05-21T13:13:31.6520003+02:00",
-  "ExternalRef": "reiciendis",
+  "Date": "2002-01-29T12:01:32.8706837+01:00",
+  "ExternalRef": "repellat",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 435,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Huel-Hickle",
-      "Id": 673,
-      "Description": "Networked clear-thinking encryption",
-      "ExtraInfo": "pariatur",
-      "LinkId": 792,
+      "EntityName": "Kohler LLC",
+      "Id": 127,
+      "Description": "Devolved assymetric throughput",
+      "ExtraInfo": "unde",
+      "LinkId": 431,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 353
+          "FieldLength": 477
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 951,
-  "Snum": 200,
+  "SuggestedDocumentId": 3,
+  "Snum": 192,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Johan Gene Thiel",
-    "SuperOffice:2": "50860028"
+    "SuperOffice:1": "1599536188",
+    "SuperOffice:2": "1164594652"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "possimus"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2024-09-22T13:13:31.6520003+02:00",
-  "PublishTo": "2022-01-17T13:13:31.6520003+01:00",
-  "PublishFrom": "2022-10-20T13:13:31.6520003+02:00",
+  "PublishEventDate": "2001-03-05T12:01:32.8706837+01:00",
+  "PublishTo": "2014-09-10T12:01:32.8706837+02:00",
+  "PublishFrom": "2012-10-26T12:01:32.8706837+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 263,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldLength": 269
         }
       }
     },
     {
-      "VisibleId": 263,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldLength": 269
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Sat, 13 Sep 1997 13:13:31 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 828
     }
   },
   "_Links": {

@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 04 Jan 1999 13:13:31 G1T
+Last-Modified: Sat, 09 Mar 2002 12:01:32 G3T
 
 {
-  "BlobId": 387,
-  "BlobSize": 615,
-  "Description": "Synergistic clear-thinking hub",
-  "ExtraInfo": "animi",
-  "IsEncrypted": false,
+  "BlobId": 654,
+  "BlobSize": 57,
+  "Description": "Inverse system-worthy circuit",
+  "ExtraInfo": "qui",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 603,
-  "CreatedDate": "2000-04-13T13:13:31.4645446+02:00",
-  "UpdatedDate": "1999-01-04T13:13:31.4645446+01:00",
+  "MimeType": "voluptas",
+  "OriginalSize": 93,
+  "CreatedDate": "2020-11-02T12:01:32.7769271+01:00",
+  "UpdatedDate": "2002-03-09T12:01:32.7769271+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

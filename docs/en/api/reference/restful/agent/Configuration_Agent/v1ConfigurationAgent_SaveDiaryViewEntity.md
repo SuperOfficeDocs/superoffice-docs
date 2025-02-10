@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 558,
-  "Name": "Nolan, Champlin and Runolfsson",
-  "Tooltip": "nobis",
-  "VisibleColumns": 21,
-  "Rank": 907,
-  "AssocId": 628,
+  "DiaryViewId": 242,
+  "Name": "Gleichner, Lindgren and Harber",
+  "Tooltip": "sunt",
+  "VisibleColumns": 923,
+  "Rank": 155,
+  "AssocId": 589,
   "AssociateList": [
     {
-      "Id": 171,
-      "Name": "Nolan, Corwin and Swift",
-      "ToolTip": "Consequatur dolor impedit vero inventore sapiente.",
-      "Deleted": true,
-      "Rank": 600,
-      "Type": "adipisci",
-      "ColorBlock": 989,
-      "IconHint": "est",
+      "Id": 315,
+      "Name": "Paucek, Hudson and Veum",
+      "ToolTip": "Incidunt modi sunt architecto.",
+      "Deleted": false,
+      "Rank": 258,
+      "Type": "doloribus",
+      "ColorBlock": 318,
+      "IconHint": "eveniet",
       "Selected": false,
-      "LastChanged": "2011-12-26T13:13:22.3207878+01:00",
+      "LastChanged": "2014-11-22T12:01:27.4471334+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "incidunt",
-      "StyleHint": "autem",
-      "Hidden": true,
-      "FullName": "Mckayla Gislason"
+      "ExtraInfo": "asperiores",
+      "StyleHint": "iste",
+      "Hidden": false,
+      "FullName": "Prof. Briana Jacky Cremin"
     }
   ],
-  "TzLocationId": 924
+  "TzLocationId": 314
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 654,
-  "Name": "Russel LLC",
-  "Tooltip": "sit",
-  "VisibleColumns": 621,
-  "Rank": 644,
-  "AssocId": 941,
+  "DiaryViewId": 923,
+  "Name": "Windler Inc and Sons",
+  "Tooltip": "a",
+  "VisibleColumns": 493,
+  "Rank": 696,
+  "AssocId": 685,
   "AssociateList": [
     {
-      "Id": 200,
-      "Name": "McGlynn, Connelly and Schumm",
-      "ToolTip": "Recusandae sed magnam neque est voluptas ea.",
-      "Deleted": true,
-      "Rank": 5,
-      "Type": "reiciendis",
-      "ColorBlock": 257,
-      "IconHint": "odio",
-      "Selected": false,
-      "LastChanged": "1998-05-10T13:13:22.3207878+02:00",
+      "Id": 775,
+      "Name": "McCullough Inc and Sons",
+      "ToolTip": "Sequi eligendi incidunt quis voluptatibus fugit in.",
+      "Deleted": false,
+      "Rank": 260,
+      "Type": "accusantium",
+      "ColorBlock": 406,
+      "IconHint": "sit",
+      "Selected": true,
+      "LastChanged": "2019-07-10T12:01:27.4471334+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
-      "StyleHint": "dolor",
-      "Hidden": true,
-      "FullName": "Jada Hudson",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "quam",
+      "Hidden": false,
+      "FullName": "Garth Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 609
         }
       }
     }
   ],
-  "TzLocationId": 802,
+  "TzLocationId": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

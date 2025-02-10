@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Watsica-Botsford",
+  "TableName": "Brakus-Ledner",
   "RecordIds": [
-    760,
-    922
+    828,
+    260
   ],
-  "AssociateId": 983,
-  "ExtraInfo": "amet"
+  "AssociateId": 343,
+  "ExtraInfo": "non"
 }
 ```
 

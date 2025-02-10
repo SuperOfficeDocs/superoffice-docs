@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 769,
-  "CountryId": 694
+  "PersonId": 423,
+  "CountryId": 986
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 18296.291999999998,
-  "Wgs84Longitude": 22925.21,
+  "Wgs84Latitude": 21840.845999999998,
+  "Wgs84Longitude": 28227.938,
   "LocalizedAddress": [
     [
       {
-        "Name": "Hackett-Vandervort",
-        "Value": "doloremque",
-        "Tooltip": "velit",
-        "Label": "quas",
-        "ValueLength": 521,
-        "AddressType": "dolorem",
+        "Name": "Stanton-Padberg",
+        "Value": "ut",
+        "Tooltip": "asperiores",
+        "Label": "sunt",
+        "ValueLength": 16,
+        "AddressType": "ratione",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldType": "System.String",
+            "FieldLength": 391
           }
         }
       }
     ],
     [
       {
-        "Name": "Lakin, Reichel and Ritchie",
-        "Value": "officiis",
-        "Tooltip": "alias",
-        "Label": "libero",
-        "ValueLength": 800,
-        "AddressType": "autem",
+        "Name": "Schinner Inc and Sons",
+        "Value": "magni",
+        "Tooltip": "modi",
+        "Label": "optio",
+        "ValueLength": 487,
+        "AddressType": "alias",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 624
+            "FieldType": "System.Int32",
+            "FieldLength": 780
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "reprehenderit",
+  "Formatted": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

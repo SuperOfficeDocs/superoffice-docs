@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 980,
-  "LeadDescription": "Virtual static alliance",
-  "Relation": "sint",
-  "RelationId": 282,
-  "LeadContact": "voluptas",
-  "LeadPersonFirstname": "Claude",
-  "LeadPersonLastname": "Parker",
-  "LeadPersonEmail": "howard_champlin@weimann.us",
-  "LeadPhoneNumber": "1454162",
-  "CreatorsContact": "ab",
-  "CreatorsFirstname": "Amanda",
-  "CreatorsLastname": "Watsica"
+  "AssociateIdForNewContact": 32,
+  "LeadDescription": "Multi-channelled homogeneous core",
+  "Relation": "aut",
+  "RelationId": 583,
+  "LeadContact": "voluptate",
+  "LeadPersonFirstname": "Kadin",
+  "LeadPersonLastname": "Pacocha",
+  "LeadPersonEmail": "moshe_schinner@damore.name",
+  "LeadPhoneNumber": "814049",
+  "CreatorsContact": "iure",
+  "CreatorsFirstname": "Vicky",
+  "CreatorsLastname": "Schulist"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 957,
-      "Name": "Altenwerth-Bogan",
-      "OrgNr": "709232",
+      "ContactId": 504,
+      "Name": "Turcotte LLC",
+      "OrgNr": "1035218",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "laboriosam",
-      "DirectPhone": "862-070-4689",
-      "AssociateId": 281,
-      "CountryId": 415,
-      "EmailAddress": "nikita.stracke@farrell.us",
-      "Kananame": "nihil",
-      "EmailAddressName": "margarette@macejkovicgutkowski.info",
+      "City": "quo",
+      "DirectPhone": "202.792.1411",
+      "AssociateId": 649,
+      "CountryId": 451,
+      "EmailAddress": "libby.heathcote@terrykunze.com",
+      "Kananame": "ipsum",
+      "EmailAddressName": "aleen@harveyhauck.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Marshall McClure",
+      "AssociateFullName": "Ernestina Drew Farrell III",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "reiciendis",
-      "FullName": "Leonard Omer Hoppe I",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 914,
-      "Number1": "875437",
-      "Number2": "1653515",
+      "FormattedAddress": "officia",
+      "FullName": "Lessie Jerrod Von III",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 663,
+      "Number1": "1365548",
+      "Number2": "1483936",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   }
 }

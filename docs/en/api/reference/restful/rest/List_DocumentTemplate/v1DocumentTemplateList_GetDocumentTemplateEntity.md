@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 416,
-  "Name": "Ledner Group",
-  "Tooltip": "vel",
-  "SaveInDb": 736,
-  "Filename": "atque",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 175,
+  "Name": "White, Brekke and Jacobson",
+  "Tooltip": "eligendi",
+  "SaveInDb": 921,
+  "Filename": "nemo",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 160,
-  "IntentId": 669,
-  "IsDefaultPublished": true,
-  "Rank": 572,
-  "LoadTemplateFromPlugin": 396,
-  "MimeType": "velit",
+  "AutoeventId": 971,
+  "IntentId": 848,
+  "IsDefaultPublished": false,
+  "Rank": 761,
+  "LoadTemplateFromPlugin": 31,
+  "MimeType": "ab",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 340,
+  "DocumentTypeKey": 928,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sallie@dickens.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "mariana_nicolas@dubuque.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eldridge@batzwisozk.ca",
+  "SenderEmailAddress": "vida_hettinger@white.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

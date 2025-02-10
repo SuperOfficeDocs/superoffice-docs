@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 102,
-    "ParentId": 578,
-    "Name": "Kling-Steuber",
-    "Fullname": "voluptatem",
-    "CategoryMaster": 344,
+    "TicketCategoryId": 420,
+    "ParentId": 275,
+    "Name": "Gibson-Gusikowski",
+    "Fullname": "debitis",
+    "CategoryMaster": 462,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Ondricka-Hammes",
+    "ExternalName": "Harris Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 295,
-    "ReplyTemplate": 696,
-    "NotificationEmail": "adrain_hammes@dickinson.com",
+    "AssignmentLag": 572,
+    "ReplyTemplate": 235,
+    "NotificationEmail": "jovany@satterfieldhills.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 869,
+    "EffectiveReplyTemplateId": 400,
     "ExtraFields": {
-      "ExtraFields1": "quae",
-      "ExtraFields2": "possimus"
+      "ExtraFields1": "totam",
+      "ExtraFields2": "delectus"
     },
     "CustomFields": {
-      "CustomFields1": "commodi",
-      "CustomFields2": "dolores"
+      "CustomFields1": "adipisci",
+      "CustomFields2": "accusamus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldType": "System.Int32",
+        "FieldLength": 341
       }
     }
   }

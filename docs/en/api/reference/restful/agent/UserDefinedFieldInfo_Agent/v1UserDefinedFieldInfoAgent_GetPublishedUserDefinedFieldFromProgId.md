@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "neque",
+  "ProgId": "ea",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 577,
-  "ColumnId": 240,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 221,
-  "FieldLabel": "adipisci",
-  "FieldLeft": 545,
-  "FieldTop": 57,
+  "UDefFieldId": 497,
+  "ColumnId": 94,
+  "FieldDefault": "aliquid",
+  "FieldHeight": 245,
+  "FieldLabel": "eveniet",
+  "FieldLeft": 747,
+  "FieldTop": 490,
   "FieldType": "Checkbox",
-  "FieldWidth": 242,
-  "FormatMask": "aut",
-  "HideLabel": false,
+  "FieldWidth": 14,
+  "FormatMask": "dolores",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 152,
-  "LabelLeft": 288,
-  "LabelTop": 606,
-  "LabelWidth": 34,
-  "LastVersionId": 454,
-  "ListTableId": 240,
+  "LabelHeight": 47,
+  "LabelLeft": 613,
+  "LabelTop": 726,
+  "LabelWidth": 805,
+  "LastVersionId": 192,
+  "ListTableId": 970,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 928,
+  "Page1LineNo": 253,
   "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 786,
-  "TextLength": 993,
-  "Tooltip": "ut",
-  "UdefIdentity": 430,
-  "UDListDefinitionId": 100,
+  "ShortLabel": "sed",
+  "TabOrder": 180,
+  "TextLength": 489,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 83,
+  "UDListDefinitionId": 815,
   "Justification": "Center",
-  "Version": 330,
-  "TemplateVariableName": "Daniel-Corkery",
+  "Version": 606,
+  "TemplateVariableName": "Flatley Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Ullrich Group",
+  "MdoListName": "Gleichner LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

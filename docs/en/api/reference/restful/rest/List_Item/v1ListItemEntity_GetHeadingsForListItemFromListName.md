@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Bailey-Turcotte",
-    "ToolTip": "Culpa porro sint ipsum omnis fugiat qui ab.",
+    "Id": 857,
+    "Name": "Wolf, Schamberger and Gutkowski",
+    "ToolTip": "Sed aut natus quaerat velit.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "ullam",
-    "ColorBlock": 755,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2011-01-15T13:13:32.7924497+01:00",
+    "Rank": 866,
+    "Type": "sed",
+    "ColorBlock": 234,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2021-07-29T12:01:33.4175965+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Parker, Bins and Stoltenberg",
-        "ToolTip": "Repellat est et debitis consequatur autem.",
+        "Id": 111,
+        "Name": "Bahringer, Sipes and Tromp",
+        "ToolTip": "Rerum similique quis iste similique fugiat.",
         "Deleted": false,
-        "Rank": 637,
-        "Type": "asperiores",
-        "ColorBlock": 372,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2008-04-10T13:13:32.7924497+02:00",
+        "Rank": 533,
+        "Type": "neque",
+        "ColorBlock": 244,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2002-11-05T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Miss Louisa Bayer IV",
+        "ExtraInfo": "autem",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Prof. Velma Arlie Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 401
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "quasi",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Ms. Corine Morar Sr.",
+    "FullName": "Sabryna Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

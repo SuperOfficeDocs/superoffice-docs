@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "culpa",
-      "Key": "nam"
+      "Section": "beatae",
+      "Key": "officiis"
     },
     {
-      "Section": "culpa",
-      "Key": "nam"
+      "Section": "beatae",
+      "Key": "officiis"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "eveniet",
+    "RawValue": "omnis",
     "Specification": null,
-    "DisplayValue": "at",
-    "DisplayTooltip": "porro",
+    "DisplayValue": "error",
+    "DisplayTooltip": "alias",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 553,
-    "PrefDescId": 958,
-    "TableName": "Johns LLC",
-    "UserPreferenceId": 970,
+    "TargetId": 207,
+    "PrefDescId": 392,
+    "TableName": "Runolfsson, Hamill and Muller",
+    "UserPreferenceId": 455,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 986
       }
     }
   }

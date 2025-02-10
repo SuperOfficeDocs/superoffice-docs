@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=laudantium
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Daniel, Wyman and Schaden",
-    "ToolTip": "Nostrum id occaecati deleniti officia.",
-    "Deleted": false,
-    "Rank": 723,
-    "Type": "dolor",
+    "Id": 38,
+    "Name": "Collier-Sipes",
+    "ToolTip": "Cupiditate libero corporis et.",
+    "Deleted": true,
+    "Rank": 288,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Berge-Wisozk",
-        "ToolTip": "Enim qui odio illum nulla.",
+        "Id": 950,
+        "Name": "Lesch-Heller",
+        "ToolTip": "Et et velit accusamus tempore ipsam sit.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "optio",
+        "Rank": 750,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 564,
-        "ExtraInfo": "delectus",
-        "StyleHint": "id",
-        "FullName": "Gene Towne DDS",
+        "IconHint": "culpa",
+        "ColorBlock": 464,
+        "ExtraInfo": "sed",
+        "StyleHint": "dolorum",
+        "FullName": "Richie Fisher IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldType": "System.String",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 252,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "iste",
-    "FullName": "Mohamed Batz",
+    "IconHint": "saepe",
+    "ColorBlock": 317,
+    "ExtraInfo": "eos",
+    "StyleHint": "magni",
+    "FullName": "Chad Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

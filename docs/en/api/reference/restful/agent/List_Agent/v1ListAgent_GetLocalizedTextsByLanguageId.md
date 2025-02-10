@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 549
+  "LanguageId": 140
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 135,
-    "ResourceId": 83,
-    "Text": "ipsum",
+    "LanguageId": 469,
+    "ResourceId": 243,
+    "Text": "voluptatem",
     "Type": "Column",
-    "LocalizedTextId": 224,
+    "LocalizedTextId": 404,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 148
       }
     }
   }

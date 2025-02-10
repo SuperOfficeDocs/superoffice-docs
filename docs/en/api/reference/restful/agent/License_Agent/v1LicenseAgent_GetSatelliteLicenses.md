@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 767
+  "SatelliteId": 101
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Feeney-Altenwerth",
-    "Description": "Upgradable grid-enabled methodology",
+    "Name": "Kris-Will",
+    "Description": "Balanced interactive leverage",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 597,
-        "Tooltip": "laborum",
+        "Unrestricted": true,
+        "Total": 684,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 914,
-        "InUse": 422,
+        "Free": 976,
+        "InUse": 789,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 58,
-        "Name": "Roob Group",
-        "Description": "Stand-alone maximized support",
-        "PrerequisiteModuleName": "McDermott, Harvey and Connelly",
-        "SortOrder": 52,
-        "ExtraFlags": 212,
+        "Assigned": false,
+        "ModuleLicenseId": 394,
+        "Name": "McClure LLC",
+        "Description": "Distributed contextually-based open system",
+        "PrerequisiteModuleName": "Friesen Group",
+        "SortOrder": 337,
+        "ExtraFlags": 611,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 329,
-        "Tooltip": "numquam",
+        "Unrestricted": true,
+        "Total": 954,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 349,
-        "InUse": 530,
+        "Free": 343,
+        "InUse": 875,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 217,
-        "Name": "Veum-Hegmann",
-        "Description": "Reactive 6th generation encryption",
-        "PrerequisiteModuleName": "Howe Group",
-        "SortOrder": 510,
-        "ExtraFlags": 623,
+        "ModuleLicenseId": 850,
+        "Name": "Fritsch, Feil and Hahn",
+        "Description": "Front-line coherent knowledge user",
+        "PrerequisiteModuleName": "Hodkiewicz-Deckow",
+        "SortOrder": 500,
+        "ExtraFlags": 809,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldLength": 925
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   },
   {
-    "Name": "Feeney-Altenwerth",
-    "Description": "Upgradable grid-enabled methodology",
+    "Name": "Kris-Will",
+    "Description": "Balanced interactive leverage",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 597,
-        "Tooltip": "laborum",
+        "Unrestricted": true,
+        "Total": 684,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 914,
-        "InUse": 422,
+        "Free": 976,
+        "InUse": 789,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 58,
-        "Name": "Roob Group",
-        "Description": "Stand-alone maximized support",
-        "PrerequisiteModuleName": "McDermott, Harvey and Connelly",
-        "SortOrder": 52,
-        "ExtraFlags": 212,
+        "Assigned": false,
+        "ModuleLicenseId": 394,
+        "Name": "McClure LLC",
+        "Description": "Distributed contextually-based open system",
+        "PrerequisiteModuleName": "Friesen Group",
+        "SortOrder": 337,
+        "ExtraFlags": 611,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 329,
-        "Tooltip": "numquam",
+        "Unrestricted": true,
+        "Total": 954,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 349,
-        "InUse": 530,
+        "Free": 343,
+        "InUse": 875,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 217,
-        "Name": "Veum-Hegmann",
-        "Description": "Reactive 6th generation encryption",
-        "PrerequisiteModuleName": "Howe Group",
-        "SortOrder": 510,
-        "ExtraFlags": 623,
+        "ModuleLicenseId": 850,
+        "Name": "Fritsch, Feil and Hahn",
+        "Description": "Front-line coherent knowledge user",
+        "PrerequisiteModuleName": "Hodkiewicz-Deckow",
+        "SortOrder": 500,
+        "ExtraFlags": 809,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldLength": 925
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   }

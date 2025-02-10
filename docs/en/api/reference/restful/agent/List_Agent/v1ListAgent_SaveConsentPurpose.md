@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 971,
-  "Name": "Hilll Inc and Sons",
-  "ConsentText": "fuga",
-  "FormText": "dolor",
-  "Key": "consequatur",
-  "Tooltip": "accusantium",
-  "Active": 422,
-  "UpdatedDate": "2020-09-30T13:13:23.3520388+02:00",
+  "ConsentPurposeId": 599,
+  "Name": "Hane Group",
+  "ConsentText": "ducimus",
+  "FormText": "autem",
+  "Key": "explicabo",
+  "Tooltip": "sapiente",
+  "Active": 87,
+  "UpdatedDate": "2022-09-06T12:01:27.9940463+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 820,
-  "PrivacyStatementDesc": "numquam",
+  "Rank": 452,
+  "PrivacyStatementDesc": "voluptatem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 174
     }
   }
 }

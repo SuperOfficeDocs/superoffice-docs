@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "VonRueden-Ruecker",
-    "Id": 429,
-    "Description": "Fully-configurable client-server customer loyalty",
-    "ExtraInfo": "aliquam",
-    "LinkId": 661,
+    "EntityName": "Murray, Considine and Lubowitz",
+    "Id": 899,
+    "Description": "Vision-oriented uniform open system",
+    "ExtraInfo": "voluptatem",
+    "LinkId": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 531
       }
     }
   }

@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    127,
-    437
+    232,
+    925
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 838,
-    "ColumnId": 92,
-    "FieldDefault": "et",
-    "FieldHeight": 104,
-    "FieldLabel": "et",
-    "FieldLeft": 106,
-    "FieldTop": 429,
+    "UDefFieldId": 62,
+    "ColumnId": 781,
+    "FieldDefault": "sint",
+    "FieldHeight": 418,
+    "FieldLabel": "recusandae",
+    "FieldLeft": 948,
+    "FieldTop": 506,
     "FieldType": "Checkbox",
-    "FieldWidth": 6,
+    "FieldWidth": 206,
     "FormatMask": "quasi",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 420,
-    "LabelLeft": 470,
-    "LabelTop": 562,
-    "LabelWidth": 505,
-    "LastVersionId": 10,
-    "ListTableId": 688,
-    "IsMandatory": false,
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 534,
+    "LabelLeft": 215,
+    "LabelTop": 700,
+    "LabelWidth": 874,
+    "LastVersionId": 293,
+    "ListTableId": 303,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 5,
-    "ProgId": "magnam",
+    "Page1LineNo": 704,
+    "ProgId": "et",
     "IsReadOnly": false,
-    "ShortLabel": "illo",
-    "TabOrder": 6,
-    "TextLength": 967,
-    "Tooltip": "quo",
-    "UdefIdentity": 132,
-    "UDListDefinitionId": 747,
+    "ShortLabel": "ullam",
+    "TabOrder": 97,
+    "TextLength": 273,
+    "Tooltip": "occaecati",
+    "UdefIdentity": 790,
+    "UDListDefinitionId": 817,
     "Justification": "Center",
-    "Version": 982,
-    "TemplateVariableName": "Ledner-Smitham",
-    "HasBeenPublished": false,
-    "MdoListName": "Miller-Lesch",
+    "Version": 48,
+    "TemplateVariableName": "Wiegand Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Waelchi Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 968
       }
     }
   }

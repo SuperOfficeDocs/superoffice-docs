@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 71
+  "PersonId": 598
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 600,
-  "InstanceLayout": "consectetur",
-  "InstanceName": "Quitzon, Kuphal and Marks",
-  "CreatedDate": "1997-10-28T13:13:22.133333+01:00",
-  "UpdatedDate": "2015-07-29T13:13:22.133333+02:00",
+  "AudienceLayoutId": 664,
+  "InstanceLayout": "eveniet",
+  "InstanceName": "Terry, Kerluke and Runte",
+  "CreatedDate": "2012-09-17T12:01:27.3377499+02:00",
+  "UpdatedDate": "2016-08-04T12:01:27.3377499+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

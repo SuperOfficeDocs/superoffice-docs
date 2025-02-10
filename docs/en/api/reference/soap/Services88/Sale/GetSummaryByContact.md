@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByContact>
     <Sale:ContactId xsi:type="xsd:int">0</Sale:ContactId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2025-01-29T12:12:40Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2025-01-29T12:12:40Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:ToDate>
    </Sale:GetSummaryByContact>
 
  </SOAP-ENV:Body>

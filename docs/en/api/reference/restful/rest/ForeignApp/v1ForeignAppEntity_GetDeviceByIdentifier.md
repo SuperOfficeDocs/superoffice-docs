@@ -77,24 +77,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 22 Jul 2013 13:13:31 G7T
+Last-Modified: Tue, 12 Sep 2023 12:01:32 G9T
 
 {
-  "ForeignDeviceId": 171,
-  "Name": "Nitzsche Group",
-  "CreatedDate": "2024-06-01T13:13:31.7457296+02:00",
-  "UpdatedDate": "2013-07-22T13:13:31.7457296+02:00",
-  "AssociateFullName": "Miss Dorcas Roob DVM",
-  "CreatedBy": "quisquam",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 257,
+  "ForeignDeviceId": 383,
+  "Name": "Toy Group",
+  "CreatedDate": "2009-04-17T12:01:32.9175621+02:00",
+  "UpdatedDate": "2023-09-12T12:01:32.9175621+02:00",
+  "AssociateFullName": "Orville Grady",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "illo",
+  "DeviceIdentifier": "magnam",
+  "ForeignAppId": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 978
     }
   }
 }

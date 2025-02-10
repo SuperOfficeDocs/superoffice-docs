@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Dec 2006 13:13:32 G12T
+Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 29 Dec 2006 13:13:32 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "officiis",
+  "SaleText": "fugit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 29 Dec 2006 13:13:32 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-02-05T13:13:32.2455472+01:00",
-  "Amount": 9455.278,
-  "SaleId": 474,
-  "Earning": 372.94599999999997,
-  "EarningPercent": 6550.0599999999995,
-  "Heading": "deleniti",
-  "Number": "1360271",
-  "Probability": 22,
-  "CreatedDate": "2011-05-22T13:13:32.2455472+02:00",
-  "UpdatedDate": "2006-12-29T13:13:32.2455472+01:00",
+  "Saledate": "2010-02-14T12:01:33.1363265+01:00",
+  "Amount": 26501.104,
+  "SaleId": 460,
+  "Earning": 18982.638,
+  "EarningPercent": 7844.402,
+  "Heading": "error",
+  "Number": "1147352",
+  "Probability": 614,
+  "CreatedDate": "2019-01-08T12:01:33.1363265+01:00",
+  "UpdatedDate": "2012-01-06T12:01:33.1363265+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 645,
+  "ActiveLinks": 304,
   "Links": [
     {
-      "EntityName": "Armstrong, Streich and Yundt",
-      "Id": 776,
-      "Description": "Polarised intangible access",
-      "ExtraInfo": "et",
-      "LinkId": 300,
+      "EntityName": "Stehr-Treutel",
+      "Id": 159,
+      "Description": "Team-oriented solution-oriented initiative",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 753,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 424
         }
       }
     }
   ],
-  "NextDueDate": "2018-03-04T13:13:32.2455472+01:00",
-  "Postit": "atque",
+  "NextDueDate": "2004-11-19T12:01:33.1363265+01:00",
+  "Postit": "laboriosam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-07-15T13:13:32.2455472+02:00",
+  "ReopenDate": "2024-11-01T12:01:33.1363265+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hegmann, Jerde and Gutkowski",
-      "Comment": "aspernatur",
-      "StakeholderRoleId": 630,
-      "CountryId": 263,
-      "PersonId": 238,
-      "EmailDescription": "cornell.kihn@gibson.uk",
-      "EmailId": 985,
-      "EmailAddress": "krystel_king@koss.co.uk",
-      "PhoneId": 35,
-      "ContactName": "Konopelski LLC",
-      "ContactId": 203,
-      "SaleId": 679,
-      "Mrmrs": "veritatis",
-      "Firstname": "Cornell",
-      "MiddleName": "Ward, Ledner and Rogahn",
-      "Lastname": "Welch",
-      "SaleStakeholderId": 567,
-      "Rank": 407,
-      "Phone": "(050)393-9001 x18069",
+      "StakeholderRoleName": "Gulgowski-Morissette",
+      "Comment": "tempora",
+      "StakeholderRoleId": 182,
+      "CountryId": 336,
+      "PersonId": 665,
+      "EmailDescription": "autumn@oconner.com",
+      "EmailId": 516,
+      "EmailAddress": "alba_bahringer@bauchjaskolski.co.uk",
+      "PhoneId": 110,
+      "ContactName": "Wisoky, Yundt and O'Keefe",
+      "ContactId": 829,
+      "SaleId": 761,
+      "Mrmrs": "dolorum",
+      "Firstname": "Dewayne",
+      "MiddleName": "Kris Inc and Sons",
+      "Lastname": "Stokes",
+      "SaleStakeholderId": 449,
+      "Rank": 809,
+      "Phone": "239-036-3366 x940",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 453
         }
       }
     }
   ],
-  "ActiveErpLinks": 403,
+  "ActiveErpLinks": 914,
   "UserDefinedFields": {
-    "SuperOffice:1": "Adeline Braun",
-    "SuperOffice:2": "1870530701"
+    "SuperOffice:1": "Dr. Holden Alessandra Fahey V",
+    "SuperOffice:2": "Harold Armstrong"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "repellat"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "fugit"
+    "CustomFields1": "totam",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2020-08-18T13:13:32.2455472+02:00",
-  "PublishTo": "2016-01-20T13:13:32.2455472+01:00",
-  "PublishFrom": "2024-05-17T13:13:32.2455472+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-08-17T12:01:33.1519536+02:00",
+  "PublishTo": "2016-05-09T12:01:33.1519536+02:00",
+  "PublishFrom": "2018-06-13T12:01:33.1519536+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 257
         }
       }
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 257
         }
       }
     }
@@ -260,13 +260,13 @@ Last-Modified: Fri, 29 Dec 2006 13:13:32 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 923
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

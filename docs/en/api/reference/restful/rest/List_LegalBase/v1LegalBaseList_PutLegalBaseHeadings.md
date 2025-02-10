@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 421,
-    "Name": "Goyette-Frami",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 912,
-    "UdListDefinitionId": 253
+    "HeadingId": 150,
+    "Name": "Cormier-Hartmann",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 323,
+    "UdListDefinitionId": 499
   },
   {
-    "HeadingId": 421,
-    "Name": "Goyette-Frami",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 912,
-    "UdListDefinitionId": 253
+    "HeadingId": 150,
+    "Name": "Cormier-Hartmann",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 323,
+    "UdListDefinitionId": 499
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 885,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "debitis",
+    "HeadingId": 60,
+    "Name": "Skiles Group",
+    "Tooltip": "quod",
     "Deleted": false,
-    "Rank": 371,
-    "UdListDefinitionId": 481,
+    "Rank": 188,
+    "UdListDefinitionId": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

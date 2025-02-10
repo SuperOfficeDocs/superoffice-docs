@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 647,
-    "Name": "Emard-VonRueden",
-    "Description": "Triple-buffered directional array",
+    "ProjectId": 423,
+    "Name": "Wehner Inc and Sons",
+    "Description": "Object-based 3rd generation methodology",
     "URL": "http://www.example.com/",
-    "Type": "porro",
-    "AssociateId": 682,
-    "AssociateFullName": "Rudy Hintz",
-    "TypeId": 445,
-    "Updated": "2018-08-04T13:13:23.664465+02:00",
-    "StatusId": 985,
-    "Status": "fugiat",
-    "TextId": 269,
-    "PublishTo": "2015-04-21T13:13:23.664465+02:00",
-    "PublishFrom": "1997-12-29T13:13:23.664465+01:00",
-    "IsPublished": false,
+    "Type": "ut",
+    "AssociateId": 107,
+    "AssociateFullName": "Mr. Marisa Lawson Dicki I",
+    "TypeId": 38,
+    "Updated": "2009-08-19T12:01:28.1659327+02:00",
+    "StatusId": 837,
+    "Status": "itaque",
+    "TextId": 504,
+    "PublishTo": "2008-08-14T12:01:28.1659327+02:00",
+    "PublishFrom": "2003-07-12T12:01:28.1659327+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "950036",
-    "ActiveErpLinks": 33,
+    "ProjectNumber": "792704",
+    "ActiveErpLinks": 513,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 957
       }
     }
   }

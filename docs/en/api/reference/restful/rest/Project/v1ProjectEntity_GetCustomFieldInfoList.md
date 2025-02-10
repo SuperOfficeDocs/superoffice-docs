@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lowe-Bergnaum",
-    "DisplayName": "Zemlak Inc and Sons",
-    "Description": "Assimilated actuating matrix",
-    "ShortLabel": "molestias",
-    "HideLabel": false,
+    "FieldName": "Beier-Wisoky",
+    "DisplayName": "Hilll, Tremblay and O'Reilly",
+    "Description": "Upgradable bi-directional project",
+    "ShortLabel": "optio",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 306,
-    "TemplateVariableName": "Powlowski, Krajcik and Roberts"
+    "Rank": 717,
+    "TemplateVariableName": "Lindgren-Towne"
   }
 ]
 ```

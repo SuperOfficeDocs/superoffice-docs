@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 464,
-  "ERPQuoteLineKey": "incidunt",
-  "QuoteAlternativeId": 436,
-  "ERPProductKey": "maiores",
+  "QuoteLineId": 708,
+  "ERPQuoteLineKey": "nihil",
+  "QuoteAlternativeId": 77,
+  "ERPProductKey": "aut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26676.608,
-  "DeliveredQuantity": 16334.408,
-  "Rank": 762,
-  "Name": "Jerde-Yost",
-  "Description": "Balanced logistical knowledge user",
+  "Quantity": 22893.87,
+  "DeliveredQuantity": 7104.7779999999993,
+  "Rank": 299,
+  "Name": "Satterfield, Brakus and Runolfsson",
+  "Description": "Exclusive systematic moratorium",
   "Code": "ut",
-  "QuantityUnit": "et",
-  "PriceUnit": "reprehenderit",
-  "ItemNumber": "1760176",
+  "QuantityUnit": "totam",
+  "PriceUnit": "maiores",
+  "ItemNumber": "700203",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "aut",
-  "Supplier": "aut",
-  "SupplierCode": "nemo",
-  "Thumbnail": "est",
-  "VATInfo": "aut",
-  "VAT": 17478.318,
-  "UnitCost": 6108.166,
-  "UnitMinimumPrice": 2714.044,
-  "UnitListPrice": 23611.556,
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "harum",
+  "Supplier": "dicta",
+  "SupplierCode": "ut",
+  "Thumbnail": "esse",
+  "VATInfo": "voluptatem",
+  "VAT": 811.706,
+  "UnitCost": 7292.818,
+  "UnitMinimumPrice": 5876.25,
+  "UnitListPrice": 21552.518,
   "ExtraInfo": [
     {
-      "Name": "Kunze-Effertz",
-      "Value": "ut",
+      "Name": "Dickens-Jacobs",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldLength": 863
         }
       }
     },
     {
-      "Name": "Kunze-Effertz",
-      "Value": "ut",
+      "Name": "Dickens-Jacobs",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldLength": 863
         }
       }
     }
   ],
-  "RawExtraInfo": "quisquam",
+  "RawExtraInfo": "officiis",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "SubscriptionQuantity": 20706.338,
-  "SubscriptionStart": "2007-06-07T13:13:23.7581921+02:00",
-  "ERPDiscountPercent": 12341.692,
-  "ERPDiscountAmount": 26162.631999999998,
-  "DiscountPercent": 6026.682,
-  "DiscountAmount": 22558.532,
+  "SubscriptionUnit": "saepe",
+  "SubscriptionQuantity": 16522.448,
+  "SubscriptionStart": "2003-01-28T12:01:28.2128113+01:00",
+  "ERPDiscountPercent": 17857.532,
+  "ERPDiscountAmount": 22655.685999999998,
+  "DiscountPercent": 2265.882,
+  "DiscountAmount": 26795.7,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19377.522,
-  "EarningAmount": 19430.8,
-  "SubTotal": 18543.878,
-  "TotalPrice": 9868.966,
-  "Rights": "porro",
-  "Rule": "voluptas",
-  "ExtraField1": "porro",
-  "ExtraField2": "aspernatur",
-  "ExtraField3": "adipisci",
-  "ExtraField4": "non",
-  "ExtraField5": "similique",
+  "EarningPercent": 18863.546,
+  "EarningAmount": 11570.728,
+  "SubTotal": 19825.684,
+  "TotalPrice": 9411.402,
+  "Rights": "ut",
+  "Rule": "nam",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "quia",
+  "ExtraField3": "a",
+  "ExtraField4": "vitae",
+  "ExtraField5": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 971
     }
   }
 }

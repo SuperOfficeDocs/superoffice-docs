@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 387
+  "PrefDescId": 658
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 401,
-    "PrefDescId": 13,
-    "PrefValue": "quia",
-    "PrefShowValue": "dolore",
-    "Description": "Customizable intermediate definition",
+    "PrefDescLineId": 592,
+    "PrefDescId": 770,
+    "PrefValue": "ut",
+    "PrefShowValue": "voluptatibus",
+    "Description": "De-engineered content-based Graphic Interface",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldLength": 355
       }
     }
   }

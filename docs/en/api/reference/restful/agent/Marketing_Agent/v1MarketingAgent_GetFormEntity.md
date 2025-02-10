@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=155
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=79
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 79,
-  "FormKey": "molestias",
-  "Name": "Renner-Zboncak",
-  "Description": "Down-sized zero administration attitude",
-  "Config": "commodi",
-  "FolderId": 829,
-  "ScriptId": 596,
-  "ResponseShipmentId": 880,
+  "FormId": 381,
+  "FormKey": "et",
+  "Name": "Okuneva, Weissnat and Schoen",
+  "Description": "Cloned logistical encryption",
+  "Config": "dolorem",
+  "FolderId": 494,
+  "ScriptId": 967,
+  "ResponseShipmentId": 347,
   "Active": false,
-  "Expires": "2004-07-09T13:13:23.3520388+02:00",
-  "MaxSubmits": 261,
+  "Expires": "2022-06-17T12:01:27.9940463+02:00",
+  "MaxSubmits": 928,
   "Type": "Normal",
-  "Recipe": "officia",
-  "GroupId": 588,
+  "Recipe": "provident",
+  "GroupId": 514,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-03-27T13:13:23.3520388+01:00",
-  "RegisteredAssociateId": 542,
-  "Updated": "2016-06-14T13:13:23.3520388+02:00",
-  "UpdatedAssociateId": 112,
-  "UpdatedCount": 930,
+  "Registered": "2021-07-05T12:01:27.9940463+02:00",
+  "RegisteredAssociateId": 169,
+  "Updated": "2020-10-08T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 4,
+  "UpdatedCount": 822,
   "EmailFlows": [
-    756,
-    443
+    28,
+    390
   ],
-  "FolderName": "Fay, Bruen and Abshire",
+  "FolderName": "Haag-Brekke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

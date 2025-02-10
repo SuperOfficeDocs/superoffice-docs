@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Brown-Corwin",
-    "Tooltip": "minus",
+    "Id": 480,
+    "Name": "Boyer, Harvey and Bernier",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 648,
-    "Rank": 108,
+    "UdListDefinitionId": 509,
+    "Rank": 269,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 259
+        "FieldType": "System.Int32",
+        "FieldLength": 349
       }
     }
   }

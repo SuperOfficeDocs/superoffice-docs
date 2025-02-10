@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    367,
-    939
+    822,
+    339
   ],
-  "MoveToFolder": "mollitia"
+  "MoveToFolder": "praesentium"
 }
 ```
 

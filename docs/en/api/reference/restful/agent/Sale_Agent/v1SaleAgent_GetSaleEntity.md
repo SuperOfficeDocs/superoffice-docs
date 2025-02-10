@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=916
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=61
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "tenetur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-06-26T13:13:23.8519198+02:00",
-  "Amount": 7126.7159999999994,
-  "SaleId": 232,
-  "Earning": 6788.244,
-  "EarningPercent": 2504.066,
+  "Saledate": "2006-09-25T12:01:28.2596899+02:00",
+  "Amount": 26783.164,
+  "SaleId": 980,
+  "Earning": 8790.869999999999,
+  "EarningPercent": 8016.772,
   "Heading": "ut",
-  "Number": "1046068",
-  "Probability": 21,
-  "CreatedDate": "2011-02-02T13:13:23.8519198+01:00",
-  "UpdatedDate": "2018-06-05T13:13:23.8519198+02:00",
+  "Number": "825821",
+  "Probability": 455,
+  "CreatedDate": "2022-05-31T12:01:28.2596899+02:00",
+  "UpdatedDate": "1998-05-19T12:01:28.2596899+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 872,
+  "ActiveLinks": 844,
   "Links": [
     {
-      "EntityName": "Emard-Weissnat",
-      "Id": 701,
-      "Description": "Organic transitional protocol",
-      "ExtraInfo": "magni",
-      "LinkId": 384,
+      "EntityName": "Dare-Kunze",
+      "Id": 502,
+      "Description": "Implemented bifurcated extranet",
+      "ExtraInfo": "voluptates",
+      "LinkId": 805,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 698
         }
       }
     }
   ],
-  "NextDueDate": "2023-10-26T13:13:23.8519198+02:00",
-  "Postit": "nemo",
+  "NextDueDate": "2019-04-12T12:01:28.2596899+02:00",
+  "Postit": "commodi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-07-04T13:13:23.8519198+02:00",
+  "ReopenDate": "2015-12-13T12:01:28.2596899+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Larkin-Hagenes",
-      "Comment": "veniam",
-      "StakeholderRoleId": 876,
-      "CountryId": 347,
-      "PersonId": 980,
-      "EmailDescription": "addie@kozey.info",
-      "EmailId": 745,
-      "EmailAddress": "jacinthe.bahringer@hettinger.uk",
-      "PhoneId": 860,
-      "ContactName": "Pacocha Inc and Sons",
-      "ContactId": 805,
-      "SaleId": 97,
-      "Mrmrs": "temporibus",
-      "Firstname": "Cortez",
-      "MiddleName": "Streich Group",
-      "Lastname": "Pacocha",
-      "SaleStakeholderId": 399,
-      "Rank": 256,
-      "Phone": "548-004-4634",
+      "StakeholderRoleName": "Herzog-Dach",
+      "Comment": "voluptatum",
+      "StakeholderRoleId": 939,
+      "CountryId": 815,
+      "PersonId": 94,
+      "EmailDescription": "maverick_mckenzie@mayert.com",
+      "EmailId": 656,
+      "EmailAddress": "joannie@pfefferchamplin.name",
+      "PhoneId": 225,
+      "ContactName": "Jewess-Bechtelar",
+      "ContactId": 88,
+      "SaleId": 312,
+      "Mrmrs": "saepe",
+      "Firstname": "Cassandra",
+      "MiddleName": "Abbott-Heller",
+      "Lastname": "Schaden",
+      "SaleStakeholderId": 225,
+      "Rank": 558,
+      "Phone": "(089)338-6929",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 704
+          "FieldLength": 316
         }
       }
     }
   ],
-  "ActiveErpLinks": 337,
+  "ActiveErpLinks": 550,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rebeca Emma Stanton IV",
-    "SuperOffice:2": "Ivory Rosenbaum"
+    "SuperOffice:1": "1334549368",
+    "SuperOffice:2": "Orion Bergnaum"
   },
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "quidem"
+    "CustomFields1": "at",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2002-09-12T13:13:23.8519198+02:00",
-  "PublishTo": "2020-03-23T13:13:23.8519198+01:00",
-  "PublishFrom": "2023-08-22T13:13:23.8519198+02:00",
+  "PublishEventDate": "2017-12-29T12:01:28.2596899+01:00",
+  "PublishTo": "2006-07-30T12:01:28.2596899+02:00",
+  "PublishFrom": "1999-03-13T12:01:28.2596899+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 725,
+      "VisibleId": 535,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 983
         }
       }
     },
     {
-      "VisibleId": 725,
+      "VisibleId": 535,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 983
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

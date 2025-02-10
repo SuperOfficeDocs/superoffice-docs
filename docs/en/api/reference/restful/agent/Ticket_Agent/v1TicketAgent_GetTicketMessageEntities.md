@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 960,
+  "TicketId": 847,
   "MessageIds": [
-    921,
-    540
+    586,
+    897
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 278,
+    "EjMessageId": 313,
     "Ticket": null,
-    "CreatedAt": "1998-02-01T13:13:24.3684416+01:00",
+    "CreatedAt": "2020-09-16T12:01:28.5409587+02:00",
     "CreatedBy": null,
-    "Author": "qui",
+    "Author": "asperiores",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "quia",
-    "TimeSpent": 325,
-    "Body": "eius",
-    "HtmlBody": "sit",
-    "EmailHeader": "kale@bahringerbrekke.us",
-    "DebugInfo": "laborum",
-    "MailSorter": "aspernatur",
+    "MessageId": "illo",
+    "TimeSpent": 706,
+    "Body": "consequatur",
+    "HtmlBody": "nam",
+    "EmailHeader": "maymie_king@gaylord.co.uk",
+    "DebugInfo": "ex",
+    "MailSorter": "distinctio",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "et",
+    "SearchTitle": "voluptatum",
     "MessageHeaders": [
       {
-        "Id": 636,
-        "Name": "Jenkins, Farrell and Cartwright",
-        "Value": "placeat",
+        "Id": 292,
+        "Name": "Hudson-O'Keefe",
+        "Value": "nesciunt",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "Important": false,
-    "Language": "omnis",
-    "Sentiment": 652,
-    "SentimentConfidence": 433,
+    "Important": true,
+    "Language": "quia",
+    "Sentiment": 363,
+    "SentimentConfidence": 692,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 929,
-        "Name": "Wisoky LLC",
-        "ContentType": "quibusdam",
-        "AttSize": 133,
-        "InlineImage": true,
-        "ContentId": "deleniti",
-        "AuthKey": "odit",
-        "IsSafeFileExtension": true,
+        "AttachmentId": 299,
+        "Name": "Pacocha, Mayer and Wiza",
+        "ContentType": "minus",
+        "AttSize": 25,
+        "InlineImage": false,
+        "ContentId": "similique",
+        "AuthKey": "aperiam",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 972
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "sit",
-      "ExtraFields2": "porro"
+      "ExtraFields1": "quod",
+      "ExtraFields2": "voluptatibus"
     },
     "CustomFields": {
-      "CustomFields1": "impedit",
-      "CustomFields2": "ullam"
+      "CustomFields1": "dignissimos",
+      "CustomFields2": "impedit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 67
       }
     }
   }

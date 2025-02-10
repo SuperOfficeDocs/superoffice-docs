@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 329,
-    "ColumnId": 47,
-    "FieldDefault": "at",
-    "FieldHeight": 327,
-    "FieldLabel": "est",
-    "FieldLeft": 909,
-    "FieldTop": 119,
+    "UDefFieldId": 326,
+    "ColumnId": 851,
+    "FieldDefault": "exercitationem",
+    "FieldHeight": 935,
+    "FieldLabel": "qui",
+    "FieldLeft": 969,
+    "FieldTop": 305,
     "FieldType": "Checkbox",
-    "FieldWidth": 102,
-    "FormatMask": "doloremque",
+    "FieldWidth": 364,
+    "FormatMask": "reiciendis",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 919,
-    "LabelLeft": 622,
-    "LabelTop": 171,
-    "LabelWidth": 717,
-    "LastVersionId": 482,
-    "ListTableId": 47,
+    "IsIndexed": true,
+    "LabelHeight": 599,
+    "LabelLeft": 869,
+    "LabelTop": 221,
+    "LabelWidth": 8,
+    "LastVersionId": 644,
+    "ListTableId": 909,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 478,
-    "ProgId": "porro",
+    "Page1LineNo": 752,
+    "ProgId": "laudantium",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 730,
-    "TextLength": 64,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 692,
-    "UDListDefinitionId": 168,
+    "ShortLabel": "aliquid",
+    "TabOrder": 188,
+    "TextLength": 690,
+    "Tooltip": "et",
+    "UdefIdentity": 893,
+    "UDListDefinitionId": 930,
     "Justification": "Center",
-    "Version": 115,
-    "TemplateVariableName": "Swift Group",
+    "Version": 431,
+    "TemplateVariableName": "Corkery-Bode",
     "HasBeenPublished": true,
-    "MdoListName": "O'Kon-Windler",
+    "MdoListName": "Jacobs-Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldType": "System.Int32",
+        "FieldLength": 5
       }
     }
   }

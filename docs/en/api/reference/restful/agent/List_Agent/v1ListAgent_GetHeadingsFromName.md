@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schneider-Davis"
+  "Name": "D'Amore-Lindgren"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 516,
-    "Name": "Heller Inc and Sons",
-    "Tooltip": "qui",
+    "HeadingId": 147,
+    "Name": "Connelly-Morar",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 663,
-    "UdListDefinitionId": 748,
+    "Rank": 307,
+    "UdListDefinitionId": 87,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 798
       }
     }
   }

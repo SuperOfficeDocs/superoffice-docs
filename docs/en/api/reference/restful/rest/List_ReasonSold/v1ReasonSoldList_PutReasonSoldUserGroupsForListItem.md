@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "McKenzie Inc and Sons",
-    "ToolTip": "Repudiandae dolorem sapiente esse et.",
+    "Id": 602,
+    "Name": "Dicki Group",
+    "ToolTip": "Explicabo quia occaecati.",
     "Deleted": true,
-    "Rank": 818,
-    "Type": "aliquid",
-    "ColorBlock": 789,
-    "IconHint": "nemo",
+    "Rank": 402,
+    "Type": "exercitationem",
+    "ColorBlock": 417,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2002-03-04T13:13:33.5110216+01:00",
+    "LastChanged": "2022-10-12T12:01:33.6363617+02:00",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Kertzmann-Sawayn",
-        "ToolTip": "Et ut reiciendis dolores omnis.",
+        "Id": 756,
+        "Name": "Bogisich-Wilkinson",
+        "ToolTip": "Voluptas amet deserunt.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "provident",
-        "ColorBlock": 738,
-        "IconHint": "ut",
+        "Rank": 130,
+        "Type": "eum",
+        "ColorBlock": 709,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2010-08-13T13:13:33.526645+02:00",
+        "LastChanged": "2002-11-07T12:01:33.6363617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ms. Sunny Gerry Franecki Sr."
+        "FullName": "Mrs. Myrna Adrien Ritchie"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "maiores",
+    "ExtraInfo": "aut",
+    "StyleHint": "magni",
     "Hidden": true,
-    "FullName": "Mrs. Stephon Ibrahim Boyer V"
+    "FullName": "Dudley Emmerich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Price-Prohaska",
-    "ToolTip": "Ipsum odit quidem.",
-    "Deleted": true,
-    "Rank": 17,
-    "Type": "quod",
-    "ColorBlock": 740,
-    "IconHint": "quo",
+    "Id": 569,
+    "Name": "Purdy, Vandervort and Lehner",
+    "ToolTip": "Vel dolorem rem officia.",
+    "Deleted": false,
+    "Rank": 723,
+    "Type": "qui",
+    "ColorBlock": 385,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-02-19T13:13:33.526645+01:00",
+    "LastChanged": "2001-10-17T12:01:33.6363617+02:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Hayes, Thiel and Rodriguez",
-        "ToolTip": "Error ducimus dolorum quia.",
-        "Deleted": true,
-        "Rank": 339,
-        "Type": "alias",
-        "ColorBlock": 948,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2015-05-27T13:13:33.526645+02:00",
+        "Id": 102,
+        "Name": "Lynch-Corkery",
+        "ToolTip": "Commodi recusandae nisi impedit facere voluptatem.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "quis",
+        "ColorBlock": 696,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2012-04-07T12:01:33.6363617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "aut",
+        "ExtraInfo": "aut",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Mrs. Harvey Rozella Maggio",
+        "FullName": "Dr. Presley Adonis Cummings Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 101
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Miss Avis Thelma Marquardt",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Athena O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 761
       }
     }
   }

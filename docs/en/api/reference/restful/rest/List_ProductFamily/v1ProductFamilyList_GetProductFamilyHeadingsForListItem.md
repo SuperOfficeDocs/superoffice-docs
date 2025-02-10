@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Muller Inc and Sons",
-    "ToolTip": "Nostrum alias.",
-    "Deleted": true,
-    "Rank": 539,
-    "Type": "expedita",
-    "ColorBlock": 487,
-    "IconHint": "harum",
+    "Id": 426,
+    "Name": "Bartoletti, Wuckert and Runolfsson",
+    "ToolTip": "Nesciunt repellendus reprehenderit maxime eum impedit iste.",
+    "Deleted": false,
+    "Rank": 671,
+    "Type": "et",
+    "ColorBlock": 257,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2006-02-07T13:13:33.3235805+01:00",
+    "LastChanged": "2023-05-24T12:01:33.5738574+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Stark Group",
-        "ToolTip": "Exercitationem dolorem odio repudiandae quia.",
-        "Deleted": true,
-        "Rank": 29,
-        "Type": "veritatis",
-        "ColorBlock": 906,
-        "IconHint": "ullam",
+        "Id": 511,
+        "Name": "Ward, Tillman and Tromp",
+        "ToolTip": "At et dolorem autem illum repellat sequi.",
+        "Deleted": false,
+        "Rank": 392,
+        "Type": "et",
+        "ColorBlock": 441,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2000-12-11T13:13:33.3235805+01:00",
+        "LastChanged": "2022-12-16T12:01:33.5738574+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Miss Constantin Mann MD",
+        "ExtraInfo": "iste",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Cristopher Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "eum",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Cynthia Parisian",
+    "FullName": "Dr. Jerrell Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 856
       }
     }
   }

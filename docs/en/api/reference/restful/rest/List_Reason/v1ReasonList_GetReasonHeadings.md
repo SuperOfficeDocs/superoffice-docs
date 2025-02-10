@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 537,
-    "Name": "Nolan-Hahn",
-    "Tooltip": "similique",
+    "HeadingId": 710,
+    "Name": "Hagenes-Wiza",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 197,
-    "UdListDefinitionId": 665,
+    "Rank": 962,
+    "UdListDefinitionId": 358,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

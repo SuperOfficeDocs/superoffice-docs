@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 964,
-  "TemplateName": "Spinka-McKenzie",
+  "SelectionId": 264,
+  "TemplateName": "Barton, Senger and Cremin",
   "UseContacts": false,
-  "OrderBy": "sed"
+  "OrderBy": "quaerat"
 }
 ```
 

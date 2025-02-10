@@ -88,18 +88,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 646,
+  "SelectionId": 751,
   "Criteria": [
     {
-      "Name": "Nitzsche Inc and Sons",
-      "Operator": "repellat",
+      "Name": "Gottlieb Group",
+      "Operator": "vero",
       "Values": [
-        "odio",
-        "aliquid"
+        "est",
+        "aperiam"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "temporibus"
+        "et",
+        "reiciendis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 689,
+      "InterParenthesis": 911,
       "InterOperator": "And",
-      "UniqueHash": 948
+      "UniqueHash": 320
     }
   ],
-  "Filter": "eveniet"
+  "Filter": "odio"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stokes, Emard and Bergnaum",
-    "Operator": "animi",
+    "Name": "Jenkins-Fisher",
+    "Operator": "et",
     "Values": [
-      "iusto",
-      "quis"
+      "id",
+      "et"
     ],
     "DisplayValues": [
-      "vel",
-      "esse"
+      "esse",
+      "asperiores"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Cremin Group",
-        "Operator": "eveniet",
+        "Name": "Beahan-Effertz",
+        "Operator": "nobis",
         "Values": [
-          "optio",
-          "quasi"
+          "corrupti",
+          "nihil"
         ],
         "DisplayValues": [
-          "et",
-          "est"
+          "perferendis",
+          "quo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 610,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 289
+        "UniqueHash": 700
       }
     ],
-    "InterParenthesis": 902,
+    "InterParenthesis": 165,
     "InterOperator": "And",
-    "UniqueHash": 611
+    "UniqueHash": 895
   }
 ]
 ```

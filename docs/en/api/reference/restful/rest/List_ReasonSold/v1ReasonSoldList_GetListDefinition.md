@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 161,
-  "Name": "Williamson-Smith",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 365,
-  "IsCustomList": true,
+  "Id": 732,
+  "Name": "Jacobi-Schneider",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "Rank": 331,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   },
   "_Links": {

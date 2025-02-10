@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Document/DeleteTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "laudantium"
+  "Filename": "recusandae"
 }
 ```
 

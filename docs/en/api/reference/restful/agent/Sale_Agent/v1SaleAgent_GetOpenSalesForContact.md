@@ -101,7 +101,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 440
+  "ContactId": 201
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cronin Group",
-    "SaleDate": "2022-02-06T13:13:23.8839994+01:00",
-    "SaleId": 188,
-    "Probability": 574,
-    "Title": "aliquid",
-    "Amount": 2933.424,
-    "Currency": "recusandae",
-    "ProjectName": "Gulgowski-Ferry",
-    "AssociateFullName": "Athena Walter Casper I",
-    "Description": "Synergistic content-based projection",
+    "ContactName": "Hane LLC",
+    "SaleDate": "2003-04-15T12:01:28.2596899+02:00",
+    "SaleId": 328,
+    "Probability": 38,
+    "Title": "expedita",
+    "Amount": 8364.6459999999988,
+    "Currency": "et",
+    "ProjectName": "Lang LLC",
+    "AssociateFullName": "Dr. Isaac Anabel Medhurst DVM",
+    "Description": "Future-proofed demand-driven task-force",
     "Status": "Lost",
-    "WeightedAmount": 466.966,
-    "ProjectId": 472,
-    "EarningPercent": 6857.192,
-    "Earning": 4365.662,
-    "ContactId": 332,
-    "AssociateId": 149,
-    "PersonId": 355,
-    "SaleTypeId": 589,
-    "SaleTypeName": "Will Group",
-    "PersonFullName": "Carolina Runolfsson",
+    "WeightedAmount": 1560.732,
+    "ProjectId": 163,
+    "EarningPercent": 3356.5139999999997,
+    "Earning": 28672.966,
+    "ContactId": 884,
+    "AssociateId": 631,
+    "PersonId": 403,
+    "SaleTypeId": 838,
+    "SaleTypeName": "Koss LLC",
+    "PersonFullName": "Mrs. Jaida Jedidiah Crist",
     "Completed": "Completed",
-    "ActiveErpLinks": 3,
-    "NextDueDate": "2006-09-22T13:13:23.8839994+02:00",
-    "Number": "651139",
+    "ActiveErpLinks": 672,
+    "NextDueDate": "2024-09-21T12:01:28.2596899+02:00",
+    "Number": "1232620",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 631
       }
     }
   }

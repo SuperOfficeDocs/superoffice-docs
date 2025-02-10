@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Turcotte, Metz and Heller",
-  "StorageKey": "consequuntur",
+  "StorageType": "dicta",
+  "ProviderName": "Macejkovic Group",
+  "StorageKey": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Yundt LLC",
-      "Operator": "voluptas",
+      "Name": "Cremin Group",
+      "Operator": "incidunt",
       "Values": [
-        "enim",
-        "quas"
+        "reprehenderit",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "fugiat",
-        "corporis"
+        "sed",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 390,
+      "InterParenthesis": 864,
       "InterOperator": "And",
-      "UniqueHash": 988
+      "UniqueHash": 259
     }
   ]
 }

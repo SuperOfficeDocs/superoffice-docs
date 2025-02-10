@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 62
+  "WorkflowStepOptionId": 893
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 529,
-  "WorkflowStepId": 803,
-  "WorkflowId": 322,
-  "Name": "Nolan-Pouros",
-  "Rank": 638,
+  "WorkflowStepOptionId": 788,
+  "WorkflowStepId": 180,
+  "WorkflowId": 937,
+  "Name": "Mohr Inc and Sons",
+  "Rank": 99,
   "Steps": [
     {
-      "WorkflowStepId": 109,
-      "WorkflowId": 561,
+      "WorkflowStepId": 925,
+      "WorkflowId": 354,
       "StepType": "AddToList",
-      "Rank": 902
+      "Rank": 555
     },
     {
-      "WorkflowStepId": 109,
-      "WorkflowId": 561,
+      "WorkflowStepId": 925,
+      "WorkflowId": 354,
       "StepType": "AddToList",
-      "Rank": 902
+      "Rank": 555
     }
   ]
 }

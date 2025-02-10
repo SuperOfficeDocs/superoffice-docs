@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 245,
-  "Username": "sint",
-  "AccessAllRequests": true
+  "PersonId": 110,
+  "Username": "iusto",
+  "AccessAllRequests": false
 }
 ```
 
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 699,
-  "PersonId": 332,
-  "SecretKey": "quibusdam",
-  "SecretValue": "optio",
+  "UserCandidateId": 20,
+  "PersonId": 140,
+  "SecretKey": "aut",
+  "SecretValue": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   }
 }

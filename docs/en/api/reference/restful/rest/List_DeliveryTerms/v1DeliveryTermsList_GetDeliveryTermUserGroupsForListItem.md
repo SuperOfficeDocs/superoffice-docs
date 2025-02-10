@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Predovic-Macejkovic",
-    "ToolTip": "Sapiente reiciendis eum inventore nesciunt quos id illum.",
-    "Deleted": false,
-    "Rank": 733,
-    "Type": "sit",
-    "ColorBlock": 792,
-    "IconHint": "vitae",
-    "Selected": false,
-    "LastChanged": "2004-11-18T13:13:33.042395+01:00",
+    "Id": 305,
+    "Name": "Ondricka Inc and Sons",
+    "ToolTip": "Fugit officiis rerum sed et qui.",
+    "Deleted": true,
+    "Rank": 792,
+    "Type": "ut",
+    "ColorBlock": 970,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2017-03-07T12:01:33.495727+01:00",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Nader Group",
-        "ToolTip": "Occaecati nam iure omnis fugiat aut consequatur quia.",
+        "Id": 49,
+        "Name": "Stroman Group",
+        "ToolTip": "Quos earum inventore quia id ex autem.",
         "Deleted": false,
-        "Rank": 361,
-        "Type": "et",
-        "ColorBlock": 97,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2010-10-22T13:13:33.042395+02:00",
+        "Rank": 782,
+        "Type": "vel",
+        "ColorBlock": 511,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2002-02-01T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Zoie Katrine Weimann DDS",
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Cortney Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "alias",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Dr. Angelo Lila Ritchie Sr.",
+    "FullName": "Mr. Elliot Jayde Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 892
       }
     }
   }

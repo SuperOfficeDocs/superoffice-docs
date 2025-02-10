@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quisquam"
+  "UniqueIdentifier": "molestias"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eum",
-  "Name": "Williamson, Kessler and Bosco",
-  "Description": "Cross-platform contextually-based definition",
-  "IncludeId": "quia",
-  "Source": "id",
-  "Registered": "1999-04-05T13:13:22.508244+02:00",
-  "RegisteredBy": "perferendis",
-  "Updated": "2004-12-09T13:13:22.508244+01:00",
-  "UpdatedBy": "nostrum",
-  "Path": "incidunt",
+  "UniqueIdentifier": "vero",
+  "Name": "Bechtelar Group",
+  "Description": "Exclusive directional adapter",
+  "IncludeId": "et",
+  "Source": "sapiente",
+  "Registered": "2024-09-19T12:01:27.5408902+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2022-05-27T12:01:27.5408902+02:00",
+  "UpdatedBy": "explicabo",
+  "Path": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldType": "System.Int32",
+      "FieldLength": 415
     }
   }
 }

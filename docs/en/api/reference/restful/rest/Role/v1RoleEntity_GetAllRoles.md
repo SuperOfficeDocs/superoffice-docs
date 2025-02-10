@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Harber, Kuphal and Gerhold",
-    "ToolTip": "A facere.",
+    "Id": 221,
+    "Name": "Corwin, Cruickshank and Raynor",
+    "ToolTip": "Delectus recusandae recusandae.",
     "Deleted": true,
-    "Rank": 364,
+    "Rank": 248,
     "Type": "at",
-    "ColorBlock": 823,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2005-01-29T13:13:31.9956719+01:00",
+    "ColorBlock": 859,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2001-09-05T12:01:33.0425704+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Murazik-Lindgren",
-        "ToolTip": "Facere illum est ut deserunt doloribus est omnis.",
-        "Deleted": false,
-        "Rank": 625,
-        "Type": "distinctio",
-        "ColorBlock": 905,
-        "IconHint": "dolorum",
+        "Id": 149,
+        "Name": "Kovacek LLC",
+        "ToolTip": "Illum consequatur sit in libero adipisci aut ut.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "in",
+        "ColorBlock": 37,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2001-07-14T13:13:31.9956719+02:00",
+        "LastChanged": "2018-05-18T12:01:33.0425704+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Mr. Jose Crona",
+        "ExtraInfo": "qui",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Jewel Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Lafayette Hackett",
+    "FullName": "Bianka Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 834
       }
     }
   }

@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 638
+  "DocumentId": 179
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 195,
-      "ContactName": "Homenick, Bernhard and Friesen",
-      "PersonId": 744,
-      "PersonName": "Homenick-Graham",
-      "AssociateId": 281,
-      "Address": "eius",
-      "EmailId": 783,
+      "ContactId": 287,
+      "ContactName": "Veum-Hintz",
+      "PersonId": 61,
+      "PersonName": "Block Group",
+      "AssociateId": 880,
+      "Address": "similique",
+      "EmailId": 494,
       "DuplicatePersonIds": [
-        44,
-        92
+        289,
+        14
       ],
-      "Name": "McCullough-Ortiz",
+      "Name": "Kling Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 671
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 688,
-      "ContactName": "Runte LLC",
-      "PersonId": 581,
-      "PersonName": "Stokes LLC",
-      "AssociateId": 306,
-      "Address": "et",
-      "EmailId": 424,
+      "ContactId": 70,
+      "ContactName": "Wiza, Davis and Lang",
+      "PersonId": 751,
+      "PersonName": "Sawayn Group",
+      "AssociateId": 136,
+      "Address": "saepe",
+      "EmailId": 841,
       "DuplicatePersonIds": [
-        744,
-        672
+        341,
+        243
       ],
-      "Name": "VonRueden, Toy and Dibbert",
+      "Name": "Sporer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 840
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 784,
-      "ContactName": "Schmidt, Grant and Conn",
-      "PersonId": 997,
-      "PersonName": "Ondricka-Crooks",
-      "AssociateId": 341,
-      "Address": "delectus",
-      "EmailId": 214,
+      "ContactId": 647,
+      "ContactName": "Gutmann Group",
+      "PersonId": 516,
+      "PersonName": "Gutmann-Bradtke",
+      "AssociateId": 329,
+      "Address": "ut",
+      "EmailId": 484,
       "DuplicatePersonIds": [
-        219,
-        879
+        512,
+        244
       ],
-      "Name": "Cassin, Satterfield and D'Amore",
+      "Name": "Langworth Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 545
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "veritatis",
+  "Subject": "eum",
+  "HTMLBody": "blanditiis",
   "From": null,
-  "Sent": "2019-09-03T13:13:23.055223+02:00",
-  "Size": 790,
+  "Sent": "2008-09-10T12:01:27.8377848+02:00",
+  "Size": 800,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rem",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "doloremque",
+  "PlainBody": "sunt",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 457,
+  "ServerId": 253,
   "Attachments": [
     {
-      "Description": "Re-engineered value-added process improvement",
-      "Filename": "distinctio",
-      "Size": 930,
-      "Type": "rem",
-      "Encoding": "animi",
-      "Id": "doloribus",
-      "Disposition": "voluptates",
+      "Description": "Polarised incremental toolset",
+      "Filename": "nam",
+      "Size": 567,
+      "Type": "eius",
+      "Encoding": "sunt",
+      "Id": "commodi",
+      "Disposition": "dolorum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rempel, Heidenreich and Towne",
+      "Name": "Vandervort LLC",
       "Values": [
-        "molestias",
-        "unde"
+        "cumque",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 882
         }
       }
     },
     {
-      "Name": "Rempel, Heidenreich and Towne",
+      "Name": "Vandervort LLC",
       "Values": [
-        "molestias",
-        "unde"
+        "cumque",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 882
         }
       }
     }
   ],
-  "FolderName": "Greenholt, Bashirian and Thompson",
-  "EmailItemId": 749,
-  "AccountId": 812,
-  "ReceivedAt": "2013-01-26T13:13:23.055223+01:00",
+  "FolderName": "Sawayn, Dicki and Gutkowski",
+  "EmailItemId": 820,
+  "AccountId": 795,
+  "ReceivedAt": "2000-07-15T12:01:27.8377848+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-04-07T13:13:23.055223+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-09-28T12:01:27.8377848+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 711
     }
   }
 }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schamberger Group",
+  "UdListDefinitionName": "Rutherford-Kuhn",
   "Items": [
     {
-      "Id": 902,
-      "Name": "Larkin-Casper",
-      "Tooltip": "laborum",
+      "Id": 14,
+      "Name": "Stark, Collins and Schmeler",
+      "Tooltip": "repellendus",
       "Deleted": false,
-      "UdListDefinitionId": 929,
-      "Rank": 116
+      "UdListDefinitionId": 594,
+      "Rank": 847
     },
     {
-      "Id": 902,
-      "Name": "Larkin-Casper",
-      "Tooltip": "laborum",
+      "Id": 14,
+      "Name": "Stark, Collins and Schmeler",
+      "Tooltip": "repellendus",
       "Deleted": false,
-      "UdListDefinitionId": 929,
-      "Rank": 116
+      "UdListDefinitionId": 594,
+      "Rank": 847
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Langworth Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 234,
+    "Name": "Skiles-Steuber",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 690,
-    "Rank": 209,
+    "UdListDefinitionId": 897,
+    "Rank": 958,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 722
       }
     }
   }

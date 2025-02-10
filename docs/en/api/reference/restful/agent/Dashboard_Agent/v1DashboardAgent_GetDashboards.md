@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 462
+  "AssociateId": 299
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 459,
-    "AssociateId": 558,
-    "Caption": "et",
+    "DashboardId": 709,
+    "AssociateId": 999,
+    "Caption": "cum",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 186,
-        "Caption": "nostrum",
-        "Description": "Digitized stable support",
-        "ChartName": "Herman Inc and Sons",
-        "ChartId": "consequatur",
-        "IsDefault": false,
-        "AssociateId": 199,
-        "GroupId": 774,
-        "SelectionId": 861,
-        "Config": "ut",
+        "DashboardTileId": 498,
+        "Caption": "labore",
+        "Description": "Team-oriented mobile hub",
+        "ChartName": "Adams, Wuckert and Skiles",
+        "ChartId": "iusto",
+        "IsDefault": true,
+        "AssociateId": 297,
+        "GroupId": 538,
+        "SelectionId": 135,
+        "Config": "dolor",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 79
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

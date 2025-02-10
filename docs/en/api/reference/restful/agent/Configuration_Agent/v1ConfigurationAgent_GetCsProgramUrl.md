@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "placeat",
-  "ProgramName": "Zemlak-Morar",
-  "Action": "alias",
-  "ExtraParameters": "expedita"
+  "Language": "neque",
+  "ProgramName": "Ullrich, Stiedemann and Klein",
+  "Action": "amet",
+  "ExtraParameters": "accusantium"
 }
 ```
 

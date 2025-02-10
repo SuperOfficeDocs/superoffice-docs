@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rerum",
+  "SaleText": "consequuntur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-12-19T13:13:23.8206787+01:00",
-  "Amount": 4155.684,
-  "SaleId": 287,
-  "Earning": 25065.732,
-  "EarningPercent": 30528.293999999998,
-  "Heading": "aut",
-  "Number": "900713",
-  "Probability": 430,
-  "CreatedDate": "2012-10-28T13:13:23.8206787+01:00",
-  "UpdatedDate": "2020-03-15T13:13:23.8206787+01:00",
+  "Saledate": "2023-12-17T12:01:28.2440639+01:00",
+  "Amount": 8753.2619999999988,
+  "SaleId": 745,
+  "Earning": 19064.122,
+  "EarningPercent": 4622.65,
+  "Heading": "quisquam",
+  "Number": "707391",
+  "Probability": 196,
+  "CreatedDate": "1997-10-13T12:01:28.2440639+02:00",
+  "UpdatedDate": "2005-08-12T12:01:28.2440639+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 283,
+  "ActiveLinks": 981,
   "Links": [
     {
-      "EntityName": "Hoppe, O'Keefe and Krajcik",
-      "Id": 343,
-      "Description": "Cloned maximized algorithm",
-      "ExtraInfo": "et",
-      "LinkId": 824
+      "EntityName": "Haley Inc and Sons",
+      "Id": 359,
+      "Description": "Extended clear-thinking architecture",
+      "ExtraInfo": "maiores",
+      "LinkId": 451
     },
     {
-      "EntityName": "Hoppe, O'Keefe and Krajcik",
-      "Id": 343,
-      "Description": "Cloned maximized algorithm",
-      "ExtraInfo": "et",
-      "LinkId": 824
+      "EntityName": "Haley Inc and Sons",
+      "Id": 359,
+      "Description": "Extended clear-thinking architecture",
+      "ExtraInfo": "maiores",
+      "LinkId": 451
     }
   ],
-  "NextDueDate": "2008-12-10T13:13:23.8206787+01:00",
-  "Postit": "cum",
+  "NextDueDate": "2006-01-31T12:01:28.2440639+01:00",
+  "Postit": "facere",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-07-16T13:13:23.8206787+02:00",
+  "ReopenDate": "2020-04-28T12:01:28.2440639+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Kon, Rippin and Schimmel",
-      "Comment": "sint",
-      "StakeholderRoleId": 261,
-      "CountryId": 317,
-      "PersonId": 435,
-      "EmailDescription": "darrell@rutherford.co.uk",
-      "EmailId": 507,
-      "EmailAddress": "jan_langosh@effertz.name",
-      "PhoneId": 698,
-      "ContactName": "Flatley, Nolan and Morissette",
-      "ContactId": 530,
-      "SaleId": 331,
-      "Mrmrs": "veritatis",
-      "Firstname": "Christy",
-      "MiddleName": "Skiles-Cremin",
-      "Lastname": "Ebert",
-      "SaleStakeholderId": 994,
-      "Rank": 687,
-      "Phone": "221.199.4886 x589"
+      "StakeholderRoleName": "Wolff, Haley and Turcotte",
+      "Comment": "optio",
+      "StakeholderRoleId": 207,
+      "CountryId": 755,
+      "PersonId": 748,
+      "EmailDescription": "kristofer.klein@bernhard.us",
+      "EmailId": 568,
+      "EmailAddress": "orlo@hilll.com",
+      "PhoneId": 888,
+      "ContactName": "Kuhlman-Lebsack",
+      "ContactId": 161,
+      "SaleId": 763,
+      "Mrmrs": "eius",
+      "Firstname": "Luella",
+      "MiddleName": "Mills LLC",
+      "Lastname": "Leannon",
+      "SaleStakeholderId": 112,
+      "Rank": 272,
+      "Phone": "423.466.3469"
     }
   ],
-  "ActiveErpLinks": 639,
+  "ActiveErpLinks": 803,
   "UserDefinedFields": {
-    "SuperOffice:1": "1788475391",
-    "SuperOffice:2": "Vesta Schamberger"
+    "SuperOffice:1": "Benton Weimann",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "earum"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "ipsa"
   },
-  "PublishEventDate": "2011-01-24T13:13:23.8206787+01:00",
-  "PublishTo": "2005-06-25T13:13:23.8206787+02:00",
-  "PublishFrom": "2020-10-08T13:13:23.8206787+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-08-15T12:01:28.2440639+02:00",
+  "PublishTo": "2010-12-29T12:01:28.2440639+01:00",
+  "PublishFrom": "1999-09-24T12:01:28.2440639+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 819,
+      "VisibleId": 367,
       "Visibility": "All",
-      "DisplayValue": "maiores"
+      "DisplayValue": "distinctio"
     },
     {
-      "VisibleId": 819,
+      "VisibleId": 367,
       "Visibility": "All",
-      "DisplayValue": "maiores"
+      "DisplayValue": "distinctio"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "labore",
+  "SaleText": "sit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-03-08T13:13:23.8363004+01:00",
-  "Amount": 28942.489999999998,
-  "SaleId": 963,
-  "Earning": 28209.134,
-  "EarningPercent": 7217.602,
-  "Heading": "ab",
-  "Number": "717621",
-  "Probability": 231,
-  "CreatedDate": "2002-06-24T13:13:23.8363004+02:00",
-  "UpdatedDate": "2011-01-03T13:13:23.8363004+01:00",
+  "Saledate": "2005-09-18T12:01:28.2440639+02:00",
+  "Amount": 8439.862,
+  "SaleId": 678,
+  "Earning": 2714.044,
+  "EarningPercent": 12968.492,
+  "Heading": "minus",
+  "Number": "747228",
+  "Probability": 789,
+  "CreatedDate": "2020-11-15T12:01:28.2440639+01:00",
+  "UpdatedDate": "2004-07-30T12:01:28.2440639+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 387,
+  "ActiveLinks": 421,
   "Links": [
     {
-      "EntityName": "Ondricka LLC",
-      "Id": 719,
-      "Description": "Customer-focused methodical approach",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 325,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 562
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2001-04-23T13:13:23.8363004+02:00",
-  "Postit": "non",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2019-11-30T13:13:23.8363004+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Braun-Koelpin",
-      "Comment": "qui",
-      "StakeholderRoleId": 837,
-      "CountryId": 612,
-      "PersonId": 710,
-      "EmailDescription": "durward.little@robertsparker.ca",
-      "EmailId": 874,
-      "EmailAddress": "kelsi_reilly@streich.co.uk",
-      "PhoneId": 35,
-      "ContactName": "Wolff-Lind",
-      "ContactId": 493,
-      "SaleId": 640,
-      "Mrmrs": "eum",
-      "Firstname": "Vivianne",
-      "MiddleName": "Schaefer-Cormier",
-      "Lastname": "Kerluke",
-      "SaleStakeholderId": 665,
-      "Rank": 878,
-      "Phone": "895-679-9596 x6365",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 478
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 3,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Eugene Kulas",
-    "SuperOffice:2": "Cydney Schinner"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "tempora"
-  },
-  "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "laudantium"
-  },
-  "PublishEventDate": "2012-03-02T13:13:23.8363004+01:00",
-  "PublishTo": "2010-03-28T13:13:23.8363004+02:00",
-  "PublishFrom": "2008-04-07T13:13:23.8363004+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 22,
-      "Visibility": "All",
-      "DisplayValue": "quam",
+      "EntityName": "Kling-Schaden",
+      "Id": 217,
+      "Description": "Triple-buffered tangible productivity",
+      "ExtraInfo": "aut",
+      "LinkId": 925,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 909
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2021-05-30T12:01:28.2440639+02:00",
+  "Postit": "ipsam",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2011-02-19T12:01:28.2440639+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Lind, Jast and Wisoky",
+      "Comment": "fuga",
+      "StakeholderRoleId": 94,
+      "CountryId": 876,
+      "PersonId": 382,
+      "EmailDescription": "jennie@quigleymorissette.co.uk",
+      "EmailId": 153,
+      "EmailAddress": "beatrice.daniel@weber.ca",
+      "PhoneId": 920,
+      "ContactName": "Bauch Inc and Sons",
+      "ContactId": 479,
+      "SaleId": 867,
+      "Mrmrs": "consequatur",
+      "Firstname": "Annamae",
+      "MiddleName": "Medhurst Inc and Sons",
+      "Lastname": "Gerhold",
+      "SaleStakeholderId": 191,
+      "Rank": 990,
+      "Phone": "1-703-548-3512 x119",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 917
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 568,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Philip Lillie Kub Jr.",
+    "SuperOffice:2": "Katrine Ryan"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "quibusdam"
+  },
+  "CustomFields": {
+    "CustomFields1": "quae",
+    "CustomFields2": "voluptatum"
+  },
+  "PublishEventDate": "2018-07-15T12:01:28.2440639+02:00",
+  "PublishTo": "2023-08-29T12:01:28.2440639+02:00",
+  "PublishFrom": "2011-05-07T12:01:28.2440639+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 279,
+      "Visibility": "All",
+      "DisplayValue": "doloribus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     },
     {
-      "VisibleId": 22,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 873
         }
       }
     }
@@ -395,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 488
     }
   }
 }

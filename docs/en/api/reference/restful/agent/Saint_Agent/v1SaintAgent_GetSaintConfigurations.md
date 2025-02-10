@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 359,
+    "OwnerTable": 283,
     "Enabled": false,
-    "Period1": 963,
-    "Period2": 551,
-    "Period3": 175,
-    "GenerationStart": "2021-05-02T13:13:23.8050553+02:00",
-    "GenerationEnd": "2005-11-13T13:13:23.8050553+01:00",
-    "RowsGenerated": 289,
+    "Period1": 121,
+    "Period2": 362,
+    "Period3": 708,
+    "GenerationStart": "2003-03-29T12:01:28.2284376+01:00",
+    "GenerationEnd": "2007-04-06T12:01:28.2284376+02:00",
+    "RowsGenerated": 613,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 56
       }
     }
   }

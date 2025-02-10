@@ -79,13 +79,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 738,
-  "Name": "O'Reilly-Grimes",
-  "Tooltip": "vel",
-  "Rank": 127,
-  "Rate": 13407.252,
-  "Units": 6004.744,
-  "Deleted": true
+  "CurrencyId": 609,
+  "Name": "Kirlin, Roberts and Heaney",
+  "Tooltip": "tenetur",
+  "Rank": 883,
+  "Rate": 2971.0319999999997,
+  "Units": 12498.392,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 779,
-  "Name": "Strosin LLC",
-  "Tooltip": "assumenda",
-  "Rank": 962,
-  "Rate": 846.18,
-  "Units": 16879.724,
+  "CurrencyId": 918,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "dolorem",
+  "Rank": 715,
+  "Rate": 8327.038,
+  "Units": 21652.806,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 161,
-  "Name": "King, Nicolas and Schuppe",
-  "Tooltip": "esse",
+  "Id": 221,
+  "Name": "Dickinson, Schiller and Bode",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 175,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 934,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 160
     }
   },
   "_Links": {

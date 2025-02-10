@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Ruecker-Bosco",
-    "ToolTip": "Et nobis natus.",
+    "Id": 551,
+    "Name": "Lubowitz-O'Keefe",
+    "ToolTip": "Sint debitis praesentium.",
     "Deleted": false,
-    "Rank": 981,
-    "Type": "ullam",
-    "ColorBlock": 388,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1998-02-01T13:13:33.5735178+01:00",
+    "Rank": 374,
+    "Type": "rem",
+    "ColorBlock": 463,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2020-01-21T12:01:33.6519877+01:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Osinski LLC",
-        "ToolTip": "Ipsum est amet exercitationem minus aut delectus.",
-        "Deleted": true,
-        "Rank": 741,
-        "Type": "esse",
-        "ColorBlock": 294,
-        "IconHint": "ipsum",
+        "Id": 264,
+        "Name": "O'Hara-Nader",
+        "ToolTip": "Et neque fugiat placeat quo quia nisi.",
+        "Deleted": false,
+        "Rank": 386,
+        "Type": "totam",
+        "ColorBlock": 520,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2014-03-20T13:13:33.5735178+01:00",
+        "LastChanged": "2005-01-17T12:01:33.6519877+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Jena Gerlach",
+        "ExtraInfo": "non",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Orland Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 330
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Gabriel Stiedemann",
+    "ExtraInfo": "sunt",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Mrs. Alvena Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

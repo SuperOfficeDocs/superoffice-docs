@@ -77,16 +77,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Value": "quos",
-  "Tooltip": "exercitationem",
-  "Id": 271,
-  "Rank": 719,
-  "Deleted": false,
+  "Tooltip": "sed",
+  "Id": 541,
+  "Rank": 80,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 877
     }
   }
 }

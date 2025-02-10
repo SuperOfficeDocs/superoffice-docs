@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Medhurst-O'Hara",
-    "ToolTip": "Doloremque perferendis voluptatum aperiam.",
-    "Deleted": false,
-    "Rank": 871,
-    "Type": "rerum",
-    "ColorBlock": 594,
-    "IconHint": "iste",
+    "Id": 278,
+    "Name": "Veum Inc and Sons",
+    "ToolTip": "Sint ex.",
+    "Deleted": true,
+    "Rank": 385,
+    "Type": "incidunt",
+    "ColorBlock": 826,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2020-05-08T13:13:32.8861799+02:00",
+    "LastChanged": "2020-10-08T12:01:33.448849+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Mraz LLC",
-        "ToolTip": "Porro id.",
+        "Id": 269,
+        "Name": "Hilll, Grady and King",
+        "ToolTip": "Fugit ea vel officiis non dolorem et.",
         "Deleted": false,
-        "Rank": 879,
-        "Type": "quibusdam",
-        "ColorBlock": 237,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2004-02-23T13:13:32.8861799+01:00",
+        "Rank": 970,
+        "Type": "dolor",
+        "ColorBlock": 610,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2002-11-28T12:01:33.448849+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Leone Marks"
+        "ExtraInfo": "cumque",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Laisha Goodwin Sr."
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
+    "ExtraInfo": "velit",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Luz Ward"
+    "FullName": "Candice Weber"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Borer Group",
-    "ToolTip": "Nihil et non quisquam id.",
+    "Id": 936,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Sunt qui dolor et.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "eos",
-    "ColorBlock": 145,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2021-10-17T13:13:32.8861799+02:00",
+    "Rank": 637,
+    "Type": "aut",
+    "ColorBlock": 677,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2023-01-22T12:01:33.448849+01:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Bayer-Koelpin",
-        "ToolTip": "Tenetur quo laboriosam ut ipsam.",
+        "Id": 821,
+        "Name": "Larkin, Hessel and Bernier",
+        "ToolTip": "Omnis voluptas.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "aut",
-        "ColorBlock": 357,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "1999-11-15T13:13:32.8861799+01:00",
+        "Rank": 883,
+        "Type": "et",
+        "ColorBlock": 441,
+        "IconHint": "voluptates",
+        "Selected": true,
+        "LastChanged": "2023-09-19T12:01:33.448849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "magni",
-        "Hidden": false,
-        "FullName": "Margarett Dibbert",
+        "ExtraInfo": "illo",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Miss Augustine Avis Carter V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 273
+            "FieldType": "System.Int32",
+            "FieldLength": 271
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Domenic Doyle",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Agustin Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   }

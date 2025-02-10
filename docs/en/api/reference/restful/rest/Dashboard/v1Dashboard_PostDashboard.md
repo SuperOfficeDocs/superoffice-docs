@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 393,
-  "AssociateId": 701,
-  "Caption": "dolore",
+  "DashboardId": 71,
+  "AssociateId": 247,
+  "Caption": "maxime",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 197,
-      "Caption": "et",
-      "Description": "Assimilated zero tolerance functionalities",
-      "ChartName": "McClure Inc and Sons",
-      "ChartId": "modi",
+      "DashboardTileId": 733,
+      "Caption": "at",
+      "Description": "Re-contextualized neutral firmware",
+      "ChartName": "Rutherford-Ledner",
+      "ChartId": "veritatis",
       "IsDefault": false,
-      "AssociateId": 375,
-      "GroupId": 321,
-      "SelectionId": 961,
-      "Config": "esse",
+      "AssociateId": 334,
+      "GroupId": 554,
+      "SelectionId": 304,
+      "Config": "asperiores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 995,
-  "AssociateId": 53,
-  "Caption": "ea",
+  "DashboardId": 350,
+  "AssociateId": 741,
+  "Caption": "dolorem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 107,
-      "Caption": "reiciendis",
-      "Description": "Ergonomic directional conglomeration",
-      "ChartName": "Lemke-Borer",
-      "ChartId": "cum",
+      "DashboardTileId": 118,
+      "Caption": "itaque",
+      "Description": "Streamlined logistical support",
+      "ChartName": "Swift Inc and Sons",
+      "ChartId": "illum",
       "IsDefault": false,
-      "AssociateId": 776,
-      "GroupId": 706,
-      "SelectionId": 782,
-      "Config": "ea",
+      "AssociateId": 765,
+      "GroupId": 764,
+      "SelectionId": 716,
+      "Config": "repudiandae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldLength": 567
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

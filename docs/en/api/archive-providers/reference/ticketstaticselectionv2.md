@@ -765,7 +765,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=person/personDirectFax/formattedNumber,sale/associate/title,person/personExtra/x_person_priority_relation
+GET /api/v1/archive/TicketStaticSelectionV2?$select=person/searchPhone/formattedNumber,person/personAssociate/middleName,person/correspondingAssociate/credentialDisplayValue,contact/contactDeleted,contact/postAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

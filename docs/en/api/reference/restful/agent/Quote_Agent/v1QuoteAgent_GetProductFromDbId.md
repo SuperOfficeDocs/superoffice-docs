@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 427
+  "ProductId": 823
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 251,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Reilly LLC",
-  "Description": "Decentralized bi-directional artificial intelligence",
-  "Code": "rerum",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "quis",
+  "ProductId": 982,
+  "ERPProductKey": "nobis",
+  "ERPPriceListKey": "doloribus",
+  "Name": "Carroll, Spinka and Parker",
+  "Description": "Vision-oriented mobile firmware",
+  "Code": "quibusdam",
+  "PriceUnit": "blanditiis",
+  "QuantityUnit": "consectetur",
   "IsSubscription": true,
-  "SubscriptionUnit": "necessitatibus",
-  "DefaultSubscriptionQuantity": 18371.507999999998,
-  "ItemNumber": "755828",
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 25651.79,
+  "ItemNumber": "696945",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maiores",
-  "ProductTypeKey": "ratione",
-  "VAT": 20245.64,
-  "VATInfo": "consequatur",
-  "UnitCost": 11316.874,
-  "UnitMinimumPrice": 30152.214,
-  "UnitListPrice": 12087.838,
-  "InAssortment": false,
-  "Supplier": "voluptatum",
-  "SupplierCode": "distinctio",
-  "Rights": "omnis",
-  "Rule": "unde",
+  "ProductFamilyKey": "dolore",
+  "ProductTypeKey": "fugiat",
+  "VAT": 30631.716,
+  "VATInfo": "provident",
+  "UnitCost": 13335.17,
+  "UnitMinimumPrice": 30293.244,
+  "UnitListPrice": 6866.594,
+  "InAssortment": true,
+  "Supplier": "eligendi",
+  "SupplierCode": "animi",
+  "Rights": "mollitia",
+  "Rule": "consequuntur",
   "ExtraInfo": [
     {
-      "Name": "Runolfsdottir Inc and Sons",
-      "Value": "quasi",
+      "Name": "Koss, Conn and Hilpert",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 177
         }
       }
     },
     {
-      "Name": "Runolfsdottir Inc and Sons",
-      "Value": "quasi",
+      "Name": "Koss, Conn and Hilpert",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 177
         }
       }
     }
   ],
   "RawExtraInfo": "non",
-  "ExtraField1": "corporis",
-  "ExtraField2": "est",
-  "ExtraField3": "dolores",
-  "ExtraField4": "eos",
-  "ExtraField5": "dolor",
-  "InStock": 21239.118,
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "nihil",
+  "ExtraField3": "maiores",
+  "ExtraField4": "tenetur",
+  "ExtraField5": "eligendi",
+  "InStock": 2316.026,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 403
     }
   }
 }

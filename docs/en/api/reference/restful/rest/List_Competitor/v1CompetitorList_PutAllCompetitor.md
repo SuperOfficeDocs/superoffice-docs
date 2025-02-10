@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Doyle, Pagac and Abernathy",
-    "Tooltip": "eveniet",
+    "Id": 135,
+    "Name": "Hayes, Tillman and Haag",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "UdListDefinitionId": 379,
-    "Rank": 902
+    "UdListDefinitionId": 359,
+    "Rank": 266
   },
   {
-    "Id": 377,
-    "Name": "Doyle, Pagac and Abernathy",
-    "Tooltip": "eveniet",
+    "Id": 135,
+    "Name": "Hayes, Tillman and Haag",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "UdListDefinitionId": 379,
-    "Rank": 902
+    "UdListDefinitionId": 359,
+    "Rank": 266
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Lynch-Ledner",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 464,
-    "Rank": 940,
+    "Id": 556,
+    "Name": "Blanda Group",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 863,
+    "Rank": 779,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

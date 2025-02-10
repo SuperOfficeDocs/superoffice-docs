@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Lynch-Mayert",
-  "Tooltip": "voluptas",
+  "Id": 979,
+  "Name": "Parisian LLC",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 749,
-  "Rank": 34,
+  "UdListDefinitionId": 579,
+  "Rank": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 512
     }
   }
 }

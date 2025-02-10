@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 346,
-    "Name": "Stiedemann, Heathcote and Dooley",
-    "Tooltip": "eos",
-    "TableName": "Stracke Group",
-    "Area": "illo",
+    "TaskMenuId": 437,
+    "Name": "Boehm-Ward",
+    "Tooltip": "autem",
+    "TableName": "Parker Inc and Sons",
+    "Area": "sunt",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 782,
+    "CrmScriptId": 362,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 79,
+    "Rank": 653,
     "Encoding": "ANSI",
-    "ProgId": "est",
+    "ProgId": "impedit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 277
+        "FieldLength": 133
       }
     }
   }

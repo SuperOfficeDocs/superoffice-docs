@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sapiente",
-  "Name": "Wisoky, Barrows and Weimann"
+  "Path": "totam",
+  "Name": "Wuckert Inc and Sons"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 244,
+  "HierarchyId": 954,
   "Domain": "Dashboards",
-  "Name": "Kulas, Larkin and Glover",
-  "Fullname": "quo",
-  "ParentId": 258,
+  "Name": "Mueller-Ledner",
+  "Fullname": "consectetur",
+  "ParentId": 634,
   "Children": [
     {
-      "HierarchyId": 800,
+      "HierarchyId": 403,
       "Domain": "Dashboards",
-      "Name": "Hansen, Mohr and Rodriguez",
-      "Fullname": "libero",
-      "ParentId": 529,
+      "Name": "Hodkiewicz LLC",
+      "Fullname": "voluptatum",
+      "ParentId": 894,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-12-31T13:13:23.3051742+01:00",
-      "RegisteredAssociateId": 570,
-      "Updated": "2000-09-11T13:13:23.3051742+02:00",
-      "UpdatedAssociateId": 169,
+      "Registered": "1997-11-17T12:01:27.9627939+01:00",
+      "RegisteredAssociateId": 219,
+      "Updated": "2010-01-21T12:01:27.9627939+01:00",
+      "UpdatedAssociateId": 240,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldLength": 262
         }
       }
     }
   ],
-  "Registered": "2016-12-08T13:13:23.3051742+01:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2024-02-23T13:13:23.3051742+01:00",
-  "UpdatedAssociateId": 938,
+  "Registered": "2016-02-02T12:01:27.9627939+01:00",
+  "RegisteredAssociateId": 811,
+  "Updated": "2023-08-08T12:01:27.9627939+02:00",
+  "UpdatedAssociateId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 869
     }
   }
 }

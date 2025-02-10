@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "Gutmann LLC",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 493,
-    "UdListDefinitionId": 734,
+    "HeadingId": 212,
+    "Name": "Reichel Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 947,
+    "UdListDefinitionId": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldLength": 974
       }
     }
   }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "D'Amore-Jacobs"
+  "FileName": "Lowe Inc and Sons"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 27,
-      "ContactName": "Bosco Inc and Sons",
-      "PersonId": 614,
-      "PersonName": "Gislason, Homenick and Rice",
-      "AssociateId": 720,
-      "Address": "ratione",
-      "EmailId": 447,
+      "ContactId": 937,
+      "ContactName": "Mayert Group",
+      "PersonId": 560,
+      "PersonName": "Casper-Considine",
+      "AssociateId": 694,
+      "Address": "debitis",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        275,
-        363
+        942,
+        377
       ],
-      "Name": "Flatley Inc and Sons",
+      "Name": "Williamson, Ortiz and Feeney",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 364
+          "FieldLength": 969
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 831,
-      "ContactName": "Sporer Inc and Sons",
-      "PersonId": 118,
-      "PersonName": "Koelpin LLC",
-      "AssociateId": 480,
-      "Address": "est",
-      "EmailId": 510,
+      "ContactId": 29,
+      "ContactName": "Schultz LLC",
+      "PersonId": 91,
+      "PersonName": "Goodwin LLC",
+      "AssociateId": 331,
+      "Address": "modi",
+      "EmailId": 282,
       "DuplicatePersonIds": [
-        113,
-        884
+        724,
+        911
       ],
-      "Name": "Prohaska, Beatty and Beer",
+      "Name": "Stoltenberg, Wiegand and Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 982,
-      "ContactName": "Hills Inc and Sons",
-      "PersonId": 654,
-      "PersonName": "Shanahan-Waters",
-      "AssociateId": 181,
-      "Address": "commodi",
-      "EmailId": 581,
+      "ContactId": 11,
+      "ContactName": "Goyette-Abernathy",
+      "PersonId": 649,
+      "PersonName": "Cruickshank LLC",
+      "AssociateId": 140,
+      "Address": "totam",
+      "EmailId": 212,
       "DuplicatePersonIds": [
-        67,
-        815
+        463,
+        670
       ],
-      "Name": "White, Pacocha and Kutch",
+      "Name": "Nader, Ritchie and Adams",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 750
         }
       }
     }
   ],
-  "Subject": "dolor",
-  "HTMLBody": "fugit",
+  "Subject": "sapiente",
+  "HTMLBody": "doloribus",
   "From": null,
-  "Sent": "2008-05-07T13:13:23.0864655+02:00",
-  "Size": 203,
+  "Sent": "2016-04-13T12:01:27.8534108+02:00",
+  "Size": 696,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellendus",
-  "PlainBody": "eligendi",
+  "MessageID": "non",
+  "PlainBody": "tenetur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 116,
+  "ServerId": 737,
   "Attachments": [
     {
-      "Description": "Function-based zero tolerance toolset",
-      "Filename": "hic",
-      "Size": 968,
-      "Type": "omnis",
-      "Encoding": "iste",
-      "Id": "expedita",
-      "Disposition": "explicabo",
-      "IsSafeFileExtension": true,
+      "Description": "Sharable cohesive matrices",
+      "Filename": "impedit",
+      "Size": 733,
+      "Type": "quia",
+      "Encoding": "quis",
+      "Id": "iure",
+      "Disposition": "ad",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldLength": 810
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyle Inc and Sons",
+      "Name": "West-Cruickshank",
       "Values": [
-        "nobis",
-        "iusto"
+        "quos",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 300
         }
       }
     },
     {
-      "Name": "Boyle Inc and Sons",
+      "Name": "West-Cruickshank",
       "Values": [
-        "nobis",
-        "iusto"
+        "quos",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 300
         }
       }
     }
   ],
-  "FolderName": "Reinger-Windler",
-  "EmailItemId": 605,
-  "AccountId": 974,
-  "ReceivedAt": "2009-01-20T13:13:23.0864655+01:00",
+  "FolderName": "Johnson Inc and Sons",
+  "EmailItemId": 5,
+  "AccountId": 170,
+  "ReceivedAt": "2007-05-04T12:01:27.8534108+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-06-19T13:13:23.0864655+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2009-09-23T12:01:27.8534108+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

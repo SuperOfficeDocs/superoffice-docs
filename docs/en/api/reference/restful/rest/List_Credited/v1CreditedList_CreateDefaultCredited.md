@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Koch-Hamill",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 828,
-  "Rank": 22,
+  "Id": 850,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 389,
+  "Rank": 216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

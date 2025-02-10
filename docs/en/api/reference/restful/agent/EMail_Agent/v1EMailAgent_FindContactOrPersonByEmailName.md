@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenholt Inc and Sons",
-  "EmailAddress": "bette_mcclure@schoen.com"
+  "Name": "Lesch-Shanahan",
+  "EmailAddress": "emiliano@brakus.us"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 843,
-    "FullName": "Max Jast",
-    "EmailAddress": "ayla@champlin.info",
-    "ContactId": 272,
-    "ContactName": "Dietrich LLC",
+    "PersonId": 1001,
+    "FullName": "Barry Willms",
+    "EmailAddress": "tony@lindfunk.us",
+    "ContactId": 443,
+    "ContactName": "Adams Inc and Sons",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Krajcik-Reinger",
+    "SortName": "Stracke LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldLength": 157
       }
     }
   }

@@ -95,6 +95,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +115,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "fuga",
-  "PersonId": 992,
-  "Mrmrs": "architecto",
-  "Firstname": "Savanah",
-  "Lastname": "Champlin",
-  "MiddleName": "Gulgowski Inc and Sons",
-  "Title": "molestiae",
-  "Description": "Universal responsive interface",
-  "Email": "ansley@renner.ca",
-  "FullName": "Ernesto King Sr.",
-  "DirectPhone": "(035)638-2491 x59377",
-  "FormalName": "Abshire-Zemlak",
-  "CountryId": 871,
-  "ContactId": 222,
-  "ContactName": "Harris Inc and Sons",
-  "Retired": 44,
-  "Rank": 298,
-  "ActiveInterests": 594,
+  "Position": "commodi",
+  "PersonId": 129,
+  "Mrmrs": "nihil",
+  "Firstname": "Aglae",
+  "Lastname": "Johnston",
+  "MiddleName": "Hagenes-Harber",
+  "Title": "et",
+  "Description": "Future-proofed neutral neural-net",
+  "Email": "aric@stantonlakin.name",
+  "FullName": "Ronaldo Moen",
+  "DirectPhone": "761.367.7316",
+  "FormalName": "Dickinson, Gleichner and Kshlerin",
+  "CountryId": 551,
+  "ContactId": 565,
+  "ContactName": "Braun-Konopelski",
+  "Retired": 197,
+  "Rank": 508,
+  "ActiveInterests": 274,
   "ContactDepartment": "",
-  "ContactCountryId": 834,
-  "ContactOrgNr": "1140700",
-  "FaxPhone": "428-236-1273 x1719",
-  "MobilePhone": "103.909.9400 x108",
-  "ContactPhone": "1-852-794-3007",
-  "AssociateName": "Kirlin, Quigley and Swift",
-  "AssociateId": 281,
+  "ContactCountryId": 349,
+  "ContactOrgNr": "737091",
+  "FaxPhone": "521-505-3365 x8924",
+  "MobilePhone": "587.083.7459 x0402",
+  "ContactPhone": "866.528.6234 x15600",
+  "AssociateName": "Ondricka, Kozey and Haag",
+  "AssociateId": 717,
   "UsePersonAddress": false,
-  "ContactFax": "esse",
-  "Kanafname": "amet",
-  "Kanalname": "molestias",
-  "Post1": "id",
-  "Post2": "rerum",
-  "Post3": "cum",
-  "EmailName": "toni_ullrich@mohr.us",
-  "ContactFullName": "Lamar Cristal Lebsack DVM",
-  "ActiveErpLinks": 260,
-  "TicketPriorityId": 313,
-  "SupportLanguageId": 939,
-  "SupportAssociateId": 418,
+  "ContactFax": "ut",
+  "Kanafname": "velit",
+  "Kanalname": "minus",
+  "Post1": "nesciunt",
+  "Post2": "tenetur",
+  "Post3": "libero",
+  "EmailName": "jean_robel@veumkemmer.com",
+  "ContactFullName": "Jake Ritchie",
+  "ActiveErpLinks": 585,
+  "TicketPriorityId": 89,
+  "SupportLanguageId": 217,
+  "SupportAssociateId": 828,
   "CategoryName": "VIP Customer",
+  "PersonNumber": "1473945",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 517
     }
   }
 }

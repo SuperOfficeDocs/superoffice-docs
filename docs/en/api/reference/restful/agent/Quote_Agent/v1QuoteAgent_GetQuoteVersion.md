@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 878
+  "QuoteVersionId": 633
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 291,
-  "ERPQuoteVersionKey": "voluptas",
-  "QuoteId": 798,
-  "Description": "Profit-focused exuding leverage",
-  "Number": "582397",
+  "QuoteVersionId": 652,
+  "ERPQuoteVersionKey": "id",
+  "QuoteId": 528,
+  "Description": "Open-source bifurcated capability",
+  "Number": "1259211",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 259,
-  "SentDate": "2009-04-26T13:13:23.6957086+02:00",
-  "FollowupId": 758,
-  "ExpirationDate": "2009-12-29T13:13:23.6957086+01:00",
-  "DeliveryCountryId": 136,
+  "LikelyQuoteAlternativeId": 400,
+  "SentDate": "2002-06-10T12:01:28.1815588+02:00",
+  "FollowupId": 650,
+  "ExpirationDate": "2017-03-20T12:01:28.1815588+01:00",
+  "DeliveryCountryId": 194,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 771,
+  "InvoiceCountryId": 828,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "magni",
-  "ERPPaymentTypeKey": "iste",
-  "ERPDeliveryTermsKey": "iure",
-  "ERPDeliveryTypeKey": "nihil",
-  "Rank": 444,
-  "ApprovedBy": 27,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 568,
-  "ApprovedRegisteredDate": "2005-03-10T13:13:23.6957086+01:00",
-  "ExtraField1": "quas",
-  "ExtraField2": "iure",
-  "ExtraField3": "ea",
-  "ExtraField4": "quidem",
-  "ExtraField5": "dolore",
-  "LastRecalculated": "2019-02-03T13:13:23.6957086+01:00",
-  "Updated": "2023-02-12T13:13:23.6957086+01:00",
-  "UpdatedAssociateId": 275,
-  "Registered": "2020-02-18T13:13:23.6957086+01:00",
-  "RegisteredAssociateId": 437,
-  "RequestAssociateId": 867,
-  "RequestComment": "qui",
+  "ERPPaymentTermsKey": "incidunt",
+  "ERPPaymentTypeKey": "similique",
+  "ERPDeliveryTermsKey": "qui",
+  "ERPDeliveryTypeKey": "laboriosam",
+  "Rank": 741,
+  "ApprovedBy": 161,
+  "ApprovedText": "aliquam",
+  "ApprovedRegisteredBy": 914,
+  "ApprovedRegisteredDate": "2001-12-27T12:01:28.1815588+01:00",
+  "ExtraField1": "nesciunt",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "totam",
+  "ExtraField4": "ut",
+  "ExtraField5": "distinctio",
+  "LastRecalculated": "2000-05-09T12:01:28.1815588+02:00",
+  "Updated": "2013-04-12T12:01:28.1815588+02:00",
+  "UpdatedAssociateId": 25,
+  "Registered": "2019-02-01T12:01:28.1815588+01:00",
+  "RegisteredAssociateId": 349,
+  "RequestAssociateId": 656,
+  "RequestComment": "temporibus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 329,
-      "ERPQuoteAlternativeKey": "adipisci",
-      "QuoteVersionId": 881,
-      "Name": "Schiller LLC",
-      "Description": "Fully-configurable assymetric encryption",
+      "QuoteAlternativeId": 363,
+      "ERPQuoteAlternativeKey": "harum",
+      "QuoteVersionId": 611,
+      "Name": "Oberbrunner, Bernier and Sipes",
+      "Description": "Progressive exuding encoding",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 12915.214,
-      "ERPDiscountAmount": 10335.931999999999,
-      "DiscountPercent": 2576.148,
-      "DiscountAmount": 3629.172,
+      "ERPDiscountPercent": 13162.8,
+      "ERPDiscountAmount": 4989.3279999999995,
+      "DiscountPercent": 17334.154,
+      "DiscountAmount": 21815.773999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dignissimos",
-      "VAT": 29393.786,
-      "EarningPercent": 1175.25,
-      "EarningAmount": 11094.359999999999,
-      "SubTotal": 5597.324,
-      "TotalPrice": 3936.304,
-      "ExtraField1": "quam",
-      "ExtraField2": "numquam",
-      "ExtraField3": "quia",
-      "ExtraField4": "voluptas",
-      "ExtraField5": "repellat",
+      "VATInfo": "et",
+      "VAT": 24366.85,
+      "EarningPercent": 20345.928,
+      "EarningAmount": 22035.154,
+      "SubTotal": 2294.0879999999997,
+      "TotalPrice": 20794.09,
+      "ExtraField1": "ut",
+      "ExtraField2": "molestiae",
+      "ExtraField3": "aut",
+      "ExtraField4": "a",
+      "ExtraField5": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldLength": 112
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 445
     }
   }
 }

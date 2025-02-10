@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=pariatur
+GET /api/v1/List/LegalBase/MDOItems?query=iste
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Schoen-Reinger",
-    "ToolTip": "Accusantium perferendis ducimus harum quaerat et.",
-    "Deleted": true,
-    "Rank": 45,
-    "Type": "voluptatum",
+    "Id": 239,
+    "Name": "White LLC",
+    "ToolTip": "Occaecati magni perspiciatis qui odio dolorem esse eos.",
+    "Deleted": false,
+    "Rank": 254,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Crist, Hills and Hilll",
-        "ToolTip": "Modi atque.",
+        "Id": 791,
+        "Name": "Feil LLC",
+        "ToolTip": "Molestias voluptatum reiciendis aut ea recusandae sit tempora.",
         "Deleted": false,
-        "Rank": 561,
-        "Type": "optio",
+        "Rank": 828,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 394,
-        "ExtraInfo": "ex",
-        "StyleHint": "illo",
-        "FullName": "Brendan Kohler",
+        "IconHint": "ut",
+        "ColorBlock": 2,
+        "ExtraInfo": "magnam",
+        "StyleHint": "eaque",
+        "FullName": "Antonina Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldType": "System.String",
+            "FieldLength": 134
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 993,
-    "ExtraInfo": "vel",
-    "StyleHint": "non",
-    "FullName": "Quinton Runte",
+    "IconHint": "qui",
+    "ColorBlock": 539,
+    "ExtraInfo": "molestias",
+    "StyleHint": "eum",
+    "FullName": "Clotilde Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

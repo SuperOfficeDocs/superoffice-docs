@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 341
+  "ShipmentId": 843
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2007-02-15T13:13:23.3520388+01:00",
+  "StartDate": "2001-08-18T12:01:27.9940463+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 5,
-  "ShipmentDescription": "Optional incremental database",
-  "FromAddress": "ab",
-  "Configuration": 295,
-  "PersonId": 840,
-  "PersonFullName": "Patrick Herzog III",
-  "ShipmentType": "distinctio",
-  "MessageId": 199,
-  "MessageSubject": "voluptatem",
-  "DocumentMessageId": 746,
-  "NumSent": 221,
-  "NumOpened": 709,
-  "NumBounced": 478,
-  "NumClicks": 947,
+  "ShipmentId": 546,
+  "ShipmentDescription": "Virtual mission-critical middleware",
+  "FromAddress": "aut",
+  "Configuration": 281,
+  "PersonId": 140,
+  "PersonFullName": "Dr. Megane Kshlerin",
+  "ShipmentType": "est",
+  "MessageId": 236,
+  "MessageSubject": "dolore",
+  "DocumentMessageId": 307,
+  "NumSent": 620,
+  "NumOpened": 723,
+  "NumBounced": 169,
+  "NumClicks": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

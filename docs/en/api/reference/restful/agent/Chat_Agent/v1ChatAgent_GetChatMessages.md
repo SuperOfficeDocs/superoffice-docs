@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 380,
-  "After": 905
+  "ChatSessionId": 13,
+  "After": 436
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 310,
-    "ChatSessionId": 440,
+    "ChatMessageId": 528,
+    "ChatSessionId": 212,
     "Type": "Invalid",
-    "Message": "magni",
-    "Author": "sequi",
-    "ReadByCustomer": 960,
+    "Message": "modi",
+    "Author": "voluptas",
+    "ReadByCustomer": 944,
     "SpecialType": "Block",
-    "SpecialParam": "in",
-    "WhenPosted": "2024-09-27T13:13:22.2895453+02:00"
+    "SpecialParam": "sit",
+    "WhenPosted": "2022-03-05T12:01:27.4315072+01:00"
   }
 ]
 ```

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=nihil
-GET /api/v1/ForeignApp?$top=346
-GET /api/v1/ForeignApp?$skip=581
+GET /api/v1/ForeignApp?$entities=velit
+GET /api/v1/ForeignApp?$top=506
+GET /api/v1/ForeignApp?$skip=746
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=dicta
+GET /api/v1/ForeignApp?$context=nihil
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=False
+GET /api/v1/ForeignApp?$jsonSafe=True
 GET /api/v1/ForeignApp?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ad",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 515,
+      "PrimaryKey": 9132,
       "EntityName": "person",
-      "personId": 515,
-      "fullName": "Dr. Lauren Batz"
+      "personId": 9132,
+      "fullName": "Danny Schmitt Sr."
     },
     {
-      "PrimaryKey": 1765,
+      "PrimaryKey": 5788,
       "EntityName": "person",
-      "personId": 1765,
-      "fullName": "Miss Carson Daugherty II"
+      "personId": 5788,
+      "fullName": "Dr. Lesley Gerhard Weissnat"
     }
   ]
 }

@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 358,
-    "Name": "Simonis-Goyette",
-    "OrgNr": "1445243",
-    "Department": "",
+    "ContactId": 289,
+    "Name": "Leffler-Marks",
+    "OrgNr": "877371",
+    "Department": "e-enable robust eyeballs",
     "URL": "http://www.example.com/",
-    "City": "nulla",
-    "DirectPhone": "(457)353-8803 x6345",
-    "AssociateId": 215,
-    "CountryId": 105,
-    "EmailAddress": "leanna@boyletreutel.com",
-    "Kananame": "nemo",
-    "EmailAddressName": "arnoldo_effertz@rolfson.name",
+    "City": "qui",
+    "DirectPhone": "708-308-8315 x18971",
+    "AssociateId": 306,
+    "CountryId": 175,
+    "EmailAddress": "dolores.purdy@rolfson.ca",
+    "Kananame": "rem",
+    "EmailAddressName": "baron@lind.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Harmon Johns",
+    "AssociateFullName": "Bailee Gerlach",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "saepe",
-    "FullName": "Maynard Lueilwitz",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 466,
-    "Number1": "1052617",
-    "Number2": "1551772",
+    "FormattedAddress": "error",
+    "FullName": "Dr. Ladarius Danika Prohaska",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 972,
+    "Number1": "1276615",
+    "Number2": "944607",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldType": "System.String",
+        "FieldLength": 120
       }
     }
   }

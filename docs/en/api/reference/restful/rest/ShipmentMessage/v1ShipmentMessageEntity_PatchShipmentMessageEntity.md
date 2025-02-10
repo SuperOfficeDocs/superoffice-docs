@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 98,
-  "PlainMessage": "et",
-  "HtmlMessage": "repellendus",
-  "SmsMessage": "iusto",
-  "Description": "Open-architected full-range neural-net",
-  "Subject": "quo",
-  "FolderId": 27,
-  "HeaderField": "quasi",
-  "Design": "architecto",
+  "ShipmentMessageId": 161,
+  "PlainMessage": "corporis",
+  "HtmlMessage": "enim",
+  "SmsMessage": "laborum",
+  "Description": "Total modular time-frame",
+  "Subject": "quis",
+  "FolderId": 886,
+  "HeaderField": "qui",
+  "Design": "eum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Distributed systemic data-warehouse",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 600,
-  "Registered": "2011-08-05T13:13:32.3392746+02:00",
-  "RegisteredAssociateId": 648,
-  "Updated": "2016-06-16T13:13:32.3392746+02:00",
-  "UpdatedAssociateId": 341,
-  "UpdatedCount": 505,
+  "LongDescription": "Assimilated solution-oriented toolset",
+  "AccessKey": "iusto",
+  "DocumentMessage": 534,
+  "Registered": "2023-06-08T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 324,
+  "Updated": "2018-04-15T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 350,
+  "UpdatedCount": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 260
     }
   },
   "_Links": {

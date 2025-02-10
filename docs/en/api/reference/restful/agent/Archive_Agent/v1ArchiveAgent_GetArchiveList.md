@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Senger, Parisian and Boyle",
-  "ProviderName": "Bode, Altenwerth and Wehner",
+  "GuiName": "Vandervort, Terry and Kozey",
+  "ProviderName": "Harris-Kuphal",
   "SortOrder": [
     {
-      "Name": "Jacobs, Gaylord and Langosh",
+      "Name": "Watsica LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Jacobs, Gaylord and Langosh",
+      "Name": "Watsica LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Pfannerstill Inc and Sons",
-      "Operator": "quo",
+      "Name": "Lehner-Frami",
+      "Operator": "ipsam",
       "Values": [
-        "nostrum",
-        "dolorem"
+        "ut",
+        "rerum"
       ],
       "DisplayValues": [
-        "vitae",
-        "veniam"
+        "tempore",
+        "numquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 729,
+      "InterParenthesis": 929,
       "InterOperator": "And",
-      "UniqueHash": 300
+      "UniqueHash": 135
     }
   ],
   "Entities": [
-    "enim",
-    "dolores"
+    "commodi",
+    "sit"
   ],
-  "Page": 956,
-  "PageSize": 792
+  "Page": 231,
+  "PageSize": 122
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schuster, Botsford and Fay",
-    "PrimaryKey": 134,
+    "EntityName": "Wolf-Stroman",
+    "PrimaryKey": 275,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatibus",
-        "TooltipHint": "non",
-        "LinkHint": "ullam"
+        "DisplayValue": "et",
+        "TooltipHint": "ratione",
+        "LinkHint": "rerum"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "voluptate",
+    "LinkHint": "ea",
+    "StyleHint": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 384
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "in",
-  "PrefKey": "aliquid",
+  "PrefSection": "porro",
+  "PrefKey": "nihil",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "ea",
   "Specification": null,
-  "DisplayValue": "iure",
-  "DisplayTooltip": "distinctio",
+  "DisplayValue": "tenetur",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 995,
-  "PrefDescId": 587,
-  "TableName": "Barrows-Mann",
-  "UserPreferenceId": 903,
+  "TargetId": 910,
+  "PrefDescId": 687,
+  "TableName": "Ledner Inc and Sons",
+  "UserPreferenceId": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 917
     }
   }
 }

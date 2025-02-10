@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 444,
-  "EmailBodyTemplateId": 936,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 517,
+  "QuoteVersionId": 604,
+  "EmailBodyTemplateId": 270,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 966,
   "IncludeAttachments": false,
-  "RawMailSubject": "quae"
+  "RawMailSubject": "quod"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 352,
-  "QuotedProductsId": 182,
+  "QuoteDocumentId": 658,
+  "QuotedProductsId": 225,
   "QuoteAttachmentIds": [
-    908,
-    608
+    104,
+    989
   ],
-  "MailBody": "recusandae",
-  "MailSubject": "voluptatem",
-  "ToEmail": "hailee.balistreri@wisoky.us",
-  "ToFullName": "Arvid Reichel",
-  "ErrorMessage": "ea",
+  "MailBody": "beatae",
+  "MailSubject": "nisi",
+  "ToEmail": "maud.johnston@jacobson.us",
+  "ToFullName": "Prof. Bria Marvin DVM",
+  "ErrorMessage": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 25
     }
   }
 }

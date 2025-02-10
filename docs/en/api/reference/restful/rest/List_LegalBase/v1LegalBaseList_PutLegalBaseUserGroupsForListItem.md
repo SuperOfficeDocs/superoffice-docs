@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Monahan Group",
-    "ToolTip": "Ea inventore in rerum quo.",
-    "Deleted": false,
-    "Rank": 639,
-    "Type": "reiciendis",
-    "ColorBlock": 298,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2023-09-11T13:13:33.1361219+02:00",
+    "Id": 818,
+    "Name": "Goodwin Group",
+    "ToolTip": "Voluptatum qui eaque modi ad aut iure.",
+    "Deleted": true,
+    "Rank": 815,
+    "Type": "qui",
+    "ColorBlock": 88,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "1999-01-08T12:01:33.5269792+01:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Cremin-Willms",
-        "ToolTip": "Vero sit illum omnis.",
+        "Id": 750,
+        "Name": "Wyman, Hintz and Brakus",
+        "ToolTip": "Ipsum omnis dolore placeat distinctio accusamus.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "natus",
-        "ColorBlock": 184,
-        "IconHint": "doloribus",
+        "Rank": 261,
+        "Type": "eligendi",
+        "ColorBlock": 668,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2007-09-01T13:13:33.1361219+02:00",
+        "LastChanged": "1999-03-16T12:01:33.5269792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
+        "ExtraInfo": "sapiente",
         "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Shea Noelia Franecki MD"
+        "Hidden": false,
+        "FullName": "Mr. Novella Sean Haley PhD"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "sint",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Noemy Rohan"
+    "FullName": "Mr. Clay Fay Maggio II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Gislason-Hamill",
-    "ToolTip": "Ut asperiores tempore saepe numquam aut.",
-    "Deleted": true,
-    "Rank": 228,
-    "Type": "totam",
-    "ColorBlock": 481,
-    "IconHint": "aliquid",
+    "Id": 317,
+    "Name": "Bayer Inc and Sons",
+    "ToolTip": "Quidem itaque dicta sapiente quis ut.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "tempore",
+    "ColorBlock": 704,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2006-04-01T13:13:33.1361219+02:00",
+    "LastChanged": "2003-12-22T12:01:33.5269792+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Okuneva, Johns and Langworth",
-        "ToolTip": "Sed sapiente officia architecto eius enim ratione ut.",
+        "Id": 726,
+        "Name": "Huels-Reynolds",
+        "ToolTip": "Porro facere eum et.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "iste",
-        "ColorBlock": 709,
-        "IconHint": "quis",
+        "Rank": 661,
+        "Type": "ut",
+        "ColorBlock": 666,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "1998-02-20T13:13:33.1361219+01:00",
+        "LastChanged": "2018-04-03T12:01:33.5269792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "natus",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Boris Anabel Welch MD",
+        "FullName": "Bailey Pollich PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Miss Pablo Kessler",
+    "FullName": "Bailee Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

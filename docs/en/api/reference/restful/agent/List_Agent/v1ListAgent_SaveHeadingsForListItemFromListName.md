@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Mayer LLC",
-  "ListItemId": 288,
+  "UdListDefinitionName": "Hauck-Johns",
+  "ListItemId": 811,
   "Headings": [
     {
-      "Id": 603,
-      "Name": "Turner-Graham",
-      "ToolTip": "Nihil aut ut.",
+      "Id": 305,
+      "Name": "Hansen, Hayes and Renner",
+      "ToolTip": "Beatae dolores facere quas.",
       "Deleted": true,
-      "Rank": 87,
-      "Type": "aspernatur",
-      "ColorBlock": 653,
-      "IconHint": "in",
+      "Rank": 293,
+      "Type": "quidem",
+      "ColorBlock": 600,
+      "IconHint": "ab",
       "Selected": false,
-      "LastChanged": "2013-10-26T13:13:23.2583064+02:00",
+      "LastChanged": "1998-04-10T12:01:27.9471677+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "aut",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "aliquam",
       "Hidden": false,
-      "FullName": "Prof. Verdie Nicklaus Harvey IV"
+      "FullName": "Marguerite DuBuque"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Sawayn LLC",
-    "ToolTip": "Delectus cupiditate in ut quae saepe doloribus unde.",
-    "Deleted": false,
-    "Rank": 377,
-    "Type": "provident",
-    "ColorBlock": 616,
-    "IconHint": "illum",
+    "Id": 744,
+    "Name": "Bauch-Lindgren",
+    "ToolTip": "Nobis odio et non.",
+    "Deleted": true,
+    "Rank": 225,
+    "Type": "laudantium",
+    "ColorBlock": 573,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2010-07-28T13:13:23.2739325+02:00",
+    "LastChanged": "2020-08-27T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Pagac-Klein",
-        "ToolTip": "Aut voluptatum tempora.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "enim",
-        "ColorBlock": 399,
-        "IconHint": "dolores",
+        "Id": 634,
+        "Name": "O'Reilly, Pouros and McCullough",
+        "ToolTip": "Voluptatibus id quae animi cum.",
+        "Deleted": false,
+        "Rank": 125,
+        "Type": "rerum",
+        "ColorBlock": 338,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2005-06-30T13:13:23.2739325+02:00",
+        "LastChanged": "2006-02-23T12:01:27.9471677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "est",
+        "ExtraInfo": "enim",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Dr. Myles Hoppe",
+        "FullName": "Loma Carter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 462
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "inventore",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ms. Judd Shawn Ziemann",
+    "FullName": "Rosetta Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldType": "System.Int32",
+        "FieldLength": 732
       }
     }
   }

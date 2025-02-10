@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 288,
-  "SystemMessageId": "aliquam"
+  "OnlineappId": 707,
+  "SystemMessageId": "voluptas"
 }
 ```
 

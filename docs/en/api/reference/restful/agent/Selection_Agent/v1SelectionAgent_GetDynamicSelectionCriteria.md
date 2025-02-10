@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 444
+  "SelectionId": 107
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blick-Cartwright",
-    "Operator": "quam",
+    "Name": "Zemlak-Runolfsdottir",
+    "Operator": "ut",
     "Values": [
-      "officia",
-      "repudiandae"
+      "dolorem",
+      "explicabo"
     ],
     "DisplayValues": [
-      "perferendis",
-      "vel"
+      "qui",
+      "neque"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Heidenreich-Kirlin",
-        "Operator": "quo",
+        "Name": "Ortiz Inc and Sons",
+        "Operator": "officiis",
         "Values": [
-          "est",
-          "et"
+          "molestiae",
+          "deleniti"
         ],
         "DisplayValues": [
-          "aut",
-          "sunt"
+          "et",
+          "dicta"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 797,
+        "InterParenthesis": 495,
         "InterOperator": "And",
-        "UniqueHash": 514
+        "UniqueHash": 799
       }
     ],
-    "InterParenthesis": 662,
+    "InterParenthesis": 755,
     "InterOperator": "And",
-    "UniqueHash": 880
+    "UniqueHash": 70
   }
 ]
 ```

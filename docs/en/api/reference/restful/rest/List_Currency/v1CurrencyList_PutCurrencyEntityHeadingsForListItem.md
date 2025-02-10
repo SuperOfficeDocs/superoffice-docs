@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Pouros, Pacocha and Dietrich",
-    "ToolTip": "Velit fugiat earum totam omnis.",
-    "Deleted": true,
-    "Rank": 999,
-    "Type": "cumque",
-    "ColorBlock": 756,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2005-08-31T13:13:33.0111516+02:00",
+    "Id": 998,
+    "Name": "Daugherty, Schneider and Bogan",
+    "ToolTip": "Quas maxime omnis nihil maxime dolores iusto.",
+    "Deleted": false,
+    "Rank": 46,
+    "Type": "expedita",
+    "ColorBlock": 164,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2009-10-26T12:01:33.495727+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Lowe Group",
-        "ToolTip": "Ut mollitia qui non adipisci voluptatem.",
-        "Deleted": false,
-        "Rank": 997,
-        "Type": "et",
-        "ColorBlock": 76,
-        "IconHint": "corrupti",
+        "Id": 637,
+        "Name": "Williamson-Cassin",
+        "ToolTip": "Sapiente voluptas distinctio.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "repellendus",
+        "ColorBlock": 900,
+        "IconHint": "optio",
         "Selected": true,
-        "LastChanged": "2023-06-01T13:13:33.0111516+02:00",
+        "LastChanged": "2001-10-05T12:01:33.495727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Kaleigh Green"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "blanditiis",
+        "Hidden": true,
+        "FullName": "Mr. Titus McGlynn"
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "maxime",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Felipa Hirthe"
+    "FullName": "Ernestine Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "McClure-Schaden",
-    "ToolTip": "Qui quasi voluptatum quas veniam.",
+    "Id": 459,
+    "Name": "Gulgowski-Stanton",
+    "ToolTip": "Minima dolor.",
     "Deleted": true,
-    "Rank": 182,
-    "Type": "recusandae",
-    "ColorBlock": 268,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "2015-08-17T13:13:33.0267723+02:00",
+    "Rank": 161,
+    "Type": "esse",
+    "ColorBlock": 889,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2019-03-22T12:01:33.495727+01:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Fisher Group",
-        "ToolTip": "Porro libero pariatur quidem saepe expedita id quia.",
-        "Deleted": true,
-        "Rank": 308,
-        "Type": "voluptates",
-        "ColorBlock": 547,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2007-10-06T13:13:33.0267723+02:00",
+        "Id": 556,
+        "Name": "Greenholt-Erdman",
+        "ToolTip": "Molestias nihil ut occaecati.",
+        "Deleted": false,
+        "Rank": 662,
+        "Type": "voluptatum",
+        "ColorBlock": 828,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2008-10-28T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Aurelie Casper",
+        "ExtraInfo": "quia",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Ms. Joelle Russel Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "eaque",
+    "ExtraInfo": "nobis",
+    "StyleHint": "facere",
     "Hidden": true,
-    "FullName": "Dr. Lee Cole",
+    "FullName": "Natalie Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

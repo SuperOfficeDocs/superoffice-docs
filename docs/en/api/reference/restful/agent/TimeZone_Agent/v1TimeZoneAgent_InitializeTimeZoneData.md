@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 73,
-    "Name": "Hayes, Blick and Olson",
-    "TZLocationCode": "eos",
-    "TZLocationCities": "enim",
-    "IsoNumber": 637,
+    "TZLocationID": 970,
+    "Name": "Monahan LLC",
+    "TZLocationCode": "molestias",
+    "TZLocationCities": "sed",
+    "IsoNumber": 655,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 168,
-        "StartMonth": 562,
-        "EndDay": 418,
-        "EndMonth": 582,
-        "TZOffset": 798,
-        "StartRulePattern": "temporibus",
-        "EndRulePattern": "assumenda"
+        "StartDay": 501,
+        "StartMonth": 451,
+        "EndDay": 763,
+        "EndMonth": 975,
+        "TZOffset": 334,
+        "StartRulePattern": "praesentium",
+        "EndRulePattern": "rem"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 49,
-        "StartMonth": 311,
-        "EndDay": 533,
-        "EndMonth": 451,
-        "TZOffset": 540,
-        "StartRulePattern": "nulla",
-        "EndRulePattern": "libero"
+        "StartDay": 983,
+        "StartMonth": 891,
+        "EndDay": 805,
+        "EndMonth": 299,
+        "TZOffset": 690,
+        "StartRulePattern": "explicabo",
+        "EndRulePattern": "dolor"
       }
     }
   }

@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    885,
-    231
+    94,
+    666
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Bernier-Marquardt",
-    "AssociateId": 41,
-    "DetailsTable": 389,
-    "DetailsRecord": 696,
+    "Id": 480,
+    "Name": "Dare-Ankunding",
+    "AssociateId": 878,
+    "DetailsTable": 776,
+    "DetailsRecord": 628,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ea",
-      "ParameterObject2": "blanditiis"
+      "ParameterObject1": "asperiores",
+      "ParameterObject2": "beatae"
     },
-    "LastStarted": "2020-11-28T13:13:22.133333+01:00",
-    "Created": "2016-09-21T13:13:22.133333+02:00",
-    "StartCount": 907,
-    "DatabaseSerialNumber": "1201010",
-    "Context": "a",
-    "Result": "voluptatibus",
+    "LastStarted": "2000-09-30T12:01:27.3377499+02:00",
+    "Created": "2000-10-29T12:01:27.3377499+01:00",
+    "StartCount": 914,
+    "DatabaseSerialNumber": "693972",
+    "Context": "eum",
+    "Result": "dicta",
     "State": "All",
-    "Description": "Diverse demand-driven open architecture",
-    "Response": "iure",
-    "Request": "ipsa",
-    "ProgressDescription": "Vision-oriented systemic architecture",
-    "ProgressPercent": 402,
-    "FileName": "Bauch-Schneider",
+    "Description": "Profit-focused zero administration info-mediaries",
+    "Response": "at",
+    "Request": "minus",
+    "ProgressDescription": "Virtual local moratorium",
+    "ProgressPercent": 361,
+    "FileName": "Bins, Grimes and Herzog",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Williamson Group",
-    "ToolTip": "Nihil nulla veniam illo.",
+    "Id": 942,
+    "Name": "Denesik-Durgan",
+    "ToolTip": "Tempora magni ea.",
     "Deleted": false,
-    "Rank": 165,
-    "Type": "totam",
-    "ColorBlock": 139,
-    "IconHint": "esse",
+    "Rank": 552,
+    "Type": "expedita",
+    "ColorBlock": 703,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2004-05-10T13:13:33.1361219+02:00",
+    "LastChanged": "2002-01-10T12:01:33.5269792+01:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Rolfson LLC",
-        "ToolTip": "Ut ut animi.",
-        "Deleted": false,
-        "Rank": 789,
-        "Type": "dolorem",
-        "ColorBlock": 862,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2022-11-18T13:13:33.1361219+01:00",
+        "Id": 250,
+        "Name": "Skiles, Kassulke and Dicki",
+        "ToolTip": "Molestiae quis ad perferendis.",
+        "Deleted": true,
+        "Rank": 791,
+        "Type": "distinctio",
+        "ColorBlock": 283,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2001-11-28T12:01:33.5269792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "error",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Mr. Duncan Elnora Murray",
+        "FullName": "Reed Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "non",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Maximilian Balistreri II",
+    "FullName": "Ms. Dwight Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

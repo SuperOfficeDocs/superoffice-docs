@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 732
+  "ProjectId": 311
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 787,
-    "Attention": "ipsam",
-    "Header": "omnis",
-    "Name": "Mante-Schaefer",
-    "OurRef": "minus",
-    "YourRef": "earum",
-    "Description": "Team-oriented heuristic parallelism",
-    "DocumentTemplate": "ratione",
+    "DocumentId": 517,
+    "Attention": "nostrum",
+    "Header": "natus",
+    "Name": "Casper, Schowalter and Turcotte",
+    "OurRef": "rerum",
+    "YourRef": "consectetur",
+    "Description": "Quality-focused full-range leverage",
+    "DocumentTemplate": "iusto",
     "IsPublished": false,
-    "PersonId": 111,
-    "PersonFullName": "Mr. Alison Kuhic IV",
-    "AssociateFullName": "Serenity Goyette",
-    "ContactId": 440,
-    "ContactName": "Bayer-Romaguera",
-    "ProjectId": 213,
-    "ProjectName": "Schulist Group",
-    "AssociateId": 179,
-    "Snum": 223,
-    "SaleId": 526,
-    "SaleName": "Klein Inc and Sons",
+    "PersonId": 223,
+    "PersonFullName": "Laila Feeney",
+    "AssociateFullName": "Camryn Funk",
+    "ContactId": 169,
+    "ContactName": "Kerluke Inc and Sons",
+    "ProjectId": 131,
+    "ProjectName": "Spinka Group",
+    "AssociateId": 917,
+    "Snum": 509,
+    "SaleId": 443,
+    "SaleName": "McCullough Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 921
       }
     }
   }

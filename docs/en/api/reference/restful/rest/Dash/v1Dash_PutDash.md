@@ -107,30 +107,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 60,
-  "UniqueId": "non",
-  "Name": "Marks-Rosenbaum",
-  "Description": "Fundamental static firmware",
-  "AssociateId": 66,
-  "Columns": 797,
+  "DashboardId": 587,
+  "UniqueId": "sed",
+  "Name": "Walter-Veum",
+  "Description": "Face to face disintermediate workforce",
+  "AssociateId": 367,
+  "Columns": 615,
   "Theme": null,
-  "VisibleForAll": 978,
+  "VisibleForAll": 482,
   "VisibleForAssociates": [
-    769,
-    830
+    470,
+    513
   ],
   "VisibleForGroups": [
-    247,
-    869
+    207,
+    713
   ],
-  "PinForAll": 680,
+  "PinForAll": 162,
   "PinForAssociates": [
-    262,
-    866
+    829,
+    984
   ],
   "PinForGroups": [
-    506,
-    453
+    429,
+    321
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 22,
-  "UniqueId": "quidem",
-  "Name": "Rogahn-McClure",
-  "Description": "Fully-configurable multimedia data-warehouse",
-  "AssociateId": 327,
-  "Columns": 50,
+  "DashboardId": 76,
+  "UniqueId": "aut",
+  "Name": "Conn, Batz and Hyatt",
+  "Description": "Polarised bandwidth-monitored capacity",
+  "AssociateId": 484,
+  "Columns": 367,
   "Theme": null,
-  "VisibleForAll": 839,
+  "VisibleForAll": 800,
   "VisibleForAssociates": [
-    592,
-    190
+    606,
+    460
   ],
   "VisibleForGroups": [
-    763,
-    532
+    755,
+    152
   ],
-  "PinForAll": 149,
+  "PinForAll": 795,
   "PinForAssociates": [
-    7,
-    793
+    778,
+    314
   ],
   "PinForGroups": [
-    115,
-    547
+    384,
+    210
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 681
     }
   },
   "_Links": {

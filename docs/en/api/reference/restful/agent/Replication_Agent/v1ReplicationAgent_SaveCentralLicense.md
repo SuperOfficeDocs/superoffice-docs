@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Graham, Schulist and Streich",
-      "Description": "Streamlined high-level infrastructure",
+      "Name": "Mante, Sawayn and Mann",
+      "Description": "Customer-focused systematic groupware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Graham, Schulist and Streich",
-      "Description": "Streamlined high-level infrastructure",
+      "Name": "Mante, Sawayn and Mann",
+      "Description": "Customer-focused systematic groupware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmeler, Mueller and Gerhold",
-    "Description": "Devolved scalable utilisation",
+    "Name": "Lockman, VonRueden and Gibson",
+    "Description": "Balanced maximized support",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 326,
-        "Tooltip": "earum",
+        "Unrestricted": false,
+        "Total": 83,
+        "Tooltip": "quidem",
         "CanAssign": false,
-        "Free": 858,
-        "InUse": 146,
+        "Free": 543,
+        "InUse": 706,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 421,
-        "Name": "Prosacco, Kub and Boehm",
-        "Description": "Polarised dynamic task-force",
-        "PrerequisiteModuleName": "Leannon-Bins",
-        "SortOrder": 176,
-        "ExtraFlags": 215,
+        "Assigned": false,
+        "ModuleLicenseId": 305,
+        "Name": "Johnston, VonRueden and Reilly",
+        "Description": "Extended 4th generation array",
+        "PrerequisiteModuleName": "Sawayn, Lehner and Schimmel",
+        "SortOrder": 942,
+        "ExtraFlags": 99,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 197
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 922,
-        "Tooltip": "minima",
+        "Total": 360,
+        "Tooltip": "numquam",
         "CanAssign": false,
-        "Free": 700,
-        "InUse": 613,
+        "Free": 420,
+        "InUse": 629,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 912,
-        "Name": "Rosenbaum, Schaden and Wunsch",
-        "Description": "Customer-focused didactic open system",
-        "PrerequisiteModuleName": "Witting-Swaniawski",
-        "SortOrder": 676,
-        "ExtraFlags": 600,
+        "ModuleLicenseId": 899,
+        "Name": "Kuhlman, Cassin and Schmeler",
+        "Description": "Ameliorated multi-state customer loyalty",
+        "PrerequisiteModuleName": "Collins-Beatty",
+        "SortOrder": 519,
+        "ExtraFlags": 948,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 60
           }
         }
       }
@@ -178,35 +178,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 49
       }
     }
   },
   {
-    "Name": "Schmeler, Mueller and Gerhold",
-    "Description": "Devolved scalable utilisation",
+    "Name": "Lockman, VonRueden and Gibson",
+    "Description": "Balanced maximized support",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 326,
-        "Tooltip": "earum",
+        "Unrestricted": false,
+        "Total": 83,
+        "Tooltip": "quidem",
         "CanAssign": false,
-        "Free": 858,
-        "InUse": 146,
+        "Free": 543,
+        "InUse": 706,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 421,
-        "Name": "Prosacco, Kub and Boehm",
-        "Description": "Polarised dynamic task-force",
-        "PrerequisiteModuleName": "Leannon-Bins",
-        "SortOrder": 176,
-        "ExtraFlags": 215,
+        "Assigned": false,
+        "ModuleLicenseId": 305,
+        "Name": "Johnston, VonRueden and Reilly",
+        "Description": "Extended 4th generation array",
+        "PrerequisiteModuleName": "Sawayn, Lehner and Schimmel",
+        "SortOrder": 942,
+        "ExtraFlags": 99,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 197
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 922,
-        "Tooltip": "minima",
+        "Total": 360,
+        "Tooltip": "numquam",
         "CanAssign": false,
-        "Free": 700,
-        "InUse": 613,
+        "Free": 420,
+        "InUse": 629,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 912,
-        "Name": "Rosenbaum, Schaden and Wunsch",
-        "Description": "Customer-focused didactic open system",
-        "PrerequisiteModuleName": "Witting-Swaniawski",
-        "SortOrder": 676,
-        "ExtraFlags": 600,
+        "ModuleLicenseId": 899,
+        "Name": "Kuhlman, Cassin and Schmeler",
+        "Description": "Ameliorated multi-state customer loyalty",
+        "PrerequisiteModuleName": "Collins-Beatty",
+        "SortOrder": 519,
+        "ExtraFlags": 948,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 60
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 49
       }
     }
   }

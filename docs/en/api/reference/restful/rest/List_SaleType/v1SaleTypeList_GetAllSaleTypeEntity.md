@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 253,
-    "Name": "Daugherty, Botsford and Champlin",
-    "Tooltip": "culpa",
-    "Rank": 505,
+    "SaleTypeId": 981,
+    "Name": "Kovacek-Wintheiser",
+    "Tooltip": "iste",
+    "Rank": 171,
     "DurationUnit": "Century",
-    "SaleDuration": 214,
-    "SaleTypeCatId": 667,
-    "Deleted": true,
+    "SaleDuration": 162,
+    "SaleTypeCatId": 111,
+    "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 951,
-    "QuoteLinesTemplate": 353,
-    "ConfirmationLinesTemplate": 916,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 272,
+    "QuoteLinesTemplate": 868,
+    "ConfirmationLinesTemplate": 881,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 349,
-    "MinEarningPercent": 273,
-    "GroupQuoteLinesBy": 161,
-    "SortGroupLinesBy": 411,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 945,
+    "MinEarningPercent": 878,
+    "GroupQuoteLinesBy": 784,
+    "SortGroupLinesBy": 129,
     "Stages": [
       {
-        "Id": 436,
-        "Name": "Abernathy LLC",
-        "ToolTip": "Dignissimos assumenda et facere facere qui vel.",
+        "Id": 259,
+        "Name": "Bernhard, Becker and Homenick",
+        "ToolTip": "Explicabo delectus iusto consequatur placeat.",
         "Deleted": false,
-        "Rank": 384,
-        "Type": "repudiandae",
-        "ColorBlock": 989,
-        "IconHint": "aspernatur",
+        "Rank": 691,
+        "Type": "est",
+        "ColorBlock": 36,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2000-11-13T13:13:33.5578902+01:00",
+        "LastChanged": "2010-01-15T12:01:33.6519877+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "iusto",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Eloisa Koelpin",
+        "FullName": "Virgil Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 546
+            "FieldType": "System.Int32",
+            "FieldLength": 62
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

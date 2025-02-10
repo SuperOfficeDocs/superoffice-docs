@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Raynor-Gerhold",
+  "ProviderName": "Prosacco Group",
   "DesiredColumns": [
-    "molestias",
-    "molestiae"
+    "et",
+    "aut"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zulauf, Lind and Bogisich",
+    "Name": "Lueilwitz, Wuckert and Crist",
     "Direction": "ASC"
   },
   {
-    "Name": "Zulauf, Lind and Bogisich",
+    "Name": "Lueilwitz, Wuckert and Crist",
     "Direction": "ASC"
   }
 ]

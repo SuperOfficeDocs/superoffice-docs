@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 256,
-  "ConnectionId": 381,
-  "FirstAlternativeName": "Weissnat, Marquardt and Krajcik"
+  "SaleId": 686,
+  "ConnectionId": 840,
+  "FirstAlternativeName": "Batz LLC"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 722,
-  "SaleId": 893,
-  "QuoteConnectionId": 575,
-  "ERPQuoteKey": "vel",
-  "ERPOrderKey": "voluptas",
-  "ActiveQuoteVersionId": 819,
-  "AcceptedQuoteAlternativeId": 640,
-  "UseValuesFromQuote": 172,
-  "DocumentId": 427,
-  "PoNumber": "1508372",
-  "OrderComment": "enim",
-  "PreferredEmailCulture": "sibyl_konopelski@smitham.us",
+  "QuoteId": 640,
+  "SaleId": 345,
+  "QuoteConnectionId": 462,
+  "ERPQuoteKey": "quo",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 399,
+  "AcceptedQuoteAlternativeId": 85,
+  "UseValuesFromQuote": 20,
+  "DocumentId": 410,
+  "PoNumber": "270028",
+  "OrderComment": "nam",
+  "PreferredEmailCulture": "rudy.lowe@pfeffersteuber.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 255,
-      "ERPQuoteVersionKey": "repellendus",
-      "QuoteId": 396,
-      "Description": "Up-sized client-server project",
-      "Number": "853606",
+      "QuoteVersionId": 595,
+      "ERPQuoteVersionKey": "deleniti",
+      "QuoteId": 2,
+      "Description": "Public-key fresh-thinking installation",
+      "Number": "720502",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 967,
-      "SentDate": "2024-04-27T13:13:23.7425716+02:00",
-      "FollowupId": 93,
-      "ExpirationDate": "2009-12-27T13:13:23.7425716+01:00",
-      "DeliveryCountryId": 842,
+      "LikelyQuoteAlternativeId": 366,
+      "SentDate": "2003-01-14T12:01:28.1971849+01:00",
+      "FollowupId": 851,
+      "ExpirationDate": "2003-12-11T12:01:28.1971849+01:00",
+      "DeliveryCountryId": 731,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 350,
+      "InvoiceCountryId": 10,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "veritatis",
-      "ERPPaymentTypeKey": "sed",
-      "ERPDeliveryTermsKey": "commodi",
-      "ERPDeliveryTypeKey": "iste",
-      "Rank": 523,
-      "ApprovedBy": 237,
-      "ApprovedText": "quam",
-      "ApprovedRegisteredBy": 503,
-      "ApprovedRegisteredDate": "2011-06-28T13:13:23.7425716+02:00",
-      "ExtraField1": "aut",
-      "ExtraField2": "ea",
-      "ExtraField3": "ut",
-      "ExtraField4": "laudantium",
-      "ExtraField5": "enim",
-      "LastRecalculated": "2022-09-19T13:13:23.7425716+02:00",
-      "Updated": "2024-01-10T13:13:23.7425716+01:00",
-      "UpdatedAssociateId": 884,
-      "Registered": "2012-09-17T13:13:23.7425716+02:00",
-      "RegisteredAssociateId": 296,
-      "RequestAssociateId": 185,
-      "RequestComment": "tempora",
+      "ERPPaymentTermsKey": "esse",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "veritatis",
+      "ERPDeliveryTypeKey": "dolorem",
+      "Rank": 344,
+      "ApprovedBy": 548,
+      "ApprovedText": "sed",
+      "ApprovedRegisteredBy": 495,
+      "ApprovedRegisteredDate": "2007-08-15T12:01:28.1971849+02:00",
+      "ExtraField1": "consequuntur",
+      "ExtraField2": "omnis",
+      "ExtraField3": "quisquam",
+      "ExtraField4": "nam",
+      "ExtraField5": "esse",
+      "LastRecalculated": "2005-04-14T12:01:28.1971849+02:00",
+      "Updated": "2005-05-26T12:01:28.1971849+02:00",
+      "UpdatedAssociateId": 72,
+      "Registered": "2015-11-04T12:01:28.1971849+01:00",
+      "RegisteredAssociateId": 102,
+      "RequestAssociateId": 532,
+      "RequestComment": "molestiae",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Kuphal, Ondricka and Boehm",
-    "ToolTip": "Corrupti dolor velit possimus quia ea.",
+    "Id": 777,
+    "Name": "Zieme-Legros",
+    "ToolTip": "Rerum sequi voluptate sequi.",
     "Deleted": false,
-    "Rank": 137,
-    "Type": "deserunt",
-    "ColorBlock": 852,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2010-05-27T13:13:33.4485481+02:00",
+    "Rank": 794,
+    "Type": "eaque",
+    "ColorBlock": 225,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2010-05-14T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Brown-McGlynn",
-        "ToolTip": "Illo sequi esse ut autem natus molestiae quia.",
+        "Id": 295,
+        "Name": "Huel-Little",
+        "ToolTip": "Vel quis impedit.",
         "Deleted": false,
-        "Rank": 688,
-        "Type": "fuga",
-        "ColorBlock": 471,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "1999-06-09T13:13:33.4485481+02:00",
+        "Rank": 848,
+        "Type": "officiis",
+        "ColorBlock": 500,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2020-03-27T12:01:33.6207356+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "velit",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Ms. Maude Zieme"
+        "FullName": "Prof. Gina Bechtelar"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "veniam",
+    "ExtraInfo": "sequi",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Prof. Edmond Leon Kuhn"
+    "FullName": "Ms. Jules Kayleigh Koch MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "McGlynn Group",
-    "ToolTip": "Molestiae ut unde nam iusto maiores atque est.",
-    "Deleted": true,
-    "Rank": 693,
-    "Type": "magnam",
-    "ColorBlock": 994,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2016-06-24T13:13:33.4641689+02:00",
+    "Id": 478,
+    "Name": "Dach-Cummerata",
+    "ToolTip": "Illo consequatur fuga.",
+    "Deleted": false,
+    "Rank": 2,
+    "Type": "distinctio",
+    "ColorBlock": 457,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2005-07-11T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Schmeler-Steuber",
-        "ToolTip": "Officia corporis fugiat sed ut est qui officiis.",
+        "Id": 546,
+        "Name": "Cummings LLC",
+        "ToolTip": "Dolores ab labore optio sint earum ullam nihil.",
         "Deleted": true,
-        "Rank": 790,
-        "Type": "ducimus",
-        "ColorBlock": 552,
-        "IconHint": "aut",
+        "Rank": 113,
+        "Type": "sit",
+        "ColorBlock": 369,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2009-04-17T13:13:33.4641689+02:00",
+        "LastChanged": "2007-02-12T12:01:33.6207356+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Prof. Rosalia Alexandre Brown",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Dr. Niko Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 27
+            "FieldType": "System.Int32",
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Easton Christiansen",
+    "ExtraInfo": "soluta",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Lina Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

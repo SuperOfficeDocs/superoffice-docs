@@ -112,38 +112,38 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 715,
-  "Name": "Schaden, Flatley and Bechtelar",
-  "Rank": 523,
-  "Tooltip": "nihil",
-  "Icon": "rerum",
-  "DefaultTicketStatus": 249,
+  "TicketTypeId": 164,
+  "Name": "Hoeger, Brown and Gorczany",
+  "Rank": 226,
+  "Tooltip": "dignissimos",
+  "Icon": "quidem",
+  "DefaultTicketStatus": 938,
   "TicketStatuses": [
-    150,
-    259
+    907,
+    396
   ],
-  "DefaultTicketPriority": 238,
+  "DefaultTicketPriority": 484,
   "TicketPriorities": [
-    848,
-    101
+    961,
+    903
   ],
-  "ReplyTemplate": 995,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 841,
+  "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    69,
-    697
+    950,
+    246
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -154,31 +154,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 753,
-  "Name": "Welch Group",
-  "Rank": 225,
-  "Tooltip": "ipsum",
-  "Icon": "quasi",
-  "DefaultTicketStatus": 578,
+  "TicketTypeId": 804,
+  "Name": "Mante LLC",
+  "Rank": 95,
+  "Tooltip": "blanditiis",
+  "Icon": "quod",
+  "DefaultTicketStatus": 227,
   "TicketStatuses": [
-    586,
-    339
+    401,
+    31
   ],
-  "DefaultTicketPriority": 550,
+  "DefaultTicketPriority": 882,
   "TicketPriorities": [
-    810,
-    459
+    147,
+    242
   ],
-  "ReplyTemplate": 881,
+  "ReplyTemplate": 256,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    582,
-    639
+    112,
+    153
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 394
     }
   },
   "_Links": {

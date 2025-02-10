@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key high-level instruction set",
-  "Postit": "quo",
+  "Description": "Vision-oriented actuating archive",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 390,
-  "IncludePerson": 584,
+  "GroupIdx": 750,
+  "IncludePerson": 379,
   "MemberCount": 99.99,
-  "Name": "Waters, Cummings and Hermiston",
-  "PostitTextId": 256,
-  "CreatedDate": "2022-05-14T13:13:23.8996346+02:00",
-  "SelectionId": 328,
-  "SoundEx": "nisi",
-  "Source": 273,
-  "TextId": 457,
-  "UpdatedDate": "1998-12-15T13:13:23.8996346+01:00",
-  "UpdatedCount": 116,
-  "Visibility": 16,
+  "Name": "Schmidt-Swaniawski",
+  "PostitTextId": 293,
+  "CreatedDate": "2002-02-04T12:01:28.275316+01:00",
+  "SelectionId": 754,
+  "SoundEx": "magnam",
+  "Source": 761,
+  "TextId": 42,
+  "UpdatedDate": "2005-11-29T12:01:28.275316+01:00",
+  "UpdatedCount": 763,
+  "Visibility": 499,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 978,
-  "TargetTableName": "Koss-Rice",
+  "TargetTableNumber": 942,
+  "TargetTableName": "Dooley Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 936,
-  "RightSelectionId": 729,
+  "LeftSelectionId": 72,
+  "RightSelectionId": 268,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reichel-Ziemann",
-  "ShadowProviderName": "Runolfsdottir, Bashirian and Torphy",
-  "ChartKey": "ab",
-  "LastLoaded": "1999-11-21T13:13:23.8996346+01:00",
-  "LastLoadedBy": 701,
+  "MainProviderName": "Hoeger-Sawayn",
+  "ShadowProviderName": "Mitchell, Halvorson and Gusikowski",
+  "ChartKey": "cum",
+  "LastLoaded": "2005-03-03T12:01:28.275316+01:00",
+  "LastLoadedBy": 467,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-25T13:13:23.8996346+01:00",
-  "LastMembershipChangeBy": 178,
+  "LastMembershipChange": "1998-10-09T12:01:28.275316+02:00",
+  "LastMembershipChangeBy": 486,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "doloribus",
-  "MailingsProviderName": "Gerhold, Kuhn and Shields",
-  "DashboardTileDefinitionId": 51,
+  "MainHeading": "placeat",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Auer-Rice",
+  "DashboardTileDefinitionId": 255,
   "VisibleFor": [
     {
-      "VisibleId": 494,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "rem"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 494,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "rem"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected interactive hardware",
+  "Description": "Adaptive user-facing budgetary management",
   "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 74,
-  "IncludePerson": 506,
+  "GroupIdx": 98,
+  "IncludePerson": 371,
   "MemberCount": 99.99,
-  "Name": "O'Keefe-Hodkiewicz",
-  "PostitTextId": 821,
-  "CreatedDate": "2001-05-14T13:13:23.9153174+02:00",
-  "SelectionId": 330,
-  "SoundEx": "est",
-  "Source": 442,
-  "TextId": 13,
-  "UpdatedDate": "2017-03-04T13:13:23.9153174+01:00",
-  "UpdatedCount": 101,
-  "Visibility": 768,
+  "Name": "McGlynn, Roberts and Gislason",
+  "PostitTextId": 640,
+  "CreatedDate": "2003-02-24T12:01:28.275316+01:00",
+  "SelectionId": 881,
+  "SoundEx": "debitis",
+  "Source": 940,
+  "TextId": 964,
+  "UpdatedDate": "2004-03-19T12:01:28.275316+01:00",
+  "UpdatedCount": 842,
+  "Visibility": 121,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 652,
-  "TargetTableName": "Dare, Schimmel and Bechtelar",
+  "CompanyUnique": true,
+  "TargetTableNumber": 553,
+  "TargetTableName": "Klocko-Mayert",
   "Completed": false,
-  "LeftSelectionId": 652,
-  "RightSelectionId": 568,
+  "LeftSelectionId": 887,
+  "RightSelectionId": 358,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kub, Ryan and Hahn",
-  "ShadowProviderName": "Padberg-Hammes",
-  "ChartKey": "asperiores",
-  "LastLoaded": "2024-09-29T13:13:23.9153174+02:00",
-  "LastLoadedBy": 963,
+  "MainProviderName": "Kris LLC",
+  "ShadowProviderName": "Ratke Inc and Sons",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2011-04-21T12:01:28.275316+02:00",
+  "LastLoadedBy": 270,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-10-05T13:13:23.9153174+02:00",
-  "LastMembershipChangeBy": 949,
+  "LastMembershipChange": "2011-04-22T12:01:28.275316+02:00",
+  "LastMembershipChangeBy": 846,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "ad",
-  "MailingsProviderName": "Schoen, Bruen and Mohr",
-  "DashboardTileDefinitionId": 188,
+  "MainHeading": "est",
+  "MemberTabHeading": "perspiciatis",
+  "MailingsProviderName": "Borer-Herman",
+  "DashboardTileDefinitionId": 592,
   "VisibleFor": [
     {
-      "VisibleId": 700,
+      "VisibleId": 821,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 385
         }
       }
     },
     {
-      "VisibleId": 700,
+      "VisibleId": 821,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 385
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 717
     }
   }
 }

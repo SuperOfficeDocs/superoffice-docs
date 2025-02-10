@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "dolorum",
-    "praesentium"
+    "ut",
+    "quia"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weimann Inc and Sons",
-    "Delimiter": "molestias",
-    "Flags": "atque",
-    "TotalItems": 266,
-    "UnreadItems": 320,
-    "Subscribed": false,
-    "EmailFolderId": 802,
+    "Name": "Pfeffer Group",
+    "Delimiter": "qui",
+    "Flags": "sunt",
+    "TotalItems": 281,
+    "UnreadItems": 954,
+    "Subscribed": true,
+    "EmailFolderId": 936,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 952
       }
     }
   }

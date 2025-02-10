@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Wisoky LLC",
-      "Operator": "quisquam",
+      "Name": "Grimes-Quigley",
+      "Operator": "impedit",
       "Values": [
-        "et",
-        "eum"
+        "placeat",
+        "non"
       ],
       "DisplayValues": [
         "sit",
-        "reprehenderit"
+        "quisquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 393,
+      "InterParenthesis": 912,
       "InterOperator": "And",
-      "UniqueHash": 790
+      "UniqueHash": 199
     }
   ],
-  "ProviderName": "Hudson-Bartell",
+  "ProviderName": "Schumm, Roberts and Hilll",
   "DesiredColumns": [
-    "dolorem",
-    "nihil"
+    "unde",
+    "perspiciatis"
   ],
   "OrderBy": [
     {
-      "Name": "Walter, Toy and Torp",
+      "Name": "Dietrich-Romaguera",
       "Direction": "ASC"
     },
     {
-      "Name": "Walter, Toy and Torp",
+      "Name": "Dietrich-Romaguera",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 919,
-  "PageNumber": 890
+  "PageSize": 367,
+  "PageNumber": 708
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Friesen LLC",
-      "DisplayTooltip": "nobis",
-      "DisplayType": "hic",
+      "DisplayName": "Gleichner LLC",
+      "DisplayTooltip": "voluptatum",
+      "DisplayType": "temporibus",
       "CanOrderBy": false,
-      "Name": "Jenkins Inc and Sons",
+      "Name": "Kling, Raynor and Lynch",
       "CanRestrictBy": false,
-      "RestrictionType": "at",
-      "RestrictionListName": "Lind-Padberg",
+      "RestrictionType": "numquam",
+      "RestrictionListName": "Wehner-Hessel",
       "IsVisible": false,
-      "ExtraInfo": "dolor",
-      "Width": "consequuntur",
-      "IconHint": "quas",
-      "HeadingIconHint": "quasi"
+      "ExtraInfo": "amet",
+      "Width": "numquam",
+      "IconHint": "quia",
+      "HeadingIconHint": "sequi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ledner-Corkery",
-      "PrimaryKey": 377,
+      "EntityName": "Veum-Friesen",
+      "PrimaryKey": 988,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "dolorum",
-          "LinkHint": "officiis"
+          "DisplayValue": "deserunt",
+          "TooltipHint": "vel",
+          "LinkHint": "magnam"
         }
       },
-      "LinkHint": "repudiandae",
-      "StyleHint": "autem",
+      "LinkHint": "ea",
+      "StyleHint": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 391
         }
       }
     }
   ],
-  "RowCount": 517,
+  "RowCount": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

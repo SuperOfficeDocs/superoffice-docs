@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 25 Sep 2011 13:13:31 G9T
+Last-Modified: Sat, 26 May 2018 12:01:32 G5T
 
 {
-  "Key": "quos",
-  "Value": "dolore",
-  "RecordId": 452,
-  "CreatedDate": "2007-12-09T13:13:31.7457296+01:00",
-  "UpdatedDate": "2011-09-25T13:13:31.7457296+02:00",
-  "UpdatedBy": "repellat",
-  "CreatedBy": "occaecati",
-  "TableName": "Schneider Group",
+  "Key": "enim",
+  "Value": "praesentium",
+  "RecordId": 591,
+  "CreatedDate": "2023-01-11T12:01:32.9175621+01:00",
+  "UpdatedDate": "2018-05-26T12:01:32.9175621+02:00",
+  "UpdatedBy": "blanditiis",
+  "CreatedBy": "asperiores",
+  "TableName": "Bechtelar-Nader",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

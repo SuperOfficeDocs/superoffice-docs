@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "McGlynn-Gorczany",
-    "AssociateId": 890,
-    "DetailsTable": 138,
-    "DetailsRecord": 391,
+    "Id": 706,
+    "Name": "Walsh, Doyle and Shields",
+    "AssociateId": 494,
+    "DetailsTable": 194,
+    "DetailsRecord": 257,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "reprehenderit"
+      "ParameterObject1": "nulla",
+      "ParameterObject2": "ab"
     },
-    "LastStarted": "2017-04-09T13:13:32.5267302+02:00",
-    "Created": "2021-12-29T13:13:32.5267302+01:00",
-    "StartCount": 305,
-    "DatabaseSerialNumber": "1109469",
-    "Context": "hic",
-    "Result": "earum",
+    "LastStarted": "2022-07-29T12:01:33.308214+02:00",
+    "Created": "2001-09-29T12:01:33.308214+02:00",
+    "StartCount": 235,
+    "DatabaseSerialNumber": "1667882",
+    "Context": "rerum",
+    "Result": "expedita",
     "State": "All",
-    "Description": "Fundamental tangible function",
-    "Response": "et",
-    "Request": "hic",
-    "ProgressDescription": "Ameliorated hybrid knowledge user",
-    "ProgressPercent": 17,
-    "FileName": "Swaniawski, Robel and Kautzer",
+    "Description": "Multi-layered bandwidth-monitored encoding",
+    "Response": "eius",
+    "Request": "sit",
+    "ProgressDescription": "De-engineered national instruction set",
+    "ProgressPercent": 708,
+    "FileName": "Connelly Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

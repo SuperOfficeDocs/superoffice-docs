@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 485,
-  "Name": "Mosciski-Swift",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 73,
-  "UdListDefinitionId": 671
+  "HeadingId": 938,
+  "Name": "Durgan-Conn",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 117,
+  "UdListDefinitionId": 912
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 229,
-  "Name": "Lynch Group",
-  "Tooltip": "numquam",
+  "HeadingId": 654,
+  "Name": "Miller-Reichel",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 330,
-  "UdListDefinitionId": 74,
+  "Rank": 208,
+  "UdListDefinitionId": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 65
     }
   }
 }

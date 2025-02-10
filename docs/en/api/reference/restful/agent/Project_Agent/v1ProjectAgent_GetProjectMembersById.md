@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    895,
-    701
+    506,
+    743
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 931,
-    "ContactId": 537,
-    "ProjectId": 835,
-    "ContactName": "Pfannerstill-Medhurst",
+    "ProjectmemberId": 111,
+    "ContactId": 897,
+    "ProjectId": 173,
+    "ContactName": "Dare, Wilderman and Prohaska",
     "ContactDepartment": "",
-    "ProjectName": "Schiller, Cronin and Ruecker",
-    "EmailId": 457,
-    "EmailAddress": "arvilla@toy.info",
-    "CountryId": 423,
-    "Firstname": "Anya",
-    "MiddleName": "Boyer-Sanford",
-    "Lastname": "Gottlieb",
-    "PersonId": 667,
-    "Mrmrs": "tempore",
-    "ProjectMemberTypeName": "Dibbert, Bode and D'Amore",
-    "Phone": "405.690.0586 x17705",
-    "PhoneId": 56,
-    "ProjectMemberTypeId": 969,
-    "EmailAddressName": "reece.weissnat@nienow.biz",
-    "Comment": "officiis",
-    "FullName": "Trevor Dina Emmerich IV",
+    "ProjectName": "Little, Leannon and Roob",
+    "EmailId": 710,
+    "EmailAddress": "wyatt@boyertillman.us",
+    "CountryId": 318,
+    "Firstname": "Ike",
+    "MiddleName": "Huel, Larson and Hoppe",
+    "Lastname": "Breitenberg",
+    "PersonId": 229,
+    "Mrmrs": "optio",
+    "ProjectMemberTypeName": "Conroy, Turner and Denesik",
+    "Phone": "1-681-984-9506 x5248",
+    "PhoneId": 820,
+    "ProjectMemberTypeId": 4,
+    "EmailAddressName": "heather.greenholt@beer.ca",
+    "Comment": "facilis",
+    "FullName": "Tracey Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 285
       }
     }
   }

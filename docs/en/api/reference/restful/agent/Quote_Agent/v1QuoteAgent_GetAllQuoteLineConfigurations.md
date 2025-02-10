@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 227,
-    "FieldName": "Watsica-Emard",
-    "Label": "tempore",
-    "Tooltip": "omnis",
-    "Editable": true,
+    "QuoteLineConfigurationId": 161,
+    "FieldName": "Ebert-Huel",
+    "Label": "et",
+    "Tooltip": "sint",
+    "Editable": false,
     "InUse": false,
     "Mandatory": true,
-    "Rank": 638,
-    "RestrictEdit": true,
+    "Rank": 655,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 216
       }
     }
   }

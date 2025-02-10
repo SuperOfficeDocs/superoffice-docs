@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Howell-Smith",
-    "Tooltip": "repudiandae",
+    "HeadingId": 787,
+    "Name": "Raynor-Flatley",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "Rank": 646,
-    "UdListDefinitionId": 115,
+    "Rank": 76,
+    "UdListDefinitionId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 368
       }
     }
   }

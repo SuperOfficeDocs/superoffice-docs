@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 831,
-  "UniqueId": "ut",
-  "Name": "Becker LLC",
-  "Description": "Re-engineered transitional Graphical User Interface",
-  "AssociateId": 684,
-  "Columns": 965,
+  "DashboardId": 132,
+  "UniqueId": "non",
+  "Name": "Pfannerstill, Durgan and Streich",
+  "Description": "Streamlined modular solution",
+  "AssociateId": 235,
+  "Columns": 705,
   "Theme": null,
-  "VisibleForAll": 310,
+  "VisibleForAll": 464,
   "VisibleForAssociates": [
-    130,
-    93
+    898,
+    542
   ],
   "VisibleForGroups": [
-    353,
-    723
+    898,
+    710
   ],
-  "PinForAll": 496,
+  "PinForAll": 155,
   "PinForAssociates": [
-    284,
-    979
+    735,
+    499
   ],
   "PinForGroups": [
-    334,
-    115
+    19,
+    411
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 982
     }
   },
   "_Links": {

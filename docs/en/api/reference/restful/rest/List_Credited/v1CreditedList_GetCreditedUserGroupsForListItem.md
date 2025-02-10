@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Spencer, Stoltenberg and Kertzmann",
-    "ToolTip": "Dolor neque perferendis saepe fugiat ad.",
+    "Id": 126,
+    "Name": "Klocko-Abbott",
+    "ToolTip": "Aut est architecto quidem omnis tempora cum est.",
     "Deleted": false,
-    "Rank": 295,
-    "Type": "quod",
-    "ColorBlock": 597,
-    "IconHint": "maiores",
+    "Rank": 687,
+    "Type": "suscipit",
+    "ColorBlock": 759,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2010-12-03T13:13:32.9799092+01:00",
+    "LastChanged": "2016-09-26T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Mitchell, Pagac and Ondricka",
-        "ToolTip": "Et est nemo blanditiis alias magnam.",
-        "Deleted": true,
-        "Rank": 929,
-        "Type": "id",
-        "ColorBlock": 480,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2018-05-09T13:13:32.9799092+02:00",
+        "Id": 427,
+        "Name": "Stracke, Lakin and Kunde",
+        "ToolTip": "Iste sit vero quas aut labore eveniet.",
+        "Deleted": false,
+        "Rank": 507,
+        "Type": "illo",
+        "ColorBlock": 156,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2017-10-13T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "error",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Tianna Williamson",
+        "FullName": "Saul Lisa Rohan DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 562
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Prof. Ludwig Denesik",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Miss Mozelle Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

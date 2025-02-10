@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=quaerat
-GET /api/v1/MDOList/{listname}?query=omnis
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=sit
+GET /api/v1/MDOList/{listname}?query=voluptas
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Name": "Lang-Kuhic",
-    "ToolTip": "Cupiditate excepturi fugit non aliquid quod quo veritatis.",
+    "Id": 202,
+    "Name": "Pfeffer, Gutkowski and Prohaska",
+    "ToolTip": "Et doloribus.",
     "Deleted": false,
-    "Rank": 184,
-    "Type": "explicabo",
+    "Rank": 253,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 837,
-        "Name": "Graham-Predovic",
-        "ToolTip": "Ducimus totam eius fugit vel tempora nihil.",
+        "Id": 239,
+        "Name": "Hermiston-Lockman",
+        "ToolTip": "Deleniti et.",
         "Deleted": false,
-        "Rank": 140,
-        "Type": "recusandae",
+        "Rank": 899,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 348,
-        "ExtraInfo": "facilis",
-        "StyleHint": "mollitia",
-        "FullName": "Abraham Ernser",
+        "IconHint": "omnis",
+        "ColorBlock": 935,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "ut",
+        "FullName": "Tressie Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 932
+            "FieldLength": 976
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 341,
-    "ExtraInfo": "maxime",
-    "StyleHint": "sint",
-    "FullName": "Ms. Ana Greenfelder Jr.",
+    "IconHint": "sint",
+    "ColorBlock": 631,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "numquam",
+    "FullName": "Verner Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 898
       }
     }
   }

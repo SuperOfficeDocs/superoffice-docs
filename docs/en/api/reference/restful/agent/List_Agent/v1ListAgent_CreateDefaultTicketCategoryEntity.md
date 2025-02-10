@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 965,
-  "ParentId": 698,
-  "Name": "Heidenreich LLC",
-  "Fullname": "excepturi",
-  "CategoryMaster": 368,
+  "TicketCategoryId": 233,
+  "ParentId": 594,
+  "Name": "Kautzer-Robel",
+  "Fullname": "et",
+  "CategoryMaster": 906,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ullrich, Kilback and Becker",
+  "ExternalName": "Purdy Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 321,
-  "ReplyTemplate": 490,
-  "NotificationEmail": "keshawn@oreillywunsch.us",
+  "AssignmentLag": 281,
+  "ReplyTemplate": 117,
+  "NotificationEmail": "gennaro@lockmankerluke.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 259,
+  "EffectiveReplyTemplateId": 978,
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "sed"
+    "CustomFields1": "inventore",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 688
     }
   }
 }

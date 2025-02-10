@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=eos
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=sed
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Rice Inc and Sons",
-    "ToolTip": "Qui laudantium.",
-    "Deleted": false,
-    "Rank": 391,
-    "Type": "magnam",
+    "Id": 925,
+    "Name": "Flatley, Wolf and Bednar",
+    "ToolTip": "Et sapiente aut natus sit molestiae ad vel.",
+    "Deleted": true,
+    "Rank": 65,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "O'Connell-Treutel",
-        "ToolTip": "Repudiandae sed ipsa dignissimos praesentium sed aut quibusdam.",
+        "Id": 833,
+        "Name": "Wisoky LLC",
+        "ToolTip": "Dignissimos ullam sit iste corrupti aut.",
         "Deleted": false,
-        "Rank": 950,
-        "Type": "quasi",
+        "Rank": 946,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 331,
-        "ExtraInfo": "sed",
-        "StyleHint": "cumque",
-        "FullName": "Miss Max Okuneva",
+        "IconHint": "soluta",
+        "ColorBlock": 351,
+        "ExtraInfo": "corporis",
+        "StyleHint": "animi",
+        "FullName": "Silas Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 203
+            "FieldLength": 538
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 590,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "similique",
-    "FullName": "Amelie Roberts",
+    "IconHint": "alias",
+    "ColorBlock": 286,
+    "ExtraInfo": "sed",
+    "StyleHint": "necessitatibus",
+    "FullName": "Garnet Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 89
       }
     }
   }

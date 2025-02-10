@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Macejkovic, Christiansen and Rath",
-  "ListItemId": 518
+  "UdListDefinitionName": "Flatley Inc and Sons",
+  "ListItemId": 157
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Walker Group",
-    "ToolTip": "Similique reiciendis quo dolor et est.",
-    "Deleted": false,
-    "Rank": 755,
-    "Type": "nulla",
-    "ColorBlock": 25,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2021-11-18T13:13:23.2583064+01:00",
+    "Id": 356,
+    "Name": "Runolfsson, Leuschke and Jakubowski",
+    "ToolTip": "Ut omnis.",
+    "Deleted": true,
+    "Rank": 35,
+    "Type": "vero",
+    "ColorBlock": 747,
+    "IconHint": "perspiciatis",
+    "Selected": true,
+    "LastChanged": "2000-07-15T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Hegmann, Denesik and Welch",
-        "ToolTip": "Voluptatem molestiae aliquid ducimus.",
-        "Deleted": true,
-        "Rank": 892,
-        "Type": "deleniti",
-        "ColorBlock": 707,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2011-03-08T13:13:23.2583064+01:00",
+        "Id": 744,
+        "Name": "Rowe-Sawayn",
+        "ToolTip": "Doloribus consequatur minima facilis.",
+        "Deleted": false,
+        "Rank": 388,
+        "Type": "voluptatem",
+        "ColorBlock": 159,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "1997-12-05T12:01:27.9471677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Ms. Donavon Kaleb Skiles",
+        "ExtraInfo": "neque",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Alayna Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 57
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "est",
+    "ExtraInfo": "autem",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Rafael Frami",
+    "FullName": "Carlee Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 14
       }
     }
   }

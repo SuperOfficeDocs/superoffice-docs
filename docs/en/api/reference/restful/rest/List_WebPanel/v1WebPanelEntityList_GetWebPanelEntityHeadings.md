@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 682,
-    "Name": "Daugherty-Carroll",
-    "Tooltip": "exercitationem",
+    "HeadingId": 663,
+    "Name": "Waelchi Group",
+    "Tooltip": "doloribus",
     "Deleted": true,
-    "Rank": 198,
-    "UdListDefinitionId": 396,
+    "Rank": 637,
+    "UdListDefinitionId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 933
       }
     }
   }

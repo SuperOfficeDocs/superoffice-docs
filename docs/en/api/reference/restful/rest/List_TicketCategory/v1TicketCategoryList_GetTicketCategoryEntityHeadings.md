@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 186,
-    "Name": "Willms Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 202,
-    "UdListDefinitionId": 570,
+    "HeadingId": 37,
+    "Name": "Shanahan, Rippin and Schaden",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 669,
+    "UdListDefinitionId": 352,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 965
+        "FieldType": "System.Int32",
+        "FieldLength": 248
       }
     }
   }

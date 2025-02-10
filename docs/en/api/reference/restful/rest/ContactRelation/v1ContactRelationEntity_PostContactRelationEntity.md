@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 20,
-  "SourcePersonId": 565,
-  "DestinationContactId": 298,
-  "DestinationPersonId": 535,
-  "RelationId": 222,
-  "Comment": "dolorum",
-  "RelationDefinitionId": 123,
-  "Reversed": 357,
-  "UpdatedDate": "2005-07-22T13:13:31.605139+02:00",
-  "CreatedDate": "2004-04-23T13:13:31.605139+02:00",
+  "SourceContactId": 892,
+  "SourcePersonId": 264,
+  "DestinationContactId": 968,
+  "DestinationPersonId": 94,
+  "RelationId": 387,
+  "Comment": "suscipit",
+  "RelationDefinitionId": 959,
+  "Reversed": 631,
+  "UpdatedDate": "2010-04-01T12:01:32.8394314+02:00",
+  "CreatedDate": "2024-09-07T12:01:32.8394314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Blick Group",
-  "SourcePersonName": "Konopelski-Littel",
-  "DestinationContactName": "Jast, Funk and Hagenes",
-  "DestinationPersonName": "Reynolds-Ziemann",
-  "ActiveText": "officia",
-  "PassiveText": "tempora"
+  "SourceContactName": "Murray Inc and Sons",
+  "SourcePersonName": "Reichel-Gislason",
+  "DestinationContactName": "Schowalter Inc and Sons",
+  "DestinationPersonName": "Tromp-Lockman",
+  "ActiveText": "ut",
+  "PassiveText": "reiciendis"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 257,
-  "SourcePersonId": 225,
-  "DestinationContactId": 430,
-  "DestinationPersonId": 628,
-  "RelationId": 15,
-  "Comment": "quia",
-  "RelationDefinitionId": 663,
-  "Reversed": 163,
-  "UpdatedDate": "2020-04-21T13:13:31.605139+02:00",
-  "CreatedDate": "2000-10-18T13:13:31.605139+02:00",
+  "SourceContactId": 744,
+  "SourcePersonId": 481,
+  "DestinationContactId": 182,
+  "DestinationPersonId": 773,
+  "RelationId": 457,
+  "Comment": "ut",
+  "RelationDefinitionId": 224,
+  "Reversed": 295,
+  "UpdatedDate": "2013-08-20T12:01:32.8394314+02:00",
+  "CreatedDate": "2021-05-21T12:01:32.8394314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Towne Inc and Sons",
-  "SourcePersonName": "DuBuque-Gottlieb",
-  "DestinationContactName": "Doyle Inc and Sons",
-  "DestinationPersonName": "Hane, Sporer and Morissette",
-  "ActiveText": "aut",
-  "PassiveText": "deserunt",
+  "SourceContactName": "Hauck LLC",
+  "SourcePersonName": "Balistreri, Bayer and Bergstrom",
+  "DestinationContactName": "White-Dach",
+  "DestinationPersonName": "Koepp LLC",
+  "ActiveText": "iure",
+  "PassiveText": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   },
   "_Links": {

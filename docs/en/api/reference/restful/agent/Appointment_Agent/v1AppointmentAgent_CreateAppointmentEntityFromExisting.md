@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 860,
-  "AssociateId": 306
+  "AppointmentId": 641,
+  "AssociateId": 8
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-08-15T13:13:21.8521401+02:00",
-  "AppointmentId": 845,
-  "Description": "Open-source multi-tasking capability",
-  "Title": "optio",
-  "Agenda": "quod",
-  "InternalNotes": "expedita",
-  "StartDate": "2019-08-19T13:13:21.8521401+02:00",
-  "EndDate": "2011-09-10T13:13:21.8521401+02:00",
+  "CreatedDate": "2016-01-26T12:01:27.197115+01:00",
+  "AppointmentId": 978,
+  "Description": "Organized bifurcated open system",
+  "Title": "voluptate",
+  "Agenda": "et",
+  "InternalNotes": "iusto",
+  "StartDate": "2010-07-03T12:01:27.197115+02:00",
+  "EndDate": "2012-02-06T12:01:27.197115+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 849,
+  "MotherId": 520,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-08-21T13:13:21.8521401+02:00",
+  "UpdatedDate": "2005-05-17T12:01:27.197115+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 565,
+  "ActiveLinks": 982,
   "Links": [
     {
-      "EntityName": "Runolfsdottir LLC",
-      "Id": 662,
-      "Description": "Open-source real-time Graphic Interface",
-      "ExtraInfo": "ipsa",
-      "LinkId": 919,
+      "EntityName": "Schultz-Steuber",
+      "Id": 132,
+      "Description": "Synergistic 24 hour matrix",
+      "ExtraInfo": "velit",
+      "LinkId": 120,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 120
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
-  "HasAlarm": false,
-  "ColorIndex": 379,
-  "IsFree": false,
+  "AlarmLeadTime": "quas",
+  "HasAlarm": true,
+  "ColorIndex": 772,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "dolore",
-  "LeadTime": "voluptatem",
-  "Location": "est",
-  "RejectCounter": 635,
+  "LagTime": "corporis",
+  "LeadTime": "officiis",
+  "Location": "incidunt",
+  "RejectCounter": 407,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 394,
-      "PersonId": 749,
-      "ContactId": 15,
-      "EmailId": 412,
-      "SendEmail": true,
+      "AssociateId": 401,
+      "PersonId": 665,
+      "ContactId": 134,
+      "EmailId": 74,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "amalia@lakin.ca",
-      "Description": "Expanded bifurcated Graphic Interface"
+      "EmailAddress": "wallace@kris.co.uk",
+      "Description": "Centralized discrete challenge"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-05-21T13:13:21.8521401+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2003-05-05T12:01:27.197115+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 40,
+  "PreferredTZLocation": 688,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 640,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 407,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "recusandae",
+  "CentralserviceVideomeetId": "rerum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dewitt Nina Wilkinson V",
-    "SuperOffice:2": "Tressie Damian Towne V"
+    "SuperOffice:1": "Marisol Deckow",
+    "SuperOffice:2": "Mathew Labadie"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "id",
+    "CustomFields2": "recusandae"
   },
-  "PublishEventDate": "2014-09-09T13:13:21.8521401+02:00",
-  "PublishTo": "2024-11-28T13:13:21.8521401+01:00",
-  "PublishFrom": "2016-03-17T13:13:21.8521401+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-12-24T12:01:27.197115+01:00",
+  "PublishTo": "2021-03-11T12:01:27.197115+01:00",
+  "PublishFrom": "2023-08-04T12:01:27.197115+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 338,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     },
     {
-      "VisibleId": 338,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 859
     }
   }
 }

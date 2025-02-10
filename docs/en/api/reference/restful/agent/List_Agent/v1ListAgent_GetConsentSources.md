@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 455,
-    "Name": "Ebert Group",
-    "Tooltip": "molestiae",
-    "Rank": 125,
-    "Key": "blanditiis",
-    "MailTemplateId": 442,
+    "ConsentSourceId": 75,
+    "Name": "Shanahan-Bednar",
+    "Tooltip": "voluptatem",
+    "Rank": 877,
+    "Key": "distinctio",
+    "MailTemplateId": 949,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 271
       }
     }
   }

@@ -714,7 +714,7 @@ Shadow contact provider for the static Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=contact/postAddress/city,contact/streetAddress/addressId,project/projectId,project/activeErpLinks,sale/earningPercent
+GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=contact/email/emailHasBounced,contact/contactAssociate/middleName,contact/contactExtra/x_contact_date,contact/saintAmountClass,associate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

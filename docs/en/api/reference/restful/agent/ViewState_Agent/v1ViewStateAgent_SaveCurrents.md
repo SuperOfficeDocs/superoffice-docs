@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 77,
-      "Id": 771,
-      "HistoryName": "Roberts Inc and Sons",
-      "HistoryId": 605,
-      "AssociateId": 377,
-      "Name": "Rippin LLC",
-      "ItemInfo": "sunt"
+      "Rank": 869,
+      "Id": 159,
+      "HistoryName": "Kuhlman Inc and Sons",
+      "HistoryId": 620,
+      "AssociateId": 625,
+      "Name": "Russel, Schmidt and Lindgren",
+      "ItemInfo": "et"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 238,
-    "Id": 867,
-    "HistoryName": "Davis-Marks",
-    "HistoryId": 451,
-    "AssociateId": 409,
-    "Name": "Hayes Inc and Sons",
-    "ItemInfo": "sequi",
+    "Rank": 586,
+    "Id": 765,
+    "HistoryName": "Rolfson-Kris",
+    "HistoryId": 612,
+    "AssociateId": 63,
+    "Name": "Barton Inc and Sons",
+    "ItemInfo": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldType": "System.String",
+        "FieldLength": 579
       }
     }
   }

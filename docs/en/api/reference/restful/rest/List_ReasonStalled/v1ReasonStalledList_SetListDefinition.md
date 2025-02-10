@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 373,
-  "Name": "Bednar-Crist",
-  "Tooltip": "eum",
+  "Id": 965,
+  "Name": "Auer LLC",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 992,
+  "Rank": 695,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Kessler LLC",
-  "Tooltip": "corrupti",
+  "Id": 184,
+  "Name": "Runolfsdottir, Renner and McGlynn",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 464,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "eum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 21
     }
   }
 }

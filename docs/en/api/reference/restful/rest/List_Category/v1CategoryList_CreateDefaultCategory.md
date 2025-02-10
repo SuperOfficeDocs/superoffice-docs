@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "maxime",
+  "Id": 395,
+  "Name": "Reichel, Walker and Runolfsson",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 301,
+  "UdListDefinitionId": 796,
+  "Rank": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

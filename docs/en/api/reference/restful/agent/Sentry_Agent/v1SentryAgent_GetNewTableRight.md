@@ -76,7 +76,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bayer Inc and Sons"
+  "TableName": "Senger-Lindgren"
 }
 ```
 

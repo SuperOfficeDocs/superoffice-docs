@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Beahan, Smith and Greenfelder",
-    "ToolTip": "Officiis fugiat est libero animi dolore repudiandae sequi.",
-    "Deleted": true,
-    "Rank": 685,
-    "Type": "temporibus",
-    "ColorBlock": 703,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2004-02-09T13:13:32.9174228+01:00",
+    "Id": 455,
+    "Name": "Harvey, Mohr and Donnelly",
+    "ToolTip": "Laudantium iusto illum debitis quidem quaerat.",
+    "Deleted": false,
+    "Rank": 774,
+    "Type": "rerum",
+    "ColorBlock": 59,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2006-01-23T12:01:33.4644748+01:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Runolfsdottir Group",
-        "ToolTip": "Facilis quas et sint voluptatem id iure est.",
+        "Id": 40,
+        "Name": "Block Group",
+        "ToolTip": "Rerum enim accusamus laborum.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "nobis",
-        "ColorBlock": 804,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "2000-04-29T13:13:32.9174228+02:00",
+        "Rank": 664,
+        "Type": "dolore",
+        "ColorBlock": 693,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "1998-08-26T12:01:33.4644748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "sit",
+        "ExtraInfo": "sed",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Stefan Berge",
+        "FullName": "Willy Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 845
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Charlotte Alvera Will II",
+    "ExtraInfo": "ea",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Lonie Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Zemlak, Reinger and Parker",
-    "ToolTip": "Sed beatae consectetur eveniet.",
-    "Deleted": false,
-    "Rank": 759,
-    "Type": "sint",
-    "ColorBlock": 754,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2015-10-19T13:13:33.2142268+02:00",
+    "Id": 837,
+    "Name": "Thompson-Hammes",
+    "ToolTip": "Nisi aspernatur doloribus earum est consequatur.",
+    "Deleted": true,
+    "Rank": 695,
+    "Type": "excepturi",
+    "ColorBlock": 921,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2016-07-19T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 837,
-        "Name": "Swaniawski-Senger",
-        "ToolTip": "Tempora qui necessitatibus praesentium accusamus consequatur eos ab.",
-        "Deleted": false,
-        "Rank": 290,
-        "Type": "aut",
-        "ColorBlock": 761,
-        "IconHint": "illum",
+        "Id": 261,
+        "Name": "Tremblay-Stoltenberg",
+        "ToolTip": "Excepturi repudiandae.",
+        "Deleted": true,
+        "Rank": 389,
+        "Type": "rem",
+        "ColorBlock": 644,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2005-11-20T13:13:33.2142268+01:00",
+        "LastChanged": "2020-12-24T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Amara Homenick"
+        "ExtraInfo": "sit",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Lacy Dickens"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ms. Anthony Sarah Herzog DDS"
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Nina Vandervort"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Schimmel Group",
-    "ToolTip": "Cumque eum.",
+    "Id": 278,
+    "Name": "Littel-Murazik",
+    "ToolTip": "Illum eos similique officiis omnis autem amet.",
     "Deleted": false,
-    "Rank": 755,
-    "Type": "possimus",
-    "ColorBlock": 735,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2013-03-01T13:13:33.2142268+01:00",
+    "Rank": 36,
+    "Type": "dolor",
+    "ColorBlock": 122,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2006-06-23T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Rempel, Schmidt and Satterfield",
-        "ToolTip": "Ea maiores dolorum voluptates et.",
-        "Deleted": false,
-        "Rank": 977,
-        "Type": "quis",
-        "ColorBlock": 434,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2019-07-05T13:13:33.2142268+02:00",
+        "Id": 568,
+        "Name": "Langworth-Bosco",
+        "ToolTip": "Quos eligendi debitis.",
+        "Deleted": true,
+        "Rank": 479,
+        "Type": "cum",
+        "ColorBlock": 135,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2004-08-21T12:01:33.5426053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Wendell Morar",
+        "ExtraInfo": "libero",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Koby Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 801
+            "FieldLength": 729
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "tempora",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Cole Sipes",
+    "FullName": "Barney Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 971,
-  "Type": 826
+  "GroupId": 345,
+  "Type": 41
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 646,
-    "Name": "Zemlak-Okuneva",
-    "PersonId": 641,
-    "Rank": 249,
-    "Tooltip": "qui",
+    "AssociateId": 615,
+    "Name": "Tromp LLC",
+    "PersonId": 45,
+    "Rank": 709,
+    "Tooltip": "esse",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 869,
-    "FullName": "Brandt Morissette",
-    "FormalName": "Dicki, Champlin and Lakin",
-    "Deleted": false,
-    "EjUserId": 964,
-    "UserName": "Schimmel-O'Keefe",
+    "GroupIdx": 523,
+    "FullName": "Paolo Daniel",
+    "FormalName": "Rogahn Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 409,
+    "UserName": "Reinger Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 654
       }
     }
   }

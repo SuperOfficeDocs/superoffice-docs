@@ -2915,6 +2915,8 @@ items:
     href: Quote_Agent/v1QuoteAgent_CreateAndSaveQuote.md
   - name: CreateAndSaveQuoteFromSale
     href: Quote_Agent/v1QuoteAgent_CreateAndSaveQuoteFromSale.md
+  - name: CreateAndSaveQuoteLines
+    href: Quote_Agent/v1QuoteAgent_CreateAndSaveQuoteLines.md
   - name: CreateAndSaveQuoteVersion
     href: Quote_Agent/v1QuoteAgent_CreateAndSaveQuoteVersion.md
   - name: CreateConnectionFromConnectorName

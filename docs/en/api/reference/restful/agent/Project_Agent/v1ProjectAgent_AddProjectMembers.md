@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 936,
+  "ProjectEntityId": 319,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 541,
-      "ContactId": 589,
-      "ProjectId": 506,
-      "ContactName": "Price-Haag",
+      "ProjectmemberId": 837,
+      "ContactId": 79,
+      "ProjectId": 57,
+      "ContactName": "Wuckert Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Jewess, Grimes and Stracke",
-      "EmailId": 511,
-      "EmailAddress": "bert@schultz.uk",
-      "CountryId": 228,
-      "Firstname": "Jonathon",
-      "MiddleName": "Stiedemann-Langosh",
-      "Lastname": "Mosciski",
-      "PersonId": 302,
-      "Mrmrs": "debitis",
-      "ProjectMemberTypeName": "Anderson, Wisoky and Aufderhar",
-      "Phone": "190.730.2972",
-      "PhoneId": 240,
-      "ProjectMemberTypeId": 526,
-      "EmailAddressName": "arturo_cummerata@tillman.ca",
-      "Comment": "facere",
-      "FullName": "Turner Fay"
+      "ProjectName": "Rowe Group",
+      "EmailId": 666,
+      "EmailAddress": "amelie@pfefferlindgren.us",
+      "CountryId": 250,
+      "Firstname": "Creola",
+      "MiddleName": "Koss, Jaskolski and Ebert",
+      "Lastname": "Durgan",
+      "PersonId": 750,
+      "Mrmrs": "cum",
+      "ProjectMemberTypeName": "Schumm-Pfeffer",
+      "Phone": "269-284-3557 x1928",
+      "PhoneId": 664,
+      "ProjectMemberTypeId": 757,
+      "EmailAddressName": "jaiden@johnsonhomenick.com",
+      "Comment": "consequatur",
+      "FullName": "Kathryn Wehner"
     }
   ]
 }

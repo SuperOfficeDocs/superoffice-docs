@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sipes, McDermott and Zieme",
-  "Id": 94
+  "HistoryName": "Osinski, Adams and Parker",
+  "Id": 428
 }
 ```
 

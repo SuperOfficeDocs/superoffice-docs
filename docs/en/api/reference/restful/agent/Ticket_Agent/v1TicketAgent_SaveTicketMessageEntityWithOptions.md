@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    447,
-    540
+    38,
+    767
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 364,
+  "EjMessageId": 839,
   "Ticket": null,
-  "CreatedAt": "2008-10-13T13:13:24.4153047+02:00",
+  "CreatedAt": "2002-10-02T12:01:28.5565847+02:00",
   "CreatedBy": null,
-  "Author": "dolorum",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "illum",
-  "TimeSpent": 107,
-  "Body": "recusandae",
-  "HtmlBody": "molestias",
-  "EmailHeader": "hattie@abshire.co.uk",
-  "DebugInfo": "veniam",
-  "MailSorter": "doloremque",
+  "MessageId": "voluptatibus",
+  "TimeSpent": 170,
+  "Body": "consequuntur",
+  "HtmlBody": "cum",
+  "EmailHeader": "noemy@huels.com",
+  "DebugInfo": "distinctio",
+  "MailSorter": "officia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "necessitatibus",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 409,
-      "Name": "Weber-Predovic",
-      "Value": "quod",
+      "Id": 9,
+      "Name": "Lockman, Wiza and Stehr",
+      "Value": "enim",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldType": "System.String",
+          "FieldLength": 631
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quod",
-  "Sentiment": 392,
-  "SentimentConfidence": 474,
+  "Language": "dolor",
+  "Sentiment": 357,
+  "SentimentConfidence": 613,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 54,
-      "Name": "Reinger Inc and Sons",
-      "ContentType": "sed",
-      "AttSize": 744,
+      "AttachmentId": 846,
+      "Name": "Bernier-McKenzie",
+      "ContentType": "autem",
+      "AttSize": 364,
       "InlineImage": true,
-      "ContentId": "laudantium",
-      "AuthKey": "doloremque",
-      "IsSafeFileExtension": true,
+      "ContentId": "et",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldLength": 436
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "est"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "est"
+    "CustomFields1": "sed",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 51
     }
   }
 }

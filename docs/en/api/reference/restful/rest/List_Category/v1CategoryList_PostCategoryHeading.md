@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 101,
-  "Name": "White, Rosenbaum and Gaylord",
-  "Tooltip": "consectetur",
+  "HeadingId": 915,
+  "Name": "Boehm Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 341,
-  "UdListDefinitionId": 214
+  "Rank": 285,
+  "UdListDefinitionId": 201
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 700,
-  "Name": "Schamberger Group",
-  "Tooltip": "iusto",
+  "HeadingId": 533,
+  "Name": "McCullough Group",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 294,
-  "UdListDefinitionId": 408,
+  "Rank": 730,
+  "UdListDefinitionId": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 109
     }
   }
 }

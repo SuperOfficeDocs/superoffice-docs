@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 289,
-  "Name": "Boehm LLC",
-  "Tooltip": "perferendis",
-  "Rank": 700,
+  "ProjTypeId": 783,
+  "Name": "Bode-Brekke",
+  "Tooltip": "ipsam",
+  "Rank": 819,
   "DurationUnit": "Century",
-  "ProjectDuration": 933,
+  "ProjectDuration": 184,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 147,
-      "Name": "Harber LLC",
-      "ToolTip": "Sapiente qui omnis.",
+      "Id": 756,
+      "Name": "Carter, Nicolas and Fay",
+      "ToolTip": "Atque laborum sed eaque eius est enim sunt.",
       "Deleted": false,
-      "Rank": 5,
-      "Type": "est",
-      "ColorBlock": 80,
-      "IconHint": "quas",
-      "Selected": true,
-      "LastChanged": "2000-09-25T13:13:23.3207956+02:00",
+      "Rank": 588,
+      "Type": "sit",
+      "ColorBlock": 146,
+      "IconHint": "dignissimos",
+      "Selected": false,
+      "LastChanged": "2016-11-27T12:01:27.97842+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "asperiores",
+      "ExtraInfo": "neque",
+      "StyleHint": "repellendus",
       "Hidden": true,
-      "FullName": "Gaston Grimes"
+      "FullName": "Gloria Sauer"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 848,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "debitis",
-  "Rank": 304,
+  "ProjTypeId": 874,
+  "Name": "Nitzsche, Lueilwitz and McGlynn",
+  "Tooltip": "vitae",
+  "Rank": 187,
   "DurationUnit": "Century",
-  "ProjectDuration": 407,
-  "Deleted": false,
+  "ProjectDuration": 45,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 355,
-      "Name": "Bayer, Carroll and Huels",
-      "ToolTip": "Eos ut placeat aperiam molestiae illo dignissimos voluptatem.",
-      "Deleted": true,
-      "Rank": 242,
-      "Type": "tempore",
-      "ColorBlock": 153,
-      "IconHint": "exercitationem",
+      "Id": 676,
+      "Name": "Schumm-Doyle",
+      "ToolTip": "Et rerum accusantium.",
+      "Deleted": false,
+      "Rank": 829,
+      "Type": "est",
+      "ColorBlock": 391,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "2023-05-12T13:13:23.3207956+02:00",
+      "LastChanged": "2016-10-26T12:01:27.97842+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laudantium",
-      "StyleHint": "et",
+      "ExtraInfo": "minima",
+      "StyleHint": "odit",
       "Hidden": true,
-      "FullName": "Elfrieda Konopelski",
+      "FullName": "Orville Beier DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 146
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 258
     }
   }
 }

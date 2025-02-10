@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Barton-Beatty",
-  "Tooltip": "sed",
+  "Id": 4,
+  "Name": "Dickens-Murphy",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "UdListDefinitionId": 523,
-  "Rank": 966
+  "UdListDefinitionId": 779,
+  "Rank": 526
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Rau Inc and Sons",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "UdListDefinitionId": 585,
-  "Rank": 328,
+  "Id": 787,
+  "Name": "Murray LLC",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "UdListDefinitionId": 65,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

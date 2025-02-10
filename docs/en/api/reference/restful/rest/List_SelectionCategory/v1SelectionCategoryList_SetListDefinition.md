@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Rempel-Green",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 588,
+  "Id": 170,
+  "Name": "Hodkiewicz LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 78,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 429,
-  "Name": "Feest-Waters",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "Rank": 568,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 251,
+  "Name": "Dietrich, Hegmann and Kirlin",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 21,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 579
     }
   }
 }

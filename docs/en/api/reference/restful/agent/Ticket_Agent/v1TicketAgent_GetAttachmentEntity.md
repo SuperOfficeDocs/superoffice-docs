@@ -26,7 +26,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=185
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=812
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 352,
-  "Name": "Dietrich, Wilkinson and Shanahan",
-  "ContentType": "occaecati",
-  "AttSize": 88,
+  "AttachmentId": 759,
+  "Name": "Champlin-Reilly",
+  "ContentType": "blanditiis",
+  "AttSize": 480,
   "InlineImage": false,
-  "ContentId": "voluptatum",
-  "AuthKey": "ducimus",
-  "IsSafeFileExtension": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "non",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

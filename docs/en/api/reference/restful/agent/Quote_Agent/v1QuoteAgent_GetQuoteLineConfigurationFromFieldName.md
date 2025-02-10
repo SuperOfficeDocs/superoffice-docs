@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Nicolas-Heathcote"
+  "FieldName": "Greenfelder, Rodriguez and Kling"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 739,
-  "FieldName": "Bayer-McKenzie",
-  "Label": "tempora",
-  "Tooltip": "exercitationem",
+  "QuoteLineConfigurationId": 161,
+  "FieldName": "Bernhard-Hermiston",
+  "Label": "aut",
+  "Tooltip": "eos",
   "Editable": false,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 486,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 55,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

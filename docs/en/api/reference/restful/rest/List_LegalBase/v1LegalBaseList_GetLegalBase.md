@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 586,
-  "Name": "Glover-Metz",
-  "Tooltip": "et",
-  "Rank": 29,
-  "Key": "aspernatur",
+  "LegalBaseId": 669,
+  "Name": "Nienow LLC",
+  "Tooltip": "reiciendis",
+  "Rank": 1002,
+  "Key": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 181
     }
   }
 }

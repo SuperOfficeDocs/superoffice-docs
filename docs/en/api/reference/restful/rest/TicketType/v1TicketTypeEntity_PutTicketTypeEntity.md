@@ -115,35 +115,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 640,
-  "Name": "Kunde Inc and Sons",
-  "Rank": 150,
-  "Tooltip": "et",
-  "Icon": "nihil",
-  "DefaultTicketStatus": 581,
+  "TicketTypeId": 242,
+  "Name": "Rowe LLC",
+  "Rank": 524,
+  "Tooltip": "rem",
+  "Icon": "reprehenderit",
+  "DefaultTicketStatus": 977,
   "TicketStatuses": [
-    704,
-    50
+    393,
+    528
   ],
-  "DefaultTicketPriority": 393,
+  "DefaultTicketPriority": 586,
   "TicketPriorities": [
-    630,
-    937
+    343,
+    223
   ],
-  "ReplyTemplate": 598,
+  "ReplyTemplate": 342,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    182,
-    595
+    574,
+    77
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -157,31 +157,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 898,
-  "Name": "Quigley-Roob",
-  "Rank": 497,
-  "Tooltip": "labore",
-  "Icon": "laborum",
-  "DefaultTicketStatus": 953,
+  "TicketTypeId": 395,
+  "Name": "Lubowitz-Lang",
+  "Rank": 864,
+  "Tooltip": "error",
+  "Icon": "quasi",
+  "DefaultTicketStatus": 296,
   "TicketStatuses": [
-    468,
-    715
+    105,
+    287
   ],
-  "DefaultTicketPriority": 266,
+  "DefaultTicketPriority": 496,
   "TicketPriorities": [
-    750,
-    737
+    990,
+    917
   ],
-  "ReplyTemplate": 315,
+  "ReplyTemplate": 294,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    976,
-    201
+    795,
+    998
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -189,13 +189,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

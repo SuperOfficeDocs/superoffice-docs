@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    843,
-    914
+    895,
+    76
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 727,
-    "MessageId": "eos",
-    "Subject": "eius",
+    "ServerId": 181,
+    "MessageId": "minima",
+    "Subject": "dolorem",
     "From": null,
     "To": [
       {
-        "ContactId": 976,
-        "ContactName": "Johnston LLC",
-        "PersonId": 645,
-        "PersonName": "Schneider-Corkery",
-        "AssociateId": 436,
-        "Address": "dignissimos",
-        "EmailId": 26,
+        "ContactId": 571,
+        "ContactName": "Hoeger, Kub and Hermiston",
+        "PersonId": 79,
+        "PersonName": "Quitzon Group",
+        "AssociateId": 725,
+        "Address": "repellendus",
+        "EmailId": 836,
         "DuplicatePersonIds": [
-          559,
-          545
+          379,
+          628
         ],
-        "Name": "Kertzmann, Jacobs and Brekke",
+        "Name": "Torphy LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 445
+            "FieldLength": 710
           }
         }
       }
     ],
-    "Sent": "2007-04-26T13:13:22.9458836+02:00",
+    "Sent": "2021-08-03T12:01:27.7909064+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 628,
+    "Size": 123,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldType": "System.Int32",
+        "FieldLength": 331
       }
     }
   }

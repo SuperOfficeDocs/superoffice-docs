@@ -104,34 +104,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "et",
-    "InputValues2": "alias"
+    "InputValues1": "ut",
+    "InputValues2": "exercitationem"
   },
   "BlockExecution": false,
-  "NavigateTo": "laudantium",
-  "Message": "soluta",
-  "ShowDialog": "autem",
+  "NavigateTo": "et",
+  "Message": "fuga",
+  "ShowDialog": "similique",
   "OutputValues": {
-    "OutputValues1": "nisi",
-    "OutputValues2": "alias"
+    "OutputValues1": "asperiores",
+    "OutputValues2": "dolor"
   },
   "StateValues": {
-    "StateValues1": "non",
-    "StateValues2": "est"
+    "StateValues1": "est",
+    "StateValues2": "quasi"
   },
-  "Exception": "ullam",
+  "Exception": "dignissimos",
   "ParserValues": {
-    "ParserValues1": "qui",
-    "ParserValues2": "quia"
+    "ParserValues1": "nemo",
+    "ParserValues2": "consequuntur"
   },
   "CgiVariables": {
-    "CgiVariables1": "quia",
-    "CgiVariables2": "sed"
+    "CgiVariables1": "velit",
+    "CgiVariables2": "alias"
   },
-  "CgiContent": "neque",
+  "CgiContent": "sint",
   "Headers": {
-    "Headers1": "dolore",
-    "Headers2": "magnam"
+    "Headers1": "sit",
+    "Headers2": "consequatur"
   },
   "TraceExecution": true
 }
@@ -146,42 +146,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "eos",
-    "InputValues2": "hic"
+    "InputValues1": "voluptatem",
+    "InputValues2": "id"
   },
   "BlockExecution": false,
-  "NavigateTo": "praesentium",
-  "Message": "et",
-  "ShowDialog": "optio",
+  "NavigateTo": "consequuntur",
+  "Message": "nihil",
+  "ShowDialog": "harum",
   "OutputValues": {
-    "OutputValues1": "ipsa",
-    "OutputValues2": "mollitia"
+    "OutputValues1": "et",
+    "OutputValues2": "sunt"
   },
   "StateValues": {
-    "StateValues1": "ad",
-    "StateValues2": "cumque"
+    "StateValues1": "temporibus",
+    "StateValues2": "ut"
   },
-  "Exception": "consectetur",
+  "Exception": "magni",
   "ParserValues": {
-    "ParserValues1": "animi",
-    "ParserValues2": "asperiores"
+    "ParserValues1": "eius",
+    "ParserValues2": "dolorem"
   },
   "CgiVariables": {
-    "CgiVariables1": "dolorem",
-    "CgiVariables2": "minus"
+    "CgiVariables1": "voluptas",
+    "CgiVariables2": "sint"
   },
-  "CgiContent": "officiis",
+  "CgiContent": "temporibus",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "dolore"
+    "Headers1": "optio",
+    "Headers2": "aut"
   },
   "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   }
 }

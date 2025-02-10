@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cupiditate",
-  "ProviderName": "Grady, Nikolaus and Altenwerth",
-  "StorageKey": "repellat",
-  "Restrictions": "exercitationem",
-  "Context": "saepe"
+  "StorageType": "non",
+  "ProviderName": "Heathcote-Cruickshank",
+  "StorageKey": "quidem",
+  "Restrictions": "consequatur",
+  "Context": "omnis"
 }
 ```
 

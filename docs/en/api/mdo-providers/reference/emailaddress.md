@@ -66,6 +66,7 @@ The name of the MDO list is 'emailaddress'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |excludeEmailDescription| |false|
+|Operator used for search. Available values: 'contains', 'startsWith'. Default value is 'contains'.| operator|contains|
 
 
 

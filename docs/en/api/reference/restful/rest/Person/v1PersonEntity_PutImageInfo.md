@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 431,
-  "BlobSize": 527,
-  "Description": "Progressive zero tolerance synergy",
-  "ExtraInfo": "facilis",
+  "BlobId": 360,
+  "BlobSize": 232,
+  "Description": "Organized interactive migration",
+  "ExtraInfo": "quis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 98,
-  "CreatedDate": "2007-11-24T13:13:31.8863203+01:00",
-  "UpdatedDate": "2010-06-25T13:13:31.8863203+02:00",
+  "IsZipped": true,
+  "MimeType": "quia",
+  "OriginalSize": 358,
+  "CreatedDate": "2015-11-11T12:01:32.9956921+01:00",
+  "UpdatedDate": "2007-10-10T12:01:32.9956921+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perspiciatis"
+  "ConceptualType": "voluptatum"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 744,
-  "BlobSize": 240,
-  "Description": "Persistent zero defect alliance",
-  "ExtraInfo": "quas",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 697,
-  "CreatedDate": "2002-11-08T13:13:31.8863203+01:00",
-  "UpdatedDate": "2001-06-24T13:13:31.8863203+02:00",
+  "BlobId": 622,
+  "BlobSize": 935,
+  "Description": "Phased demand-driven initiative",
+  "ExtraInfo": "quo",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "esse",
+  "OriginalSize": 431,
+  "CreatedDate": "2008-04-21T12:01:32.9956921+02:00",
+  "UpdatedDate": "2014-06-01T12:01:32.9956921+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero",
+  "ConceptualType": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

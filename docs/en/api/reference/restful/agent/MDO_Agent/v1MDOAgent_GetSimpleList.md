@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schaden, Stamm and Dach"
+  "Name": "Hyatt, Bauch and Frami"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Goyette Inc and Sons",
-    "ToolTip": "Et error.",
+    "Id": 30,
+    "Name": "Cormier Inc and Sons",
+    "ToolTip": "Aut maiores.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "et",
+    "Rank": 433,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Christiansen, Conroy and Anderson",
-        "ToolTip": "Voluptatem sed amet.",
-        "Deleted": false,
-        "Rank": 252,
-        "Type": "aut",
+        "Id": 843,
+        "Name": "Bartell, Zulauf and Gleichner",
+        "ToolTip": "Incidunt corporis beatae suscipit modi praesentium.",
+        "Deleted": true,
+        "Rank": 851,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 442,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "ut",
-        "FullName": "Prof. Avis Kihn V",
+        "IconHint": "ut",
+        "ColorBlock": 522,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "repellendus",
+        "FullName": "Maryam Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 290
+            "FieldType": "System.Int32",
+            "FieldLength": 661
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 748,
-    "ExtraInfo": "veniam",
-    "StyleHint": "id",
-    "FullName": "Kadin Dicki",
+    "IconHint": "ex",
+    "ColorBlock": 474,
+    "ExtraInfo": "atque",
+    "StyleHint": "reiciendis",
+    "FullName": "Jarod Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 571
       }
     }
   }

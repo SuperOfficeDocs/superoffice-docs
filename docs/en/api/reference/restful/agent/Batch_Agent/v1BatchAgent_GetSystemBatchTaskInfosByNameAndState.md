@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kessler-Rosenbaum",
+  "TaskName": "Rau LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Braun-Gaylord",
-    "AssociateId": 653,
-    "DetailsTable": 299,
-    "DetailsRecord": 44,
+    "Id": 909,
+    "Name": "Muller-Funk",
+    "AssociateId": 756,
+    "DetailsTable": 389,
+    "DetailsRecord": 784,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptate",
-      "ParameterObject2": "molestiae"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "iure"
     },
-    "LastStarted": "2005-12-16T13:13:22.1489532+01:00",
-    "Created": "1998-10-14T13:13:22.1489532+02:00",
-    "StartCount": 849,
-    "DatabaseSerialNumber": "1578659",
-    "Context": "rerum",
-    "Result": "aut",
+    "LastStarted": "2016-08-18T12:01:27.3533761+02:00",
+    "Created": "2025-01-09T12:01:27.3533761+01:00",
+    "StartCount": 277,
+    "DatabaseSerialNumber": "996341",
+    "Context": "minus",
+    "Result": "tempore",
     "State": "All",
-    "Description": "Realigned eco-centric forecast",
-    "Response": "nihil",
-    "Request": "iusto",
-    "ProgressDescription": "Re-contextualized client-driven core",
-    "ProgressPercent": 357,
-    "FileName": "Smitham, Hane and Weber",
+    "Description": "Innovative foreground throughput",
+    "Response": "quisquam",
+    "Request": "voluptatem",
+    "ProgressDescription": "Secured homogeneous synergy",
+    "ProgressPercent": 529,
+    "FileName": "Bartoletti, Boehm and Kemmer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 902
       }
     }
   }

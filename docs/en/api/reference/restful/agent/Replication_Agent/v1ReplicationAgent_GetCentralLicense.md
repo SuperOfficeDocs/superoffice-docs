@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski, Doyle and Johnston",
-    "Description": "Cross-group well-modulated concept",
+    "Name": "Brown, Nitzsche and O'Reilly",
+    "Description": "Realigned radical focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 439,
-        "Tooltip": "quos",
-        "CanAssign": true,
-        "Free": 136,
-        "InUse": 975,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 38,
+        "Tooltip": "neque",
+        "CanAssign": false,
+        "Free": 744,
+        "InUse": 840,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 703,
-        "Name": "Bosco, Satterfield and Mosciski",
-        "Description": "Digitized executive interface",
-        "PrerequisiteModuleName": "Cassin-Kling",
-        "SortOrder": 455,
-        "ExtraFlags": 131,
+        "ModuleLicenseId": 818,
+        "Name": "Thiel LLC",
+        "Description": "Grass-roots transitional Graphic Interface",
+        "PrerequisiteModuleName": "Davis Group",
+        "SortOrder": 567,
+        "ExtraFlags": 342,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 265,
-        "Tooltip": "doloremque",
+        "Total": 22,
+        "Tooltip": "ea",
         "CanAssign": false,
-        "Free": 484,
-        "InUse": 839,
+        "Free": 445,
+        "InUse": 723,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 92,
-        "Name": "Klein-Carter",
-        "Description": "Universal neutral moderator",
-        "PrerequisiteModuleName": "Leuschke-Rowe",
-        "SortOrder": 814,
-        "ExtraFlags": 700,
+        "ModuleLicenseId": 435,
+        "Name": "Kreiger-Hermann",
+        "Description": "Object-based transitional challenge",
+        "PrerequisiteModuleName": "Pagac Inc and Sons",
+        "SortOrder": 805,
+        "ExtraFlags": 209,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldType": "System.String",
+            "FieldLength": 866
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 438
       }
     }
   },
   {
-    "Name": "Mosciski, Doyle and Johnston",
-    "Description": "Cross-group well-modulated concept",
+    "Name": "Brown, Nitzsche and O'Reilly",
+    "Description": "Realigned radical focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 439,
-        "Tooltip": "quos",
-        "CanAssign": true,
-        "Free": 136,
-        "InUse": 975,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 38,
+        "Tooltip": "neque",
+        "CanAssign": false,
+        "Free": 744,
+        "InUse": 840,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 703,
-        "Name": "Bosco, Satterfield and Mosciski",
-        "Description": "Digitized executive interface",
-        "PrerequisiteModuleName": "Cassin-Kling",
-        "SortOrder": 455,
-        "ExtraFlags": 131,
+        "ModuleLicenseId": 818,
+        "Name": "Thiel LLC",
+        "Description": "Grass-roots transitional Graphic Interface",
+        "PrerequisiteModuleName": "Davis Group",
+        "SortOrder": 567,
+        "ExtraFlags": 342,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 265,
-        "Tooltip": "doloremque",
+        "Total": 22,
+        "Tooltip": "ea",
         "CanAssign": false,
-        "Free": 484,
-        "InUse": 839,
+        "Free": 445,
+        "InUse": 723,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 92,
-        "Name": "Klein-Carter",
-        "Description": "Universal neutral moderator",
-        "PrerequisiteModuleName": "Leuschke-Rowe",
-        "SortOrder": 814,
-        "ExtraFlags": 700,
+        "ModuleLicenseId": 435,
+        "Name": "Kreiger-Hermann",
+        "Description": "Object-based transitional challenge",
+        "PrerequisiteModuleName": "Pagac Inc and Sons",
+        "SortOrder": 805,
+        "ExtraFlags": 209,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldType": "System.String",
+            "FieldLength": 866
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 438
       }
     }
   }

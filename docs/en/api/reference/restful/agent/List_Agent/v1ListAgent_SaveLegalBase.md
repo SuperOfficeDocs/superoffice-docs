@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 847,
-  "Name": "Murray, Streich and Ratke",
-  "Tooltip": "natus",
-  "Rank": 665,
-  "Key": "aperiam",
+  "LegalBaseId": 563,
+  "Name": "Streich-Barrows",
+  "Tooltip": "ea",
+  "Rank": 641,
+  "Key": "eum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

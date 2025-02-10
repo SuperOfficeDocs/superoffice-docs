@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Pfeffer-Thiel",
-    "ToolTip": "Quod aut sint.",
-    "Deleted": false,
-    "Rank": 788,
-    "Type": "ipsa",
-    "ColorBlock": 973,
-    "IconHint": "dolore",
+    "Id": 520,
+    "Name": "Jacobi, Shanahan and Wunsch",
+    "ToolTip": "Pariatur totam fugit iure illo dolorum perferendis.",
+    "Deleted": true,
+    "Rank": 835,
+    "Type": "voluptatum",
+    "ColorBlock": 62,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2002-11-08T13:13:32.9799092+01:00",
+    "LastChanged": "2002-09-22T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Dare, Abshire and Harber",
-        "ToolTip": "Dolor fuga beatae non.",
+        "Id": 243,
+        "Name": "Littel-Ondricka",
+        "ToolTip": "Qui voluptatem.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "expedita",
-        "ColorBlock": 571,
-        "IconHint": "dicta",
-        "Selected": true,
-        "LastChanged": "2006-09-11T13:13:32.9799092+02:00",
+        "Rank": 256,
+        "Type": "autem",
+        "ColorBlock": 572,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2020-02-19T12:01:33.4801008+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "est",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Prof. Kale Marina McGlynn V"
+        "FullName": "Shakira Johnston"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Miss Nikita Jerrell Gleason"
+    "ExtraInfo": "non",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Lorna Bednar"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Mueller-Kemmer",
-    "ToolTip": "Quae fugiat qui officia tempore et.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "alias",
-    "ColorBlock": 521,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2010-03-02T13:13:32.9955292+01:00",
+    "Id": 294,
+    "Name": "Kuvalis, Jacobs and Ratke",
+    "ToolTip": "Animi rerum.",
+    "Deleted": true,
+    "Rank": 470,
+    "Type": "quis",
+    "ColorBlock": 126,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2021-05-25T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Eligendi blanditiis quo sit optio dicta necessitatibus qui.",
-        "Deleted": false,
-        "Rank": 636,
-        "Type": "et",
-        "ColorBlock": 616,
-        "IconHint": "quia",
+        "Id": 99,
+        "Name": "Muller, Kiehn and Schumm",
+        "ToolTip": "Et quis harum omnis perferendis sunt.",
+        "Deleted": true,
+        "Rank": 868,
+        "Type": "eos",
+        "ColorBlock": 877,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2014-06-03T13:13:32.9955292+02:00",
+        "LastChanged": "2012-06-13T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "qui",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Prof. Jerry Ignacio Medhurst PhD",
+        "FullName": "Florian Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "velit",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Rose West",
+    "FullName": "Jillian Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldType": "System.Int32",
+        "FieldLength": 288
       }
     }
   }

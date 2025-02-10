@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Champlin, Klein and Abbott",
-  "FieldName": "Bergnaum-Schoen"
+  "TableName": "Bruen-Hickle",
+  "FieldName": "Toy-Kling"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Adams-Cummerata",
-  "DisplayName": "Simonis-Weimann",
-  "Description": "Triple-buffered intangible success",
-  "ShortLabel": "et",
+  "FieldName": "Padberg Group",
+  "DisplayName": "Schultz-Morar",
+  "Description": "Quality-focused demand-driven infrastructure",
+  "ShortLabel": "quis",
   "HideLabel": false,
   "HideField": true,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 750,
-  "TemplateVariableName": "Champlin, Boyle and Runte"
+  "IsExternal": false,
+  "IsDisplayField": true,
+  "Rank": 434,
+  "TemplateVariableName": "Considine, Gutkowski and Rowe"
 }
 ```

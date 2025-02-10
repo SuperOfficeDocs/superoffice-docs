@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=843
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=538
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 156,
-  "FormId": 128,
-  "WhenSubmitted": "1998-08-21T13:13:23.3520388+02:00",
-  "ContactId": 881,
-  "PersonId": 71,
-  "EmailAddress": "etha@gleason.name",
-  "ResponseShipmentAddrId": 813,
-  "Response": "nobis",
+  "FormSubmissionId": 130,
+  "FormId": 232,
+  "WhenSubmitted": "2014-03-09T12:01:27.9940463+01:00",
+  "ContactId": 111,
+  "PersonId": 597,
+  "EmailAddress": "horacio@kris.uk",
+  "ResponseShipmentAddrId": 718,
+  "Response": "aut",
   "Status": "EmailVerification",
-  "ProcessingLog": "magnam",
+  "ProcessingLog": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldLength": 709
     }
   }
 }

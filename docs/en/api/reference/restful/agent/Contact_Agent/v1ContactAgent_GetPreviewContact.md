@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 211
+  "ContactId": 333
 }
 ```
 
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 532,
-  "Name": "Gutkowski Group",
+  "ContactId": 185,
+  "Name": "Grimes LLC",
   "Department": "",
-  "CountryId": 778,
-  "Number2": "1031164",
-  "DirectPhone": "1-562-356-7932",
+  "CountryId": 559,
+  "Number2": "1099864",
+  "DirectPhone": "1-103-030-8225 x50965",
   "URL": "http://www.example.com/",
-  "EmailAddress": "ethan_crist@steuber.name",
+  "EmailAddress": "marcella@swift.com",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Alisa Stanton",
+  "AssociateFullName": "Hulda Dicki",
   "Address": null
 }
 ```

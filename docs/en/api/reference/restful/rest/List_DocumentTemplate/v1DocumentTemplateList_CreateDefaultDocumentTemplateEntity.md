@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 764,
-  "Name": "Fay-Hartmann",
-  "Tooltip": "ab",
-  "SaveInDb": 318,
-  "Filename": "nisi",
-  "DefaultOref": "quasi",
+  "DocumentTemplateId": 253,
+  "Name": "Hagenes Group",
+  "Tooltip": "aperiam",
+  "SaveInDb": 397,
+  "Filename": "rerum",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 208,
-  "IntentId": 435,
+  "AutoeventId": 348,
+  "IntentId": 723,
   "IsDefaultPublished": false,
-  "Rank": 377,
-  "LoadTemplateFromPlugin": 805,
-  "MimeType": "numquam",
+  "Rank": 472,
+  "LoadTemplateFromPlugin": 273,
+  "MimeType": "saepe",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 657,
+  "DocumentTypeKey": 341,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "julio@smith.info",
+  "EmailSubject": "kristian@grady.uk",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "haskell.mclaughlin@ritchieeichmann.ca",
+  "SenderEmailAddress": "triston.kris@monahan.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

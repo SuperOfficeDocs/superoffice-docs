@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 608,
-  "Name": "Mills Inc and Sons",
-  "Rank": 292,
-  "Tooltip": "iste",
+  "AssociateId": 303,
+  "Name": "Gutmann Group",
+  "Rank": 101,
+  "Tooltip": "sequi",
   "LicenseOwners": [
     {
-      "Name": "Torp, Romaguera and Altenwerth",
-      "Description": "Seamless 24 hour database",
+      "Name": "Rice-Carter",
+      "Description": "Networked 24/7 paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 891
         }
       }
     },
     {
-      "Name": "Torp, Romaguera and Altenwerth",
-      "Description": "Seamless 24 hour database",
+      "Name": "Rice-Carter",
+      "Description": "Networked 24/7 paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 891
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ratione",
-      "Tooltip": "qui",
-      "Id": 365,
-      "Rank": 556,
-      "Deleted": true,
+      "Value": "voluptas",
+      "Tooltip": "ut",
+      "Id": 96,
+      "Rank": 364,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldLength": 251
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-05-13T13:13:32.7299587+02:00",
-  "Lastlogout": "2012-10-06T13:13:32.7299587+02:00",
-  "EjUserId": 102,
-  "RequestSignature": "suscipit",
+  "Deleted": true,
+  "Lastlogin": "2018-04-04T12:01:33.4019705+02:00",
+  "Lastlogout": "1998-12-04T12:01:33.4019705+01:00",
+  "EjUserId": 148,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "officiis",
-      "DisplayValue": "ipsa",
+      "Value": "nesciunt",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 384
         }
       }
     },
     {
       "Type": null,
-      "Value": "officiis",
-      "DisplayValue": "ipsa",
+      "Value": "nesciunt",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 384
         }
       }
     }
   ],
-  "UserName": "Auer Inc and Sons",
+  "UserName": "Metz, Simonis and Marquardt",
   "TicketCategories": [
     {
-      "Id": 102,
-      "Name": "Gorczany Group",
-      "ToolTip": "In modi.",
-      "Deleted": false,
-      "Rank": 984,
-      "Type": "officiis",
+      "Id": 534,
+      "Name": "Daugherty Inc and Sons",
+      "ToolTip": "Nulla voluptate ab impedit ratione repellat.",
+      "Deleted": true,
+      "Rank": 862,
+      "Type": "perspiciatis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iusto",
-      "ColorBlock": 716,
-      "ExtraInfo": "aut",
-      "StyleHint": "enim",
-      "FullName": "Antonina Rogahn",
+      "IconHint": "odio",
+      "ColorBlock": 20,
+      "ExtraInfo": "quam",
+      "StyleHint": "nihil",
+      "FullName": "Miss Tyshawn Kerluke I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldLength": 297
         }
       }
     }
   ],
-  "NickName": "Vandervort-Crist",
-  "WaitingForApproval": true,
+  "NickName": "Hane Group",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "quasi"
+    "CustomFields1": "eos",
+    "CustomFields2": "commodi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Howe-Brown",
-      "DisplayName": "Ledner, West and Schamberger",
-      "Description": "Profit-focused tertiary internet solution",
-      "ToolTip": "Ut illum consequuntur consequatur laudantium nihil.",
+      "Name": "Kilback, Douglas and Mraz",
+      "DisplayName": "Kassulke-Breitenberg",
+      "Description": "Synchronised homogeneous info-mediaries",
+      "ToolTip": "Doloremque quo fugit est magnam animi quidem.",
       "Actions": "Implicit",
-      "ActionData": "tempora",
+      "ActionData": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

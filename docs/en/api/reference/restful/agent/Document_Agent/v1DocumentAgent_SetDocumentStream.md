@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 304,
+  "DocumentId": 901,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "iste",
-  "Name": "Swift Inc and Sons",
-  "OurRef": "explicabo",
-  "YourRef": "perferendis",
-  "CreatedDate": "2017-08-24T13:13:22.8364721+02:00",
-  "UpdatedDate": "2017-10-15T13:13:22.8364721+02:00",
-  "Description": "User-friendly transitional task-force",
+  "Attention": "fugit",
+  "Header": "et",
+  "Name": "Carroll-Brown",
+  "OurRef": "ad",
+  "YourRef": "rerum",
+  "CreatedDate": "2007-04-08T12:01:27.7284021+02:00",
+  "UpdatedDate": "2009-03-14T12:01:27.7284021+01:00",
+  "Description": "Streamlined dedicated interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-11-21T13:13:22.8364721+01:00",
-  "ExternalRef": "ut",
+  "Date": "2007-03-01T12:01:27.7284021+01:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 912,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kirlin, Hettinger and Schmidt",
-      "Id": 831,
-      "Description": "Object-based demand-driven attitude",
-      "ExtraInfo": "quia",
-      "LinkId": 669,
+      "EntityName": "Bailey Group",
+      "Id": 873,
+      "Description": "Visionary encompassing complexity",
+      "ExtraInfo": "voluptates",
+      "LinkId": 383,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 626,
-  "Snum": 613,
+  "SuggestedDocumentId": 827,
+  "Snum": 686,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "788283562"
+    "SuperOffice:1": "Mrs. Ottis Predovic",
+    "SuperOffice:2": "Betsy Ondricka"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "qui"
+    "CustomFields1": "facilis",
+    "CustomFields2": "libero"
   },
-  "PublishEventDate": "2012-05-20T13:13:22.8364721+02:00",
-  "PublishTo": "2022-06-01T13:13:22.8364721+02:00",
-  "PublishFrom": "2019-10-18T13:13:22.8364721+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-11-13T12:01:27.7284021+01:00",
+  "PublishTo": "2020-06-29T12:01:27.7284021+02:00",
+  "PublishFrom": "2005-04-28T12:01:27.7284021+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 418,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 566
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     },
     {
-      "VisibleId": 418,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 566
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

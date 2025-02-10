@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 884
+  "Count": 990
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mann, Senger and Dickens",
-    "SaleDate": "1998-06-25T13:13:23.8729256+02:00",
-    "SaleId": 199,
-    "Probability": 985,
-    "Title": "sit",
-    "Amount": 21715.486,
-    "Currency": "sint",
-    "ProjectName": "Gottlieb, Torphy and Jones",
-    "AssociateFullName": "Bennett Kassulke",
-    "Description": "Pre-emptive national protocol",
+    "ContactName": "Dach, Conroy and Huel",
+    "SaleDate": "2002-12-16T12:01:28.2596899+01:00",
+    "SaleId": 752,
+    "Probability": 878,
+    "Title": "molestiae",
+    "Amount": 18572.084,
+    "Currency": "quae",
+    "ProjectName": "Mayert, Anderson and Witting",
+    "AssociateFullName": "Jedediah Bogan",
+    "Description": "Up-sized static productivity",
     "Status": "Lost",
-    "WeightedAmount": 25209.896,
-    "ProjectId": 568,
-    "EarningPercent": 1234.796,
-    "Earning": 16550.654,
-    "ContactId": 740,
-    "AssociateId": 128,
-    "PersonId": 958,
-    "SaleTypeId": 731,
-    "SaleTypeName": "Krajcik-McLaughlin",
-    "PersonFullName": "Mr. Rhea Senger",
+    "WeightedAmount": 15171.694,
+    "ProjectId": 10,
+    "EarningPercent": 20928.852,
+    "Earning": 28447.318,
+    "ContactId": 263,
+    "AssociateId": 467,
+    "PersonId": 554,
+    "SaleTypeId": 742,
+    "SaleTypeName": "Nitzsche-Reynolds",
+    "PersonFullName": "Ted Graham",
     "Completed": "Completed",
-    "ActiveErpLinks": 624,
-    "NextDueDate": "2005-11-27T13:13:23.8729256+01:00",
-    "Number": "806796",
+    "ActiveErpLinks": 232,
+    "NextDueDate": "2015-10-01T12:01:28.2596899+02:00",
+    "Number": "972533",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldLength": 719
       }
     }
   }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 970
+  "ChatSessionId": 31
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 205,
-  "TopicId": 103,
+  "ChatSessionId": 296,
+  "TopicId": 161,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Ruecker-Lehner",
-  "CustomerEmail": "jessie_vandervort@weber.uk",
-  "CustomerPhone": "1-623-576-6359",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Russel-Rodriguez",
+  "CustomerAlias": "est",
+  "CustomerHost": "occaecati",
+  "CustomerName": "Zulauf LLC",
+  "CustomerEmail": "moises@trantowgottlieb.name",
+  "CustomerPhone": "(428)311-7325",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Franecki, Erdman and Beahan",
   "Status": "Closed",
-  "FirstMessage": "veniam",
-  "LastMessage": "voluptatibus",
-  "WhenRequested": "2022-04-27T13:13:22.2739246+02:00",
-  "WhenStarted": "2020-05-28T13:13:22.2739246+02:00",
-  "WhenEnded": "2013-09-12T13:13:22.2739246+02:00",
-  "WhenIdle": "2002-02-15T13:13:22.2739246+01:00",
-  "WhenFetched": "2009-05-05T13:13:22.2739246+02:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 94,
-  "AlertLevel": 497,
-  "Rank": 707,
+  "FirstMessage": "eum",
+  "LastMessage": "et",
+  "WhenRequested": "2002-07-21T12:01:27.4158812+02:00",
+  "WhenStarted": "1998-03-07T12:01:27.4158812+01:00",
+  "WhenEnded": "1998-03-25T12:01:27.4158812+01:00",
+  "WhenIdle": "2006-02-24T12:01:27.4158812+01:00",
+  "WhenFetched": "2005-12-19T12:01:27.4158812+01:00",
+  "SessionKey": "repellendus",
+  "InitialQueuePos": 7,
+  "AlertLevel": 975,
+  "Rank": 771,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 970,
+  "ChatbotIsActive": false,
+  "Rating": 242,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

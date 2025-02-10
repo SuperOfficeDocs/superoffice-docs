@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "McLaughlin-McCullough",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 68,
-    "UdListDefinitionId": 811
+    "HeadingId": 795,
+    "Name": "Tillman, McKenzie and Wisoky",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 34,
+    "UdListDefinitionId": 747
   },
   {
-    "HeadingId": 277,
-    "Name": "McLaughlin-McCullough",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 68,
-    "UdListDefinitionId": 811
+    "HeadingId": 795,
+    "Name": "Tillman, McKenzie and Wisoky",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 34,
+    "UdListDefinitionId": 747
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 926,
-    "Name": "Steuber-Russel",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 495,
-    "UdListDefinitionId": 600,
+    "HeadingId": 134,
+    "Name": "Orn, Raynor and Stark",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 179,
+    "UdListDefinitionId": 52,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldLength": 490
       }
     }
   }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Hodkiewicz, Braun and Predovic"
+  "UserName": "Quigley-Rath"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 920,
-  "Name": "Skiles, Tillman and Brekke",
-  "Rank": 159,
-  "Tooltip": "omnis",
+  "AssociateId": 70,
+  "Name": "Olson, Toy and Sipes",
+  "Rank": 879,
+  "Tooltip": "deleniti",
   "LicenseOwners": [
     {
-      "Name": "Hessel, Smith and Buckridge",
-      "Description": "Virtual needs-based emulation",
+      "Name": "Farrell, Parker and Murazik",
+      "Description": "Enterprise-wide multi-state Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 722
         }
       }
     },
     {
-      "Name": "Hessel, Smith and Buckridge",
-      "Description": "Virtual needs-based emulation",
+      "Name": "Farrell, Parker and Murazik",
+      "Description": "Enterprise-wide multi-state Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 722
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nisi",
-      "Tooltip": "cum",
-      "Id": 556,
-      "Rank": 814,
+      "Value": "occaecati",
+      "Tooltip": "error",
+      "Id": 310,
+      "Rank": 1001,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 880
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2017-04-21T13:13:24.5090335+02:00",
-  "Lastlogout": "2009-11-26T13:13:24.5090335+01:00",
-  "EjUserId": 211,
-  "RequestSignature": "in",
+  "Lastlogin": "2001-04-27T12:01:28.6034631+02:00",
+  "Lastlogout": "2009-10-12T12:01:28.6034631+02:00",
+  "EjUserId": 610,
+  "RequestSignature": "non",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "optio",
+      "Value": "hic",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 105
         }
       }
     },
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "optio",
+      "Value": "hic",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 105
         }
       }
     }
   ],
-  "UserName": "Ernser, Johns and Schmeler",
+  "UserName": "Hilpert, Gutkowski and Hermiston",
   "TicketCategories": [
     {
-      "Id": 30,
-      "Name": "Kutch Inc and Sons",
-      "ToolTip": "Mollitia dolorem dolorum architecto.",
+      "Id": 230,
+      "Name": "Shanahan, Stiedemann and Hyatt",
+      "ToolTip": "Repellendus et qui fuga voluptatem temporibus ipsam consequatur.",
       "Deleted": false,
-      "Rank": 428,
-      "Type": "praesentium",
+      "Rank": 619,
+      "Type": "vel",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 678,
-      "ExtraInfo": "officia",
-      "StyleHint": "ut",
-      "FullName": "Kane Windler",
+      "IconHint": "voluptatum",
+      "ColorBlock": 772,
+      "ExtraInfo": "ipsum",
+      "StyleHint": "inventore",
+      "FullName": "Stewart Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 507
         }
       }
     }
   ],
-  "NickName": "Hauck, Fahey and Kessler",
+  "NickName": "Fritsch-Brown",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "iusto"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "quasi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kub-Shanahan",
-      "DisplayName": "McLaughlin, Orn and Ledner",
-      "Description": "Versatile maximized function",
-      "ToolTip": "Quis consequuntur id occaecati eos esse eum optio.",
+      "Name": "Barrows-Feest",
+      "DisplayName": "Gusikowski Inc and Sons",
+      "Description": "Extended system-worthy challenge",
+      "ToolTip": "Autem qui aut.",
       "Actions": "Implicit",
-      "ActionData": "aperiam",
+      "ActionData": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 743
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 860
     }
   }
 }

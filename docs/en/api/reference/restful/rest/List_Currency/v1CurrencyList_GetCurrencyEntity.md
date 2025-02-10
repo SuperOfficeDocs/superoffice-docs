@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 425,
-  "Name": "Upton-Leffler",
-  "Tooltip": "dignissimos",
-  "Rank": 72,
-  "Rate": 1573.268,
-  "Units": 9445.876,
-  "Deleted": true,
+  "CurrencyId": 337,
+  "Name": "Pouros-Muller",
+  "Tooltip": "et",
+  "Rank": 102,
+  "Rate": 12131.714,
+  "Units": 15742.082,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 530
     }
   }
 }

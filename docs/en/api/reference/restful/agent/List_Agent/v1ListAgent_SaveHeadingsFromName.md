@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Moore Group",
+  "Name": "Rutherford-King",
   "Entities": [
     {
-      "HeadingId": 34,
-      "Name": "Bergnaum-Bayer",
-      "Tooltip": "facilis",
-      "Deleted": false,
-      "Rank": 976,
-      "UdListDefinitionId": 464
+      "HeadingId": 660,
+      "Name": "Goyette, Jacobi and Labadie",
+      "Tooltip": "voluptatem",
+      "Deleted": true,
+      "Rank": 82,
+      "UdListDefinitionId": 288
     },
     {
-      "HeadingId": 34,
-      "Name": "Bergnaum-Bayer",
-      "Tooltip": "facilis",
-      "Deleted": false,
-      "Rank": 976,
-      "UdListDefinitionId": 464
+      "HeadingId": 660,
+      "Name": "Goyette, Jacobi and Labadie",
+      "Tooltip": "voluptatem",
+      "Deleted": true,
+      "Rank": 82,
+      "UdListDefinitionId": 288
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 753,
-    "Name": "Medhurst, Hermann and Sanford",
-    "Tooltip": "id",
+    "HeadingId": 810,
+    "Name": "Orn, Eichmann and Bailey",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 310,
-    "UdListDefinitionId": 538,
+    "Rank": 187,
+    "UdListDefinitionId": 830,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 582
       }
     }
   }

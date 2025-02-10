@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Erdman, Bashirian and Lebsack",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 296,
-  "UdListDefinitionId": 578
+  "HeadingId": 427,
+  "Name": "Dickinson Group",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 195,
+  "UdListDefinitionId": 515
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 55,
-  "Name": "Turner Inc and Sons",
-  "Tooltip": "qui",
+  "HeadingId": 356,
+  "Name": "Haley, Jast and Schmeler",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 748,
-  "UdListDefinitionId": 284,
+  "Rank": 202,
+  "UdListDefinitionId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldLength": 449
     }
   }
 }

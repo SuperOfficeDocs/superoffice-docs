@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 01 Mar 2009 13:13:31 G3T
+Last-Modified: Mon, 03 Jun 2019 12:01:32 G6T
 
 {
-  "ForeignAppId": 399,
-  "Name": "Schuster-Abernathy",
-  "CreatedDate": "2020-11-16T13:13:31.7457296+01:00",
-  "UpdatedDate": "2009-03-01T13:13:31.7457296+01:00",
+  "ForeignAppId": 23,
+  "Name": "Homenick Inc and Sons",
+  "CreatedDate": "2024-05-17T12:01:32.9175621+02:00",
+  "UpdatedDate": "2019-06-03T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 865,
-      "Name": "Emard, Marvin and Barton",
-      "CreatedDate": "2021-09-20T13:13:31.7457296+02:00",
-      "UpdatedDate": "2021-10-07T13:13:31.7457296+02:00",
-      "AssociateFullName": "Ron Russel",
-      "CreatedBy": "magnam",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 582,
+      "ForeignDeviceId": 542,
+      "Name": "Yundt Group",
+      "CreatedDate": "2009-11-14T12:01:32.9175621+01:00",
+      "UpdatedDate": "2016-09-16T12:01:32.9175621+02:00",
+      "AssociateFullName": "Diego Hosea Skiles MD",
+      "CreatedBy": "reiciendis",
+      "UpdatedBy": "laboriosam",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 235,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 258
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sun, 01 Mar 2009 13:13:31 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldType": "System.Int32",
+      "FieldLength": 677
     }
   }
 }

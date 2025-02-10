@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "Name": "Hickle Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 849,
+  "Name": "Mills-Hahn",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 380,
-  "IsCustomList": false,
+  "Rank": 894,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Moen Group",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 202,
+  "Id": 561,
+  "Name": "Weimann, Lockman and Lubowitz",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "Rank": 108,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

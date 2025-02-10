@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Padberg Inc and Sons",
-    "Tooltip": "corporis",
+    "Id": 911,
+    "Name": "Welch, Wunsch and Hane",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 655
+    "UdListDefinitionId": 833,
+    "Rank": 336
   },
   {
-    "Id": 921,
-    "Name": "Padberg Inc and Sons",
-    "Tooltip": "corporis",
+    "Id": 911,
+    "Name": "Welch, Wunsch and Hane",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 655
+    "UdListDefinitionId": 833,
+    "Rank": 336
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "D'Amore-Hyatt",
-    "Tooltip": "nostrum",
-    "Deleted": true,
-    "UdListDefinitionId": 784,
-    "Rank": 211,
+    "Id": 728,
+    "Name": "Luettgen, Mueller and Satterfield",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "UdListDefinitionId": 800,
+    "Rank": 812,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldLength": 799
       }
     }
   }

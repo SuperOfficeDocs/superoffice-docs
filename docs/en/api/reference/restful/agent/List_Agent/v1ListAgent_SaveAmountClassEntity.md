@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 266,
-  "Name": "Yundt Inc and Sons",
-  "Tooltip": "ad",
-  "Rank": 440,
-  "AmountFrom": 13291.294,
-  "AmountTo": 12705.235999999999,
+  "AmountClassId": 218,
+  "Name": "Gibson Inc and Sons",
+  "Tooltip": "laborum",
+  "Rank": 724,
+  "AmountFrom": 1626.546,
+  "AmountTo": 10874.98,
   "Deleted": false,
-  "CurrencyId": 319
+  "CurrencyId": 721
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 700,
-  "Name": "Reynolds, Stracke and Gusikowski",
-  "Tooltip": "consequuntur",
-  "Rank": 44,
-  "AmountFrom": 5797.9,
-  "AmountTo": 13231.748,
+  "AmountClassId": 511,
+  "Name": "Hand LLC",
+  "Tooltip": "atque",
+  "Rank": 798,
+  "AmountFrom": 24683.384,
+  "AmountTo": 7675.166,
   "Deleted": true,
-  "CurrencyId": 158,
+  "CurrencyId": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 942
     }
   }
 }

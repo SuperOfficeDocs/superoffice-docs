@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 323,
-    "Name": "Marks-Hilpert",
+    "TicketPriorityId": 152,
+    "Name": "Schroeder Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 823,
+    "SortOrder": 770,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 886,
-    "MonStart": "2020-01-15T13:13:33.6828687+01:00",
-    "MonStop": "2021-07-02T13:13:33.6828687+02:00",
-    "TueStart": "2020-12-18T13:13:33.6828687+01:00",
-    "TueStop": "2024-02-22T13:13:33.6828687+01:00",
-    "WedStart": "2011-08-26T13:13:33.6828687+02:00",
-    "WedStop": "2008-09-30T13:13:33.6828687+02:00",
-    "ThuStart": "2021-09-03T13:13:33.6828687+02:00",
-    "ThuStop": "2021-01-14T13:13:33.6828687+01:00",
-    "FriStart": "2024-02-07T13:13:33.6828687+01:00",
-    "FriStop": "2000-06-22T13:13:33.6828687+02:00",
-    "SatStart": "2001-08-14T13:13:33.6828687+02:00",
-    "SatStop": "2014-11-14T13:13:33.6828687+01:00",
-    "SunStart": "2009-12-04T13:13:33.6828687+01:00",
-    "SunStop": "2016-09-17T13:13:33.6828687+02:00",
+    "Deadline": 978,
+    "MonStart": "2003-10-26T12:01:33.6832402+01:00",
+    "MonStop": "2018-07-26T12:01:33.6832402+02:00",
+    "TueStart": "2004-11-02T12:01:33.6832402+01:00",
+    "TueStop": "2010-11-07T12:01:33.6832402+01:00",
+    "WedStart": "2024-10-13T12:01:33.6832402+02:00",
+    "WedStop": "2016-03-03T12:01:33.6832402+01:00",
+    "ThuStart": "2022-05-07T12:01:33.6832402+02:00",
+    "ThuStop": "2013-02-09T12:01:33.6832402+01:00",
+    "FriStart": "2014-09-20T12:01:33.6832402+02:00",
+    "FriStop": "2011-08-05T12:01:33.6832402+02:00",
+    "SatStart": "2014-06-23T12:01:33.6832402+02:00",
+    "SatStop": "2002-10-01T12:01:33.6832402+02:00",
+    "SunStart": "2021-01-18T12:01:33.6832402+01:00",
+    "SunStop": "2022-03-15T12:01:33.6832402+01:00",
     "NonDates": [
-      "laboriosam",
-      "qui"
+      "reiciendis",
+      "maxime"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 514,
-        "AlertLevel": 840,
-        "AlertTimeout": 97,
-        "Action": 366,
-        "DelegateTo": 828,
-        "ScriptId": 245,
-        "EmailTo": "janessa_simonis@mckenzieyundt.ca",
-        "SmsTo": "quia",
-        "ReplyTemplateIdCustomer": 475,
-        "ReplyTemplateIdUser": 128,
-        "ReplyTemplateIdCatmast": 436,
-        "ReplyTemplateIdEmail": 467,
-        "RtiCustomerSms": 482,
-        "ReplyTemplateIdUserSms": 158,
-        "ReplyTemplateIdCatmastSms": 866,
-        "ReplyTemplateIdSms": 7,
+        "TicketAlertId": 166,
+        "AlertLevel": 705,
+        "AlertTimeout": 711,
+        "Action": 765,
+        "DelegateTo": 448,
+        "ScriptId": 216,
+        "EmailTo": "olga@sanford.uk",
+        "SmsTo": "velit",
+        "ReplyTemplateIdCustomer": 526,
+        "ReplyTemplateIdUser": 14,
+        "ReplyTemplateIdCatmast": 370,
+        "ReplyTemplateIdEmail": 398,
+        "RtiCustomerSms": 108,
+        "ReplyTemplateIdUserSms": 808,
+        "ReplyTemplateIdCatmastSms": 3,
+        "ReplyTemplateIdSms": 401,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 864
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 143
       }
     }
   }

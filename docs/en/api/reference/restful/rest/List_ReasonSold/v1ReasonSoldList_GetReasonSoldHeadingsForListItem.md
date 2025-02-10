@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Stracke, Larkin and Weber",
-    "ToolTip": "Incidunt sequi ratione.",
-    "Deleted": false,
-    "Rank": 797,
-    "Type": "ratione",
-    "ColorBlock": 672,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2004-09-28T13:13:33.526645+02:00",
+    "Id": 246,
+    "Name": "Stoltenberg Group",
+    "ToolTip": "Suscipit aspernatur ea quas odit et.",
+    "Deleted": true,
+    "Rank": 283,
+    "Type": "molestiae",
+    "ColorBlock": 285,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2011-06-11T12:01:33.6363617+02:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Lang Inc and Sons",
-        "ToolTip": "Inventore quia magnam quia dolor eaque vel.",
+        "Id": 906,
+        "Name": "McClure-O'Keefe",
+        "ToolTip": "Impedit minus iusto ad repellat aperiam.",
         "Deleted": true,
-        "Rank": 200,
-        "Type": "cupiditate",
-        "ColorBlock": 762,
-        "IconHint": "natus",
+        "Rank": 296,
+        "Type": "modi",
+        "ColorBlock": 741,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2003-12-16T13:13:33.526645+01:00",
+        "LastChanged": "2001-07-17T12:01:33.6363617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "officia",
+        "ExtraInfo": "et",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Casimir Skiles",
+        "FullName": "Charlotte Weissnat DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 548
+            "FieldLength": 540
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "illum",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Kristy Adams",
+    "FullName": "Mr. Cornelius Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

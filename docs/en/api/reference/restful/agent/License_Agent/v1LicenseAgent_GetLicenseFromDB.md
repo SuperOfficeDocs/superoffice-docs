@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ruecker-Davis"
+  "OwnerName": "Kohler-Frami"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 573,
-      "NumberOfLicensesFree": 625,
-      "NumberOfLicensesAdded": 420,
-      "NumberOfLicensesNewTotal": 660,
-      "NumberOfLicensesNewFree": 872,
-      "NumberOfLicensesTotal": 326
+      "NumberOfLicensesInUse": 668,
+      "NumberOfLicensesFree": 937,
+      "NumberOfLicensesAdded": 23,
+      "NumberOfLicensesNewTotal": 771,
+      "NumberOfLicensesNewFree": 739,
+      "NumberOfLicensesTotal": 61
     }
   ],
-  "AccumulatedNextCheckDate": "2010-06-06T13:13:23.1958249+02:00"
+  "AccumulatedNextCheckDate": "2024-05-14T12:01:27.9159153+02:00"
 }
 ```

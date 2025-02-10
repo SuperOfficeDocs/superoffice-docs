@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 743,
-  "Name": "Hegmann-Schaden",
-  "Tooltip": "reprehenderit",
+  "WebPanelId": 939,
+  "Name": "Jenkins, O'Conner and Christiansen",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 734,
+  "Rank": 838,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Gaylord-Kerluke",
+  "WindowName": "Kling Group",
   "Url": "http://www.example.com/",
-  "ProgId": "quod",
-  "Icon": 991,
+  "ProgId": "dolorum",
+  "Icon": 109,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 992
     }
   }
 }

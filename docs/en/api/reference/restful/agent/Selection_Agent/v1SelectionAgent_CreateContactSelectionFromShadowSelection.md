@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 680,
-  "Name": "Von Inc and Sons"
+  "SelectionId": 314,
+  "Name": "Heller-Cummerata"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible well-modulated ability",
-  "Postit": "unde",
+  "Description": "Proactive directional conglomeration",
+  "Postit": "corrupti",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 825,
-  "IncludePerson": 312,
+  "GroupIdx": 897,
+  "IncludePerson": 495,
   "MemberCount": 99.99,
-  "Name": "Hettinger, Nicolas and Renner",
-  "PostitTextId": 877,
-  "CreatedDate": "1998-06-02T13:13:23.9622111+02:00",
-  "SelectionId": 602,
-  "SoundEx": "numquam",
-  "Source": 971,
-  "TextId": 629,
-  "UpdatedDate": "2024-03-30T13:13:23.9622111+01:00",
-  "UpdatedCount": 546,
-  "Visibility": 229,
+  "Name": "Pfannerstill, Nitzsche and Schaefer",
+  "PostitTextId": 454,
+  "CreatedDate": "2000-04-08T12:01:28.3065684+02:00",
+  "SelectionId": 863,
+  "SoundEx": "natus",
+  "Source": 881,
+  "TextId": 6,
+  "UpdatedDate": "2010-05-11T12:01:28.3065684+02:00",
+  "UpdatedCount": 254,
+  "Visibility": 261,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 336,
-  "TargetTableName": "Murphy-Lubowitz",
-  "Completed": true,
-  "LeftSelectionId": 512,
-  "RightSelectionId": 385,
+  "TargetTableNumber": 655,
+  "TargetTableName": "Pfannerstill Group",
+  "Completed": false,
+  "LeftSelectionId": 270,
+  "RightSelectionId": 477,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ledner LLC",
-  "ShadowProviderName": "White, Padberg and O'Keefe",
-  "ChartKey": "quidem",
-  "LastLoaded": "2009-10-15T13:13:23.9622111+02:00",
-  "LastLoadedBy": 197,
+  "MainProviderName": "Terry-Lang",
+  "ShadowProviderName": "Bernhard, Veum and Russel",
+  "ChartKey": "pariatur",
+  "LastLoaded": "2021-05-06T12:01:28.3065684+02:00",
+  "LastLoadedBy": 889,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-11-12T13:13:23.9778431+01:00",
-  "LastMembershipChangeBy": 879,
+  "LastMembershipChange": "2009-09-10T12:01:28.3065684+02:00",
+  "LastMembershipChangeBy": 501,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Thiel Inc and Sons",
-  "DashboardTileDefinitionId": 735,
+  "MainHeading": "nesciunt",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "McDermott, Brakus and Pfeffer",
+  "DashboardTileDefinitionId": 609,
   "VisibleFor": [
     {
-      "VisibleId": 385,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 767
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     },
     {
-      "VisibleId": 385,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 767
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   }
 }

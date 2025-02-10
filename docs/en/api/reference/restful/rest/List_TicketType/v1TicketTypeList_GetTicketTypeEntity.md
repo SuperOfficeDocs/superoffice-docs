@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 31,
-  "Name": "Runolfsson Inc and Sons",
-  "Rank": 641,
-  "Tooltip": "ea",
-  "Icon": "perferendis",
-  "DefaultTicketStatus": 591,
+  "TicketTypeId": 264,
+  "Name": "Stiedemann, Hegmann and Fay",
+  "Rank": 890,
+  "Tooltip": "quidem",
+  "Icon": "beatae",
+  "DefaultTicketStatus": 882,
   "TicketStatuses": [
-    313,
-    557
+    164,
+    470
   ],
-  "DefaultTicketPriority": 425,
+  "DefaultTicketPriority": 598,
   "TicketPriorities": [
-    545,
-    857
+    79,
+    155
   ],
-  "ReplyTemplate": 859,
+  "ReplyTemplate": 671,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    484,
-    358
+    679,
+    62
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 337
     }
   }
 }

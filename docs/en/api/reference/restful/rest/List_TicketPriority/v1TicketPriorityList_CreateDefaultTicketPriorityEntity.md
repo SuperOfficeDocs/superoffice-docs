@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 987,
-  "Name": "Grady Group",
+  "TicketPriorityId": 916,
+  "Name": "Donnelly, Jenkins and Kerluke",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 301,
+  "SortOrder": 333,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 372,
-  "MonStart": "2009-07-14T13:13:33.6828687+02:00",
-  "MonStop": "2023-05-27T13:13:33.6828687+02:00",
-  "TueStart": "1999-01-21T13:13:33.6828687+01:00",
-  "TueStop": "2014-08-17T13:13:33.6828687+02:00",
-  "WedStart": "2016-10-22T13:13:33.6828687+02:00",
-  "WedStop": "2002-05-03T13:13:33.6828687+02:00",
-  "ThuStart": "2018-11-21T13:13:33.6828687+01:00",
-  "ThuStop": "1999-12-22T13:13:33.6828687+01:00",
-  "FriStart": "2003-11-02T13:13:33.6828687+01:00",
-  "FriStop": "2000-05-09T13:13:33.6828687+02:00",
-  "SatStart": "2006-10-31T13:13:33.6828687+01:00",
-  "SatStop": "2024-04-26T13:13:33.6828687+02:00",
-  "SunStart": "2010-12-12T13:13:33.6828687+01:00",
-  "SunStop": "2020-04-28T13:13:33.6828687+02:00",
+  "Deadline": 814,
+  "MonStart": "2011-08-24T12:01:33.6832402+02:00",
+  "MonStop": "2002-03-19T12:01:33.6832402+01:00",
+  "TueStart": "2015-12-02T12:01:33.6832402+01:00",
+  "TueStop": "2016-03-07T12:01:33.6832402+01:00",
+  "WedStart": "2000-11-03T12:01:33.6832402+01:00",
+  "WedStop": "2024-06-20T12:01:33.6832402+02:00",
+  "ThuStart": "2014-06-04T12:01:33.6832402+02:00",
+  "ThuStop": "2008-11-30T12:01:33.6832402+01:00",
+  "FriStart": "2021-09-28T12:01:33.6832402+02:00",
+  "FriStop": "2024-03-28T12:01:33.6832402+01:00",
+  "SatStart": "2007-04-07T12:01:33.6832402+02:00",
+  "SatStop": "2012-07-22T12:01:33.6832402+02:00",
+  "SunStart": "2016-12-16T12:01:33.6832402+01:00",
+  "SunStop": "1997-11-24T12:01:33.6832402+01:00",
   "NonDates": [
-    "illo",
-    "dicta"
+    "quos",
+    "rerum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 877,
-      "AlertLevel": 460,
-      "AlertTimeout": 342,
-      "Action": 265,
-      "DelegateTo": 905,
-      "ScriptId": 764,
-      "EmailTo": "mikel_schuppe@mertzhills.us",
-      "SmsTo": "nihil",
-      "ReplyTemplateIdCustomer": 11,
-      "ReplyTemplateIdUser": 562,
-      "ReplyTemplateIdCatmast": 515,
-      "ReplyTemplateIdEmail": 707,
-      "RtiCustomerSms": 358,
-      "ReplyTemplateIdUserSms": 580,
-      "ReplyTemplateIdCatmastSms": 549,
-      "ReplyTemplateIdSms": 385,
+      "TicketAlertId": 102,
+      "AlertLevel": 482,
+      "AlertTimeout": 18,
+      "Action": 235,
+      "DelegateTo": 7,
+      "ScriptId": 611,
+      "EmailTo": "lavina_schowalter@smith.uk",
+      "SmsTo": "rerum",
+      "ReplyTemplateIdCustomer": 67,
+      "ReplyTemplateIdUser": 216,
+      "ReplyTemplateIdCatmast": 555,
+      "ReplyTemplateIdEmail": 526,
+      "RtiCustomerSms": 792,
+      "ReplyTemplateIdUserSms": 195,
+      "ReplyTemplateIdCatmastSms": 292,
+      "ReplyTemplateIdSms": 42,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 953
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 234
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=aut
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=tenetur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Bailey, Mitchell and Sawayn",
-    "ToolTip": "Quia sit vitae rerum tempore rerum non.",
+    "Id": 985,
+    "Name": "Macejkovic Group",
+    "ToolTip": "Nemo autem quibusdam quia iusto rerum necessitatibus sit.",
     "Deleted": false,
-    "Rank": 230,
-    "Type": "laborum",
+    "Rank": 454,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Zieme, Anderson and Marvin",
-        "ToolTip": "Eaque quaerat aliquam cupiditate.",
-        "Deleted": false,
-        "Rank": 422,
-        "Type": "ad",
+        "Id": 882,
+        "Name": "Ritchie LLC",
+        "ToolTip": "Et recusandae consequatur repellat laudantium.",
+        "Deleted": true,
+        "Rank": 521,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 381,
-        "ExtraInfo": "minus",
-        "StyleHint": "nostrum",
-        "FullName": "Prof. Fannie Jerrold Treutel",
+        "IconHint": "exercitationem",
+        "ColorBlock": 322,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "nihil",
+        "FullName": "Telly Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldType": "System.String",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 942,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "inventore",
-    "FullName": "Clay Murazik",
+    "IconHint": "voluptatem",
+    "ColorBlock": 346,
+    "ExtraInfo": "at",
+    "StyleHint": "porro",
+    "FullName": "Clinton Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 868
       }
     }
   }

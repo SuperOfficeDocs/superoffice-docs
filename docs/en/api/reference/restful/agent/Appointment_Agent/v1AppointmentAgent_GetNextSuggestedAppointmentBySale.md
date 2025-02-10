@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 782,
-  "CurrentAppointmentId": 764,
-  "SkipCompleteCheck": true
+  "SaleId": 497,
+  "CurrentAppointmentId": 814,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 617,
-  "Deleted": 544,
-  "DaysFuture": 331,
-  "Tooltip": "itaque",
-  "Text": "accusamus",
-  "TaskId": 106,
-  "SuggestedAppointmentId": 163,
-  "SaleTypeStageLinkId": 428,
-  "RegisteredAssociateId": 753,
-  "Rank": 958,
-  "ProjectTypeStatusLinkId": 190,
-  "Name": "Hagenes, Gusikowski and Huel",
-  "Duration": 756,
+  "AutoSuggest": 174,
+  "Deleted": 177,
+  "DaysFuture": 686,
+  "Tooltip": "odio",
+  "Text": "maxime",
+  "TaskId": 820,
+  "SuggestedAppointmentId": 914,
+  "SaleTypeStageLinkId": 569,
+  "RegisteredAssociateId": 651,
+  "Rank": 623,
+  "ProjectTypeStatusLinkId": 856,
+  "Name": "Mosciski, Parisian and Runolfsdottir",
+  "Duration": 537,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

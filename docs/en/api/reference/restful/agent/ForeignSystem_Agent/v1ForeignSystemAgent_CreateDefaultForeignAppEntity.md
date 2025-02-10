@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 894,
-  "Name": "Kohler, Wolff and Swift",
-  "CreatedDate": "2017-10-13T13:13:23.1488958+02:00",
-  "UpdatedDate": "2014-01-04T13:13:23.1488958+01:00",
+  "ForeignAppId": 374,
+  "Name": "Runte LLC",
+  "CreatedDate": "2024-06-26T12:01:27.9002891+02:00",
+  "UpdatedDate": "2005-12-19T12:01:27.9002891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 821,
-      "Name": "Harvey-Huels",
-      "CreatedDate": "2000-11-01T13:13:23.1488958+01:00",
-      "UpdatedDate": "1998-03-21T13:13:23.1488958+01:00",
-      "AssociateFullName": "Miss Jacynthe Raynor",
-      "CreatedBy": "et",
-      "UpdatedBy": "exercitationem",
-      "DeviceIdentifier": "distinctio",
-      "ForeignAppId": 78,
+      "ForeignDeviceId": 25,
+      "Name": "Hagenes-Mueller",
+      "CreatedDate": "2005-12-02T12:01:27.9002891+01:00",
+      "UpdatedDate": "2000-02-07T12:01:27.9002891+01:00",
+      "AssociateFullName": "Anabelle Sawayn",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "sapiente",
+      "ForeignAppId": 704,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 47
+          "FieldType": "System.Int32",
+          "FieldLength": 538
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 913
     }
   }
 }

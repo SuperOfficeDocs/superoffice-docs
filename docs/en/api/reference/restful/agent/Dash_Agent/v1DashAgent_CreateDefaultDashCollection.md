@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,104 +71,67 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 17,
-      "UniqueId": "quis",
-      "Name": "Auer-Rippin",
-      "Description": "Centralized responsive customer loyalty",
-      "AssociateId": 108,
-      "Columns": 460,
+      "DashboardId": 468,
+      "UniqueId": "est",
+      "Name": "Mills Group",
+      "Description": "Innovative eco-centric synergy",
+      "AssociateId": 868,
+      "Columns": 598,
       "Theme": null,
-      "VisibleForAll": 448,
+      "VisibleForAll": 904,
       "VisibleForAssociates": [
-        35,
-        861
+        339,
+        493
       ],
       "VisibleForGroups": [
-        919,
-        13
+        588,
+        638
       ],
-      "PinForAll": 107,
+      "PinForAll": 788,
       "PinForAssociates": [
-        558,
-        875
+        573,
+        932
       ],
       "PinForGroups": [
-        358,
-        972
+        267,
+        217
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 939
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 916,
-      "UniqueId": "laboriosam",
-      "Name": "Kautzer-Kris",
-      "Description": "Reverse-engineered secondary definition",
-      "AssociateId": 987,
-      "Columns": 733,
+      "DashboardId": 314,
+      "UniqueId": "praesentium",
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Ameliorated optimal algorithm",
+      "AssociateId": 670,
+      "Columns": 687,
       "Theme": null,
-      "VisibleForAll": 210,
+      "VisibleForAll": 109,
       "VisibleForAssociates": [
-        702,
-        346
+        226,
+        373
       ],
       "VisibleForGroups": [
-        768,
-        749
+        225,
+        534
       ],
-      "PinForAll": 221,
+      "PinForAll": 284,
       "PinForAssociates": [
-        957,
-        724
+        4,
+        264
       ],
       "PinForGroups": [
-        847,
-        963
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 519,
-      "UniqueId": "doloremque",
-      "Name": "Morissette, Torphy and Pagac",
-      "Description": "Sharable even-keeled application",
-      "AssociateId": 650,
-      "Columns": 578,
-      "Theme": null,
-      "VisibleForAll": 213,
-      "VisibleForAssociates": [
-        737,
-        392
-      ],
-      "VisibleForGroups": [
-        389,
-        591
-      ],
-      "PinForAll": 548,
-      "PinForAssociates": [
-        969,
-        191
-      ],
-      "PinForGroups": [
-        254,
-        115
+        781,
+        268
       ],
       "TableRight": null,
       "FieldProperties": {
@@ -180,12 +143,49 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
+  "Other": [
+    {
+      "DashboardId": 342,
+      "UniqueId": "autem",
+      "Name": "Heaney-Schinner",
+      "Description": "De-engineered next generation installation",
+      "AssociateId": 495,
+      "Columns": 792,
+      "Theme": null,
+      "VisibleForAll": 923,
+      "VisibleForAssociates": [
+        645,
+        396
+      ],
+      "VisibleForGroups": [
+        839,
+        493
+      ],
+      "PinForAll": 826,
+      "PinForAssociates": [
+        667,
+        810
+      ],
+      "PinForGroups": [
+        485,
+        135
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 166
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldLength": 285
     }
   }
 }

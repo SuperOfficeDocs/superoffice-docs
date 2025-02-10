@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 699,
-    "Name": "Gulgowski-Swift",
-    "Tooltip": "et",
-    "Rank": 497,
-    "Rate": 19860.158,
-    "Units": 20775.286,
-    "Deleted": true,
+    "CurrencyId": 800,
+    "Name": "Greenfelder-Price",
+    "Tooltip": "perspiciatis",
+    "Rank": 140,
+    "Rate": 8599.696,
+    "Units": 21223.448,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 664
       }
     }
   }

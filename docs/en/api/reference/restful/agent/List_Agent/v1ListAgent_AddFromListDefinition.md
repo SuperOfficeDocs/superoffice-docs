@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 731,
+  "UdListDefinitionId": 312,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Upton-Schuster",
-  "Tooltip": "rerum",
+  "Id": 19,
+  "Name": "Keebler-Rowe",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 792,
-  "Rank": 749,
+  "UdListDefinitionId": 219,
+  "Rank": 327,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   }
 }

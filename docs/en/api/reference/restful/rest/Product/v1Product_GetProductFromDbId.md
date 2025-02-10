@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 253,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "natus",
-  "Name": "Heller, Reinger and Carroll",
-  "Description": "Diverse transitional function",
-  "Code": "nam",
-  "PriceUnit": "sed",
-  "QuantityUnit": "facere",
-  "IsSubscription": false,
-  "SubscriptionUnit": "porro",
-  "DefaultSubscriptionQuantity": 23912.42,
-  "ItemNumber": "1005861",
+  "ProductId": 696,
+  "ERPProductKey": "nam",
+  "ERPPriceListKey": "eum",
+  "Name": "Rolfson Group",
+  "Description": "Reduced motivating forecast",
+  "Code": "rerum",
+  "PriceUnit": "provident",
+  "QuantityUnit": "sed",
+  "IsSubscription": true,
+  "SubscriptionUnit": "placeat",
+  "DefaultSubscriptionQuantity": 23169.662,
+  "ItemNumber": "404614",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "similique",
-  "ProductTypeKey": "iure",
-  "VAT": 17164.917999999998,
-  "VATInfo": "laborum",
-  "UnitCost": 28127.649999999998,
-  "UnitMinimumPrice": 26889.719999999998,
-  "UnitListPrice": 1717.432,
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "eveniet",
+  "VAT": 13632.9,
+  "VATInfo": "dolor",
+  "UnitCost": 26504.237999999998,
+  "UnitMinimumPrice": 13485.601999999999,
+  "UnitListPrice": 18894.886,
   "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "aut",
-  "Rights": "laboriosam",
-  "Rule": "et",
+  "Supplier": "unde",
+  "SupplierCode": "corporis",
+  "Rights": "omnis",
+  "Rule": "cum",
   "ExtraInfo": [
     {
-      "Name": "Wyman-Hansen",
-      "Value": "et",
+      "Name": "Rice-Macejkovic",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldLength": 60
         }
       }
     },
     {
-      "Name": "Wyman-Hansen",
-      "Value": "et",
+      "Name": "Rice-Macejkovic",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldLength": 60
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "corporis",
-  "ExtraField2": "pariatur",
-  "ExtraField3": "eos",
-  "ExtraField4": "quod",
-  "ExtraField5": "sit",
-  "InStock": 14585.636,
+  "RawExtraInfo": "delectus",
+  "ExtraField1": "modi",
+  "ExtraField2": "quisquam",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "amet",
+  "ExtraField5": "est",
+  "InStock": 27406.829999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 96
     }
   }
 }

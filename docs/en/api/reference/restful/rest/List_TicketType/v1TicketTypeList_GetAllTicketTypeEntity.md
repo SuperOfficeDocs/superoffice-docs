@@ -86,40 +86,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 192,
-    "Name": "Brakus-Schultz",
-    "Rank": 173,
-    "Tooltip": "et",
-    "Icon": "quo",
-    "DefaultTicketStatus": 260,
+    "TicketTypeId": 929,
+    "Name": "Yost-Marquardt",
+    "Rank": 254,
+    "Tooltip": "nostrum",
+    "Icon": "porro",
+    "DefaultTicketStatus": 995,
     "TicketStatuses": [
-      761,
-      756
+      54,
+      281
     ],
-    "DefaultTicketPriority": 193,
+    "DefaultTicketPriority": 409,
     "TicketPriorities": [
-      79,
-      842
+      108,
+      593
     ],
-    "ReplyTemplate": 832,
+    "ReplyTemplate": 343,
     "IsExternalVisible": false,
     "IsDefault": false,
-    "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      919,
-      738
+      639,
+      962
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 392
       }
     }
   }

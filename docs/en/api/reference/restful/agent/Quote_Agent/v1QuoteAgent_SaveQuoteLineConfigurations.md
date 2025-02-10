@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 371,
-      "FieldName": "Trantow Inc and Sons",
+      "QuoteLineConfigurationId": 982,
+      "FieldName": "Wiza, Bayer and Jenkins",
       "Label": "et",
-      "Tooltip": "enim",
+      "Tooltip": "quasi",
       "Editable": true,
       "InUse": true,
       "Mandatory": true,
-      "Rank": 179,
-      "RestrictEdit": true
+      "Rank": 427,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 744,
-    "FieldName": "Kuvalis, Hills and Dickens",
-    "Label": "quo",
-    "Tooltip": "at",
+    "QuoteLineConfigurationId": 129,
+    "FieldName": "Fisher Group",
+    "Label": "aut",
+    "Tooltip": "voluptatibus",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 577,
-    "RestrictEdit": true,
+    "Mandatory": false,
+    "Rank": 587,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

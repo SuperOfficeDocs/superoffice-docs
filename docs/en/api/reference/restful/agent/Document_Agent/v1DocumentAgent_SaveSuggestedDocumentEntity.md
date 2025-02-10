@@ -83,17 +83,17 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 113,
-  "Name": "Cassin-Koch",
-  "Tooltip": "vitae",
-  "Rank": 728,
-  "DoctmplId": 314,
-  "Header": "beatae",
-  "OurRef": "maxime",
+  "SuggestedDocumentId": 638,
+  "Name": "Boyle, Hintz and Padberg",
+  "Tooltip": "nemo",
+  "Rank": 272,
+  "DoctmplId": 811,
+  "Header": "et",
+  "OurRef": "optio",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 584,
-  "Name": "Lehner Group",
-  "Tooltip": "dolorem",
-  "Rank": 268,
-  "DoctmplId": 737,
-  "Header": "eum",
-  "OurRef": "porro",
-  "Deleted": true,
+  "SuggestedDocumentId": 1002,
+  "Name": "Daugherty Inc and Sons",
+  "Tooltip": "architecto",
+  "Rank": 848,
+  "DoctmplId": 929,
+  "Header": "sequi",
+  "OurRef": "officiis",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

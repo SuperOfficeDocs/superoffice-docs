@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 495,
+  "TicketId": 357,
   "MessageActionType": "Forward",
-  "TicketMessageId": 940,
-  "TicketTypeId": 148,
+  "TicketMessageId": 529,
+  "TicketTypeId": 750,
   "ExcludeSignature": false
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "aut",
+  "Body": "omnis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 273,
-      "Name": "Jones Group",
-      "ContentType": "quia",
-      "AttSize": 734,
-      "InlineImage": false,
-      "ContentId": "quisquam",
-      "AuthKey": "alias",
+      "AttachmentId": 58,
+      "Name": "Larson-Nikolaus",
+      "ContentType": "nostrum",
+      "AttSize": 994,
+      "InlineImage": true,
+      "ContentId": "modi",
+      "AuthKey": "accusantium",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }

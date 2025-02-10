@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmitt LLC",
-  "AdditionalInfo": "fugit",
+  "Name": "Hermiston Group",
+  "AdditionalInfo": "accusantium",
   "SelectableMDOList": [
     {
-      "Id": 386,
-      "Name": "Marvin, Sawayn and Kovacek",
-      "ToolTip": "Voluptas voluptatem iste autem et assumenda optio.",
-      "Deleted": false,
-      "Rank": 468,
-      "Type": "odit",
-      "ColorBlock": 566,
+      "Id": 637,
+      "Name": "Adams LLC",
+      "ToolTip": "Veritatis sit dicta culpa dicta sed veniam deleniti.",
+      "Deleted": true,
+      "Rank": 30,
+      "Type": "temporibus",
+      "ColorBlock": 380,
       "IconHint": "quasi",
       "Selected": true,
-      "LastChanged": "2016-04-13T13:13:23.3832815+02:00",
+      "LastChanged": "2009-11-27T12:01:28.0096725+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "quod",
-      "Hidden": true,
-      "FullName": "Mr. Jodie Metz"
+      "ExtraInfo": "sequi",
+      "StyleHint": "iusto",
+      "Hidden": false,
+      "FullName": "Russel Beer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Dietrich-Okuneva",
-    "ToolTip": "Dolore aliquam et totam perferendis.",
-    "Deleted": false,
-    "Rank": 306,
-    "Type": "velit",
-    "ColorBlock": 328,
-    "IconHint": "sed",
+    "Id": 626,
+    "Name": "Goldner-Quitzon",
+    "ToolTip": "Magnam quae omnis et libero.",
+    "Deleted": true,
+    "Rank": 393,
+    "Type": "enim",
+    "ColorBlock": 193,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2012-06-21T13:13:23.3832815+02:00",
+    "LastChanged": "1998-08-07T12:01:28.0096725+02:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Kub Group",
-        "ToolTip": "Est aperiam reprehenderit cumque odio.",
+        "Id": 194,
+        "Name": "Barrows, Thiel and Kirlin",
+        "ToolTip": "Ad qui eligendi qui quod porro.",
         "Deleted": true,
-        "Rank": 659,
-        "Type": "eaque",
-        "ColorBlock": 372,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2003-11-06T13:13:23.3832815+01:00",
+        "Rank": 423,
+        "Type": "ullam",
+        "ColorBlock": 246,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2018-05-11T12:01:28.0096725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "iusto",
+        "ExtraInfo": "modi",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Lolita Turcotte",
+        "FullName": "Dudley Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldLength": 342
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Prof. Lilly Kiehn",
+    "FullName": "Guillermo Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

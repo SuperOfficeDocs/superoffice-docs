@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 864
+  "MailItemId": 578
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 872,
-  "StartDate": "2016-11-13T13:13:22.9927476+01:00",
-  "EndDate": "2008-11-12T13:13:22.9927476+01:00",
-  "RecurrenceCounter": 12,
+  "RecurrenceId": 503,
+  "StartDate": "2017-01-17T12:01:27.8065326+01:00",
+  "EndDate": "2000-02-25T12:01:27.8065326+01:00",
+  "RecurrenceCounter": 554,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-09-10T13:13:22.9927476+02:00",
-      "IsConflict": false,
-      "Description": "Enterprise-wide 24 hour pricing structure",
-      "DescriptionStyleHint": "Face to face 5th generation policy",
-      "Tooltip": "qui"
+      "Date": "2014-10-08T12:01:27.8065326+02:00",
+      "IsConflict": true,
+      "Description": "Open-source encompassing data-warehouse",
+      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
+      "Tooltip": "facere"
     },
     {
-      "Date": "2016-09-10T13:13:22.9927476+02:00",
-      "IsConflict": false,
-      "Description": "Enterprise-wide 24 hour pricing structure",
-      "DescriptionStyleHint": "Face to face 5th generation policy",
-      "Tooltip": "qui"
+      "Date": "2014-10-08T12:01:27.8065326+02:00",
+      "IsConflict": true,
+      "Description": "Open-source encompassing data-warehouse",
+      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
+      "Tooltip": "facere"
     }
   ],
   "IsRecurrence": false

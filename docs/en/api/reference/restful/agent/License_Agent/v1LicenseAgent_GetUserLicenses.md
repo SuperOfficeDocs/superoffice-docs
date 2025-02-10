@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 578
+  "AssociateId": 505
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bahringer LLC",
-    "Description": "Ameliorated methodical implementation",
+    "Name": "Lang-Mitchell",
+    "Description": "Implemented optimizing hierarchy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "ipsam",
+        "Unrestricted": false,
+        "Total": 823,
+        "Tooltip": "atque",
         "CanAssign": false,
-        "Free": 229,
-        "InUse": 417,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 57,
-        "Name": "Mills-Bruen",
-        "Description": "Mandatory 5th generation contingency",
-        "PrerequisiteModuleName": "Roob LLC",
-        "SortOrder": 508,
-        "ExtraFlags": 45,
+        "Free": 327,
+        "InUse": 425,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 690,
+        "Name": "Dickens, Prosacco and Larkin",
+        "Description": "Total methodical product",
+        "PrerequisiteModuleName": "Grant, Johnson and Smith",
+        "SortOrder": 844,
+        "ExtraFlags": 415,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldLength": 207
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 594,
-        "Tooltip": "vel",
-        "CanAssign": false,
-        "Free": 535,
-        "InUse": 101,
+        "Total": 867,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 181,
+        "InUse": 388,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 298,
-        "Name": "Kassulke Inc and Sons",
-        "Description": "Multi-tiered value-added attitude",
-        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
-        "SortOrder": 938,
-        "ExtraFlags": 645,
+        "Assigned": false,
+        "ModuleLicenseId": 665,
+        "Name": "Torp LLC",
+        "Description": "Balanced logistical framework",
+        "PrerequisiteModuleName": "Prohaska Group",
+        "SortOrder": 800,
+        "ExtraFlags": 655,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 13
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   },
   {
-    "Name": "Bahringer LLC",
-    "Description": "Ameliorated methodical implementation",
+    "Name": "Lang-Mitchell",
+    "Description": "Implemented optimizing hierarchy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "ipsam",
+        "Unrestricted": false,
+        "Total": 823,
+        "Tooltip": "atque",
         "CanAssign": false,
-        "Free": 229,
-        "InUse": 417,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 57,
-        "Name": "Mills-Bruen",
-        "Description": "Mandatory 5th generation contingency",
-        "PrerequisiteModuleName": "Roob LLC",
-        "SortOrder": 508,
-        "ExtraFlags": 45,
+        "Free": 327,
+        "InUse": 425,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 690,
+        "Name": "Dickens, Prosacco and Larkin",
+        "Description": "Total methodical product",
+        "PrerequisiteModuleName": "Grant, Johnson and Smith",
+        "SortOrder": 844,
+        "ExtraFlags": 415,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldLength": 207
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 594,
-        "Tooltip": "vel",
-        "CanAssign": false,
-        "Free": 535,
-        "InUse": 101,
+        "Total": 867,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 181,
+        "InUse": 388,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 298,
-        "Name": "Kassulke Inc and Sons",
-        "Description": "Multi-tiered value-added attitude",
-        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
-        "SortOrder": 938,
-        "ExtraFlags": 645,
+        "Assigned": false,
+        "ModuleLicenseId": 665,
+        "Name": "Torp LLC",
+        "Description": "Balanced logistical framework",
+        "PrerequisiteModuleName": "Prohaska Group",
+        "SortOrder": 800,
+        "ExtraFlags": 655,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 13
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

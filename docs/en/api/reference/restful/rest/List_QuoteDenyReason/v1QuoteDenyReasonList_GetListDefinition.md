@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Barton, Doyle and Lebsack",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 777,
+  "Id": 665,
+  "Name": "Bernhard Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 739,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   },
   "_Links": {

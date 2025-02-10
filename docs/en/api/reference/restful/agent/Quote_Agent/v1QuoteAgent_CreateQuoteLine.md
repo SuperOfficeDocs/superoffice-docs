@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 923,
-  "ERPProductKey": "nihil"
+  "QuoteAlternativeId": 550,
+  "ERPProductKey": "quia"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 758,
-  "ERPQuoteLineKey": "dolor",
-  "QuoteAlternativeId": 152,
-  "ERPProductKey": "molestias",
+  "QuoteLineId": 654,
+  "ERPQuoteLineKey": "consequatur",
+  "QuoteAlternativeId": 358,
+  "ERPProductKey": "inventore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28713.708,
-  "DeliveredQuantity": 23530.072,
-  "Rank": 210,
-  "Name": "Lehner Inc and Sons",
-  "Description": "De-engineered bottom-line circuit",
-  "Code": "aut",
-  "QuantityUnit": "quisquam",
-  "PriceUnit": "deserunt",
-  "ItemNumber": "435151",
+  "Quantity": 12767.916,
+  "DeliveredQuantity": 13469.931999999999,
+  "Rank": 491,
+  "Name": "Schowalter, Keeling and Hauck",
+  "Description": "Adaptive 24 hour definition",
+  "Code": "ullam",
+  "QuantityUnit": "magnam",
+  "PriceUnit": "neque",
+  "ItemNumber": "1153938",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eligendi",
-  "ProductTypeKey": "fugit",
-  "Supplier": "aperiam",
-  "SupplierCode": "hic",
-  "Thumbnail": "aut",
-  "VATInfo": "sunt",
-  "VAT": 6640.946,
-  "UnitCost": 28961.293999999998,
-  "UnitMinimumPrice": 12451.382,
-  "UnitListPrice": 19712.86,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "qui",
+  "Supplier": "eos",
+  "SupplierCode": "dicta",
+  "Thumbnail": "deleniti",
+  "VATInfo": "assumenda",
+  "VAT": 28685.502,
+  "UnitCost": 2529.138,
+  "UnitMinimumPrice": 103.422,
+  "UnitListPrice": 28738.78,
   "ExtraInfo": [
     {
-      "Name": "Hegmann-Streich",
-      "Value": "doloribus",
+      "Name": "Grant-Huel",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 228
         }
       }
     },
     {
-      "Name": "Hegmann-Streich",
-      "Value": "doloribus",
+      "Name": "Grant-Huel",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 228
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "IsSubscription": false,
-  "SubscriptionUnit": "laudantium",
-  "SubscriptionQuantity": 5070.812,
-  "SubscriptionStart": "1998-02-21T13:13:23.7581921+01:00",
-  "ERPDiscountPercent": 24501.612,
-  "ERPDiscountAmount": 783.5,
-  "DiscountPercent": 11558.192,
-  "DiscountAmount": 14432.07,
+  "RawExtraInfo": "qui",
+  "IsSubscription": true,
+  "SubscriptionUnit": "nihil",
+  "SubscriptionQuantity": 7449.518,
+  "SubscriptionStart": "2011-12-17T12:01:28.2128113+01:00",
+  "ERPDiscountPercent": 13353.974,
+  "ERPDiscountAmount": 4641.454,
+  "DiscountPercent": 23244.878,
+  "DiscountAmount": 14889.634,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 26924.194,
-  "EarningAmount": 16440.964,
-  "SubTotal": 2798.662,
-  "TotalPrice": 24924.701999999997,
-  "Rights": "qui",
-  "Rule": "quia",
-  "ExtraField1": "ex",
-  "ExtraField2": "perferendis",
-  "ExtraField3": "accusamus",
-  "ExtraField4": "doloribus",
-  "ExtraField5": "perspiciatis",
+  "EarningPercent": 21875.32,
+  "EarningAmount": 24761.734,
+  "SubTotal": 1802.05,
+  "TotalPrice": 3137.134,
+  "Rights": "officiis",
+  "Rule": "consectetur",
+  "ExtraField1": "est",
+  "ExtraField2": "illum",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "impedit",
+  "ExtraField5": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   }
 }

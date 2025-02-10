@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beatty-Cummings"
+  "Name": "Frami, Lemke and Yost"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Value": "officia",
-    "Tooltip": "omnis",
+    "Id": 419,
+    "Value": "reiciendis",
+    "Tooltip": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   },
   {
-    "Id": 568,
-    "Value": "officia",
-    "Tooltip": "omnis",
+    "Id": 419,
+    "Value": "reiciendis",
+    "Tooltip": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 173,
-  "Name": "Lind Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 21,
-  "Rank": 538,
+  "Name": "McGlynn-Smitham",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "UdListDefinitionId": 168,
+  "Rank": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 931
     }
   }
 }

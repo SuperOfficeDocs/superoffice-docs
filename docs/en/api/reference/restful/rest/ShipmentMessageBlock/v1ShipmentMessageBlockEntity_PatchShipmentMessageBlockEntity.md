@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "praesentium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "praesentium",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 269,
-  "AssociateId": 289,
-  "Block": "eos",
-  "Registered": "2013-11-28T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 102,
-  "Updated": "2001-05-27T13:13:32.3392746+02:00",
-  "UpdatedAssociateId": 509,
-  "UpdatedCount": 204,
+  "ShipmentMessageBlockId": 907,
+  "AssociateId": 805,
+  "Block": "beatae",
+  "Registered": "2024-02-13T12:01:33.2144574+01:00",
+  "RegisteredAssociateId": 278,
+  "Updated": "2008-03-07T12:01:33.2144574+01:00",
+  "UpdatedAssociateId": 579,
+  "UpdatedCount": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   },
   "_Links": {

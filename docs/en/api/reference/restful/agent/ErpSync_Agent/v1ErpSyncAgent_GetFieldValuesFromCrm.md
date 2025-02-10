@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 576,
+  "RecordId": 918,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Labadie, Watsica and Gleason",
-    "CrmFieldKey": "impedit",
-    "Value": "minus",
-    "DisplayValue": "voluptate",
+    "DisplayName": "Larkin LLC",
+    "CrmFieldKey": "quod",
+    "Value": "facilis",
+    "DisplayValue": "ipsam",
     "SyncToCrm": true,
-    "SyncToErp": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 731
       }
     }
   }

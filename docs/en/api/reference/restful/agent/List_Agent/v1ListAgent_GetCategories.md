@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Value": "accusantium",
-    "Tooltip": "sapiente",
+    "Id": 725,
+    "Value": "eum",
+    "Tooltip": "repellendus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 507
+        "FieldLength": 898
       }
     }
   },
   {
-    "Id": 147,
-    "Value": "accusantium",
-    "Tooltip": "sapiente",
+    "Id": 725,
+    "Value": "eum",
+    "Tooltip": "repellendus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 507
+        "FieldLength": 898
       }
     }
   }

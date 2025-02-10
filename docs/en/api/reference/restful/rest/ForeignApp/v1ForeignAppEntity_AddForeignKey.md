@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quo",
-  "Value": "culpa",
-  "RecordId": 910,
-  "CreatedDate": "2007-02-06T13:13:31.7613495+01:00",
-  "UpdatedDate": "2014-03-15T13:13:31.7613495+01:00",
-  "UpdatedBy": "distinctio",
-  "CreatedBy": "tempora",
-  "TableName": "Cremin LLC"
+  "Key": "blanditiis",
+  "Value": "tempora",
+  "RecordId": 576,
+  "CreatedDate": "2003-12-09T12:01:32.9175621+01:00",
+  "UpdatedDate": "2004-01-10T12:01:32.9175621+01:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "consequuntur",
+  "TableName": "Rutherford, Ziemann and Cormier"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "molestias",
-  "RecordId": 804,
-  "CreatedDate": "2001-05-14T13:13:31.7613495+02:00",
-  "UpdatedDate": "2016-09-04T13:13:31.7613495+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "facere",
-  "TableName": "White, Stamm and Stoltenberg",
+  "Key": "et",
+  "Value": "quasi",
+  "RecordId": 822,
+  "CreatedDate": "2020-09-23T12:01:32.9175621+02:00",
+  "UpdatedDate": "2003-05-04T12:01:32.9175621+02:00",
+  "UpdatedBy": "nobis",
+  "CreatedBy": "architecto",
+  "TableName": "Crooks LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

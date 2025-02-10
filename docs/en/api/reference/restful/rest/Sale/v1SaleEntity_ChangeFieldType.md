@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 123,
-  "ColumnId": 425,
-  "FieldDefault": "quae",
-  "FieldHeight": 336,
-  "FieldLabel": "asperiores",
-  "FieldLeft": 108,
-  "FieldTop": 779,
+  "UDefFieldId": 649,
+  "ColumnId": 820,
+  "FieldDefault": "eveniet",
+  "FieldHeight": 83,
+  "FieldLabel": "accusantium",
+  "FieldLeft": 187,
+  "FieldTop": 649,
   "FieldType": "Checkbox",
-  "FieldWidth": 667,
-  "FormatMask": "esse",
+  "FieldWidth": 704,
+  "FormatMask": "quo",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 332,
-  "LabelLeft": 415,
-  "LabelTop": 998,
-  "LabelWidth": 325,
-  "LastVersionId": 170,
-  "ListTableId": 867,
+  "IsIndexed": true,
+  "LabelHeight": 858,
+  "LabelLeft": 856,
+  "LabelTop": 461,
+  "LabelWidth": 726,
+  "LastVersionId": 571,
+  "ListTableId": 89,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 123,
-  "ProgId": "accusantium",
+  "Page1LineNo": 440,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "ex",
-  "TabOrder": 310,
-  "TextLength": 905,
-  "Tooltip": "aut",
-  "UdefIdentity": 80,
-  "UDListDefinitionId": 650,
+  "ShortLabel": "esse",
+  "TabOrder": 364,
+  "TextLength": 269,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 520,
+  "UDListDefinitionId": 326,
   "Justification": "Center",
-  "Version": 991,
-  "TemplateVariableName": "Gulgowski, Simonis and Swaniawski",
+  "Version": 837,
+  "TemplateVariableName": "Bednar-Leuschke",
   "HasBeenPublished": false,
-  "MdoListName": "Homenick, Pouros and Kuphal",
+  "MdoListName": "Larkin-Williamson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

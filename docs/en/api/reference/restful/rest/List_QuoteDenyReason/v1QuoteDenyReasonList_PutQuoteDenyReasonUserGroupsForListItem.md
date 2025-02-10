@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Adams Group",
-    "ToolTip": "Vel delectus.",
+    "Id": 438,
+    "Name": "Adams, Haley and Boehm",
+    "ToolTip": "Est dolorem quia eius maxime veniam consequatur omnis.",
     "Deleted": false,
-    "Rank": 993,
-    "Type": "minus",
-    "ColorBlock": 959,
-    "IconHint": "rem",
-    "Selected": true,
-    "LastChanged": "2000-11-20T13:13:33.4485481+01:00",
+    "Rank": 357,
+    "Type": "beatae",
+    "ColorBlock": 43,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2001-05-24T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Lemke, Senger and Steuber",
-        "ToolTip": "Qui delectus velit et.",
-        "Deleted": false,
-        "Rank": 849,
-        "Type": "inventore",
-        "ColorBlock": 627,
-        "IconHint": "est",
+        "Id": 107,
+        "Name": "Hammes Group",
+        "ToolTip": "Unde soluta.",
+        "Deleted": true,
+        "Rank": 400,
+        "Type": "voluptas",
+        "ColorBlock": 14,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "1999-05-16T13:13:33.4485481+02:00",
+        "LastChanged": "2018-12-30T12:01:33.6207356+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "natus",
-        "Hidden": false,
-        "FullName": "Mr. Willow Runolfsson"
+        "ExtraInfo": "quisquam",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Alexandro Von"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Ms. Pete Thora Kemmer I"
+    "ExtraInfo": "quia",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Ms. Rory August Sporer DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Schaden, Cole and Conn",
-    "ToolTip": "Hic quos nostrum expedita voluptatem ea sequi.",
+    "Id": 390,
+    "Name": "Casper-Murphy",
+    "ToolTip": "Qui autem est fugiat earum nemo ipsum.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "qui",
-    "ColorBlock": 820,
-    "IconHint": "cum",
+    "Rank": 820,
+    "Type": "corporis",
+    "ColorBlock": 489,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2007-04-29T13:13:33.4485481+02:00",
+    "LastChanged": "2015-04-01T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Langosh Group",
-        "ToolTip": "Quia rem ut nesciunt et et ullam.",
+        "Id": 197,
+        "Name": "Little, Torp and Morissette",
+        "ToolTip": "Sint corrupti omnis nesciunt hic ea voluptatibus distinctio.",
         "Deleted": true,
-        "Rank": 534,
-        "Type": "eum",
-        "ColorBlock": 449,
-        "IconHint": "velit",
+        "Rank": 552,
+        "Type": "maxime",
+        "ColorBlock": 309,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2014-09-02T13:13:33.4485481+02:00",
+        "LastChanged": "1999-10-04T12:01:33.6207356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "cum",
-        "Hidden": true,
-        "FullName": "Prof. Wyman Senger PhD",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Bret Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldType": "System.String",
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "David Champlin",
+    "ExtraInfo": "vel",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Rogelio Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 214
       }
     }
   }

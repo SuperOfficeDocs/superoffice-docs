@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Johnson LLC",
-    "ToolTip": "Occaecati voluptatem et eligendi fugiat possimus.",
+    "Id": 651,
+    "Name": "Herman-Toy",
+    "ToolTip": "Deserunt voluptatibus et dolores ex exercitationem velit explicabo.",
     "Deleted": false,
-    "Rank": 774,
-    "Type": "at",
-    "ColorBlock": 979,
-    "IconHint": "nihil",
+    "Rank": 270,
+    "Type": "repellendus",
+    "ColorBlock": 485,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2004-10-29T13:13:33.0892574+02:00",
+    "LastChanged": "2003-10-06T12:01:33.511353+02:00",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "McCullough Inc and Sons",
-        "ToolTip": "Ipsa rem blanditiis dolorum possimus perferendis aut accusamus.",
+        "Id": 349,
+        "Name": "Schultz Inc and Sons",
+        "ToolTip": "Quia in porro ratione aut in numquam aut.",
         "Deleted": true,
-        "Rank": 49,
-        "Type": "vel",
-        "ColorBlock": 716,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2024-03-08T13:13:33.0892574+01:00",
+        "Rank": 175,
+        "Type": "deserunt",
+        "ColorBlock": 387,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2004-05-09T12:01:33.511353+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptates",
-        "Hidden": true,
-        "FullName": "Miss Alfredo Kali Ryan Jr.",
+        "ExtraInfo": "nemo",
+        "StyleHint": "labore",
+        "Hidden": false,
+        "FullName": "Mrs. Benjamin Cloyd Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 164
+            "FieldType": "System.Int32",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Roosevelt Ferry",
+    "FullName": "Berneice Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 222
       }
     }
   }

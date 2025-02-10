@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nesciunt",
-  "ProviderName": "Larson, Considine and Carroll",
-  "StorageKey": "dolorem",
+  "StorageType": "cum",
+  "ProviderName": "Pacocha-Olson",
+  "StorageKey": "facilis",
   "DesiredColumnNames": [
-    "Botsford-Emard",
-    "Mohr Group"
+    "Stark-Hahn",
+    "Osinski, VonRueden and Auer"
   ],
   "StaticColumns": [
-    "animi",
-    "quas"
+    "odit",
+    "quia"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Strosin LLC",
-      "Operator": "dolorum",
+      "Name": "Leuschke-Oberbrunner",
+      "Operator": "eligendi",
       "Values": [
-        "eveniet",
-        "expedita"
+        "sed",
+        "iusto"
       ],
       "DisplayValues": [
-        "nihil",
-        "assumenda"
+        "facilis",
+        "odio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 539,
+      "InterParenthesis": 527,
       "InterOperator": "And",
-      "UniqueHash": 774
+      "UniqueHash": 159
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Little, Sawayn and Waters",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "non",
+      "DisplayName": "Heidenreich-Runolfsdottir",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "aliquid",
       "CanOrderBy": false,
-      "Name": "Lueilwitz, Lockman and Mohr",
+      "Name": "Romaguera, Casper and Hettinger",
       "CanRestrictBy": false,
-      "RestrictionType": "inventore",
-      "RestrictionListName": "Dibbert-Gulgowski",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Friesen, Frami and Ankunding",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "ex",
-      "IconHint": "earum",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "aliquid",
+      "Width": "enim",
+      "IconHint": "dolor",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bechtelar Group",
-      "PrimaryKey": 62,
+      "EntityName": "Mann-Friesen",
+      "PrimaryKey": 904,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "temporibus",
-          "TooltipHint": "qui",
-          "LinkHint": "esse"
+          "DisplayValue": "veritatis",
+          "TooltipHint": "quos",
+          "LinkHint": "nulla"
         }
       },
-      "LinkHint": "saepe",
-      "StyleHint": "inventore",
+      "LinkHint": "neque",
+      "StyleHint": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 518
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jast, Kuhlman and Larson",
-      "Description": "Synergistic multi-tasking database",
-      "Rank": 207,
+      "Name": "Mueller, Bernhard and Yundt",
+      "Description": "Digitized incremental secured line",
+      "Rank": 924,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jast, Kuhlman and Larson",
-      "Description": "Synergistic multi-tasking database",
-      "Rank": 207,
+      "Name": "Mueller, Bernhard and Yundt",
+      "Description": "Digitized incremental secured line",
+      "Rank": 924,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

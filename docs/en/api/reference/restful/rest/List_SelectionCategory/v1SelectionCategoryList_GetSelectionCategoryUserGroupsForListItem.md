@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Johnson-Skiles",
-    "ToolTip": "Sit enim nobis excepturi cupiditate aut.",
+    "Id": 617,
+    "Name": "Bosco LLC",
+    "ToolTip": "Fuga ea consequatur.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "ut",
-    "ColorBlock": 363,
-    "IconHint": "rem",
+    "Rank": 925,
+    "Type": "eius",
+    "ColorBlock": 497,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2002-07-30T13:13:33.5891415+02:00",
+    "LastChanged": "2011-01-07T12:01:33.6676138+01:00",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Ferry-Rodriguez",
-        "ToolTip": "Facilis dolores ipsum qui architecto dicta sapiente.",
+        "Id": 817,
+        "Name": "Marquardt, Upton and Labadie",
+        "ToolTip": "Et dolor excepturi dolore aspernatur ipsa.",
         "Deleted": false,
-        "Rank": 113,
-        "Type": "natus",
-        "ColorBlock": 289,
-        "IconHint": "omnis",
+        "Rank": 536,
+        "Type": "voluptates",
+        "ColorBlock": 386,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2021-06-26T13:13:33.5891415+02:00",
+        "LastChanged": "2024-09-12T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Mr. Antone Alek Bins",
+        "ExtraInfo": "enim",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Bartholome Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Chelsie Hintz",
+    "ExtraInfo": "est",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Mr. Aleen Madyson Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 17
       }
     }
   }

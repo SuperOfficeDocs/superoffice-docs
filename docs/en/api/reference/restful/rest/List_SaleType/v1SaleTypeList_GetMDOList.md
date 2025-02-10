@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=quia
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=dolor
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Welch, Hackett and Bartell",
-    "ToolTip": "Sapiente dolores explicabo labore blanditiis animi est.",
-    "Deleted": false,
-    "Rank": 787,
-    "Type": "minus",
+    "Id": 676,
+    "Name": "Doyle Inc and Sons",
+    "ToolTip": "Eveniet dolor eaque temporibus delectus repellendus aperiam.",
+    "Deleted": true,
+    "Rank": 575,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Frami Inc and Sons",
-        "ToolTip": "Aliquam eveniet.",
-        "Deleted": true,
-        "Rank": 362,
-        "Type": "sit",
+        "Id": 802,
+        "Name": "Bogan-Carroll",
+        "ToolTip": "Architecto quo non et quia reprehenderit.",
+        "Deleted": false,
+        "Rank": 954,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 250,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "officiis",
-        "FullName": "Michaela Ruecker DVM",
+        "IconHint": "voluptatem",
+        "ColorBlock": 414,
+        "ExtraInfo": "dolor",
+        "StyleHint": "laborum",
+        "FullName": "Charlotte Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldType": "System.String",
+            "FieldLength": 52
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 435,
-    "ExtraInfo": "sed",
-    "StyleHint": "ut",
-    "FullName": "Marjory Trantow",
+    "IconHint": "iure",
+    "ColorBlock": 218,
+    "ExtraInfo": "culpa",
+    "StyleHint": "dolorem",
+    "FullName": "Prof. Domenico Brian Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 904
       }
     }
   }

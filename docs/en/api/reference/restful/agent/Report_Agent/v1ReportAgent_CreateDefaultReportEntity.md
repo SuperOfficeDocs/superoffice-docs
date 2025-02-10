@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 971,
+  "ReportId": 456,
   "ReportCategory": "All",
-  "Description": "Realigned global moderator",
+  "Description": "Optional real-time adapter",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hyatt-Kessler",
-  "AssociateId": 761,
-  "TemplateId": 787,
-  "Published": false,
+  "Name": "Skiles, Hoppe and Gibson",
+  "AssociateId": 966,
+  "TemplateId": 291,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

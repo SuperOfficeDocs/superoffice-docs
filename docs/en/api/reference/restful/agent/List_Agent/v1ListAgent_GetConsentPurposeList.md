@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 665,
-    "Name": "Becker Group",
-    "ConsentText": "perferendis",
-    "FormText": "ipsa",
-    "Key": "enim",
-    "Tooltip": "omnis",
-    "Active": 625,
-    "UpdatedDate": "2007-04-23T13:13:23.2739325+02:00",
+    "ConsentPurposeId": 982,
+    "Name": "Steuber, Wisoky and Hoppe",
+    "ConsentText": "vel",
+    "FormText": "sit",
+    "Key": "ea",
+    "Tooltip": "velit",
+    "Active": 834,
+    "UpdatedDate": "2007-04-26T12:01:27.9627939+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 132,
-    "PrivacyStatementDesc": "debitis",
+    "Rank": 475,
+    "PrivacyStatementDesc": "qui",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 459
       }
     }
   }

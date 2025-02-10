@@ -81,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 992,
-  "ApprovedByText": "a",
-  "ApprovedByAssociateId": 888,
+  "QuoteVersionId": 931,
+  "ApprovedByText": "quae",
+  "ApprovedByAssociateId": 353,
   "ApprovalText": "dolor"
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 109,
+  "CreatedAppointmentId": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

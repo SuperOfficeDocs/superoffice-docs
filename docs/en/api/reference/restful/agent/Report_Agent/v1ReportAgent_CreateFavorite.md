@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 327,
-  "Name": "Lueilwitz, Sanford and Feest",
-  "Description": "Horizontal next generation groupware"
+  "SourceId": 724,
+  "Name": "Cremin, Bashirian and Kuvalis",
+  "Description": "Multi-channelled bottom-line monitoring"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 459,
+  "ReportId": 365,
   "ReportCategory": "All",
-  "Description": "Persevering dynamic portal",
+  "Description": "Robust coherent concept",
   "ReportLayout": "CalendarMonth",
-  "Name": "Shields-Zieme",
-  "AssociateId": 38,
-  "TemplateId": 447,
-  "Published": true,
+  "Name": "Wehner, Kub and Barrows",
+  "AssociateId": 162,
+  "TemplateId": 420,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 625
     }
   }
 }

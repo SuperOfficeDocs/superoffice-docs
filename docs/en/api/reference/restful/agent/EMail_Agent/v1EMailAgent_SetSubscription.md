@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "DuBuque LLC",
-      "Delimiter": "odit",
-      "Flags": "quia",
-      "TotalItems": 45,
-      "UnreadItems": 213,
+      "Name": "Corwin, Walter and Homenick",
+      "Delimiter": "distinctio",
+      "Flags": "id",
+      "TotalItems": 953,
+      "UnreadItems": 994,
       "Subscribed": false,
-      "EmailFolderId": 571
+      "EmailFolderId": 478
     }
   ]
 }

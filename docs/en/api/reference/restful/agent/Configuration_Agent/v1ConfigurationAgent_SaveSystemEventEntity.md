@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 818,
+  "SystemEventId": 166,
   "Scope": "Database",
-  "Eta": "2016-06-25T13:13:22.3207878+02:00",
-  "Eventkey": "dolor",
-  "Eventmess": "itaque",
-  "ExtraInfo": 728,
-  "Owner": 379,
-  "UpdatedCount": 764,
-  "Registered": "2006-09-26T13:13:22.3207878+02:00",
+  "Eta": "2005-01-21T12:01:27.4471334+01:00",
+  "Eventkey": "libero",
+  "Eventmess": "aliquid",
+  "ExtraInfo": 369,
+  "Owner": 808,
+  "UpdatedCount": 690,
+  "Registered": "2010-05-17T12:01:27.4471334+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 943,
+  "SystemEventId": 985,
   "Scope": "Database",
-  "Eta": "2004-01-19T13:13:22.3364082+01:00",
-  "Eventkey": "et",
-  "Eventmess": "autem",
-  "ExtraInfo": 528,
-  "Owner": 792,
-  "UpdatedCount": 189,
-  "Registered": "2020-12-12T13:13:22.3364082+01:00",
+  "Eta": "2001-11-01T12:01:27.4471334+01:00",
+  "Eventkey": "earum",
+  "Eventmess": "est",
+  "ExtraInfo": 612,
+  "Owner": 569,
+  "UpdatedCount": 178,
+  "Registered": "2006-08-02T12:01:27.4471334+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 187
     }
   }
 }

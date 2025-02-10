@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Gaylord, Hermiston and Effertz",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "UdListDefinitionId": 80,
-  "Rank": 90,
+  "Id": 320,
+  "Name": "Pfeffer Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 239,
+  "Rank": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 889
     }
   }
 }

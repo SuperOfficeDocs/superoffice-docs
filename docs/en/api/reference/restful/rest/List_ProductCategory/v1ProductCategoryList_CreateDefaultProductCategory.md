@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Koch Group",
-  "Tooltip": "architecto",
+  "Id": 675,
+  "Name": "Harber Group",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "UdListDefinitionId": 651,
-  "Rank": 230,
+  "UdListDefinitionId": 292,
+  "Rank": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 837,
-  "Name": "Wolf, Pagac and Walsh",
-  "Tooltip": "vero",
-  "Rank": 394,
-  "Rate": 4726.072,
-  "Units": 19390.058,
+  "CurrencyId": 715,
+  "Name": "Gerlach, Feeney and Deckow",
+  "Tooltip": "illo",
+  "Rank": 560,
+  "Rate": 4027.19,
+  "Units": 5653.736,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldLength": 21
     }
   }
 }

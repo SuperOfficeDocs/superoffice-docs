@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 666,
+    "HierarchyId": 802,
     "Domain": "Dashboards",
-    "Name": "Johnson Group",
-    "Fullname": "voluptatum",
-    "ParentId": 286,
+    "Name": "Huel LLC",
+    "Fullname": "consequatur",
+    "ParentId": 241,
     "Children": [
       {
-        "HierarchyId": 932,
+        "HierarchyId": 470,
         "Domain": "Dashboards",
-        "Name": "Mueller Group",
-        "Fullname": "dolores",
-        "ParentId": 162,
+        "Name": "Ebert LLC",
+        "Fullname": "dolorem",
+        "ParentId": 632,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2000-12-06T13:13:31.7613495+01:00",
-        "RegisteredAssociateId": 238,
-        "Updated": "2008-11-11T13:13:31.7613495+01:00",
-        "UpdatedAssociateId": 742,
+        "Registered": "2005-05-05T12:01:32.9175621+02:00",
+        "RegisteredAssociateId": 81,
+        "Updated": "2003-06-11T12:01:32.9175621+02:00",
+        "UpdatedAssociateId": 782,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 652
           }
         }
       }
     ],
-    "Registered": "1998-09-24T13:13:31.7613495+02:00",
-    "RegisteredAssociateId": 652,
-    "Updated": "2008-12-13T13:13:31.7613495+01:00",
-    "UpdatedAssociateId": 241,
+    "Registered": "1999-01-03T12:01:32.9175621+01:00",
+    "RegisteredAssociateId": 347,
+    "Updated": "1999-02-24T12:01:32.9175621+01:00",
+    "UpdatedAssociateId": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldLength": 824
       }
     }
   }

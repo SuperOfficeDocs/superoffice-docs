@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schinner, Rosenbaum and Abbott",
-    "DisplayName": "O'Connell, Kemmer and Schultz",
-    "Description": "Upgradable homogeneous infrastructure",
-    "ShortLabel": "est",
-    "HideLabel": false,
+    "FieldName": "Romaguera-Nitzsche",
+    "DisplayName": "Greenfelder Inc and Sons",
+    "Description": "Switchable needs-based Graphic Interface",
+    "ShortLabel": "enim",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 903,
-    "TemplateVariableName": "Hills Group"
+    "IsDisplayField": false,
+    "Rank": 415,
+    "TemplateVariableName": "Cronin-Connelly"
   }
 ]
 ```

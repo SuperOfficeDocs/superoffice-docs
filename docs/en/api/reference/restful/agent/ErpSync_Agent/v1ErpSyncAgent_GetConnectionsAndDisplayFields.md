@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 118
+  "EntityId": 824
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 505,
-    "ConnectionName": "Miller-Weimann",
+    "ErpConnectionId": 352,
+    "ConnectionName": "Mosciski, Smith and Schultz",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "magnam",
+        "FieldKey": "ad",
         "Rank": 163,
-        "DisplayName": "Fisher, McKenzie and Jakubowski",
-        "DisplayDescription": "Streamlined 24/7 groupware",
+        "DisplayName": "Beier LLC",
+        "DisplayDescription": "Advanced solution-oriented flexibility",
         "FieldType": "Checkbox",
-        "ListName": "Ferry-Marquardt",
-        "DefaultValue": "beatae",
-        "MaxLength": 879,
+        "ListName": "Torp Inc and Sons",
+        "DefaultValue": "cumque",
+        "MaxLength": 894,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldLength": 926
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "delectus",
-      "aliquid"
+      "nemo",
+      "maiores"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

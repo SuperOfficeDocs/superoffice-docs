@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Erdman-Satterfield",
-    "ToolTip": "Et ut sed ipsa repudiandae eos commodi.",
-    "Deleted": false,
-    "Rank": 200,
-    "Type": "corporis",
-    "ColorBlock": 251,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2018-09-20T13:13:33.6047606+02:00",
+    "Id": 109,
+    "Name": "Barton-Leffler",
+    "ToolTip": "Debitis autem.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "error",
+    "ColorBlock": 655,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2003-04-11T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Wyman Inc and Sons",
-        "ToolTip": "Nisi consequatur.",
+        "Id": 479,
+        "Name": "Miller Group",
+        "ToolTip": "Expedita quia quibusdam vero aut officiis alias.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "debitis",
-        "ColorBlock": 447,
-        "IconHint": "hic",
+        "Rank": 748,
+        "Type": "quis",
+        "ColorBlock": 778,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2016-12-20T13:13:33.6047606+01:00",
+        "LastChanged": "2001-10-02T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Mr. Eleanora Metz II"
+        "ExtraInfo": "in",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Letitia Bayer"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ad",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Mrs. Aliya Brayan Reichel DVM"
+    "FullName": "Prof. Tia Peggie O'Hara III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Rogahn-Skiles",
-    "ToolTip": "Quo accusantium dolorem tempore.",
-    "Deleted": false,
-    "Rank": 333,
-    "Type": "doloribus",
-    "ColorBlock": 930,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2015-09-27T13:13:33.6047606+02:00",
+    "Id": 315,
+    "Name": "Hilpert Inc and Sons",
+    "ToolTip": "Ea perferendis optio saepe aut est.",
+    "Deleted": true,
+    "Rank": 192,
+    "Type": "saepe",
+    "ColorBlock": 455,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2021-10-05T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Oberbrunner LLC",
-        "ToolTip": "Dolore maxime quos.",
-        "Deleted": false,
-        "Rank": 602,
-        "Type": "et",
-        "ColorBlock": 48,
-        "IconHint": "vel",
+        "Id": 176,
+        "Name": "Lowe-Kessler",
+        "ToolTip": "Qui cum minima est repudiandae totam est blanditiis.",
+        "Deleted": true,
+        "Rank": 539,
+        "Type": "velit",
+        "ColorBlock": 243,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2018-07-05T13:13:33.6047606+02:00",
+        "LastChanged": "2015-02-27T12:01:33.6676138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Betsy Weber",
+        "ExtraInfo": "delectus",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Jana Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldType": "System.String",
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Joe Friesen",
+    "ExtraInfo": "facilis",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Destany Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

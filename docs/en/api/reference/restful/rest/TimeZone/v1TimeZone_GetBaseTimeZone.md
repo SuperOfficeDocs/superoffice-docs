@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 831,
-  "Name": "Gorczany, Gutmann and Runolfsson",
-  "TZLocationCode": "omnis",
-  "TZLocationCities": "id",
-  "IsoNumber": 363,
+  "TZLocationID": 691,
+  "Name": "Farrell Inc and Sons",
+  "TZLocationCode": "modi",
+  "TZLocationCities": "non",
+  "IsoNumber": 573,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 464,
-      "StartMonth": 888,
-      "EndDay": 930,
-      "EndMonth": 45,
-      "TZOffset": 356,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "labore"
+      "StartDay": 99,
+      "StartMonth": 290,
+      "EndDay": 994,
+      "EndMonth": 656,
+      "TZOffset": 692,
+      "StartRulePattern": "enim",
+      "EndRulePattern": "nisi"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 138,
-      "StartMonth": 169,
-      "EndDay": 549,
-      "EndMonth": 848,
-      "TZOffset": 941,
-      "StartRulePattern": "itaque",
-      "EndRulePattern": "dolore"
+      "StartDay": 134,
+      "StartMonth": 763,
+      "EndDay": 712,
+      "EndMonth": 424,
+      "TZOffset": 11,
+      "StartRulePattern": "odit",
+      "EndRulePattern": "exercitationem"
     }
   }
 }

@@ -100,6 +100,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -109,7 +110,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,52 +121,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aspernatur",
-    "PersonId": 405,
-    "Mrmrs": "enim",
-    "Firstname": "Rubie",
-    "Lastname": "Bode",
-    "MiddleName": "Labadie-Bogan",
-    "Title": "ea",
-    "Description": "Reduced 4th generation leverage",
-    "Email": "louie@emmerich.ca",
-    "FullName": "Mr. Bernie Chester Hermann Sr.",
-    "DirectPhone": "476-110-3934",
-    "FormalName": "Simonis Group",
-    "CountryId": 332,
-    "ContactId": 940,
-    "ContactName": "Green LLC",
-    "Retired": 79,
-    "Rank": 392,
-    "ActiveInterests": 23,
+    "Position": "quibusdam",
+    "PersonId": 331,
+    "Mrmrs": "magnam",
+    "Firstname": "Kennedy",
+    "Lastname": "Effertz",
+    "MiddleName": "Boyle-Macejkovic",
+    "Title": "velit",
+    "Description": "Vision-oriented 24 hour leverage",
+    "Email": "katelynn.grant@hintz.uk",
+    "FullName": "Earline Ruecker",
+    "DirectPhone": "(936)174-6086",
+    "FormalName": "Kirlin LLC",
+    "CountryId": 921,
+    "ContactId": 470,
+    "ContactName": "Wisozk, Swift and Anderson",
+    "Retired": 270,
+    "Rank": 989,
+    "ActiveInterests": 563,
     "ContactDepartment": "",
-    "ContactCountryId": 559,
-    "ContactOrgNr": "233890",
-    "FaxPhone": "122.876.0618 x3135",
-    "MobilePhone": "931.504.4379 x891",
-    "ContactPhone": "1-793-879-7663",
-    "AssociateName": "Wyman LLC",
-    "AssociateId": 154,
+    "ContactCountryId": 884,
+    "ContactOrgNr": "1448102",
+    "FaxPhone": "787.104.4936 x2176",
+    "MobilePhone": "(053)337-8700 x32423",
+    "ContactPhone": "1-747-248-3723",
+    "AssociateName": "Koss LLC",
+    "AssociateId": 840,
     "UsePersonAddress": false,
-    "ContactFax": "ea",
-    "Kanafname": "explicabo",
-    "Kanalname": "aut",
-    "Post1": "et",
-    "Post2": "aut",
-    "Post3": "velit",
-    "EmailName": "bell@trantow.us",
-    "ContactFullName": "Franco Emmerich",
-    "ActiveErpLinks": 319,
-    "TicketPriorityId": 741,
-    "SupportLanguageId": 557,
-    "SupportAssociateId": 203,
+    "ContactFax": "quos",
+    "Kanafname": "ipsam",
+    "Kanalname": "sint",
+    "Post1": "voluptates",
+    "Post2": "corporis",
+    "Post3": "quia",
+    "EmailName": "henry@bartonwiza.name",
+    "ContactFullName": "Dedric Schneider",
+    "ActiveErpLinks": 207,
+    "TicketPriorityId": 142,
+    "SupportLanguageId": 871,
+    "SupportAssociateId": 540,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "858829",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldType": "System.Int32",
+        "FieldLength": 874
       }
     }
   }

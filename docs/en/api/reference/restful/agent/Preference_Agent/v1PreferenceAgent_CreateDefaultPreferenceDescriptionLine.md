@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 432,
-  "PrefDescId": 479,
-  "PrefValue": "ad",
-  "PrefShowValue": "saepe",
-  "Description": "Reverse-engineered dynamic matrices",
+  "PrefDescLineId": 288,
+  "PrefDescId": 223,
+  "PrefValue": "est",
+  "PrefShowValue": "fugit",
+  "Description": "Open-source holistic open system",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 758
     }
   }
 }

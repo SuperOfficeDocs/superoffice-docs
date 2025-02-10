@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 29,
+  "UdListDefinitionId": 827,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Trantow, VonRueden and Schulist",
-    "Tooltip": "sit",
+    "Id": 968,
+    "Name": "Denesik-Gleichner",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 229,
-    "Rank": 913,
+    "UdListDefinitionId": 960,
+    "Rank": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 565
       }
     }
   }

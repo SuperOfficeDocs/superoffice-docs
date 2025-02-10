@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 785,
-  "ToAssociate": "nemo"
+  "ChatSessionId": 123,
+  "ToAssociate": "hic"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 709,
-  "TopicId": 212,
+  "ChatSessionId": 162,
+  "TopicId": 99,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "animi",
-  "CustomerName": "Schamberger, Buckridge and Breitenberg",
-  "CustomerEmail": "joshuah.mertz@dach.uk",
-  "CustomerPhone": "377-724-7058 x7834",
+  "CustomerAlias": "harum",
+  "CustomerHost": "quis",
+  "CustomerName": "Bergstrom, O'Reilly and Hane",
+  "CustomerEmail": "nella_marquardt@huels.us",
+  "CustomerPhone": "214-605-0039",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kunde-Goldner",
+  "CustomerCompanyName": "Zulauf-Schowalter",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "et",
-  "WhenRequested": "2005-08-19T13:13:22.2270601+02:00",
-  "WhenStarted": "2018-08-11T13:13:22.2270601+02:00",
-  "WhenEnded": "2004-07-02T13:13:22.2270601+02:00",
-  "WhenIdle": "2010-04-03T13:13:22.2270601+02:00",
-  "WhenFetched": "2008-05-21T13:13:22.2270601+02:00",
-  "SessionKey": "officiis",
-  "InitialQueuePos": 710,
-  "AlertLevel": 279,
-  "Rank": 497,
+  "FirstMessage": "ipsum",
+  "LastMessage": "quis",
+  "WhenRequested": "2016-02-19T12:01:27.4002546+01:00",
+  "WhenStarted": "2001-01-13T12:01:27.4002546+01:00",
+  "WhenEnded": "2010-12-22T12:01:27.4002546+01:00",
+  "WhenIdle": "2017-05-14T12:01:27.4002546+02:00",
+  "WhenFetched": "2022-05-02T12:01:27.4002546+02:00",
+  "SessionKey": "nulla",
+  "InitialQueuePos": 583,
+  "AlertLevel": 737,
+  "Rank": 669,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 769,
+  "Rating": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "McGlynn-Dickinson",
-  "DisplayName": "Abshire, O'Kon and Emard",
-  "Description": "Vision-oriented methodical pricing structure",
-  "ShortLabel": "inventore",
+  "FieldName": "Wilkinson, Bahringer and Cartwright",
+  "DisplayName": "Hermann-Pollich",
+  "Description": "Managed value-added initiative",
+  "ShortLabel": "omnis",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 756,
-  "TemplateVariableName": "Runte Inc and Sons"
+  "Rank": 731,
+  "TemplateVariableName": "Rodriguez LLC"
 }
 ```

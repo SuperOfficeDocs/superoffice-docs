@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "536.444.0107 x1573",
-    "PersonCellPhone": "(987)005-7809 x1860",
-    "PersonPrivatePhone": "1-915-916-6632 x80377",
-    "PersonFaxNumber": "1172886",
-    "PersonPagerNumber": "235280",
-    "PersonEmail": "kari@gutmannbruen.ca",
-    "Id": 713,
-    "Name": "Treutel LLC",
-    "Tooltip": "sed",
-    "UniqueId": "totam",
+    "PersonDirectPhone": "653-100-8846 x836",
+    "PersonCellPhone": "114-847-5828",
+    "PersonPrivatePhone": "(885)779-0779 x24172",
+    "PersonFaxNumber": "1364280",
+    "PersonPagerNumber": "924203",
+    "PersonEmail": "macy@stantonsipes.uk",
+    "Id": 120,
+    "Name": "Tillman Inc and Sons",
+    "Tooltip": "assumenda",
+    "UniqueId": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 482
       }
     }
   }

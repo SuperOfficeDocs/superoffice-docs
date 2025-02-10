@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    120,
-    412
+    698,
+    82
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Reichert, Schiller and Gerlach",
-    "AssociateId": 818,
-    "DetailsTable": 15,
-    "DetailsRecord": 752,
+    "Id": 584,
+    "Name": "Hoeger-Jaskolski",
+    "AssociateId": 944,
+    "DetailsTable": 168,
+    "DetailsRecord": 133,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "a",
-      "ParameterObject2": "aperiam"
+      "ParameterObject1": "ex",
+      "ParameterObject2": "fuga"
     },
-    "LastStarted": "2012-06-21T13:13:22.133333+02:00",
-    "Created": "2010-12-09T13:13:22.133333+01:00",
-    "StartCount": 800,
-    "DatabaseSerialNumber": "790134",
-    "Context": "illum",
-    "Result": "nemo",
+    "LastStarted": "2011-11-18T12:01:27.3533761+01:00",
+    "Created": "2019-09-17T12:01:27.3533761+02:00",
+    "StartCount": 734,
+    "DatabaseSerialNumber": "1197773",
+    "Context": "et",
+    "Result": "aliquid",
     "State": "All",
-    "Description": "Front-line non-volatile algorithm",
-    "Response": "ullam",
-    "Request": "modi",
-    "ProgressDescription": "Reduced reciprocal encryption",
-    "ProgressPercent": 134,
-    "FileName": "Kihn-Boyle",
+    "Description": "Decentralized demand-driven toolset",
+    "Response": "mollitia",
+    "Request": "officia",
+    "ProgressDescription": "Reduced global strategy",
+    "ProgressPercent": 743,
+    "FileName": "Harvey LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 419
       }
     }
   }

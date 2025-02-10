@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kihn-Bartoletti",
+  "ProviderName": "Bernhard LLC",
   "Restrictions": [
     {
-      "Name": "Orn Inc and Sons",
-      "Operator": "enim",
+      "Name": "McLaughlin-Wolf",
+      "Operator": "qui",
       "Values": [
-        "id",
-        "corrupti"
+        "aspernatur",
+        "ut"
       ],
       "DisplayValues": [
-        "ullam",
-        "quam"
+        "tenetur",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 356,
+      "InterParenthesis": 184,
       "InterOperator": "And",
-      "UniqueHash": 408
+      "UniqueHash": 241
     }
   ],
-  "AssociateId": 282
+  "AssociateId": 925
 }
 ```
 

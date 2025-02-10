@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 217,
-  "BlobSize": 762,
-  "Description": "Assimilated tangible policy",
-  "ExtraInfo": "qui",
+  "BlobId": 523,
+  "BlobSize": 896,
+  "Description": "Versatile demand-driven parallelism",
+  "ExtraInfo": "id",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "harum",
-  "OriginalSize": 822,
-  "CreatedDate": "2021-02-05T13:13:31.4645446+01:00",
-  "UpdatedDate": "2021-07-21T13:13:31.4645446+02:00",
+  "MimeType": "asperiores",
+  "OriginalSize": 979,
+  "CreatedDate": "2008-09-29T12:01:32.7769271+02:00",
+  "UpdatedDate": "1999-09-02T12:01:32.7769271+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "in"
+  "ConceptualType": "voluptates"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 390,
-  "BlobSize": 649,
-  "Description": "Triple-buffered solution-oriented core",
-  "ExtraInfo": "dolore",
-  "IsEncrypted": true,
+  "BlobId": 228,
+  "BlobSize": 28,
+  "Description": "Inverse motivating archive",
+  "ExtraInfo": "exercitationem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 422,
-  "CreatedDate": "2015-11-10T13:13:31.4645446+01:00",
-  "UpdatedDate": "2013-01-14T13:13:31.4645446+01:00",
+  "MimeType": "eos",
+  "OriginalSize": 576,
+  "CreatedDate": "2010-07-15T12:01:32.7769271+02:00",
+  "UpdatedDate": "2023-04-28T12:01:32.7769271+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed",
+  "ConceptualType": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 728
     }
   }
 }

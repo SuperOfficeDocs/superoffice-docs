@@ -94,13 +94,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 162,
-  "Name": "Haley-Hettinger",
-  "ContentType": "beatae",
-  "AttSize": 9,
-  "InlineImage": true,
-  "ContentId": "vitae",
-  "AuthKey": "voluptatem",
+  "AttachmentId": 723,
+  "Name": "Runte-Bayer",
+  "ContentType": "quis",
+  "AttSize": 507,
+  "InlineImage": false,
+  "ContentId": "consequatur",
+  "AuthKey": "earum",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 199,
-  "Name": "Reichel-Jewess",
-  "ContentType": "iusto",
-  "AttSize": 252,
-  "InlineImage": false,
-  "ContentId": "molestiae",
-  "AuthKey": "optio",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 551,
+  "Name": "Christiansen-Tillman",
+  "ContentType": "esse",
+  "AttSize": 22,
+  "InlineImage": true,
+  "ContentId": "deleniti",
+  "AuthKey": "pariatur",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 188
     }
   },
   "_Links": {

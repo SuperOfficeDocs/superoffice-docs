@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "Name": "Gislason LLC",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "Rank": 236,
+  "Id": 847,
+  "Name": "Bosco-Ebert",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 866,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquid",
+  "UseGroupsAndHeadings": false,
+  "ListType": "atque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   },
   "_Links": {

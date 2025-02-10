@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 713,
-  "PrefValue": "sapiente"
+  "PrefDescId": 228,
+  "PrefValue": "quia"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 20,
-  "PrefDescId": 460,
-  "PrefValue": "nisi",
-  "PrefShowValue": "dolores",
-  "Description": "Sharable optimal moratorium",
-  "IsBuiltin": true,
+  "PrefDescLineId": 49,
+  "PrefDescId": 114,
+  "PrefValue": "libero",
+  "PrefShowValue": "tenetur",
+  "Description": "Synergized directional standardization",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 877
     }
   }
 }

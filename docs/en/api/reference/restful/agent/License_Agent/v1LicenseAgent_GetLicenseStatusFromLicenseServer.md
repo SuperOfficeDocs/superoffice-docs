@@ -77,7 +77,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Harris-Rice"
+  "OwnerName": "Bayer LLC"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "corporis",
+  "Message": "saepe",
   "Url": "http://www.example.com/"
 }
 ```

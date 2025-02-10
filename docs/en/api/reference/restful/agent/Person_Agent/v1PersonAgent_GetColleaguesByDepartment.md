@@ -105,6 +105,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -114,11 +115,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 314
+  "DepartmentId": 203
 }
 ```
 
@@ -130,52 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "omnis",
-    "PersonId": 371,
-    "Mrmrs": "ut",
-    "Firstname": "Sigurd",
-    "Lastname": "Kessler",
-    "MiddleName": "Turcotte, Hodkiewicz and Heaney",
-    "Title": "est",
-    "Description": "Enterprise-wide fault-tolerant migration",
-    "Email": "dominique.schowalter@beahananderson.name",
-    "FullName": "Wilhelmine Schaefer",
-    "DirectPhone": "1-841-789-5179 x4611",
-    "FormalName": "Denesik, Towne and O'Connell",
-    "CountryId": 270,
-    "ContactId": 439,
-    "ContactName": "Leuschke-Wintheiser",
-    "Retired": 93,
-    "Rank": 996,
-    "ActiveInterests": 397,
+    "Position": "perferendis",
+    "PersonId": 685,
+    "Mrmrs": "aliquid",
+    "Firstname": "Hortense",
+    "Lastname": "Bartell",
+    "MiddleName": "Crooks, Hammes and Larkin",
+    "Title": "omnis",
+    "Description": "Open-source logistical synergy",
+    "Email": "quinten@grady.com",
+    "FullName": "Iva Beier",
+    "DirectPhone": "(721)836-0433 x32669",
+    "FormalName": "Ward-Mante",
+    "CountryId": 549,
+    "ContactId": 126,
+    "ContactName": "Mohr, Baumbach and Becker",
+    "Retired": 362,
+    "Rank": 547,
+    "ActiveInterests": 562,
     "ContactDepartment": "",
-    "ContactCountryId": 503,
-    "ContactOrgNr": "1729495",
-    "FaxPhone": "708-581-1351 x41287",
-    "MobilePhone": "921.739.5115 x087",
-    "ContactPhone": "227-833-9048 x5777",
-    "AssociateName": "Gleichner, Runolfsson and Fahey",
-    "AssociateId": 385,
+    "ContactCountryId": 934,
+    "ContactOrgNr": "915067",
+    "FaxPhone": "803-447-7676 x759",
+    "MobilePhone": "013.155.0156 x67784",
+    "ContactPhone": "720-539-2132 x9489",
+    "AssociateName": "Graham-Farrell",
+    "AssociateId": 849,
     "UsePersonAddress": false,
-    "ContactFax": "quos",
-    "Kanafname": "laboriosam",
-    "Kanalname": "eum",
-    "Post1": "pariatur",
-    "Post2": "quisquam",
-    "Post3": "qui",
-    "EmailName": "katelin@collins.us",
-    "ContactFullName": "Leo Hyatt Sr.",
-    "ActiveErpLinks": 581,
-    "TicketPriorityId": 416,
-    "SupportLanguageId": 135,
-    "SupportAssociateId": 107,
+    "ContactFax": "est",
+    "Kanafname": "ea",
+    "Kanalname": "deleniti",
+    "Post1": "quidem",
+    "Post2": "non",
+    "Post3": "doloribus",
+    "EmailName": "chloe_weber@mosciski.name",
+    "ContactFullName": "Dr. Mack Charles Beer",
+    "ActiveErpLinks": 129,
+    "TicketPriorityId": 806,
+    "SupportLanguageId": 999,
+    "SupportAssociateId": 992,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "457824",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 489
       }
     }
   }

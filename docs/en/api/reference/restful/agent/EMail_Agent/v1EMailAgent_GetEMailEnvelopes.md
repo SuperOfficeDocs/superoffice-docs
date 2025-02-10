@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    555,
-    565
+    362,
+    605
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 844,
-    "MessageId": "sed",
-    "Subject": "id",
+    "ServerId": 982,
+    "MessageId": "ab",
+    "Subject": "perspiciatis",
     "From": null,
     "To": [
       {
-        "ContactId": 380,
-        "ContactName": "Rosenbaum, Ebert and Kertzmann",
-        "PersonId": 966,
-        "PersonName": "Little Group",
-        "AssociateId": 618,
-        "Address": "autem",
-        "EmailId": 525,
+        "ContactId": 451,
+        "ContactName": "Padberg LLC",
+        "PersonId": 650,
+        "PersonName": "Blick LLC",
+        "AssociateId": 986,
+        "Address": "quam",
+        "EmailId": 11,
         "DuplicatePersonIds": [
-          302,
-          821
+          69,
+          228
         ],
-        "Name": "VonRueden LLC",
+        "Name": "Yost Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 826
+            "FieldType": "System.Int32",
+            "FieldLength": 245
           }
         }
       }
     ],
-    "Sent": "2017-08-22T13:13:23.0708443+02:00",
+    "Sent": "2022-08-06T12:01:27.8534108+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 427,
+    "Size": 425,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 720
       }
     }
   }

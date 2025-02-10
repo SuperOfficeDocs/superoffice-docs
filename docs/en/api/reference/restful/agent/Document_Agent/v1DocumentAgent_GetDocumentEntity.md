@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=914
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=356
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 860,
+  "DocumentId": 365,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "numquam",
-  "Header": "nam",
-  "Name": "Douglas-Nitzsche",
-  "OurRef": "deleniti",
-  "YourRef": "unde",
-  "CreatedDate": "1999-03-09T13:13:22.8209139+01:00",
-  "UpdatedDate": "2021-05-27T13:13:22.8209139+02:00",
-  "Description": "Focused client-driven toolset",
+  "Attention": "adipisci",
+  "Header": "at",
+  "Name": "Labadie LLC",
+  "OurRef": "nihil",
+  "YourRef": "dolores",
+  "CreatedDate": "1999-02-02T12:01:27.6190206+01:00",
+  "UpdatedDate": "2011-02-26T12:01:27.6190206+01:00",
+  "Description": "Implemented tertiary internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-02-01T13:13:22.8209139+01:00",
-  "ExternalRef": "occaecati",
+  "Date": "2014-10-17T12:01:27.6502724+02:00",
+  "ExternalRef": "ipsa",
   "Completed": "Completed",
-  "ActiveLinks": 128,
+  "ActiveLinks": 73,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koss, Weimann and Bogisich",
-      "Id": 691,
-      "Description": "Stand-alone analyzing process improvement",
-      "ExtraInfo": "nihil",
-      "LinkId": 14,
+      "EntityName": "Stanton LLC",
+      "Id": 741,
+      "Description": "Inverse mobile interface",
+      "ExtraInfo": "veritatis",
+      "LinkId": 862,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 47,
-  "Snum": 993,
+  "SuggestedDocumentId": 685,
+  "Snum": 446,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Dane Selina Huels Jr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dr. Laurence Cole II",
+    "SuperOffice:2": "Dr. Chris Dayne Christiansen V"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "nobis"
+    "CustomFields1": "eum",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2005-12-01T13:13:22.8209139+01:00",
-  "PublishTo": "2010-07-07T13:13:22.8209139+02:00",
-  "PublishFrom": "2007-04-04T13:13:22.8209139+02:00",
+  "PublishEventDate": "2003-08-08T12:01:27.6658987+02:00",
+  "PublishTo": "2020-06-27T12:01:27.6658987+02:00",
+  "PublishFrom": "2016-08-08T12:01:27.6658987+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 888,
+      "VisibleId": 469,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldType": "System.Int32",
+          "FieldLength": 947
         }
       }
     },
     {
-      "VisibleId": 888,
+      "VisibleId": 469,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldType": "System.Int32",
+          "FieldLength": 947
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 639
     }
   }
 }

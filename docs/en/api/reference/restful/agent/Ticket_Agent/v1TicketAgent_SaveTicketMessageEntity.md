@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 941,
+  "EjMessageId": 281,
   "Ticket": null,
-  "CreatedAt": "2007-04-19T13:13:24.2278483+02:00",
+  "CreatedAt": "2018-01-20T12:01:28.3690675+01:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "quod",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 120,
-  "Body": "itaque",
+  "MessageId": "porro",
+  "TimeSpent": 906,
+  "Body": "numquam",
   "HtmlBody": "placeat",
-  "EmailHeader": "alexys@torphy.name",
-  "DebugInfo": "quia",
-  "MailSorter": "corrupti",
+  "EmailHeader": "lon.kuhlman@wehnerkemmer.info",
+  "DebugInfo": "amet",
+  "MailSorter": "adipisci",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quaerat",
+  "SearchTitle": "debitis",
   "MessageHeaders": [
     {
-      "Id": 79,
-      "Name": "Rau-Senger",
-      "Value": "voluptas",
+      "Id": 588,
+      "Name": "Hermiston Group",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 79,
-      "Name": "Rau-Senger",
-      "Value": "voluptas",
+      "Id": 588,
+      "Name": "Hermiston Group",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "cupiditate",
-  "Sentiment": 904,
-  "SentimentConfidence": 451,
+  "Language": "earum",
+  "Sentiment": 141,
+  "SentimentConfidence": 648,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 583,
-      "Name": "Tromp-Harvey",
-      "ContentType": "tempore",
-      "AttSize": 708,
-      "InlineImage": false,
-      "ContentId": "esse",
-      "AuthKey": "ex",
+      "AttachmentId": 563,
+      "Name": "Sporer, Senger and Gusikowski",
+      "ContentType": "eum",
+      "AttSize": 629,
+      "InlineImage": true,
+      "ContentId": "ut",
+      "AuthKey": "exercitationem",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "non"
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "sunt"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 57,
+  "EjMessageId": 461,
   "Ticket": null,
-  "CreatedAt": "1999-06-07T13:13:24.2278483+02:00",
+  "CreatedAt": "2019-12-21T12:01:28.3690675+01:00",
   "CreatedBy": null,
-  "Author": "tempore",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 280,
-  "Body": "omnis",
-  "HtmlBody": "non",
-  "EmailHeader": "cecile.witting@okon.info",
+  "MessageId": "quaerat",
+  "TimeSpent": 62,
+  "Body": "est",
+  "HtmlBody": "blanditiis",
+  "EmailHeader": "lester_kassulke@hammespurdy.ca",
   "DebugInfo": "quo",
-  "MailSorter": "ipsa",
+  "MailSorter": "inventore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sint",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 66,
-      "Name": "Erdman-Wyman",
-      "Value": "nam",
+      "Id": 123,
+      "Name": "Schoen-Stanton",
+      "Value": "porro",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 870
         }
       }
     }
   ],
   "Important": false,
-  "Language": "tempore",
-  "Sentiment": 103,
-  "SentimentConfidence": 473,
+  "Language": "consequatur",
+  "Sentiment": 975,
+  "SentimentConfidence": 292,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 726,
-      "Name": "Beer Group",
-      "ContentType": "perspiciatis",
-      "AttSize": 692,
+      "AttachmentId": 908,
+      "Name": "Rath, Shanahan and Dickens",
+      "ContentType": "facere",
+      "AttSize": 866,
       "InlineImage": true,
-      "ContentId": "consectetur",
-      "AuthKey": "cum",
+      "ContentId": "rerum",
+      "AuthKey": "culpa",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "repellat"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "ut"
+    "CustomFields1": "quas",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

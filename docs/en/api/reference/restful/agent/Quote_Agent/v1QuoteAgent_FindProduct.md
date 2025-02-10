@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 324,
-  "UserInput": "quia",
-  "PriceListKey": "reiciendis"
+  "QuoteAlternativeId": 901,
+  "UserInput": "eos",
+  "PriceListKey": "in"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 521,
-    "ERPProductKey": "omnis",
-    "ERPPriceListKey": "tempora",
-    "Name": "Wuckert-Nicolas",
-    "Description": "Profound 6th generation hardware",
-    "Code": "amet",
-    "PriceUnit": "sed",
-    "QuantityUnit": "inventore",
-    "IsSubscription": false,
-    "SubscriptionUnit": "aut",
-    "DefaultSubscriptionQuantity": 14077.928,
-    "ItemNumber": "1073765",
+    "ProductId": 786,
+    "ERPProductKey": "fugiat",
+    "ERPPriceListKey": "qui",
+    "Name": "Kulas Group",
+    "Description": "Enhanced web-enabled focus group",
+    "Code": "ab",
+    "PriceUnit": "qui",
+    "QuantityUnit": "quidem",
+    "IsSubscription": true,
+    "SubscriptionUnit": "consequatur",
+    "DefaultSubscriptionQuantity": 9188.887999999999,
+    "ItemNumber": "846956",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ipsa",
-    "ProductTypeKey": "vitae",
-    "VAT": 27717.095999999998,
-    "VATInfo": "similique",
-    "UnitCost": 16801.374,
-    "UnitMinimumPrice": 28497.462,
-    "UnitListPrice": 1457.31,
+    "ProductFamilyKey": "ut",
+    "ProductTypeKey": "ducimus",
+    "VAT": 7126.7159999999994,
+    "VATInfo": "nulla",
+    "UnitCost": 6612.74,
+    "UnitMinimumPrice": 28403.442,
+    "UnitListPrice": 22906.406,
     "InAssortment": false,
-    "Supplier": "et",
-    "SupplierCode": "ab",
-    "Rights": "quae",
-    "Rule": "eius",
+    "Supplier": "molestiae",
+    "SupplierCode": "qui",
+    "Rights": "fuga",
+    "Rule": "vel",
     "ExtraInfo": [
       {
-        "Name": "Powlowski-Nitzsche",
-        "Value": "quibusdam",
+        "Name": "Dickens-Howell",
+        "Value": "enim",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldType": "System.Int32",
+            "FieldLength": 978
           }
         }
       },
       {
-        "Name": "Powlowski-Nitzsche",
-        "Value": "quibusdam",
+        "Name": "Dickens-Howell",
+        "Value": "enim",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldType": "System.Int32",
+            "FieldLength": 978
           }
         }
       }
     ],
-    "RawExtraInfo": "asperiores",
-    "ExtraField1": "qui",
-    "ExtraField2": "at",
-    "ExtraField3": "totam",
-    "ExtraField4": "et",
-    "ExtraField5": "eos",
-    "InStock": 16654.076,
+    "RawExtraInfo": "est",
+    "ExtraField1": "rerum",
+    "ExtraField2": "est",
+    "ExtraField3": "voluptatem",
+    "ExtraField4": "voluptatum",
+    "ExtraField5": "et",
+    "InStock": 2936.558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 954
       }
     }
   }

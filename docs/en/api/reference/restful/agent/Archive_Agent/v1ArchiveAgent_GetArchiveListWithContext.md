@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Padberg-Schmitt",
-  "ProviderName": "Volkman-Terry",
+  "GuiName": "Littel-Johns",
+  "ProviderName": "Reichel LLC",
   "SortOrder": [
     {
-      "Name": "Daniel-Daugherty",
+      "Name": "Howe, Braun and Dare",
       "Direction": "ASC"
     },
     {
-      "Name": "Daniel-Daugherty",
+      "Name": "Howe, Braun and Dare",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kuhn-Doyle",
-      "Operator": "numquam",
+      "Name": "Labadie LLC",
+      "Operator": "consequuntur",
       "Values": [
-        "fugiat",
-        "consequuntur"
+        "et",
+        "ut"
       ],
       "DisplayValues": [
-        "repellat",
-        "iste"
+        "a",
+        "illum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 856,
+      "InterParenthesis": 703,
       "InterOperator": "And",
-      "UniqueHash": 655
+      "UniqueHash": 828
     }
   ],
   "Entities": [
-    "non",
-    "quaerat"
+    "quaerat",
+    "eaque"
   ],
-  "Page": 804,
-  "PageSize": 160,
-  "Context": "praesentium"
+  "Page": 190,
+  "PageSize": 203,
+  "Context": "vitae"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kuhn-Jacobs",
-    "PrimaryKey": 702,
+    "EntityName": "Swift, Thiel and Willms",
+    "PrimaryKey": 563,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "placeat",
-        "TooltipHint": "consequuntur",
-        "LinkHint": "consequatur"
+        "DisplayValue": "similique",
+        "TooltipHint": "aut",
+        "LinkHint": "dolore"
       }
     },
-    "LinkHint": "minus",
-    "StyleHint": "sed",
+    "LinkHint": "ipsum",
+    "StyleHint": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 576
       }
     }
   }

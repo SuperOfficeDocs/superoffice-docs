@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "nobis",
+  "CRMScriptUniqueId": "repellendus",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "beatae",
-    "InputValues2": "corporis"
+    "InputValues1": "quo",
+    "InputValues2": "eveniet"
   },
-  "BlockExecution": false,
-  "NavigateTo": "repellat",
-  "Message": "sit",
-  "ShowDialog": "aut",
+  "BlockExecution": true,
+  "NavigateTo": "ut",
+  "Message": "esse",
+  "ShowDialog": "earum",
   "OutputValues": {
-    "OutputValues1": "mollitia",
-    "OutputValues2": "sit"
+    "OutputValues1": "quam",
+    "OutputValues2": "assumenda"
   },
   "StateValues": {
-    "StateValues1": "aut",
-    "StateValues2": "est"
+    "StateValues1": "rem",
+    "StateValues2": "expedita"
   },
-  "Exception": "maxime",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "perferendis",
-    "ParserValues2": "et"
+    "ParserValues1": "distinctio",
+    "ParserValues2": "ipsum"
   },
   "CgiVariables": {
-    "CgiVariables1": "accusantium",
-    "CgiVariables2": "error"
+    "CgiVariables1": "tempora",
+    "CgiVariables2": "quia"
   },
-  "CgiContent": "beatae",
+  "CgiContent": "a",
   "Headers": {
-    "Headers1": "recusandae",
-    "Headers2": "eum"
+    "Headers1": "commodi",
+    "Headers2": "deleniti"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

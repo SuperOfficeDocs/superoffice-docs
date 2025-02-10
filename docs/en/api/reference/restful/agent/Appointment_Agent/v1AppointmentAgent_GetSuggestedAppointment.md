@@ -26,7 +26,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=156
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=577
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 819,
-  "Deleted": 388,
-  "DaysFuture": 632,
-  "Tooltip": "dolore",
-  "Text": "autem",
-  "TaskId": 786,
-  "SuggestedAppointmentId": 14,
-  "SaleTypeStageLinkId": 797,
-  "RegisteredAssociateId": 894,
-  "Rank": 707,
-  "ProjectTypeStatusLinkId": 383,
-  "Name": "Reilly, Kuhic and Frami",
-  "Duration": 271,
+  "AutoSuggest": 317,
+  "Deleted": 809,
+  "DaysFuture": 682,
+  "Tooltip": "excepturi",
+  "Text": "facilis",
+  "TaskId": 784,
+  "SuggestedAppointmentId": 549,
+  "SaleTypeStageLinkId": 77,
+  "RegisteredAssociateId": 480,
+  "Rank": 779,
+  "ProjectTypeStatusLinkId": 12,
+  "Name": "Grant-Sawayn",
+  "Duration": 551,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   }
 }

@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 647
+  "ChatSessionId": 215
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 615,
-  "TopicId": 116,
+  "ChatSessionId": 377,
+  "TopicId": 877,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nesciunt",
-  "CustomerHost": "expedita",
-  "CustomerName": "Doyle, Grimes and Heaney",
-  "CustomerEmail": "hector@donnellylowe.us",
-  "CustomerPhone": "837-507-7424 x3599",
+  "CustomerAlias": "dicta",
+  "CustomerHost": "et",
+  "CustomerName": "Renner-Miller",
+  "CustomerEmail": "marietta.wehner@gibson.info",
+  "CustomerPhone": "682.436.5173",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Champlin-Nolan",
+  "CustomerCompanyName": "Sanford, Stokes and Abshire",
   "Status": "Closed",
-  "FirstMessage": "distinctio",
-  "LastMessage": "sit",
-  "WhenRequested": "2006-06-05T13:13:22.2582574+02:00",
-  "WhenStarted": "2010-07-28T13:13:22.2582574+02:00",
-  "WhenEnded": "2008-11-18T13:13:22.2582574+01:00",
-  "WhenIdle": "2007-11-05T13:13:22.2582574+01:00",
-  "WhenFetched": "2004-02-23T13:13:22.2582574+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 510,
-  "AlertLevel": 79,
-  "Rank": 926,
+  "FirstMessage": "culpa",
+  "LastMessage": "ipsum",
+  "WhenRequested": "1998-02-18T12:01:27.4158812+01:00",
+  "WhenStarted": "2001-02-19T12:01:27.4158812+01:00",
+  "WhenEnded": "2014-04-10T12:01:27.4158812+02:00",
+  "WhenIdle": "2019-07-08T12:01:27.4158812+02:00",
+  "WhenFetched": "2011-12-27T12:01:27.4158812+01:00",
+  "SessionKey": "pariatur",
+  "InitialQueuePos": 416,
+  "AlertLevel": 129,
+  "Rank": 809,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 723,
+  "Rating": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 310
     }
   }
 }

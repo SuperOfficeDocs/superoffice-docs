@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Kovacek-Cartwright",
-    "ToolTip": "Nulla recusandae.",
+    "Id": 64,
+    "Name": "Wunsch, Fay and Blick",
+    "ToolTip": "Officiis tempora.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "ut",
-    "ColorBlock": 830,
-    "IconHint": "animi",
+    "Rank": 653,
+    "Type": "nostrum",
+    "ColorBlock": 887,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2009-01-19T13:13:32.9642864+01:00",
+    "LastChanged": "2002-12-30T12:01:33.4801008+01:00",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Ratke-Sawayn",
-        "ToolTip": "Rerum voluptas et.",
-        "Deleted": true,
-        "Rank": 60,
-        "Type": "qui",
-        "ColorBlock": 494,
-        "IconHint": "ut",
+        "Id": 417,
+        "Name": "Becker-Dietrich",
+        "ToolTip": "Officiis nobis necessitatibus porro.",
+        "Deleted": false,
+        "Rank": 118,
+        "Type": "voluptatem",
+        "ColorBlock": 159,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2009-12-09T13:13:32.9642864+01:00",
+        "LastChanged": "2008-11-23T12:01:33.4801008+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "ut",
+        "ExtraInfo": "quia",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Mrs. Jeffry Beryl Gislason III",
+        "FullName": "Mr. Gino Beier DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Candace Simonis",
+    "ExtraInfo": "nihil",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Jerry Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 426
       }
     }
   }

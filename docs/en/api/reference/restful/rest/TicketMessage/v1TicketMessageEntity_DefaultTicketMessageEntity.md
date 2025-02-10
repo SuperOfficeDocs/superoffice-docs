@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 102,
+  "EjMessageId": 608,
   "Ticket": null,
-  "CreatedAt": "2002-04-09T13:13:32.4642456+02:00",
+  "CreatedAt": "2013-10-20T12:01:33.2769618+02:00",
   "CreatedBy": null,
-  "Author": "nostrum",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 992,
-  "Body": "officia",
-  "HtmlBody": "nam",
-  "EmailHeader": "okey@hoppe.com",
-  "DebugInfo": "assumenda",
-  "MailSorter": "et",
+  "MessageId": "error",
+  "TimeSpent": 528,
+  "Body": "maiores",
+  "HtmlBody": "necessitatibus",
+  "EmailHeader": "marjolaine_stanton@kuhlman.com",
+  "DebugInfo": "sit",
+  "MailSorter": "laborum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "consectetur",
   "MessageHeaders": [
     {
-      "Id": 57,
-      "Name": "Feest, Fisher and Pollich",
-      "Value": "provident",
+      "Id": 908,
+      "Name": "Wilkinson-Denesik",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 35
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "reprehenderit",
-  "Sentiment": 606,
-  "SentimentConfidence": 461,
+  "Important": true,
+  "Language": "ut",
+  "Sentiment": 856,
+  "SentimentConfidence": 688,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 283,
-      "Name": "Schimmel Group",
-      "ContentType": "quo",
-      "AttSize": 233,
+      "AttachmentId": 944,
+      "Name": "Hartmann LLC",
+      "ContentType": "nihil",
+      "AttSize": 150,
       "InlineImage": false,
-      "ContentId": "unde",
-      "AuthKey": "facilis",
+      "ContentId": "ut",
+      "AuthKey": "est",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 508
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "et"
+    "CustomFields1": "saepe",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldLength": 130
     }
   }
 }

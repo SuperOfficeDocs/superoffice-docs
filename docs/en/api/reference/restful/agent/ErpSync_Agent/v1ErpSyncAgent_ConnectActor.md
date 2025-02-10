@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 43,
-  "CrmRecordId": 67,
+  "ErpConnectionId": 702,
+  "CrmRecordId": 501,
   "CrmActorType": "Contact",
-  "ErpKey": "nulla",
+  "ErpKey": "iure",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Johnson-Donnelly",
-      "CrmFieldKey": "at",
-      "Value": "non",
-      "DisplayValue": "dignissimos",
+      "DisplayName": "Pfeffer Group",
+      "CrmFieldKey": "minus",
+      "Value": "voluptas",
+      "DisplayValue": "delectus",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Johnson-Donnelly",
-      "CrmFieldKey": "at",
-      "Value": "non",
-      "DisplayValue": "dignissimos",
+      "DisplayName": "Pfeffer Group",
+      "CrmFieldKey": "minus",
+      "Value": "voluptas",
+      "DisplayValue": "delectus",
       "SyncToCrm": false,
       "SyncToErp": false
     }

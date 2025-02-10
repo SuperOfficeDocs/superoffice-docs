@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Senger Inc and Sons",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "Rank": 186,
-    "UdListDefinitionId": 50,
+    "HeadingId": 418,
+    "Name": "Farrell-Conroy",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 204,
+    "UdListDefinitionId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

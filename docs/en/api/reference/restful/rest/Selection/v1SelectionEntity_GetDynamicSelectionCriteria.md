@@ -66,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley-Jaskolski",
-    "Operator": "modi",
+    "Name": "Parisian-Luettgen",
+    "Operator": "in",
     "Values": [
-      "ab",
-      "aperiam"
+      "tempora",
+      "quos"
     ],
     "DisplayValues": [
-      "saepe",
-      "beatae"
+      "autem",
+      "omnis"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Johns, Kuphal and Schmitt",
-        "Operator": "molestias",
+        "Name": "Bradtke Group",
+        "Operator": "reprehenderit",
         "Values": [
-          "ullam",
-          "qui"
+          "molestiae",
+          "delectus"
         ],
         "DisplayValues": [
-          "delectus",
-          "ea"
+          "nulla",
+          "officiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 138,
+        "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 309
+        "UniqueHash": 160
       }
     ],
-    "InterParenthesis": 434,
+    "InterParenthesis": 372,
     "InterOperator": "And",
-    "UniqueHash": 6
+    "UniqueHash": 893
   }
 ]
 ```

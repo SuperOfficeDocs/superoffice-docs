@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nemo",
-  "ProviderName": "Reichert-Jacobson",
-  "StorageKey": "voluptatem"
+  "StorageType": "quo",
+  "ProviderName": "Thiel LLC",
+  "StorageKey": "quia"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Ankunding, Kunze and Shields",
-    "DisplayTooltip": "molestiae",
-    "DisplayType": "iusto",
-    "CanOrderBy": true,
-    "Name": "Reichel, Predovic and Wuckert",
+    "DisplayName": "Huels-Harris",
+    "DisplayTooltip": "iste",
+    "DisplayType": "iure",
+    "CanOrderBy": false,
+    "Name": "Kemmer-Haag",
     "CanRestrictBy": false,
-    "RestrictionType": "voluptate",
-    "RestrictionListName": "Brekke-Pacocha",
+    "RestrictionType": "accusantium",
+    "RestrictionListName": "Zulauf, Senger and Barrows",
     "IsVisible": false,
-    "ExtraInfo": "veniam",
-    "Width": "itaque",
-    "IconHint": "sequi",
-    "HeadingIconHint": "distinctio"
+    "ExtraInfo": "facere",
+    "Width": "velit",
+    "IconHint": "error",
+    "HeadingIconHint": "totam"
   }
 ]
 ```

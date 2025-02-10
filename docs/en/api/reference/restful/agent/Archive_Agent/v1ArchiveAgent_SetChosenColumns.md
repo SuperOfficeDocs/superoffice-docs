@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jaskolski LLC",
-  "ProviderName": "Christiansen LLC",
+  "GuiName": "Price LLC",
+  "ProviderName": "Price-Littel",
   "ChosenColumns": [
-    "odit",
-    "nihil"
+    "incidunt",
+    "qui"
   ]
 }
 ```

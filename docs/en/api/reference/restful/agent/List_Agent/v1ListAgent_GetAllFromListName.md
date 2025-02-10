@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Corkery, Gutkowski and Champlin",
+  "UdListDefinitionName": "Kessler, Robel and Ryan",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Ankunding Inc and Sons",
-    "Tooltip": "rem",
-    "Deleted": false,
-    "UdListDefinitionId": 49,
-    "Rank": 49,
+    "Id": 820,
+    "Name": "Parker-Glover",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 115,
+    "Rank": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 367
       }
     }
   }

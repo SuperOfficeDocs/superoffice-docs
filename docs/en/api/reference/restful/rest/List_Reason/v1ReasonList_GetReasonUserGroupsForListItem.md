@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Block Inc and Sons",
-    "ToolTip": "Suscipit sint.",
-    "Deleted": false,
-    "Rank": 722,
-    "Type": "doloribus",
-    "ColorBlock": 245,
-    "IconHint": "omnis",
+    "Id": 625,
+    "Name": "Buckridge Inc and Sons",
+    "ToolTip": "Non fuga non.",
+    "Deleted": true,
+    "Rank": 993,
+    "Type": "reprehenderit",
+    "ColorBlock": 823,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2003-04-02T13:13:33.4954014+02:00",
+    "LastChanged": "2024-01-14T12:01:33.6207356+01:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Johnson-Schuppe",
-        "ToolTip": "Consequuntur fugiat ex qui.",
+        "Id": 24,
+        "Name": "Wilderman-Cremin",
+        "ToolTip": "Enim quam eum sit deserunt.",
         "Deleted": false,
-        "Rank": 535,
-        "Type": "et",
-        "ColorBlock": 553,
-        "IconHint": "sit",
+        "Rank": 281,
+        "Type": "quisquam",
+        "ColorBlock": 843,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2011-04-19T13:13:33.4954014+02:00",
+        "LastChanged": "2010-03-31T12:01:33.6207356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "eum",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Prof. Martine Kellen Breitenberg",
+        "FullName": "Adriana Agustin Lebsack PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 980
+            "FieldType": "System.Int32",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Prof. Ralph Okuneva",
+    "ExtraInfo": "atque",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Willa Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldLength": 862
       }
     }
   }

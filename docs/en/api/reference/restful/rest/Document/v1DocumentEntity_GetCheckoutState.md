@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 839,
-  "Name": "Boehm, Jakubowski and Harber"
+  "AssociateId": 358,
+  "Name": "Bruen-Lesch"
 }
 ```

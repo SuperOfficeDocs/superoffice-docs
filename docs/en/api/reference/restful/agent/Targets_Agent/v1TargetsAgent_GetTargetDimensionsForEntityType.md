@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "sint",
-    "DimensionListName": "Wuckert, Kemmer and Stanton",
-    "DimensionListId": 49,
-    "DimensionListLabel": "nesciunt",
+    "DimensionListField": "dolor",
+    "DimensionListName": "Frami Group",
+    "DimensionListId": 185,
+    "DimensionListLabel": "qui",
     "SelectedDimensions": [
-      929,
-      755
+      700,
+      858
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldLength": 975
       }
     }
   }

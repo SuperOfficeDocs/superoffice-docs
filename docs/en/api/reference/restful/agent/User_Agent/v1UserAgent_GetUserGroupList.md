@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "ipsum",
-    "Tooltip": "et",
-    "Id": 53,
-    "Rank": 185,
+    "Value": "rerum",
+    "Tooltip": "aliquam",
+    "Id": 492,
+    "Rank": 689,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

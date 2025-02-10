@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Hyatt LLC",
-    "Tooltip": "in",
+    "Id": 211,
+    "Name": "Casper, Eichmann and Morar",
+    "Tooltip": "porro",
     "Deleted": true,
-    "UdListDefinitionId": 813,
-    "Rank": 127,
+    "UdListDefinitionId": 820,
+    "Rank": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 337
       }
     }
   }

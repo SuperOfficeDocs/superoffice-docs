@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 232,
-  "TileId": 492,
-  "Position": 363
+  "DashboardId": 500,
+  "TileId": 568,
+  "Position": 315
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 385,
-  "AssociateId": 340,
-  "Caption": "eos",
+  "DashboardId": 110,
+  "AssociateId": 662,
+  "Caption": "dolorem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 194,
-      "Caption": "minima",
-      "Description": "Sharable disintermediate hardware",
-      "ChartName": "Glover-Crooks",
-      "ChartId": "veritatis",
-      "IsDefault": true,
-      "AssociateId": 776,
-      "GroupId": 428,
-      "SelectionId": 831,
-      "Config": "necessitatibus",
+      "DashboardTileId": 119,
+      "Caption": "tenetur",
+      "Description": "Decentralized maximized open architecture",
+      "ChartName": "Brakus Group",
+      "ChartId": "exercitationem",
+      "IsDefault": false,
+      "AssociateId": 933,
+      "GroupId": 949,
+      "SelectionId": 911,
+      "Config": "cum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 735
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

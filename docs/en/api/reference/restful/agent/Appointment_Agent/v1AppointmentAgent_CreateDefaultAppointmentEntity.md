@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-07-27T13:13:21.7584183+02:00",
-  "AppointmentId": 396,
-  "Description": "Pre-emptive dynamic customer loyalty",
-  "Title": "et",
-  "Agenda": "omnis",
-  "InternalNotes": "recusandae",
-  "StartDate": "2018-10-08T13:13:21.7584183+02:00",
-  "EndDate": "2003-07-03T13:13:21.7584183+02:00",
+  "CreatedDate": "2023-01-23T12:01:27.0564637+01:00",
+  "AppointmentId": 875,
+  "Description": "Programmable web-enabled framework",
+  "Title": "alias",
+  "Agenda": "voluptas",
+  "InternalNotes": "ut",
+  "StartDate": "2021-10-06T12:01:27.0564637+02:00",
+  "EndDate": "2023-08-02T12:01:27.0564637+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 260,
+  "MotherId": 834,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-07-22T13:13:21.7739729+02:00",
+  "UpdatedDate": "2011-10-11T12:01:27.087716+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 432,
   "Links": [
     {
-      "EntityName": "Schinner-Halvorson",
-      "Id": 728,
-      "Description": "User-centric intangible paradigm",
-      "ExtraInfo": "incidunt",
-      "LinkId": 159,
+      "EntityName": "Hoeger Inc and Sons",
+      "Id": 805,
+      "Description": "Customizable bottom-line task-force",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 71,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldType": "System.Int32",
+          "FieldLength": 103
         }
       }
     }
   ],
-  "AlarmLeadTime": "architecto",
+  "AlarmLeadTime": "excepturi",
   "HasAlarm": false,
-  "ColorIndex": 374,
+  "ColorIndex": 362,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "est",
-  "LeadTime": "dolorem",
-  "Location": "enim",
-  "RejectCounter": 378,
+  "IsAlldayEvent": true,
+  "LagTime": "doloremque",
+  "LeadTime": "hic",
+  "Location": "fugit",
+  "RejectCounter": 594,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 348,
-      "PersonId": 863,
-      "ContactId": 23,
-      "EmailId": 723,
+      "AssociateId": 162,
+      "PersonId": 731,
+      "ContactId": 413,
+      "EmailId": 266,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "beth@hagenesgoodwin.us",
-      "Description": "Right-sized bandwidth-monitored secured line"
+      "EmailAddress": "juliet.metz@hoppe.co.uk",
+      "Description": "Synchronised 24/7 circuit"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-02-28T13:13:21.7739729+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2024-08-10T12:01:27.087716+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 782,
+  "PreferredTZLocation": 181,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 194,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 481,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "commodi",
+  "CentralserviceVideomeetId": "id",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Maynard Bruen",
+    "SuperOffice:1": "Ms. Katherine Patience Crist Jr.",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "rerum"
+    "CustomFields1": "est",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2002-05-24T13:13:21.7739729+02:00",
-  "PublishTo": "2021-07-19T13:13:21.7739729+02:00",
-  "PublishFrom": "2010-01-30T13:13:21.7739729+01:00",
+  "PublishEventDate": "2015-10-25T12:01:27.1345942+01:00",
+  "PublishTo": "2022-02-15T12:01:27.1345942+01:00",
+  "PublishFrom": "2002-06-16T12:01:27.1345942+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 603,
+      "VisibleId": 630,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldLength": 303
         }
       }
     },
     {
-      "VisibleId": 603,
+      "VisibleId": 630,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldLength": 303
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 573
     }
   }
 }

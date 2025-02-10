@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "est",
-  "GroupName": "Schulist LLC"
+  "Type": "numquam",
+  "GroupName": "Ratke, Kutch and Volkman"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "quis",
-    "vero"
+    "ipsam",
+    "eaque"
   ],
   "Users": [
     {
-      "Value": "minima",
-      "DisplayValue": "minima",
+      "Value": "rerum",
+      "DisplayValue": "quis",
       "Columns": [
-        "pariatur",
-        "et"
+        "et",
+        "dolore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     },
     {
-      "Value": "minima",
-      "DisplayValue": "minima",
+      "Value": "rerum",
+      "DisplayValue": "quis",
       "Columns": [
-        "pariatur",
-        "et"
+        "et",
+        "dolore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 759
     }
   }
 }

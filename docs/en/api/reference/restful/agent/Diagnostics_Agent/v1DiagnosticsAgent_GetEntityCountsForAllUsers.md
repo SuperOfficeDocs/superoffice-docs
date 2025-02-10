@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Tremblay-Botsford",
-    "Records": 705,
+    "EntityName": "Muller Group",
+    "Records": 186,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldLength": 704
       }
     }
   },
   {
-    "EntityName": "Tremblay-Botsford",
-    "Records": 705,
+    "EntityName": "Muller Group",
+    "Records": 186,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldLength": 704
       }
     }
   }

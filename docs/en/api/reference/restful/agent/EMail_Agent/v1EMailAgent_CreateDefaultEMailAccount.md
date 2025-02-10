@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 458,
-  "EMailAddress": "quisquam",
-  "AssociateId": 373,
+  "EMailAccountId": 985,
+  "EMailAddress": "mollitia",
+  "AssociateId": 356,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 214,
-  "ErrorCount": 63,
+  "AccountStatus": 129,
+  "ErrorCount": 517,
   "ErrorReason": "",
-  "InboxFolder": "quidem",
-  "SentFolder": "perspiciatis",
-  "SimpleMode": 33,
-  "LastFetch": "2017-02-23T13:13:22.9927476+01:00",
+  "InboxFolder": "vel",
+  "SentFolder": "ab",
+  "SimpleMode": 3,
+  "LastFetch": "2009-05-17T12:01:27.8065326+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

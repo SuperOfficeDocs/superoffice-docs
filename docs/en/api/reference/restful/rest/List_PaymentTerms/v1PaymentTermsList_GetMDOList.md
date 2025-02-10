@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=asperiores
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=excepturi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Emmerich Inc and Sons",
-    "ToolTip": "Reiciendis nulla odio ipsam sed eaque voluptas nihil.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "inventore",
+    "Id": 890,
+    "Name": "Stiedemann-Jacobson",
+    "ToolTip": "Voluptatem voluptate eos et quia similique.",
+    "Deleted": true,
+    "Rank": 504,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Mohr, Douglas and Kozey",
-        "ToolTip": "Possimus perferendis vitae distinctio beatae necessitatibus.",
+        "Id": 427,
+        "Name": "Veum-Mosciski",
+        "ToolTip": "Minus consequatur molestias ut et nemo.",
         "Deleted": true,
-        "Rank": 130,
-        "Type": "quaerat",
+        "Rank": 487,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 515,
-        "ExtraInfo": "ratione",
-        "StyleHint": "quia",
-        "FullName": "Mr. Carissa Sipes DVM",
+        "IconHint": "sint",
+        "ColorBlock": 863,
+        "ExtraInfo": "et",
+        "StyleHint": "sequi",
+        "FullName": "Jocelyn Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldLength": 931
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 197,
-    "ExtraInfo": "maiores",
-    "StyleHint": "dolor",
-    "FullName": "Waino Runolfsdottir",
+    "IconHint": "quia",
+    "ColorBlock": 381,
+    "ExtraInfo": "vel",
+    "StyleHint": "at",
+    "FullName": "Teresa Mertz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldType": "System.String",
+        "FieldLength": 110
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 5,
-    "Tooltip": "aspernatur",
-    "CanAssign": false,
-    "Free": 67,
-    "InUse": 978,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 523,
-    "Name": "Stamm-Weissnat",
-    "Description": "Virtual bottom-line emulation",
-    "PrerequisiteModuleName": "Hand, Stiedemann and Gutmann",
-    "SortOrder": 106,
-    "ExtraFlags": 672,
+    "Total": 644,
+    "Tooltip": "nobis",
+    "CanAssign": true,
+    "Free": 696,
+    "InUse": 60,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 899,
+    "Name": "Schowalter-Armstrong",
+    "Description": "Reactive heuristic internet solution",
+    "PrerequisiteModuleName": "Homenick-Gibson",
+    "SortOrder": 430,
+    "ExtraFlags": 599,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 113
       }
     }
   }

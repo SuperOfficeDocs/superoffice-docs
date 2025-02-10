@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 576,
-  "Name": "Schultz Group",
-  "AssociateId": 414,
-  "DetailsTable": 165,
-  "DetailsRecord": 65,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 800,
+  "Name": "Denesik Inc and Sons",
+  "AssociateId": 716,
+  "DetailsTable": 268,
+  "DetailsRecord": 579,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "totam",
-    "ParameterObject2": "harum"
+    "ParameterObject1": "sed",
+    "ParameterObject2": "quod"
   },
-  "LastStarted": "2004-04-19T13:13:23.8050553+02:00",
-  "Created": "2005-12-30T13:13:23.8050553+01:00",
-  "StartCount": 304,
-  "DatabaseSerialNumber": "540340",
-  "Context": "ut",
-  "Result": "accusantium",
+  "LastStarted": "1998-12-02T12:01:28.2284376+01:00",
+  "Created": "2022-12-24T12:01:28.2284376+01:00",
+  "StartCount": 506,
+  "DatabaseSerialNumber": "1700048",
+  "Context": "corporis",
+  "Result": "quas",
   "State": "All",
-  "Description": "Vision-oriented maximized neural-net",
-  "Response": "necessitatibus",
-  "Request": "provident",
-  "ProgressDescription": "Networked transitional secured line",
-  "ProgressPercent": 249,
-  "FileName": "Stanton, Hettinger and Metz",
+  "Description": "Up-sized real-time process improvement",
+  "Response": "et",
+  "Request": "ut",
+  "ProgressDescription": "Multi-tiered foreground neural-net",
+  "ProgressPercent": 355,
+  "FileName": "Rutherford LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 595
     }
   }
 }

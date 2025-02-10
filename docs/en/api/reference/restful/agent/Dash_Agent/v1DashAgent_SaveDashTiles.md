@@ -69,22 +69,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 815,
+  "DashboardId": 217,
   "DashTiles": [
     {
-      "DashboardTileId": 892,
-      "DashboardId": 808,
-      "Height": 751,
-      "Width": 419,
-      "Rank": 743,
+      "DashboardTileId": 52,
+      "DashboardId": 965,
+      "Height": 328,
+      "Width": 346,
+      "Rank": 795,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 892,
-      "DashboardId": 808,
-      "Height": 751,
-      "Width": 419,
-      "Rank": 743,
+      "DashboardTileId": 52,
+      "DashboardId": 965,
+      "Height": 328,
+      "Width": 346,
+      "Rank": 795,
       "DashTileDefinition": null
     }
   ]

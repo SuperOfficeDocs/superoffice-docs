@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Schamberger-Senger",
-  "Tooltip": "dolorem",
+  "Id": 642,
+  "Name": "Corkery-Von",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "UdListDefinitionId": 231,
-  "Rank": 494
+  "UdListDefinitionId": 151,
+  "Rank": 739
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Bednar LLC",
-  "Tooltip": "maxime",
+  "Id": 684,
+  "Name": "Williamson-Shields",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 533,
-  "Rank": 902,
+  "UdListDefinitionId": 170,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

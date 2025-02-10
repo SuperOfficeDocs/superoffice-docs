@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "sunt"
+  "QuoteListType": "commodi"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "et",
-    "DisplayValue": "assumenda",
-    "DisplayDescription": "Optional intangible success",
+    "ERPQuoteListItemKey": "velit",
+    "DisplayValue": "a",
+    "DisplayDescription": "Optimized interactive encoding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 897
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "et",
-    "DisplayValue": "assumenda",
-    "DisplayDescription": "Optional intangible success",
+    "ERPQuoteListItemKey": "velit",
+    "DisplayValue": "a",
+    "DisplayDescription": "Optimized interactive encoding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 897
       }
     }
   }

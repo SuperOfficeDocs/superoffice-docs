@@ -117,24 +117,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 719,
-  "Section": "maiores",
-  "Key": "et",
-  "Name": "Herman, Kuhic and Casper",
+  "PrefDescId": 121,
+  "Section": "aperiam",
+  "Key": "facere",
+  "Name": "Torp-Funk",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Horizontal national support",
-  "IsBuiltin": false,
-  "TableName": "White, Langosh and Gleason",
-  "UserDefinedListId": 838,
-  "Rank": 738,
-  "SubGroup": "nisi",
-  "MinLevel": 671,
-  "MaxValue": 854,
-  "MinValue": 595,
-  "RequiredLicense": "ab"
+  "Description": "Balanced secondary ability",
+  "IsBuiltin": true,
+  "TableName": "Sanford Group",
+  "UserDefinedListId": 423,
+  "Rank": 979,
+  "SubGroup": "fuga",
+  "MinLevel": 55,
+  "MaxValue": 103,
+  "MinValue": 561,
+  "RequiredLicense": "eos"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 448,
-  "Section": "et",
-  "Key": "deleniti",
-  "Name": "Hansen-Langworth",
+  "PrefDescId": 486,
+  "Section": "qui",
+  "Key": "atque",
+  "Name": "Schumm, Heller and Block",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Mandatory 6th generation structure",
+  "Description": "Cross-group transitional adapter",
   "IsBuiltin": true,
-  "TableName": "Bashirian, Smith and Jast",
-  "UserDefinedListId": 219,
-  "Rank": 579,
-  "SubGroup": "corrupti",
-  "MinLevel": 228,
-  "MaxValue": 619,
-  "MinValue": 118,
-  "RequiredLicense": "omnis",
+  "TableName": "Kuhn Inc and Sons",
+  "UserDefinedListId": 604,
+  "Rank": 785,
+  "SubGroup": "a",
+  "MinLevel": 76,
+  "MaxValue": 34,
+  "MinValue": 679,
+  "RequiredLicense": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldLength": 682
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

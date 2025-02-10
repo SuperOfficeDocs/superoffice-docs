@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line directional analyzer",
-  "Postit": "quidem",
+  "Description": "Vision-oriented global utilisation",
+  "Postit": "blanditiis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 8,
-  "IncludePerson": 309,
+  "GroupIdx": 310,
+  "IncludePerson": 680,
   "MemberCount": 99.99,
-  "Name": "Hudson Inc and Sons",
-  "PostitTextId": 865,
-  "CreatedDate": "2005-10-19T13:13:32.3236535+02:00",
-  "SelectionId": 113,
-  "SoundEx": "repellat",
-  "Source": 590,
-  "TextId": 217,
-  "UpdatedDate": "2010-03-05T13:13:32.3236535+01:00",
-  "UpdatedCount": 777,
-  "Visibility": 752,
+  "Name": "Connelly, O'Hara and Greenfelder",
+  "PostitTextId": 792,
+  "CreatedDate": "2007-04-23T12:01:33.1988321+02:00",
+  "SelectionId": 870,
+  "SoundEx": "dolor",
+  "Source": 940,
+  "TextId": 934,
+  "UpdatedDate": "2005-06-23T12:01:33.1988321+02:00",
+  "UpdatedCount": 200,
+  "Visibility": 417,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 289,
-  "TargetTableName": "Feil Group",
-  "Completed": false,
-  "LeftSelectionId": 341,
-  "RightSelectionId": 39,
+  "CompanyUnique": false,
+  "TargetTableNumber": 476,
+  "TargetTableName": "Jones Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 351,
+  "RightSelectionId": 140,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kohler, Mante and Feest",
-  "ShadowProviderName": "Dach, Schaden and Becker",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "2019-08-03T13:13:32.3236535+02:00",
-  "LastLoadedBy": 505,
+  "MainProviderName": "Carter-Jewess",
+  "ShadowProviderName": "Ritchie, Schuppe and Feest",
+  "ChartKey": "odio",
+  "LastLoaded": "2021-06-25T12:01:33.1988321+02:00",
+  "LastLoadedBy": 222,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-02-06T13:13:32.3236535+01:00",
-  "LastMembershipChangeBy": 597,
+  "LastMembershipChange": "2010-02-02T12:01:33.2144574+01:00",
+  "LastMembershipChangeBy": 333,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Daniel, Jast and Sipes",
-  "DashboardTileDefinitionId": 989,
+  "MainHeading": "aut",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Jacobi-Beier",
+  "DashboardTileDefinitionId": 967,
   "VisibleFor": [
     {
-      "VisibleId": 455,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 916
+          "FieldLength": 779
         }
       }
     },
     {
-      "VisibleId": 455,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 916
+          "FieldLength": 779
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   },
   "_Links": {

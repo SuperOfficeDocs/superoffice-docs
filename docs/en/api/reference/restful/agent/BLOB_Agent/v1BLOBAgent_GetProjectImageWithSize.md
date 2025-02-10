@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 190,
-  "Width": 206,
-  "Height": 430
+  "ProjectId": 447,
+  "Width": 355,
+  "Height": 166
 }
 ```
 

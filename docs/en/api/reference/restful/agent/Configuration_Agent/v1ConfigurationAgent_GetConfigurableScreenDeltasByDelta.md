@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 1001,
-    "Name": "Jaskolski, Runolfsdottir and Macejkovic",
-    "Description": "Proactive bifurcated extranet",
-    "DeltaJson": "laudantium",
+    "ConfigurableScreenDeltaId": 63,
+    "Name": "Okuneva LLC",
+    "Description": "Expanded demand-driven Graphical User Interface",
+    "DeltaJson": "omnis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "ipsa",
-    "UpdatedDate": "2017-03-08T13:13:22.3364082+01:00",
-    "CreatedDate": "2021-05-29T13:13:22.3364082+02:00",
+    "RecipeId": "sit",
+    "UpdatedDate": "2000-04-18T12:01:27.4471334+02:00",
+    "CreatedDate": "2023-09-29T12:01:27.4471334+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      67,
-      612
+      306,
+      200
     ],
-    "AppliesToKey": "sapiente",
+    "AppliesToKey": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 133
       }
     }
   }

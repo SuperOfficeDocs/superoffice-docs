@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Volkman, Bailey and Orn",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 608,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "Id": 568,
+  "Name": "Armstrong Group",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 843,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Rowe-Marks",
-  "Tooltip": "labore",
+  "Id": 403,
+  "Name": "Purdy, Thiel and Swift",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 1000,
+  "Rank": 175,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "minima",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 45
     }
   }
 }

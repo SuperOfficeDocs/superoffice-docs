@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 241,
-    "Name": "Mayer-Nitzsche",
-    "ToolTip": "Sed quia cupiditate.",
-    "Deleted": false,
-    "Rank": 450,
-    "Type": "sint",
-    "ColorBlock": 820,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2010-12-14T13:13:32.7768241+01:00",
+    "Id": 43,
+    "Name": "Johnson, Ondricka and Buckridge",
+    "ToolTip": "Quos excepturi similique at corrupti enim et.",
+    "Deleted": true,
+    "Rank": 515,
+    "Type": "quis",
+    "ColorBlock": 47,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2009-07-30T12:01:33.4175965+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Okuneva Inc and Sons",
-        "ToolTip": "Alias mollitia qui iusto error.",
-        "Deleted": false,
-        "Rank": 800,
-        "Type": "sit",
-        "ColorBlock": 102,
-        "IconHint": "suscipit",
+        "Id": 11,
+        "Name": "Paucek-Schmidt",
+        "ToolTip": "Omnis ut amet laborum corrupti qui.",
+        "Deleted": true,
+        "Rank": 240,
+        "Type": "tempore",
+        "ColorBlock": 747,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2015-09-28T13:13:32.7768241+02:00",
+        "LastChanged": "2010-12-21T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "consectetur",
-        "Hidden": false,
-        "FullName": "Gerhard Jenkins",
+        "ExtraInfo": "eos",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Lily Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldType": "System.String",
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "minima",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Ruthe Mayert",
+    "FullName": "Watson Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849
+  "Id": 171
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 40,
-    "Name": "Kulas Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 223,
+    "Name": "Labadie Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 550,
-    "UdListDefinitionId": 877,
+    "Rank": 801,
+    "UdListDefinitionId": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 518
       }
     }
   }

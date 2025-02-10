@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Hermiston Group",
-    "ToolTip": "A eius doloremque incidunt.",
+    "Id": 746,
+    "Name": "Romaguera-Barton",
+    "ToolTip": "Molestiae est qui cupiditate quia.",
     "Deleted": false,
-    "Rank": 496,
-    "Type": "excepturi",
-    "ColorBlock": 204,
-    "IconHint": "velit",
+    "Rank": 905,
+    "Type": "dolorem",
+    "ColorBlock": 639,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2013-09-01T13:13:33.651626+02:00",
+    "LastChanged": "2013-08-12T12:01:33.6832402+02:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Balistreri LLC",
-        "ToolTip": "Non est rerum.",
-        "Deleted": false,
-        "Rank": 183,
-        "Type": "odit",
-        "ColorBlock": 349,
-        "IconHint": "dolorem",
+        "Id": 255,
+        "Name": "Zboncak Group",
+        "ToolTip": "Voluptatem ut harum tenetur fuga.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "ab",
+        "ColorBlock": 513,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2016-07-09T13:13:33.651626+02:00",
+        "LastChanged": "2006-10-13T12:01:33.6832402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "delectus",
+        "ExtraInfo": "vitae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Adrain Beahan V"
+        "FullName": "Mr. Thea Marquardt DVM"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "velit",
+    "ExtraInfo": "quos",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Dr. Frederique Elsa VonRueden V"
+    "FullName": "Izaiah Toy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Kshlerin, Gorczany and Watsica",
-    "ToolTip": "Non qui recusandae dolorum.",
+    "Id": 48,
+    "Name": "Leffler, Ziemann and Dach",
+    "ToolTip": "Fuga omnis quas facilis eligendi sed.",
     "Deleted": false,
-    "Rank": 729,
-    "Type": "quia",
-    "ColorBlock": 348,
-    "IconHint": "harum",
+    "Rank": 667,
+    "Type": "in",
+    "ColorBlock": 930,
+    "IconHint": "magnam",
     "Selected": true,
-    "LastChanged": "2005-03-05T13:13:33.651626+01:00",
+    "LastChanged": "2007-01-22T12:01:33.6832402+01:00",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Marquardt, Nitzsche and Wilkinson",
-        "ToolTip": "Ipsam minima debitis.",
+        "Id": 240,
+        "Name": "Wiza, Hudson and Schaden",
+        "ToolTip": "Et fugiat consequatur in a in nisi.",
         "Deleted": true,
-        "Rank": 296,
-        "Type": "similique",
-        "ColorBlock": 668,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2023-08-12T13:13:33.651626+02:00",
+        "Rank": 571,
+        "Type": "nisi",
+        "ColorBlock": 980,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "1999-03-10T12:01:33.6832402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "quos",
+        "ExtraInfo": "odit",
+        "StyleHint": "provident",
         "Hidden": false,
-        "FullName": "Prof. Floyd London Runolfsdottir I",
+        "FullName": "Melissa Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Elizabeth Howe",
+    "ExtraInfo": "possimus",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Madaline Carleton Stiedemann V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 441
       }
     }
   }

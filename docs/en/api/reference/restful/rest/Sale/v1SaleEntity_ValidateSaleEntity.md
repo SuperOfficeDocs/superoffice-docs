@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "ipsa",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-12-18T13:13:32.2924104+01:00",
-  "Amount": 8120.1939999999995,
-  "SaleId": 653,
-  "Earning": 1614.01,
-  "EarningPercent": 17544.131999999998,
-  "Heading": "consectetur",
-  "Number": "1099686",
-  "Probability": 160,
-  "CreatedDate": "1997-09-25T13:13:32.2924104+02:00",
-  "UpdatedDate": "2024-08-14T13:13:32.2924104+02:00",
+  "Saledate": "2011-10-28T12:01:33.1832049+02:00",
+  "Amount": 7462.054,
+  "SaleId": 608,
+  "Earning": 10232.51,
+  "EarningPercent": 1118.838,
+  "Heading": "at",
+  "Number": "1261306",
+  "Probability": 240,
+  "CreatedDate": "2010-06-07T12:01:33.1832049+02:00",
+  "UpdatedDate": "2001-02-03T12:01:33.1832049+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 864,
+  "ActiveLinks": 993,
   "Links": [
     {
-      "EntityName": "Grant, Brekke and Casper",
-      "Id": 477,
-      "Description": "Programmable needs-based ability",
-      "ExtraInfo": "corporis",
-      "LinkId": 220
+      "EntityName": "Gleichner, Morar and Orn",
+      "Id": 512,
+      "Description": "Synergized full-range capacity",
+      "ExtraInfo": "enim",
+      "LinkId": 489
     },
     {
-      "EntityName": "Grant, Brekke and Casper",
-      "Id": 477,
-      "Description": "Programmable needs-based ability",
-      "ExtraInfo": "corporis",
-      "LinkId": 220
+      "EntityName": "Gleichner, Morar and Orn",
+      "Id": 512,
+      "Description": "Synergized full-range capacity",
+      "ExtraInfo": "enim",
+      "LinkId": 489
     }
   ],
-  "NextDueDate": "2016-02-07T13:13:32.2924104+01:00",
-  "Postit": "aut",
+  "NextDueDate": "2017-09-23T12:01:33.1832049+02:00",
+  "Postit": "eos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-08-09T13:13:32.2924104+02:00",
+  "ReopenDate": "2001-08-19T12:01:33.1832049+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Rath, Schroeder and Kozey",
-      "Comment": "omnis",
-      "StakeholderRoleId": 509,
-      "CountryId": 727,
-      "PersonId": 375,
-      "EmailDescription": "karl_zulauf@bashirianlebsack.name",
-      "EmailId": 351,
-      "EmailAddress": "mackenzie@littlewalter.us",
-      "PhoneId": 13,
-      "ContactName": "Heathcote-Hettinger",
-      "ContactId": 752,
-      "SaleId": 905,
-      "Mrmrs": "ipsam",
-      "Firstname": "Graham",
-      "MiddleName": "Hodkiewicz, Leuschke and Emard",
-      "Lastname": "Price",
-      "SaleStakeholderId": 227,
-      "Rank": 91,
-      "Phone": "1-108-323-9108 x97188"
+      "StakeholderRoleName": "Koelpin-Runolfsdottir",
+      "Comment": "eum",
+      "StakeholderRoleId": 622,
+      "CountryId": 439,
+      "PersonId": 652,
+      "EmailDescription": "melba@kreiger.biz",
+      "EmailId": 790,
+      "EmailAddress": "diego@rau.us",
+      "PhoneId": 320,
+      "ContactName": "Stehr-Howell",
+      "ContactId": 153,
+      "SaleId": 111,
+      "Mrmrs": "sunt",
+      "Firstname": "Ruthie",
+      "MiddleName": "Hackett, Kreiger and Prosacco",
+      "Lastname": "Greenholt",
+      "SaleStakeholderId": 935,
+      "Rank": 877,
+      "Phone": "(246)542-5963 x13704"
     }
   ],
-  "ActiveErpLinks": 567,
+  "ActiveErpLinks": 611,
   "UserDefinedFields": {
-    "SuperOffice:1": "1946007648",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "68961446",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "molestias"
   },
-  "PublishEventDate": "2024-01-11T13:13:32.2924104+01:00",
-  "PublishTo": "2012-10-10T13:13:32.2924104+02:00",
-  "PublishFrom": "2001-10-26T13:13:32.2924104+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-05-26T12:01:33.1832049+02:00",
+  "PublishTo": "2011-07-01T12:01:33.1832049+02:00",
+  "PublishFrom": "2000-05-30T12:01:33.1832049+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 760,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "nihil"
     },
     {
-      "VisibleId": 760,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "nihil"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "in",
-  "2": "excepturi"
+  "1": "maiores",
+  "2": "et"
 }
 ```

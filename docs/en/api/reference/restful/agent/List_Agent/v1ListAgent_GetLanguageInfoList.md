@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 670,
-    "LCID": 323,
-    "EnglishName": "Konopelski, Connelly and Vandervort",
-    "NativeName": "Shanahan Group",
-    "ThreeLetterISOLanguageName": "Schoen, Barrows and Hane",
-    "TwoLetterISOLanguageName": "Morissette-Bashirian",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 204,
+    "LCID": 564,
+    "EnglishName": "Farrell, Hayes and Nienow",
+    "NativeName": "Collier Group",
+    "ThreeLetterISOLanguageName": "Olson-Hoppe",
+    "TwoLetterISOLanguageName": "Raynor-Jakubowski",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 68
       }
     }
   }

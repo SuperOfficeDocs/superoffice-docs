@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 52,
+  "CustConfigId": 554,
   "Type": "Options",
-  "Config": "eveniet",
-  "CustLangId": 650,
-  "Registered": "2011-04-24T13:13:22.5238611+02:00",
-  "RegisteredAssociateId": 279,
-  "Updated": "2001-10-19T13:13:22.5238611+02:00",
-  "UpdatedAssociateId": 454,
+  "Config": "iste",
+  "CustLangId": 303,
+  "Registered": "2013-12-29T12:01:27.5565162+01:00",
+  "RegisteredAssociateId": 395,
+  "Updated": "2016-01-17T12:01:27.5565162+01:00",
+  "UpdatedAssociateId": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

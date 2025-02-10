@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 576
+  "DocumentId": 772
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 92,
-  "Attention": "vitae",
-  "Header": "eaque",
-  "Name": "Mayer LLC",
-  "OurRef": "qui",
-  "YourRef": "est",
-  "Description": "Pre-emptive empowering complexity",
-  "DocumentTemplate": "aspernatur",
+  "DocumentId": 803,
+  "Attention": "sed",
+  "Header": "perferendis",
+  "Name": "Emmerich, Tremblay and Morissette",
+  "OurRef": "alias",
+  "YourRef": "voluptatum",
+  "Description": "Customer-focused eco-centric utilisation",
+  "DocumentTemplate": "explicabo",
   "IsPublished": false,
-  "PersonId": 787,
-  "PersonFullName": "Lyda Leuschke",
-  "AssociateFullName": "Taya Sawayn",
-  "ContactId": 723,
-  "ContactName": "Rodriguez-Labadie",
-  "ProjectId": 109,
-  "ProjectName": "Kohler, Becker and West",
-  "AssociateId": 521,
-  "Snum": 634,
-  "SaleId": 429,
-  "SaleName": "Spencer-O'Conner",
+  "PersonId": 837,
+  "PersonFullName": "Pearl Hintz",
+  "AssociateFullName": "Avery Emard",
+  "ContactId": 454,
+  "ContactName": "Nicolas Group",
+  "ProjectId": 274,
+  "ProjectName": "Runte Group",
+  "AssociateId": 995,
+  "Snum": 1001,
+  "SaleId": 673,
+  "SaleName": "Nienow, Lockman and Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

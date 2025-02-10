@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=possimus
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Roob Group",
-    "ToolTip": "Sunt iusto id accusamus quia earum ut.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "nesciunt",
+    "Id": 590,
+    "Name": "Kessler-Lehner",
+    "ToolTip": "Et animi ipsam.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Goyette-Runolfsdottir",
-        "ToolTip": "Officiis blanditiis et molestiae.",
-        "Deleted": true,
-        "Rank": 578,
-        "Type": "consequatur",
+        "Id": 527,
+        "Name": "Borer Group",
+        "ToolTip": "Et qui itaque beatae sequi.",
+        "Deleted": false,
+        "Rank": 107,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "impedit",
-        "ColorBlock": 962,
-        "ExtraInfo": "provident",
-        "StyleHint": "eaque",
-        "FullName": "Mr. Angus Loraine Nader",
+        "IconHint": "aperiam",
+        "ColorBlock": 790,
+        "ExtraInfo": "amet",
+        "StyleHint": "maiores",
+        "FullName": "Elnora Shanny Kuhlman IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 454
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 50,
-    "ExtraInfo": "est",
-    "StyleHint": "illum",
-    "FullName": "Kathleen Pollich",
+    "IconHint": "cumque",
+    "ColorBlock": 947,
+    "ExtraInfo": "et",
+    "StyleHint": "eos",
+    "FullName": "Mr. Fred Grimes II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 798
       }
     }
   }

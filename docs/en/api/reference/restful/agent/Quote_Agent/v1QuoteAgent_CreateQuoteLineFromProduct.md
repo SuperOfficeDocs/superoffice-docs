@@ -126,7 +126,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 546,
+  "QuoteAlternativeId": 729,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 533,
-  "ERPQuoteLineKey": "consectetur",
-  "QuoteAlternativeId": 38,
-  "ERPProductKey": "et",
+  "QuoteLineId": 138,
+  "ERPQuoteLineKey": "ea",
+  "QuoteAlternativeId": 100,
+  "ERPProductKey": "aperiam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23132.054,
-  "DeliveredQuantity": 10201.17,
-  "Rank": 521,
-  "Name": "Collins-Hilpert",
-  "Description": "Robust even-keeled circuit",
-  "Code": "ea",
-  "QuantityUnit": "suscipit",
-  "PriceUnit": "nesciunt",
-  "ItemNumber": "983005",
+  "Quantity": 26184.57,
+  "DeliveredQuantity": 10100.882,
+  "Rank": 323,
+  "Name": "Sporer, Christiansen and Stanton",
+  "Description": "Organic contextually-based Graphic Interface",
+  "Code": "laboriosam",
+  "QuantityUnit": "illo",
+  "PriceUnit": "voluptas",
+  "ItemNumber": "1286612",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "delectus",
-  "ProductTypeKey": "ut",
-  "Supplier": "molestiae",
-  "SupplierCode": "vel",
-  "Thumbnail": "sint",
-  "VATInfo": "accusantium",
-  "VAT": 6340.0819999999994,
-  "UnitCost": 3641.708,
-  "UnitMinimumPrice": 28876.676,
-  "UnitListPrice": 25714.469999999998,
+  "ProductFamilyKey": "rerum",
+  "ProductTypeKey": "ex",
+  "Supplier": "dignissimos",
+  "SupplierCode": "distinctio",
+  "Thumbnail": "nisi",
+  "VATInfo": "dignissimos",
+  "VAT": 17105.372,
+  "UnitCost": 2692.1059999999998,
+  "UnitMinimumPrice": 31148.825999999997,
+  "UnitListPrice": 17888.872,
   "ExtraInfo": [
     {
-      "Name": "O'Keefe, Kirlin and Abernathy",
-      "Value": "doloribus",
+      "Name": "Mayer Group",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 414
         }
       }
     },
     {
-      "Name": "O'Keefe, Kirlin and Abernathy",
-      "Value": "doloribus",
+      "Name": "Mayer Group",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 414
         }
       }
     }
   ],
-  "RawExtraInfo": "ex",
+  "RawExtraInfo": "ipsum",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 10661.868,
-  "SubscriptionStart": "2020-02-04T13:13:23.7581921+01:00",
-  "ERPDiscountPercent": 6960.614,
-  "ERPDiscountAmount": 22843.726,
-  "DiscountPercent": 22909.54,
-  "DiscountAmount": 23320.094,
+  "SubscriptionUnit": "cumque",
+  "SubscriptionQuantity": 21442.827999999998,
+  "SubscriptionStart": "2003-06-02T12:01:28.2128113+02:00",
+  "ERPDiscountPercent": 19459.005999999998,
+  "ERPDiscountAmount": 27510.252,
+  "DiscountPercent": 22834.324,
+  "DiscountAmount": 20988.398,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13385.314,
-  "EarningAmount": 27243.861999999997,
-  "SubTotal": 20891.244,
-  "TotalPrice": 21223.448,
-  "Rights": "sit",
-  "Rule": "quia",
-  "ExtraField1": "quia",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "consequuntur",
-  "ExtraField4": "odit",
-  "ExtraField5": "nihil",
+  "EarningPercent": 7665.764,
+  "EarningAmount": 11445.368,
+  "SubTotal": 21160.768,
+  "TotalPrice": 8580.892,
+  "Rights": "quibusdam",
+  "Rule": "consequuntur",
+  "ExtraField1": "molestiae",
+  "ExtraField2": "qui",
+  "ExtraField3": "id",
+  "ExtraField4": "et",
+  "ExtraField5": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 455
     }
   }
 }

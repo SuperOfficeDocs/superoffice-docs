@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 723,
+    "HierarchyId": 164,
     "Domain": "Dashboards",
-    "Name": "Mueller Inc and Sons",
-    "Fullname": "harum",
-    "ParentId": 768,
+    "Name": "Robel-Larson",
+    "Fullname": "assumenda",
+    "ParentId": 981,
     "Children": [
       {
-        "HierarchyId": 472,
+        "HierarchyId": 240,
         "Domain": "Dashboards",
-        "Name": "Halvorson Inc and Sons",
-        "Fullname": "optio",
-        "ParentId": 332,
+        "Name": "Kutch Inc and Sons",
+        "Fullname": "corporis",
+        "ParentId": 457,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2022-10-06T13:13:23.3051742+02:00",
-        "RegisteredAssociateId": 259,
-        "Updated": "2019-07-29T13:13:23.3051742+02:00",
-        "UpdatedAssociateId": 578,
+        "Registered": "2011-08-23T12:01:27.9627939+02:00",
+        "RegisteredAssociateId": 697,
+        "Updated": "2012-07-02T12:01:27.9627939+02:00",
+        "UpdatedAssociateId": 935,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldLength": 18
           }
         }
       }
     ],
-    "Registered": "2015-05-28T13:13:23.3051742+02:00",
-    "RegisteredAssociateId": 333,
-    "Updated": "2018-10-15T13:13:23.3051742+02:00",
-    "UpdatedAssociateId": 7,
+    "Registered": "1999-06-13T12:01:27.9627939+02:00",
+    "RegisteredAssociateId": 533,
+    "Updated": "2008-05-26T12:01:27.9627939+02:00",
+    "UpdatedAssociateId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 995
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Kassulke Group",
-    "ToolTip": "Eum adipisci aliquam dignissimos.",
+    "Id": 480,
+    "Name": "Beier-Lemke",
+    "ToolTip": "Nihil vitae recusandae qui.",
     "Deleted": false,
-    "Rank": 556,
-    "Type": "praesentium",
-    "ColorBlock": 220,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2009-05-26T13:13:33.370443+02:00",
+    "Rank": 482,
+    "Type": "molestias",
+    "ColorBlock": 957,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2003-01-04T12:01:33.5894836+01:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Johnston Inc and Sons",
-        "ToolTip": "Voluptatem animi consequuntur qui aut alias.",
-        "Deleted": false,
-        "Rank": 113,
-        "Type": "corporis",
-        "ColorBlock": 657,
-        "IconHint": "odio",
+        "Id": 198,
+        "Name": "Gutmann Group",
+        "ToolTip": "Reprehenderit aperiam voluptate occaecati sit.",
+        "Deleted": true,
+        "Rank": 379,
+        "Type": "laudantium",
+        "ColorBlock": 952,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2015-09-02T13:13:33.370443+02:00",
+        "LastChanged": "2017-01-27T12:01:33.5894836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "omnis",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Brent McGlynn",
+        "FullName": "Christina Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 973
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Dr. Kobe Jett Barrows",
+    "ExtraInfo": "porro",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Dr. Lexus Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 804
       }
     }
   }

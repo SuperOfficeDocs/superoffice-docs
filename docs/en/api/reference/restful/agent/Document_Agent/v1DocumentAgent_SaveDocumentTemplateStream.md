@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 605,
+  "DocumentTemplateId": 120,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quos",
-  "PluginId": 36
+  "LanguageCode": "placeat",
+  "PluginId": 378
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "D'Amore, Keebler and O'Kon",
-  "Description": "Open-architected eco-centric product",
-  "ExternalReference": "cumque",
-  "MimeType": "ullam",
-  "PluginId": 165
+  "Name": "Runolfsson LLC",
+  "Description": "Triple-buffered executive initiative",
+  "ExternalReference": "quo",
+  "MimeType": "ut",
+  "PluginId": 20
 }
 ```

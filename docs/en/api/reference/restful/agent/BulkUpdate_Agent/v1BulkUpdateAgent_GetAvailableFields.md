@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "dolorem",
-    "ValueType": "voluptatem",
-    "Mandatory": true,
-    "EncodedDisplayName": "Hoppe Inc and Sons",
-    "EncodedDisplayDescription": "Phased hybrid challenge",
-    "IconHint": "unde",
+    "IsActive": false,
+    "Key": "similique",
+    "ValueType": "id",
+    "Mandatory": false,
+    "EncodedDisplayName": "Hickle-Stanton",
+    "EncodedDisplayDescription": "Progressive full-range functionalities",
+    "IconHint": "quas",
     "ControlInfos": [
       {
-        "Type": "repellendus",
-        "Label": "repellat",
-        "Dimension": 88,
-        "ListProviderName": "Gottlieb, Dietrich and Hartmann",
-        "ListProviderExtraInfo": "quis",
-        "ListProviderPrimaryKeyName": "Jerde, Terry and Mante",
-        "ListLeadText": "neque",
+        "Type": "ut",
+        "Label": "dicta",
+        "Dimension": 982,
+        "ListProviderName": "Lehner, Windler and Jenkins",
+        "ListProviderExtraInfo": "sapiente",
+        "ListProviderPrimaryKeyName": "Greenfelder LLC",
+        "ListLeadText": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldLength": 23
           }
         }
       }
     ],
-    "EncodedDataCaption": "fuga",
-    "EncodedDataCaptionDescription": "Distributed systematic initiative",
-    "CurrentOperationType": "dolorem",
+    "EncodedDataCaption": "asperiores",
+    "EncodedDataCaptionDescription": "Managed local artificial intelligence",
+    "CurrentOperationType": "quia",
     "Values": [
       "non",
-      "enim"
+      "tenetur"
     ],
     "DisplayValues": [
-      "neque",
-      "asperiores"
+      "eum",
+      "maxime"
     ],
     "OperationInfos": [
       {
-        "Key": "eos",
-        "EncodedDisplayName": "Nader-Walsh",
+        "Key": "odio",
+        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
         "EncodedLeadTexts": [
-          "quam",
-          "veniam"
+          "sit",
+          "dignissimos"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldLength": 114
           }
         }
       },
       {
-        "Key": "eos",
-        "EncodedDisplayName": "Nader-Walsh",
+        "Key": "odio",
+        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
         "EncodedLeadTexts": [
-          "quam",
-          "veniam"
+          "sit",
+          "dignissimos"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldLength": 114
           }
         }
       }

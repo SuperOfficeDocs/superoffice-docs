@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Leuschke, Ritchie and Hammes",
-      "Operator": "sapiente",
+      "Name": "Lang, Bradtke and Thiel",
+      "Operator": "voluptatibus",
       "Values": [
-        "et",
-        "ut"
+        "doloribus",
+        "repellat"
       ],
       "DisplayValues": [
-        "soluta",
-        "non"
+        "impedit",
+        "quas"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 235,
+      "InterParenthesis": 813,
       "InterOperator": "And",
-      "UniqueHash": 209
+      "UniqueHash": 729
     }
   ],
   "Columns": [
-    "quis",
-    "dolor"
+    "asperiores",
+    "assumenda"
   ],
-  "ConnectionId": 536,
+  "ConnectionId": 327,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "optio",
-        "veniam"
+        "ullam",
+        "sint"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "placeat",
+      "ExternalKey": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 484
+          "FieldLength": 125
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Bernhard Inc and Sons",
-      "DisplayName": "Conn-McClure",
-      "Locked": false,
+      "Name": "Murphy, Nicolas and Waters",
+      "DisplayName": "Gerhold-Littel",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 194
         }
       }
     },
     {
-      "Name": "Bernhard Inc and Sons",
-      "DisplayName": "Conn-McClure",
-      "Locked": false,
+      "Name": "Murphy, Nicolas and Waters",
+      "DisplayName": "Gerhold-Littel",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 194
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 319
     }
   }
 }

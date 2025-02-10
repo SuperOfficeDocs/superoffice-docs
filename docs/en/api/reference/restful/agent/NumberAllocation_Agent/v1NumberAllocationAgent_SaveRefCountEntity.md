@@ -87,34 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 316,
-  "Field": "incidunt",
-  "RecordId": 326,
+  "RefCountsId": 507,
+  "Field": "perspiciatis",
+  "RecordId": 802,
   "SuggestedRecords": [
     {
-      "Id": 684,
-      "Name": "Bailey Group",
-      "ToolTip": "Voluptatem sed culpa molestias.",
+      "Id": 16,
+      "Name": "Dach-Dach",
+      "ToolTip": "Natus molestias alias at cumque.",
       "Deleted": true,
-      "Rank": 481,
-      "Type": "est",
+      "Rank": 954,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolore",
-      "ColorBlock": 498,
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "veritatis",
-      "FullName": "Dawn Krajcik"
+      "IconHint": "inventore",
+      "ColorBlock": 176,
+      "ExtraInfo": "nulla",
+      "StyleHint": "soluta",
+      "FullName": "Candida Ondricka"
     }
   ],
-  "CurrentValue": 122,
-  "TravelPrefix": 31,
-  "SatPrefix": 864,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": false,
+  "CurrentValue": 482,
+  "TravelPrefix": 964,
+  "SatPrefix": 881,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 633,
-  "Field": "quam",
-  "RecordId": 712,
+  "RefCountsId": 612,
+  "Field": "possimus",
+  "RecordId": 817,
   "SuggestedRecords": [
     {
-      "Id": 452,
-      "Name": "Ziemann LLC",
-      "ToolTip": "Dolor quo aliquid totam laboriosam enim.",
-      "Deleted": false,
-      "Rank": 371,
-      "Type": "impedit",
+      "Id": 704,
+      "Name": "Hermann-Schumm",
+      "ToolTip": "Quisquam non iste praesentium.",
+      "Deleted": true,
+      "Rank": 65,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "incidunt",
-      "ColorBlock": 81,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "explicabo",
-      "FullName": "Miss Velda Kaylie Wilkinson DVM",
+      "IconHint": "possimus",
+      "ColorBlock": 645,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "quae",
+      "FullName": "Viviane Johnston V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldLength": 748
         }
       }
     }
   ],
-  "CurrentValue": 327,
-  "TravelPrefix": 994,
-  "SatPrefix": 851,
-  "Allocate": true,
+  "CurrentValue": 938,
+  "TravelPrefix": 328,
+  "SatPrefix": 377,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
   "AllowBlank": true,
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 774
     }
   }
 }

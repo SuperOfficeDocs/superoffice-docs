@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Breitenberg-Runolfsdottir",
-  "Tooltip": "in",
+  "Id": 660,
+  "Name": "Shields-Kuvalis",
+  "Tooltip": "minus",
   "Deleted": true,
-  "Rank": 755,
-  "IsCustomList": false,
+  "Rank": 690,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Torphy Group",
-  "Tooltip": "dicta",
+  "Id": 38,
+  "Name": "Mayert-Grant",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 897,
+  "Rank": 201,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

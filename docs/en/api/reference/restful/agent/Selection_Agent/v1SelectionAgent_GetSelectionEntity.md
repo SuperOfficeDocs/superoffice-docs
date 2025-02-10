@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=360
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=235
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual even-keeled support",
-  "Postit": "voluptate",
+  "Description": "Versatile intermediate open architecture",
+  "Postit": "animi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 305,
-  "IncludePerson": 430,
+  "GroupIdx": 490,
+  "IncludePerson": 317,
   "MemberCount": 99.99,
-  "Name": "Lemke Inc and Sons",
-  "PostitTextId": 269,
-  "CreatedDate": "1999-05-31T13:13:23.9153174+02:00",
-  "SelectionId": 193,
-  "SoundEx": "laborum",
-  "Source": 117,
-  "TextId": 890,
-  "UpdatedDate": "2011-08-29T13:13:23.9153174+02:00",
-  "UpdatedCount": 505,
-  "Visibility": 510,
+  "Name": "Rutherford Group",
+  "PostitTextId": 687,
+  "CreatedDate": "1998-10-26T12:01:28.2909425+01:00",
+  "SelectionId": 592,
+  "SoundEx": "iure",
+  "Source": 559,
+  "TextId": 790,
+  "UpdatedDate": "2014-01-10T12:01:28.2909425+01:00",
+  "UpdatedCount": 554,
+  "Visibility": 661,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 768,
-  "TargetTableName": "Quitzon LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 482,
+  "TargetTableName": "Daniel-Cassin",
   "Completed": false,
-  "LeftSelectionId": 211,
-  "RightSelectionId": 769,
+  "LeftSelectionId": 565,
+  "RightSelectionId": 45,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Watsica-Cruickshank",
-  "ShadowProviderName": "Metz Inc and Sons",
-  "ChartKey": "earum",
-  "LastLoaded": "1999-03-12T13:13:23.9153174+01:00",
-  "LastLoadedBy": 349,
+  "MainProviderName": "Konopelski-Franecki",
+  "ShadowProviderName": "Bartoletti LLC",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2004-09-15T12:01:28.2909425+02:00",
+  "LastLoadedBy": 917,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-08-18T13:13:23.9153174+02:00",
-  "LastMembershipChangeBy": 16,
+  "LastMembershipChange": "2024-04-28T12:01:28.2909425+02:00",
+  "LastMembershipChangeBy": 842,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "placeat",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Windler-Schmeler",
-  "DashboardTileDefinitionId": 740,
+  "MainHeading": "quod",
+  "MemberTabHeading": "distinctio",
+  "MailingsProviderName": "Grant, Schumm and Kuhlman",
+  "DashboardTileDefinitionId": 212,
   "VisibleFor": [
     {
-      "VisibleId": 890,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 344
         }
       }
     },
     {
-      "VisibleId": 890,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 344
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

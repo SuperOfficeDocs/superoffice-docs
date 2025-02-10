@@ -87,18 +87,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quaerat",
-  "ProviderName": "Thompson Group",
-  "StorageKey": "molestias",
+  "StorageType": "recusandae",
+  "ProviderName": "Price-Wolf",
+  "StorageKey": "beatae",
   "DesiredColumnNames": [
-    "Mitchell Inc and Sons",
-    "Schuppe, Ward and Ruecker"
+    "Price, Gleason and Kub",
+    "Kshlerin Group"
   ],
   "StaticColumns": [
-    "reprehenderit",
-    "rerum"
+    "eaque",
+    "similique"
   ],
-  "Context": "et"
+  "Context": "eos"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kling-Medhurst",
-      "Operator": "magnam",
+      "Name": "Kuphal, Reinger and Carter",
+      "Operator": "sint",
       "Values": [
-        "repudiandae",
-        "consequatur"
+        "atque",
+        "doloribus"
       ],
       "DisplayValues": [
-        "esse",
-        "earum"
+        "nesciunt",
+        "fuga"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 596,
+      "InterParenthesis": 790,
       "InterOperator": "And",
-      "UniqueHash": 542
+      "UniqueHash": 645
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kirlin Group",
-      "DisplayTooltip": "ut",
-      "DisplayType": "incidunt",
+      "DisplayName": "Zboncak Inc and Sons",
+      "DisplayTooltip": "dolores",
+      "DisplayType": "ab",
       "CanOrderBy": false,
-      "Name": "Gusikowski-Hintz",
+      "Name": "Glover-Rutherford",
       "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Bauch-Hegmann",
+      "RestrictionType": "quo",
+      "RestrictionListName": "Gislason, Ziemann and McClure",
       "IsVisible": false,
-      "ExtraInfo": "sint",
-      "Width": "sed",
-      "IconHint": "cum",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "nemo",
+      "Width": "sint",
+      "IconHint": "aut",
+      "HeadingIconHint": "similique"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Mertz Inc and Sons",
-      "PrimaryKey": 498,
+      "EntityName": "Goldner Group",
+      "PrimaryKey": 995,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ipsam",
-          "TooltipHint": "quis",
-          "LinkHint": "id"
+          "DisplayValue": "dolor",
+          "TooltipHint": "voluptas",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "saepe",
+      "LinkHint": "minima",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 290
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Murray Inc and Sons",
-      "Description": "Advanced multi-state local area network",
-      "Rank": 212,
+      "Name": "Gutmann, Powlowski and Purdy",
+      "Description": "Up-sized transitional website",
+      "Rank": 604,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Murray Inc and Sons",
-      "Description": "Advanced multi-state local area network",
-      "Rank": 212,
+      "Name": "Gutmann, Powlowski and Purdy",
+      "Description": "Up-sized transitional website",
+      "Rank": 604,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

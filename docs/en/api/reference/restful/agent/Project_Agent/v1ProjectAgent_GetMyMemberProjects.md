@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 610,
-    "Name": "Mayert, Lubowitz and Will",
-    "Description": "Diverse asynchronous conglomeration",
+    "ProjectId": 123,
+    "Name": "Thiel LLC",
+    "Description": "Pre-emptive full-range alliance",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 450,
-    "AssociateFullName": "Verna Jaskolski",
-    "TypeId": 806,
-    "Updated": "2006-08-20T13:13:23.664465+02:00",
-    "StatusId": 806,
-    "Status": "culpa",
-    "TextId": 474,
-    "PublishTo": "2016-02-18T13:13:23.664465+01:00",
-    "PublishFrom": "1998-08-09T13:13:23.664465+02:00",
+    "Type": "pariatur",
+    "AssociateId": 735,
+    "AssociateFullName": "Elise Hermiston",
+    "TypeId": 267,
+    "Updated": "1998-03-10T12:01:28.1659327+01:00",
+    "StatusId": 498,
+    "Status": "repellat",
+    "TextId": 204,
+    "PublishTo": "2019-02-01T12:01:28.1659327+01:00",
+    "PublishFrom": "2018-08-30T12:01:28.1659327+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1333042",
-    "ActiveErpLinks": 17,
+    "ProjectNumber": "1331069",
+    "ActiveErpLinks": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldType": "System.Int32",
+        "FieldLength": 414
       }
     }
   }

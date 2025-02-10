@@ -78,11 +78,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 607,
-  "UserName": "Streich-Lang",
-  "Password": "omnis",
+  "AssociateId": 792,
+  "UserName": "Rath-Altenwerth",
+  "Password": "non",
   "IsActive": true,
-  "RoleId": 249,
+  "RoleId": 18,
   "ExternalUserInfoModification": "Active"
 }
 ```

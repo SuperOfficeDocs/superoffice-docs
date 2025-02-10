@@ -95,6 +95,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +116,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "consequatur",
-    "PersonId": 350,
-    "Mrmrs": "odio",
-    "Firstname": "Karley",
-    "Lastname": "Sauer",
-    "MiddleName": "Will LLC",
-    "Title": "molestias",
-    "Description": "Implemented value-added solution",
-    "Email": "jess.jewess@oconner.ca",
-    "FullName": "Nella Willms",
-    "DirectPhone": "1-196-428-0613 x65843",
-    "FormalName": "Satterfield-Hayes",
-    "CountryId": 430,
-    "ContactId": 966,
-    "ContactName": "Hansen, Casper and Osinski",
-    "Retired": 909,
-    "Rank": 640,
-    "ActiveInterests": 490,
+    "Position": "eaque",
+    "PersonId": 296,
+    "Mrmrs": "ut",
+    "Firstname": "Jamar",
+    "Lastname": "Pagac",
+    "MiddleName": "Borer-Muller",
+    "Title": "veniam",
+    "Description": "Cross-platform 24/7 capacity",
+    "Email": "abbigail@pfefferohara.info",
+    "FullName": "Allen Wiegand",
+    "DirectPhone": "1-627-252-3803 x8725",
+    "FormalName": "Bednar, Shanahan and Shanahan",
+    "CountryId": 902,
+    "ContactId": 767,
+    "ContactName": "Dickinson, Gaylord and Ledner",
+    "Retired": 679,
+    "Rank": 305,
+    "ActiveInterests": 807,
     "ContactDepartment": "",
-    "ContactCountryId": 167,
-    "ContactOrgNr": "557416",
-    "FaxPhone": "194-556-3423",
-    "MobilePhone": "315-512-2101 x9872",
-    "ContactPhone": "814.608.2129 x38008",
-    "AssociateName": "Champlin, Langosh and Balistreri",
-    "AssociateId": 256,
+    "ContactCountryId": 781,
+    "ContactOrgNr": "1019685",
+    "FaxPhone": "1-198-936-3698 x0372",
+    "MobilePhone": "1-159-503-0209 x697",
+    "ContactPhone": "348-647-8107",
+    "AssociateName": "Heller Inc and Sons",
+    "AssociateId": 149,
     "UsePersonAddress": false,
-    "ContactFax": "explicabo",
-    "Kanafname": "odit",
-    "Kanalname": "sit",
-    "Post1": "sit",
-    "Post2": "eos",
-    "Post3": "suscipit",
-    "EmailName": "rachelle_buckridge@waelchivolkman.us",
-    "ContactFullName": "Keshawn Balistreri",
-    "ActiveErpLinks": 793,
-    "TicketPriorityId": 679,
-    "SupportLanguageId": 916,
-    "SupportAssociateId": 11,
+    "ContactFax": "eum",
+    "Kanafname": "facilis",
+    "Kanalname": "ab",
+    "Post1": "quam",
+    "Post2": "reprehenderit",
+    "Post3": "ut",
+    "EmailName": "teresa.stoltenberg@kautzerhayes.name",
+    "ContactFullName": "Mr. Trycia Waters",
+    "ActiveErpLinks": 338,
+    "TicketPriorityId": 381,
+    "SupportLanguageId": 232,
+    "SupportAssociateId": 80,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "1099196",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 676
       }
     }
   }

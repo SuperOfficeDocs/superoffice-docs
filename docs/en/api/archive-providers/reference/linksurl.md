@@ -40,7 +40,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksURL?$select=sourceProjectRestrictionId,sourceSelectionRestrictionId
+GET /api/v1/archive/LinksURL?$select=sourceDocumentRestrictionId,sourceSelectionRestrictionId,sourceProjectRestrictionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

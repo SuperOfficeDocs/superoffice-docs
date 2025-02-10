@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 643,
-  "Id": 418,
-  "HistoryName": "Smith-Ruecker",
-  "HistoryId": 898,
-  "AssociateId": 732,
-  "Name": "O'Kon LLC",
-  "ItemInfo": "pariatur",
+  "Rank": 369,
+  "Id": 899,
+  "HistoryName": "Koss, Schultz and Stoltenberg",
+  "HistoryId": 186,
+  "AssociateId": 121,
+  "Name": "Ritchie Inc and Sons",
+  "ItemInfo": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 528
     }
   }
 }

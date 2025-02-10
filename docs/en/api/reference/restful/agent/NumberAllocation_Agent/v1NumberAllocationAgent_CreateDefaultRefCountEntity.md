@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 94,
-  "Field": "autem",
-  "RecordId": 434,
+  "RefCountsId": 962,
+  "Field": "nisi",
+  "RecordId": 655,
   "SuggestedRecords": [
     {
-      "Id": 525,
-      "Name": "Ebert Inc and Sons",
-      "ToolTip": "Eum quia natus omnis fuga blanditiis alias magni.",
-      "Deleted": false,
-      "Rank": 691,
-      "Type": "porro",
+      "Id": 735,
+      "Name": "Altenwerth Group",
+      "ToolTip": "Aut omnis numquam omnis.",
+      "Deleted": true,
+      "Rank": 838,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ex",
-      "ColorBlock": 871,
-      "ExtraInfo": "qui",
-      "StyleHint": "maiores",
-      "FullName": "Lula Gottlieb",
+      "IconHint": "ut",
+      "ColorBlock": 337,
+      "ExtraInfo": "natus",
+      "StyleHint": "architecto",
+      "FullName": "Katheryn Muller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 393
         }
       }
     }
   ],
-  "CurrentValue": 508,
-  "TravelPrefix": 622,
-  "SatPrefix": 568,
+  "CurrentValue": 440,
+  "TravelPrefix": 926,
+  "SatPrefix": 278,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 272
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Howell LLC"
+  "ApplicationName": "Ritchie Group"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 468,
-  "Name": "Carter Inc and Sons",
-  "CreatedDate": "2006-01-17T13:13:23.1802042+01:00",
-  "UpdatedDate": "2012-02-10T13:13:23.1802042+01:00",
-  "AssociateFullName": "Dr. Jewel Miller",
-  "CreatedBy": "quis",
-  "UpdatedBy": "impedit",
-  "DeviceIdentifier": "a",
+  "ForeignDeviceId": 941,
+  "Name": "Bauch LLC",
+  "CreatedDate": "1999-12-19T12:01:27.9002891+01:00",
+  "UpdatedDate": "2008-09-18T12:01:27.9002891+02:00",
+  "AssociateFullName": "Dr. Mike Lehner",
+  "CreatedBy": "laborum",
+  "UpdatedBy": "iusto",
+  "DeviceIdentifier": "necessitatibus",
   "ForeignAppId": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 988
     }
   }
 }

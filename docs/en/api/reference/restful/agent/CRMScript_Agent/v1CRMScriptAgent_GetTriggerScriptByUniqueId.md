@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "dolor"
+  "TriggerScriptUniqueId": "ut"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 526,
-  "Name": "Von Inc and Sons",
+  "ScreenChooserId": 468,
+  "Name": "Gaylord, Schowalter and Schulist",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "illo",
-  "Source": "recusandae",
-  "Registered": "2003-03-20T13:13:22.5238611+01:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2021-04-10T13:13:22.5238611+02:00",
-  "UpdatedAssociateId": 897,
+  "Enabled": true,
+  "UniqueIdentifier": "dolores",
+  "Source": "voluptatem",
+  "Registered": "2018-10-06T12:01:27.5408902+02:00",
+  "RegisteredAssociateId": 75,
+  "Updated": "2012-12-24T12:01:27.5408902+01:00",
+  "UpdatedAssociateId": 21,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

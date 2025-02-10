@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "non",
-  "MinDate": "2024-12-19T13:13:23.5863599+01:00",
-  "MaxDate": "2008-12-12T13:13:23.5863599+01:00"
+  "LastHash": "sunt",
+  "MinDate": "2012-12-16T12:01:28.1190543+01:00",
+  "MaxDate": "2009-12-19T12:01:28.1190543+01:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "maiores",
+  "CallerIDHash": "dolorem",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 653,
-      "PersonId": 337,
-      "PersonName": "Hegmann, Baumbach and Gorczany",
-      "Mrmrs": "eos",
-      "ContactId": 664,
-      "ContactName": "Kunde, Waelchi and Mraz"
+      "DialInPrefix": 93,
+      "PersonId": 465,
+      "PersonName": "O'Kon-Weimann",
+      "Mrmrs": "voluptatibus",
+      "ContactId": 274,
+      "ContactName": "DuBuque Inc and Sons"
     }
   ]
 }

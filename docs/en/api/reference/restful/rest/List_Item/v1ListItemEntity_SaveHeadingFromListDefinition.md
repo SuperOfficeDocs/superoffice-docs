@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 181,
-  "Name": "Willms LLC",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 261,
+  "Name": "Batz, Erdman and Waelchi",
+  "Tooltip": "beatae",
   "Deleted": true,
-  "Rank": 9,
-  "UdListDefinitionId": 442
+  "Rank": 519,
+  "UdListDefinitionId": 304
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 223,
-  "Name": "Gaylord-Lakin",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 702,
-  "UdListDefinitionId": 323,
+  "HeadingId": 802,
+  "Name": "Schamberger Group",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 759,
+  "UdListDefinitionId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 52
     }
   }
 }

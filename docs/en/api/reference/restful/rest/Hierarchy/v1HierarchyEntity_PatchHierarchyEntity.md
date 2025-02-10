@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "assumenda",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "assumenda",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 429,
+  "HierarchyId": 686,
   "Domain": "Dashboards",
-  "Name": "Rice-Ratke",
-  "Fullname": "voluptatem",
-  "ParentId": 702,
+  "Name": "Wuckert Inc and Sons",
+  "Fullname": "eius",
+  "ParentId": 188,
   "Children": [
     {
-      "HierarchyId": 760,
+      "HierarchyId": 737,
       "Domain": "Dashboards",
-      "Name": "Bernhard Group",
-      "Fullname": "sunt",
-      "ParentId": 415,
+      "Name": "Sawayn, Conroy and Rohan",
+      "Fullname": "quis",
+      "ParentId": 455,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-10-20T13:13:31.7613495+02:00",
-      "RegisteredAssociateId": 688,
-      "Updated": "2010-07-17T13:13:31.7613495+02:00",
-      "UpdatedAssociateId": 131,
+      "Registered": "2022-12-18T12:01:32.9175621+01:00",
+      "RegisteredAssociateId": 8,
+      "Updated": "2008-10-01T12:01:32.9175621+02:00",
+      "UpdatedAssociateId": 260,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldType": "System.String",
+          "FieldLength": 670
         }
       }
     }
   ],
-  "Registered": "2006-07-11T13:13:31.7613495+02:00",
-  "RegisteredAssociateId": 458,
-  "Updated": "2008-09-05T13:13:31.7613495+02:00",
-  "UpdatedAssociateId": 136,
+  "Registered": "2019-08-13T12:01:32.9175621+02:00",
+  "RegisteredAssociateId": 291,
+  "Updated": "2002-08-31T12:01:32.9175621+02:00",
+  "UpdatedAssociateId": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   },
   "_Links": {

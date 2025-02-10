@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 123,
+  "TicketMessageEntityId": 203,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 310,
+  "EjMessageId": 416,
   "Ticket": null,
-  "CreatedAt": "2001-06-11T13:13:24.024762+02:00",
+  "CreatedAt": "2019-10-07T12:01:28.3378207+02:00",
   "CreatedBy": null,
-  "Author": "hic",
+  "Author": "quia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quibusdam",
-  "TimeSpent": 863,
-  "Body": "minima",
-  "HtmlBody": "neque",
-  "EmailHeader": "noemie@weissnat.biz",
-  "DebugInfo": "qui",
-  "MailSorter": "quos",
+  "MessageId": "molestiae",
+  "TimeSpent": 736,
+  "Body": "aut",
+  "HtmlBody": "dignissimos",
+  "EmailHeader": "freddie@schulistromaguera.ca",
+  "DebugInfo": "est",
+  "MailSorter": "adipisci",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magni",
+  "SearchTitle": "odit",
   "MessageHeaders": [
     {
-      "Id": 708,
-      "Name": "Lueilwitz, Klein and Kling",
-      "Value": "molestiae",
+      "Id": 652,
+      "Name": "Yundt, Parisian and Carter",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quam",
-  "Sentiment": 597,
-  "SentimentConfidence": 878,
+  "Important": true,
+  "Language": "impedit",
+  "Sentiment": 183,
+  "SentimentConfidence": 961,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 234,
-      "Name": "Abshire-Jast",
-      "ContentType": "et",
-      "AttSize": 935,
-      "InlineImage": false,
-      "ContentId": "rerum",
-      "AuthKey": "facilis",
+      "AttachmentId": 532,
+      "Name": "Farrell, Beahan and Hickle",
+      "ContentType": "dolores",
+      "AttSize": 621,
+      "InlineImage": true,
+      "ContentId": "saepe",
+      "AuthKey": "veritatis",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "rem"
+    "CustomFields1": "quos",
+    "CustomFields2": "doloribus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 54
     }
   }
 }

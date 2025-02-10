@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 566
+  "ChatSessionId": 719
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 222,
-  "TopicId": 80,
+  "ChatSessionId": 331,
+  "TopicId": 502,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "adipisci",
-  "CustomerName": "Thompson LLC",
-  "CustomerEmail": "herman@bradtkemedhurst.uk",
-  "CustomerPhone": "(682)613-9453 x62716",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hills Inc and Sons",
+  "CustomerAlias": "rem",
+  "CustomerHost": "voluptatum",
+  "CustomerName": "Schuster Group",
+  "CustomerEmail": "edgardo_ondricka@hilll.co.uk",
+  "CustomerPhone": "1-737-895-5281 x48094",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hansen, Douglas and Osinski",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "commodi",
-  "WhenRequested": "2016-05-27T13:13:22.2426823+02:00",
-  "WhenStarted": "2002-08-08T13:13:22.2426823+02:00",
-  "WhenEnded": "2000-07-18T13:13:22.2426823+02:00",
-  "WhenIdle": "2009-02-28T13:13:22.2426823+01:00",
-  "WhenFetched": "2008-06-28T13:13:22.2426823+02:00",
-  "SessionKey": "modi",
-  "InitialQueuePos": 454,
-  "AlertLevel": 237,
-  "Rank": 646,
+  "FirstMessage": "eos",
+  "LastMessage": "reiciendis",
+  "WhenRequested": "2021-01-10T12:01:27.4002546+01:00",
+  "WhenStarted": "2013-12-25T12:01:27.4002546+01:00",
+  "WhenEnded": "2000-07-13T12:01:27.4002546+02:00",
+  "WhenIdle": "1998-02-25T12:01:27.4002546+01:00",
+  "WhenFetched": "2019-05-05T12:01:27.4002546+02:00",
+  "SessionKey": "dolore",
+  "InitialQueuePos": 396,
+  "AlertLevel": 594,
+  "Rank": 481,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 501,
+  "Rating": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 948,
+  "HierarchyId": 330,
   "Domain": "Dashboards",
-  "Name": "Fritsch, Borer and Kling",
-  "Fullname": "et",
-  "ParentId": 323,
+  "Name": "Zboncak Inc and Sons",
+  "Fullname": "occaecati",
+  "ParentId": 512,
   "Children": [
     {
-      "HierarchyId": 660,
+      "HierarchyId": 63,
       "Domain": "Dashboards",
-      "Name": "Hermann, Kuhic and Bauch",
-      "Fullname": "voluptatum",
-      "ParentId": 459,
+      "Name": "Wintheiser-Feest",
+      "Fullname": "veniam",
+      "ParentId": 316,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-07-11T13:13:31.7613495+02:00",
-      "RegisteredAssociateId": 33,
-      "Updated": "2021-03-14T13:13:31.7613495+01:00",
-      "UpdatedAssociateId": 799,
+      "Registered": "2020-10-01T12:01:32.933188+02:00",
+      "RegisteredAssociateId": 126,
+      "Updated": "2013-01-03T12:01:32.933188+01:00",
+      "UpdatedAssociateId": 111,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 192
         }
       }
     }
   ],
-  "Registered": "1997-12-17T13:13:31.7613495+01:00",
-  "RegisteredAssociateId": 354,
-  "Updated": "2003-06-14T13:13:31.7613495+02:00",
-  "UpdatedAssociateId": 288,
+  "Registered": "2017-04-04T12:01:32.933188+02:00",
+  "RegisteredAssociateId": 657,
+  "Updated": "2013-03-16T12:01:32.933188+01:00",
+  "UpdatedAssociateId": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 93
     }
   }
 }

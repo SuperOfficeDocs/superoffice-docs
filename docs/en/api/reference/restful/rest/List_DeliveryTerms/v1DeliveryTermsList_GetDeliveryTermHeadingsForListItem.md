@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Hirthe LLC",
-    "ToolTip": "Temporibus et dignissimos aut quo.",
-    "Deleted": true,
-    "Rank": 105,
-    "Type": "sunt",
-    "ColorBlock": 499,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2017-12-22T13:13:33.042395+01:00",
+    "Id": 220,
+    "Name": "Yost LLC",
+    "ToolTip": "Doloremque consequuntur dignissimos optio ducimus quia dolores corrupti.",
+    "Deleted": false,
+    "Rank": 56,
+    "Type": "nulla",
+    "ColorBlock": 985,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2024-08-06T12:01:33.495727+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "McLaughlin LLC",
-        "ToolTip": "Dolorem non.",
-        "Deleted": false,
-        "Rank": 682,
-        "Type": "omnis",
-        "ColorBlock": 149,
-        "IconHint": "assumenda",
+        "Id": 199,
+        "Name": "Moore, Reynolds and Lehner",
+        "ToolTip": "Unde molestiae eos nostrum eos minima.",
+        "Deleted": true,
+        "Rank": 634,
+        "Type": "porro",
+        "ColorBlock": 907,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "2005-01-30T13:13:33.042395+01:00",
+        "LastChanged": "2015-02-05T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Andy Kuhic",
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolorum",
+        "Hidden": true,
+        "FullName": "Alia Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldType": "System.String",
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Miss Johan Yost IV",
+    "ExtraInfo": "esse",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Maureen Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

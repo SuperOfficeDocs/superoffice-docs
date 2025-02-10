@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 427
+  "DocumentId": 103
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 195,
-  "Name": "Hegmann Group",
-  "ContentType": "dolorem",
-  "AttSize": 998,
-  "InlineImage": true,
-  "ContentId": "sed",
-  "AuthKey": "reprehenderit",
+  "AttachmentId": 483,
+  "Name": "Wilkinson-Schowalter",
+  "ContentType": "sunt",
+  "AttSize": 995,
+  "InlineImage": false,
+  "ContentId": "nostrum",
+  "AuthKey": "voluptatem",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 108
     }
   }
 }

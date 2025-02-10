@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 568,
-  "Name": "Volkman Group",
-  "Tooltip": "rerum",
-  "Rank": 29,
+  "ProjTypeId": 593,
+  "Name": "Davis Group",
+  "Tooltip": "quis",
+  "Rank": 946,
   "DurationUnit": "Century",
-  "ProjectDuration": 702,
+  "ProjectDuration": 776,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 759,
-      "Name": "Bartoletti Inc and Sons",
-      "ToolTip": "Saepe qui dolor cum.",
+      "Id": 794,
+      "Name": "Mraz Group",
+      "ToolTip": "Dolores alias dolorem.",
       "Deleted": false,
-      "Rank": 65,
-      "Type": "unde",
-      "ColorBlock": 197,
-      "IconHint": "rerum",
+      "Rank": 138,
+      "Type": "molestias",
+      "ColorBlock": 467,
+      "IconHint": "aliquid",
       "Selected": false,
-      "LastChanged": "2012-03-19T13:13:23.3207956+01:00",
+      "LastChanged": "2004-02-04T12:01:27.97842+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "dolore",
-      "Hidden": true,
-      "FullName": "Carroll Yost",
+      "ExtraInfo": "in",
+      "StyleHint": "ex",
+      "Hidden": false,
+      "FullName": "Joannie Erwin Zemlak PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 438
+          "FieldLength": 193
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 105,
-  "Name": "Rohan Group",
-  "Tooltip": "inventore",
-  "SaveInDb": 746,
-  "Filename": "nobis",
-  "DefaultOref": "culpa",
+  "DocumentTemplateId": 884,
+  "Name": "Olson, Schmidt and Gutkowski",
+  "Tooltip": "quasi",
+  "SaveInDb": 923,
+  "Filename": "perferendis",
+  "DefaultOref": "quis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 646,
-  "IntentId": 249,
+  "AutoeventId": 643,
+  "IntentId": 501,
   "IsDefaultPublished": true,
-  "Rank": 104,
-  "LoadTemplateFromPlugin": 723,
-  "MimeType": "voluptatibus",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 343,
+  "Rank": 68,
+  "LoadTemplateFromPlugin": 154,
+  "MimeType": "ea",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 503,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "orland@fritsch.com",
+  "EmailSubject": "uriah_abbott@labadie.us",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sidney@waelchiwiza.uk",
+  "SenderEmailAddress": "dustin.blick@kassulkeboyle.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 404,
-  "Name": "Dietrich, Wilkinson and West",
-  "Tooltip": "quaerat",
-  "SaveInDb": 831,
-  "Filename": "aspernatur",
-  "DefaultOref": "necessitatibus",
+  "DocumentTemplateId": 153,
+  "Name": "DuBuque LLC",
+  "Tooltip": "quo",
+  "SaveInDb": 667,
+  "Filename": "culpa",
+  "DefaultOref": "sequi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 369,
-  "IntentId": 215,
+  "AutoeventId": 602,
+  "IntentId": 923,
   "IsDefaultPublished": false,
-  "Rank": 192,
-  "LoadTemplateFromPlugin": 110,
-  "MimeType": "cupiditate",
+  "Rank": 868,
+  "LoadTemplateFromPlugin": 761,
+  "MimeType": "facere",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 990,
+  "DocumentTypeKey": 540,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "esteban_goyette@hintz.biz",
+  "EmailSubject": "dianna.auer@pfannerstill.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "retta@gloversanford.com",
+  "SenderEmailAddress": "odessa@wiza.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

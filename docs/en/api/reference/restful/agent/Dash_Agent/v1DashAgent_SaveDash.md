@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 350,
-  "UniqueId": "sed",
-  "Name": "Walter, Corwin and Murphy",
-  "Description": "Enterprise-wide high-level success",
-  "AssociateId": 559,
-  "Columns": 932,
+  "DashboardId": 736,
+  "UniqueId": "commodi",
+  "Name": "Wuckert LLC",
+  "Description": "Profit-focused 6th generation flexibility",
+  "AssociateId": 839,
+  "Columns": 389,
   "Theme": null,
-  "VisibleForAll": 702,
+  "VisibleForAll": 623,
   "VisibleForAssociates": [
-    905,
-    312
+    86,
+    398
   ],
   "VisibleForGroups": [
-    580,
-    399
+    699,
+    874
   ],
-  "PinForAll": 38,
+  "PinForAll": 254,
   "PinForAssociates": [
-    584,
-    933
+    657,
+    431
   ],
   "PinForGroups": [
-    698,
-    348
+    103,
+    293
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 549,
-  "UniqueId": "sit",
-  "Name": "Littel, Bashirian and Swift",
-  "Description": "Multi-lateral tertiary application",
-  "AssociateId": 364,
-  "Columns": 888,
+  "DashboardId": 880,
+  "UniqueId": "provident",
+  "Name": "Gislason LLC",
+  "Description": "Organized uniform throughput",
+  "AssociateId": 589,
+  "Columns": 969,
   "Theme": null,
-  "VisibleForAll": 603,
+  "VisibleForAll": 359,
   "VisibleForAssociates": [
-    727,
-    798
+    447,
+    43
   ],
   "VisibleForGroups": [
-    661,
-    429
+    569,
+    144
   ],
-  "PinForAll": 54,
+  "PinForAll": 572,
   "PinForAssociates": [
-    620,
-    979
+    440,
+    328
   ],
   "PinForGroups": [
-    480,
-    340
+    728,
+    209
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 649
     }
   }
 }

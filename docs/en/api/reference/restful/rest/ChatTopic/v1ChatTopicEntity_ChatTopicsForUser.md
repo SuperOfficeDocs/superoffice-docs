@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 942,
-    "Name": "Labadie-Pacocha",
-    "Description": "Multi-tiered encompassing policy",
+    "ChatTopicId": 529,
+    "Name": "Rau, Homenick and Towne",
+    "Description": "User-friendly 24/7 alliance",
     "WelcomeMessage": "cum",
     "Language": null,
-    "LastAccept": "2017-05-28T13:13:31.4488617+02:00",
-    "SecondsPrAccept": 104,
-    "AlertRecipient": "iure",
+    "LastAccept": "2021-10-02T12:01:32.7613009+02:00",
+    "SecondsPrAccept": 508,
+    "AlertRecipient": "ea",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "soluta",
+    "CollectConsent": false,
+    "BadgeHeader": "quidem",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "ipsum",
-    "WarnNewChatMinutes": 436,
-    "WarnManagerNewChatMinutes": 812,
-    "TicketEnabled": false,
+    "CustomQueueText": "vel",
+    "WarnNewChatMinutes": 506,
+    "WarnManagerNewChatMinutes": 268,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -121,20 +121,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 304,
-    "WarnManagerChatMessageMinutes": 791,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 803,
-    "OfflineFormQueueLength": 597,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 459,
+    "WarnManagerChatMessageMinutes": 197,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 956,
+    "OfflineFormQueueLength": 908,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "odio",
+    "WidgetRatingText": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 925
       }
     }
   }

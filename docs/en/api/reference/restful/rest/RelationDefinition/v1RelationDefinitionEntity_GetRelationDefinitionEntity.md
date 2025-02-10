@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 764,
-  "Name": "Murphy, Lowe and Kerluke",
-  "Tooltip": "voluptatem",
-  "PassiveText": "voluptatem",
-  "Deleted": true,
-  "Rank": 955,
+  "ReldefId": 232,
+  "Name": "Franecki-Yundt",
+  "Tooltip": "optio",
+  "PassiveText": "dignissimos",
+  "Deleted": false,
+  "Rank": 248,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   },
   "_Links": {

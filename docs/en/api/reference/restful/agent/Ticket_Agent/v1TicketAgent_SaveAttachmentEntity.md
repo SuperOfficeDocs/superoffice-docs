@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 698,
-  "Name": "Schmeler LLC",
-  "ContentType": "eos",
-  "AttSize": 763,
+  "AttachmentId": 35,
+  "Name": "Bogisich Group",
+  "ContentType": "rerum",
+  "AttSize": 352,
   "InlineImage": false,
-  "ContentId": "quaerat",
-  "AuthKey": "illum",
-  "IsSafeFileExtension": false
+  "ContentId": "consectetur",
+  "AuthKey": "omnis",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 473,
-  "Name": "Heidenreich Group",
-  "ContentType": "qui",
-  "AttSize": 797,
+  "AttachmentId": 62,
+  "Name": "Monahan Group",
+  "ContentType": "eos",
+  "AttSize": 348,
   "InlineImage": false,
-  "ContentId": "id",
-  "AuthKey": "rerum",
-  "IsSafeFileExtension": true,
+  "ContentId": "consequuntur",
+  "AuthKey": "vero",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

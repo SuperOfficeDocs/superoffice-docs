@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "perferendis",
+  "RawValue": "voluptate",
   "Specification": null,
-  "DisplayValue": "ut",
-  "DisplayTooltip": "excepturi",
+  "DisplayValue": "fugiat",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 857,
-  "PrefDescId": 818,
-  "TableName": "Armstrong, Brown and Franecki",
-  "UserPreferenceId": 870
+  "TargetId": 178,
+  "PrefDescId": 395,
+  "TableName": "Wisoky-Hartmann",
+  "UserPreferenceId": 23
 }
 ```
 

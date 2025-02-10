@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 616,
-  "Name": "Flatley Inc and Sons",
-  "Tooltip": "facilis",
+  "RoleId": 810,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "adipisci",
   "RoleType": "Anonymous",
-  "Deleted": 635,
-  "Rank": 467,
-  "Created": "2020-09-23T13:13:24.4934105+02:00",
-  "UseCategories": 417,
+  "Deleted": 808,
+  "Rank": 625,
+  "Created": "2013-12-27T12:01:28.6034631+01:00",
+  "UseCategories": 79,
   "CreatedBy": null,
-  "Updated": "2013-10-25T13:13:24.4934105+02:00",
+  "Updated": "2002-03-03T12:01:28.6034631+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 318
     }
   }
 }

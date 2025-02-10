@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=praesentium
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Koepp, Funk and Wolf",
-    "ToolTip": "Eos voluptates.",
+    "Id": 51,
+    "Name": "Morar, Hartmann and Bernhard",
+    "ToolTip": "Dolor necessitatibus tenetur ad.",
     "Deleted": true,
-    "Rank": 242,
-    "Type": "eos",
+    "Rank": 882,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Larson LLC",
-        "ToolTip": "Sit earum.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "officiis",
+        "Id": 182,
+        "Name": "Shanahan Group",
+        "ToolTip": "Animi autem nobis minus aperiam repellat.",
+        "Deleted": false,
+        "Rank": 240,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 793,
-        "ExtraInfo": "architecto",
-        "StyleHint": "cum",
-        "FullName": "Alvera Roosevelt Stark II",
+        "IconHint": "ad",
+        "ColorBlock": 718,
+        "ExtraInfo": "numquam",
+        "StyleHint": "totam",
+        "FullName": "Loraine Forrest O'Keefe DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldLength": 323
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 128,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "quis",
-    "FullName": "Keenan Schowalter PhD",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 106,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "debitis",
+    "FullName": "Kathryne Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldLength": 483
       }
     }
   }

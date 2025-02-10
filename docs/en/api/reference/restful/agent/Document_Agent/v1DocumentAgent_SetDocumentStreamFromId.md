@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 257,
+  "DocumentId": 405,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 930,
+  "DocumentId": 116,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ullam",
-  "Header": "est",
-  "Name": "Bayer, Hoppe and Kertzmann",
-  "OurRef": "repellendus",
-  "YourRef": "suscipit",
-  "CreatedDate": "2012-06-07T13:13:22.914643+02:00",
-  "UpdatedDate": "2002-08-01T13:13:22.914643+02:00",
-  "Description": "Devolved exuding approach",
+  "Attention": "non",
+  "Header": "sit",
+  "Name": "Stark, Bartell and Hodkiewicz",
+  "OurRef": "repellat",
+  "YourRef": "aperiam",
+  "CreatedDate": "2002-05-21T12:01:27.7596543+02:00",
+  "UpdatedDate": "2011-08-01T12:01:27.7596543+02:00",
+  "Description": "Triple-buffered upward-trending synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-07-14T13:13:22.914643+02:00",
-  "ExternalRef": "sunt",
+  "Date": "1998-05-29T12:01:27.7752804+02:00",
+  "ExternalRef": "magnam",
   "Completed": "Completed",
-  "ActiveLinks": 78,
+  "ActiveLinks": 779,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler-Bayer",
-      "Id": 968,
-      "Description": "Sharable dynamic protocol",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 449,
+      "EntityName": "Schinner-Conroy",
+      "Id": 378,
+      "Description": "Up-sized responsive access",
+      "ExtraInfo": "corporis",
+      "LinkId": 991,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 991
+          "FieldType": "System.Int32",
+          "FieldLength": 387
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 386,
-  "Snum": 444,
+  "SuggestedDocumentId": 953,
+  "Snum": 754,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "389972249",
+    "SuperOffice:2": "Ms. Oleta Schmitt"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "est",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "1999-02-03T13:13:22.914643+01:00",
-  "PublishTo": "2022-06-25T13:13:22.914643+02:00",
-  "PublishFrom": "2006-11-07T13:13:22.914643+01:00",
+  "PublishEventDate": "2007-12-19T12:01:27.7752804+01:00",
+  "PublishTo": "2015-01-28T12:01:27.7752804+01:00",
+  "PublishFrom": "2021-10-22T12:01:27.7752804+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 803,
+      "VisibleId": 902,
       "Visibility": "All",
       "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 235
         }
       }
     },
     {
-      "VisibleId": 803,
+      "VisibleId": 902,
       "Visibility": "All",
       "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 235
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

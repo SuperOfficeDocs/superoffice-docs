@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 370,
+  "EjMessageId": 73,
   "Ticket": null,
-  "CreatedAt": "1997-11-06T13:13:32.4798668+01:00",
+  "CreatedAt": "2008-09-09T12:01:33.2925881+02:00",
   "CreatedBy": null,
-  "Author": "asperiores",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 576,
-  "Body": "est",
-  "HtmlBody": "recusandae",
-  "EmailHeader": "danyka.schroeder@sawayngoyette.info",
-  "DebugInfo": "dignissimos",
-  "MailSorter": "consequuntur",
+  "MessageId": "dignissimos",
+  "TimeSpent": 662,
+  "Body": "sed",
+  "HtmlBody": "ipsum",
+  "EmailHeader": "leonor.schinner@parker.uk",
+  "DebugInfo": "incidunt",
+  "MailSorter": "vitae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusamus",
+  "SearchTitle": "dicta",
   "MessageHeaders": [
     {
-      "Id": 304,
-      "Name": "Monahan-Hauck",
-      "Value": "nesciunt",
+      "Id": 465,
+      "Name": "Kautzer, Denesik and Cronin",
+      "Value": "repellendus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 304,
-      "Name": "Monahan-Hauck",
-      "Value": "nesciunt",
+      "Id": 465,
+      "Name": "Kautzer, Denesik and Cronin",
+      "Value": "repellendus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "minus",
-  "Sentiment": 819,
-  "SentimentConfidence": 447,
+  "Important": false,
+  "Language": "animi",
+  "Sentiment": 633,
+  "SentimentConfidence": 375,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 733,
-      "Name": "McLaughlin, Cronin and Wyman",
-      "ContentType": "libero",
-      "AttSize": 41,
-      "InlineImage": true,
-      "ContentId": "minus",
-      "AuthKey": "vitae",
+      "AttachmentId": 142,
+      "Name": "Rempel LLC",
+      "ContentType": "sit",
+      "AttSize": 245,
+      "InlineImage": false,
+      "ContentId": "beatae",
+      "AuthKey": "est",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "sit"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 53,
+  "EjMessageId": 618,
   "Ticket": null,
-  "CreatedAt": "2014-10-19T13:13:32.4954878+02:00",
+  "CreatedAt": "2006-10-10T12:01:33.2925881+02:00",
   "CreatedBy": null,
   "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 462,
-  "Body": "debitis",
-  "HtmlBody": "vitae",
-  "EmailHeader": "yazmin@huelswaters.com",
-  "DebugInfo": "ut",
-  "MailSorter": "minima",
+  "MessageId": "expedita",
+  "TimeSpent": 330,
+  "Body": "accusamus",
+  "HtmlBody": "eius",
+  "EmailHeader": "bella_becker@goyette.biz",
+  "DebugInfo": "reiciendis",
+  "MailSorter": "molestiae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloribus",
+  "SearchTitle": "maiores",
   "MessageHeaders": [
     {
-      "Id": 730,
-      "Name": "Brown LLC",
-      "Value": "laudantium",
+      "Id": 931,
+      "Name": "Greenholt, Kutch and Hirthe",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "dicta",
-  "Sentiment": 732,
-  "SentimentConfidence": 732,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 538,
+  "SentimentConfidence": 106,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 661,
-      "Name": "Kessler-Prohaska",
-      "ContentType": "iusto",
-      "AttSize": 622,
+      "AttachmentId": 128,
+      "Name": "Jewess, Lindgren and Berge",
+      "ContentType": "ad",
+      "AttSize": 998,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": false,
+      "ContentId": "enim",
+      "AuthKey": "odio",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 363
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "hic"
+    "CustomFields1": "dolores",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 428
     }
   }
 }

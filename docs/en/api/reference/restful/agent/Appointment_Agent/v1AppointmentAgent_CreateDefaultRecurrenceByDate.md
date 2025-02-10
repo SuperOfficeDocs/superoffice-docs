@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2021-03-10T13:13:21.9302549+01:00"
+  "StartDate": "2012-10-24T12:01:27.2439933+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 56,
-  "StartDate": "2023-04-12T13:13:21.9302549+02:00",
-  "EndDate": "2018-06-20T13:13:21.9302549+02:00",
-  "RecurrenceCounter": 977,
+  "RecurrenceId": 788,
+  "StartDate": "2015-09-07T12:01:27.2439933+02:00",
+  "EndDate": "2001-09-12T12:01:27.2439933+02:00",
+  "RecurrenceCounter": 289,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-06-03T13:13:21.9302549+02:00",
-      "IsConflict": true,
-      "Description": "Decentralized upward-trending concept",
-      "DescriptionStyleHint": "Managed client-driven success",
-      "Tooltip": "laborum"
+      "Date": "2021-02-15T12:01:27.2439933+01:00",
+      "IsConflict": false,
+      "Description": "Assimilated leading edge circuit",
+      "DescriptionStyleHint": "Adaptive leading edge definition",
+      "Tooltip": "unde"
     },
     {
-      "Date": "2009-06-03T13:13:21.9302549+02:00",
-      "IsConflict": true,
-      "Description": "Decentralized upward-trending concept",
-      "DescriptionStyleHint": "Managed client-driven success",
-      "Tooltip": "laborum"
+      "Date": "2021-02-15T12:01:27.2439933+01:00",
+      "IsConflict": false,
+      "Description": "Assimilated leading edge circuit",
+      "DescriptionStyleHint": "Adaptive leading edge definition",
+      "Tooltip": "unde"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

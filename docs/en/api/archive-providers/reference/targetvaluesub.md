@@ -402,7 +402,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=contact/activeErpLinks,contact/postAddress/line1,contact/contactSupportPerson/kanaLastName
+GET /api/v1/archive/TargetValueSub?$select=contact/streetAddress/zip,contact/contactSupportAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

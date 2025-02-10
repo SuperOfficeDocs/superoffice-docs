@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Borer, Monahan and Jakubowski",
-  "Columns": "asperiores",
-  "SortOrder": "dolores",
-  "Restrictions": "culpa",
-  "Entities": "recusandae",
-  "Page": 553,
-  "PageSize": 177
+  "ProviderName": "Steuber-Pfeffer",
+  "Columns": "sed",
+  "SortOrder": "et",
+  "Restrictions": "quia",
+  "Entities": "debitis",
+  "Page": 631,
+  "PageSize": 661
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Goyette, Stamm and Champlin",
-    "PrimaryKey": 43,
+    "EntityName": "Collier-Wilkinson",
+    "PrimaryKey": 765,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ad",
-        "TooltipHint": "qui",
-        "LinkHint": "nobis"
+        "DisplayValue": "in",
+        "TooltipHint": "tempore",
+        "LinkHint": "consequuntur"
       }
     },
-    "LinkHint": "architecto",
-    "StyleHint": "quidem",
+    "LinkHint": "ducimus",
+    "StyleHint": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

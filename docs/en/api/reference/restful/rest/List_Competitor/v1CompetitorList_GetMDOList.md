@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=beatae
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=consequuntur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Blanda-Brown",
-    "ToolTip": "Dolorum qui voluptate nam inventore ut.",
+    "Id": 91,
+    "Name": "Cartwright Inc and Sons",
+    "ToolTip": "Eius quidem deserunt.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "et",
+    "Rank": 439,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Gerhold-Olson",
-        "ToolTip": "Dolor unde dolorum adipisci quod dolor.",
+        "Id": 750,
+        "Name": "Kertzmann, Murazik and Stehr",
+        "ToolTip": "Et ab minima maxime minima quis eum mollitia.",
         "Deleted": false,
-        "Rank": 868,
-        "Type": "voluptatem",
+        "Rank": 142,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatibus",
-        "ColorBlock": 956,
-        "ExtraInfo": "est",
-        "StyleHint": "magni",
-        "FullName": "Mr. Sheila Bergstrom",
+        "IconHint": "aut",
+        "ColorBlock": 933,
+        "ExtraInfo": "id",
+        "StyleHint": "porro",
+        "FullName": "Miss Nona Destin Stokes MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 438
+            "FieldType": "System.String",
+            "FieldLength": 467
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 409,
-    "ExtraInfo": "aut",
+    "IconHint": "ut",
+    "ColorBlock": 731,
+    "ExtraInfo": "ut",
     "StyleHint": "et",
-    "FullName": "Velva Runolfsson",
+    "FullName": "Melvina Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

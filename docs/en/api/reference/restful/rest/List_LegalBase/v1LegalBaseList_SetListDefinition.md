@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Frami, O'Connell and Goldner",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 459,
+  "Id": 355,
+  "Name": "Rolfson Group",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 265,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "ListType": "iure",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Quitzon, Beier and Kuvalis",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "Rank": 551,
-  "IsCustomList": true,
+  "Id": 343,
+  "Name": "Barton-Swaniawski",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "Rank": 237,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 101
+  "AssociateId": 811
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Haley Inc and Sons",
-    "DeviceIdentifier": "rem",
-    "PocketVersion": "id",
-    "Language": "repudiandae",
-    "PNSHandle": "repellat",
+    "DeviceName": "Keebler Group",
+    "DeviceIdentifier": "cumque",
+    "PocketVersion": "aut",
+    "Language": "non",
+    "PNSHandle": "eum",
     "Platform": "Apple",
-    "OSVersion": "ratione",
-    "TimeZoneId": 510
+    "OSVersion": "et",
+    "TimeZoneId": 498
   }
 ]
 ```

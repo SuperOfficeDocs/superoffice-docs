@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber, Greenholt and Collier",
+  "Name": "Cummings LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "tenetur",
+  "AdditionalInfo": "quo",
   "HistoryItems": [
-    367,
-    176
+    783,
+    955
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Qui labore ab possimus maiores.",
+    "Id": 503,
+    "Name": "Johnson-Watsica",
+    "ToolTip": "Eius deserunt est nobis odio voluptatibus.",
     "Deleted": false,
-    "Rank": 480,
-    "Type": "placeat",
+    "Rank": 356,
+    "Type": "quae",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Champlin Group",
-        "ToolTip": "Labore ipsa ullam.",
+        "Id": 942,
+        "Name": "Bosco, Waelchi and Lowe",
+        "ToolTip": "Perspiciatis nulla eos enim voluptas vero quo nulla.",
         "Deleted": false,
-        "Rank": 733,
-        "Type": "ducimus",
+        "Rank": 499,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 498,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "perspiciatis",
-        "FullName": "Rasheed Bashirian",
+        "IconHint": "in",
+        "ColorBlock": 33,
+        "ExtraInfo": "est",
+        "StyleHint": "aperiam",
+        "FullName": "Reynold Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 597
+            "FieldType": "System.Int32",
+            "FieldLength": 633
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 791,
-    "ExtraInfo": "est",
-    "StyleHint": "blanditiis",
-    "FullName": "Lessie Veum",
+    "IconHint": "dolores",
+    "ColorBlock": 440,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "et",
+    "FullName": "Talia Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldLength": 830
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quo",
+  "RawValue": "ullam",
   "Specification": null,
-  "DisplayValue": "odit",
-  "DisplayTooltip": "deleniti",
+  "DisplayValue": "dolor",
+  "DisplayTooltip": "libero",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 822,
-  "PrefDescId": 799,
-  "TableName": "Graham Group",
-  "UserPreferenceId": 267,
+  "TargetId": 107,
+  "PrefDescId": 606,
+  "TableName": "Volkman Group",
+  "UserPreferenceId": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 342
     }
   }
 }

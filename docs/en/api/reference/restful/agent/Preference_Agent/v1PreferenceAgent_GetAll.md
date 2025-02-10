@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 588,
-    "Section": "ut",
-    "Key": "et",
-    "Name": "Willms LLC",
+    "PrefDescId": 449,
+    "Section": "et",
+    "Key": "blanditiis",
+    "Name": "Batz, Moen and Buckridge",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Inverse heuristic flexibility",
-    "IsBuiltin": false,
-    "TableName": "Ortiz-Schmidt",
-    "UserDefinedListId": 763,
-    "Rank": 810,
-    "SubGroup": "eaque",
-    "MinLevel": 563,
-    "MaxValue": 916,
-    "MinValue": 612,
-    "RequiredLicense": "qui",
+    "Description": "Face to face solution-oriented frame",
+    "IsBuiltin": true,
+    "TableName": "Breitenberg-Bode",
+    "UserDefinedListId": 922,
+    "Rank": 618,
+    "SubGroup": "et",
+    "MinLevel": 116,
+    "MaxValue": 991,
+    "MinValue": 332,
+    "RequiredLicense": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 421
       }
     }
   }

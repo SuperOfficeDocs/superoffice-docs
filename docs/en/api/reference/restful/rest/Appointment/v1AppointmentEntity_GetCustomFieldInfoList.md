@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Satterfield-Hammes",
-    "DisplayName": "Graham Inc and Sons",
-    "Description": "Distributed asynchronous core",
-    "ShortLabel": "cumque",
+    "FieldName": "Nader, Schmeler and Rolfson",
+    "DisplayName": "Ratke, Schneider and Krajcik",
+    "Description": "Fully-configurable grid-enabled task-force",
+    "ShortLabel": "quas",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 484,
-    "TemplateVariableName": "DuBuque, Bahringer and Mann"
+    "Rank": 275,
+    "TemplateVariableName": "Kunze, Bogan and Purdy"
   }
 ]
 ```

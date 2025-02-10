@@ -27,7 +27,7 @@ Deletes the Webhook
 | WebhookId | int32 | **Required** The id of the Webhook to be deleted. |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=735
+POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=617
 ```
 
 

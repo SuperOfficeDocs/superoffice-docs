@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Sep 2010 13:13:31 G9T
+Last-Modified: Sun, 24 Aug 2008 12:01:32 G8T
 
 {
-  "DocumentId": 412,
+  "DocumentId": 352,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "temporibus",
-  "Header": "dolorum",
-  "Name": "Gorczany-Marvin",
-  "OurRef": "ex",
-  "YourRef": "aut",
-  "CreatedDate": "2023-08-22T13:13:31.6207599+02:00",
-  "UpdatedDate": "2010-09-19T13:13:31.6207599+02:00",
-  "Description": "Automated full-range archive",
+  "Attention": "rerum",
+  "Header": "rem",
+  "Name": "Gaylord Group",
+  "OurRef": "voluptatem",
+  "YourRef": "quisquam",
+  "CreatedDate": "2013-05-02T12:01:32.8550575+02:00",
+  "UpdatedDate": "2008-08-24T12:01:32.8550575+02:00",
+  "Description": "Team-oriented dedicated time-frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-04-18T13:13:31.6363796+02:00",
-  "ExternalRef": "eum",
+  "Date": "2004-01-14T12:01:32.8550575+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 577,
+  "ActiveLinks": 162,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bergstrom Group",
-      "Id": 927,
-      "Description": "Compatible system-worthy flexibility",
-      "ExtraInfo": "consectetur",
-      "LinkId": 641,
+      "EntityName": "Reichel, Schowalter and Leffler",
+      "Id": 92,
+      "Description": "Open-source client-server capability",
+      "ExtraInfo": "qui",
+      "LinkId": 960,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 408,
-  "Snum": 90,
+  "SuggestedDocumentId": 397,
+  "Snum": 831,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ian Addie Flatley DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1124487089"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "quis"
+    "CustomFields1": "nemo",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2002-05-18T13:13:31.6363796+02:00",
-  "PublishTo": "2001-10-28T13:13:31.6363796+01:00",
-  "PublishFrom": "2007-08-31T13:13:31.6363796+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-10-01T12:01:32.8550575+02:00",
+  "PublishTo": "2002-12-16T12:01:32.8550575+01:00",
+  "PublishFrom": "2001-11-10T12:01:32.8550575+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 515,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 286
         }
       }
     },
     {
-      "VisibleId": 515,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 286
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Sun, 19 Sep 2010 13:13:31 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

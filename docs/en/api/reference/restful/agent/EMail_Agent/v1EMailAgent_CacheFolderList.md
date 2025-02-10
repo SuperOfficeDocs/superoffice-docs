@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cassin, Zieme and Shields",
-    "Delimiter": "labore",
-    "Flags": "consequatur",
-    "TotalItems": 523,
-    "UnreadItems": 625,
+    "Name": "Schimmel Group",
+    "Delimiter": "doloremque",
+    "Flags": "veritatis",
+    "TotalItems": 211,
+    "UnreadItems": 767,
     "Subscribed": false,
-    "EmailFolderId": 637,
+    "EmailFolderId": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 814
       }
     }
   }

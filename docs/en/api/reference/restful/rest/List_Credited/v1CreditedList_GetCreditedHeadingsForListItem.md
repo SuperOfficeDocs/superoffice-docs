@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Bashirian LLC",
-    "ToolTip": "Alias minus consequuntur quia veritatis at.",
+    "Id": 875,
+    "Name": "Konopelski Inc and Sons",
+    "ToolTip": "Hic placeat omnis porro.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "ut",
-    "ColorBlock": 177,
-    "IconHint": "animi",
-    "Selected": false,
-    "LastChanged": "2011-10-09T13:13:32.9955292+02:00",
+    "Rank": 879,
+    "Type": "quis",
+    "ColorBlock": 742,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "1999-04-17T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 829,
-        "Name": "Reichel LLC",
-        "ToolTip": "Ipsam autem et maiores et iure.",
+        "Id": 613,
+        "Name": "Berge Group",
+        "ToolTip": "Laboriosam placeat officia eligendi ut delectus mollitia expedita.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "accusamus",
-        "ColorBlock": 394,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2012-07-14T13:13:32.9955292+02:00",
+        "Rank": 359,
+        "Type": "aut",
+        "ColorBlock": 867,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2016-10-03T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "perspiciatis",
-        "Hidden": false,
-        "FullName": "Larue Mitchell",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Ettie Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 224
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "sed",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Adriel Frami",
+    "FullName": "Mrs. Jalyn Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

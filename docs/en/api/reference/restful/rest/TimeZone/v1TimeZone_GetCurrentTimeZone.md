@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 977,
-  "Name": "Hamill, Bradtke and Senger",
-  "TZLocationCode": "odit",
-  "TZLocationCities": "sit",
-  "IsoNumber": 378,
+  "TZLocationID": 335,
+  "Name": "Aufderhar Group",
+  "TZLocationCode": "veritatis",
+  "TZLocationCities": "quia",
+  "IsoNumber": 884,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 613,
-      "StartMonth": 483,
-      "EndDay": 677,
-      "EndMonth": 427,
-      "TZOffset": 550,
-      "StartRulePattern": "commodi",
-      "EndRulePattern": "autem"
+      "StartDay": 930,
+      "StartMonth": 729,
+      "EndDay": 363,
+      "EndMonth": 779,
+      "TZOffset": 789,
+      "StartRulePattern": "et",
+      "EndRulePattern": "vel"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 915,
-      "StartMonth": 849,
-      "EndDay": 665,
-      "EndMonth": 304,
-      "TZOffset": 190,
-      "StartRulePattern": "id",
-      "EndRulePattern": "veritatis"
+      "StartDay": 723,
+      "StartMonth": 234,
+      "EndDay": 273,
+      "EndMonth": 236,
+      "TZOffset": 751,
+      "StartRulePattern": "enim",
+      "EndRulePattern": "ut"
     }
   }
 }

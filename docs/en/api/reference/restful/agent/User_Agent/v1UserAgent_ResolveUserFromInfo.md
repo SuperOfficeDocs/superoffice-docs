@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 974,
-  "PersonName": "Larson, Lubowitz and Daugherty",
+  "ContactId": 648,
+  "PersonName": "Tremblay-Metz",
   "PhoneNumbers": [
-    "1421966",
-    "623795"
+    "1269768",
+    "1036691"
   ],
   "Emails": [
-    "lyric_anderson@jacobsmacejkovic.uk",
-    "minerva@windler.uk"
+    "arnulfo_kunde@millsbrakus.biz",
+    "toy@considine.us"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldLength": 677
     }
   }
 }

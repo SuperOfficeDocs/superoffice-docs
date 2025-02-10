@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sed",
+  "Path": "quasi",
   "Children": false
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 254,
+  "HierarchyId": 881,
   "Domain": "Dashboards",
-  "Name": "Borer Group",
-  "Fullname": "consequatur",
-  "ParentId": 356,
+  "Name": "Wunsch-Grimes",
+  "Fullname": "debitis",
+  "ParentId": 784,
   "Children": [
     {
-      "HierarchyId": 207,
+      "HierarchyId": 610,
       "Domain": "Dashboards",
-      "Name": "Quitzon Inc and Sons",
-      "Fullname": "iste",
-      "ParentId": 141,
+      "Name": "Donnelly, Olson and Mayert",
+      "Fullname": "voluptatem",
+      "ParentId": 943,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-01-05T13:13:23.3051742+01:00",
-      "RegisteredAssociateId": 23,
-      "Updated": "2013-06-21T13:13:23.3051742+02:00",
-      "UpdatedAssociateId": 973,
+      "Registered": "2005-05-09T12:01:27.9627939+02:00",
+      "RegisteredAssociateId": 557,
+      "Updated": "2000-05-02T12:01:27.9627939+02:00",
+      "UpdatedAssociateId": 366,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 204
         }
       }
     }
   ],
-  "Registered": "2001-10-25T13:13:23.3051742+02:00",
-  "RegisteredAssociateId": 957,
-  "Updated": "2017-06-11T13:13:23.3051742+02:00",
-  "UpdatedAssociateId": 476,
+  "Registered": "2004-09-11T12:01:27.9627939+02:00",
+  "RegisteredAssociateId": 237,
+  "Updated": "2021-10-29T12:01:27.9627939+02:00",
+  "UpdatedAssociateId": 891,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

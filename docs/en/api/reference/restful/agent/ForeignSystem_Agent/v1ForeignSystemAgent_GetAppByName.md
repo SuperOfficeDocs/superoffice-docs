@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman LLC"
+  "ApplicationName": "Ruecker, Crist and McDermott"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 65,
-  "Name": "Bailey Group",
-  "CreatedDate": "2008-02-21T13:13:23.1645837+01:00",
-  "UpdatedDate": "2018-02-15T13:13:23.1645837+01:00",
+  "ForeignAppId": 673,
+  "Name": "Little, Bailey and Weber",
+  "CreatedDate": "1999-01-12T12:01:27.9002891+01:00",
+  "UpdatedDate": "2024-07-21T12:01:27.9002891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 239,
-      "Name": "Kemmer-Braun",
-      "CreatedDate": "2013-09-27T13:13:23.1645837+02:00",
-      "UpdatedDate": "2014-07-03T13:13:23.1645837+02:00",
-      "AssociateFullName": "Prof. Bernadette Steuber II",
-      "CreatedBy": "autem",
-      "UpdatedBy": "officiis",
-      "DeviceIdentifier": "rem",
-      "ForeignAppId": 422,
+      "ForeignDeviceId": 498,
+      "Name": "Schimmel-Rath",
+      "CreatedDate": "2010-02-05T12:01:27.9002891+01:00",
+      "UpdatedDate": "2002-03-25T12:01:27.9002891+01:00",
+      "AssociateFullName": "Mireille Nicolas",
+      "CreatedBy": "et",
+      "UpdatedBy": "delectus",
+      "DeviceIdentifier": "adipisci",
+      "ForeignAppId": 319,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldType": "System.Int32",
+          "FieldLength": 346
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldLength": 772
     }
   }
 }

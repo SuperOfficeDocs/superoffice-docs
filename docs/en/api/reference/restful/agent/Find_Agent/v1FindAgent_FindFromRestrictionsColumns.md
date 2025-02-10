@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Bogan, Macejkovic and Renner",
-      "Operator": "praesentium",
+      "Name": "Green-Schulist",
+      "Operator": "distinctio",
       "Values": [
-        "exercitationem",
-        "autem"
+        "nemo",
+        "omnis"
       ],
       "DisplayValues": [
-        "modi",
-        "corrupti"
+        "corrupti",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 624,
+      "InterParenthesis": 505,
       "InterOperator": "And",
-      "UniqueHash": 647
+      "UniqueHash": 225
     }
   ],
-  "ProviderName": "Carroll-Terry",
+  "ProviderName": "Dickinson Group",
   "DesiredColumns": [
-    "et",
-    "nostrum"
+    "sed",
+    "possimus"
   ],
-  "PageSize": 84,
-  "PageNumber": 647
+  "PageSize": 461,
+  "PageNumber": 709
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Boehm-Bosco",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "ratione",
+      "DisplayName": "White-Veum",
+      "DisplayTooltip": "ut",
+      "DisplayType": "voluptas",
       "CanOrderBy": false,
-      "Name": "Pacocha LLC",
+      "Name": "Predovic, Grimes and Goodwin",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Botsford LLC",
+      "RestrictionType": "doloribus",
+      "RestrictionListName": "Zemlak LLC",
       "IsVisible": true,
-      "ExtraInfo": "facilis",
-      "Width": "officiis",
-      "IconHint": "aut",
-      "HeadingIconHint": "laborum"
+      "ExtraInfo": "natus",
+      "Width": "eius",
+      "IconHint": "impedit",
+      "HeadingIconHint": "dicta"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Flatley Inc and Sons",
-      "PrimaryKey": 468,
+      "EntityName": "Lynch, Fadel and Gottlieb",
+      "PrimaryKey": 210,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
-          "TooltipHint": "et",
-          "LinkHint": "velit"
+          "DisplayValue": "nostrum",
+          "TooltipHint": "temporibus",
+          "LinkHint": "numquam"
         }
       },
-      "LinkHint": "excepturi",
-      "StyleHint": "doloremque",
+      "LinkHint": "quos",
+      "StyleHint": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldLength": 168
         }
       }
     }
   ],
-  "RowCount": 90,
+  "RowCount": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 960
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 284,
-    "Name": "Bednar LLC",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 828,
-    "UdListDefinitionId": 521,
+    "HeadingId": 503,
+    "Name": "Grady-Miller",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "Rank": 559,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 599
       }
     }
   }

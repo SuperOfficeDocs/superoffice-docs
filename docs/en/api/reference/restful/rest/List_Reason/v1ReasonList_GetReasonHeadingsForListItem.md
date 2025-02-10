@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Wolff-Wuckert",
-    "ToolTip": "Quasi voluptate quasi recusandae assumenda qui.",
+    "Id": 308,
+    "Name": "Morar LLC",
+    "ToolTip": "Dolorem minima.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "dolorem",
-    "ColorBlock": 572,
-    "IconHint": "sapiente",
+    "Rank": 402,
+    "Type": "aut",
+    "ColorBlock": 32,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "1998-08-21T13:13:33.4954014+02:00",
+    "LastChanged": "2016-04-30T12:01:33.6363617+02:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Zieme-Mertz",
-        "ToolTip": "Assumenda nobis.",
+        "Id": 37,
+        "Name": "Kuvalis-Bode",
+        "ToolTip": "Dignissimos voluptas tenetur.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "aliquam",
-        "ColorBlock": 304,
-        "IconHint": "beatae",
+        "Rank": 650,
+        "Type": "ut",
+        "ColorBlock": 991,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2019-02-24T13:13:33.4954014+01:00",
+        "LastChanged": "2005-03-13T12:01:33.6363617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "nobis",
-        "Hidden": true,
-        "FullName": "Rubie Keeling",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Deron Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Miss Kiel Clarabelle Bauch PhD",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Isobel Quigley PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 504
       }
     }
   }

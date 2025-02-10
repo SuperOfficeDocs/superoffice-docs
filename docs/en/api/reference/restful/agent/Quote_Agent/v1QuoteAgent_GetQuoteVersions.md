@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 222
+  "QuoteId": 29
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 776,
-    "ERPQuoteVersionKey": "nam",
-    "QuoteId": 179,
-    "Description": "Balanced national conglomeration",
-    "Number": "1447803",
+    "QuoteVersionId": 562,
+    "ERPQuoteVersionKey": "praesentium",
+    "QuoteId": 479,
+    "Description": "Grass-roots heuristic synergy",
+    "Number": "1478655",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "syndicate distributed web services",
-    "LikelyQuoteAlternativeId": 11,
-    "SentDate": "2002-02-06T13:13:23.6957086+01:00",
-    "FollowupId": 344,
-    "ExpirationDate": "2015-10-14T13:13:23.6957086+02:00",
-    "DeliveryCountryId": 436,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 463,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "hic",
-    "ERPPaymentTypeKey": "asperiores",
-    "ERPDeliveryTermsKey": "maxime",
-    "ERPDeliveryTypeKey": "saepe",
-    "Rank": 118,
-    "ApprovedBy": 463,
-    "ApprovedText": "repudiandae",
-    "ApprovedRegisteredBy": 812,
-    "ApprovedRegisteredDate": "2012-12-12T13:13:23.6957086+01:00",
-    "ExtraField1": "eum",
-    "ExtraField2": "sit",
-    "ExtraField3": "ea",
-    "ExtraField4": "qui",
-    "ExtraField5": "aliquid",
-    "LastRecalculated": "2018-03-26T13:13:23.6957086+02:00",
-    "Updated": "2016-08-14T13:13:23.6957086+02:00",
-    "UpdatedAssociateId": 821,
-    "Registered": "2014-11-24T13:13:23.6957086+01:00",
-    "RegisteredAssociateId": 740,
-    "RequestAssociateId": 816,
-    "RequestComment": "accusantium",
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 572,
+    "SentDate": "2022-10-29T12:01:28.1815588+02:00",
+    "FollowupId": 357,
+    "ExpirationDate": "2013-02-09T12:01:28.1815588+01:00",
+    "DeliveryCountryId": 835,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 231,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "aut",
+    "ERPPaymentTypeKey": "ut",
+    "ERPDeliveryTermsKey": "quasi",
+    "ERPDeliveryTypeKey": "earum",
+    "Rank": 916,
+    "ApprovedBy": 515,
+    "ApprovedText": "unde",
+    "ApprovedRegisteredBy": 895,
+    "ApprovedRegisteredDate": "2017-03-28T12:01:28.1815588+02:00",
+    "ExtraField1": "ea",
+    "ExtraField2": "numquam",
+    "ExtraField3": "eos",
+    "ExtraField4": "odio",
+    "ExtraField5": "veritatis",
+    "LastRecalculated": "2005-09-19T12:01:28.1815588+02:00",
+    "Updated": "2023-10-25T12:01:28.1815588+02:00",
+    "UpdatedAssociateId": 91,
+    "Registered": "2019-10-07T12:01:28.1815588+02:00",
+    "RegisteredAssociateId": 94,
+    "RequestAssociateId": 693,
+    "RequestComment": "et",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 991,
-        "ERPQuoteAlternativeKey": "voluptates",
-        "QuoteVersionId": 318,
-        "Name": "Bins-Kuhn",
-        "Description": "Synergized 24 hour alliance",
+        "QuoteAlternativeId": 827,
+        "ERPQuoteAlternativeKey": "quo",
+        "QuoteVersionId": 4,
+        "Name": "Wisozk-Lowe",
+        "Description": "Reduced next generation infrastructure",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 21884.721999999998,
-        "ERPDiscountAmount": 7531.0019999999995,
-        "DiscountPercent": 30963.92,
-        "DiscountAmount": 17058.362,
+        "ERPDiscountPercent": 9138.744,
+        "ERPDiscountAmount": 25316.451999999997,
+        "DiscountPercent": 9699.73,
+        "DiscountAmount": 15297.054,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "voluptatibus",
-        "VAT": 896.324,
-        "EarningPercent": 30725.736,
-        "EarningAmount": 10028.8,
-        "SubTotal": 26980.606,
-        "TotalPrice": 10339.065999999999,
-        "ExtraField1": "illum",
-        "ExtraField2": "qui",
-        "ExtraField3": "sit",
-        "ExtraField4": "minima",
-        "ExtraField5": "facere",
+        "VATInfo": "odio",
+        "VAT": 21351.942,
+        "EarningPercent": 31170.764,
+        "EarningAmount": 31264.784,
+        "SubTotal": 20067.002,
+        "TotalPrice": 21969.34,
+        "ExtraField1": "beatae",
+        "ExtraField2": "quo",
+        "ExtraField3": "doloribus",
+        "ExtraField4": "mollitia",
+        "ExtraField5": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldLength": 896
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 18
       }
     }
   }

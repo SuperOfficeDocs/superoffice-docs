@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kutch LLC",
+  "Name": "Hayes-Beier",
   "ForceFlatList": false,
-  "AdditionalInfo": "sequi",
+  "AdditionalInfo": "qui",
   "HistoryItems": [
-    951,
-    838
+    861,
+    557
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Towne, Lehner and Schiller",
-    "ToolTip": "Iusto nihil aliquam tempora magni fuga veritatis qui.",
+    "Id": 704,
+    "Name": "Tromp, Schaefer and Schinner",
+    "ToolTip": "Ab soluta.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "qui",
-    "ColorBlock": 276,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2012-10-20T13:13:23.3676626+02:00",
+    "Rank": 710,
+    "Type": "est",
+    "ColorBlock": 464,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2017-01-26T12:01:28.0096725+01:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Oberbrunner Inc and Sons",
-        "ToolTip": "Voluptas quisquam modi eveniet omnis.",
-        "Deleted": false,
-        "Rank": 647,
-        "Type": "quidem",
-        "ColorBlock": 551,
-        "IconHint": "mollitia",
+        "Id": 535,
+        "Name": "Wintheiser LLC",
+        "ToolTip": "Quaerat vero dolore maiores nulla possimus sequi.",
+        "Deleted": true,
+        "Rank": 790,
+        "Type": "tenetur",
+        "ColorBlock": 517,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2009-05-01T13:13:23.3676626+02:00",
+        "LastChanged": "2019-05-15T12:01:28.0096725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "aut",
+        "ExtraInfo": "in",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Mr. Katlynn Genevieve Halvorson PhD",
+        "FullName": "Delores Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 769
+            "FieldType": "System.Int32",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Maxwell Lindgren",
+    "ExtraInfo": "ex",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Meagan Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 574
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Kunde Inc and Sons",
-  "Tooltip": "architecto",
+  "Id": 88,
+  "Name": "Satterfield-Glover",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 520,
-  "Rank": 793,
+  "UdListDefinitionId": 524,
+  "Rank": 597,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

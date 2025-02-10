@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 213,
-    "Value": "ea",
-    "Tooltip": "porro",
-    "Probability": 905,
-    "Deleted": false,
-    "Rank": 249,
+    "SaleStageId": 556,
+    "Value": "quia",
+    "Tooltip": "dolorem",
+    "Probability": 338,
+    "Deleted": true,
+    "Rank": 708,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

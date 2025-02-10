@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 27,
-  "TopicId": 235,
+  "ChatSessionId": 859,
+  "TopicId": 641,
   "User": null,
   "Person": null,
-  "CustomerAlias": "architecto",
+  "CustomerAlias": "eveniet",
   "CustomerHost": "facilis",
-  "CustomerName": "Brekke, Barrows and Blick",
-  "CustomerEmail": "queenie_hamill@jones.co.uk",
-  "CustomerPhone": "246.378.5902",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Yundt LLC",
+  "CustomerName": "Hilll-Stracke",
+  "CustomerEmail": "carmella.yundt@jast.uk",
+  "CustomerPhone": "(294)238-4327 x49893",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Ullrich Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "non",
-  "WhenRequested": "2021-11-21T13:13:31.3239446+01:00",
-  "WhenStarted": "2017-09-06T13:13:31.3239446+02:00",
-  "WhenEnded": "2024-10-14T13:13:31.3239446+02:00",
-  "WhenIdle": "1998-02-27T13:13:31.3239446+01:00",
-  "WhenFetched": "2005-09-21T13:13:31.3239446+02:00",
-  "SessionKey": "quam",
-  "InitialQueuePos": 907,
-  "AlertLevel": 897,
-  "Rank": 364,
+  "FirstMessage": "quibusdam",
+  "LastMessage": "earum",
+  "WhenRequested": "2023-12-06T12:01:32.6987969+01:00",
+  "WhenStarted": "2023-01-28T12:01:32.6987969+01:00",
+  "WhenEnded": "2001-05-11T12:01:32.6987969+02:00",
+  "WhenIdle": "2017-02-04T12:01:32.6987969+01:00",
+  "WhenFetched": "2006-01-05T12:01:32.6987969+01:00",
+  "SessionKey": "molestias",
+  "InitialQueuePos": 183,
+  "AlertLevel": 238,
+  "Rank": 577,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 593,
+  "ChatbotIsActive": false,
+  "Rating": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 160
     }
   },
   "_Links": {

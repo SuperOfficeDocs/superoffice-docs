@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=sequi
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=distinctio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Wyman-Runte",
-    "ToolTip": "Occaecati quae sit sint voluptas magnam deserunt.",
+    "Id": 141,
+    "Name": "Kilback, Dach and Witting",
+    "ToolTip": "Et officia porro.",
     "Deleted": false,
-    "Rank": 908,
-    "Type": "deserunt",
+    "Rank": 571,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Hayes Inc and Sons",
-        "ToolTip": "Sint quia nemo dolorem nam minima.",
+        "Id": 15,
+        "Name": "Considine-Bode",
+        "ToolTip": "Et aut sed ab quasi asperiores facilis.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "sequi",
+        "Rank": 95,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 9,
-        "ExtraInfo": "optio",
-        "StyleHint": "esse",
-        "FullName": "Maybelle Israel Beier DVM",
+        "IconHint": "incidunt",
+        "ColorBlock": 557,
+        "ExtraInfo": "magnam",
+        "StyleHint": "aut",
+        "FullName": "Sammy Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldType": "System.Int32",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 733,
-    "ExtraInfo": "vitae",
-    "StyleHint": "illo",
-    "FullName": "Leif Bosco",
+    "IconHint": "aut",
+    "ColorBlock": 983,
+    "ExtraInfo": "rem",
+    "StyleHint": "error",
+    "FullName": "Tremayne Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 995
       }
     }
   }

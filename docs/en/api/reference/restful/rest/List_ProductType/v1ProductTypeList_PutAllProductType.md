@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Huel, Batz and Bartell",
-    "Tooltip": "impedit",
+    "Id": 788,
+    "Name": "O'Connell Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 716,
-    "Rank": 153
+    "UdListDefinitionId": 2,
+    "Rank": 473
   },
   {
-    "Id": 619,
-    "Name": "Huel, Batz and Bartell",
-    "Tooltip": "impedit",
+    "Id": 788,
+    "Name": "O'Connell Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 716,
-    "Rank": 153
+    "UdListDefinitionId": 2,
+    "Rank": 473
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Morissette, Tromp and Kub",
-    "Tooltip": "sint",
+    "Id": 504,
+    "Name": "Heller-Fay",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "UdListDefinitionId": 402,
-    "Rank": 853,
+    "UdListDefinitionId": 392,
+    "Rank": 316,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

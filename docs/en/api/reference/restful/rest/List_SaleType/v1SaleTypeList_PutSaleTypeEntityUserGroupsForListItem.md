@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Jacobs LLC",
-    "ToolTip": "Voluptatibus quibusdam iure qui et.",
+    "Id": 772,
+    "Name": "Brown Group",
+    "ToolTip": "Iste sed.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "reprehenderit",
-    "ColorBlock": 754,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2023-08-30T13:13:33.5735178+02:00",
+    "Rank": 676,
+    "Type": "mollitia",
+    "ColorBlock": 503,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2017-12-21T12:01:33.6519877+01:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Hammes, Kling and Hauck",
-        "ToolTip": "Quidem ratione voluptate omnis temporibus.",
-        "Deleted": false,
-        "Rank": 363,
-        "Type": "perferendis",
-        "ColorBlock": 122,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2003-10-07T13:13:33.5735178+02:00",
+        "Id": 79,
+        "Name": "Brekke-Stark",
+        "ToolTip": "Neque reprehenderit consequatur id possimus.",
+        "Deleted": true,
+        "Rank": 877,
+        "Type": "fuga",
+        "ColorBlock": 644,
+        "IconHint": "nam",
+        "Selected": false,
+        "LastChanged": "2017-05-29T12:01:33.6519877+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "odit",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mrs. Rod Wiza"
+        "FullName": "Abelardo Homenick"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "veniam",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Rosalia White"
+    "FullName": "Fredy Jena O'Kon Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Erdman-Kuhlman",
-    "ToolTip": "Eaque modi deserunt autem.",
-    "Deleted": true,
-    "Rank": 63,
-    "Type": "consequuntur",
-    "ColorBlock": 493,
+    "Id": 844,
+    "Name": "Nikolaus Group",
+    "ToolTip": "Ex recusandae assumenda eos velit.",
+    "Deleted": false,
+    "Rank": 486,
+    "Type": "culpa",
+    "ColorBlock": 77,
     "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2005-01-23T13:13:33.5735178+01:00",
+    "LastChanged": "2007-09-02T12:01:33.6519877+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Mante, Johnson and Pacocha",
-        "ToolTip": "Maiores natus est.",
+        "Id": 90,
+        "Name": "Kunde LLC",
+        "ToolTip": "Modi voluptatum et expedita velit inventore quam.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "recusandae",
-        "ColorBlock": 561,
-        "IconHint": "libero",
+        "Rank": 522,
+        "Type": "aut",
+        "ColorBlock": 415,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2024-09-14T13:13:33.5735178+02:00",
+        "LastChanged": "2011-01-04T12:01:33.6519877+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "fuga",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Vivien Kris",
+        "FullName": "Jared Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 118
+            "FieldType": "System.String",
+            "FieldLength": 173
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "id",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Madelyn Gottlieb",
+    "FullName": "Adela Cremin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

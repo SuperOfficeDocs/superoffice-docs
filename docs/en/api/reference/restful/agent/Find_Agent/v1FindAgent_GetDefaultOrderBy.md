@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Kshlerin, Purdy and Cruickshank",
-  "StorageKey": "omnis"
+  "StorageType": "delectus",
+  "ProviderName": "Breitenberg-Casper",
+  "StorageKey": "ea"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner, Gaylord and Corkery",
+    "Name": "Towne-Effertz",
     "Direction": "ASC"
   },
   {
-    "Name": "Wehner, Gaylord and Corkery",
+    "Name": "Towne-Effertz",
     "Direction": "ASC"
   }
 ]

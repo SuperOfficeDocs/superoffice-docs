@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 440,
-    "Name": "VonRueden, Botsford and Mohr",
-    "Tooltip": "voluptas",
+    "HeadingId": 24,
+    "Name": "Dietrich, Leffler and Ziemann",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 130,
-    "UdListDefinitionId": 850,
+    "Rank": 735,
+    "UdListDefinitionId": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldLength": 135
       }
     }
   }

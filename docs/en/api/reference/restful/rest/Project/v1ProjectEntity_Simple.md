@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613,
-  "Name": "Marks Group",
-  "Description": "Phased 3rd generation neural-net",
+  "ProjectId": 810,
+  "Name": "Gibson Inc and Sons",
+  "Description": "Right-sized multimedia capacity",
   "URL": "http://www.example.com/",
-  "Type": "ab",
-  "AssociateId": 737,
-  "AssociateFullName": "Elise Crist",
-  "TypeId": 622,
-  "Updated": "2018-04-16T13:13:31.9488068+02:00",
-  "StatusId": 27,
-  "Status": "aut",
-  "TextId": 711,
-  "PublishTo": "2017-03-24T13:13:31.9488068+01:00",
-  "PublishFrom": "2005-05-08T13:13:31.9488068+02:00",
-  "IsPublished": false,
+  "Type": "est",
+  "AssociateId": 503,
+  "AssociateFullName": "Prof. Evans Jarrod Greenholt DVM",
+  "TypeId": 84,
+  "Updated": "2015-11-21T12:01:33.0269443+01:00",
+  "StatusId": 248,
+  "Status": "unde",
+  "TextId": 810,
+  "PublishTo": "2008-08-06T12:01:33.0269443+02:00",
+  "PublishFrom": "2001-11-12T12:01:33.0269443+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1851348",
-  "ActiveErpLinks": 922,
+  "ProjectNumber": "779085",
+  "ActiveErpLinks": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   }
 }

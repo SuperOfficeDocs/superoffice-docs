@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Beahan-Hayes",
-    "ToolTip": "Perferendis cumque neque quia ullam sint debitis.",
+    "Id": 459,
+    "Name": "Wisoky Inc and Sons",
+    "ToolTip": "Est debitis voluptatum nihil molestiae voluptas similique eum.",
     "Deleted": false,
-    "Rank": 972,
-    "Type": "nostrum",
-    "ColorBlock": 289,
-    "IconHint": "dolor",
+    "Rank": 829,
+    "Type": "aperiam",
+    "ColorBlock": 207,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2014-03-05T13:13:33.4641689+01:00",
+    "LastChanged": "2011-03-06T12:01:33.6207356+01:00",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Breitenberg Inc and Sons",
-        "ToolTip": "Id hic.",
+        "Id": 97,
+        "Name": "Bartell-Jakubowski",
+        "ToolTip": "Beatae non sed vero aliquam et facere.",
         "Deleted": true,
-        "Rank": 549,
-        "Type": "nam",
-        "ColorBlock": 898,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2006-09-16T13:13:33.4641689+02:00",
+        "Rank": 378,
+        "Type": "officia",
+        "ColorBlock": 215,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2002-06-11T12:01:33.6207356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Miss Gust Emile Breitenberg"
+        "ExtraInfo": "eum",
+        "StyleHint": "aliquam",
+        "Hidden": false,
+        "FullName": "Mrs. Joana Noemy Langworth"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Prof. Pearlie Crooks PhD"
+    "ExtraInfo": "quod",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Else Murray"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Corwin Group",
-    "ToolTip": "Est necessitatibus a et autem ea aut illum.",
-    "Deleted": false,
-    "Rank": 61,
-    "Type": "iste",
-    "ColorBlock": 459,
-    "IconHint": "enim",
+    "Id": 119,
+    "Name": "Kozey Group",
+    "ToolTip": "Consequatur mollitia hic labore est totam.",
+    "Deleted": true,
+    "Rank": 587,
+    "Type": "dolore",
+    "ColorBlock": 9,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2013-03-12T13:13:33.4797789+01:00",
+    "LastChanged": "2013-09-09T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "King-Littel",
-        "ToolTip": "Sunt qui iste delectus repudiandae.",
+        "Id": 657,
+        "Name": "Schimmel, Ritchie and Ledner",
+        "ToolTip": "Labore unde provident optio impedit nobis vel.",
         "Deleted": false,
-        "Rank": 298,
-        "Type": "sint",
-        "ColorBlock": 844,
-        "IconHint": "architecto",
-        "Selected": true,
-        "LastChanged": "2007-04-10T13:13:33.4797789+02:00",
+        "Rank": 655,
+        "Type": "consequuntur",
+        "ColorBlock": 751,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2020-11-08T12:01:33.6207356+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "dolor",
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Aleen Moen MD",
+        "FullName": "Holly Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldType": "System.Int32",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Maci Goyette",
+    "ExtraInfo": "officia",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Dr. Justina Rogahn Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldType": "System.String",
+        "FieldLength": 368
       }
     }
   }

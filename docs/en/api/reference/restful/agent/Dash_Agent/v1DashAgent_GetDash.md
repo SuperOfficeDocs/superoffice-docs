@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=49
+POST /api/v1/Agents/Dash/GetDash?dashId=599
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 279,
-  "UniqueId": "sapiente",
-  "Name": "Dibbert LLC",
-  "Description": "Sharable bandwidth-monitored migration",
-  "AssociateId": 888,
-  "Columns": 568,
+  "DashboardId": 982,
+  "UniqueId": "ea",
+  "Name": "Goodwin-Dibbert",
+  "Description": "Cross-group neutral architecture",
+  "AssociateId": 588,
+  "Columns": 514,
   "Theme": null,
-  "VisibleForAll": 155,
+  "VisibleForAll": 825,
   "VisibleForAssociates": [
-    71,
-    529
+    453,
+    714
   ],
   "VisibleForGroups": [
-    512,
-    215
+    277,
+    344
   ],
-  "PinForAll": 271,
+  "PinForAll": 291,
   "PinForAssociates": [
-    938,
-    62
+    364,
+    237
   ],
   "PinForGroups": [
-    52,
-    27
+    360,
+    688
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 256,
+  "EjMessageId": 749,
   "Ticket": null,
-  "CreatedAt": "2001-01-27T13:13:24.2278483+01:00",
+  "CreatedAt": "2023-04-01T12:01:28.3534468+02:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "autem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 495,
-  "Body": "inventore",
+  "MessageId": "odio",
+  "TimeSpent": 653,
+  "Body": "voluptatem",
   "HtmlBody": "corrupti",
-  "EmailHeader": "carole@kshlerin.name",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "alias",
+  "EmailHeader": "annie_price@farrellgulgowski.biz",
+  "DebugInfo": "necessitatibus",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "in",
   "MessageHeaders": [
     {
-      "Id": 124,
-      "Name": "Langworth Group",
-      "Value": "sint",
+      "Id": 54,
+      "Name": "Gibson-Braun",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 851
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "incidunt",
-  "Sentiment": 867,
-  "SentimentConfidence": 198,
+  "Important": true,
+  "Language": "explicabo",
+  "Sentiment": 788,
+  "SentimentConfidence": 63,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 260,
-      "Name": "Conn-Johns",
-      "ContentType": "officiis",
-      "AttSize": 916,
+      "AttachmentId": 490,
+      "Name": "King, Crist and Bogisich",
+      "ContentType": "eius",
+      "AttSize": 794,
       "InlineImage": false,
-      "ContentId": "rerum",
-      "AuthKey": "reiciendis",
-      "IsSafeFileExtension": false,
+      "ContentId": "nam",
+      "AuthKey": "delectus",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldType": "System.String",
+          "FieldLength": 185
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "expedita"
+    "CustomFields1": "dolore",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 401
     }
   }
 }

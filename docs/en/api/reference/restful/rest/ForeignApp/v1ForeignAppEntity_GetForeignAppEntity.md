@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 16 Dec 1999 13:13:31 G12T
+Last-Modified: Wed, 03 Oct 2018 12:01:32 G10T
 
 {
-  "ForeignAppId": 759,
-  "Name": "Block LLC",
-  "CreatedDate": "2000-02-29T13:13:31.7457296+01:00",
-  "UpdatedDate": "1999-12-16T13:13:31.7457296+01:00",
+  "ForeignAppId": 933,
+  "Name": "Frami, O'Kon and Ryan",
+  "CreatedDate": "2009-06-23T12:01:32.9175621+02:00",
+  "UpdatedDate": "2018-10-03T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 518,
-      "Name": "Strosin, Weimann and Wehner",
-      "CreatedDate": "2008-05-17T13:13:31.7457296+02:00",
-      "UpdatedDate": "2021-04-04T13:13:31.7457296+02:00",
-      "AssociateFullName": "Ms. Edna Rath",
-      "CreatedBy": "inventore",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 762,
+      "ForeignDeviceId": 588,
+      "Name": "Auer-Lynch",
+      "CreatedDate": "2025-01-22T12:01:32.9175621+01:00",
+      "UpdatedDate": "2002-06-18T12:01:32.9175621+02:00",
+      "AssociateFullName": "Noble Ondricka",
+      "CreatedBy": "quia",
+      "UpdatedBy": "libero",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 32,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 992
         }
       }
     }
@@ -123,12 +123,12 @@ Last-Modified: Thu, 16 Dec 1999 13:13:31 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 722
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 269,
+  "TargetYear": 79,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 856
+  "Id": 639
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 442,
+  "TargetAssignmentInfoId": 536,
   "Values": [
-    525,
-    18
+    794,
+    619
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 824,
-  "DimensionListItemDisplayName": "Williamson, Boyle and Bashirian",
+  "DimensionListItem": 324,
+  "DimensionListItemDisplayName": "Stoltenberg, Crona and Walsh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 256
     }
   }
 }

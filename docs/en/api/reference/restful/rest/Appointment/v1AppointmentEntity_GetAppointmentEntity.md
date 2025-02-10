@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 09 Jun 2002 13:13:31 G6T
+Last-Modified: Sat, 22 Jun 2019 12:01:32 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-12-18T13:13:31.2143598+01:00",
-  "AppointmentId": 36,
-  "Description": "Mandatory contextually-based algorithm",
-  "Title": "voluptas",
-  "Agenda": "sed",
-  "InternalNotes": "amet",
-  "StartDate": "2012-12-02T13:13:31.2143598+01:00",
-  "EndDate": "2015-11-09T13:13:31.2143598+01:00",
+  "CreatedDate": "2001-10-22T12:01:32.6362921+02:00",
+  "AppointmentId": 360,
+  "Description": "Reduced content-based ability",
+  "Title": "provident",
+  "Agenda": "molestias",
+  "InternalNotes": "assumenda",
+  "StartDate": "2005-06-24T12:01:32.6362921+02:00",
+  "EndDate": "2004-02-25T12:01:32.6362921+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 294,
+  "MotherId": 288,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-09T13:13:31.2143598+02:00",
+  "UpdatedDate": "2019-06-22T12:01:32.6362921+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 118,
+  "ActiveLinks": 361,
   "Links": [
     {
-      "EntityName": "Monahan, Schaden and Eichmann",
-      "Id": 887,
-      "Description": "Horizontal even-keeled functionalities",
-      "ExtraInfo": "ea",
-      "LinkId": 492,
+      "EntityName": "Emmerich-Bailey",
+      "Id": 313,
+      "Description": "Object-based cohesive encoding",
+      "ExtraInfo": "minima",
+      "LinkId": 855,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 559
         }
       }
     }
   ],
-  "AlarmLeadTime": "exercitationem",
+  "AlarmLeadTime": "odit",
   "HasAlarm": false,
-  "ColorIndex": 494,
-  "IsFree": true,
+  "ColorIndex": 464,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "et",
-  "Location": "enim",
-  "RejectCounter": 288,
+  "LagTime": "qui",
+  "LeadTime": "asperiores",
+  "Location": "atque",
+  "RejectCounter": 393,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 273,
-      "PersonId": 749,
-      "ContactId": 112,
-      "EmailId": 231,
-      "SendEmail": true,
+      "AssociateId": 532,
+      "PersonId": 377,
+      "ContactId": 667,
+      "EmailId": 548,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "consuelo@nitzsche.us",
-      "Description": "Pre-emptive global conglomeration"
+      "EmailAddress": "santina_fadel@metz.co.uk",
+      "Description": "Customer-focused non-volatile application"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-08-01T13:13:31.2143598+02:00",
+  "ActiveDate": "2024-06-22T12:01:32.6362921+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 960,
+  "PreferredTZLocation": 300,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 263,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 581,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vel",
+  "CentralserviceVideomeetId": "iure",
   "UserDefinedFields": {
-    "SuperOffice:1": "1692601597",
-    "SuperOffice:2": "Isom Roob"
+    "SuperOffice:1": "1476565421",
+    "SuperOffice:2": "Esteban Forrest Krajcik DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "ut"
+    "CustomFields1": "eaque",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2001-03-21T13:13:31.2143598+01:00",
-  "PublishTo": "1998-10-01T13:13:31.2143598+02:00",
-  "PublishFrom": "2022-09-27T13:13:31.2143598+02:00",
+  "PublishEventDate": "2016-11-28T12:01:32.6362921+01:00",
+  "PublishTo": "2008-07-05T12:01:32.6362921+02:00",
+  "PublishFrom": "2013-08-19T12:01:32.6362921+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 207,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 291
         }
       }
     },
     {
-      "VisibleId": 207,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 291
         }
       }
     }
@@ -271,8 +271,8 @@ Last-Modified: Sun, 09 Jun 2002 13:13:31 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 699
     }
   },
   "_Links": {

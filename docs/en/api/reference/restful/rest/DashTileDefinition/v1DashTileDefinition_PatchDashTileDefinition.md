@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 97,
-  "Name": "Kub, Johns and D'Amore",
-  "Description": "Team-oriented methodical algorithm",
-  "DefaultHeight": 125,
-  "DefaultWidth": 526,
+  "DashboardTileDefinitionId": 947,
+  "Name": "Heaney-Predovic",
+  "Description": "Sharable cohesive Graphic Interface",
+  "DefaultHeight": 254,
+  "DefaultWidth": 874,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kshlerin-Bechtelar",
-  "SelectionId": 884,
+  "EntityName": "Stark LLC",
+  "SelectionId": 605,
   "CurrencyMode": "Base",
-  "CurrencyCode": "porro",
+  "CurrencyCode": "totam",
   "Measure": "Average",
-  "MeasureField": "possimus",
-  "SortBy": "a",
-  "LayoutConfig": "ducimus",
-  "SecondarySelectionId": 334,
-  "MeasureByField": "itaque",
+  "MeasureField": "aut",
+  "SortBy": "exercitationem",
+  "LayoutConfig": "eligendi",
+  "SecondarySelectionId": 331,
+  "MeasureByField": "sequi",
   "Usage": "Dashboard",
-  "ProviderName": "Swift-Wilkinson",
+  "ProviderName": "Kautzer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

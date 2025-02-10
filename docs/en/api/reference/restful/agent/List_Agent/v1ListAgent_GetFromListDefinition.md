@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "UdListDefinitionId": 676
+  "Id": 686,
+  "UdListDefinitionId": 465
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Oberbrunner LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 506,
-  "Rank": 34,
+  "Id": 594,
+  "Name": "Ebert-Effertz",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 547,
+  "Rank": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

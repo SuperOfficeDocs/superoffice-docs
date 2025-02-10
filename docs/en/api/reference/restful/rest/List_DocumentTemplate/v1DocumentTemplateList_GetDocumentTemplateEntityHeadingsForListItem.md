@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Ward, Larkin and Turner",
-    "ToolTip": "Non et.",
+    "Id": 950,
+    "Name": "Block-Runolfsdottir",
+    "ToolTip": "Aliquam laboriosam labore quae quia.",
     "Deleted": false,
-    "Rank": 30,
-    "Type": "adipisci",
-    "ColorBlock": 281,
-    "IconHint": "dolores",
+    "Rank": 216,
+    "Type": "a",
+    "ColorBlock": 473,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2006-04-14T13:13:33.1048791+02:00",
+    "LastChanged": "2007-01-22T12:01:33.511353+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Reinger Inc and Sons",
-        "ToolTip": "Esse sequi amet nulla ea pariatur.",
+        "Id": 220,
+        "Name": "Hickle-Corwin",
+        "ToolTip": "Sit velit fugit nulla.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "placeat",
-        "ColorBlock": 147,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2012-11-02T13:13:33.1048791+01:00",
+        "Rank": 761,
+        "Type": "laborum",
+        "ColorBlock": 908,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2004-12-19T12:01:33.511353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "corporis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Palma Runolfsson",
+        "FullName": "Ms. Rosalia Deron Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 217
+            "FieldType": "System.Int32",
+            "FieldLength": 20
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "quia",
+    "ExtraInfo": "et",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Eliezer Sawayn",
+    "FullName": "Brisa Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 271
       }
     }
   }

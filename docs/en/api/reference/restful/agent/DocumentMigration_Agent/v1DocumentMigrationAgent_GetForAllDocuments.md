@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 222,
+  "DocumentPluginId": 153,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 825,
-  "NumDocumentsAlreadyMigrated": 861,
+  "NumDocumentsOmitted": 623,
+  "NumDocumentsAlreadyMigrated": 193,
   "Documents": [
     {
-      "DocumentId": 626,
-      "ContactId": 824,
-      "PersonId": 35,
-      "SaleId": 133,
-      "ProjectId": 615,
-      "DocTmplId": 408,
-      "AssociateId": 879,
-      "UserGroupId": 853,
-      "VisibleForId": 546
+      "DocumentId": 284,
+      "ContactId": 549,
+      "PersonId": 360,
+      "SaleId": 183,
+      "ProjectId": 278,
+      "DocTmplId": 364,
+      "AssociateId": 61,
+      "UserGroupId": 138,
+      "VisibleForId": 682
     }
   ],
   "Associates": [
     {
-      "AssociateId": 419,
-      "EmailAddress": "francisca.blanda@erdmanlegros.uk"
+      "AssociateId": 527,
+      "EmailAddress": "malinda.stokes@heidenreich.com"
     },
     {
-      "AssociateId": 419,
-      "EmailAddress": "francisca.blanda@erdmanlegros.uk"
+      "AssociateId": 527,
+      "EmailAddress": "malinda.stokes@heidenreich.com"
     }
   ]
 }

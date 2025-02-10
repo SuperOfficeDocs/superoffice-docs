@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 40,
-  "DefaultValue": "ut",
+  "ErpFieldId": 352,
+  "DefaultValue": "et",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "repudiandae",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "atque",
+  "PromptUser": false,
   "Mandatory": true,
-  "ErpFieldKey": "sunt",
+  "ErpFieldKey": "porro",
   "FieldType": "Checkbox",
-  "ListName": "Kilback, Osinski and Mohr",
+  "ListName": "Cummerata-Stehr",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldLength": 647
     }
   }
 }

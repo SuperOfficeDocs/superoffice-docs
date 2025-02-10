@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 632,
-  "ColumnId": 128,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 662,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 576,
-  "FieldTop": 357,
+  "UDefFieldId": 596,
+  "ColumnId": 833,
+  "FieldDefault": "dolore",
+  "FieldHeight": 491,
+  "FieldLabel": "temporibus",
+  "FieldLeft": 646,
+  "FieldTop": 662,
   "FieldType": "Checkbox",
-  "FieldWidth": 42,
-  "FormatMask": "velit",
+  "FieldWidth": 680,
+  "FormatMask": "similique",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 673,
-  "LabelLeft": 53,
-  "LabelTop": 98,
-  "LabelWidth": 28,
-  "LastVersionId": 143,
-  "ListTableId": 416,
+  "IsIndexed": false,
+  "LabelHeight": 569,
+  "LabelLeft": 593,
+  "LabelTop": 283,
+  "LabelWidth": 998,
+  "LastVersionId": 554,
+  "ListTableId": 649,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 274,
-  "ProgId": "sed",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 665,
-  "TextLength": 73,
-  "Tooltip": "quos",
-  "UdefIdentity": 764,
-  "UDListDefinitionId": 892,
+  "Page1LineNo": 349,
+  "ProgId": "laborum",
+  "IsReadOnly": false,
+  "ShortLabel": "quasi",
+  "TabOrder": 729,
+  "TextLength": 653,
+  "Tooltip": "officia",
+  "UdefIdentity": 183,
+  "UDListDefinitionId": 409,
   "Justification": "Center",
-  "Version": 70,
-  "TemplateVariableName": "Brown, Oberbrunner and Rolfson",
-  "HasBeenPublished": true,
-  "MdoListName": "Ziemann, Bins and Adams",
+  "Version": 954,
+  "TemplateVariableName": "Ferry, Robel and Fay",
+  "HasBeenPublished": false,
+  "MdoListName": "Lang, Pouros and Rau",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 138
     }
   }
 }

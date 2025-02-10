@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 850
+  "TicketMessageEntityId": 227
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 956,
-    "Name": "Reichert-Jacobson",
-    "ContentType": "autem",
-    "AttSize": 548,
+    "AttachmentId": 414,
+    "Name": "Wilderman, Beer and Bailey",
+    "ContentType": "quae",
+    "AttSize": 87,
     "InlineImage": false,
-    "ContentId": "officiis",
-    "AuthKey": "eligendi",
-    "IsSafeFileExtension": true,
+    "ContentId": "dicta",
+    "AuthKey": "fugiat",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 967
       }
     }
   }

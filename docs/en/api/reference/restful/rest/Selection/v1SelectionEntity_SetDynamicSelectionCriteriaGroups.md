@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills LLC",
-    "Description": "Centralized tertiary concept",
-    "Rank": 525,
+    "Name": "Klein, Hilll and Halvorson",
+    "Description": "Re-contextualized methodical moratorium",
+    "Rank": 938,
     "Restrictions": [
       {
-        "Name": "Grimes-Abernathy",
-        "Operator": "perspiciatis",
+        "Name": "Ratke-Bahringer",
+        "Operator": "nostrum",
         "Values": [
-          "ducimus",
-          "veritatis"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "et",
-          "tempore"
+          "molestiae",
+          "quas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 946,
+        "InterParenthesis": 515,
         "InterOperator": "And",
-        "UniqueHash": 648
+        "UniqueHash": 20
       }
     ]
   },
   {
-    "Name": "Mills LLC",
-    "Description": "Centralized tertiary concept",
-    "Rank": 525,
+    "Name": "Klein, Hilll and Halvorson",
+    "Description": "Re-contextualized methodical moratorium",
+    "Rank": 938,
     "Restrictions": [
       {
-        "Name": "Grimes-Abernathy",
-        "Operator": "perspiciatis",
+        "Name": "Ratke-Bahringer",
+        "Operator": "nostrum",
         "Values": [
-          "ducimus",
-          "veritatis"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "et",
-          "tempore"
+          "molestiae",
+          "quas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 946,
+        "InterParenthesis": 515,
         "InterOperator": "And",
-        "UniqueHash": 648
+        "UniqueHash": 20
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shields Inc and Sons",
-    "Description": "Focused solution-oriented core",
-    "Rank": 518,
+    "Name": "Turcotte-Jerde",
+    "Description": "Upgradable stable moderator",
+    "Rank": 435,
     "Restrictions": [
       {
-        "Name": "Rogahn-Romaguera",
-        "Operator": "voluptatem",
+        "Name": "Hessel LLC",
+        "Operator": "culpa",
         "Values": [
-          "beatae",
-          "accusamus"
+          "alias",
+          "ea"
         ],
         "DisplayValues": [
-          "illum",
-          "eos"
+          "nobis",
+          "ipsam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 466,
+        "InterParenthesis": 731,
         "InterOperator": "And",
-        "UniqueHash": 727
+        "UniqueHash": 110
       }
     ]
   },
   {
-    "Name": "Shields Inc and Sons",
-    "Description": "Focused solution-oriented core",
-    "Rank": 518,
+    "Name": "Turcotte-Jerde",
+    "Description": "Upgradable stable moderator",
+    "Rank": 435,
     "Restrictions": [
       {
-        "Name": "Rogahn-Romaguera",
-        "Operator": "voluptatem",
+        "Name": "Hessel LLC",
+        "Operator": "culpa",
         "Values": [
-          "beatae",
-          "accusamus"
+          "alias",
+          "ea"
         ],
         "DisplayValues": [
-          "illum",
-          "eos"
+          "nobis",
+          "ipsam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 466,
+        "InterParenthesis": 731,
         "InterOperator": "And",
-        "UniqueHash": 727
+        "UniqueHash": 110
       }
     ]
   }

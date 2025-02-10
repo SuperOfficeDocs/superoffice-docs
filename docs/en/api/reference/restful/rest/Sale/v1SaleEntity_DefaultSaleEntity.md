@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 28 Aug 2009 13:13:32 G8T
+Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Fri, 28 Aug 2009 13:13:32 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "beatae",
+  "SaleText": "esse",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Fri, 28 Aug 2009 13:13:32 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-10-30T13:13:32.1986842+02:00",
-  "Amount": 2171.862,
-  "SaleId": 764,
-  "Earning": 26432.156,
-  "EarningPercent": 5468.83,
-  "Heading": "praesentium",
-  "Number": "1146714",
-  "Probability": 172,
-  "CreatedDate": "2018-11-04T13:13:32.1986842+01:00",
-  "UpdatedDate": "2009-08-28T13:13:32.1986842+02:00",
+  "Saledate": "2022-03-16T12:01:33.0425704+01:00",
+  "Amount": 27952.146,
+  "SaleId": 421,
+  "Earning": 7245.808,
+  "EarningPercent": 30700.664,
+  "Heading": "saepe",
+  "Number": "68742",
+  "Probability": 689,
+  "CreatedDate": "2002-04-20T12:01:33.0425704+02:00",
+  "UpdatedDate": "2016-01-22T12:01:33.0425704+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 103,
+  "ActiveLinks": 800,
   "Links": [
     {
-      "EntityName": "Barrows LLC",
-      "Id": 435,
-      "Description": "Stand-alone analyzing productivity",
-      "ExtraInfo": "officia",
-      "LinkId": 376,
+      "EntityName": "Lehner-Renner",
+      "Id": 850,
+      "Description": "Virtual dynamic adapter",
+      "ExtraInfo": "et",
+      "LinkId": 693,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 176
         }
       }
     }
   ],
-  "NextDueDate": "1999-08-05T13:13:32.1986842+02:00",
-  "Postit": "dolore",
+  "NextDueDate": "2000-04-07T12:01:33.0425704+02:00",
+  "Postit": "repellendus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-08-20T13:13:32.1986842+02:00",
+  "ReopenDate": "1998-06-14T12:01:33.0425704+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Swaniawski-Wilderman",
-      "Comment": "quia",
-      "StakeholderRoleId": 657,
-      "CountryId": 430,
-      "PersonId": 29,
-      "EmailDescription": "verla.gerlach@dachbarton.ca",
-      "EmailId": 183,
-      "EmailAddress": "camille@prosacco.uk",
-      "PhoneId": 951,
-      "ContactName": "Dickens, Ebert and Ratke",
-      "ContactId": 905,
-      "SaleId": 435,
-      "Mrmrs": "unde",
-      "Firstname": "Daryl",
-      "MiddleName": "Botsford LLC",
-      "Lastname": "Bayer",
-      "SaleStakeholderId": 692,
-      "Rank": 70,
-      "Phone": "1-160-267-6222",
+      "StakeholderRoleName": "Koss LLC",
+      "Comment": "nulla",
+      "StakeholderRoleId": 112,
+      "CountryId": 685,
+      "PersonId": 650,
+      "EmailDescription": "tressie@sauerlockman.biz",
+      "EmailId": 890,
+      "EmailAddress": "alexzander.johnston@skiles.biz",
+      "PhoneId": 861,
+      "ContactName": "Cruickshank Group",
+      "ContactId": 968,
+      "SaleId": 168,
+      "Mrmrs": "dolores",
+      "Firstname": "Selena",
+      "MiddleName": "Hodkiewicz-Prosacco",
+      "Lastname": "Walter",
+      "SaleStakeholderId": 470,
+      "Rank": 85,
+      "Phone": "(719)948-2668 x1526",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 529
+          "FieldLength": 308
         }
       }
     }
   ],
-  "ActiveErpLinks": 980,
+  "ActiveErpLinks": 348,
   "UserDefinedFields": {
-    "SuperOffice:1": "Yadira Dane McClure PhD",
-    "SuperOffice:2": "Willy Maggio"
+    "SuperOffice:1": "925281944",
+    "SuperOffice:2": "756544059"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "non"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "impedit"
   },
-  "PublishEventDate": "2002-02-11T13:13:32.1986842+01:00",
-  "PublishTo": "2000-11-20T13:13:32.1986842+01:00",
-  "PublishFrom": "2023-07-31T13:13:32.1986842+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-12-05T12:01:33.0425704+01:00",
+  "PublishTo": "2003-02-18T12:01:33.0425704+01:00",
+  "PublishFrom": "2001-08-11T12:01:33.0425704+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 41,
+      "VisibleId": 590,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     },
     {
-      "VisibleId": 41,
+      "VisibleId": 590,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Fri, 28 Aug 2009 13:13:32 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

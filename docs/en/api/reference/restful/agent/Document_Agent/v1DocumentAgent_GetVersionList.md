@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 993
+  "DocumentId": 16
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ut",
-    "DocumentId": 486,
-    "VersionId": "dignissimos",
-    "CheckedInDate": "2017-11-03T13:13:22.8833939+01:00",
-    "CheckedInByName": "Corkery, Ledner and Mraz",
-    "CheckedInByAssociateId": 536,
-    "Description": "Virtual next generation leverage",
-    "DisplayText": "tempore",
+    "ExternalReference": "itaque",
+    "DocumentId": 827,
+    "VersionId": "corporis",
+    "CheckedInDate": "2000-09-27T12:01:27.7596543+02:00",
+    "CheckedInByName": "Sipes-Grady",
+    "CheckedInByAssociateId": 303,
+    "Description": "Customer-focused regional approach",
+    "DisplayText": "et",
     "ExtraFields": [
-      "sit",
-      "libero"
+      "nemo",
+      "deleniti"
     ]
   }
 ]

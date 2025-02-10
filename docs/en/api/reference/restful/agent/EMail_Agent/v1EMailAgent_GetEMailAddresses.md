@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    132,
-    851
+    507,
+    595
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 344,
-    "ContactName": "Koepp, Cassin and Ruecker",
-    "PersonId": 635,
-    "PersonName": "Willms-Ward",
-    "AssociateId": 489,
-    "Address": "animi",
-    "EmailId": 721,
+    "ContactId": 704,
+    "ContactName": "Klocko-Runte",
+    "PersonId": 45,
+    "PersonName": "D'Amore-Hermiston",
+    "AssociateId": 859,
+    "Address": "ut",
+    "EmailId": 995,
     "DuplicatePersonIds": [
-      455,
-      191
+      180,
+      551
     ],
-    "Name": "D'Amore, Hoppe and Rice",
+    "Name": "Rodriguez Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 950,
-  "SelectionId": 447,
+  "DocumentPluginId": 456,
+  "SelectionId": 627,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 821,
-  "NumDocumentsAlreadyMigrated": 470,
+  "NumDocumentsOmitted": 466,
+  "NumDocumentsAlreadyMigrated": 361,
   "Documents": [
     {
-      "DocumentId": 202,
-      "ContactId": 194,
-      "PersonId": 796,
-      "SaleId": 106,
-      "ProjectId": 919,
-      "DocTmplId": 915,
-      "AssociateId": 607,
-      "UserGroupId": 653,
-      "VisibleForId": 389
+      "DocumentId": 238,
+      "ContactId": 224,
+      "PersonId": 999,
+      "SaleId": 24,
+      "ProjectId": 484,
+      "DocTmplId": 547,
+      "AssociateId": 932,
+      "UserGroupId": 12,
+      "VisibleForId": 663
     }
   ],
   "Associates": [
     {
-      "AssociateId": 630,
-      "EmailAddress": "alisa.buckridge@grady.co.uk"
+      "AssociateId": 463,
+      "EmailAddress": "ethelyn@denesik.ca"
     },
     {
-      "AssociateId": 630,
-      "EmailAddress": "alisa.buckridge@grady.co.uk"
+      "AssociateId": 463,
+      "EmailAddress": "ethelyn@denesik.ca"
     }
   ]
 }

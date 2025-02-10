@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 586,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Johnson, Jenkins and Parisian",
-  "Description": "Inverse tertiary migration",
-  "IncludeId": "sint",
-  "AccessKey": "dolorem",
-  "HierarchyId": 630,
-  "Source": "vel",
-  "SourceCode": "perferendis",
+  "EjscriptId": 319,
+  "UniqueIdentifier": "quasi",
+  "Name": "O'Connell, Hermann and Doyle",
+  "Description": "Team-oriented coherent Graphic Interface",
+  "IncludeId": "aut",
+  "AccessKey": "tempora",
+  "HierarchyId": 114,
+  "Source": "similique",
+  "SourceCode": "qui",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 437,
+  "HtmlOutput": 14,
   "Includes": [
-    779,
-    872
+    255,
+    776
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 368,
-      "LineNumberTo": 6,
-      "Delta": 542,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 943,
+      "LineNumberTo": 243,
+      "Delta": 886,
+      "IncludeId": "qui",
       "IncludedFrom": [
-        "iste",
-        "maxime"
+        "qui",
+        "eveniet"
       ]
     },
     {
-      "LineNumberFrom": 368,
-      "LineNumberTo": 6,
-      "Delta": 542,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 943,
+      "LineNumberTo": 243,
+      "Delta": 886,
+      "IncludeId": "qui",
       "IncludedFrom": [
-        "iste",
-        "maxime"
+        "qui",
+        "eveniet"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-03-22T13:13:22.508244+01:00",
-  "RegisteredAssociateId": 881,
-  "Updated": "2023-03-04T13:13:22.508244+01:00",
-  "UpdatedAssociateId": 703
+  "Registered": "1999-08-23T12:01:27.5408902+02:00",
+  "RegisteredAssociateId": 453,
+  "Updated": "2008-10-17T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 221
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 618,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Runolfsson Group",
-  "Description": "Operative directional architecture",
-  "IncludeId": "aut",
-  "AccessKey": "est",
-  "HierarchyId": 769,
-  "Source": "officia",
-  "SourceCode": "reprehenderit",
+  "EjscriptId": 965,
+  "UniqueIdentifier": "dolore",
+  "Name": "Bayer Group",
+  "Description": "Cloned homogeneous project",
+  "IncludeId": "accusamus",
+  "AccessKey": "totam",
+  "HierarchyId": 599,
+  "Source": "repudiandae",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 345,
+  "HtmlOutput": 874,
   "Includes": [
-    900,
-    289
+    257,
+    562
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 605,
-      "LineNumberTo": 781,
-      "Delta": 848,
-      "IncludeId": "earum",
+      "LineNumberFrom": 569,
+      "LineNumberTo": 136,
+      "Delta": 917,
+      "IncludeId": "dolor",
       "IncludedFrom": [
-        "reiciendis",
-        "nihil"
+        "dolore",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 887
+          "FieldType": "System.Int32",
+          "FieldLength": 918
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-01-31T13:13:22.508244+01:00",
-  "RegisteredAssociateId": 345,
-  "Updated": "2013-10-01T13:13:22.508244+02:00",
-  "UpdatedAssociateId": 102,
+  "Registered": "2006-02-14T12:01:27.5408902+01:00",
+  "RegisteredAssociateId": 729,
+  "Updated": "2012-10-21T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

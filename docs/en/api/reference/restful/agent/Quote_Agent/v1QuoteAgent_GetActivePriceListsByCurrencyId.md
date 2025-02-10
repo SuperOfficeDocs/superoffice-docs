@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 217,
-  "CurrencyId": 58
+  "QuoteConnectionId": 747,
+  "CurrencyId": 578
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 871,
-    "ERPPriceListKey": "earum",
-    "QuoteConnectionId": 867,
-    "Name": "Hammes-Ziemann",
-    "Description": "Ameliorated demand-driven definition",
-    "Currency": "dicta",
-    "CurrencyName": "Runolfsson, Hartmann and Hirthe",
-    "ValidFrom": "2002-05-14T13:13:23.7425716+02:00",
-    "ValidTo": "1999-05-01T13:13:23.7425716+02:00",
+    "PriceListId": 744,
+    "ERPPriceListKey": "maxime",
+    "QuoteConnectionId": 597,
+    "Name": "King Group",
+    "Description": "Future-proofed radical benchmark",
+    "Currency": "aut",
+    "CurrencyName": "Braun Inc and Sons",
+    "ValidFrom": "2015-03-08T12:01:28.1971849+01:00",
+    "ValidTo": "2017-05-12T12:01:28.1971849+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 738
       }
     }
   }

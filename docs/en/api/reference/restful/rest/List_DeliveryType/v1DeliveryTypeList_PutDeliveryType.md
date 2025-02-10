@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Terry, Schiller and Nitzsche",
-  "Tooltip": "sint",
+  "Id": 830,
+  "Name": "Schuppe, Kovacek and Stiedemann",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 607,
-  "Rank": 772
+  "UdListDefinitionId": 696,
+  "Rank": 524
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Beahan LLC",
-  "Tooltip": "velit",
+  "Id": 866,
+  "Name": "Schamberger Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 46,
-  "Rank": 658,
+  "UdListDefinitionId": 394,
+  "Rank": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

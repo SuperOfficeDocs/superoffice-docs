@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 34,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 274,
+  "SaleTypeId": 33,
+  "Name": "Wisoky Group",
+  "Tooltip": "recusandae",
+  "Rank": 987,
   "DurationUnit": "Century",
-  "SaleDuration": 286,
-  "SaleTypeCatId": 427,
+  "SaleDuration": 915,
+  "SaleTypeCatId": 572,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 227,
-  "QuoteLinesTemplate": 269,
-  "ConfirmationLinesTemplate": 824,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 919,
+  "QuoteLinesTemplate": 636,
+  "ConfirmationLinesTemplate": 101,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 971,
-  "MinEarningPercent": 220,
-  "GroupQuoteLinesBy": 863,
-  "SortGroupLinesBy": 902,
+  "MaxDiscountPercent": 647,
+  "MinEarningPercent": 768,
+  "GroupQuoteLinesBy": 502,
+  "SortGroupLinesBy": 750,
   "Stages": [
     {
-      "Id": 413,
-      "Name": "McKenzie Group",
-      "ToolTip": "Et aut officia minus.",
-      "Deleted": false,
-      "Rank": 594,
-      "Type": "saepe",
-      "ColorBlock": 667,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2012-04-16T13:13:23.3207956+02:00",
+      "Id": 725,
+      "Name": "Bradtke, Will and Jakubowski",
+      "ToolTip": "Distinctio dolor et quia rerum et dignissimos.",
+      "Deleted": true,
+      "Rank": 576,
+      "Type": "soluta",
+      "ColorBlock": 297,
+      "IconHint": "animi",
+      "Selected": false,
+      "LastChanged": "1999-10-14T12:01:27.97842+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "officiis",
+      "StyleHint": "dolor",
       "Hidden": true,
-      "FullName": "Syble Kutch",
+      "FullName": "Miss Howard Pfannerstill IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 810
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldLength": 105
     }
   }
 }

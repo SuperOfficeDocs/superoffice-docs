@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-11-23T13:13:21.8365173+01:00",
-  "AppointmentId": 289,
-  "Description": "Universal actuating superstructure",
-  "Title": "eum",
-  "Agenda": "illo",
-  "InternalNotes": "molestiae",
-  "StartDate": "2000-12-22T13:13:21.8365173+01:00",
-  "EndDate": "2017-08-14T13:13:21.8365173+02:00",
+  "CreatedDate": "2006-08-28T12:01:27.1814891+02:00",
+  "AppointmentId": 624,
+  "Description": "Multi-tiered eco-centric infrastructure",
+  "Title": "quibusdam",
+  "Agenda": "molestiae",
+  "InternalNotes": "totam",
+  "StartDate": "2008-03-25T12:01:27.1814891+01:00",
+  "EndDate": "2024-07-15T12:01:27.1814891+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 905,
+  "MotherId": 664,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-07-27T13:13:21.8365173+02:00",
+  "UpdatedDate": "1998-10-06T12:01:27.1814891+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 344,
+  "ActiveLinks": 184,
   "Links": [
     {
-      "EntityName": "Hettinger-Steuber",
-      "Id": 418,
-      "Description": "Open-architected national protocol",
-      "ExtraInfo": "expedita",
-      "LinkId": 949,
+      "EntityName": "Brown-Stehr",
+      "Id": 610,
+      "Description": "Programmable intermediate monitoring",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 753,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 906
         }
       }
     }
   ],
-  "AlarmLeadTime": "eligendi",
+  "AlarmLeadTime": "hic",
   "HasAlarm": false,
-  "ColorIndex": 838,
-  "IsFree": true,
+  "ColorIndex": 278,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "consequatur",
-  "LeadTime": "voluptatem",
-  "Location": "cum",
-  "RejectCounter": 215,
+  "LagTime": "non",
+  "LeadTime": "excepturi",
+  "Location": "blanditiis",
+  "RejectCounter": 556,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 292,
-      "PersonId": 447,
-      "ContactId": 794,
-      "EmailId": 601,
-      "SendEmail": false,
+      "AssociateId": 576,
+      "PersonId": 588,
+      "ContactId": 706,
+      "EmailId": 524,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jalyn.lemke@mosciski.info",
-      "Description": "Devolved zero defect protocol"
+      "EmailAddress": "jayda_prohaska@paucek.info",
+      "Description": "Persistent tangible analyzer"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-01-10T13:13:21.8365173+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2010-05-10T12:01:27.1814891+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 958,
+  "PreferredTZLocation": 846,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 239,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 131,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
+  "CentralserviceVideomeetId": "corrupti",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Miss Roma Kuhn MD"
+    "SuperOffice:1": "Dr. Ari Hackett",
+    "SuperOffice:2": "Terry Bosco"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "id"
+    "CustomFields1": "ut",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2021-06-19T13:13:21.8365173+02:00",
-  "PublishTo": "2016-02-25T13:13:21.8365173+01:00",
-  "PublishFrom": "2010-08-10T13:13:21.8365173+02:00",
+  "PublishEventDate": "2024-10-05T12:01:27.197115+02:00",
+  "PublishTo": "2014-06-22T12:01:27.197115+02:00",
+  "PublishFrom": "2014-05-29T12:01:27.197115+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 656,
+      "VisibleId": 177,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldLength": 459
         }
       }
     },
     {
-      "VisibleId": 656,
+      "VisibleId": 177,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldLength": 459
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 705
     }
   }
 }

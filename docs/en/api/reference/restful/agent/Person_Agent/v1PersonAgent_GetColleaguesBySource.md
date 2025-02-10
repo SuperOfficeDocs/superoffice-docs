@@ -106,6 +106,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -115,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 235
+  "Count": 151
 }
 ```
 
@@ -132,52 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "neque",
-    "PersonId": 631,
-    "Mrmrs": "cum",
-    "Firstname": "Taryn",
-    "Lastname": "Vandervort",
-    "MiddleName": "Reinger-Connelly",
-    "Title": "debitis",
-    "Description": "Streamlined 24/7 Graphic Interface",
-    "Email": "karlie@schroeder.uk",
-    "FullName": "Mohammad Walter",
-    "DirectPhone": "300-207-4673",
-    "FormalName": "Brekke, Robel and Russel",
-    "CountryId": 965,
-    "ContactId": 381,
-    "ContactName": "Jenkins, Vandervort and Baumbach",
-    "Retired": 423,
-    "Rank": 22,
-    "ActiveInterests": 947,
+    "Position": "qui",
+    "PersonId": 384,
+    "Mrmrs": "ut",
+    "Firstname": "Estefania",
+    "Lastname": "Friesen",
+    "MiddleName": "Kirlin-Spencer",
+    "Title": "cupiditate",
+    "Description": "Centralized system-worthy portal",
+    "Email": "monserrat_labadie@swift.info",
+    "FullName": "Ursula Ledner",
+    "DirectPhone": "254.799.4169 x63736",
+    "FormalName": "Green, Crooks and O'Conner",
+    "CountryId": 572,
+    "ContactId": 566,
+    "ContactName": "Feeney-McGlynn",
+    "Retired": 723,
+    "Rank": 901,
+    "ActiveInterests": 382,
     "ContactDepartment": "",
-    "ContactCountryId": 188,
-    "ContactOrgNr": "935343",
-    "FaxPhone": "716.263.2413 x04626",
-    "MobilePhone": "(381)415-8018 x86771",
-    "ContactPhone": "1-367-423-2001 x085",
-    "AssociateName": "Cassin Inc and Sons",
-    "AssociateId": 447,
+    "ContactCountryId": 934,
+    "ContactOrgNr": "952832",
+    "FaxPhone": "318-490-2999 x216",
+    "MobilePhone": "(187)336-5194 x252",
+    "ContactPhone": "635-351-8779 x39073",
+    "AssociateName": "Morissette, Pacocha and Stroman",
+    "AssociateId": 568,
     "UsePersonAddress": true,
-    "ContactFax": "aperiam",
-    "Kanafname": "ab",
-    "Kanalname": "architecto",
-    "Post1": "fuga",
-    "Post2": "ut",
-    "Post3": "qui",
-    "EmailName": "chaim.upton@adamsdicki.us",
-    "ContactFullName": "Alexzander Thompson",
-    "ActiveErpLinks": 993,
-    "TicketPriorityId": 964,
-    "SupportLanguageId": 712,
-    "SupportAssociateId": 328,
+    "ContactFax": "soluta",
+    "Kanafname": "voluptatem",
+    "Kanalname": "error",
+    "Post1": "exercitationem",
+    "Post2": "id",
+    "Post3": "non",
+    "EmailName": "louisa_mills@rempelwisoky.uk",
+    "ContactFullName": "Mrs. Dorris Jacobi",
+    "ActiveErpLinks": 878,
+    "TicketPriorityId": 518,
+    "SupportLanguageId": 976,
+    "SupportAssociateId": 882,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "893888",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

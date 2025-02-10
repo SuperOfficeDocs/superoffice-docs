@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 671,
-  "Restrictions": "dolorum"
+  "DashboardTileId": 528,
+  "Restrictions": "sunt"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Dickens-Price",
-        "DisplayTooltip": "qui",
-        "DisplayType": "qui",
-        "CanOrderBy": true,
-        "Name": "Shanahan, Yundt and Little",
-        "CanRestrictBy": true,
-        "RestrictionType": "ut",
-        "RestrictionListName": "Zieme, Kuphal and Walker",
+        "DisplayName": "White, Wisoky and Parker",
+        "DisplayTooltip": "voluptatum",
+        "DisplayType": "enim",
+        "CanOrderBy": false,
+        "Name": "Corwin, Bode and Wisozk",
+        "CanRestrictBy": false,
+        "RestrictionType": "assumenda",
+        "RestrictionListName": "Denesik LLC",
         "IsVisible": true,
-        "ExtraInfo": "dolores",
-        "Width": "expedita",
-        "IconHint": "doloribus",
-        "HeadingIconHint": "repellat"
+        "ExtraInfo": "optio",
+        "Width": "eum",
+        "IconHint": "nesciunt",
+        "HeadingIconHint": "voluptatem"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Dickens-Price",
-        "DisplayTooltip": "qui",
-        "DisplayType": "qui",
-        "CanOrderBy": true,
-        "Name": "Shanahan, Yundt and Little",
-        "CanRestrictBy": true,
-        "RestrictionType": "ut",
-        "RestrictionListName": "Zieme, Kuphal and Walker",
+        "DisplayName": "White, Wisoky and Parker",
+        "DisplayTooltip": "voluptatum",
+        "DisplayType": "enim",
+        "CanOrderBy": false,
+        "Name": "Corwin, Bode and Wisozk",
+        "CanRestrictBy": false,
+        "RestrictionType": "assumenda",
+        "RestrictionListName": "Denesik LLC",
         "IsVisible": true,
-        "ExtraInfo": "dolores",
-        "Width": "expedita",
-        "IconHint": "doloribus",
-        "HeadingIconHint": "repellat"
+        "ExtraInfo": "optio",
+        "Width": "eum",
+        "IconHint": "nesciunt",
+        "HeadingIconHint": "voluptatem"
       }
     ],
     "Result": null

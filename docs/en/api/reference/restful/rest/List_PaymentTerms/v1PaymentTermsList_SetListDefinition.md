@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Dach Inc and Sons",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 799,
+  "Id": 963,
+  "Name": "O'Kon-Murazik",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 30,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 759,
-  "Name": "Schaefer, Hartmann and Douglas",
-  "Tooltip": "consequatur",
+  "Id": 844,
+  "Name": "Bechtelar LLC",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 461,
+  "Rank": 285,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 566
     }
   }
 }

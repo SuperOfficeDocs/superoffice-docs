@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 512
+  "ProjectId": 870
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed content-based ability",
-  "Postit": "ut",
+  "Description": "Down-sized responsive interface",
+  "Postit": "beatae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 749,
-  "IncludePerson": 598,
+  "GroupIdx": 783,
+  "IncludePerson": 534,
   "MemberCount": 99.99,
-  "Name": "Heidenreich, Cartwright and Mann",
-  "PostitTextId": 322,
-  "CreatedDate": "2000-01-25T13:13:23.9309404+01:00",
-  "SelectionId": 207,
-  "SoundEx": "sunt",
-  "Source": 316,
-  "TextId": 995,
-  "UpdatedDate": "2020-01-18T13:13:23.9309404+01:00",
-  "UpdatedCount": 113,
-  "Visibility": 416,
+  "Name": "Herman-Kunde",
+  "PostitTextId": 448,
+  "CreatedDate": "2011-12-27T12:01:28.2909425+01:00",
+  "SelectionId": 315,
+  "SoundEx": "ullam",
+  "Source": 305,
+  "TextId": 820,
+  "UpdatedDate": "2014-03-11T12:01:28.2909425+01:00",
+  "UpdatedCount": 542,
+  "Visibility": 177,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 431,
-  "TargetTableName": "Powlowski Group",
-  "Completed": false,
-  "LeftSelectionId": 571,
-  "RightSelectionId": 983,
+  "CompanyUnique": false,
+  "TargetTableNumber": 734,
+  "TargetTableName": "Spinka, Lang and Walter",
+  "Completed": true,
+  "LeftSelectionId": 493,
+  "RightSelectionId": 869,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Upton, Haag and Grant",
-  "ShadowProviderName": "Mante-Halvorson",
-  "ChartKey": "modi",
-  "LastLoaded": "2010-09-07T13:13:23.9309404+02:00",
-  "LastLoadedBy": 879,
+  "MainProviderName": "Mueller, Lakin and Gaylord",
+  "ShadowProviderName": "Pacocha-Okuneva",
+  "ChartKey": "nam",
+  "LastLoaded": "2004-01-22T12:01:28.2909425+01:00",
+  "LastLoadedBy": 655,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-08-11T13:13:23.9309404+02:00",
-  "LastMembershipChangeBy": 946,
+  "LastMembershipChange": "2010-01-13T12:01:28.2909425+01:00",
+  "LastMembershipChangeBy": 69,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magni",
-  "MemberTabHeading": "vel",
-  "MailingsProviderName": "Wilderman LLC",
-  "DashboardTileDefinitionId": 827,
+  "MainHeading": "fugiat",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Thiel LLC",
+  "DashboardTileDefinitionId": 976,
   "VisibleFor": [
     {
-      "VisibleId": 288,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 288,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 512
     }
   }
 }

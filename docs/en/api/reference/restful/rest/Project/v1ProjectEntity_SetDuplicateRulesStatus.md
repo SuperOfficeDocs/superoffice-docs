@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobi, O'Kon and Wunsch",
-    "DisplayName": "Kirlin Group",
-    "DisplayTooltip": "voluptatum",
-    "IsActive": true
+    "Name": "Greenholt Group",
+    "DisplayName": "Nitzsche-Armstrong",
+    "DisplayTooltip": "omnis",
+    "IsActive": false
   },
   {
-    "Name": "Jacobi, O'Kon and Wunsch",
-    "DisplayName": "Kirlin Group",
-    "DisplayTooltip": "voluptatum",
-    "IsActive": true
+    "Name": "Greenholt Group",
+    "DisplayName": "Nitzsche-Armstrong",
+    "DisplayTooltip": "omnis",
+    "IsActive": false
   }
 ]
 ```

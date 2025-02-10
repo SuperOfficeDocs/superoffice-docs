@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 768,
-  "SourcePersonId": 319,
-  "DestinationContactId": 761,
-  "DestinationPersonId": 831,
-  "RelationId": 471,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 47,
-  "Reversed": 597,
-  "UpdatedDate": "2012-12-13T13:13:23.7738157+01:00",
-  "CreatedDate": "2010-05-23T13:13:23.7738157+02:00",
+  "SourceContactId": 578,
+  "SourcePersonId": 811,
+  "DestinationContactId": 143,
+  "DestinationPersonId": 829,
+  "RelationId": 934,
+  "Comment": "est",
+  "RelationDefinitionId": 354,
+  "Reversed": 361,
+  "UpdatedDate": "2002-02-04T12:01:28.2128113+01:00",
+  "CreatedDate": "2014-02-21T12:01:28.2128113+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Miller-Schinner",
-  "SourcePersonName": "McDermott, Jast and Schowalter",
-  "DestinationContactName": "Hand-Parker",
-  "DestinationPersonName": "Ritchie, Fahey and Schuster",
-  "ActiveText": "aliquid",
-  "PassiveText": "et",
+  "SourceContactName": "Prohaska Group",
+  "SourcePersonName": "Fahey LLC",
+  "DestinationContactName": "Jenkins Group",
+  "DestinationPersonName": "Monahan-Nolan",
+  "ActiveText": "amet",
+  "PassiveText": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

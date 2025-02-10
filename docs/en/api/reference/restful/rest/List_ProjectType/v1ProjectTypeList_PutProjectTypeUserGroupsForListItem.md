@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Hirthe, Kiehn and Bogan",
-    "ToolTip": "Reprehenderit ut fugiat est consequatur dicta assumenda.",
+    "Id": 673,
+    "Name": "Wisozk-Bosco",
+    "ToolTip": "Neque dolor alias nisi in.",
     "Deleted": false,
-    "Rank": 304,
-    "Type": "mollitia",
-    "ColorBlock": 394,
-    "IconHint": "quidem",
+    "Rank": 415,
+    "Type": "omnis",
+    "ColorBlock": 707,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2016-12-11T13:13:33.4016848+01:00",
+    "LastChanged": "2011-07-16T12:01:33.6051097+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Anderson, Leannon and Boehm",
-        "ToolTip": "Nihil omnis aut autem soluta sed.",
-        "Deleted": true,
-        "Rank": 169,
-        "Type": "repellendus",
-        "ColorBlock": 506,
-        "IconHint": "provident",
+        "Id": 932,
+        "Name": "Gorczany-Streich",
+        "ToolTip": "Tempora esse aliquam rerum ut quia sapiente.",
+        "Deleted": false,
+        "Rank": 205,
+        "Type": "veniam",
+        "ColorBlock": 259,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2024-12-11T13:13:33.4016848+01:00",
+        "LastChanged": "2005-04-25T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Alden Emerald Hickle Sr."
+        "ExtraInfo": "nemo",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Cloyd DuBuque"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "aut",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "asperiores",
     "Hidden": true,
-    "FullName": "Prof. Wilburn Turner Watsica PhD"
+    "FullName": "Prof. Ryann Konopelski V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Lemke LLC",
-    "ToolTip": "Libero tenetur rerum et consequatur molestiae.",
+    "Id": 552,
+    "Name": "O'Kon Inc and Sons",
+    "ToolTip": "Tempora ullam sit.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "optio",
-    "ColorBlock": 867,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2018-02-21T13:13:33.4016848+01:00",
+    "Rank": 200,
+    "Type": "nisi",
+    "ColorBlock": 231,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2013-07-14T12:01:33.6051097+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Leuschke, Conroy and Hintz",
-        "ToolTip": "Repudiandae harum minima quaerat atque nostrum et eligendi.",
+        "Id": 883,
+        "Name": "Konopelski, Ferry and Jerde",
+        "ToolTip": "Dolorem ducimus.",
         "Deleted": false,
-        "Rank": 361,
-        "Type": "vero",
-        "ColorBlock": 904,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2024-10-12T13:13:33.4016848+02:00",
+        "Rank": 762,
+        "Type": "sapiente",
+        "ColorBlock": 778,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2006-11-15T12:01:33.6051097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Miss Justen Madilyn Hintz",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Mr. Cullen Damion Casper IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 351
+            "FieldType": "System.Int32",
+            "FieldLength": 829
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "dolores",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Yoshiko Hayden Mitchell Sr.",
+    "FullName": "Dr. Jamison Aniyah Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Hane LLC",
-    "Tooltip": "ut",
+    "Id": 7,
+    "Name": "Thompson, Okuneva and Goodwin",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "UdListDefinitionId": 67,
-    "Rank": 40,
+    "UdListDefinitionId": 284,
+    "Rank": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

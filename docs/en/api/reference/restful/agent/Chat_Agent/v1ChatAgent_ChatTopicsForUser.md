@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 461,
-    "Name": "Kihn-Jacobs",
-    "Description": "Implemented multi-tasking knowledge base",
-    "WelcomeMessage": "ea",
+    "ChatTopicId": 139,
+    "Name": "Yundt, Bergstrom and O'Reilly",
+    "Description": "Re-contextualized disintermediate methodology",
+    "WelcomeMessage": "est",
     "Language": null,
-    "LastAccept": "2023-04-05T13:13:22.3051684+02:00",
-    "SecondsPrAccept": 441,
-    "AlertRecipient": "vel",
+    "LastAccept": "2010-02-02T12:01:27.4315072+01:00",
+    "SecondsPrAccept": 834,
+    "AlertRecipient": "ex",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "rerum",
+    "BadgeHeader": "a",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "enim",
-    "WarnNewChatMinutes": 565,
-    "WarnManagerNewChatMinutes": 108,
+    "CustomQueueText": "laboriosam",
+    "WarnNewChatMinutes": 372,
+    "WarnManagerNewChatMinutes": 689,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 247,
-    "WarnManagerChatMessageMinutes": 38,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 632,
+    "WarnManagerChatMessageMinutes": 271,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 444,
-    "OfflineFormQueueLength": 26,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "blanditiis",
+    "OfflineFormTimeLimit": 410,
+    "OfflineFormQueueLength": 404,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 91
       }
     }
   }

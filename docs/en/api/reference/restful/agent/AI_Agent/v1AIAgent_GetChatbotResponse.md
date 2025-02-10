@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "doloremque",
-  "IsoLangCode": "sunt",
-  "UserPrompt": "qui",
-  "DisplayValue": "voluptate",
+  "ChatId": "rerum",
+  "IsoLangCode": "et",
+  "UserPrompt": "aspernatur",
+  "DisplayValue": "magnam",
   "PreviousTurns": [
     {
-      "Timestamp": "2016-10-21T13:13:21.4771717+02:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "quo",
-      "BotResponse": "possimus",
+      "Timestamp": "2023-02-27T12:01:26.9783334+01:00",
+      "UserPrompt": "accusantium",
+      "UserDisplayText": "autem",
+      "BotResponse": "dolor",
       "BotActions": {
-        "BotActions1": "quae",
-        "BotActions2": "est"
+        "BotActions1": "eligendi",
+        "BotActions2": "recusandae"
       },
       "Attachments": [
-        "est",
-        "facilis"
+        "optio",
+        "quisquam"
       ]
     },
     {
-      "Timestamp": "2016-10-21T13:13:21.4771717+02:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "quo",
-      "BotResponse": "possimus",
+      "Timestamp": "2023-02-27T12:01:26.9783334+01:00",
+      "UserPrompt": "accusantium",
+      "UserDisplayText": "autem",
+      "BotResponse": "dolor",
       "BotActions": {
-        "BotActions1": "quae",
-        "BotActions2": "est"
+        "BotActions1": "eligendi",
+        "BotActions2": "recusandae"
       },
       "Attachments": [
-        "est",
-        "facilis"
+        "optio",
+        "quisquam"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2016-04-03T13:13:21.4771717+02:00",
-  "UserPrompt": "voluptatem",
-  "UserDisplayText": "repellendus",
-  "BotResponse": "consequuntur",
+  "Timestamp": "2011-07-05T12:01:26.9783334+02:00",
+  "UserPrompt": "quisquam",
+  "UserDisplayText": "omnis",
+  "BotResponse": "aut",
   "BotActions": {
-    "BotActions1": "voluptas",
-    "BotActions2": "et"
+    "BotActions1": "commodi",
+    "BotActions2": "placeat"
   },
   "Attachments": [
-    "ut",
-    "mollitia"
+    "quo",
+    "fuga"
   ]
 }
 ```

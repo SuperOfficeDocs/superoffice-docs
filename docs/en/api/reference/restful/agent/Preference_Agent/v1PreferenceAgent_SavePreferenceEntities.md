@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "dicta",
+      "RawValue": "sint",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "animi",
+      "DisplayValue": "omnis",
+      "DisplayTooltip": "ex",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 371,
-      "PrefDescId": 706,
-      "TableName": "West, Baumbach and Wilderman",
-      "UserPreferenceId": 806
+      "TargetId": 97,
+      "PrefDescId": 246,
+      "TableName": "Kilback-Hand",
+      "UserPreferenceId": 538
     }
   ],
   "RemoveLowerLevels": false

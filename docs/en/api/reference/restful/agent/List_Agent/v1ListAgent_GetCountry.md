@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=500
+POST /api/v1/Agents/List/GetCountry?countryId=976
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 45,
-  "Name": "O'Hara LLC",
-  "CurrencyId": 354,
-  "EnglishName": "Jakubowski, Bauch and Abshire",
+  "CountryId": 515,
+  "Name": "Rempel LLC",
+  "CurrencyId": 871,
+  "EnglishName": "Skiles-Schinner",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Centralized modular toolset",
-  "OrgNrText": "587992",
-  "InterAreaPrefix": "illo",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "enim",
-  "DomainName": "Hagenes Inc and Sons",
-  "AddressLayoutId": 421,
-  "DomesticAddressLayoutId": 598,
-  "ForeignAddressLayoutId": 911,
-  "Rank": 965,
-  "Tooltip": "fuga",
-  "Deleted": true,
+  "ImageDescription": "Synergized fault-tolerant collaboration",
+  "OrgNrText": "1103300",
+  "InterAreaPrefix": "voluptatem",
+  "DialInPrefix": "quaerat",
+  "ZipPrefix": "totam",
+  "DomainName": "Ratke-DuBuque",
+  "AddressLayoutId": 804,
+  "DomesticAddressLayoutId": 785,
+  "ForeignAddressLayoutId": 101,
+  "Rank": 116,
+  "Tooltip": "iste",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 298
     }
   }
 }

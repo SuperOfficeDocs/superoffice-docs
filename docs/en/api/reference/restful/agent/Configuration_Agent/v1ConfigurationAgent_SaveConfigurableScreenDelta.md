@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 373,
-  "Name": "Fahey, Kreiger and Little",
-  "Description": "Decentralized 24/7 system engine",
-  "DeltaJson": "cupiditate",
+  "ConfigurableScreenDeltaId": 329,
+  "Name": "Lang, Will and Funk",
+  "Description": "Multi-layered attitude-oriented challenge",
+  "DeltaJson": "quia",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dicta",
-  "UpdatedDate": "1999-12-04T13:13:22.3207878+01:00",
-  "CreatedDate": "2001-01-29T13:13:22.3207878+01:00",
+  "RecipeId": "voluptas",
+  "UpdatedDate": "2019-03-14T12:01:27.4471334+01:00",
+  "CreatedDate": "2002-10-10T12:01:27.4471334+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    740,
-    450
+    267,
+    731
   ],
-  "AppliesToKey": "rerum"
+  "AppliesToKey": "labore"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 947,
-  "Name": "Lind, Abernathy and Heaney",
-  "Description": "Stand-alone hybrid migration",
-  "DeltaJson": "id",
+  "ConfigurableScreenDeltaId": 537,
+  "Name": "Will-Rolfson",
+  "Description": "Centralized coherent infrastructure",
+  "DeltaJson": "labore",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "illum",
-  "UpdatedDate": "2006-04-17T13:13:22.3207878+02:00",
-  "CreatedDate": "2005-03-04T13:13:22.3207878+01:00",
+  "RecipeId": "est",
+  "UpdatedDate": "2008-09-08T12:01:27.4471334+02:00",
+  "CreatedDate": "2020-07-01T12:01:27.4471334+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    555,
-    687
+    803,
+    980
   ],
-  "AppliesToKey": "voluptas",
+  "AppliesToKey": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 881
     }
   }
 }

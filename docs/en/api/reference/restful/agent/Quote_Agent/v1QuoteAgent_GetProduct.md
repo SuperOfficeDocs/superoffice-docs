@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 92,
-  "ERPProductKey": "delectus"
+  "QuoteConnectionId": 390,
+  "ERPProductKey": "qui"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 537,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "in",
-  "Name": "Tillman Inc and Sons",
-  "Description": "Streamlined neutral open system",
-  "Code": "id",
-  "PriceUnit": "sed",
-  "QuantityUnit": "porro",
-  "IsSubscription": false,
-  "SubscriptionUnit": "mollitia",
-  "DefaultSubscriptionQuantity": 19772.406,
-  "ItemNumber": "1727688",
+  "ProductId": 902,
+  "ERPProductKey": "ad",
+  "ERPPriceListKey": "nostrum",
+  "Name": "Rosenbaum, Ebert and Brekke",
+  "Description": "Organized well-modulated hub",
+  "Code": "deleniti",
+  "PriceUnit": "non",
+  "QuantityUnit": "quod",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consectetur",
+  "DefaultSubscriptionQuantity": 7960.36,
+  "ItemNumber": "112269",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "veniam",
-  "VAT": 15807.895999999999,
-  "VATInfo": "nulla",
-  "UnitCost": 22928.344,
-  "UnitMinimumPrice": 10455.024,
-  "UnitListPrice": 8132.73,
+  "ProductFamilyKey": "culpa",
+  "ProductTypeKey": "molestiae",
+  "VAT": 22492.718,
+  "VATInfo": "amet",
+  "UnitCost": 26739.288,
+  "UnitMinimumPrice": 27945.878,
+  "UnitListPrice": 3149.67,
   "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "at",
-  "Rights": "non",
-  "Rule": "tempore",
+  "Supplier": "incidunt",
+  "SupplierCode": "accusamus",
+  "Rights": "aut",
+  "Rule": "ab",
   "ExtraInfo": [
     {
-      "Name": "Lowe LLC",
-      "Value": "neque",
+      "Name": "King-Ziemann",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     },
     {
-      "Name": "Lowe LLC",
-      "Value": "neque",
+      "Name": "King-Ziemann",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "non",
-  "ExtraField2": "vero",
-  "ExtraField3": "et",
-  "ExtraField4": "nam",
-  "ExtraField5": "consectetur",
-  "InStock": 8276.894,
+  "RawExtraInfo": "necessitatibus",
+  "ExtraField1": "sed",
+  "ExtraField2": "minima",
+  "ExtraField3": "id",
+  "ExtraField4": "nisi",
+  "ExtraField5": "placeat",
+  "InStock": 9101.136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

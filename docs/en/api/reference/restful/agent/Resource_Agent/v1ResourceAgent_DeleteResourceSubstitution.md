@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Mitchell Group",
-  "Culture": "aliquid"
+  "ResourceName": "Littel, Will and Hane",
+  "Culture": "nam"
 }
 ```
 

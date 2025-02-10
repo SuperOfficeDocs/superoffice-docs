@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Bashirian-Jacobi",
-    "ToolTip": "Est iure et facere et.",
+    "Id": 696,
+    "Name": "Marvin LLC",
+    "ToolTip": "Reiciendis mollitia totam nobis iusto ratione eveniet in.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "vel",
-    "ColorBlock": 908,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2009-09-03T13:13:33.4016848+02:00",
+    "Rank": 485,
+    "Type": "voluptatum",
+    "ColorBlock": 966,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2009-02-16T12:01:33.6051097+01:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "White Inc and Sons",
-        "ToolTip": "Qui fugit qui aut.",
-        "Deleted": false,
-        "Rank": 681,
-        "Type": "dicta",
-        "ColorBlock": 515,
-        "IconHint": "minima",
+        "Id": 712,
+        "Name": "Quitzon, Gleichner and Gleichner",
+        "ToolTip": "Qui fugit et quod nemo placeat.",
+        "Deleted": true,
+        "Rank": 370,
+        "Type": "ipsum",
+        "ColorBlock": 729,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2013-04-25T13:13:33.4016848+02:00",
+        "LastChanged": "2022-08-21T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "sed",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Brandon Windler",
+        "FullName": "Marianna Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 873
+            "FieldType": "System.Int32",
+            "FieldLength": 84
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Miss Theo Enrico Dickens IV",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Kristopher Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 417
       }
     }
   }

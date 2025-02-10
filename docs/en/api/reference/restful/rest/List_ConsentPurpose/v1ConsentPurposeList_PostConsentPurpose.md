@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 597,
-  "Name": "Hegmann-Ondricka",
-  "ConsentText": "est",
-  "FormText": "sit",
-  "Key": "consequatur",
-  "Tooltip": "quia",
-  "Active": 784,
-  "UpdatedDate": "2018-09-29T13:13:32.9018014+02:00",
+  "ConsentPurposeId": 732,
+  "Name": "Johnson, Satterfield and Homenick",
+  "ConsentText": "vero",
+  "FormText": "illo",
+  "Key": "quibusdam",
+  "Tooltip": "animi",
+  "Active": 453,
+  "UpdatedDate": "2015-07-22T12:01:33.448849+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 449,
-  "PrivacyStatementDesc": "est",
+  "Deleted": true,
+  "Rank": 967,
+  "PrivacyStatementDesc": "optio",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 868,
-  "Name": "Morissette-Hamill",
-  "ConsentText": "rerum",
-  "FormText": "maxime",
-  "Key": "minima",
-  "Tooltip": "voluptatem",
-  "Active": 666,
-  "UpdatedDate": "2005-03-06T13:13:32.9018014+01:00",
+  "ConsentPurposeId": 916,
+  "Name": "Becker, Schmitt and Batz",
+  "ConsentText": "voluptate",
+  "FormText": "id",
+  "Key": "qui",
+  "Tooltip": "saepe",
+  "Active": 450,
+  "UpdatedDate": "2024-09-06T12:01:33.448849+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 459,
-  "PrivacyStatementDesc": "occaecati",
+  "Deleted": false,
+  "Rank": 762,
+  "PrivacyStatementDesc": "ab",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

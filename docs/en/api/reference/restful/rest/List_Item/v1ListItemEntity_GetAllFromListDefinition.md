@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Smitham, Sporer and Witting",
-    "Tooltip": "excepturi",
+    "Id": 408,
+    "Name": "Stehr LLC",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 583,
-    "Rank": 593,
+    "UdListDefinitionId": 230,
+    "Rank": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldLength": 197
       }
     }
   }

@@ -78,10 +78,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 994,
-  "CrmRecordId": 172,
+  "ErpConnectionId": 57,
+  "CrmRecordId": 239,
   "CrmActorType": "Contact",
-  "ErpKey": "libero",
+  "ErpKey": "quos",
   "ErpActorType": "Customer"
 }
 ```

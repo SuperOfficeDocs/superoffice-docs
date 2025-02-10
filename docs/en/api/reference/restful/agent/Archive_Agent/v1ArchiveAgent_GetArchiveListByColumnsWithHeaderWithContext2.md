@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Friesen, Mante and Johnson",
-  "Columns": "magni",
-  "SortOrder": "voluptatem",
-  "Restriction": "molestiae",
-  "Entities": "a",
-  "Page": 906,
-  "PageSize": 468,
-  "Options": "voluptas",
-  "Context": "voluptate"
+  "ProviderName": "Konopelski-Erdman",
+  "Columns": "eius",
+  "SortOrder": "qui",
+  "Restriction": "accusamus",
+  "Entities": "rerum",
+  "Page": 979,
+  "PageSize": 884,
+  "Options": "natus",
+  "Context": "dicta"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 588,
+  "RowCount": 391,
   "Rows": [
     {
-      "EntityName": "Lynch-Runolfsdottir",
-      "PrimaryKey": 425,
+      "EntityName": "Greenholt-Kunze",
+      "PrimaryKey": 627,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "et",
-          "LinkHint": "ullam"
+          "DisplayValue": "quidem",
+          "TooltipHint": "perferendis",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "exercitationem",
+      "LinkHint": "dolores",
+      "StyleHint": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldLength": 411
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

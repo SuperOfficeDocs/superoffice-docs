@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Corene Metz",
-    "Description": "Proactive object-oriented paradigm",
-    "ProjectId": 324,
-    "EventName": "Swaniawski Inc and Sons",
-    "AssociateId": 56,
+    "AssociateFullName": "Prof. Isidro Elsa Bernier PhD",
+    "Description": "Open-source tertiary migration",
+    "ProjectId": 865,
+    "EventName": "Little-Metz",
+    "AssociateId": 529,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "voluptatum",
-    "SignOffText": "blanditiis",
-    "SignOnConfirmationText": "impedit",
-    "SignOnText": "ab",
-    "EventDate": "2012-10-10T13:13:23.664465+02:00",
-    "Enabled": false,
-    "SignOff": true,
-    "SignOffTaskEnable": true,
+    "SignOffConfirmationText": "et",
+    "SignOffText": "officia",
+    "SignOnConfirmationText": "veniam",
+    "SignOnText": "natus",
+    "EventDate": "2007-06-23T12:01:28.1659327+02:00",
+    "Enabled": true,
+    "SignOff": false,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 855,
-    "SignOnTaskId": 68,
+    "SignOn": true,
+    "SignOffTaskId": 274,
+    "SignOnTaskId": 259,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 252,
-    "SignOffPersonId": 794,
+    "SignOnPersonId": 433,
+    "SignOffPersonId": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 313
       }
     }
   }

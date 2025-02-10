@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 524,
-    "Name": "Altenwerth, Carroll and Pacocha",
-    "Tooltip": "dolorem",
-    "Rank": 46,
-    "Key": "sequi",
-    "Deleted": true,
+    "LegalBaseId": 447,
+    "Name": "Schuster-Pacocha",
+    "Tooltip": "autem",
+    "Rank": 938,
+    "Key": "ut",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldType": "System.Int32",
+        "FieldLength": 179
       }
     }
   }

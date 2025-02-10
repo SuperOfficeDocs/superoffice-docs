@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=554
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=566
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 304,
-  "WorkflowStepId": 149,
-  "WorkflowId": 787,
-  "Rank": 821,
+  "WorkflowWaitForActionId": 338,
+  "WorkflowStepId": 16,
+  "WorkflowId": 205,
+  "Rank": 181,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Schulist, Schumm and Harvey",
-      "Description": "Enterprise-wide 3rd generation superstructure",
-      "Rank": 906,
+      "Name": "Ledner LLC",
+      "Description": "Multi-channelled dedicated attitude",
+      "Rank": 194,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schulist, Schumm and Harvey",
-      "Description": "Enterprise-wide 3rd generation superstructure",
-      "Rank": 906,
+      "Name": "Ledner LLC",
+      "Description": "Multi-channelled dedicated attitude",
+      "Rank": 194,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 591
     }
   }
 }

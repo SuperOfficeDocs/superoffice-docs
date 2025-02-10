@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Bernhard, Casper and Beer",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 756,
-  "Rank": 646
+  "Id": 129,
+  "Name": "Emmerich Inc and Sons",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 156,
+  "Rank": 758
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Beier, Lockman and Volkman",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "UdListDefinitionId": 821,
-  "Rank": 392,
+  "Id": 203,
+  "Name": "Buckridge Group",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "UdListDefinitionId": 980,
+  "Rank": 814,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 684
     }
   }
 }

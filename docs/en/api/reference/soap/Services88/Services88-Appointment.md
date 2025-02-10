@@ -707,6 +707,7 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="IsBookingMain" type="xs:boolean" />
               <xs:element minOccurs="0" name="SendEmail" type="xs:boolean" />
               <xs:element minOccurs="0" name="AnySendEmail" type="xs:boolean" />
+              <xs:element minOccurs="0" name="IsPrivate" type="xs:boolean" />
               <xs:element minOccurs="0" name="RecurrenceInfo" nillable="true" type="q66:RecurrenceInfo" />
             </xs:sequence>
           </xs:extension>
@@ -1487,6 +1488,7 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="SupportLanguageId" type="xs:int" />
               <xs:element minOccurs="0" name="SupportAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonNumber" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

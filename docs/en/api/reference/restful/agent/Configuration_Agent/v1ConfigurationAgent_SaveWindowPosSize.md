@@ -98,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "et",
-  "PersonId": 173,
-  "AssociateId": 406,
-  "ExtraId": 804,
-  "ExtraInfo": "labore",
-  "Height": 571,
-  "LeftX": 553,
+  "OwnerWindow": "quia",
+  "PersonId": 153,
+  "AssociateId": 802,
+  "ExtraId": 453,
+  "ExtraInfo": "magnam",
+  "Height": 903,
+  "LeftX": 966,
   "State": "Maximized",
-  "UpperY": 175,
-  "Width": 25,
-  "WindowPosSizeId": 57,
+  "UpperY": 797,
+  "Width": 136,
+  "WindowPosSizeId": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

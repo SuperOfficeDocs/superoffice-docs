@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 557,
-  "QuoteAlternativeName": "Brekke, Langworth and Osinski",
-  "QuoteAlternativeDescription": "Devolved stable array"
+  "QuoteVersionId": 537,
+  "QuoteAlternativeName": "Gleichner, Brekke and Schulist",
+  "QuoteAlternativeDescription": "Organized content-based array"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 778,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 970,
-  "Name": "Schaefer-Cummings",
-  "Description": "Secured client-server paradigm",
+  "QuoteAlternativeId": 148,
+  "ERPQuoteAlternativeKey": "harum",
+  "QuoteVersionId": 461,
+  "Name": "Smitham-Padberg",
+  "Description": "Networked maximized artificial intelligence",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22771.644,
-  "ERPDiscountAmount": 24909.032,
-  "DiscountPercent": 23160.26,
-  "DiscountAmount": 18446.724,
+  "ERPDiscountPercent": 13670.508,
+  "ERPDiscountAmount": 25303.915999999997,
+  "DiscountPercent": 10445.622,
+  "DiscountAmount": 7227.004,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 6007.878,
-  "EarningPercent": 25040.66,
-  "EarningAmount": 25714.469999999998,
-  "SubTotal": 14695.326,
-  "TotalPrice": 28738.78,
-  "ExtraField1": "unde",
-  "ExtraField2": "distinctio",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "et",
-  "ExtraField5": "dicta",
+  "VATInfo": "quis",
+  "VAT": 16650.942,
+  "EarningPercent": 8120.1939999999995,
+  "EarningAmount": 6430.968,
+  "SubTotal": 31139.424,
+  "TotalPrice": 29519.146,
+  "ExtraField1": "exercitationem",
+  "ExtraField2": "nulla",
+  "ExtraField3": "velit",
+  "ExtraField4": "saepe",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 764
     }
   }
 }

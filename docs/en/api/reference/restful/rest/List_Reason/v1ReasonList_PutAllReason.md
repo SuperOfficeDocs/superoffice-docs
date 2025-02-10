@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Kuhlman-Hilll",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "UdListDefinitionId": 483,
-    "Rank": 61
+    "Id": 73,
+    "Name": "Leffler-Stark",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "UdListDefinitionId": 406,
+    "Rank": 360
   },
   {
-    "Id": 220,
-    "Name": "Kuhlman-Hilll",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "UdListDefinitionId": 483,
-    "Rank": 61
+    "Id": 73,
+    "Name": "Leffler-Stark",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "UdListDefinitionId": 406,
+    "Rank": 360
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Veum LLC",
-    "Tooltip": "velit",
+    "Id": 677,
+    "Name": "Bahringer, Cremin and Gleichner",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 196,
-    "Rank": 874,
+    "UdListDefinitionId": 731,
+    "Rank": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

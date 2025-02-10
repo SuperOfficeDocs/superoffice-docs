@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=True
+GET /api/v1/Contact/{id}?fk=False
 ```
 
 
@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Dec 2013 13:13:31 G12T
+Last-Modified: Tue, 03 Oct 2000 12:01:32 G10T
 
 {
-  "ContactId": 762,
-  "Name": "Weber Inc and Sons",
+  "ContactId": 424,
+  "Name": "Considine, Rosenbaum and Turcotte",
   "Department": "",
-  "OrgNr": "945933",
-  "Number1": "322080",
-  "Number2": "1183598",
-  "UpdatedDate": "2013-12-04T13:13:31.5114093+01:00",
-  "CreatedDate": "2005-02-26T13:13:31.5114093+01:00",
+  "OrgNr": "1448538",
+  "Number1": "673389",
+  "Number2": "40977",
+  "UpdatedDate": "2000-10-03T12:01:32.7925531+02:00",
+  "CreatedDate": "2016-10-26T12:01:32.7925531+02:00",
   "Emails": [
     {
-      "Value": "tempore",
-      "StrippedValue": "est",
-      "Description": "Advanced composite architecture",
+      "Value": "iste",
+      "StrippedValue": "eaque",
+      "Description": "Centralized bi-directional algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 324
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     },
     {
-      "Value": "tempore",
-      "StrippedValue": "est",
-      "Description": "Advanced composite architecture",
+      "Value": "iste",
+      "StrippedValue": "eaque",
+      "Description": "Centralized bi-directional algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 324
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 860,
-      "Name": "Erdman LLC",
-      "ToolTip": "Aspernatur cumque laboriosam dolor fuga eveniet.",
+      "Id": 896,
+      "Name": "Herman, Paucek and Roberts",
+      "ToolTip": "Necessitatibus qui consectetur blanditiis quidem iste iure.",
       "Deleted": false,
-      "Rank": 298,
-      "Type": "necessitatibus",
-      "ColorBlock": 786,
-      "IconHint": "quia",
+      "Rank": 499,
+      "Type": "explicabo",
+      "ColorBlock": 503,
+      "IconHint": "qui",
       "Selected": true,
-      "LastChanged": "2014-10-30T13:13:31.5114093+01:00",
+      "LastChanged": "2003-09-04T12:01:32.7925531+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "vero",
-      "Hidden": true,
-      "FullName": "Cleta Gaylord",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "eos",
+      "Hidden": false,
+      "FullName": "Miss Desmond Adolfo Lynch PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 579
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "velit",
-      "StrippedValue": "non",
-      "Description": "Multi-channelled executive success",
+      "Value": "consequatur",
+      "StrippedValue": "quia",
+      "Description": "Monitored global functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldLength": 74
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "non",
-      "Description": "Multi-channelled executive success",
+      "Value": "consequatur",
+      "StrippedValue": "quia",
+      "Description": "Monitored global functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldLength": 74
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quas",
-      "StrippedValue": "voluptatem",
-      "Description": "Polarised eco-centric adapter",
+      "Value": "quisquam",
+      "StrippedValue": "molestias",
+      "Description": "Sharable dynamic moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 10
         }
       }
     },
     {
-      "Value": "quas",
-      "StrippedValue": "voluptatem",
-      "Description": "Polarised eco-centric adapter",
+      "Value": "quisquam",
+      "StrippedValue": "molestias",
+      "Description": "Sharable dynamic moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 10
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "fugit",
-      "StrippedValue": "deleniti",
-      "Description": "Organized composite data-warehouse",
+      "Value": "tempore",
+      "StrippedValue": "vero",
+      "Description": "Innovative modular standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 769
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "deleniti",
-      "Description": "Organized composite data-warehouse",
+      "Value": "tempore",
+      "StrippedValue": "vero",
+      "Description": "Innovative modular standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 769
         }
       }
     }
   ],
-  "Description": "Re-contextualized 3rd generation initiative",
+  "Description": "Synergized static secured line",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,105 +289,106 @@ Last-Modified: Wed, 04 Dec 2013 13:13:31 G12T
   "Country": null,
   "Persons": [
     {
-      "Position": "sint",
-      "PersonId": 200,
-      "Mrmrs": "aperiam",
-      "Firstname": "Otto",
-      "Lastname": "Renner",
-      "MiddleName": "Walter, Dooley and Sporer",
-      "Title": "iusto",
-      "Description": "Implemented bifurcated monitoring",
-      "Email": "joanie@erdmannikolaus.ca",
-      "FullName": "Delilah Homenick II",
-      "DirectPhone": "419-239-4058 x4574",
-      "FormalName": "Pagac Group",
-      "CountryId": 869,
-      "ContactId": 531,
-      "ContactName": "Luettgen Group",
-      "Retired": 246,
-      "Rank": 445,
-      "ActiveInterests": 931,
+      "Position": "ipsum",
+      "PersonId": 933,
+      "Mrmrs": "quibusdam",
+      "Firstname": "Abigail",
+      "Lastname": "Conn",
+      "MiddleName": "Lindgren Inc and Sons",
+      "Title": "quisquam",
+      "Description": "Up-sized 24/7 support",
+      "Email": "edna@mueller.us",
+      "FullName": "Lyla Bruen",
+      "DirectPhone": "486.223.1658 x416",
+      "FormalName": "D'Amore, Windler and Reichel",
+      "CountryId": 338,
+      "ContactId": 405,
+      "ContactName": "Emard Inc and Sons",
+      "Retired": 781,
+      "Rank": 885,
+      "ActiveInterests": 946,
       "ContactDepartment": "",
-      "ContactCountryId": 751,
-      "ContactOrgNr": "1069214",
-      "FaxPhone": "046-427-6740 x050",
-      "MobilePhone": "518-303-8729 x54969",
-      "ContactPhone": "(639)253-9024 x373",
-      "AssociateName": "Keeling, Glover and Lubowitz",
-      "AssociateId": 436,
+      "ContactCountryId": 394,
+      "ContactOrgNr": "1191479",
+      "FaxPhone": "852.497.4289 x79497",
+      "MobilePhone": "733.572.1541",
+      "ContactPhone": "1-082-666-9730 x2261",
+      "AssociateName": "Towne Group",
+      "AssociateId": 222,
       "UsePersonAddress": true,
-      "ContactFax": "non",
-      "Kanafname": "sed",
-      "Kanalname": "ratione",
-      "Post1": "consequatur",
-      "Post2": "recusandae",
+      "ContactFax": "rerum",
+      "Kanafname": "quos",
+      "Kanalname": "molestias",
+      "Post1": "sapiente",
+      "Post2": "aut",
       "Post3": "est",
-      "EmailName": "jordy.fahey@price.com",
-      "ContactFullName": "Maude Pansy Bode I",
-      "ActiveErpLinks": 870,
-      "TicketPriorityId": 586,
-      "SupportLanguageId": 170,
-      "SupportAssociateId": 907,
+      "EmailName": "wilson@white.ca",
+      "ContactFullName": "Mr. Gussie Cristina Klein V",
+      "ActiveErpLinks": 368,
+      "TicketPriorityId": 708,
+      "SupportLanguageId": 98,
+      "SupportAssociateId": 239,
       "CategoryName": "VIP Customer",
+      "PersonNumber": "1090970",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 470
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "ut",
-  "Xstop": true,
-  "ActiveInterests": 636,
-  "GroupId": 851,
-  "ActiveStatusMonitorId": 422,
+  "NoMailing": true,
+  "Kananame": "odio",
+  "Xstop": false,
+  "ActiveInterests": 173,
+  "GroupId": 539,
+  "ActiveStatusMonitorId": 75,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 367,
-  "DbiAgentId": 677,
-  "DbiLastSyncronized": "2016-03-16T13:13:31.5114093+01:00",
-  "DbiKey": "eaque",
-  "DbiLastModified": "1999-05-19T13:13:31.5114093+02:00",
+  "Deleted": 55,
+  "DbiAgentId": 672,
+  "DbiLastSyncronized": "2019-01-09T12:01:32.7925531+01:00",
+  "DbiKey": "delectus",
+  "DbiLastModified": "2017-03-05T12:01:32.7925531+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 495,
-  "ActiveErpLinks": 976,
+  "Source": 397,
+  "ActiveErpLinks": 131,
   "BounceEmails": [
-    "richmond@spinka.biz",
-    "gerson@schowalter.biz"
+    "loren@huel.co.uk",
+    "isidro.tillman@friesen.name"
   ],
   "Domains": [
-    "recusandae",
-    "earum"
+    "non",
+    "doloremque"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Janessa Kohler Sr."
+    "SuperOffice:1": "351651196",
+    "SuperOffice:2": "Myron Skyla Christiansen IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "id"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 165
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -74,7 +74,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 890
+  "PluginId": 134
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repudiandae",
-  "2": "provident"
+  "1": "aperiam",
+  "2": "molestiae"
 }
 ```

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 719,
+  "EjMessageId": 4,
   "Ticket": null,
-  "CreatedAt": "2016-11-18T13:13:24.4153047+01:00",
+  "CreatedAt": "2005-02-03T12:01:28.5565847+01:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolor",
-  "TimeSpent": 242,
-  "Body": "consequatur",
-  "HtmlBody": "qui",
-  "EmailHeader": "ollie_corkery@eichmanncassin.name",
-  "DebugInfo": "deserunt",
-  "MailSorter": "rerum",
+  "MessageId": "occaecati",
+  "TimeSpent": 490,
+  "Body": "dolores",
+  "HtmlBody": "illum",
+  "EmailHeader": "otho@hagenes.com",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "ab",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "deserunt",
   "MessageHeaders": [
     {
-      "Id": 739,
-      "Name": "Armstrong-Muller",
-      "Value": "ipsam",
+      "Id": 280,
+      "Name": "Kling-Medhurst",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldType": "System.Int32",
+          "FieldLength": 818
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "beatae",
-  "Sentiment": 416,
-  "SentimentConfidence": 214,
+  "Important": false,
+  "Language": "omnis",
+  "Sentiment": 77,
+  "SentimentConfidence": 845,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 168,
-      "Name": "Nienow-VonRueden",
-      "ContentType": "voluptatem",
-      "AttSize": 429,
-      "InlineImage": false,
-      "ContentId": "laudantium",
-      "AuthKey": "ex",
+      "AttachmentId": 220,
+      "Name": "Satterfield, Dare and Sauer",
+      "ContentType": "et",
+      "AttSize": 803,
+      "InlineImage": true,
+      "ContentId": "odio",
+      "AuthKey": "vitae",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldLength": 237
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quis"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "minus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   }
 }

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lindgren-Rutherford",
-  "Comment": "aspernatur",
-  "StakeholderRoleId": 530,
-  "CountryId": 262,
-  "PersonId": 257,
-  "EmailDescription": "wendy@mayermcdermott.biz",
-  "EmailId": 317,
-  "EmailAddress": "maggie@windler.name",
-  "PhoneId": 663,
-  "ContactName": "Carroll, Hettinger and Kertzmann",
-  "ContactId": 175,
-  "SaleId": 264,
-  "Mrmrs": "est",
-  "Firstname": "Jonas",
-  "MiddleName": "Gottlieb, Hermann and O'Conner",
-  "Lastname": "D'Amore",
-  "SaleStakeholderId": 496,
-  "Rank": 234,
-  "Phone": "983.467.2900",
+  "StakeholderRoleName": "Marquardt-Bashirian",
+  "Comment": "quas",
+  "StakeholderRoleId": 976,
+  "CountryId": 536,
+  "PersonId": 184,
+  "EmailDescription": "leo.gleichner@wittingledner.biz",
+  "EmailId": 784,
+  "EmailAddress": "evalyn@gleason.us",
+  "PhoneId": 516,
+  "ContactName": "Adams Inc and Sons",
+  "ContactId": 364,
+  "SaleId": 560,
+  "Mrmrs": "ducimus",
+  "Firstname": "Rachel",
+  "MiddleName": "Torp, Kemmer and Zboncak",
+  "Lastname": "Zieme",
+  "SaleStakeholderId": 269,
+  "Rank": 737,
+  "Phone": "817-808-6117",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 13
     }
   },
   "_Links": {

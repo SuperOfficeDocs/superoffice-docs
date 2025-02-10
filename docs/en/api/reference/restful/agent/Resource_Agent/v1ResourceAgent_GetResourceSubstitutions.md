@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Padberg-Franecki",
-    "Bergstrom, Funk and Brown"
+    "Hilpert LLC",
+    "Gusikowski Group"
   ],
-  "Culture": "dolor",
-  "ActiveOnly": false
+  "Culture": "laudantium",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Ziemann, Satterfield and Paucek",
-    "ResourceValue": "eligendi",
-    "Culture": "et",
-    "IsActive": true,
+    "ResourceName": "Haley, Wolf and Hagenes",
+    "ResourceValue": "nulla",
+    "Culture": "pariatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 122
       }
     }
   },
   {
-    "ResourceName": "Ziemann, Satterfield and Paucek",
-    "ResourceValue": "eligendi",
-    "Culture": "et",
-    "IsActive": true,
+    "ResourceName": "Haley, Wolf and Hagenes",
+    "ResourceValue": "nulla",
+    "Culture": "pariatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 122
       }
     }
   }

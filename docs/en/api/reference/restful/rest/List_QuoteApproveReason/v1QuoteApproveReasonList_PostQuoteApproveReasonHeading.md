@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 364,
-  "Name": "Walker Inc and Sons",
+  "HeadingId": 428,
+  "Name": "Hilpert-Dare",
   "Tooltip": "id",
   "Deleted": true,
-  "Rank": 902,
-  "UdListDefinitionId": 495
+  "Rank": 10,
+  "UdListDefinitionId": 206
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 726,
-  "Name": "Little-Johnston",
-  "Tooltip": "dolorem",
+  "HeadingId": 669,
+  "Name": "Goodwin LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 145,
-  "UdListDefinitionId": 760,
+  "Rank": 265,
+  "UdListDefinitionId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 38
     }
   }
 }

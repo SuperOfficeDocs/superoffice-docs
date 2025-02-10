@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 184,
-  "DashboardId": 956,
-  "Height": 355,
-  "Width": 646,
-  "Rank": 970,
+  "DashboardTileId": 944,
+  "DashboardId": 159,
+  "Height": 132,
+  "Width": 329,
+  "Rank": 563,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 443
     }
   },
   "_Links": {

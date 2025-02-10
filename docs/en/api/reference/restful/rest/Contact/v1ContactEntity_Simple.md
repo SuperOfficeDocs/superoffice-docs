@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 408,
-  "Name": "Witting Group",
-  "OrgNr": "1073187",
+  "ContactId": 20,
+  "Name": "Schimmel Inc and Sons",
+  "OrgNr": "1371992",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "placeat",
-  "DirectPhone": "469.031.7202 x99620",
-  "AssociateId": 336,
-  "CountryId": 41,
-  "EmailAddress": "makayla_funk@weimann.uk",
-  "Kananame": "vitae",
-  "EmailAddressName": "lois.huels@bins.info",
+  "City": "facilis",
+  "DirectPhone": "1-870-167-7860",
+  "AssociateId": 760,
+  "CountryId": 750,
+  "EmailAddress": "rupert.yundt@halvorson.info",
+  "Kananame": "blanditiis",
+  "EmailAddressName": "nya.okuneva@jerde.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ms. Mona Russel",
+  "AssociateFullName": "Jaquan Orn",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "et",
-  "FullName": "Prof. Danial Christian Breitenberg DVM",
+  "FormattedAddress": "quia",
+  "FullName": "Josianne Conn",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 690,
-  "Number1": "1105440",
-  "Number2": "818637",
+  "ActiveErpLinks": 359,
+  "Number1": "119959",
+  "Number2": "1446367",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

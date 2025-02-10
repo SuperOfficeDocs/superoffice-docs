@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Rau-Nader",
-    "ToolTip": "Est ea et voluptas esse enim modi.",
-    "Deleted": true,
-    "Rank": 394,
-    "Type": "voluptate",
-    "ColorBlock": 197,
-    "IconHint": "voluptatem",
+    "Id": 843,
+    "Name": "Schaden Inc and Sons",
+    "ToolTip": "Numquam et nulla sapiente eum.",
+    "Deleted": false,
+    "Rank": 74,
+    "Type": "quasi",
+    "ColorBlock": 522,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "1999-08-31T13:13:33.651626+02:00",
+    "LastChanged": "2001-07-18T12:01:33.6832402+02:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Shields-Waelchi",
-        "ToolTip": "Aut itaque placeat in quo quos.",
+        "Id": 196,
+        "Name": "Dach, Schroeder and Stroman",
+        "ToolTip": "Optio autem iure rerum magni quo quam et.",
         "Deleted": false,
-        "Rank": 774,
-        "Type": "natus",
-        "ColorBlock": 566,
-        "IconHint": "maxime",
+        "Rank": 912,
+        "Type": "iusto",
+        "ColorBlock": 98,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2001-11-15T13:13:33.651626+01:00",
+        "LastChanged": "2019-04-08T12:01:33.6832402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Weldon Kuhn",
+        "ExtraInfo": "illo",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Gilbert Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldType": "System.String",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Adrian Spencer",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Miss Bessie Anjali Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 318
       }
     }
   }

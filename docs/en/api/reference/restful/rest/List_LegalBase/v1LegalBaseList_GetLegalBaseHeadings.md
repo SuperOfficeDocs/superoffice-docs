@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 508,
-    "Name": "Armstrong Group",
-    "Tooltip": "rerum",
+    "HeadingId": 929,
+    "Name": "Berge Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 773,
-    "UdListDefinitionId": 605,
+    "Rank": 460,
+    "UdListDefinitionId": 909,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldType": "System.String",
+        "FieldLength": 490
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Mueller Inc and Sons",
-  "Tooltip": "neque",
+  "Id": 838,
+  "Name": "Kirlin Inc and Sons",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 319,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 428,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "illum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Buckridge-Ritchie",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 131,
+  "Id": 342,
+  "Name": "Klein-Morissette",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 585,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 603
     }
   }
 }

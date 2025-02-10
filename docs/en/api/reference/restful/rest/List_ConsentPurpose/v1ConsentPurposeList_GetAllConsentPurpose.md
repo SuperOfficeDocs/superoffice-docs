@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 297,
-    "Name": "Botsford-Veum",
-    "ConsentText": "velit",
-    "FormText": "omnis",
-    "Key": "et",
-    "Tooltip": "aut",
-    "Active": 316,
-    "UpdatedDate": "2019-10-25T13:13:32.9018014+02:00",
+    "ConsentPurposeId": 87,
+    "Name": "Wilkinson, Bins and Kessler",
+    "ConsentText": "non",
+    "FormText": "libero",
+    "Key": "temporibus",
+    "Tooltip": "enim",
+    "Active": 334,
+    "UpdatedDate": "2022-09-13T12:01:33.448849+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 122,
-    "PrivacyStatementDesc": "asperiores",
+    "Deleted": true,
+    "Rank": 313,
+    "PrivacyStatementDesc": "iste",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 686
       }
     }
   }

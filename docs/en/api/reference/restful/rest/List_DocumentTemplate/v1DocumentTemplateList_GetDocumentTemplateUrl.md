@@ -31,7 +31,7 @@ Get a url to the document template
 
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=deleniti
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=nam
 ```
 
 

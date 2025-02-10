@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 143,
-    "Name": "Braun Group",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 167,
-    "UdListDefinitionId": 332
+    "HeadingId": 424,
+    "Name": "Lindgren-Greenfelder",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 142,
+    "UdListDefinitionId": 956
   },
   {
-    "HeadingId": 143,
-    "Name": "Braun Group",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 167,
-    "UdListDefinitionId": 332
+    "HeadingId": 424,
+    "Name": "Lindgren-Greenfelder",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 142,
+    "UdListDefinitionId": 956
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 503,
-    "Name": "Schoen, Zemlak and Rolfson",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 948,
+    "HeadingId": 790,
+    "Name": "Kohler Group",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 645,
+    "UdListDefinitionId": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

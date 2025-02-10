@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "explicabo",
-  "ProviderName": "Beer, Wisoky and Satterfield",
-  "DesiredColumns": "quis",
-  "OrderBy": "et",
-  "PageSize": 808,
-  "PageNumber": 876
+  "Restrictions": "error",
+  "ProviderName": "Murray Inc and Sons",
+  "DesiredColumns": "reprehenderit",
+  "OrderBy": "ut",
+  "PageSize": 752,
+  "PageNumber": 575
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weissnat-Langosh",
-      "DisplayTooltip": "architecto",
-      "DisplayType": "facere",
-      "CanOrderBy": false,
-      "Name": "Hahn, Lemke and Bartell",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Fritsch-Carter",
-      "IsVisible": false,
-      "ExtraInfo": "dicta",
-      "Width": "veritatis",
-      "IconHint": "iste",
-      "HeadingIconHint": "molestias"
+      "DisplayName": "Kemmer, Wisozk and Dibbert",
+      "DisplayTooltip": "et",
+      "DisplayType": "sed",
+      "CanOrderBy": true,
+      "Name": "Boyle, McLaughlin and VonRueden",
+      "CanRestrictBy": true,
+      "RestrictionType": "aut",
+      "RestrictionListName": "Harris-Cummings",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "ut",
+      "IconHint": "et",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Metz-Kunde",
-      "PrimaryKey": 79,
+      "EntityName": "Toy LLC",
+      "PrimaryKey": 17,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "repellat",
-          "LinkHint": "velit"
+          "DisplayValue": "consectetur",
+          "TooltipHint": "unde",
+          "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "nulla",
+      "LinkHint": "quisquam",
       "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 892
         }
       }
     }
   ],
-  "RowCount": 506,
+  "RowCount": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

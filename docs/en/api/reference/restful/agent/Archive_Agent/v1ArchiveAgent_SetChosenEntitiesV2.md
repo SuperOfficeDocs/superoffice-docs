@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Treutel, Funk and Ruecker",
-  "ProviderName": "Monahan, Oberbrunner and Strosin",
-  "Context": "occaecati",
-  "OwnerKeys": "dolores",
+  "GuiName": "Schaden-Bogan",
+  "ProviderName": "Muller LLC",
+  "Context": "nihil",
+  "OwnerKeys": "eos",
   "Entities": [
-    "officia",
-    "animi"
+    "enim",
+    "id"
   ]
 }
 ```

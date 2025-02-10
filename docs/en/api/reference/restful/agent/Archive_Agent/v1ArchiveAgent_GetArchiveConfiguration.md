@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hermiston-Batz",
-  "ProviderName": "Price Inc and Sons"
+  "GuiName": "Hoeger, Howe and Nitzsche",
+  "ProviderName": "Hauck Inc and Sons"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Becker LLC",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "accusamus",
+      "DisplayName": "Batz, Ledner and Torp",
+      "DisplayTooltip": "cum",
+      "DisplayType": "voluptatum",
       "CanOrderBy": false,
-      "Name": "Yost, Carter and McLaughlin",
+      "Name": "Crooks-Goodwin",
       "CanRestrictBy": false,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Roberts Group",
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Daugherty-Baumbach",
       "IsVisible": true,
-      "ExtraInfo": "tenetur",
-      "Width": "rem",
-      "IconHint": "facere",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "et",
+      "Width": "excepturi",
+      "IconHint": "pariatur",
+      "HeadingIconHint": "reprehenderit"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 468,
-      "Name": "Rowe, Flatley and Denesik",
-      "ToolTip": "Et eaque doloribus reprehenderit est.",
+      "Id": 47,
+      "Name": "Stamm Group",
+      "ToolTip": "Sint quos quidem rerum dignissimos.",
       "Deleted": true,
-      "Rank": 798,
-      "Type": "sint",
-      "ColorBlock": 108,
-      "IconHint": "cum",
-      "Selected": true,
-      "LastChanged": "2013-10-03T13:13:22.0864676+02:00",
+      "Rank": 688,
+      "Type": "aut",
+      "ColorBlock": 173,
+      "IconHint": "accusamus",
+      "Selected": false,
+      "LastChanged": "2023-04-20T12:01:27.3221238+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "sunt",
-      "Hidden": true,
-      "FullName": "Autumn Haley",
+      "ExtraInfo": "ad",
+      "StyleHint": "consequatur",
+      "Hidden": false,
+      "FullName": "Urban Rice",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 521
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mann-Nader",
+      "Name": "Fay Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Mann-Nader",
+      "Name": "Fay Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aspernatur",
+  "OwnerKeys": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 710
     }
   }
 }

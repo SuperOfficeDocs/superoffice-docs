@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 100
+  "DocumentId": 22
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 903,
-  "Name": "Rosenbaum-Hessel"
+  "AssociateId": 3,
+  "Name": "Schuppe Group"
 }
 ```

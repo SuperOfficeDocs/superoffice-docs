@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 192,
-  "Name": "Grady LLC",
-  "Tooltip": "necessitatibus",
+  "RoleId": 367,
+  "Name": "Jacobi Group",
+  "Tooltip": "perferendis",
   "RoleType": "Anonymous",
-  "Deleted": 273,
-  "Rank": 999,
-  "Created": "2006-07-31T13:13:31.9800495+02:00",
-  "UseCategories": 863,
+  "Deleted": 971,
+  "Rank": 156,
+  "Created": "2017-08-21T12:01:33.0269443+02:00",
+  "UseCategories": 85,
   "CreatedBy": null,
-  "Updated": "2017-04-29T13:13:31.9800495+02:00",
+  "Updated": "2014-06-19T12:01:33.0269443+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 912,
-  "Name": "Denesik, Blanda and Donnelly",
-  "Tooltip": "natus",
+  "RoleId": 363,
+  "Name": "Roberts, Bogisich and Predovic",
+  "Tooltip": "eius",
   "RoleType": "Anonymous",
-  "Deleted": 560,
-  "Rank": 409,
-  "Created": "2014-12-29T13:13:31.9800495+01:00",
-  "UseCategories": 124,
+  "Deleted": 165,
+  "Rank": 563,
+  "Created": "2006-11-24T12:01:33.0269443+01:00",
+  "UseCategories": 54,
   "CreatedBy": null,
-  "Updated": "2000-06-14T13:13:31.9800495+02:00",
+  "Updated": "2003-04-22T12:01:33.0269443+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   },
   "_Links": {

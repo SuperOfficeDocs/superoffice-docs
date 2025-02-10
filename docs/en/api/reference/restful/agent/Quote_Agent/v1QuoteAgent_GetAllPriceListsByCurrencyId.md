@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 629,
-  "CurrencyId": 97
+  "QuoteConnectionId": 728,
+  "CurrencyId": 674
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 848,
-    "ERPPriceListKey": "quas",
-    "QuoteConnectionId": 478,
-    "Name": "Grady LLC",
-    "Description": "Persevering incremental concept",
-    "Currency": "vitae",
-    "CurrencyName": "Hauck-Fahey",
-    "ValidFrom": "2008-08-03T13:13:23.7425716+02:00",
-    "ValidTo": "2005-10-30T13:13:23.7425716+01:00",
+    "PriceListId": 957,
+    "ERPPriceListKey": "voluptatem",
+    "QuoteConnectionId": 212,
+    "Name": "Aufderhar Inc and Sons",
+    "Description": "Upgradable neutral synergy",
+    "Currency": "cum",
+    "CurrencyName": "Littel-Mills",
+    "ValidFrom": "2015-02-02T12:01:28.1971849+01:00",
+    "ValidTo": "2012-12-03T12:01:28.1971849+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 519
       }
     }
   }

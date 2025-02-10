@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 215,
-  "Name": "Hyatt, Brown and Wintheiser",
-  "Rank": 769,
-  "Tooltip": "magnam",
+  "ResourceId": 348,
+  "Name": "Dooley LLC",
+  "Rank": 803,
+  "Tooltip": "rerum",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "aperiam"
+  "LocationAddress": "sunt"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 818,
-  "Name": "Lynch Inc and Sons",
-  "Rank": 738,
-  "Tooltip": "repellat",
+  "ResourceId": 612,
+  "Name": "Erdman, Weissnat and Hirthe",
+  "Rank": 576,
+  "Tooltip": "dolor",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "repellat",
+  "IsLocation": false,
+  "LocationAddress": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 830
     }
   }
 }

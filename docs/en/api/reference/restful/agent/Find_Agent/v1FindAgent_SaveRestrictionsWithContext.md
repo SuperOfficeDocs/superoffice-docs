@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Powlowski LLC",
-  "StorageKey": "blanditiis",
+  "StorageType": "unde",
+  "ProviderName": "Kling, Bradtke and Lindgren",
+  "StorageKey": "non",
   "Restrictions": [
     {
-      "Name": "Stokes Inc and Sons",
-      "Operator": "itaque",
+      "Name": "Beahan, Moen and Littel",
+      "Operator": "nostrum",
       "Values": [
-        "et",
-        "commodi"
+        "recusandae",
+        "esse"
       ],
       "DisplayValues": [
-        "iure",
-        "suscipit"
+        "repellat",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 95,
+      "InterParenthesis": 178,
       "InterOperator": "And",
-      "UniqueHash": 71
+      "UniqueHash": 863
     }
   ],
-  "Context": "occaecati"
+  "Context": "dicta"
 }
 ```
 

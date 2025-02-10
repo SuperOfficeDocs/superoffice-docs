@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=sit
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=quae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Reichel, Hammes and Schiller",
-    "ToolTip": "Velit sed non.",
+    "Id": 282,
+    "Name": "Reynolds-Dach",
+    "ToolTip": "Et odio quasi eligendi nesciunt et inventore at.",
     "Deleted": true,
-    "Rank": 89,
-    "Type": "omnis",
+    "Rank": 772,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "D'Amore, Nolan and Veum",
-        "ToolTip": "Aut quas earum.",
+        "Id": 490,
+        "Name": "Schuppe, Marquardt and Spencer",
+        "ToolTip": "Non qui autem voluptatum consequatur non.",
         "Deleted": false,
-        "Rank": 596,
-        "Type": "et",
+        "Rank": 713,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 117,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptas",
-        "FullName": "Johan Durgan",
+        "IconHint": "vel",
+        "ColorBlock": 641,
+        "ExtraInfo": "eaque",
+        "StyleHint": "repellendus",
+        "FullName": "Mrs. Izabella Scottie Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 37
           }
         }
       }
     ],
-    "IconHint": "magni",
-    "ColorBlock": 116,
-    "ExtraInfo": "sint",
-    "StyleHint": "veritatis",
-    "FullName": "Miss Otis Leffler",
+    "IconHint": "rerum",
+    "ColorBlock": 596,
+    "ExtraInfo": "enim",
+    "StyleHint": "doloremque",
+    "FullName": "Miss Lorenza Cronin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

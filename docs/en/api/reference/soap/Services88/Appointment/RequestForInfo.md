@@ -177,6 +177,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:SupportLanguageId xsi:type="xsd:int">0</Appointment:SupportLanguageId>
      <Appointment:SupportAssociateId xsi:type="xsd:int">0</Appointment:SupportAssociateId>
      <Appointment:CategoryName xsi:type="xsd:string"></Appointment:CategoryName>
+     <Appointment:PersonNumber xsi:type="xsd:string"></Appointment:PersonNumber>
     </Appointment:RequestedPerson>
     <Appointment:SalesRep xsi:type="Appointment:Person">
      <Appointment:Position xsi:type="xsd:string"></Appointment:Position>
@@ -219,6 +220,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:SupportLanguageId xsi:type="xsd:int">0</Appointment:SupportLanguageId>
      <Appointment:SupportAssociateId xsi:type="xsd:int">0</Appointment:SupportAssociateId>
      <Appointment:CategoryName xsi:type="xsd:string"></Appointment:CategoryName>
+     <Appointment:PersonNumber xsi:type="xsd:string"></Appointment:PersonNumber>
     </Appointment:SalesRep>
    </Appointment:Response>
   </Appointment:RequestForInfoResponse>

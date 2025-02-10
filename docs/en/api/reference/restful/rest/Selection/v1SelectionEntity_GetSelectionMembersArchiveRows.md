@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "incidunt",
+  "odata.nextLink": "sed",
   "value": [
     {
-      "PrimaryKey": 1288,
+      "PrimaryKey": 8697,
       "EntityName": "person",
-      "personId": 1288,
-      "fullName": "Billy Cummerata"
+      "personId": 8697,
+      "fullName": "Mrs. Glenna Ahmad Boyle"
     },
     {
-      "PrimaryKey": 3863,
+      "PrimaryKey": 5737,
       "EntityName": "person",
-      "personId": 3863,
-      "fullName": "Earlene Effertz"
+      "personId": 5737,
+      "fullName": "Jeanne Prosacco"
     }
   ]
 }

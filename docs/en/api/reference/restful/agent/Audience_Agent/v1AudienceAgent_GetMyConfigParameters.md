@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 445,
-    "Name": "Von, Feest and Block",
-    "Value": "nam",
-    "CreatedDate": "2019-12-22T13:13:22.1177118+01:00",
-    "UpdatedDate": "2013-02-28T13:13:22.1177118+01:00",
-    "CreatedBy": "ut",
-    "UpdatedBy": "in",
+    "AudienceLayoutId": 832,
+    "Name": "Russel, Jast and Cruickshank",
+    "Value": "quis",
+    "CreatedDate": "2018-09-03T12:01:27.3377499+02:00",
+    "UpdatedDate": "2000-12-05T12:01:27.3377499+01:00",
+    "CreatedBy": "iure",
+    "UpdatedBy": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

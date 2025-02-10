@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 953,
-  "StartTime": "2019-06-05T13:13:22.6019709+02:00",
-  "EndTime": "2023-02-28T13:13:22.6019709+01:00",
-  "Count": 207,
-  "DocumentTemplateId": 735
+  "PersonId": 456,
+  "StartTime": "2020-02-29T12:01:27.5877684+01:00",
+  "EndTime": "2009-01-31T12:01:27.5877684+01:00",
+  "Count": 723,
+  "DocumentTemplateId": 824
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 482,
-    "Attention": "nostrum",
-    "Header": "repudiandae",
-    "Name": "Flatley, Weissnat and Zemlak",
-    "OurRef": "est",
-    "YourRef": "qui",
-    "Description": "Team-oriented even-keeled process improvement",
-    "DocumentTemplate": "soluta",
+    "DocumentId": 318,
+    "Attention": "atque",
+    "Header": "molestias",
+    "Name": "Baumbach LLC",
+    "OurRef": "fugit",
+    "YourRef": "animi",
+    "Description": "Synchronised heuristic protocol",
+    "DocumentTemplate": "consequatur",
     "IsPublished": false,
-    "PersonId": 287,
-    "PersonFullName": "Ansley Marks",
-    "AssociateFullName": "Nathanial VonRueden",
-    "ContactId": 161,
-    "ContactName": "Kulas Inc and Sons",
-    "ProjectId": 39,
-    "ProjectName": "Turcotte-Abbott",
-    "AssociateId": 118,
-    "Snum": 515,
-    "SaleId": 382,
-    "SaleName": "Klein, Bergstrom and Sporer",
+    "PersonId": 278,
+    "PersonFullName": "Prof. Dane Cleve Bosco",
+    "AssociateFullName": "Prof. Johnpaul Jones MD",
+    "ContactId": 78,
+    "ContactName": "King, Schaden and Hudson",
+    "ProjectId": 847,
+    "ProjectName": "Bechtelar, Kris and Nolan",
+    "AssociateId": 446,
+    "Snum": 853,
+    "SaleId": 449,
+    "SaleName": "Sawayn-Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

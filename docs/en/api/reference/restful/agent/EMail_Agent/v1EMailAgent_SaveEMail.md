@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 381,
-      "ContactName": "Abernathy LLC",
-      "PersonId": 467,
-      "PersonName": "Altenwerth, Padberg and Ondricka",
-      "AssociateId": 842,
-      "Address": "ut",
-      "EmailId": 641,
+      "ContactId": 221,
+      "ContactName": "Carroll, Runolfsson and Hills",
+      "PersonId": 468,
+      "PersonName": "Koelpin Group",
+      "AssociateId": 585,
+      "Address": "eveniet",
+      "EmailId": 296,
       "DuplicatePersonIds": [
-        974,
-        439
+        322,
+        973
       ],
-      "Name": "Padberg, Bailey and Schaden",
+      "Name": "McDermott, Armstrong and Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 13
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 997,
-      "ContactName": "Wolff Inc and Sons",
-      "PersonId": 898,
-      "PersonName": "Blick-Rodriguez",
-      "AssociateId": 572,
-      "Address": "ut",
-      "EmailId": 353,
+      "ContactId": 324,
+      "ContactName": "Goodwin Inc and Sons",
+      "PersonId": 987,
+      "PersonName": "Kilback Group",
+      "AssociateId": 983,
+      "Address": "a",
+      "EmailId": 624,
       "DuplicatePersonIds": [
-        605,
-        525
+        368,
+        743
       ],
-      "Name": "Simonis-Rippin",
+      "Name": "McLaughlin, Keeling and Zemlak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldType": "System.String",
+          "FieldLength": 204
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 877,
-      "ContactName": "Waelchi Group",
-      "PersonId": 435,
-      "PersonName": "Kunze, Streich and Mayert",
-      "AssociateId": 933,
-      "Address": "totam",
-      "EmailId": 517,
+      "ContactId": 904,
+      "ContactName": "Kshlerin-Quigley",
+      "PersonId": 804,
+      "PersonName": "Ullrich LLC",
+      "AssociateId": 255,
+      "Address": "esse",
+      "EmailId": 14,
       "DuplicatePersonIds": [
-        81,
-        949
+        675,
+        85
       ],
-      "Name": "Mueller-Kunde",
+      "Name": "Green LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 437
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "nobis",
+  "Subject": "vero",
+  "HTMLBody": "expedita",
   "From": null,
-  "Sent": "2000-04-22T13:13:23.0396028+02:00",
-  "Size": 231,
+  "Sent": "2000-05-19T12:01:27.8377848+02:00",
+  "Size": 736,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "consequatur",
-  "IsSent": false,
+  "MessageID": "vero",
+  "PlainBody": "dolor",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 822,
+  "ServerId": 67,
   "Attachments": [
     {
-      "Description": "Mandatory real-time support",
-      "Filename": "ullam",
-      "Size": 534,
-      "Type": "quam",
-      "Encoding": "consequatur",
-      "Id": "atque",
-      "Disposition": "est",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-layered zero tolerance infrastructure",
+      "Filename": "reiciendis",
+      "Size": 715,
+      "Type": "pariatur",
+      "Encoding": "dolorem",
+      "Id": "assumenda",
+      "Disposition": "dignissimos",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 597
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McDermott LLC",
+      "Name": "Quigley-Ward",
       "Values": [
-        "a",
-        "voluptatem"
+        "voluptas",
+        "nostrum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 499
         }
       }
     },
     {
-      "Name": "McDermott LLC",
+      "Name": "Quigley-Ward",
       "Values": [
-        "a",
-        "voluptatem"
+        "voluptas",
+        "nostrum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 499
         }
       }
     }
   ],
-  "FolderName": "Koch, Goldner and Langosh",
-  "EmailItemId": 735,
-  "AccountId": 782,
-  "ReceivedAt": "2014-03-10T13:13:23.0396028+01:00",
+  "FolderName": "Zboncak-O'Conner",
+  "EmailItemId": 29,
+  "AccountId": 952,
+  "ReceivedAt": "2000-04-08T12:01:27.8377848+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-08-17T13:13:23.0396028+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-12-26T12:01:27.8377848+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 157
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Sauer-Goyette",
-    "ToolTip": "Odio aut eos perferendis fuga adipisci.",
+    "Id": 383,
+    "Name": "Spencer Group",
+    "ToolTip": "Fugiat consequuntur.",
     "Deleted": false,
-    "Rank": 993,
-    "Type": "eligendi",
-    "ColorBlock": 889,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2017-05-01T13:13:32.7768241+02:00",
+    "Rank": 445,
+    "Type": "facilis",
+    "ColorBlock": 925,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2012-06-30T12:01:33.4175965+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Baumbach Inc and Sons",
-        "ToolTip": "Sint dolor et repellat error dolorem.",
+        "Id": 459,
+        "Name": "Kuphal, Vandervort and Emard",
+        "ToolTip": "Rerum dolore blanditiis sed.",
         "Deleted": false,
-        "Rank": 754,
-        "Type": "consequatur",
-        "ColorBlock": 743,
-        "IconHint": "sequi",
+        "Rank": 832,
+        "Type": "non",
+        "ColorBlock": 685,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2017-10-04T13:13:32.7768241+02:00",
+        "LastChanged": "2004-12-11T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "maiores",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Ezekiel Schneider",
+        "FullName": "Prof. Montana Liam Maggio V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "velit",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Cayla Konopelski",
+    "FullName": "Eldon Schuster III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 561
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=accusantium
+GET /api/v1/List/ProjectType/MDOItems?query=fugit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 158,
-    "Name": "Rempel-Gibson",
-    "ToolTip": "Est et provident.",
-    "Deleted": false,
-    "Rank": 671,
-    "Type": "autem",
+    "Id": 333,
+    "Name": "Grimes, Terry and Cole",
+    "ToolTip": "Voluptatum laborum omnis sint dolorem.",
+    "Deleted": true,
+    "Rank": 31,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Wyman Group",
-        "ToolTip": "Totam id.",
+        "Id": 969,
+        "Name": "Beier, Walsh and Fadel",
+        "ToolTip": "Reprehenderit non voluptatem sequi nulla omnis.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "in",
+        "Rank": 405,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 237,
-        "ExtraInfo": "est",
-        "StyleHint": "veritatis",
-        "FullName": "Claire Dickens",
+        "IconHint": "beatae",
+        "ColorBlock": 470,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "dolore",
+        "FullName": "Ryan Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 855
+            "FieldType": "System.Int32",
+            "FieldLength": 187
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 204,
-    "ExtraInfo": "vitae",
-    "StyleHint": "consequatur",
-    "FullName": "Katrine Hahn",
+    "IconHint": "excepturi",
+    "ColorBlock": 420,
+    "ExtraInfo": "provident",
+    "StyleHint": "dolor",
+    "FullName": "Ms. Letha D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 500
       }
     }
   }

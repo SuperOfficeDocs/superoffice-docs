@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 134,
-  "Name": "Bednar LLC",
-  "Description": "Synergized directional knowledge user",
-  "OwnedByFullName": "Dr. Otis Napoleon Abernathy III",
-  "Registered": "2022-01-14T13:13:22.5551072+01:00",
+  "DashboardId": 913,
+  "Name": "Abbott, Ratke and Kunde",
+  "Description": "Open-architected neutral synergy",
+  "OwnedByFullName": "Mr. Sheldon Skiles MD",
+  "Registered": "2015-01-07T12:01:27.5565162+01:00",
   "Tiles": [
     {
-      "Name": "Greenholt LLC",
+      "Name": "Dicki, Rau and Price",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     },
     {
-      "Name": "Greenholt LLC",
+      "Name": "Dicki, Rau and Price",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "porro"
+  "Type": "nostrum"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2013-05-29T13:13:24.5246568+02:00",
-    "ValidTo": "2022-02-15T13:13:24.5246568+01:00",
-    "Comment": "similique",
-    "SecretValue": "illum",
-    "PublicValue": "modi",
-    "IsActive": false,
+    "ValidFrom": "2014-07-28T12:01:28.6190891+02:00",
+    "ValidTo": "2018-02-01T12:01:28.6190891+01:00",
+    "Comment": "assumenda",
+    "SecretValue": "laudantium",
+    "PublicValue": "voluptates",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

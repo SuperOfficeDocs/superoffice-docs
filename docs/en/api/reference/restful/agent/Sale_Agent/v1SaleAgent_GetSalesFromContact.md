@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 80,
+  "ContactId": 745,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kuhlman-DuBuque",
-    "SaleDate": "2008-06-20T13:13:23.8839994+02:00",
-    "SaleId": 329,
-    "Probability": 134,
-    "Title": "nisi",
-    "Amount": 8126.4619999999995,
-    "Currency": "omnis",
-    "ProjectName": "Bechtelar, Predovic and O'Keefe",
-    "AssociateFullName": "Rebeka Farrell III",
-    "Description": "Re-engineered even-keeled circuit",
+    "ContactName": "O'Keefe, Fahey and Altenwerth",
+    "SaleDate": "2022-03-17T12:01:28.2596899+01:00",
+    "SaleId": 174,
+    "Probability": 739,
+    "Title": "exercitationem",
+    "Amount": 27485.18,
+    "Currency": "est",
+    "ProjectName": "Rau Group",
+    "AssociateFullName": "Ms. Eulalia Jakubowski DVM",
+    "Description": "Distributed responsive strategy",
     "Status": "Lost",
-    "WeightedAmount": 4516.094,
-    "ProjectId": 501,
-    "EarningPercent": 12448.248,
-    "Earning": 27353.552,
-    "ContactId": 193,
-    "AssociateId": 60,
-    "PersonId": 819,
-    "SaleTypeId": 60,
-    "SaleTypeName": "Runte, Beer and Miller",
-    "PersonFullName": "Dante Rempel",
+    "WeightedAmount": 26140.694,
+    "ProjectId": 153,
+    "EarningPercent": 12144.25,
+    "Earning": 12639.422,
+    "ContactId": 228,
+    "AssociateId": 861,
+    "PersonId": 247,
+    "SaleTypeId": 516,
+    "SaleTypeName": "Koepp, Becker and Wolf",
+    "PersonFullName": "Vada Wunsch",
     "Completed": "Completed",
-    "ActiveErpLinks": 299,
-    "NextDueDate": "2016-06-13T13:13:23.8839994+02:00",
-    "Number": "1613301",
+    "ActiveErpLinks": 748,
+    "NextDueDate": "1998-06-08T12:01:28.2596899+02:00",
+    "Number": "1641460",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 947
       }
     }
   }

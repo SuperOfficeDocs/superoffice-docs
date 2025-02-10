@@ -15067,6 +15067,8 @@
       href: Services88/Quote/CreateAndSaveQuote.md
     - name: CreateAndSaveQuoteFromSale
       href: Services88/Quote/CreateAndSaveQuoteFromSale.md
+    - name: CreateAndSaveQuoteLines
+      href: Services88/Quote/CreateAndSaveQuoteLines.md
     - name: CreateAndSaveQuoteVersion
       href: Services88/Quote/CreateAndSaveQuoteVersion.md
     - name: CreateConnectionFromConnectorName

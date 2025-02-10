@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 338,
-  "ColumnId": 159,
-  "FieldDefault": "quia",
-  "FieldHeight": 198,
-  "FieldLabel": "culpa",
-  "FieldLeft": 939,
-  "FieldTop": 739,
+  "UDefFieldId": 247,
+  "ColumnId": 137,
+  "FieldDefault": "nam",
+  "FieldHeight": 264,
+  "FieldLabel": "a",
+  "FieldLeft": 69,
+  "FieldTop": 424,
   "FieldType": "Checkbox",
-  "FieldWidth": 431,
-  "FormatMask": "repellat",
+  "FieldWidth": 974,
+  "FormatMask": "dolor",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 793,
-  "LabelLeft": 142,
-  "LabelTop": 417,
-  "LabelWidth": 489,
-  "LastVersionId": 988,
-  "ListTableId": 98,
+  "LabelHeight": 122,
+  "LabelLeft": 633,
+  "LabelTop": 909,
+  "LabelWidth": 391,
+  "LastVersionId": 600,
+  "ListTableId": 315,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 819,
-  "ProgId": "omnis",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 851,
-  "TextLength": 210,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 875,
-  "UDListDefinitionId": 993,
+  "Page1LineNo": 567,
+  "ProgId": "nihil",
+  "IsReadOnly": true,
+  "ShortLabel": "cum",
+  "TabOrder": 769,
+  "TextLength": 831,
+  "Tooltip": "iusto",
+  "UdefIdentity": 918,
+  "UDListDefinitionId": 192,
   "Justification": "Center",
-  "Version": 415,
-  "TemplateVariableName": "Renner-O'Keefe",
+  "Version": 97,
+  "TemplateVariableName": "Blick, White and Hansen",
   "HasBeenPublished": true,
-  "MdoListName": "Rath, Turner and Schamberger",
+  "MdoListName": "Kessler-White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 332
     }
   }
 }

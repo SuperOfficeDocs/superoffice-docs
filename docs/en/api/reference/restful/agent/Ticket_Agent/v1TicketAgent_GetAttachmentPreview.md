@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 800
+  "AttachmentId": 822
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shields Inc and Sons",
-  "MimeType": "voluptas",
-  "Size": 870,
+  "Name": "Lang-Gorczany",
+  "MimeType": "dignissimos",
+  "Size": 159,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "juvenal@brownpurdy.uk",
-  "EmailFrom": "titus.trantow@king.us",
-  "EmailTo": "iliana_schneider@kunzeondricka.com",
-  "EmailCc": "allene_gleichner@deckowpagac.com",
-  "EmailDate": "2020-11-11T13:13:24.399685+01:00",
+  "EmailSubject": "antonetta_stracke@jakubowski.us",
+  "EmailFrom": "chelsey_davis@green.co.uk",
+  "EmailTo": "pansy@watsica.info",
+  "EmailCc": "grover@luettgen.biz",
+  "EmailDate": "2021-11-25T12:01:28.5565847+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 337,
-      "Name": "Fahey-Toy",
-      "ContentType": "alias",
-      "AttSize": 935,
+      "AttachmentId": 809,
+      "Name": "Davis, Pagac and Barrows",
+      "ContentType": "laborum",
+      "AttSize": 309,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "cumque",
-      "IsSafeFileExtension": false,
+      "ContentId": "nulla",
+      "AuthKey": "quas",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldLength": 560
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 261
     }
   }
 }

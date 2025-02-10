@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Williamson-Swift"
+  "TaskName": "Kutch, Wilderman and Hayes"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Walsh Inc and Sons",
-    "AssociateId": 397,
-    "DetailsTable": 486,
-    "DetailsRecord": 112,
-    "IsSystemTask": false,
+    "Id": 843,
+    "Name": "Donnelly-Cormier",
+    "AssociateId": 135,
+    "DetailsTable": 67,
+    "DetailsRecord": 569,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "placeat"
+      "ParameterObject1": "repudiandae",
+      "ParameterObject2": "dignissimos"
     },
-    "LastStarted": "2014-11-19T13:13:22.133333+01:00",
-    "Created": "2024-11-18T13:13:22.133333+01:00",
-    "StartCount": 959,
-    "DatabaseSerialNumber": "1103511",
-    "Context": "fuga",
-    "Result": "quia",
+    "LastStarted": "2013-01-24T12:01:27.3533761+01:00",
+    "Created": "2006-11-13T12:01:27.3533761+01:00",
+    "StartCount": 264,
+    "DatabaseSerialNumber": "1091028",
+    "Context": "aut",
+    "Result": "soluta",
     "State": "All",
-    "Description": "Upgradable composite ability",
-    "Response": "et",
-    "Request": "aperiam",
-    "ProgressDescription": "Cross-platform content-based alliance",
-    "ProgressPercent": 480,
-    "FileName": "Corwin, Hodkiewicz and Ratke",
+    "Description": "Reduced homogeneous moderator",
+    "Response": "magnam",
+    "Request": "adipisci",
+    "ProgressDescription": "Polarised client-driven contingency",
+    "ProgressPercent": 160,
+    "FileName": "Quitzon Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 645
       }
     }
   }

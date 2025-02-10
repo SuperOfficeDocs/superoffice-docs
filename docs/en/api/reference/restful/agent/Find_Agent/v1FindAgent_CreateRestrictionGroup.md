@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "McCullough, Trantow and Kuvalis",
-  "StorageKey": "qui",
-  "Context": "numquam"
+  "StorageType": "aut",
+  "ProviderName": "Morissette, Walker and Jakubowski",
+  "StorageKey": "illo",
+  "Context": "cupiditate"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ebert LLC",
-  "Description": "Realigned content-based implementation",
-  "Rank": 382,
+  "Name": "Stamm, Muller and Lowe",
+  "Description": "Face to face upward-trending moderator",
+  "Rank": 949,
   "Restrictions": [
     {
-      "Name": "Schmeler LLC",
-      "Operator": "quaerat",
+      "Name": "Champlin Group",
+      "Operator": "fuga",
       "Values": [
-        "autem",
-        "sit"
+        "pariatur",
+        "quisquam"
       ],
       "DisplayValues": [
-        "consequatur",
-        "recusandae"
+        "vel",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 671,
+      "InterParenthesis": 687,
       "InterOperator": "And",
-      "UniqueHash": 514
+      "UniqueHash": 40
     }
   ]
 }

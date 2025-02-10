@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hettinger, Walter and Hodkiewicz",
-  "DeviceName": "Dickinson, Lang and Schuster",
-  "DeviceIdentifier": "odit"
+  "ApplicationName": "Gislason Group",
+  "DeviceName": "Kulas-Green",
+  "DeviceIdentifier": "quam"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sed",
-    "Value": "rerum",
-    "RecordId": 28,
-    "CreatedDate": "2016-05-19T13:13:23.1802042+02:00",
-    "UpdatedDate": "2023-08-14T13:13:23.1802042+02:00",
-    "UpdatedBy": "aut",
-    "CreatedBy": "dolores",
-    "TableName": "Cartwright, Langworth and Mueller",
+    "Key": "nihil",
+    "Value": "cum",
+    "RecordId": 117,
+    "CreatedDate": "2001-05-24T12:01:27.9002891+02:00",
+    "UpdatedDate": "2009-09-21T12:01:27.9002891+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "nesciunt",
+    "TableName": "Simonis-Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 898
       }
     }
   }

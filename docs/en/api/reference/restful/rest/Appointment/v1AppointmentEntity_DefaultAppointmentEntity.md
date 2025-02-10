@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Aug 2013 13:13:31 G8T
+Last-Modified: Sun, 12 Jun 2022 12:01:32 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-04-02T13:13:31.1518725+02:00",
-  "AppointmentId": 964,
-  "Description": "Visionary intangible infrastructure",
-  "Title": "architecto",
-  "Agenda": "qui",
-  "InternalNotes": "non",
-  "StartDate": "1998-09-02T13:13:31.1518725+02:00",
-  "EndDate": "2013-12-15T13:13:31.1518725+01:00",
+  "CreatedDate": "2016-12-09T12:01:32.4956574+01:00",
+  "AppointmentId": 39,
+  "Description": "Virtual object-oriented service-desk",
+  "Title": "et",
+  "Agenda": "et",
+  "InternalNotes": "ex",
+  "StartDate": "2000-10-11T12:01:32.4956574+02:00",
+  "EndDate": "2000-07-18T12:01:32.4956574+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 970,
+  "MotherId": 638,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-08-17T13:13:31.1518725+02:00",
+  "UpdatedDate": "2022-06-12T12:01:32.5112839+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 891,
+  "ActiveLinks": 851,
   "Links": [
     {
-      "EntityName": "Rau-Barton",
-      "Id": 901,
-      "Description": "Balanced web-enabled complexity",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 989,
+      "EntityName": "Bins, Koelpin and Thiel",
+      "Id": 253,
+      "Description": "Digitized eco-centric archive",
+      "ExtraInfo": "qui",
+      "LinkId": 474,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 244
         }
       }
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "ut",
   "HasAlarm": false,
-  "ColorIndex": 539,
-  "IsFree": true,
+  "ColorIndex": 40,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "expedita",
-  "LeadTime": "harum",
-  "Location": "ut",
-  "RejectCounter": 868,
+  "LagTime": "ut",
+  "LeadTime": "dolores",
+  "Location": "veniam",
+  "RejectCounter": 153,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 247,
-      "PersonId": 376,
-      "ContactId": 46,
-      "EmailId": 196,
-      "SendEmail": true,
+      "AssociateId": 328,
+      "PersonId": 418,
+      "ContactId": 296,
+      "EmailId": 404,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nat.rohan@bruenfunk.co.uk",
-      "Description": "Enterprise-wide modular matrix"
+      "EmailAddress": "devan@kling.uk",
+      "Description": "Implemented well-modulated hierarchy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-11-15T13:13:31.1518725+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-04-03T12:01:32.5112839+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 674,
+  "PreferredTZLocation": 751,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 45,
+  "SuggestedAppointmentId": 590,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "perspiciatis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Kamille Rahsaan Lakin",
-    "SuperOffice:2": "1892356303"
+    "SuperOffice:1": "Prof. Clay Schultz",
+    "SuperOffice:2": "628566598"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "qui"
+    "CustomFields1": "dolores",
+    "CustomFields2": "asperiores"
   },
-  "PublishEventDate": "2006-01-04T13:13:31.1674969+01:00",
-  "PublishTo": "2012-01-03T13:13:31.1674969+01:00",
-  "PublishFrom": "2016-08-08T13:13:31.1674969+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-08-27T12:01:32.5112839+02:00",
+  "PublishTo": "2012-02-16T12:01:32.5112839+01:00",
+  "PublishFrom": "2003-09-29T12:01:32.5112839+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 825,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     },
     {
-      "VisibleId": 825,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Sat, 17 Aug 2013 13:13:31 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 393
     }
   }
 }

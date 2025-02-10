@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cumque",
-  "ProviderName": "Langworth-Volkman",
-  "StorageKey": "reprehenderit",
+  "StorageType": "at",
+  "ProviderName": "Willms-Christiansen",
+  "StorageKey": "id",
   "StaticColumns": [
-    "ex",
-    "nostrum"
+    "consequatur",
+    "eos"
   ],
-  "Context": "non"
+  "Context": "reprehenderit"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "D'Amore, Kutch and Bogisich",
-      "Operator": "nemo",
+      "Name": "Denesik Group",
+      "Operator": "accusamus",
       "Values": [
-        "voluptate",
-        "beatae"
+        "et",
+        "occaecati"
       ],
       "DisplayValues": [
         "quisquam",
-        "sed"
+        "cupiditate"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 664,
+      "InterParenthesis": 928,
       "InterOperator": "And",
-      "UniqueHash": 973
+      "UniqueHash": 866
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Greenholt LLC",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "laborum",
-      "CanOrderBy": true,
-      "Name": "Stoltenberg, Koch and Murazik",
+      "DisplayName": "Cartwright LLC",
+      "DisplayTooltip": "quo",
+      "DisplayType": "vitae",
+      "CanOrderBy": false,
+      "Name": "Williamson-Hoeger",
       "CanRestrictBy": true,
-      "RestrictionType": "non",
-      "RestrictionListName": "Doyle Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "laborum",
-      "Width": "expedita",
-      "IconHint": "et",
-      "HeadingIconHint": "et"
+      "RestrictionType": "ex",
+      "RestrictionListName": "Bruen, Kuphal and DuBuque",
+      "IsVisible": true,
+      "ExtraInfo": "quia",
+      "Width": "praesentium",
+      "IconHint": "a",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schulist, Harvey and Adams",
-      "PrimaryKey": 109,
+      "EntityName": "Abbott-Pfannerstill",
+      "PrimaryKey": 644,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "eaque",
-          "LinkHint": "alias"
+          "DisplayValue": "corporis",
+          "TooltipHint": "consectetur",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "ex",
-      "StyleHint": "est",
+      "LinkHint": "error",
+      "StyleHint": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldLength": 305
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "McClure Group",
-      "Description": "Business-focused 6th generation model",
-      "Rank": 399,
+      "Name": "Schaden, Schmitt and Schulist",
+      "Description": "Reactive assymetric groupware",
+      "Rank": 12,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McClure Group",
-      "Description": "Business-focused 6th generation model",
-      "Rank": 399,
+      "Name": "Schaden, Schmitt and Schulist",
+      "Description": "Reactive assymetric groupware",
+      "Rank": 12,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 677
     }
   }
 }

@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Document/GetDocumentUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 686,
-  "VersionId": "culpa",
+  "DocumentId": 684,
+  "VersionId": "mollitia",
   "WriteableUrl": false
 }
 ```

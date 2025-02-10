@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 76,
+  "TargetDimensionId": 783,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ipsa",
-  "DimensionListName": "Ledner-Olson",
-  "DimensionListId": 545,
-  "DimensionListLabel": "ducimus",
+  "DimensionListField": "molestiae",
+  "DimensionListName": "Mertz, Doyle and Waelchi",
+  "DimensionListId": 97,
+  "DimensionListLabel": "maxime",
   "SelectedDimensions": [
-    170,
-    778
+    227,
+    559
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 254
     }
   }
 }

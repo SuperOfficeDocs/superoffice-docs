@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "dolorum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "dolorum",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 125,
+  "DashboardId": 758,
   "UniqueId": "id",
-  "Name": "Wiegand, Batz and Deckow",
-  "Description": "Synergistic discrete circuit",
-  "AssociateId": 96,
-  "Columns": 947,
+  "Name": "Pfeffer, Dibbert and D'Amore",
+  "Description": "Advanced eco-centric function",
+  "AssociateId": 841,
+  "Columns": 599,
   "Theme": null,
-  "VisibleForAll": 753,
+  "VisibleForAll": 366,
   "VisibleForAssociates": [
-    945,
-    595
+    438,
+    129
   ],
   "VisibleForGroups": [
-    523,
-    904
+    888,
+    957
   ],
-  "PinForAll": 714,
+  "PinForAll": 139,
   "PinForAssociates": [
-    495,
-    579
+    822,
+    740
   ],
   "PinForGroups": [
-    391,
-    572
+    404,
+    977
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 218
     }
   },
   "_Links": {

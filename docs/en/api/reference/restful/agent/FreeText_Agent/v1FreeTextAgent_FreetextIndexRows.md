@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Baumbach-Zboncak",
+  "TableName": "Legros, Monahan and Yost",
   "IDs": [
-    670,
-    895
+    620,
+    608
   ]
 }
 ```

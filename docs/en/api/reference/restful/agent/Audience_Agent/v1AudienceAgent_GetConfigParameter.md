@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Von, Ernser and McLaughlin",
-  "ParameterName": "Heathcote, Schowalter and Pouros"
+  "LayoutName": "Johnston-Prohaska",
+  "ParameterName": "Champlin-Heller"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 298,
-  "Name": "Gusikowski Group",
-  "Value": "inventore",
-  "CreatedDate": "2010-06-13T13:13:22.1177118+02:00",
-  "UpdatedDate": "2014-12-23T13:13:22.1177118+01:00",
-  "CreatedBy": "qui",
-  "UpdatedBy": "reiciendis",
+  "AudienceLayoutId": 510,
+  "Name": "Pouros LLC",
+  "Value": "quod",
+  "CreatedDate": "2009-10-08T12:01:27.3377499+02:00",
+  "UpdatedDate": "2018-10-21T12:01:27.3377499+02:00",
+  "CreatedBy": "ipsum",
+  "UpdatedBy": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 341
     }
   }
 }

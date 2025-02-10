@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Klein LLC",
-    "Comment": "qui",
-    "StakeholderRoleId": 923,
-    "CountryId": 206,
-    "PersonId": 633,
-    "EmailDescription": "pattie@pacochahowe.biz",
-    "EmailId": 595,
-    "EmailAddress": "cedrick_reynolds@halvorson.info",
-    "PhoneId": 306,
-    "ContactName": "Hagenes Inc and Sons",
-    "ContactId": 880,
-    "SaleId": 149,
-    "Mrmrs": "aperiam",
-    "Firstname": "Kareem",
-    "MiddleName": "Hagenes-Torphy",
-    "Lastname": "Russel",
-    "SaleStakeholderId": 114,
-    "Rank": 455,
-    "Phone": "1-465-501-3176 x493",
+    "StakeholderRoleName": "Lindgren, Reichel and Schamberger",
+    "Comment": "a",
+    "StakeholderRoleId": 757,
+    "CountryId": 417,
+    "PersonId": 329,
+    "EmailDescription": "bernice_thiel@greenfelder.com",
+    "EmailId": 901,
+    "EmailAddress": "samara.jewess@jakubowskicassin.biz",
+    "PhoneId": 146,
+    "ContactName": "Reynolds, Corkery and Wilderman",
+    "ContactId": 149,
+    "SaleId": 916,
+    "Mrmrs": "nesciunt",
+    "Firstname": "Horace",
+    "MiddleName": "Cremin, Moen and Baumbach",
+    "Lastname": "Dickens",
+    "SaleStakeholderId": 771,
+    "Rank": 482,
+    "Phone": "276-503-1116 x153",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 211
       }
     }
   }

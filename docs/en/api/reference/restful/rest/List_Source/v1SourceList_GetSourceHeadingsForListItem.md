@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Bernier Group",
-    "ToolTip": "Expedita unde recusandae voluptatem et.",
-    "Deleted": true,
-    "Rank": 499,
-    "Type": "rerum",
-    "ColorBlock": 120,
-    "IconHint": "illum",
-    "Selected": false,
-    "LastChanged": "1999-05-26T13:13:33.6203821+02:00",
+    "Id": 890,
+    "Name": "Schroeder, Kertzmann and Grady",
+    "ToolTip": "Ipsum quae.",
+    "Deleted": false,
+    "Rank": 520,
+    "Type": "accusamus",
+    "ColorBlock": 556,
+    "IconHint": "veritatis",
+    "Selected": true,
+    "LastChanged": "2009-05-11T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Denesik-Wiza",
-        "ToolTip": "Numquam sit qui voluptatum laboriosam et pariatur deleniti.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "doloremque",
-        "ColorBlock": 585,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2017-04-23T13:13:33.6203821+02:00",
+        "Id": 34,
+        "Name": "Lindgren, Lindgren and Lemke",
+        "ToolTip": "Illo assumenda.",
+        "Deleted": true,
+        "Rank": 593,
+        "Type": "nobis",
+        "ColorBlock": 641,
+        "IconHint": "eveniet",
+        "Selected": false,
+        "LastChanged": "2021-08-03T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Prof. Clay Sophia Okuneva",
+        "ExtraInfo": "minima",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Anastasia Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldLength": 424
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "dolor",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Flo Paucek",
+    "FullName": "Miss Rupert Taurean Koss PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 468
       }
     }
   }

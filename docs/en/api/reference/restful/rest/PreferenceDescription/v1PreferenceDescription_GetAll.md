@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 395,
-    "Section": "ipsum",
-    "Key": "quo",
-    "Name": "Cruickshank-Rippin",
+    "PrefDescId": 836,
+    "Section": "reprehenderit",
+    "Key": "sunt",
+    "Name": "Hansen-Marks",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized scalable matrix",
-    "IsBuiltin": false,
-    "TableName": "Hilll, Franecki and Durgan",
-    "UserDefinedListId": 313,
-    "Rank": 194,
-    "SubGroup": "repudiandae",
-    "MinLevel": 28,
-    "MaxValue": 338,
-    "MinValue": 445,
-    "RequiredLicense": "sed",
+    "Description": "Seamless well-modulated firmware",
+    "IsBuiltin": true,
+    "TableName": "Labadie Inc and Sons",
+    "UserDefinedListId": 373,
+    "Rank": 658,
+    "SubGroup": "nemo",
+    "MinLevel": 328,
+    "MaxValue": 409,
+    "MinValue": 262,
+    "RequiredLicense": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

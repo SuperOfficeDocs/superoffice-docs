@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 93,
+  "RowCount": 928,
   "Rows": [
     {
-      "EntityName": "Stiedemann-Medhurst",
-      "PrimaryKey": 10,
+      "EntityName": "Schowalter Inc and Sons",
+      "PrimaryKey": 909,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "architecto",
-          "TooltipHint": "ad",
-          "LinkHint": "facilis"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "consectetur",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "ad",
+      "LinkHint": "quam",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 587
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 252
     }
   }
 }

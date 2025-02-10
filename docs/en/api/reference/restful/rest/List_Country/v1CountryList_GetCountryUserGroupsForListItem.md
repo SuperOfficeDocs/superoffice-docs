@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Schuster, King and Gibson",
-    "ToolTip": "Eos qui.",
+    "Id": 684,
+    "Name": "Schroeder-Bauch",
+    "ToolTip": "Consequatur nulla accusantium est qui eum impedit.",
     "Deleted": true,
-    "Rank": 269,
-    "Type": "officiis",
-    "ColorBlock": 91,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2012-04-18T13:13:32.9642864+02:00",
+    "Rank": 925,
+    "Type": "aut",
+    "ColorBlock": 235,
+    "IconHint": "facilis",
+    "Selected": false,
+    "LastChanged": "2022-11-11T12:01:33.4644748+01:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Stroman, Anderson and Moen",
-        "ToolTip": "Ducimus hic nisi sequi dolorem sint hic.",
-        "Deleted": true,
-        "Rank": 200,
-        "Type": "officia",
-        "ColorBlock": 588,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2021-11-23T13:13:32.9642864+01:00",
+        "Id": 641,
+        "Name": "Bradtke-Renner",
+        "ToolTip": "Id ipsam aliquid modi illo aut repellat qui.",
+        "Deleted": false,
+        "Rank": 989,
+        "Type": "ex",
+        "ColorBlock": 998,
+        "IconHint": "blanditiis",
+        "Selected": true,
+        "LastChanged": "2000-12-04T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Estrella Russel",
+        "ExtraInfo": "aut",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Miss Ernestine Joyce Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 712
+            "FieldType": "System.Int32",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Chaz Koepp",
+    "ExtraInfo": "optio",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Archibald Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

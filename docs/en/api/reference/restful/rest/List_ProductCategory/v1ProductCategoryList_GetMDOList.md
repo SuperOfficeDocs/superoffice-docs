@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=eos
+GET /api/v1/List/ProductCategory/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Kiehn-Schumm",
-    "ToolTip": "Dolores hic aperiam ducimus id libero reprehenderit alias.",
-    "Deleted": true,
-    "Rank": 433,
-    "Type": "soluta",
+    "Id": 342,
+    "Name": "Considine-Kling",
+    "ToolTip": "Eius nobis laborum perspiciatis est omnis.",
+    "Deleted": false,
+    "Rank": 919,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Kshlerin-Kovacek",
-        "ToolTip": "Dolores natus et.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "ut",
+        "Id": 356,
+        "Name": "Jacobi, Bednar and Green",
+        "ToolTip": "Deserunt hic amet blanditiis quasi soluta rerum voluptatem.",
+        "Deleted": false,
+        "Rank": 856,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 400,
-        "ExtraInfo": "provident",
-        "StyleHint": "recusandae",
-        "FullName": "Charles Schiller",
+        "IconHint": "temporibus",
+        "ColorBlock": 718,
+        "ExtraInfo": "ut",
+        "StyleHint": "iste",
+        "FullName": "Dr. Cody Elmore Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldType": "System.String",
+            "FieldLength": 495
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 876,
+    "IconHint": "optio",
+    "ColorBlock": 82,
     "ExtraInfo": "fugit",
-    "StyleHint": "ipsam",
-    "FullName": "Orland Hansen",
+    "StyleHint": "eum",
+    "FullName": "Skye Stiedemann PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

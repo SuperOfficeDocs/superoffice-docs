@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "Fisher-Prosacco",
-  "Tooltip": "cumque",
+  "Id": 308,
+  "Name": "Stoltenberg-Hyatt",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 532,
-  "Rank": 737,
+  "UdListDefinitionId": 722,
+  "Rank": 230,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 250
     }
   }
 }

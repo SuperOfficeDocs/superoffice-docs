@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=999
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=101
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 570,
-  "Caption": "nemo",
-  "Description": "Intuitive homogeneous model",
-  "ChartName": "McCullough, Koepp and Denesik",
-  "ChartId": "et",
+  "DashboardTileId": 86,
+  "Caption": "et",
+  "Description": "Optimized leading edge intranet",
+  "ChartName": "Bosco-Labadie",
+  "ChartId": "dolorem",
   "IsDefault": true,
-  "AssociateId": 692,
-  "GroupId": 274,
-  "SelectionId": 541,
-  "Config": "omnis",
+  "AssociateId": 832,
+  "GroupId": 652,
+  "SelectionId": 585,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lowe-Conn",
-      "Description": "Customer-focused non-volatile architecture",
+      "Name": "Donnelly LLC",
+      "Description": "Synergized context-sensitive hardware",
       "Type": "Boolean",
-      "ListName": "Corwin-Marquardt",
+      "ListName": "Von, Nolan and Jacobi",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ipsa",
+      "Value": "reprehenderit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldLength": 498
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 111,
+      "VisibleId": 557,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     },
     {
-      "VisibleId": 111,
+      "VisibleId": 557,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldType": "System.Int32",
+          "FieldLength": 136
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Mann, Greenfelder and Bergnaum",
-    "Tooltip": "perferendis",
+    "Id": 348,
+    "Name": "Rice, Emmerich and Bode",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 44,
-    "Rank": 968,
+    "UdListDefinitionId": 56,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 552
       }
     }
   }

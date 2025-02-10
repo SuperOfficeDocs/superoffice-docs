@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 202,
-  "Count": 929
+  "WeightedAmountLimit": 216,
+  "Count": 322
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Legros-Cassin",
-    "SaleDate": "2009-01-10T13:13:23.8729256+01:00",
-    "SaleId": 481,
-    "Probability": 723,
-    "Title": "quas",
-    "Amount": 6515.586,
-    "Currency": "accusantium",
-    "ProjectName": "Gislason, Wyman and Bechtelar",
-    "AssociateFullName": "Dr. Casper Emard DVM",
-    "Description": "Configurable needs-based leverage",
+    "ContactName": "Bartell Group",
+    "SaleDate": "2014-12-08T12:01:28.2596899+01:00",
+    "SaleId": 720,
+    "Probability": 940,
+    "Title": "animi",
+    "Amount": 17600.543999999998,
+    "Currency": "nihil",
+    "ProjectName": "Lowe-Kohler",
+    "AssociateFullName": "Bernardo Ratke",
+    "Description": "Advanced multi-state software",
     "Status": "Lost",
-    "WeightedAmount": 27359.82,
-    "ProjectId": 318,
-    "EarningPercent": 6684.822,
-    "Earning": 28415.978,
-    "ContactId": 948,
-    "AssociateId": 903,
-    "PersonId": 833,
-    "SaleTypeId": 580,
-    "SaleTypeName": "Haley, Crooks and Rempel",
-    "PersonFullName": "Gay Leuschke",
+    "WeightedAmount": 14350.586,
+    "ProjectId": 958,
+    "EarningPercent": 14648.315999999999,
+    "Earning": 31327.464,
+    "ContactId": 394,
+    "AssociateId": 167,
+    "PersonId": 870,
+    "SaleTypeId": 340,
+    "SaleTypeName": "Treutel, Senger and Torphy",
+    "PersonFullName": "Donna Crooks",
     "Completed": "Completed",
-    "ActiveErpLinks": 842,
-    "NextDueDate": "2011-05-17T13:13:23.8729256+02:00",
-    "Number": "1031452",
+    "ActiveErpLinks": 919,
+    "NextDueDate": "2012-04-11T12:01:28.2596899+02:00",
+    "Number": "1497641",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 757
       }
     }
   }

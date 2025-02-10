@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 413,
-  "FieldDefault": "est",
-  "FieldHeight": 342,
-  "FieldLabel": "rerum",
-  "FieldLeft": 336,
-  "FieldTop": 933,
+  "UDefFieldId": 166,
+  "ColumnId": 304,
+  "FieldDefault": "optio",
+  "FieldHeight": 599,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 859,
+  "FieldTop": 260,
   "FieldType": "Checkbox",
-  "FieldWidth": 978,
-  "FormatMask": "praesentium",
-  "HideLabel": false,
+  "FieldWidth": 222,
+  "FormatMask": "omnis",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 623,
-  "LabelLeft": 33,
-  "LabelTop": 977,
-  "LabelWidth": 679,
-  "LastVersionId": 622,
-  "ListTableId": 737,
-  "IsMandatory": false,
+  "LabelHeight": 589,
+  "LabelLeft": 879,
+  "LabelTop": 74,
+  "LabelWidth": 903,
+  "LastVersionId": 857,
+  "ListTableId": 15,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 843,
-  "ProgId": "perferendis",
+  "Page1LineNo": 415,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 52,
-  "TextLength": 349,
-  "Tooltip": "mollitia",
-  "UdefIdentity": 29,
-  "UDListDefinitionId": 988,
+  "ShortLabel": "odit",
+  "TabOrder": 331,
+  "TextLength": 690,
+  "Tooltip": "vel",
+  "UdefIdentity": 220,
+  "UDListDefinitionId": 791,
   "Justification": "Center",
-  "Version": 793,
-  "TemplateVariableName": "Beier, Wintheiser and Pollich",
-  "HasBeenPublished": true,
-  "MdoListName": "King Group",
+  "Version": 168,
+  "TemplateVariableName": "Upton, DuBuque and Considine",
+  "HasBeenPublished": false,
+  "MdoListName": "Nader Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 637
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ratke-Russel"
+  "Name": "Marvin, Waters and Donnelly"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "O'Connell, Cole and Flatley",
-    "SoPrimaryKey": 257,
-    "EntryName": "Boehm-Stroman",
-    "EntryIdentifier": "eos",
-    "RuleDisplayName": "Batz Inc and Sons",
+    "RuleName": "Cremin LLC",
+    "SoPrimaryKey": 923,
+    "EntryName": "Hudson LLC",
+    "EntryIdentifier": "commodi",
+    "RuleDisplayName": "Bergstrom-Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldLength": 538
       }
     }
   }

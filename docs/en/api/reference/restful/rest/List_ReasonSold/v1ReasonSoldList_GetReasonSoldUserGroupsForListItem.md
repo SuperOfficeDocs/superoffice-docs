@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Reilly, Collier and Konopelski",
-    "ToolTip": "Sunt a non ipsam accusantium esse facere id.",
+    "Id": 824,
+    "Name": "Hamill, Stanton and O'Keefe",
+    "ToolTip": "Porro provident ex autem sit ratione aut.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "provident",
-    "ColorBlock": 885,
-    "IconHint": "nesciunt",
+    "Rank": 253,
+    "Type": "pariatur",
+    "ColorBlock": 88,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "1999-10-09T13:13:33.5110216+02:00",
+    "LastChanged": "2024-11-28T12:01:33.6363617+01:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Kuhic, Dibbert and Upton",
-        "ToolTip": "Odit sunt eos.",
-        "Deleted": true,
-        "Rank": 788,
-        "Type": "facilis",
-        "ColorBlock": 52,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2014-10-11T13:13:33.5110216+02:00",
+        "Id": 194,
+        "Name": "Schiller Group",
+        "ToolTip": "Vero nisi.",
+        "Deleted": false,
+        "Rank": 830,
+        "Type": "voluptas",
+        "ColorBlock": 427,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2010-04-06T12:01:33.6363617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "rem",
-        "Hidden": false,
-        "FullName": "Caitlyn Gerlach",
+        "ExtraInfo": "vero",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Prof. Hilma Ericka Senger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 487
+            "FieldLength": 135
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "nemo",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Zackary King",
+    "FullName": "Emelie Anita Strosin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 581
       }
     }
   }

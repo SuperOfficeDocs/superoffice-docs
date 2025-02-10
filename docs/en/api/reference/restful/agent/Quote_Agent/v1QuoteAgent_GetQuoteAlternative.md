@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=191
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=749
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 1000,
-  "ERPQuoteAlternativeKey": "inventore",
-  "QuoteVersionId": 244,
-  "Name": "Howell-Kuvalis",
-  "Description": "Sharable intangible open system",
+  "QuoteAlternativeId": 946,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 920,
+  "Name": "Howe Inc and Sons",
+  "Description": "Mandatory didactic moderator",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21887.856,
-  "ERPDiscountAmount": 5938.9299999999994,
-  "DiscountPercent": 11222.854,
-  "DiscountAmount": 24564.291999999998,
+  "ERPDiscountPercent": 10561.58,
+  "ERPDiscountAmount": 28359.566,
+  "DiscountPercent": 10323.395999999999,
+  "DiscountAmount": 22871.932,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "velit",
-  "VAT": 30565.902,
-  "EarningPercent": 11313.74,
-  "EarningAmount": 11793.242,
-  "SubTotal": 247.58599999999998,
-  "TotalPrice": 26852.111999999997,
-  "ExtraField1": "ad",
-  "ExtraField2": "ratione",
-  "ExtraField3": "nihil",
-  "ExtraField4": "ut",
-  "ExtraField5": "nam",
+  "VATInfo": "incidunt",
+  "VAT": 26827.04,
+  "EarningPercent": 9583.771999999999,
+  "EarningAmount": 10044.47,
+  "SubTotal": 29465.868,
+  "TotalPrice": 7223.87,
+  "ExtraField1": "asperiores",
+  "ExtraField2": "iusto",
+  "ExtraField3": "corrupti",
+  "ExtraField4": "quidem",
+  "ExtraField5": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

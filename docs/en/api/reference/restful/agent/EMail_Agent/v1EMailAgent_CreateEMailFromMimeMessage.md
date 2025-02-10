@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "debitis"
+  "MimeMessage": "asperiores"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 11,
-      "ContactName": "Crooks, Schumm and Greenfelder",
-      "PersonId": 94,
-      "PersonName": "Beatty-Kuhlman",
-      "AssociateId": 209,
-      "Address": "non",
-      "EmailId": 771,
+      "ContactId": 165,
+      "ContactName": "Barton Group",
+      "PersonId": 429,
+      "PersonName": "Rolfson, Wiegand and Wolff",
+      "AssociateId": 892,
+      "Address": "quia",
+      "EmailId": 616,
       "DuplicatePersonIds": [
-        397,
-        353
+        182,
+        195
       ],
-      "Name": "Marvin-Zulauf",
+      "Name": "Vandervort, Rodriguez and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 339,
-      "ContactName": "Zulauf-Stamm",
-      "PersonId": 672,
-      "PersonName": "Larson, Torp and Fay",
-      "AssociateId": 400,
-      "Address": "ab",
-      "EmailId": 297,
+      "ContactId": 262,
+      "ContactName": "Mueller-Skiles",
+      "PersonId": 955,
+      "PersonName": "Ferry Group",
+      "AssociateId": 713,
+      "Address": "eum",
+      "EmailId": 470,
       "DuplicatePersonIds": [
-        472,
-        562
+        561,
+        558
       ],
-      "Name": "Sporer-Corwin",
+      "Name": "Ratke-Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 404
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 247,
-      "ContactName": "Medhurst Group",
-      "PersonId": 502,
-      "PersonName": "Shields Group",
-      "AssociateId": 176,
-      "Address": "dolorem",
-      "EmailId": 556,
+      "ContactId": 574,
+      "ContactName": "Erdman-Harvey",
+      "PersonId": 197,
+      "PersonName": "Armstrong, Howe and Bruen",
+      "AssociateId": 767,
+      "Address": "et",
+      "EmailId": 961,
       "DuplicatePersonIds": [
-        214,
-        476
+        738,
+        797
       ],
-      "Name": "Zemlak LLC",
+      "Name": "Wiza Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 699
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "Subject": "unde",
-  "HTMLBody": "voluptatibus",
+  "Subject": "omnis",
+  "HTMLBody": "minus",
   "From": null,
-  "Sent": "2009-08-17T13:13:23.0708443+02:00",
-  "Size": 433,
+  "Sent": "2009-06-20T12:01:27.8534108+02:00",
+  "Size": 873,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "alias",
-  "PlainBody": "impedit",
+  "MessageID": "excepturi",
+  "PlainBody": "et",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 783,
+  "ServerId": 736,
   "Attachments": [
     {
-      "Description": "Multi-channelled bifurcated collaboration",
-      "Filename": "impedit",
-      "Size": 72,
-      "Type": "quis",
-      "Encoding": "non",
-      "Id": "impedit",
-      "Disposition": "mollitia",
+      "Description": "Reduced upward-trending data-warehouse",
+      "Filename": "accusantium",
+      "Size": 522,
+      "Type": "sed",
+      "Encoding": "sequi",
+      "Id": "amet",
+      "Disposition": "sed",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 138
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Batz Inc and Sons",
+      "Name": "Mohr Inc and Sons",
       "Values": [
-        "tempore",
-        "ratione"
+        "deleniti",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldLength": 630
         }
       }
     },
     {
-      "Name": "Batz Inc and Sons",
+      "Name": "Mohr Inc and Sons",
       "Values": [
-        "tempore",
-        "ratione"
+        "deleniti",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldLength": 630
         }
       }
     }
   ],
-  "FolderName": "D'Amore, Murazik and Kuhlman",
-  "EmailItemId": 481,
-  "AccountId": 587,
-  "ReceivedAt": "2017-09-15T13:13:23.0708443+02:00",
+  "FolderName": "Wiza Inc and Sons",
+  "EmailItemId": 157,
+  "AccountId": 330,
+  "ReceivedAt": "2006-11-11T12:01:27.8534108+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-02-14T13:13:23.0708443+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-03-13T12:01:27.8534108+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

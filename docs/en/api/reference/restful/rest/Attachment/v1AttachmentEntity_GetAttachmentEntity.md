@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 698,
-  "Name": "Ryan, Pagac and Hagenes",
-  "ContentType": "sit",
-  "AttSize": 661,
+  "AttachmentId": 533,
+  "Name": "Howell, Auer and Bechtelar",
+  "ContentType": "sint",
+  "AttSize": 817,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "optio",
-  "IsSafeFileExtension": true,
+  "ContentId": "et",
+  "AuthKey": "voluptas",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

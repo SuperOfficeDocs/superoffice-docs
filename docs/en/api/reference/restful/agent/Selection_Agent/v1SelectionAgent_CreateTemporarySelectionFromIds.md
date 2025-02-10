@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    954,
-    102
+    589,
+    957
   ],
-  "TargetTableNumber": 166
+  "TargetTableNumber": 630
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised discrete Graphic Interface",
-  "Postit": "ea",
+  "Description": "Digitized well-modulated focus group",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 859,
-  "IncludePerson": 998,
+  "GroupIdx": 532,
+  "IncludePerson": 331,
   "MemberCount": 99.99,
-  "Name": "Brakus-Johnson",
-  "PostitTextId": 323,
-  "CreatedDate": "2022-03-31T13:13:23.9521988+02:00",
-  "SelectionId": 194,
-  "SoundEx": "est",
-  "Source": 507,
-  "TextId": 979,
-  "UpdatedDate": "2016-05-14T13:13:23.9521988+02:00",
-  "UpdatedCount": 218,
-  "Visibility": 541,
+  "Name": "Flatley Inc and Sons",
+  "PostitTextId": 906,
+  "CreatedDate": "2008-01-11T12:01:28.3065684+01:00",
+  "SelectionId": 32,
+  "SoundEx": "distinctio",
+  "Source": 787,
+  "TextId": 352,
+  "UpdatedDate": "2001-10-11T12:01:28.3065684+02:00",
+  "UpdatedCount": 170,
+  "Visibility": 977,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 447,
-  "TargetTableName": "Parisian Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 456,
+  "TargetTableName": "Wolff-Stroman",
   "Completed": false,
-  "LeftSelectionId": 245,
-  "RightSelectionId": 732,
+  "LeftSelectionId": 474,
+  "RightSelectionId": 59,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bauch Inc and Sons",
-  "ShadowProviderName": "Jacobi Group",
-  "ChartKey": "repellat",
-  "LastLoaded": "2022-04-04T13:13:23.9521988+02:00",
-  "LastLoadedBy": 495,
+  "MainProviderName": "Ryan Group",
+  "ShadowProviderName": "Hane, Bechtelar and Hahn",
+  "ChartKey": "aliquid",
+  "LastLoaded": "2021-08-21T12:01:28.3065684+02:00",
+  "LastLoadedBy": 320,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-30T13:13:23.9521988+01:00",
-  "LastMembershipChangeBy": 935,
+  "LastMembershipChange": "2019-01-03T12:01:28.3065684+01:00",
+  "LastMembershipChangeBy": 526,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "occaecati",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Williamson Group",
-  "DashboardTileDefinitionId": 745,
+  "MainHeading": "et",
+  "MemberTabHeading": "maiores",
+  "MailingsProviderName": "Mills LLC",
+  "DashboardTileDefinitionId": 683,
   "VisibleFor": [
     {
-      "VisibleId": 794,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 918
         }
       }
     },
     {
-      "VisibleId": 794,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 918
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

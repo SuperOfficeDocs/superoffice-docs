@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Eichmann-Herzog",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "UdListDefinitionId": 74,
-    "Rank": 667
+    "Id": 129,
+    "Name": "Considine, Moen and Wilderman",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 588,
+    "Rank": 262
   },
   {
-    "Id": 342,
-    "Name": "Eichmann-Herzog",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "UdListDefinitionId": 74,
-    "Rank": 667
+    "Id": 129,
+    "Name": "Considine, Moen and Wilderman",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 588,
+    "Rank": 262
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Bechtelar Inc and Sons",
+    "Id": 258,
+    "Name": "Friesen, Kerluke and Doyle",
     "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 402,
-    "Rank": 1000,
+    "UdListDefinitionId": 742,
+    "Rank": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 326
       }
     }
   }

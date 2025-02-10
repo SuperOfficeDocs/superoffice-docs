@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Davis-Torphy",
-    "ToolTip": "Sequi neque iusto at.",
+    "Id": 75,
+    "Name": "Lockman, King and Schinner",
+    "ToolTip": "Ea velit.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "quae",
-    "ColorBlock": 823,
-    "IconHint": "possimus",
+    "Rank": 695,
+    "Type": "et",
+    "ColorBlock": 317,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2013-02-23T13:13:32.8549388+01:00",
+    "LastChanged": "2007-05-23T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Hirthe-Pouros",
-        "ToolTip": "Enim aut id aut accusamus rerum.",
+        "Id": 353,
+        "Name": "Ziemann, Schmeler and Legros",
+        "ToolTip": "Omnis beatae dolor delectus culpa autem iusto quia.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "quaerat",
-        "ColorBlock": 854,
-        "IconHint": "odit",
+        "Rank": 124,
+        "Type": "dolorum",
+        "ColorBlock": 13,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2009-02-08T13:13:32.8549388+01:00",
+        "LastChanged": "2019-06-02T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quos",
+        "ExtraInfo": "debitis",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Jasen Stiedemann"
+        "FullName": "Dr. Lamar Murray"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "eum",
+    "ExtraInfo": "labore",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Mitchell Spencer"
+    "FullName": "Prof. Juliet Murray"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Wuckert, Donnelly and Weissnat",
-    "ToolTip": "Est perspiciatis omnis optio perspiciatis ea.",
+    "Id": 768,
+    "Name": "Wisozk LLC",
+    "ToolTip": "Vel labore.",
     "Deleted": false,
-    "Rank": 744,
-    "Type": "laboriosam",
-    "ColorBlock": 687,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2024-01-29T13:13:32.8549388+01:00",
+    "Rank": 751,
+    "Type": "repudiandae",
+    "ColorBlock": 667,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2009-09-14T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Schowalter, Johns and Koch",
-        "ToolTip": "Nisi neque voluptas reiciendis ullam enim.",
-        "Deleted": true,
-        "Rank": 541,
-        "Type": "dolor",
-        "ColorBlock": 623,
-        "IconHint": "odio",
-        "Selected": false,
-        "LastChanged": "2016-09-21T13:13:32.8549388+02:00",
+        "Id": 972,
+        "Name": "Cole-Lockman",
+        "ToolTip": "Error cumque eum iure.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "quas",
+        "ColorBlock": 348,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2003-08-21T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Lennie Jaskolski",
+        "ExtraInfo": "natus",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Erwin Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "suscipit",
     "Hidden": true,
-    "FullName": "Mr. Valentin Hodkiewicz Sr.",
+    "FullName": "Elva Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

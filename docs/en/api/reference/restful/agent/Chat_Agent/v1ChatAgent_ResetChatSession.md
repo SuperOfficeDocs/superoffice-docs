@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 929
+  "ChatSessionId": 448
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 36,
-  "TopicId": 403,
+  "ChatSessionId": 102,
+  "TopicId": 342,
   "User": null,
   "Person": null,
-  "CustomerAlias": "praesentium",
-  "CustomerHost": "in",
-  "CustomerName": "Monahan-Jewess",
-  "CustomerEmail": "golda@gerholdkrajcik.name",
-  "CustomerPhone": "1-537-190-5948",
+  "CustomerAlias": "ea",
+  "CustomerHost": "inventore",
+  "CustomerName": "Carroll Group",
+  "CustomerEmail": "bettye.armstrong@beier.ca",
+  "CustomerPhone": "1-227-711-9382",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Turcotte LLC",
+  "CustomerCompanyName": "Spinka, Simonis and Rutherford",
   "Status": "Closed",
-  "FirstMessage": "fuga",
-  "LastMessage": "soluta",
-  "WhenRequested": "2017-10-24T13:13:22.2895453+02:00",
-  "WhenStarted": "2022-08-06T13:13:22.2895453+02:00",
-  "WhenEnded": "2021-04-26T13:13:22.2895453+02:00",
-  "WhenIdle": "1997-09-25T13:13:22.2895453+02:00",
-  "WhenFetched": "2006-01-08T13:13:22.2895453+01:00",
-  "SessionKey": "voluptatum",
-  "InitialQueuePos": 653,
-  "AlertLevel": 161,
-  "Rank": 601,
+  "FirstMessage": "dolor",
+  "LastMessage": "aspernatur",
+  "WhenRequested": "2017-03-11T12:01:27.4315072+01:00",
+  "WhenStarted": "2014-08-27T12:01:27.4315072+02:00",
+  "WhenEnded": "2008-04-13T12:01:27.4315072+02:00",
+  "WhenIdle": "2011-10-27T12:01:27.4315072+02:00",
+  "WhenFetched": "2016-11-09T12:01:27.4315072+01:00",
+  "SessionKey": "dolor",
+  "InitialQueuePos": 229,
+  "AlertLevel": 86,
+  "Rank": 136,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 648,
+  "Rating": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 388
     }
   }
 }

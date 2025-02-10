@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Stehr Group",
-    "ToolTip": "Cumque atque necessitatibus explicabo neque exercitationem quia accusantium.",
-    "Deleted": false,
-    "Rank": 687,
-    "Type": "quam",
-    "ColorBlock": 396,
-    "IconHint": "velit",
+    "Id": 255,
+    "Name": "Schamberger, Bosco and Strosin",
+    "ToolTip": "Dolorem culpa cupiditate veritatis commodi.",
+    "Deleted": true,
+    "Rank": 464,
+    "Type": "dolores",
+    "ColorBlock": 214,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2000-06-01T13:13:32.839316+02:00",
+    "LastChanged": "2012-03-11T12:01:33.4332226+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Wolf-Kuhlman",
-        "ToolTip": "Ratione et aspernatur ea et suscipit.",
-        "Deleted": false,
-        "Rank": 532,
-        "Type": "quae",
-        "ColorBlock": 144,
-        "IconHint": "ut",
+        "Id": 597,
+        "Name": "Wolff LLC",
+        "ToolTip": "Nam vel dolores eos laboriosam et.",
+        "Deleted": true,
+        "Rank": 786,
+        "Type": "nisi",
+        "ColorBlock": 673,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2021-02-09T13:13:32.839316+01:00",
+        "LastChanged": "2005-12-15T12:01:33.4332226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Cameron Jacobi"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Aiden Ratke"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Aric Frami"
+    "FullName": "Domenic Bergnaum"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Walker-Wiza",
-    "ToolTip": "At et amet odit qui dolorem occaecati ad.",
-    "Deleted": false,
-    "Rank": 19,
-    "Type": "praesentium",
-    "ColorBlock": 566,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2012-08-24T13:13:32.839316+02:00",
+    "Id": 242,
+    "Name": "Parker Inc and Sons",
+    "ToolTip": "Culpa aut consequuntur voluptatem qui consequatur et.",
+    "Deleted": true,
+    "Rank": 714,
+    "Type": "odio",
+    "ColorBlock": 828,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "2009-01-04T12:01:33.4332226+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Altenwerth LLC",
-        "ToolTip": "Aliquid dolorum modi vel sunt.",
+        "Id": 454,
+        "Name": "White, Parker and Hackett",
+        "ToolTip": "In autem qui occaecati non.",
         "Deleted": false,
-        "Rank": 950,
-        "Type": "quaerat",
-        "ColorBlock": 544,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2016-08-19T13:13:32.839316+02:00",
+        "Rank": 727,
+        "Type": "sunt",
+        "ColorBlock": 992,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2006-05-18T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "et",
+        "ExtraInfo": "labore",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Braxton Walker",
+        "FullName": "Lura Doyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "nihil",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Rosella Collins",
+    "FullName": "Zakary Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 401
       }
     }
   }

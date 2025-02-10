@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 686,
-    "ColumnId": 341,
-    "FieldDefault": "est",
-    "FieldHeight": 190,
-    "FieldLabel": "laborum",
-    "FieldLeft": 418,
-    "FieldTop": 736,
+    "UDefFieldId": 197,
+    "ColumnId": 552,
+    "FieldDefault": "saepe",
+    "FieldHeight": 480,
+    "FieldLabel": "at",
+    "FieldLeft": 200,
+    "FieldTop": 514,
     "FieldType": "Checkbox",
-    "FieldWidth": 203,
-    "FormatMask": "omnis",
-    "HideLabel": true,
+    "FieldWidth": 173,
+    "FormatMask": "ipsum",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 299,
-    "LabelLeft": 502,
-    "LabelTop": 159,
-    "LabelWidth": 967,
-    "LastVersionId": 357,
-    "ListTableId": 903,
-    "IsMandatory": true,
+    "LabelHeight": 867,
+    "LabelLeft": 727,
+    "LabelTop": 691,
+    "LabelWidth": 701,
+    "LastVersionId": 473,
+    "ListTableId": 616,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 525,
-    "ProgId": "consequatur",
+    "Page1LineNo": 772,
+    "ProgId": "tempora",
     "IsReadOnly": false,
-    "ShortLabel": "voluptatum",
-    "TabOrder": 974,
-    "TextLength": 599,
-    "Tooltip": "natus",
-    "UdefIdentity": 976,
-    "UDListDefinitionId": 314,
+    "ShortLabel": "harum",
+    "TabOrder": 726,
+    "TextLength": 761,
+    "Tooltip": "sunt",
+    "UdefIdentity": 772,
+    "UDListDefinitionId": 998,
     "Justification": "Center",
-    "Version": 179,
-    "TemplateVariableName": "Larkin, Kuhn and Towne",
+    "Version": 421,
+    "TemplateVariableName": "Rice-Romaguera",
     "HasBeenPublished": false,
-    "MdoListName": "Ortiz-Olson",
+    "MdoListName": "Feil-Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldType": "System.String",
+        "FieldLength": 673
       }
     }
   }

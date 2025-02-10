@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 674,
-      "ContactName": "Bahringer-Herman",
-      "PersonId": 685,
-      "PersonName": "Conn, Kiehn and Tremblay",
-      "AssociateId": 640,
-      "Address": "incidunt",
-      "EmailId": 662,
+      "ContactId": 452,
+      "ContactName": "Windler Group",
+      "PersonId": 243,
+      "PersonName": "Torphy Group",
+      "AssociateId": 319,
+      "Address": "quo",
+      "EmailId": 223,
       "DuplicatePersonIds": [
-        161,
-        126
+        725,
+        68
       ],
-      "Name": "Hettinger LLC",
+      "Name": "Berge, Johnson and Schiller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 995
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 750,
-      "ContactName": "Collier LLC",
-      "PersonId": 487,
-      "PersonName": "Gutkowski, Cummings and Wunsch",
-      "AssociateId": 252,
-      "Address": "autem",
-      "EmailId": 904,
+      "ContactId": 180,
+      "ContactName": "Weber Group",
+      "PersonId": 551,
+      "PersonName": "Roob Group",
+      "AssociateId": 960,
+      "Address": "dolores",
+      "EmailId": 271,
       "DuplicatePersonIds": [
-        996,
-        542
+        704,
+        45
       ],
-      "Name": "Kiehn, Romaguera and Kozey",
+      "Name": "Upton-Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldLength": 271
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 246,
-      "ContactName": "Fadel-Bernhard",
-      "PersonId": 96,
-      "PersonName": "Stanton-O'Kon",
-      "AssociateId": 896,
-      "Address": "est",
-      "EmailId": 220,
+      "ContactId": 350,
+      "ContactName": "Macejkovic Inc and Sons",
+      "PersonId": 729,
+      "PersonName": "Blick, Nolan and Hauck",
+      "AssociateId": 366,
+      "Address": "a",
+      "EmailId": 7,
       "DuplicatePersonIds": [
-        151,
-        20
+        888,
+        633
       ],
-      "Name": "Durgan Inc and Sons",
+      "Name": "Hirthe-Olson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldLength": 190
         }
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "et",
+  "Subject": "doloribus",
+  "HTMLBody": "assumenda",
   "From": null,
-  "Sent": "2016-12-26T13:13:22.9302583+01:00",
-  "Size": 697,
+  "Sent": "2005-10-24T12:01:27.7752804+02:00",
+  "Size": 480,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "ratione",
+  "MessageID": "ad",
+  "PlainBody": "in",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 506,
+  "ServerId": 60,
   "Attachments": [
     {
-      "Description": "Multi-layered zero defect local area network",
-      "Filename": "atque",
-      "Size": 158,
-      "Type": "adipisci",
-      "Encoding": "ducimus",
-      "Id": "voluptas",
-      "Disposition": "rerum",
-      "IsSafeFileExtension": true,
+      "Description": "Function-based stable structure",
+      "Filename": "et",
+      "Size": 868,
+      "Type": "eum",
+      "Encoding": "impedit",
+      "Id": "earum",
+      "Disposition": "alias",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 455
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lakin-Douglas",
+      "Name": "Windler-Pagac",
       "Values": [
-        "facere",
-        "commodi"
+        "repellendus",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 909
         }
       }
     },
     {
-      "Name": "Lakin-Douglas",
+      "Name": "Windler-Pagac",
       "Values": [
-        "facere",
-        "commodi"
+        "repellendus",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 909
         }
       }
     }
   ],
-  "FolderName": "Willms, Hackett and Leffler",
-  "EmailItemId": 746,
-  "AccountId": 519,
-  "ReceivedAt": "1998-11-14T13:13:22.9302583+01:00",
+  "FolderName": "Ernser LLC",
+  "EmailItemId": 370,
+  "AccountId": 286,
+  "ReceivedAt": "2019-04-12T12:01:27.7752804+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-09-21T13:13:22.9302583+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-10-18T12:01:27.7752804+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 579
     }
   }
 }

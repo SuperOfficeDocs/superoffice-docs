@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "nisi",
-    "error"
+    "similique",
+    "deleniti"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 476,
-  "ERPQuoteLineKey": "ipsum",
-  "QuoteAlternativeId": 563,
-  "ERPProductKey": "et",
+  "QuoteLineId": 949,
+  "ERPQuoteLineKey": "fuga",
+  "QuoteAlternativeId": 981,
+  "ERPProductKey": "voluptas",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11962.478,
-  "DeliveredQuantity": 23950.028,
-  "Rank": 593,
-  "Name": "Fay, Eichmann and Johnson",
-  "Description": "Centralized exuding portal",
-  "Code": "ut",
-  "QuantityUnit": "minima",
-  "PriceUnit": "aperiam",
-  "ItemNumber": "1530839",
+  "Quantity": 31220.908,
+  "DeliveredQuantity": 11320.008,
+  "Rank": 22,
+  "Name": "Fadel-Adams",
+  "Description": "Team-oriented fresh-thinking parallelism",
+  "Code": "aut",
+  "QuantityUnit": "totam",
+  "PriceUnit": "provident",
+  "ItemNumber": "807393",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "eos",
-  "Supplier": "ea",
-  "SupplierCode": "qui",
-  "Thumbnail": "dolores",
-  "VATInfo": "voluptatum",
-  "VAT": 5754.0239999999994,
-  "UnitCost": 14989.921999999999,
-  "UnitMinimumPrice": 27964.682,
-  "UnitListPrice": 26733.02,
+  "ProductFamilyKey": "nemo",
+  "ProductTypeKey": "eveniet",
+  "Supplier": "et",
+  "SupplierCode": "possimus",
+  "Thumbnail": "officiis",
+  "VATInfo": "porro",
+  "VAT": 17406.236,
+  "UnitCost": 27378.624,
+  "UnitMinimumPrice": 4328.054,
+  "UnitListPrice": 623.66599999999994,
   "ExtraInfo": [
     {
-      "Name": "Swift-Haag",
-      "Value": "ea",
+      "Name": "Nader-Pacocha",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 581
         }
       }
     },
     {
-      "Name": "Swift-Haag",
-      "Value": "ea",
+      "Name": "Nader-Pacocha",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 581
         }
       }
     }
   ],
-  "RawExtraInfo": "placeat",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ut",
-  "SubscriptionQuantity": 26974.338,
-  "SubscriptionStart": "1998-06-18T13:13:23.6800879+02:00",
-  "ERPDiscountPercent": 28704.306,
-  "ERPDiscountAmount": 5619.262,
-  "DiscountPercent": 20900.646,
-  "DiscountAmount": 30424.872,
+  "RawExtraInfo": "atque",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aspernatur",
+  "SubscriptionQuantity": 19245.894,
+  "SubscriptionStart": "2014-05-18T12:01:28.1659327+02:00",
+  "ERPDiscountPercent": 11338.812,
+  "ERPDiscountAmount": 21314.334,
+  "DiscountPercent": 5428.088,
+  "DiscountAmount": 24442.066,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10486.364,
-  "EarningAmount": 27187.45,
-  "SubTotal": 9464.68,
-  "TotalPrice": 7988.566,
-  "Rights": "tempore",
-  "Rule": "qui",
-  "ExtraField1": "cumque",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "itaque",
-  "ExtraField5": "optio",
+  "EarningPercent": 2544.808,
+  "EarningAmount": 8082.5859999999993,
+  "SubTotal": 17174.32,
+  "TotalPrice": 256.988,
+  "Rights": "beatae",
+  "Rule": "rerum",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "iusto",
+  "ExtraField3": "hic",
+  "ExtraField4": "modi",
+  "ExtraField5": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

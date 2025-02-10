@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 362,
-  "Name": "Collier-Hudson",
-  "ContentType": "deleniti",
-  "AttSize": 179,
-  "InlineImage": true,
-  "ContentId": "voluptatem",
-  "AuthKey": "vitae",
+  "AttachmentId": 917,
+  "Name": "Ritchie-Smitham",
+  "ContentType": "esse",
+  "AttSize": 2,
+  "InlineImage": false,
+  "ContentId": "est",
+  "AuthKey": "molestiae",
   "IsSafeFileExtension": false
 }
 ```
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 434,
-  "Name": "Kessler, Konopelski and Gleason",
-  "ContentType": "iure",
-  "AttSize": 20,
-  "InlineImage": false,
-  "ContentId": "placeat",
-  "AuthKey": "quaerat",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 641,
+  "Name": "Bernhard-Bosco",
+  "ContentType": "et",
+  "AttSize": 597,
+  "InlineImage": true,
+  "ContentId": "debitis",
+  "AuthKey": "fugiat",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   },
   "_Links": {

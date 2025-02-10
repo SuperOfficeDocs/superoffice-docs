@@ -90,18 +90,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 877,
-  "AssociateId": 768,
-  "Block": "animi",
-  "Registered": "2023-12-14T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 520,
-  "Updated": "1999-09-09T13:13:32.3392746+02:00",
-  "UpdatedAssociateId": 177,
-  "UpdatedCount": 137
+  "ShipmentMessageBlockId": 928,
+  "AssociateId": 377,
+  "Block": "et",
+  "Registered": "2008-12-01T12:01:33.2144574+01:00",
+  "RegisteredAssociateId": 310,
+  "Updated": "2000-03-23T12:01:33.2144574+01:00",
+  "UpdatedAssociateId": 854,
+  "UpdatedCount": 333
 }
 ```
 
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 916,
-  "AssociateId": 191,
-  "Block": "labore",
-  "Registered": "2016-04-29T13:13:32.3392746+02:00",
-  "RegisteredAssociateId": 916,
-  "Updated": "2023-12-02T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 484,
-  "UpdatedCount": 824,
+  "ShipmentMessageBlockId": 285,
+  "AssociateId": 245,
+  "Block": "eveniet",
+  "Registered": "2024-06-23T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 895,
+  "Updated": "2012-04-25T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 273,
+  "UpdatedCount": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 680,
-  "PlainMessage": "consectetur",
-  "HtmlMessage": "animi",
-  "SmsMessage": "neque",
-  "Description": "Inverse assymetric matrices",
-  "Subject": "temporibus",
-  "FolderId": 942,
-  "HeaderField": "eum",
-  "Design": "odit",
+  "ShipmentMessageId": 822,
+  "PlainMessage": "eos",
+  "HtmlMessage": "est",
+  "SmsMessage": "aut",
+  "Description": "Enterprise-wide radical paradigm",
+  "Subject": "ducimus",
+  "FolderId": 149,
+  "HeaderField": "rerum",
+  "Design": "magnam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Versatile bifurcated orchestration",
-  "AccessKey": "quo",
-  "DocumentMessage": 79,
-  "Registered": "2024-04-30T13:13:23.3520388+02:00",
-  "RegisteredAssociateId": 387,
-  "Updated": "2010-09-21T13:13:23.3520388+02:00",
-  "UpdatedAssociateId": 337,
-  "UpdatedCount": 720
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Horizontal optimal project",
+  "AccessKey": "magni",
+  "DocumentMessage": 972,
+  "Registered": "2005-09-21T12:01:27.9940463+02:00",
+  "RegisteredAssociateId": 941,
+  "Updated": "2005-08-29T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 358,
+  "UpdatedCount": 938
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 428,
-  "PlainMessage": "delectus",
-  "HtmlMessage": "molestiae",
-  "SmsMessage": "quo",
-  "Description": "Cross-platform static middleware",
-  "Subject": "excepturi",
-  "FolderId": 451,
-  "HeaderField": "non",
-  "Design": "est",
+  "ShipmentMessageId": 152,
+  "PlainMessage": "consequuntur",
+  "HtmlMessage": "repellat",
+  "SmsMessage": "autem",
+  "Description": "Fundamental even-keeled middleware",
+  "Subject": "laborum",
+  "FolderId": 40,
+  "HeaderField": "voluptas",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Managed systematic functionalities",
-  "AccessKey": "labore",
-  "DocumentMessage": 831,
-  "Registered": "2004-07-31T13:13:23.3520388+02:00",
-  "RegisteredAssociateId": 606,
-  "Updated": "2021-11-06T13:13:23.3520388+01:00",
-  "UpdatedAssociateId": 149,
-  "UpdatedCount": 998,
+  "InlineImages": false,
+  "LongDescription": "Optional encompassing workforce",
+  "AccessKey": "quod",
+  "DocumentMessage": 768,
+  "Registered": "2024-05-20T12:01:27.9940463+02:00",
+  "RegisteredAssociateId": 382,
+  "Updated": "2002-09-02T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 311,
+  "UpdatedCount": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

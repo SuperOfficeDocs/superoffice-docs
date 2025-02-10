@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Ticket/ValidateAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    822,
-    827
+    76,
+    776
   ]
 }
 ```
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 622,
+    "AttachmentId": 911,
     "IsValid": false,
-    "ErrorMessage": "sit"
+    "ErrorMessage": "enim"
   },
   {
-    "AttachmentId": 622,
+    "AttachmentId": 911,
     "IsValid": false,
-    "ErrorMessage": "sit"
+    "ErrorMessage": "enim"
   }
 ]
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Cronin Inc and Sons",
-    "ToolTip": "Deleniti hic repellendus nulla enim sequi autem maiores.",
+    "Id": 71,
+    "Name": "Cremin Group",
+    "ToolTip": "A qui iure.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "modi",
-    "ColorBlock": 328,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "2000-04-04T13:13:33.4329262+02:00",
+    "Rank": 15,
+    "Type": "et",
+    "ColorBlock": 739,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2001-09-13T12:01:33.6051097+02:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Bins, Lehner and Wiegand",
-        "ToolTip": "Suscipit magni in possimus sint sed.",
-        "Deleted": true,
-        "Rank": 248,
-        "Type": "voluptas",
-        "ColorBlock": 262,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2012-07-29T13:13:33.4329262+02:00",
+        "Id": 896,
+        "Name": "Weber-Hodkiewicz",
+        "ToolTip": "Quo minus.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "magni",
+        "ColorBlock": 974,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "1998-08-07T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Gregg Keeling",
+        "ExtraInfo": "et",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Bart Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "odio",
+    "ExtraInfo": "at",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Deonte Hamill",
+    "FullName": "Miss Kirk Gibson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 391
       }
     }
   }

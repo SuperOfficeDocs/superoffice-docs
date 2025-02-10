@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2012-01-17T13:13:22.3832725+01:00",
+  "ActivityStartTime": "2016-03-07T12:01:27.4783858+01:00",
   "ContactCategories": [
-    659,
-    355
+    289,
+    82
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 909,
+    "ContactId": 546,
     "Department": "",
-    "OrgNr": "259085",
-    "Name": "Thompson, Russel and Dach",
+    "OrgNr": "540848",
+    "Name": "Weissnat LLC",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Kayli Anderson",
+    "AssociateFullName": "Mrs. Kaya O'Hara",
     "Action": "ActivityCompleted",
-    "ActionTime": "2021-03-15T13:13:22.3832725+01:00",
+    "ActionTime": "2014-10-18T12:01:27.4783858+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Bashirian LLC",
-    "ActionId": 761,
-    "PersonId": 450,
-    "ActivityPersonId": 263,
-    "AssociateId": 346,
+    "ActivityPersonName": "Krajcik-Kiehn",
+    "ActionId": 284,
+    "PersonId": 37,
+    "ActivityPersonId": 568,
+    "AssociateId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 894
       }
     }
   }

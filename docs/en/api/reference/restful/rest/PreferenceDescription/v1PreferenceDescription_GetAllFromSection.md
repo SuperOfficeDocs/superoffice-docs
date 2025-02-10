@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 256,
-    "Section": "praesentium",
-    "Key": "debitis",
-    "Name": "Herzog-Rogahn",
+    "PrefDescId": 145,
+    "Section": "et",
+    "Key": "possimus",
+    "Name": "Feil, Fisher and Wunsch",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Switchable modular open architecture",
-    "IsBuiltin": false,
-    "TableName": "Ritchie-Schmidt",
-    "UserDefinedListId": 863,
-    "Rank": 881,
-    "SubGroup": "perferendis",
-    "MinLevel": 863,
-    "MaxValue": 282,
-    "MinValue": 355,
-    "RequiredLicense": "ea",
+    "Description": "Robust composite migration",
+    "IsBuiltin": true,
+    "TableName": "Hand Inc and Sons",
+    "UserDefinedListId": 243,
+    "Rank": 995,
+    "SubGroup": "odio",
+    "MinLevel": 804,
+    "MaxValue": 934,
+    "MinValue": 886,
+    "RequiredLicense": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

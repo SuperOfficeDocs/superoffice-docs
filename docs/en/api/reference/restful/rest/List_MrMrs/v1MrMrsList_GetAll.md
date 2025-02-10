@@ -25,7 +25,7 @@ Gets all the MrMrs items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/MrMrs/Items?includeDeleted=True
+GET /api/v1/List/MrMrs/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Nolan, Larson and Vandervort",
-    "Tooltip": "perspiciatis",
+    "Id": 568,
+    "Name": "Rogahn Group",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 970,
+    "UdListDefinitionId": 571,
+    "Rank": 775,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldLength": 504
       }
     }
   }

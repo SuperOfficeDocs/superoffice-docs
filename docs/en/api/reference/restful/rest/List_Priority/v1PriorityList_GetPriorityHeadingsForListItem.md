@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Harber Group",
-    "ToolTip": "Sed debitis blanditiis veniam dolor porro.",
+    "Id": 22,
+    "Name": "Abshire LLC",
+    "ToolTip": "Ea aut veritatis voluptas rerum.",
     "Deleted": false,
-    "Rank": 754,
-    "Type": "quibusdam",
-    "ColorBlock": 570,
-    "IconHint": "dolorem",
+    "Rank": 497,
+    "Type": "dolore",
+    "ColorBlock": 390,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2008-01-15T13:13:33.2767137+01:00",
+    "LastChanged": "2004-03-21T12:01:33.5582313+01:00",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Schowalter, Harris and Klocko",
-        "ToolTip": "Molestiae quam delectus aliquam.",
+        "Id": 902,
+        "Name": "Weissnat Inc and Sons",
+        "ToolTip": "Molestias dolor ut.",
         "Deleted": false,
-        "Rank": 695,
-        "Type": "qui",
-        "ColorBlock": 392,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2018-10-30T13:13:33.2767137+01:00",
+        "Rank": 56,
+        "Type": "vel",
+        "ColorBlock": 922,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2019-11-05T12:01:33.5582313+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mrs. Rick Shad Pollich DVM",
+        "ExtraInfo": "minima",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Theron Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Prof. Jaden Daniel",
+    "ExtraInfo": "eum",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Duane Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   }

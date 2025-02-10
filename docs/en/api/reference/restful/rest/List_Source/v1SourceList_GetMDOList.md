@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=nam
+GET /api/v1/List/Source/MDOItems?query=inventore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Keebler, Beatty and Conn",
-    "ToolTip": "Quaerat temporibus.",
+    "Id": 164,
+    "Name": "Bogan, Kiehn and Hagenes",
+    "ToolTip": "Facere voluptas qui ipsum.",
     "Deleted": false,
-    "Rank": 789,
-    "Type": "at",
+    "Rank": 70,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Pollich-Ferry",
-        "ToolTip": "Molestias omnis tempora.",
-        "Deleted": false,
-        "Rank": 478,
-        "Type": "eum",
+        "Id": 736,
+        "Name": "Spinka LLC",
+        "ToolTip": "A neque.",
+        "Deleted": true,
+        "Rank": 844,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "asperiores",
-        "ColorBlock": 762,
-        "ExtraInfo": "est",
-        "StyleHint": "numquam",
-        "FullName": "Miss Nicholas Gretchen Monahan DVM",
+        "IconHint": "earum",
+        "ColorBlock": 52,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "at",
+        "FullName": "Lois Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldType": "System.String",
+            "FieldLength": 585
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 738,
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
-    "FullName": "Marley Rempel",
+    "IconHint": "non",
+    "ColorBlock": 436,
+    "ExtraInfo": "quia",
+    "StyleHint": "fugit",
+    "FullName": "Edwina Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 155,
+  "DocumentId": 885,
   "AllowedReturnTypes": [
-    "dolor",
-    "autem"
+    "sint",
+    "expedita"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhic LLC",
-    "DisplayName": "Ratke, Welch and Schiller",
-    "DisplayTooltip": "illo",
-    "IconHint": "officiis",
+    "Name": "Pouros, Grant and Stamm",
+    "DisplayName": "Kassulke, Bednar and Mueller",
+    "DisplayTooltip": "velit",
+    "IconHint": "iste",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Kuhic LLC",
-    "DisplayName": "Ratke, Welch and Schiller",
-    "DisplayTooltip": "illo",
-    "IconHint": "officiis",
+    "Name": "Pouros, Grant and Stamm",
+    "DisplayName": "Kassulke, Bednar and Mueller",
+    "DisplayTooltip": "velit",
+    "IconHint": "iste",
     "ReturnType": "CustomGui"
   }
 ]

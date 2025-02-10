@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Wyman LLC",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 467,
-  "Rank": 543,
+  "Id": 462,
+  "Name": "Greenholt-Batz",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "UdListDefinitionId": 132,
+  "Rank": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 764
     }
   }
 }

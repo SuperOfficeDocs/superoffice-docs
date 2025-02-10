@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Schultz LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 610,
-    "UdListDefinitionId": 514,
+    "HeadingId": 27,
+    "Name": "Ward, Ryan and Braun",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 845,
+    "UdListDefinitionId": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldLength": 773
       }
     }
   }

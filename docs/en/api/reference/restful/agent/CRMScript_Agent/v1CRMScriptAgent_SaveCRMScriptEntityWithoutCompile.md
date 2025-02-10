@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 69,
-  "UniqueIdentifier": "ad",
-  "Name": "Cormier-Jerde",
-  "Description": "Multi-layered solution-oriented circuit",
-  "IncludeId": "nulla",
-  "AccessKey": "deleniti",
-  "HierarchyId": 869,
-  "Source": "adipisci",
-  "SourceCode": "rerum",
+  "EjscriptId": 307,
+  "UniqueIdentifier": "maxime",
+  "Name": "Wintheiser, Runte and Von",
+  "Description": "Innovative leading edge circuit",
+  "IncludeId": "quia",
+  "AccessKey": "debitis",
+  "HierarchyId": 444,
+  "Source": "velit",
+  "SourceCode": "similique",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 776,
+  "HtmlOutput": 760,
   "Includes": [
-    669,
-    23
+    242,
+    770
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 794,
-      "LineNumberTo": 40,
-      "Delta": 317,
-      "IncludeId": "ut",
+      "LineNumberFrom": 591,
+      "LineNumberTo": 204,
+      "Delta": 873,
+      "IncludeId": "vitae",
       "IncludedFrom": [
-        "soluta",
-        "sequi"
+        "nobis",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-06-16T13:13:22.508244+02:00",
-  "RegisteredAssociateId": 616,
-  "Updated": "2002-11-02T13:13:22.508244+01:00",
-  "UpdatedAssociateId": 735,
+  "Registered": "2014-11-18T12:01:27.5408902+01:00",
+  "RegisteredAssociateId": 939,
+  "Updated": "2013-08-21T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

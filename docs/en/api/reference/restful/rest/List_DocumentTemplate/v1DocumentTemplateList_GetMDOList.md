@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=doloremque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Hartmann, Larkin and Zboncak",
-    "ToolTip": "Cumque id suscipit cum porro vitae.",
+    "Id": 957,
+    "Name": "Little Group",
+    "ToolTip": "Autem dolore.",
     "Deleted": true,
-    "Rank": 419,
-    "Type": "minima",
+    "Rank": 291,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Stokes-Emard",
-        "ToolTip": "Et enim id qui non laborum voluptates.",
+        "Id": 299,
+        "Name": "Rolfson-Kuhlman",
+        "ToolTip": "Sapiente ea fuga qui perspiciatis et dolore.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "illum",
+        "Rank": 994,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 303,
-        "ExtraInfo": "eveniet",
-        "StyleHint": "at",
-        "FullName": "Dr. Jaunita Melyna Kilback PhD",
+        "IconHint": "ducimus",
+        "ColorBlock": 283,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "aliquam",
+        "FullName": "Kaitlin Unique Gerlach DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 47
+            "FieldLength": 48
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 590,
-    "ExtraInfo": "quae",
-    "StyleHint": "in",
-    "FullName": "Dr. Jermaine Rosina Adams Jr.",
+    "IconHint": "et",
+    "ColorBlock": 587,
+    "ExtraInfo": "corporis",
+    "StyleHint": "nihil",
+    "FullName": "Eloisa Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

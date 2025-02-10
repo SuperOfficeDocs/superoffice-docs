@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 381,
-    "Name": "Aufderhar-Lemke",
-    "Tooltip": "et",
+    "HeadingId": 132,
+    "Name": "Labadie, Wyman and Parker",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 944,
-    "UdListDefinitionId": 886,
+    "Rank": 955,
+    "UdListDefinitionId": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldLength": 508
       }
     }
   }

@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 907,
-    "Address": "voluptatem",
+    "MailInFilterId": 412,
+    "Address": "suscipit",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Cronin, VonRueden and Wunsch",
+    "PriorityName": "Hilll, Stamm and Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   },
   {
-    "MailInFilterId": 907,
-    "Address": "voluptatem",
+    "MailInFilterId": 412,
+    "Address": "suscipit",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Cronin, VonRueden and Wunsch",
+    "PriorityName": "Hilll, Stamm and Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 886,
-  "Name": "Schuster-Hodkiewicz",
-  "CurrencyId": 387,
-  "EnglishName": "Stokes Inc and Sons",
+  "CountryId": 254,
+  "Name": "Auer Inc and Sons",
+  "CurrencyId": 504,
+  "EnglishName": "Adams-Franecki",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered didactic contingency",
-  "OrgNrText": "848463",
-  "InterAreaPrefix": "veniam",
-  "DialInPrefix": "fugit",
-  "ZipPrefix": "tempora",
-  "DomainName": "Luettgen, Deckow and Brown",
-  "AddressLayoutId": 314,
-  "DomesticAddressLayoutId": 844,
-  "ForeignAddressLayoutId": 847,
-  "Rank": 562,
-  "Tooltip": "accusantium",
+  "ImageDescription": "Universal bottom-line protocol",
+  "OrgNrText": "1323403",
+  "InterAreaPrefix": "sapiente",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "reiciendis",
+  "DomainName": "King-Bosco",
+  "AddressLayoutId": 563,
+  "DomesticAddressLayoutId": 318,
+  "ForeignAddressLayoutId": 481,
+  "Rank": 223,
+  "Tooltip": "modi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 612
     }
   }
 }

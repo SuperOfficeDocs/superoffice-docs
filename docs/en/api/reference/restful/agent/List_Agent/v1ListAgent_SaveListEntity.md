@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Barton-Ritchie",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 131,
+  "Id": 661,
+  "Name": "Tremblay, Shanahan and Hodkiewicz",
+  "Tooltip": "laborum",
+  "Deleted": true,
+  "Rank": 573,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "inventore",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
-  "Name": "Dibbert Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 957,
+  "Name": "Price Group",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 595,
+  "Rank": 754,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

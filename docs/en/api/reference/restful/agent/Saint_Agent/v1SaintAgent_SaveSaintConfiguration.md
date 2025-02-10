@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 285,
-  "Enabled": false,
-  "Period1": 864,
-  "Period2": 795,
-  "Period3": 998,
-  "GenerationStart": "2008-06-24T13:13:23.7893721+02:00",
-  "GenerationEnd": "1999-09-18T13:13:23.7893721+02:00",
-  "RowsGenerated": 445
+  "OwnerTable": 540,
+  "Enabled": true,
+  "Period1": 495,
+  "Period2": 390,
+  "Period3": 692,
+  "GenerationStart": "2006-11-04T12:01:28.2284376+01:00",
+  "GenerationEnd": "2001-06-12T12:01:28.2284376+02:00",
+  "RowsGenerated": 29
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 445,
-  "Enabled": false,
-  "Period1": 938,
-  "Period2": 645,
-  "Period3": 344,
-  "GenerationStart": "2007-12-14T13:13:23.7893721+01:00",
-  "GenerationEnd": "1998-06-07T13:13:23.7893721+02:00",
-  "RowsGenerated": 445,
+  "OwnerTable": 242,
+  "Enabled": true,
+  "Period1": 876,
+  "Period2": 192,
+  "Period3": 83,
+  "GenerationStart": "2022-06-16T12:01:28.2284376+02:00",
+  "GenerationEnd": "2018-10-27T12:01:28.2284376+02:00",
+  "RowsGenerated": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldLength": 717
     }
   }
 }

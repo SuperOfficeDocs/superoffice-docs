@@ -43,9 +43,9 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|General sale||43200|
-|4|Staged Sale||43200|
-|3|Stakeholders||129600|
-|2|Guided Sale||43200|
+|4|Staged Sale||40320|
+|3|Stakeholders||128160|
+|2|Guided Sale||40320|
 
 
 ## Related MDO Lists

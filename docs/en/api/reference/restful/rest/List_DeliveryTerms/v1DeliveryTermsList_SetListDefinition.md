@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 150,
-  "Name": "Weimann LLC",
-  "Tooltip": "perferendis",
+  "Id": 859,
+  "Name": "Jaskolski, Brekke and Denesik",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 9,
+  "Rank": 35,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "nam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Waters Group",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 228,
+  "Id": 750,
+  "Name": "Dicki-Larkin",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 434,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 775
     }
   }
 }

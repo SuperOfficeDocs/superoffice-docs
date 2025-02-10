@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 187,
+  "PersonId": 981,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Nienow Group",
-    "SaleDate": "2017-03-02T13:13:23.8839994+01:00",
-    "SaleId": 332,
-    "Probability": 851,
-    "Title": "occaecati",
-    "Amount": 12774.184,
-    "Currency": "aut",
-    "ProjectName": "Lynch Inc and Sons",
-    "AssociateFullName": "Aisha Hudson",
-    "Description": "Fully-configurable scalable internet solution",
+    "ContactName": "Welch, Jakubowski and Romaguera",
+    "SaleDate": "2001-01-29T12:01:28.275316+01:00",
+    "SaleId": 163,
+    "Probability": 664,
+    "Title": "consequatur",
+    "Amount": 29729.124,
+    "Currency": "qui",
+    "ProjectName": "Huel Inc and Sons",
+    "AssociateFullName": "Helen O'Conner",
+    "Description": "Multi-lateral fresh-thinking time-frame",
     "Status": "Lost",
-    "WeightedAmount": 23106.982,
-    "ProjectId": 380,
-    "EarningPercent": 26046.674,
-    "Earning": 6521.8539999999994,
-    "ContactId": 141,
-    "AssociateId": 79,
-    "PersonId": 539,
-    "SaleTypeId": 773,
-    "SaleTypeName": "Hamill-Feeney",
-    "PersonFullName": "Ayden Kreiger",
+    "WeightedAmount": 12805.524,
+    "ProjectId": 73,
+    "EarningPercent": 13460.529999999999,
+    "Earning": 25144.082,
+    "ContactId": 677,
+    "AssociateId": 360,
+    "PersonId": 51,
+    "SaleTypeId": 989,
+    "SaleTypeName": "Cormier-Beahan",
+    "PersonFullName": "Jalon Johnson V",
     "Completed": "Completed",
-    "ActiveErpLinks": 67,
-    "NextDueDate": "2009-12-22T13:13:23.8839994+01:00",
-    "Number": "977312",
+    "ActiveErpLinks": 860,
+    "NextDueDate": "2013-10-07T12:01:28.275316+02:00",
+    "Number": "875033",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldType": "System.String",
+        "FieldLength": 111
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 56
+  "ContactId": 93
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 305,
-    "Name": "DuBuque-Schneider",
-    "Description": "Expanded composite array",
+    "ProjectId": 807,
+    "Name": "Dare-Ziemann",
+    "Description": "Balanced stable archive",
     "URL": "http://www.example.com/",
-    "Type": "autem",
-    "AssociateId": 462,
-    "AssociateFullName": "Samson Bartoletti MD",
-    "TypeId": 83,
-    "Updated": "2020-12-08T13:13:23.664465+01:00",
-    "StatusId": 396,
-    "Status": "consequatur",
-    "TextId": 617,
-    "PublishTo": "2012-04-26T13:13:23.664465+02:00",
-    "PublishFrom": "2024-06-18T13:13:23.664465+02:00",
+    "Type": "velit",
+    "AssociateId": 180,
+    "AssociateFullName": "Prof. Cristobal Annabel Moore",
+    "TypeId": 288,
+    "Updated": "2021-12-28T12:01:28.1659327+01:00",
+    "StatusId": 345,
+    "Status": "asperiores",
+    "TextId": 828,
+    "PublishTo": "2003-11-04T12:01:28.1659327+01:00",
+    "PublishFrom": "2020-09-03T12:01:28.1659327+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "598533",
-    "ActiveErpLinks": 322,
+    "ProjectNumber": "307836",
+    "ActiveErpLinks": 473,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 582
       }
     }
   }

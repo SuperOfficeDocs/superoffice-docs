@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 447,
-  "AppointmentId": 346,
-  "ProjectId": 874,
-  "SaleId": 631,
-  "Archived": false,
-  "ArchivedAt": "2008-12-01T13:13:23.0083594+01:00",
-  "ArchivedBy": 643,
-  "ArchivedDisplayName": "Wuckert-Cole",
+  "DocumentId": 621,
+  "AppointmentId": 133,
+  "ProjectId": 823,
+  "SaleId": 607,
+  "Archived": true,
+  "ArchivedAt": "2014-09-06T12:01:27.8221586+02:00",
+  "ArchivedBy": 752,
+  "ArchivedDisplayName": "Aufderhar LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 213
     }
   }
 }

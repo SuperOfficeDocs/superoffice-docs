@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "repellat",
-  "Key": "accusamus"
+  "Section": "veniam",
+  "Key": "quia"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 526,
-  "Section": "autem",
-  "Key": "sit",
-  "Name": "Mraz-Harris",
+  "PrefDescId": 724,
+  "Section": "saepe",
+  "Key": "deleniti",
+  "Name": "Lowe Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed dedicated interface",
+  "Description": "Quality-focused impactful product",
   "IsBuiltin": false,
-  "TableName": "Klocko LLC",
-  "UserDefinedListId": 960,
-  "Rank": 649,
-  "SubGroup": "praesentium",
-  "MinLevel": 458,
-  "MaxValue": 830,
-  "MinValue": 190,
-  "RequiredLicense": "quibusdam",
+  "TableName": "Ritchie, Raynor and Rogahn",
+  "UserDefinedListId": 86,
+  "Rank": 105,
+  "SubGroup": "saepe",
+  "MinLevel": 302,
+  "MaxValue": 847,
+  "MinValue": 32,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

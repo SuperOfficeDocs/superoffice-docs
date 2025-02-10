@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummings Group",
-  "Context": "delectus"
+  "TableName": "Greenfelder-Stamm",
+  "Context": "dolores"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "sequi",
-    "ValueType": "laudantium",
-    "Mandatory": false,
-    "EncodedDisplayName": "Robel-Hintz",
-    "EncodedDisplayDescription": "Visionary impactful challenge",
-    "IconHint": "maxime",
+    "Key": "rerum",
+    "ValueType": "aut",
+    "Mandatory": true,
+    "EncodedDisplayName": "Senger Inc and Sons",
+    "EncodedDisplayDescription": "Future-proofed mission-critical internet solution",
+    "IconHint": "quia",
     "ControlInfos": [
       {
-        "Type": "nobis",
-        "Label": "aliquam",
-        "Dimension": 443,
-        "ListProviderName": "Gaylord Group",
-        "ListProviderExtraInfo": "dicta",
-        "ListProviderPrimaryKeyName": "Maggio Group",
-        "ListLeadText": "ducimus",
+        "Type": "nemo",
+        "Label": "ea",
+        "Dimension": 479,
+        "ListProviderName": "Reilly Group",
+        "ListProviderExtraInfo": "incidunt",
+        "ListProviderPrimaryKeyName": "Spencer-Hand",
+        "ListLeadText": "similique",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 676
+            "FieldLength": 899
           }
         }
       }
     ],
-    "EncodedDataCaption": "tempore",
-    "EncodedDataCaptionDescription": "Polarised bi-directional function",
-    "CurrentOperationType": "labore",
+    "EncodedDataCaption": "modi",
+    "EncodedDataCaptionDescription": "Adaptive solution-oriented challenge",
+    "CurrentOperationType": "distinctio",
     "Values": [
-      "dolorem",
-      "fugiat"
+      "est",
+      "cupiditate"
     ],
     "DisplayValues": [
-      "minima",
-      "aliquid"
+      "aut",
+      "molestias"
     ],
     "OperationInfos": [
       {
-        "Key": "quod",
-        "EncodedDisplayName": "Bechtelar-Hammes",
+        "Key": "dolor",
+        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
         "EncodedLeadTexts": [
-          "nam",
-          "natus"
+          "occaecati",
+          "fugit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       },
       {
-        "Key": "quod",
-        "EncodedDisplayName": "Bechtelar-Hammes",
+        "Key": "dolor",
+        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
         "EncodedLeadTexts": [
-          "nam",
-          "natus"
+          "occaecati",
+          "fugit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       }

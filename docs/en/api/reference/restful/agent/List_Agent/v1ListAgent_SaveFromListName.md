@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "UdListDefinitionName": "Cummings-Block",
+  "Id": 427,
+  "UdListDefinitionName": "Kub LLC",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Zboncak-Dickens",
-  "Tooltip": "quia",
+  "Id": 859,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "doloribus",
   "Deleted": true,
-  "UdListDefinitionId": 425,
-  "Rank": 546,
+  "UdListDefinitionId": 752,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

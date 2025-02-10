@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 806
+  "ErpSyncConnectionId": 662
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Brekke LLC",
-  "DisplayDescription": "Front-line holistic conglomeration",
+  "DisplayName": "Little-Sporer",
+  "DisplayDescription": "Vision-oriented fault-tolerant neural-net",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2018-05-29T13:13:23.1020321+02:00",
+  "LastSync": "2007-07-09T12:01:27.8690369+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "eum",
-      "Mappings": "sapiente",
+      "HasMappings": false,
+      "Defaults": "vitae",
+      "Mappings": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 162
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "eum",
-      "Mappings": "sapiente",
+      "HasMappings": false,
+      "Defaults": "vitae",
+      "Mappings": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 162
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

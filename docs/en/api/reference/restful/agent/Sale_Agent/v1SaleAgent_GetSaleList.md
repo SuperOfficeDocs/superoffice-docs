@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Larson, Schuster and VonRueden",
-    "SaleDate": "2018-04-21T13:13:23.8729256+02:00",
-    "SaleId": 50,
-    "Probability": 24,
-    "Title": "aut",
-    "Amount": 18882.35,
-    "Currency": "dolorum",
-    "ProjectName": "Barrows, Sipes and Thompson",
-    "AssociateFullName": "Prof. Katarina Alvis Osinski",
-    "Description": "De-engineered 24 hour alliance",
+    "ContactName": "Leffler-Waelchi",
+    "SaleDate": "1999-12-05T12:01:28.2596899+01:00",
+    "SaleId": 659,
+    "Probability": 203,
+    "Title": "vel",
+    "Amount": 23128.92,
+    "Currency": "repellendus",
+    "ProjectName": "Mann Group",
+    "AssociateFullName": "Emie Schinner",
+    "Description": "Compatible needs-based model",
     "Status": "Lost",
-    "WeightedAmount": 5666.272,
-    "ProjectId": 627,
-    "EarningPercent": 11808.912,
-    "Earning": 8772.0659999999989,
-    "ContactId": 133,
-    "AssociateId": 654,
-    "PersonId": 478,
-    "SaleTypeId": 592,
-    "SaleTypeName": "Baumbach Inc and Sons",
-    "PersonFullName": "Mr. Pasquale Isabella Ritchie",
+    "WeightedAmount": 6236.66,
+    "ProjectId": 745,
+    "EarningPercent": 7825.598,
+    "Earning": 8135.864,
+    "ContactId": 896,
+    "AssociateId": 975,
+    "PersonId": 732,
+    "SaleTypeId": 869,
+    "SaleTypeName": "Gislason-Toy",
+    "PersonFullName": "Mrs. Kenna Rodriguez",
     "Completed": "Completed",
-    "ActiveErpLinks": 727,
-    "NextDueDate": "2013-03-04T13:13:23.8729256+01:00",
-    "Number": "1620691",
+    "ActiveErpLinks": 15,
+    "NextDueDate": "1998-01-02T12:01:28.2596899+01:00",
+    "Number": "1510143",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 88
       }
     }
   }

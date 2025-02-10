@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 255,
-  "Value": "enim",
-  "Tooltip": "possimus",
-  "Probability": 342,
+  "SaleStageId": 442,
+  "Value": "eos",
+  "Tooltip": "qui",
+  "Probability": 868,
   "Deleted": false,
-  "Rank": 865
+  "Rank": 965
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 65,
-  "Value": "eum",
-  "Tooltip": "ab",
-  "Probability": 616,
-  "Deleted": true,
-  "Rank": 283,
+  "SaleStageId": 266,
+  "Value": "rerum",
+  "Tooltip": "esse",
+  "Probability": 478,
+  "Deleted": false,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 601
     }
   }
 }

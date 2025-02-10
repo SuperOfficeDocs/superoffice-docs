@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Kunde, Marvin and Moore",
-  "Tooltip": "praesentium",
+  "Id": 886,
+  "Name": "Johnson LLC",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 835,
-  "Rank": 219,
+  "UdListDefinitionId": 62,
+  "Rank": 64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

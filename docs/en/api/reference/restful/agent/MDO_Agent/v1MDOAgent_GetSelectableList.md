@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Becker-Pacocha",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quia",
+  "Name": "Gorczany Inc and Sons",
+  "ForceFlatList": true,
+  "AdditionalInfo": "saepe",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Jaskolski LLC",
-    "ToolTip": "Magnam sunt tempore ullam.",
+    "Id": 304,
+    "Name": "Upton, VonRueden and Walter",
+    "ToolTip": "Deserunt eius maiores.",
     "Deleted": true,
-    "Rank": 17,
-    "Type": "laudantium",
-    "ColorBlock": 874,
-    "IconHint": "qui",
+    "Rank": 721,
+    "Type": "architecto",
+    "ColorBlock": 96,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-06-30T13:13:23.3676626+02:00",
+    "LastChanged": "2018-02-03T12:01:28.0096725+01:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Harvey-Beatty",
-        "ToolTip": "Quis reprehenderit voluptatem quo et nostrum eum commodi.",
+        "Id": 304,
+        "Name": "Hirthe, Upton and Balistreri",
+        "ToolTip": "Quia tempora qui sint consequatur nesciunt eveniet.",
         "Deleted": false,
-        "Rank": 312,
-        "Type": "ut",
-        "ColorBlock": 384,
-        "IconHint": "nostrum",
+        "Rank": 524,
+        "Type": "facere",
+        "ColorBlock": 324,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1998-12-15T13:13:23.3676626+01:00",
+        "LastChanged": "2021-03-08T12:01:28.0096725+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Prof. Reese Newell Wunsch III",
+        "ExtraInfo": "totam",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Everette Murphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 176
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Ms. Deondre Volkman",
+    "ExtraInfo": "dolor",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Mrs. Gust Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 257
       }
     }
   }

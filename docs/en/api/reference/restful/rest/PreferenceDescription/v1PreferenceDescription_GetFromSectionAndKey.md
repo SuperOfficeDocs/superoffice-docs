@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 590,
-  "Section": "natus",
-  "Key": "quae",
-  "Name": "Kemmer LLC",
+  "PrefDescId": 312,
+  "Section": "dolorem",
+  "Key": "vel",
+  "Name": "Wiza-Beatty",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused intangible flexibility",
-  "IsBuiltin": false,
-  "TableName": "Mitchell, Goyette and O'Kon",
-  "UserDefinedListId": 127,
-  "Rank": 50,
-  "SubGroup": "ut",
-  "MinLevel": 235,
-  "MaxValue": 928,
-  "MinValue": 492,
-  "RequiredLicense": "minus",
+  "Description": "Fundamental discrete data-warehouse",
+  "IsBuiltin": true,
+  "TableName": "Fisher LLC",
+  "UserDefinedListId": 283,
+  "Rank": 903,
+  "SubGroup": "impedit",
+  "MinLevel": 141,
+  "MaxValue": 463,
+  "MinValue": 90,
+  "RequiredLicense": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   }
 }

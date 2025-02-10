@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 443,
+  "DocumentId": 215,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "magni",
-  "Name": "Nader LLC",
-  "OurRef": "et",
-  "YourRef": "repellat",
-  "CreatedDate": "2007-11-13T13:13:22.6490664+01:00",
-  "UpdatedDate": "2019-11-12T13:13:22.6490664+01:00",
-  "Description": "Exclusive clear-thinking time-frame",
+  "Attention": "et",
+  "Header": "dolores",
+  "Name": "Lesch-McKenzie",
+  "OurRef": "voluptates",
+  "YourRef": "qui",
+  "CreatedDate": "2003-09-18T12:01:27.6033946+02:00",
+  "UpdatedDate": "2008-03-06T12:01:27.6033946+01:00",
+  "Description": "Extended value-added focus group",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-06-05T13:13:22.6803106+02:00",
-  "ExternalRef": "maxime",
+  "Date": "2007-08-11T12:01:27.6033946+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 510,
+  "ActiveLinks": 16,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Runte LLC",
-      "Id": 211,
-      "Description": "User-friendly intermediate emulation",
-      "ExtraInfo": "soluta",
-      "LinkId": 926,
+      "EntityName": "Powlowski-Ruecker",
+      "Id": 476,
+      "Description": "Devolved 4th generation archive",
+      "ExtraInfo": "at",
+      "LinkId": 877,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 443
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 201,
-  "Snum": 487,
+  "SuggestedDocumentId": 249,
+  "Snum": 164,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Myrtice Leffler"
+    "SuperOffice:1": "Mrs. Kirstin Kathleen Trantow",
+    "SuperOffice:2": "1453597053"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "at",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2005-11-24T13:13:22.6959294+01:00",
-  "PublishTo": "2009-06-02T13:13:22.6959294+02:00",
-  "PublishFrom": "2018-06-07T13:13:22.6959294+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-11-17T12:01:27.6033946+01:00",
+  "PublishTo": "2005-11-24T12:01:27.6033946+01:00",
+  "PublishFrom": "2007-09-12T12:01:27.6033946+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 395,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     },
     {
-      "VisibleId": 395,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

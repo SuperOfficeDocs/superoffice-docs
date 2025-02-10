@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 769
+  "QuoteId": 588
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 380,
-  "SaleId": 911,
-  "QuoteConnectionId": 778,
-  "ERPQuoteKey": "omnis",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 403,
-  "AcceptedQuoteAlternativeId": 703,
-  "UseValuesFromQuote": 566,
-  "DocumentId": 1001,
-  "PoNumber": "126440",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "anya@kiehn.com",
+  "QuoteId": 773,
+  "SaleId": 725,
+  "QuoteConnectionId": 494,
+  "ERPQuoteKey": "voluptatem",
+  "ERPOrderKey": "blanditiis",
+  "ActiveQuoteVersionId": 176,
+  "AcceptedQuoteAlternativeId": 102,
+  "UseValuesFromQuote": 185,
+  "DocumentId": 435,
+  "PoNumber": "844421",
+  "OrderComment": "expedita",
+  "PreferredEmailCulture": "houston@walker.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 197
     }
   }
 }

@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=467
+GET /api/v1/Contact/{contactId}/Summary?limit=788
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 977,
-      "TicketStatus": 260,
-      "Title": "et",
-      "Registered": "2014-05-16T13:13:31.5738909+02:00",
-      "IconHint": "iure"
+      "TicketId": 869,
+      "TicketStatus": 339,
+      "Title": "eveniet",
+      "Registered": "2015-03-23T12:01:32.8238054+01:00",
+      "IconHint": "consequatur"
     },
     {
-      "TicketId": 977,
-      "TicketStatus": 260,
-      "Title": "et",
-      "Registered": "2014-05-16T13:13:31.5738909+02:00",
-      "IconHint": "iure"
+      "TicketId": 869,
+      "TicketStatus": 339,
+      "Title": "eveniet",
+      "Registered": "2015-03-23T12:01:32.8238054+01:00",
+      "IconHint": "consequatur"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 454,
-      "DocumentId": 223,
-      "Date": "2021-02-22T13:13:31.5738909+01:00",
-      "Description": "Decentralized radical info-mediaries",
+      "AppointmentId": 442,
+      "DocumentId": 282,
+      "Date": "2003-06-15T12:01:32.8238054+02:00",
+      "Description": "Diverse stable array",
       "Completed": "Completed",
-      "Registered": "2020-03-23T13:13:31.5738909+01:00"
+      "Registered": "2024-08-15T12:01:32.8238054+02:00"
     },
     {
-      "AppointmentId": 454,
-      "DocumentId": 223,
-      "Date": "2021-02-22T13:13:31.5738909+01:00",
-      "Description": "Decentralized radical info-mediaries",
+      "AppointmentId": 442,
+      "DocumentId": 282,
+      "Date": "2003-06-15T12:01:32.8238054+02:00",
+      "Description": "Diverse stable array",
       "Completed": "Completed",
-      "Registered": "2020-03-23T13:13:31.5738909+01:00"
+      "Registered": "2024-08-15T12:01:32.8238054+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 854,
-      "DocumentId": 941,
-      "Date": "2012-03-26T13:13:31.5738909+02:00",
-      "Description": "Down-sized zero defect benchmark",
+      "AppointmentId": 736,
+      "DocumentId": 613,
+      "Date": "2008-10-23T12:01:32.8238054+02:00",
+      "Description": "Mandatory 4th generation standardization",
       "Completed": "Completed",
-      "Registered": "2000-04-26T13:13:31.5738909+02:00"
+      "Registered": "1999-12-28T12:01:32.8238054+01:00"
     },
     {
-      "AppointmentId": 854,
-      "DocumentId": 941,
-      "Date": "2012-03-26T13:13:31.5738909+02:00",
-      "Description": "Down-sized zero defect benchmark",
+      "AppointmentId": 736,
+      "DocumentId": 613,
+      "Date": "2008-10-23T12:01:32.8238054+02:00",
+      "Description": "Mandatory 4th generation standardization",
       "Completed": "Completed",
-      "Registered": "2000-04-26T13:13:31.5738909+02:00"
+      "Registered": "1999-12-28T12:01:32.8238054+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 71,
-      "SaleDate": "2009-09-06T13:13:31.5738909+02:00",
-      "Probability": 599,
-      "Heading": "beatae",
-      "Amount": 22718.365999999998,
-      "Currency": "inventore",
-      "AmountInBaseCurrency": 6600.204,
+      "SaleId": 434,
+      "SaleDate": "2007-12-10T12:01:32.8238054+01:00",
+      "Probability": 325,
+      "Heading": "exercitationem",
+      "Amount": 19919.703999999998,
+      "Currency": "dolorum",
+      "AmountInBaseCurrency": 17384.298,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2019-09-17T13:13:31.5738909+02:00"
+      "Registered": "2023-03-04T12:01:32.8238054+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 736,
-      "Name": "Kuhlman, Runte and O'Keefe",
-      "CompanyName": "Bayer, Huel and Abbott",
-      "FirstMessage": "amet",
-      "LastMessage": "minus",
-      "WhenRequested": "2021-12-01T13:13:31.5738909+01:00",
-      "WhenEnded": "1998-11-29T13:13:31.5738909+01:00"
+      "ChatSessionId": 339,
+      "Name": "Kertzmann, Runolfsdottir and Johnson",
+      "CompanyName": "Cronin, Bergnaum and Shields",
+      "FirstMessage": "nemo",
+      "LastMessage": "aut",
+      "WhenRequested": "2002-07-03T12:01:32.8238054+02:00",
+      "WhenEnded": "2004-08-01T12:01:32.8238054+02:00"
     }
   ]
 }

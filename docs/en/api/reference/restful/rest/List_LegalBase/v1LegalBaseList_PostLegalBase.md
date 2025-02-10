@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 706,
-  "Name": "Runte LLC",
-  "Tooltip": "voluptate",
-  "Rank": 493,
-  "Key": "fugiat",
-  "Deleted": true
+  "LegalBaseId": 953,
+  "Name": "Roob, Hyatt and Grady",
+  "Tooltip": "vero",
+  "Rank": 235,
+  "Key": "et",
+  "Deleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 524,
-  "Name": "Hegmann-Barton",
-  "Tooltip": "aut",
-  "Rank": 32,
-  "Key": "illum",
-  "Deleted": false,
+  "LegalBaseId": 899,
+  "Name": "Bradtke, Jacobi and Wunsch",
+  "Tooltip": "similique",
+  "Rank": 853,
+  "Key": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 933
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=90
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=944
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -90,27 +90,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 15,
-  "Name": "Kozey Inc and Sons",
+  "WebhookId": 750,
+  "Name": "Morissette Inc and Sons",
   "Events": [
-    "est",
-    "eligendi"
+    "aliquam",
+    "eius"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quibusdam",
+  "Secret": "illo",
   "State": "Active",
-  "Type": "autem",
+  "Type": "dolor",
   "Headers": {
-    "Headers1": "magni",
-    "Headers2": "unde"
+    "Headers1": "exercitationem",
+    "Headers2": "doloribus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-09-24T13:13:24.5870773+02:00",
+  "Registered": "2006-08-26T12:01:28.6503413+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-06-04T13:13:24.5870773+02:00",
+  "Updated": "2010-05-19T12:01:28.6503413+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "rex@rathmurazik.ca"
+  "ErrorsEmail": "brenden_romaguera@lockman.com"
 }
 ```

@@ -75,18 +75,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gerhold, Brakus and Will",
+  "ProviderName": "Lebsack, Pagac and Aufderhar",
   "Restrictions": [
     {
-      "Name": "Lang-Haag",
-      "Operator": "facilis",
+      "Name": "Quitzon, Gislason and Orn",
+      "Operator": "et",
       "Values": [
-        "illo",
-        "hic"
+        "ea",
+        "laboriosam"
       ],
       "DisplayValues": [
-        "aut",
-        "mollitia"
+        "est",
+        "consectetur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 309,
+      "InterParenthesis": 330,
       "InterOperator": "And",
-      "UniqueHash": 275
+      "UniqueHash": 57
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  77,
-  459
+  530,
+  588
 ]
 ```

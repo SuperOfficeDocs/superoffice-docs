@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 232,
-  "InstanceLayout": "inventore",
-  "InstanceName": "Hackett Inc and Sons",
-  "CreatedDate": "2010-01-08T13:13:22.1177118+01:00",
-  "UpdatedDate": "2005-05-24T13:13:22.1177118+02:00",
+  "AudienceLayoutId": 735,
+  "InstanceLayout": "velit",
+  "InstanceName": "Heller-Wisoky",
+  "CreatedDate": "1997-12-23T12:01:27.3377499+01:00",
+  "UpdatedDate": "1998-06-01T12:01:27.3377499+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 312,
-  "InstanceLayout": "expedita",
-  "InstanceName": "Gottlieb, Brakus and Bednar",
-  "CreatedDate": "2021-06-29T13:13:22.1177118+02:00",
-  "UpdatedDate": "2019-04-30T13:13:22.1177118+02:00",
+  "AudienceLayoutId": 842,
+  "InstanceLayout": "veritatis",
+  "InstanceName": "Cronin-Becker",
+  "CreatedDate": "2018-12-13T12:01:27.3377499+01:00",
+  "UpdatedDate": "2014-09-27T12:01:27.3377499+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

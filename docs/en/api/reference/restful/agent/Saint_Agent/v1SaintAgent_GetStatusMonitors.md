@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 821,
-  "Type": "molestiae"
+  "Id": 340,
+  "Type": "sequi"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 244,
-    "Rank": 839,
-    "DefaultTask": 744,
-    "DefaultTaskText": "aperiam",
+    "OwnerTable": 280,
+    "Rank": 718,
+    "DefaultTask": 460,
+    "DefaultTaskText": "officia",
     "IsVisual": false,
-    "LastGenerated": "2008-08-17T13:13:23.8050553+02:00",
-    "Description": "Customer-focused methodical infrastructure",
-    "Name": "Koelpin Group",
-    "StatusMonitorId": 818,
-    "PictureId": 705,
+    "LastGenerated": "2003-02-19T12:01:28.2284376+01:00",
+    "Description": "Organized regional parallelism",
+    "Name": "Schuppe, Hoeger and Cruickshank",
+    "StatusMonitorId": 680,
+    "PictureId": 775,
     "NeedsUpdate": false,
-    "Deleted": false,
-    "NumMatches": 281,
-    "NumNeedUpdate": 83,
-    "GenerationStart": "2011-02-19T13:13:23.8050553+01:00",
+    "Deleted": true,
+    "NumMatches": 351,
+    "NumNeedUpdate": 505,
+    "GenerationStart": "2008-09-15T12:01:28.2284376+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

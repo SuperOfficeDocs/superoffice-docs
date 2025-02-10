@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 443,
-  "ERPPriceListKey": "libero",
-  "QuoteConnectionId": 427,
-  "Name": "Leannon Group",
-  "Description": "Business-focused 24 hour attitude",
-  "Currency": "in",
-  "CurrencyName": "Streich-Bergstrom",
-  "ValidFrom": "2010-10-05T13:13:23.7113275+02:00",
-  "ValidTo": "1998-07-03T13:13:23.7113275+02:00",
+  "PriceListId": 395,
+  "ERPPriceListKey": "aliquid",
+  "QuoteConnectionId": 222,
+  "Name": "Stoltenberg, Price and Weber",
+  "Description": "Customizable contextually-based conglomeration",
+  "Currency": "necessitatibus",
+  "CurrencyName": "Gutkowski-Renner",
+  "ValidFrom": "2009-06-04T12:01:28.1815588+02:00",
+  "ValidTo": "2019-07-26T12:01:28.1815588+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 803,
-  "ERPPriceListKey": "magnam",
-  "QuoteConnectionId": 473,
-  "Name": "Deckow Inc and Sons",
-  "Description": "Assimilated systematic strategy",
-  "Currency": "ut",
-  "CurrencyName": "Terry-Trantow",
-  "ValidFrom": "2008-04-16T13:13:23.7113275+02:00",
-  "ValidTo": "2001-09-04T13:13:23.7113275+02:00",
+  "PriceListId": 871,
+  "ERPPriceListKey": "reprehenderit",
+  "QuoteConnectionId": 889,
+  "Name": "Brekke-Harris",
+  "Description": "Extended 24/7 forecast",
+  "Currency": "omnis",
+  "CurrencyName": "Nader-Mann",
+  "ValidFrom": "2013-04-13T12:01:28.1815588+02:00",
+  "ValidTo": "2003-06-02T12:01:28.1815588+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 442
     }
   }
 }

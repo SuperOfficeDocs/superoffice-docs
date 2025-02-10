@@ -99,38 +99,38 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 52,
-  "Name": "Harber, Harris and Daniel",
-  "Rank": 799,
-  "Tooltip": "modi",
-  "Icon": "quo",
-  "DefaultTicketStatus": 422,
+  "TicketTypeId": 363,
+  "Name": "Runte-Mayert",
+  "Rank": 480,
+  "Tooltip": "autem",
+  "Icon": "placeat",
+  "DefaultTicketStatus": 131,
   "TicketStatuses": [
-    713,
-    367
+    215,
+    754
   ],
-  "DefaultTicketPriority": 726,
+  "DefaultTicketPriority": 186,
   "TicketPriorities": [
-    348,
-    861
+    190,
+    579
   ],
-  "ReplyTemplate": 639,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 506,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    578,
-    426
+    350,
+    653
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -141,40 +141,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 511,
-  "Name": "Abernathy-Ritchie",
-  "Rank": 970,
-  "Tooltip": "rerum",
-  "Icon": "ad",
-  "DefaultTicketStatus": 40,
+  "TicketTypeId": 928,
+  "Name": "Barton Group",
+  "Rank": 495,
+  "Tooltip": "voluptates",
+  "Icon": "ut",
+  "DefaultTicketStatus": 157,
   "TicketStatuses": [
-    836,
-    972
+    342,
+    835
   ],
-  "DefaultTicketPriority": 709,
+  "DefaultTicketPriority": 605,
   "TicketPriorities": [
-    521,
-    530
+    572,
+    508
   ],
-  "ReplyTemplate": 888,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 242,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    529,
-    872
+    826,
+    886
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 894
     }
   }
 }

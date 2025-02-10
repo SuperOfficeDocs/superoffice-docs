@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 116,
-  "ListItemId": 371,
+  "UdListDefinitionId": 851,
+  "ListItemId": 607,
   "Headings": [
     {
-      "Id": 786,
-      "Name": "Jaskolski-Raynor",
-      "ToolTip": "Sit ducimus dolor.",
-      "Deleted": false,
-      "Rank": 742,
-      "Type": "perferendis",
-      "ColorBlock": 167,
-      "IconHint": "velit",
+      "Id": 479,
+      "Name": "Heaney Group",
+      "ToolTip": "Quis voluptas.",
+      "Deleted": true,
+      "Rank": 443,
+      "Type": "dignissimos",
+      "ColorBlock": 82,
+      "IconHint": "nam",
       "Selected": true,
-      "LastChanged": "2021-07-27T13:13:23.2583064+02:00",
+      "LastChanged": "2021-12-07T12:01:27.9471677+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nulla",
-      "StyleHint": "ducimus",
+      "ExtraInfo": "non",
+      "StyleHint": "itaque",
       "Hidden": false,
-      "FullName": "Mrs. Rashad Wehner Jr."
+      "FullName": "Aubrey Gibson"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Hackett Group",
-    "ToolTip": "Aut recusandae omnis ex.",
-    "Deleted": false,
-    "Rank": 151,
-    "Type": "exercitationem",
-    "ColorBlock": 646,
-    "IconHint": "in",
+    "Id": 4,
+    "Name": "Heidenreich, Batz and Shanahan",
+    "ToolTip": "Iusto est ea.",
+    "Deleted": true,
+    "Rank": 460,
+    "Type": "consectetur",
+    "ColorBlock": 424,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2020-06-05T13:13:23.2583064+02:00",
+    "LastChanged": "2008-12-29T12:01:27.9471677+01:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Durgan-Shanahan",
-        "ToolTip": "Rerum nemo.",
-        "Deleted": true,
-        "Rank": 749,
-        "Type": "ut",
-        "ColorBlock": 207,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2018-05-19T13:13:23.2583064+02:00",
+        "Id": 185,
+        "Name": "Koch LLC",
+        "ToolTip": "Neque ut reiciendis.",
+        "Deleted": false,
+        "Rank": 679,
+        "Type": "temporibus",
+        "ColorBlock": 651,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2009-09-17T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Miss Kathryne Beier",
+        "FullName": "Marianne Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Miss Bernard Pinkie Kling",
+    "FullName": "Elliott Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 51
       }
     }
   }

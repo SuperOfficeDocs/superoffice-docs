@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Stoltenberg LLC",
-  "StorageKey": "hic",
-  "Restrictions": "aut",
-  "StaticColumns": "officiis"
+  "StorageType": "earum",
+  "ProviderName": "Hagenes Group",
+  "StorageKey": "pariatur",
+  "Restrictions": "nisi",
+  "StaticColumns": "ut"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Pfeffer-Heaney",
-      "Operator": "qui",
+      "Name": "Lesch, Heidenreich and Dietrich",
+      "Operator": "corporis",
       "Values": [
-        "praesentium",
-        "architecto"
+        "placeat",
+        "eos"
       ],
       "DisplayValues": [
-        "quis",
-        "eos"
+        "officiis",
+        "quae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 604,
+      "InterParenthesis": 431,
       "InterOperator": "And",
-      "UniqueHash": 865
+      "UniqueHash": 545
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Streich, Murray and Marks",
-      "DisplayTooltip": "ut",
-      "DisplayType": "beatae",
-      "CanOrderBy": true,
-      "Name": "Walter-Kiehn",
+      "DisplayName": "West-Marvin",
+      "DisplayTooltip": "harum",
+      "DisplayType": "voluptas",
+      "CanOrderBy": false,
+      "Name": "Eichmann, Reichel and Padberg",
       "CanRestrictBy": false,
-      "RestrictionType": "labore",
-      "RestrictionListName": "Maggio Inc and Sons",
+      "RestrictionType": "nemo",
+      "RestrictionListName": "Prohaska-Friesen",
       "IsVisible": true,
-      "ExtraInfo": "eum",
-      "Width": "quo",
-      "IconHint": "consectetur",
-      "HeadingIconHint": "nesciunt"
+      "ExtraInfo": "est",
+      "Width": "odio",
+      "IconHint": "deserunt",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Lehner, Kreiger and Rolfson",
-      "PrimaryKey": 441,
+      "EntityName": "Stokes, Douglas and Kozey",
+      "PrimaryKey": 710,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "quae"
+          "DisplayValue": "qui",
+          "TooltipHint": "dolore",
+          "LinkHint": "ad"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "aperiam",
+      "LinkHint": "eveniet",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldLength": 191
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Terry, Reichel and Flatley",
-      "Description": "Secured encompassing time-frame",
-      "Rank": 325,
+      "Name": "Wisozk-Eichmann",
+      "Description": "Pre-emptive optimal interface",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Terry, Reichel and Flatley",
-      "Description": "Secured encompassing time-frame",
-      "Rank": 325,
+      "Name": "Wisozk-Eichmann",
+      "Description": "Pre-emptive optimal interface",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   }
 }

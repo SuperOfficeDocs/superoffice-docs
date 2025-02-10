@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 354,
-    "ColumnId": 855,
-    "FieldDefault": "eaque",
-    "FieldHeight": 448,
-    "FieldLabel": "dolor",
-    "FieldLeft": 555,
-    "FieldTop": 712,
+    "UDefFieldId": 568,
+    "ColumnId": 862,
+    "FieldDefault": "nobis",
+    "FieldHeight": 298,
+    "FieldLabel": "et",
+    "FieldLeft": 426,
+    "FieldTop": 31,
     "FieldType": "Checkbox",
-    "FieldWidth": 63,
-    "FormatMask": "esse",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 65,
-    "LabelLeft": 44,
-    "LabelTop": 509,
-    "LabelWidth": 732,
-    "LastVersionId": 746,
-    "ListTableId": 878,
+    "FieldWidth": 841,
+    "FormatMask": "voluptas",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 92,
+    "LabelLeft": 648,
+    "LabelTop": 814,
+    "LabelWidth": 592,
+    "LastVersionId": 220,
+    "ListTableId": 190,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 451,
-    "ProgId": "occaecati",
+    "Page1LineNo": 594,
+    "ProgId": "eius",
     "IsReadOnly": false,
-    "ShortLabel": "labore",
-    "TabOrder": 998,
-    "TextLength": 882,
-    "Tooltip": "autem",
-    "UdefIdentity": 891,
-    "UDListDefinitionId": 332,
+    "ShortLabel": "nisi",
+    "TabOrder": 484,
+    "TextLength": 812,
+    "Tooltip": "itaque",
+    "UdefIdentity": 436,
+    "UDListDefinitionId": 8,
     "Justification": "Center",
-    "Version": 443,
-    "TemplateVariableName": "Walter-Robel",
+    "Version": 741,
+    "TemplateVariableName": "Fay, Grady and Hane",
     "HasBeenPublished": false,
-    "MdoListName": "Daugherty, Boyer and Sipes",
+    "MdoListName": "Price Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldType": "System.Int32",
+        "FieldLength": 617
       }
     }
   }

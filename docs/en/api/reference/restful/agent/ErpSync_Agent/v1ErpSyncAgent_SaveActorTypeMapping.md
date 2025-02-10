@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 338,
+  "ErpConnectionId": 274,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 657,
-      "CrmFieldKey": "tempora",
-      "CrmDisplayName": "Hodkiewicz, Hoeger and Fadel",
-      "CrmDisplayTooltip": "deleniti",
-      "ErpFieldKey": "omnis",
+      "ErpFieldId": 314,
+      "CrmFieldKey": "veritatis",
+      "CrmDisplayName": "Berge Inc and Sons",
+      "CrmDisplayTooltip": "voluptas",
+      "ErpFieldKey": "expedita",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "O'Hara, Kutch and Russel",
-      "ErpDisplayTooltip": "excepturi",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Fritsch Inc and Sons",
+      "ErpDisplayTooltip": "ullam",
+      "SyncToCrm": true,
       "SyncToErp": true,
-      "ShowInGui": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": true,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "ad",
+      "ListReference": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 679
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

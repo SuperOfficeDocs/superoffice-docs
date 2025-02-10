@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hansen-Eichmann"
+  "TableName": "Bernier-Hilpert"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "voluptatem",
-  "Inserts": 177,
-  "Updates": 282,
-  "Deletes": 73,
+  "Message": "velit",
+  "Inserts": 18,
+  "Updates": 984,
+  "Deletes": 199,
   "RowStatus": [
     {
-      "PrimaryKey": 876,
+      "PrimaryKey": 908,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "molestias",
-        "esse"
+        "doloribus",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     },
     {
-      "PrimaryKey": 876,
+      "PrimaryKey": 908,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "molestias",
-        "esse"
+        "doloribus",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldType": "System.Int32",
+      "FieldLength": 135
     }
   }
 }

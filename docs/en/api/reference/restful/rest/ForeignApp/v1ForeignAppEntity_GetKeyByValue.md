@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=non
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 16 Jun 2015 13:13:31 G6T
+Last-Modified: Sat, 18 Aug 2007 12:01:32 G8T
 
 {
-  "Key": "harum",
-  "Value": "rerum",
-  "RecordId": 756,
-  "CreatedDate": "2021-10-29T13:13:31.7613495+02:00",
-  "UpdatedDate": "2015-06-16T13:13:31.7613495+02:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "nemo",
-  "TableName": "Wilderman-Barton",
+  "Key": "voluptas",
+  "Value": "facilis",
+  "RecordId": 711,
+  "CreatedDate": "2023-03-25T12:01:32.9175621+01:00",
+  "UpdatedDate": "2007-08-18T12:01:32.9175621+02:00",
+  "UpdatedBy": "eum",
+  "CreatedBy": "sed",
+  "TableName": "Stracke-Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 238
     }
   }
 }

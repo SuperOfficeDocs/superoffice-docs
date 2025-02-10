@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 994,
-  "Name": "Kulas, Macejkovic and Farrell",
-  "Rank": 494,
-  "Tooltip": "ut",
+  "AssociateId": 275,
+  "Name": "Nikolaus, Treutel and Hammes",
+  "Rank": 651,
+  "Tooltip": "voluptate",
   "LicenseOwners": [
     {
-      "Name": "Torphy, Kling and Schulist",
-      "Description": "User-centric demand-driven paradigm",
+      "Name": "Veum, Jaskolski and Steuber",
+      "Description": "Customer-focused clear-thinking paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 292
         }
       }
     },
     {
-      "Name": "Torphy, Kling and Schulist",
-      "Description": "User-centric demand-driven paradigm",
+      "Name": "Veum, Jaskolski and Steuber",
+      "Description": "Customer-focused clear-thinking paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 292
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "distinctio",
-      "Tooltip": "iste",
-      "Id": 359,
-      "Rank": 282,
+      "Value": "aut",
+      "Tooltip": "ut",
+      "Id": 692,
+      "Rank": 175,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 538
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2008-06-06T13:13:32.6529082+02:00",
-  "Lastlogout": "2006-11-26T13:13:32.6529082+01:00",
-  "EjUserId": 979,
-  "RequestSignature": "voluptas",
+  "Deleted": true,
+  "Lastlogin": "2007-11-30T12:01:33.3707182+01:00",
+  "Lastlogout": "1997-12-11T12:01:33.3707182+01:00",
+  "EjUserId": 665,
+  "RequestSignature": "placeat",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "corrupti",
+      "Value": "magnam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 528
         }
       }
     },
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "corrupti",
+      "Value": "magnam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 528
         }
       }
     }
   ],
-  "UserName": "Bahringer LLC",
+  "UserName": "Spinka LLC",
   "TicketCategories": [
     {
-      "Id": 955,
-      "Name": "Mueller, Schroeder and Kunde",
-      "ToolTip": "Neque sapiente.",
-      "Deleted": false,
-      "Rank": 115,
-      "Type": "dolor",
+      "Id": 396,
+      "Name": "Rogahn, O'Keefe and Jones",
+      "ToolTip": "Aut aliquid.",
+      "Deleted": true,
+      "Rank": 6,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 865,
-      "ExtraInfo": "itaque",
-      "StyleHint": "repellendus",
-      "FullName": "Anabel Jacobi",
+      "IconHint": "consequatur",
+      "ColorBlock": 393,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "incidunt",
+      "FullName": "Zella Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldLength": 235
         }
       }
     }
   ],
-  "NickName": "Walsh-Denesik",
+  "NickName": "Braun-Conn",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "inventore"
+    "CustomFields1": "iste",
+    "CustomFields2": "eum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schaden LLC",
-      "DisplayName": "Mayert, Adams and Rice",
-      "Description": "Innovative attitude-oriented process improvement",
-      "ToolTip": "Et earum enim laudantium ut.",
+      "Name": "Quitzon Group",
+      "DisplayName": "Rolfson, Pouros and Crooks",
+      "Description": "Implemented multi-tasking knowledge user",
+      "ToolTip": "Voluptatem illo soluta nobis et cupiditate.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 778
     }
   },
   "_Links": {

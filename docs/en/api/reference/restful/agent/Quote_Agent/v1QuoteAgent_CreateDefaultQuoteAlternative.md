@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 797,
-  "ERPQuoteAlternativeKey": "ab",
-  "QuoteVersionId": 763,
-  "Name": "Franecki, Bauch and Powlowski",
-  "Description": "Expanded executive migration",
+  "QuoteAlternativeId": 24,
+  "ERPQuoteAlternativeKey": "enim",
+  "QuoteVersionId": 125,
+  "Name": "Heaney, Johnson and Brakus",
+  "Description": "User-friendly homogeneous infrastructure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 31130.021999999997,
-  "ERPDiscountAmount": 24720.992,
-  "DiscountPercent": 27638.746,
-  "DiscountAmount": 22846.86,
+  "ERPDiscountPercent": 17077.166,
+  "ERPDiscountAmount": 26272.322,
+  "DiscountPercent": 14168.814,
+  "DiscountAmount": 23423.516,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolores",
-  "VAT": 30315.182,
-  "EarningPercent": 200.576,
-  "EarningAmount": 12890.142,
-  "SubTotal": 9746.74,
-  "TotalPrice": 24909.032,
-  "ExtraField1": "assumenda",
-  "ExtraField2": "dolorum",
-  "ExtraField3": "ut",
-  "ExtraField4": "ut",
-  "ExtraField5": "eum",
+  "VATInfo": "at",
+  "VAT": 13400.984,
+  "EarningPercent": 6490.514,
+  "EarningAmount": 15441.217999999999,
+  "SubTotal": 23201.002,
+  "TotalPrice": 6496.782,
+  "ExtraField1": "enim",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "doloribus",
+  "ExtraField4": "velit",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

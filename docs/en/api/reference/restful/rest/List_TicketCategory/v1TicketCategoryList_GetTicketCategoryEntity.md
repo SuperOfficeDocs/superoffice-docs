@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 2,
-  "ParentId": 47,
-  "Name": "Schuppe Inc and Sons",
-  "Fullname": "ab",
-  "CategoryMaster": 527,
+  "TicketCategoryId": 989,
+  "ParentId": 460,
+  "Name": "Stroman-Pfeffer",
+  "Fullname": "consequatur",
+  "CategoryMaster": 965,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Streich-Robel",
+  "ExternalName": "Schmitt, Stracke and Johnson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 982,
-  "ReplyTemplate": 190,
-  "NotificationEmail": "abel@turner.co.uk",
+  "AssignmentLag": 970,
+  "ReplyTemplate": 149,
+  "NotificationEmail": "gordon_jacobson@ferry.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 908,
+  "EffectiveReplyTemplateId": 431,
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "non",
+    "CustomFields2": "hic"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 317
     }
   }
 }

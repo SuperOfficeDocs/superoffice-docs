@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 293,
-  "Name": "Durgan LLC",
-  "Rank": 257,
-  "Tooltip": "tenetur",
+  "AssociateId": 307,
+  "Name": "Homenick, Raynor and Fay",
+  "Rank": 276,
+  "Tooltip": "ullam",
   "LicenseOwners": [
     {
-      "Name": "Balistreri, Schaden and Adams",
-      "Description": "Robust 5th generation infrastructure",
+      "Name": "Stamm, Price and Osinski",
+      "Description": "Monitored leading edge attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 278
         }
       }
     },
     {
-      "Name": "Balistreri, Schaden and Adams",
-      "Description": "Robust 5th generation infrastructure",
+      "Name": "Stamm, Price and Osinski",
+      "Description": "Monitored leading edge attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 278
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "laborum",
-      "Tooltip": "vel",
-      "Id": 999,
-      "Rank": 82,
+      "Value": "iusto",
+      "Tooltip": "voluptatem",
+      "Id": 853,
+      "Rank": 487,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 532
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2015-11-02T13:13:24.5402765+01:00",
-  "Lastlogout": "2020-05-30T13:13:24.5402765+02:00",
-  "EjUserId": 741,
-  "RequestSignature": "quod",
+  "Lastlogin": "2023-08-05T12:01:28.6190891+02:00",
+  "Lastlogout": "2006-05-31T12:01:28.6190891+02:00",
+  "EjUserId": 671,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iure",
-      "DisplayValue": "nihil",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "iure",
-      "DisplayValue": "nihil",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
-        }
-      }
-    }
-  ],
-  "UserName": "Rath-Champlin",
-  "TicketCategories": [
-    {
-      "Id": 82,
-      "Name": "Franecki Group",
-      "ToolTip": "Molestias nihil beatae ut.",
-      "Deleted": false,
-      "Rank": 368,
-      "Type": "natus",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "et",
-      "ColorBlock": 127,
-      "ExtraInfo": "tenetur",
-      "StyleHint": "placeat",
-      "FullName": "Elijah McClure",
+      "Value": "ipsa",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 220
         }
       }
-    }
-  ],
-  "NickName": "Monahan Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "illum"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quis"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Hansen, Kemmer and Hirthe",
-      "DisplayName": "Botsford LLC",
-      "Description": "Distributed actuating capacity",
-      "ToolTip": "Rem illum esse non.",
-      "Actions": "Implicit",
-      "ActionData": "perferendis",
+      "Type": null,
+      "Value": "ipsa",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldType": "System.Int32",
+          "FieldLength": 220
+        }
+      }
+    }
+  ],
+  "UserName": "Schmitt Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 925,
+      "Name": "Hansen-Pouros",
+      "ToolTip": "Et voluptas pariatur alias at.",
+      "Deleted": true,
+      "Rank": 443,
+      "Type": "impedit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "doloremque",
+      "ColorBlock": 254,
+      "ExtraInfo": "commodi",
+      "StyleHint": "sed",
+      "FullName": "Dedrick Bartoletti",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 470
+        }
+      }
+    }
+  ],
+  "NickName": "Kuvalis-Gusikowski",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "optio"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "qui"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Gottlieb, Beer and Lemke",
+      "DisplayName": "Mitchell Group",
+      "Description": "Compatible explicit benchmark",
+      "ToolTip": "Suscipit molestias qui eaque.",
+      "Actions": "Implicit",
+      "ActionData": "dolore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 575
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

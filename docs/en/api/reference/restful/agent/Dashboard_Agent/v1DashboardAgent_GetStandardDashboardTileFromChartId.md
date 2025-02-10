@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "magnam"
+  "ChartId": "voluptas"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 247,
-  "Caption": "reiciendis",
-  "Description": "Universal holistic leverage",
-  "ChartName": "Von, Veum and Wisozk",
-  "ChartId": "consequatur",
+  "DashboardTileId": 398,
+  "Caption": "et",
+  "Description": "Synergized user-facing website",
+  "ChartName": "Nikolaus-Nader",
+  "ChartId": "autem",
   "IsDefault": false,
-  "AssociateId": 677,
-  "GroupId": 227,
-  "SelectionId": 23,
-  "Config": "est",
+  "AssociateId": 203,
+  "GroupId": 274,
+  "SelectionId": 704,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Batz, Eichmann and Bauch",
-      "Description": "Virtual 24/7 hierarchy",
+      "Name": "Funk, Stamm and Purdy",
+      "Description": "Distributed bi-directional encryption",
       "Type": "Boolean",
-      "ListName": "Hayes-Abernathy",
+      "ListName": "Hane, Schneider and Dickinson",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
-      "DefaultDataOption": false,
+      "Value": "deserunt",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 500
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 872,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 729
         }
       }
     },
     {
-      "VisibleId": 872,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 729
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 764
     }
   }
 }

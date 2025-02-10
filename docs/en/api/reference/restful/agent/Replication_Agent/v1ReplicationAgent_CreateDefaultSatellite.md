@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 655,
-  "Created": "2006-01-05T13:13:23.7738157+01:00",
+  "SatelliteId": 737,
+  "Created": "2013-08-17T12:01:28.2128113+02:00",
   "CreatedBy": null,
-  "Updated": "2000-03-01T13:13:23.7738157+01:00",
+  "Updated": "2003-02-18T12:01:28.2128113+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Boyer Group",
-      "Description": "Configurable next generation adapter",
+      "Name": "DuBuque Group",
+      "Description": "Cross-group modular approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 273
         }
       }
     },
     {
-      "Name": "Boyer Group",
-      "Description": "Configurable next generation adapter",
+      "Name": "DuBuque Group",
+      "Description": "Cross-group modular approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 273
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 261
     }
   }
 }

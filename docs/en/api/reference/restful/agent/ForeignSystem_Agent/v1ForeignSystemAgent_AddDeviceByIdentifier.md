@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Breitenberg, Heller and Durgan",
-  "DeviceName": "Lueilwitz, Barrows and O'Conner",
-  "DeviceIdentifier": "aperiam"
+  "ApplicationName": "Lebsack Inc and Sons",
+  "DeviceName": "Spinka-Williamson",
+  "DeviceIdentifier": "non"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 454,
-  "Name": "Dietrich, Kozey and Barrows",
-  "CreatedDate": "2022-06-05T13:13:23.1645837+02:00",
-  "UpdatedDate": "1998-12-12T13:13:23.1645837+01:00",
-  "AssociateFullName": "Oran Rice",
-  "CreatedBy": "recusandae",
-  "UpdatedBy": "expedita",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 459,
+  "ForeignDeviceId": 803,
+  "Name": "Schmeler-Herzog",
+  "CreatedDate": "2002-05-31T12:01:27.9002891+02:00",
+  "UpdatedDate": "2017-11-13T12:01:27.9002891+01:00",
+  "AssociateFullName": "Mrs. Kareem Elyssa Rath Jr.",
+  "CreatedBy": "deserunt",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "commodi",
+  "ForeignAppId": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   }
 }

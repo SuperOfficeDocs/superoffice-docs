@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Rowe Group",
-  "Tooltip": "architecto",
-  "Deleted": true,
-  "Rank": 188,
+  "Id": 753,
+  "Name": "Harris-Lockman",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 589,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Cummerata LLC",
-  "Tooltip": "esse",
+  "Id": 586,
+  "Name": "Ernser-Ritchie",
+  "Tooltip": "consequuntur",
   "Deleted": true,
-  "Rank": 629,
+  "Rank": 54,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

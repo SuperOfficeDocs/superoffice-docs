@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Nostrum facilis.",
+    "Id": 31,
+    "Name": "Maggio Group",
+    "ToolTip": "Sit odit.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "consequatur",
-    "ColorBlock": 645,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2018-06-09T13:13:31.9956719+02:00",
+    "Rank": 617,
+    "Type": "quos",
+    "ColorBlock": 375,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2007-12-24T12:01:33.0425704+01:00",
     "ChildItems": [
       {
-        "Id": 464,
-        "Name": "Sawayn Group",
-        "ToolTip": "Ea nesciunt et officiis rem deserunt quos.",
-        "Deleted": false,
-        "Rank": 515,
-        "Type": "illo",
-        "ColorBlock": 233,
-        "IconHint": "dolorem",
+        "Id": 603,
+        "Name": "Langosh, Dickens and Stark",
+        "ToolTip": "Sint dolor consequuntur nostrum quo est dolorem.",
+        "Deleted": true,
+        "Rank": 859,
+        "Type": "voluptatem",
+        "ColorBlock": 84,
+        "IconHint": "nulla",
         "Selected": true,
-        "LastChanged": "2008-06-23T13:13:31.9956719+02:00",
+        "LastChanged": "1997-11-12T12:01:33.0425704+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "labore",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Miss Monique Evalyn Mosciski Jr.",
+        "FullName": "Kaylah Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 269
+            "FieldLength": 592
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Cheyanne White DDS",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Dr. Freddie Tracey Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 185
       }
     }
   }

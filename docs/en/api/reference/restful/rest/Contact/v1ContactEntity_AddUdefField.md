@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 91,
-  "ColumnId": 350,
-  "FieldDefault": "corrupti",
-  "FieldHeight": 81,
-  "FieldLabel": "ut",
-  "FieldLeft": 317,
-  "FieldTop": 727,
+  "UDefFieldId": 128,
+  "ColumnId": 635,
+  "FieldDefault": "est",
+  "FieldHeight": 577,
+  "FieldLabel": "enim",
+  "FieldLeft": 713,
+  "FieldTop": 619,
   "FieldType": "Checkbox",
-  "FieldWidth": 93,
-  "FormatMask": "quibusdam",
+  "FieldWidth": 200,
+  "FormatMask": "repudiandae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 266,
-  "LabelLeft": 646,
-  "LabelTop": 396,
-  "LabelWidth": 258,
-  "LastVersionId": 459,
-  "ListTableId": 494,
+  "LabelHeight": 39,
+  "LabelLeft": 78,
+  "LabelTop": 156,
+  "LabelWidth": 407,
+  "LastVersionId": 802,
+  "ListTableId": 377,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 768,
-  "ProgId": "consequatur",
+  "Page1LineNo": 608,
+  "ProgId": "non",
   "IsReadOnly": true,
-  "ShortLabel": "provident",
-  "TabOrder": 62,
-  "TextLength": 33,
-  "Tooltip": "sunt",
-  "UdefIdentity": 764,
-  "UDListDefinitionId": 486,
+  "ShortLabel": "nostrum",
+  "TabOrder": 143,
+  "TextLength": 214,
+  "Tooltip": "maiores",
+  "UdefIdentity": 134,
+  "UDListDefinitionId": 287,
   "Justification": "Center",
-  "Version": 568,
-  "TemplateVariableName": "Veum Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Trantow-Aufderhar",
+  "Version": 853,
+  "TemplateVariableName": "Quitzon Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Boyer-Wyman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

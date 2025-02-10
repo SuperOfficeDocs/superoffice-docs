@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quam",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quam",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Willms, Kuhn and Kunze",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 188,
-  "IsCustomList": false,
+  "Id": 953,
+  "Name": "Ryan, Volkman and Boyer",
+  "Tooltip": "magni",
+  "Deleted": true,
+  "Rank": 524,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "assumenda",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldLength": 679
     }
   },
   "_Links": {

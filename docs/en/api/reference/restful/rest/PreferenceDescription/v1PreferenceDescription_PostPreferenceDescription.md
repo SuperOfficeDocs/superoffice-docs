@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 980,
-  "Section": "ad",
-  "Key": "officia",
-  "Name": "Hammes Inc and Sons",
+  "PrefDescId": 295,
+  "Section": "necessitatibus",
+  "Key": "nesciunt",
+  "Name": "Botsford Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive tangible system engine",
-  "IsBuiltin": true,
-  "TableName": "Hamill, Frami and Yost",
-  "UserDefinedListId": 619,
-  "Rank": 991,
-  "SubGroup": "quia",
-  "MinLevel": 914,
-  "MaxValue": 810,
-  "MinValue": 698,
-  "RequiredLicense": "vel"
+  "Description": "Object-based didactic product",
+  "IsBuiltin": false,
+  "TableName": "Lakin, Hane and Fritsch",
+  "UserDefinedListId": 585,
+  "Rank": 711,
+  "SubGroup": "repellat",
+  "MinLevel": 409,
+  "MaxValue": 300,
+  "MinValue": 586,
+  "RequiredLicense": "voluptatem"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 860,
-  "Section": "fugit",
-  "Key": "blanditiis",
-  "Name": "Hudson, Kunze and Gleason",
+  "PrefDescId": 927,
+  "Section": "sed",
+  "Key": "libero",
+  "Name": "Funk-Morissette",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated tangible Graphic Interface",
-  "IsBuiltin": false,
-  "TableName": "Dickens, Luettgen and Jones",
-  "UserDefinedListId": 143,
-  "Rank": 989,
-  "SubGroup": "recusandae",
-  "MinLevel": 825,
-  "MaxValue": 970,
-  "MinValue": 56,
-  "RequiredLicense": "commodi",
+  "Description": "Function-based motivating customer loyalty",
+  "IsBuiltin": true,
+  "TableName": "Murazik-McKenzie",
+  "UserDefinedListId": 337,
+  "Rank": 11,
+  "SubGroup": "hic",
+  "MinLevel": 973,
+  "MaxValue": 132,
+  "MinValue": 137,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 936
     }
   },
   "_Links": {

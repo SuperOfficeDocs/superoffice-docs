@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=fugit
+GET /api/v1/List/Currency/MDOItems?query=doloribus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Skiles, Mertz and Ruecker",
-    "ToolTip": "Amet qui sit nihil delectus quisquam voluptatum aspernatur.",
-    "Deleted": true,
-    "Rank": 759,
-    "Type": "voluptatibus",
+    "Id": 356,
+    "Name": "Wiegand LLC",
+    "ToolTip": "Magni vero nemo deserunt occaecati.",
+    "Deleted": false,
+    "Rank": 303,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Schowalter, Murazik and Hoppe",
-        "ToolTip": "Minima aspernatur.",
+        "Id": 666,
+        "Name": "White Inc and Sons",
+        "ToolTip": "Saepe aliquam reiciendis.",
         "Deleted": false,
-        "Rank": 918,
-        "Type": "harum",
+        "Rank": 78,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 165,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "possimus",
-        "FullName": "Mr. Dixie Vern Kessler",
+        "IconHint": "placeat",
+        "ColorBlock": 234,
+        "ExtraInfo": "iste",
+        "StyleHint": "asperiores",
+        "FullName": "Jacquelyn Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 966
+            "FieldType": "System.Int32",
+            "FieldLength": 770
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 43,
-    "ExtraInfo": "amet",
-    "StyleHint": "consequatur",
-    "FullName": "Newton Feeney II",
+    "IconHint": "consequatur",
+    "ColorBlock": 442,
+    "ExtraInfo": "eos",
+    "StyleHint": "fugit",
+    "FullName": "Abbigail Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldLength": 62
       }
     }
   }

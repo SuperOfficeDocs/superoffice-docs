@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    73,
-    537
+    187,
+    196
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 908,
-    "Name": "Thiel, Friesen and Dooley",
-    "TargetTable": "ullam",
-    "Registered": "2014-03-26T13:13:23.9778431+01:00",
-    "ProviderName": "Cole Group"
+    "SelectionId": 597,
+    "Name": "Hane, Turcotte and Blick",
+    "TargetTable": "aliquid",
+    "Registered": "2000-11-10T12:01:28.3065684+01:00",
+    "ProviderName": "Lueilwitz-Baumbach"
   },
   {
-    "SelectionId": 908,
-    "Name": "Thiel, Friesen and Dooley",
-    "TargetTable": "ullam",
-    "Registered": "2014-03-26T13:13:23.9778431+01:00",
-    "ProviderName": "Cole Group"
+    "SelectionId": 597,
+    "Name": "Hane, Turcotte and Blick",
+    "TargetTable": "aliquid",
+    "Registered": "2000-11-10T12:01:28.3065684+01:00",
+    "ProviderName": "Lueilwitz-Baumbach"
   }
 ]
 ```

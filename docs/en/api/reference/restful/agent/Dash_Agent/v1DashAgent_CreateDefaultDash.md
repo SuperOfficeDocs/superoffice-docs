@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 106,
-  "UniqueId": "et",
-  "Name": "Schultz-Borer",
-  "Description": "Monitored systematic knowledge base",
-  "AssociateId": 398,
-  "Columns": 985,
+  "DashboardId": 876,
+  "UniqueId": "non",
+  "Name": "Gottlieb Inc and Sons",
+  "Description": "Object-based contextually-based adapter",
+  "AssociateId": 962,
+  "Columns": 878,
   "Theme": null,
-  "VisibleForAll": 98,
+  "VisibleForAll": 523,
   "VisibleForAssociates": [
-    982,
-    801
+    848,
+    911
   ],
   "VisibleForGroups": [
-    993,
-    475
+    186,
+    974
   ],
-  "PinForAll": 762,
+  "PinForAll": 956,
   "PinForAssociates": [
-    589,
-    300
+    263,
+    803
   ],
   "PinForGroups": [
-    300,
-    462
+    77,
+    766
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 672
     }
   }
 }

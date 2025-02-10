@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 335
+  "PersonId": 399
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 976,
-    "Name": "Becker LLC",
-    "Description": "Cross-platform solution-oriented Graphical User Interface",
+    "ProjectId": 937,
+    "Name": "Goodwin, Hayes and Mayer",
+    "Description": "Polarised value-added orchestration",
     "URL": "http://www.example.com/",
-    "Type": "molestias",
-    "AssociateId": 214,
-    "AssociateFullName": "Charlene O'Conner",
-    "TypeId": 882,
-    "Updated": "2023-06-12T13:13:23.664465+02:00",
-    "StatusId": 426,
-    "Status": "unde",
-    "TextId": 731,
-    "PublishTo": "2001-09-13T13:13:23.664465+02:00",
-    "PublishFrom": "2016-08-16T13:13:23.664465+02:00",
-    "IsPublished": false,
+    "Type": "consequatur",
+    "AssociateId": 848,
+    "AssociateFullName": "Will Ledner",
+    "TypeId": 573,
+    "Updated": "2006-07-15T12:01:28.1659327+02:00",
+    "StatusId": 356,
+    "Status": "tempora",
+    "TextId": 1002,
+    "PublishTo": "2013-10-19T12:01:28.1659327+02:00",
+    "PublishFrom": "2007-10-22T12:01:28.1659327+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1787052",
-    "ActiveErpLinks": 285,
+    "ProjectNumber": "617531",
+    "ActiveErpLinks": 279,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 220
       }
     }
   }

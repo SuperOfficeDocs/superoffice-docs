@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Moore LLC",
-  "Tooltip": "a",
+  "Id": 833,
+  "Name": "Bahringer-Witting",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "UdListDefinitionId": 223,
-  "Rank": 456,
+  "UdListDefinitionId": 121,
+  "Rank": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 176
     }
   }
 }

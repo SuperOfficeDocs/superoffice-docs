@@ -88,23 +88,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 152,
-  "Name": "Deckow-Swift",
-  "Config": "quaerat",
-  "Rank": 733,
-  "Client": "sed",
-  "Style": "ipsam",
+  "DashboardThemeId": 834,
+  "Name": "Hoppe-Medhurst",
+  "Config": "aliquam",
+  "Rank": 523,
+  "Client": "consequatur",
+  "Style": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

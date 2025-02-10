@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "vero",
+  "Provider": "qui",
   "Restrictions": [
     {
-      "Name": "Eichmann-Monahan",
-      "Operator": "ducimus",
+      "Name": "Goldner, Ratke and Stark",
+      "Operator": "illo",
       "Values": [
-        "et",
-        "et"
+        "sint",
+        "veniam"
       ],
       "DisplayValues": [
-        "ipsam",
-        "animi"
+        "id",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 132,
+      "InterParenthesis": 219,
       "InterOperator": "And",
-      "UniqueHash": 973
+      "UniqueHash": 860
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  98,
-  966
+  835,
+  316
 ]
 ```

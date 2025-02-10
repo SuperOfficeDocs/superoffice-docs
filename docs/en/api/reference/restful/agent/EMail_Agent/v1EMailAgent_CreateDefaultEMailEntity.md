@@ -97,156 +97,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 133,
-      "ContactName": "Donnelly-Sipes",
-      "PersonId": 603,
-      "PersonName": "Abernathy Inc and Sons",
-      "AssociateId": 746,
-      "Address": "architecto",
-      "EmailId": 199,
+      "ContactId": 687,
+      "ContactName": "Haag Group",
+      "PersonId": 943,
+      "PersonName": "Beier LLC",
+      "AssociateId": 719,
+      "Address": "labore",
+      "EmailId": 957,
       "DuplicatePersonIds": [
-        859,
-        650
+        706,
+        471
       ],
-      "Name": "Ernser, Bosco and Ernser",
+      "Name": "Murray-Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 801
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 3,
-      "ContactName": "Will, Gottlieb and Koch",
-      "PersonId": 227,
-      "PersonName": "Ritchie Inc and Sons",
-      "AssociateId": 47,
-      "Address": "et",
-      "EmailId": 649,
+      "ContactId": 939,
+      "ContactName": "Considine-Upton",
+      "PersonId": 580,
+      "PersonName": "Vandervort-Reinger",
+      "AssociateId": 210,
+      "Address": "omnis",
+      "EmailId": 334,
       "DuplicatePersonIds": [
-        738,
-        341
+        33,
+        884
       ],
-      "Name": "McLaughlin Inc and Sons",
+      "Name": "Terry, Stark and Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 619
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 206,
-      "ContactName": "Smith, McClure and Dickinson",
-      "PersonId": 113,
-      "PersonName": "Halvorson-Bashirian",
-      "AssociateId": 983,
-      "Address": "ut",
-      "EmailId": 458,
+      "ContactId": 841,
+      "ContactName": "Rau-Schroeder",
+      "PersonId": 862,
+      "PersonName": "Franecki, Kreiger and Bednar",
+      "AssociateId": 711,
+      "Address": "sunt",
+      "EmailId": 878,
       "DuplicatePersonIds": [
-        737,
-        514
+        633,
+        976
       ],
-      "Name": "Runolfsdottir, Hilll and Gaylord",
+      "Name": "Lang LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 607
         }
       }
     }
   ],
-  "Subject": "adipisci",
-  "HTMLBody": "sunt",
+  "Subject": "sapiente",
+  "HTMLBody": "in",
   "From": null,
-  "Sent": "2007-06-20T13:13:23.0083594+02:00",
-  "Size": 869,
+  "Sent": "2010-04-02T12:01:27.8221586+02:00",
+  "Size": 47,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "unde",
+  "MessageID": "incidunt",
+  "PlainBody": "neque",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 778,
+  "ServerId": 230,
   "Attachments": [
     {
-      "Description": "Future-proofed eco-centric system engine",
-      "Filename": "dignissimos",
-      "Size": 609,
-      "Type": "dolor",
-      "Encoding": "ratione",
-      "Id": "et",
-      "Disposition": "minus",
+      "Description": "Profit-focused national moderator",
+      "Filename": "beatae",
+      "Size": 100,
+      "Type": "aut",
+      "Encoding": "quia",
+      "Id": "cupiditate",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldType": "System.String",
+          "FieldLength": 457
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bernier LLC",
+      "Name": "Corwin, Botsford and Haag",
       "Values": [
-        "fuga",
-        "aliquam"
+        "neque",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Bernier LLC",
+      "Name": "Corwin, Botsford and Haag",
       "Values": [
-        "fuga",
-        "aliquam"
+        "neque",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 737
         }
       }
     }
   ],
-  "FolderName": "Mertz, Kutch and Jerde",
-  "EmailItemId": 561,
-  "AccountId": 24,
-  "ReceivedAt": "2011-09-04T13:13:23.0083594+02:00",
+  "FolderName": "Jewess-Conn",
+  "EmailItemId": 437,
+  "AccountId": 770,
+  "ReceivedAt": "2003-10-11T12:01:27.8221586+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-11-17T13:13:23.0083594+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-03-30T12:01:27.8221586+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

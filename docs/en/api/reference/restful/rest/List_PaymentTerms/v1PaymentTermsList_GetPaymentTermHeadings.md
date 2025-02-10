@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 202,
-    "Name": "Terry Inc and Sons",
-    "Tooltip": "modi",
+    "HeadingId": 902,
+    "Name": "Will LLC",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 203,
-    "UdListDefinitionId": 346,
+    "Rank": 940,
+    "UdListDefinitionId": 393,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldType": "System.Int32",
+        "FieldLength": 581
       }
     }
   }

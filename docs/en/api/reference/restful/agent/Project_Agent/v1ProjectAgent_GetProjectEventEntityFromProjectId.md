@@ -106,7 +106,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 178
+  "ProjectId": 471
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "temporibus",
-  "SignOffText": "molestiae",
-  "SignOnConfirmationText": "vel",
-  "SignOnText": "eos",
-  "EventDate": "2001-11-04T13:13:23.664465+01:00",
-  "Enabled": false,
-  "CreatedDate": "2016-02-23T13:13:23.664465+01:00",
+  "SignOffConfirmationText": "explicabo",
+  "SignOffText": "adipisci",
+  "SignOnConfirmationText": "quod",
+  "SignOnText": "mollitia",
+  "EventDate": "2017-08-30T12:01:28.1503067+02:00",
+  "Enabled": true,
+  "CreatedDate": "1999-01-08T12:01:28.1503067+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 735,
-  "SignOffTriggersAssign": true,
+  "SignOffTaskId": 395,
+  "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 36,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 842,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2024-01-14T13:13:23.664465+01:00",
+  "UpdatedDate": "2011-02-27T12:01:28.1503067+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 801,
-  "Id": 739,
-  "PublishFrom": "2001-06-16T13:13:23.664465+02:00",
+  "ProjectId": 404,
+  "Id": 600,
+  "PublishFrom": "2025-01-13T12:01:28.1503067+01:00",
   "PublishType": "External",
-  "PublishTo": "2010-02-19T13:13:23.664465+01:00",
+  "PublishTo": "2023-11-14T12:01:28.1503067+01:00",
   "VisibleForCategories": [
     {
-      "Id": 256,
-      "Name": "Lesch LLC",
-      "ToolTip": "Aliquam modi repellendus dolore.",
+      "Id": 49,
+      "Name": "Marks-Wunsch",
+      "ToolTip": "Explicabo omnis.",
       "Deleted": false,
-      "Rank": 726,
-      "Type": "aut",
+      "Rank": 418,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 783,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "mollitia",
-      "FullName": "Ms. Winston Fahey",
+      "IconHint": "libero",
+      "ColorBlock": 857,
+      "ExtraInfo": "sed",
+      "StyleHint": "blanditiis",
+      "FullName": "Prof. Adolfo Schneider Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 593
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 805,
-      "Name": "Will, Bradtke and McClure",
-      "ToolTip": "Voluptate eius vitae praesentium.",
+      "Id": 304,
+      "Name": "Klein LLC",
+      "ToolTip": "Distinctio molestias.",
       "Deleted": false,
-      "Rank": 918,
-      "Type": "nihil",
+      "Rank": 978,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "animi",
-      "ColorBlock": 877,
-      "ExtraInfo": "quis",
-      "StyleHint": "aliquam",
-      "FullName": "Novella Nitzsche",
+      "IconHint": "doloribus",
+      "ColorBlock": 614,
+      "ExtraInfo": "et",
+      "StyleHint": "et",
+      "FullName": "Elwyn Gerry Mann MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldType": "System.Int32",
+          "FieldLength": 906
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 567,
+  "ProjectEventId": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 55
     }
   }
 }

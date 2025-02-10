@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 29,
-  "Name": "Gorczany, Douglas and Roberts",
+  "SelectionId": 569,
+  "Name": "Bayer-Runolfsdottir",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered 4th generation implementation",
-  "Postit": "perferendis",
+  "Description": "Realigned mobile standardization",
+  "Postit": "repudiandae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 527,
-  "IncludePerson": 835,
+  "GroupIdx": 351,
+  "IncludePerson": 374,
   "MemberCount": 99.99,
-  "Name": "Zieme-Fahey",
-  "PostitTextId": 701,
-  "CreatedDate": "2019-02-25T13:13:23.9309404+01:00",
-  "SelectionId": 568,
-  "SoundEx": "et",
-  "Source": 838,
-  "TextId": 265,
-  "UpdatedDate": "2004-02-11T13:13:23.9309404+01:00",
-  "UpdatedCount": 714,
-  "Visibility": 199,
+  "Name": "Senger, Hills and Robel",
+  "PostitTextId": 279,
+  "CreatedDate": "2012-04-04T12:01:28.2909425+02:00",
+  "SelectionId": 940,
+  "SoundEx": "eveniet",
+  "Source": 976,
+  "TextId": 681,
+  "UpdatedDate": "2012-01-13T12:01:28.2909425+01:00",
+  "UpdatedCount": 955,
+  "Visibility": 749,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 502,
-  "TargetTableName": "Kshlerin, Stokes and Kihn",
+  "TargetTableNumber": 225,
+  "TargetTableName": "Kulas LLC",
   "Completed": false,
-  "LeftSelectionId": 324,
-  "RightSelectionId": 999,
+  "LeftSelectionId": 641,
+  "RightSelectionId": 818,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hintz, Strosin and Harris",
-  "ShadowProviderName": "Upton-Zemlak",
-  "ChartKey": "enim",
-  "LastLoaded": "2022-09-13T13:13:23.9309404+02:00",
-  "LastLoadedBy": 723,
+  "MainProviderName": "Stehr, Goldner and Torphy",
+  "ShadowProviderName": "Schaden, Hodkiewicz and Nader",
+  "ChartKey": "omnis",
+  "LastLoaded": "2012-07-28T12:01:28.2909425+02:00",
+  "LastLoadedBy": 823,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-09T13:13:23.9309404+01:00",
-  "LastMembershipChangeBy": 792,
+  "LastMembershipChange": "2023-06-21T12:01:28.2909425+02:00",
+  "LastMembershipChangeBy": 869,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Weimann-Kuhlman",
-  "DashboardTileDefinitionId": 828,
+  "MainHeading": "facere",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Block Inc and Sons",
+  "DashboardTileDefinitionId": 626,
   "VisibleFor": [
     {
-      "VisibleId": 288,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldLength": 236
         }
       }
     },
     {
-      "VisibleId": 288,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldLength": 236
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

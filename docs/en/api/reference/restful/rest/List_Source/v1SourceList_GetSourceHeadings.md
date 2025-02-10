@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 894,
-    "Name": "Flatley Inc and Sons",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "Rank": 461,
-    "UdListDefinitionId": 334,
+    "HeadingId": 492,
+    "Name": "Abernathy Group",
+    "Tooltip": "error",
+    "Deleted": true,
+    "Rank": 860,
+    "UdListDefinitionId": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldType": "System.Int32",
+        "FieldLength": 19
       }
     }
   }

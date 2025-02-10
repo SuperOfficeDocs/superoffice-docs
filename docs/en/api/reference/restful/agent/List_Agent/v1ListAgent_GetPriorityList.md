@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Value": "blanditiis",
-    "Tooltip": "tempora",
+    "Id": 317,
+    "Value": "consequatur",
+    "Tooltip": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 954
       }
     }
   },
   {
-    "Id": 520,
-    "Value": "blanditiis",
-    "Tooltip": "tempora",
+    "Id": 317,
+    "Value": "consequatur",
+    "Tooltip": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 954
       }
     }
   }

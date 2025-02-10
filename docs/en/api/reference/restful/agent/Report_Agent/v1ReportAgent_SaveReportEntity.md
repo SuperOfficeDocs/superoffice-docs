@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 126,
+  "ReportId": 345,
   "ReportCategory": "All",
-  "Description": "Phased well-modulated hardware",
+  "Description": "User-centric national concept",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hegmann-O'Kon",
-  "AssociateId": 785,
-  "TemplateId": 568,
+  "Name": "Satterfield-Reinger",
+  "AssociateId": 591,
+  "TemplateId": 475,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 553,
+  "ReportId": 607,
   "ReportCategory": "All",
-  "Description": "Innovative neutral adapter",
+  "Description": "Cross-platform impactful internet solution",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kling Group",
-  "AssociateId": 504,
-  "TemplateId": 797,
+  "Name": "Lang-Lindgren",
+  "AssociateId": 943,
+  "TemplateId": 4,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 310
     }
   }
 }

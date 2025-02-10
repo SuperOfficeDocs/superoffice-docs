@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 986,
-  "ConnectorName": "Klocko Inc and Sons"
+  "ConnectionId": 306,
+  "ConnectorName": "Cruickshank-Walsh"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "non",
-    "Rank": 834,
-    "DisplayName": "Bode, Mitchell and Moore",
-    "DisplayDescription": "Function-based human-resource matrices",
+    "FieldKey": "quae",
+    "Rank": 859,
+    "DisplayName": "Rodriguez-VonRueden",
+    "DisplayDescription": "Cross-group global orchestration",
     "FieldType": "Checkbox",
-    "ListName": "Osinski-Toy",
-    "DefaultValue": "est",
-    "MaxLength": 631,
+    "ListName": "Walter-Kozey",
+    "DefaultValue": "ab",
+    "MaxLength": 165,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

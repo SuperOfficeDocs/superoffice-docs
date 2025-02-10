@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Aufderhar Inc and Sons",
-  "Comment": "aut",
-  "StakeholderRoleId": 789,
-  "CountryId": 502,
-  "PersonId": 362,
-  "EmailDescription": "wendy.gerhold@schimmeldurgan.biz",
-  "EmailId": 412,
-  "EmailAddress": "audra@abernathy.us",
-  "PhoneId": 552,
-  "ContactName": "Keeling-Parker",
-  "ContactId": 850,
-  "SaleId": 809,
-  "Mrmrs": "voluptas",
-  "Firstname": "Travis",
-  "MiddleName": "Kiehn-Kiehn",
-  "Lastname": "Dach",
-  "SaleStakeholderId": 404,
-  "Rank": 298,
-  "Phone": "1-984-277-7750 x75585"
+  "StakeholderRoleName": "Block-Wolf",
+  "Comment": "voluptatem",
+  "StakeholderRoleId": 134,
+  "CountryId": 815,
+  "PersonId": 490,
+  "EmailDescription": "bernadette@hayesharvey.uk",
+  "EmailId": 610,
+  "EmailAddress": "reta_metz@gleason.name",
+  "PhoneId": 330,
+  "ContactName": "Barrows, McCullough and Cassin",
+  "ContactId": 554,
+  "SaleId": 372,
+  "Mrmrs": "fugit",
+  "Firstname": "Ezekiel",
+  "MiddleName": "Renner-Rodriguez",
+  "Lastname": "Raynor",
+  "SaleStakeholderId": 281,
+  "Rank": 288,
+  "Phone": "662.285.2670 x1921"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Conroy Group",
-  "Comment": "atque",
-  "StakeholderRoleId": 188,
-  "CountryId": 50,
-  "PersonId": 487,
-  "EmailDescription": "imogene_koepp@considineheaney.us",
-  "EmailId": 527,
-  "EmailAddress": "charlene@paucek.name",
-  "PhoneId": 81,
-  "ContactName": "Vandervort Inc and Sons",
-  "ContactId": 137,
-  "SaleId": 401,
-  "Mrmrs": "magnam",
-  "Firstname": "Aimee",
-  "MiddleName": "D'Amore, McClure and Erdman",
-  "Lastname": "Blanda",
-  "SaleStakeholderId": 933,
-  "Rank": 73,
-  "Phone": "224.036.2956 x7242",
+  "StakeholderRoleName": "Kemmer, Borer and Bayer",
+  "Comment": "nemo",
+  "StakeholderRoleId": 563,
+  "CountryId": 882,
+  "PersonId": 955,
+  "EmailDescription": "enola_labadie@kris.com",
+  "EmailId": 303,
+  "EmailAddress": "jacinthe@mcdermott.biz",
+  "PhoneId": 775,
+  "ContactName": "McKenzie, Ortiz and Roob",
+  "ContactId": 515,
+  "SaleId": 923,
+  "Mrmrs": "fugiat",
+  "Firstname": "Connie",
+  "MiddleName": "Pagac, Gaylord and Veum",
+  "Lastname": "Sanford",
+  "SaleStakeholderId": 983,
+  "Rank": 205,
+  "Phone": "828.877.8965 x55952",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   },
   "_Links": {

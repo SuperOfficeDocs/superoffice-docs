@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kiehn Group",
-    "Operator": "blanditiis",
+    "Name": "Rice-Beatty",
+    "Operator": "in",
     "Values": [
-      "voluptatem",
-      "sapiente"
+      "ea",
+      "quos"
     ],
     "DisplayValues": [
-      "dolor",
-      "voluptas"
+      "quas",
+      "minima"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Willms Inc and Sons",
-        "Operator": "repellendus",
+        "Name": "Nitzsche-Kuhic",
+        "Operator": "beatae",
         "Values": [
-          "sed",
-          "provident"
+          "et",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "dolorum",
-          "voluptatem"
+          "qui",
+          "suscipit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 665,
+        "InterParenthesis": 843,
         "InterOperator": "And",
-        "UniqueHash": 126
+        "UniqueHash": 377
       }
     ],
-    "InterParenthesis": 536,
+    "InterParenthesis": 771,
     "InterOperator": "And",
-    "UniqueHash": 231
+    "UniqueHash": 582
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Monahan, Schumm and Mosciski",
-    "Operator": "architecto",
+    "Name": "Von, Borer and Funk",
+    "Operator": "possimus",
     "Values": [
-      "illo",
-      "mollitia"
+      "et",
+      "perferendis"
     ],
     "DisplayValues": [
-      "ipsum",
-      "dolorem"
+      "impedit",
+      "praesentium"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ward Inc and Sons",
-        "Operator": "non",
+        "Name": "Fritsch LLC",
+        "Operator": "fugit",
         "Values": [
-          "ut",
-          "inventore"
+          "eos",
+          "quo"
         ],
         "DisplayValues": [
-          "et",
-          "incidunt"
+          "eos",
+          "modi"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 623,
+        "InterParenthesis": 40,
         "InterOperator": "And",
-        "UniqueHash": 423
+        "UniqueHash": 320
       }
     ],
-    "InterParenthesis": 543,
+    "InterParenthesis": 30,
     "InterOperator": "And",
-    "UniqueHash": 483
+    "UniqueHash": 639
   }
 ]
 ```

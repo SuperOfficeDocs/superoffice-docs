@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gleichner Group",
-  "RecordId": 520,
-  "AssociateId": 205,
-  "ExtraInfo": "eum"
+  "TableName": "Corkery, Padberg and Auer",
+  "RecordId": 247,
+  "AssociateId": 975,
+  "ExtraInfo": "explicabo"
 }
 ```
 

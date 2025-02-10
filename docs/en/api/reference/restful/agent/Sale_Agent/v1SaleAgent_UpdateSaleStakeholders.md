@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Botsford, Fisher and Kuvalis",
-      "Comment": "voluptatum",
-      "StakeholderRoleId": 578,
-      "CountryId": 588,
-      "PersonId": 716,
-      "EmailDescription": "christa@mante.name",
-      "EmailId": 426,
-      "EmailAddress": "deion@davishuel.co.uk",
-      "PhoneId": 679,
-      "ContactName": "Watsica, Larkin and Grant",
-      "ContactId": 333,
-      "SaleId": 777,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Shyann",
-      "MiddleName": "Langworth Group",
-      "Lastname": "Emmerich",
-      "SaleStakeholderId": 494,
-      "Rank": 623,
-      "Phone": "(173)067-5805 x7406"
+      "StakeholderRoleName": "Wisozk Group",
+      "Comment": "omnis",
+      "StakeholderRoleId": 657,
+      "CountryId": 915,
+      "PersonId": 999,
+      "EmailDescription": "corine.grant@dubuque.biz",
+      "EmailId": 23,
+      "EmailAddress": "lilyan@bogisich.ca",
+      "PhoneId": 614,
+      "ContactName": "Doyle-Stehr",
+      "ContactId": 440,
+      "SaleId": 937,
+      "Mrmrs": "id",
+      "Firstname": "Pearl",
+      "MiddleName": "Ullrich, Corwin and Hoppe",
+      "Lastname": "Casper",
+      "SaleStakeholderId": 483,
+      "Rank": 925,
+      "Phone": "1-148-174-7123 x458"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schroeder-O'Connell",
-    "Comment": "quod",
-    "StakeholderRoleId": 885,
-    "CountryId": 309,
-    "PersonId": 276,
-    "EmailDescription": "kiana@erdman.uk",
-    "EmailId": 505,
-    "EmailAddress": "alva_thiel@connelly.uk",
-    "PhoneId": 62,
-    "ContactName": "Roob-White",
-    "ContactId": 118,
-    "SaleId": 277,
-    "Mrmrs": "explicabo",
-    "Firstname": "Leila",
-    "MiddleName": "Sporer, VonRueden and Jacobs",
-    "Lastname": "Altenwerth",
-    "SaleStakeholderId": 772,
-    "Rank": 868,
-    "Phone": "210.945.7774",
+    "StakeholderRoleName": "Cole-Kling",
+    "Comment": "est",
+    "StakeholderRoleId": 502,
+    "CountryId": 362,
+    "PersonId": 538,
+    "EmailDescription": "roderick@gerlach.us",
+    "EmailId": 183,
+    "EmailAddress": "hattie_bode@pouros.name",
+    "PhoneId": 848,
+    "ContactName": "Lowe, Hayes and Howell",
+    "ContactId": 586,
+    "SaleId": 941,
+    "Mrmrs": "similique",
+    "Firstname": "Tianna",
+    "MiddleName": "Leuschke, Strosin and Hills",
+    "Lastname": "Olson",
+    "SaleStakeholderId": 802,
+    "Rank": 352,
+    "Phone": "019-821-9504 x3686",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 166
       }
     }
   }

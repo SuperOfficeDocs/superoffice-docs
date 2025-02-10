@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 440
+  "ShipmentAddrId": 136
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2000-09-10T13:13:23.3520388+02:00",
+  "SendingTime": "2008-12-01T12:01:27.9940463+01:00",
   "Status": "Blocked",
-  "ShipmentId": 715,
-  "ShipmentDescription": "Future-proofed client-driven productivity",
-  "FromAddress": "ratione",
-  "Configuration": 587,
-  "ContactId": 198,
-  "ContactName": "Price, Lynch and Bruen",
-  "PersonId": 655,
-  "PersonFullName": "Ansel Tromp",
-  "ShipmentType": "quisquam",
-  "MessageId": 774,
-  "MessageSubject": "hic",
-  "DocumentMessageId": 278,
-  "Opened": "2000-03-18T13:13:23.3520388+01:00",
-  "LinkClicks": 14,
+  "ShipmentId": 506,
+  "ShipmentDescription": "Open-source empowering project",
+  "FromAddress": "aut",
+  "Configuration": 58,
+  "ContactId": 282,
+  "ContactName": "King Group",
+  "PersonId": 479,
+  "PersonFullName": "Ms. Viva Crona III",
+  "ShipmentType": "vel",
+  "MessageId": 29,
+  "MessageSubject": "saepe",
+  "DocumentMessageId": 765,
+  "Opened": "2008-09-12T12:01:27.9940463+02:00",
+  "LinkClicks": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 894
     }
   }
 }

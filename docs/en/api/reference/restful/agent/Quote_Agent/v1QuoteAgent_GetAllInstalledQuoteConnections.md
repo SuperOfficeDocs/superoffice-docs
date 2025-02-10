@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 630,
-    "ERPName": "Bednar-Rippin",
-    "DisplayName": "Considine-Jewess",
-    "DisplayDescription": "Versatile zero administration emulation",
-    "Rank": 291,
-    "ConnectorName": "Zieme-Von",
-    "ErpConnectionId": 1002,
-    "ExtraData": "et",
+    "QuoteConnectionId": 390,
+    "ERPName": "Adams-Donnelly",
+    "DisplayName": "Feil-Lebsack",
+    "DisplayDescription": "Persistent context-sensitive conglomeration",
+    "Rank": 968,
+    "ConnectorName": "Watsica-Pacocha",
+    "ErpConnectionId": 60,
+    "ExtraData": "delectus",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 140,
-        "ERPPriceListKey": "est",
-        "QuoteConnectionId": 256,
-        "Name": "Bahringer Group",
-        "Description": "Visionary neutral methodology",
-        "Currency": "est",
-        "CurrencyName": "Adams Group",
-        "ValidFrom": "2002-03-13T13:13:23.7425716+01:00",
-        "ValidTo": "2006-02-12T13:13:23.7425716+01:00",
+        "PriceListId": 928,
+        "ERPPriceListKey": "eius",
+        "QuoteConnectionId": 114,
+        "Name": "Hessel-Anderson",
+        "Description": "Function-based upward-trending matrices",
+        "Currency": "nihil",
+        "CurrencyName": "Hackett-Zemlak",
+        "ValidFrom": "2012-11-28T12:01:28.1971849+01:00",
+        "ValidTo": "2003-09-26T12:01:28.1971849+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 887
+            "FieldType": "System.Int32",
+            "FieldLength": 462
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      983,
-      678
+      142,
+      123
     ],
     "AssociateAccessIds": [
-      250,
-      362
+      778,
+      859
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 106
       }
     }
   }

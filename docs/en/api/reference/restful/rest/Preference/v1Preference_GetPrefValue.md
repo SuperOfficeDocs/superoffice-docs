@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ea",
+  "RawValue": "reprehenderit",
   "Specification": null,
-  "DisplayValue": "in",
-  "DisplayTooltip": "consequuntur",
+  "DisplayValue": "error",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 75,
-  "PrefDescId": 305,
-  "TableName": "Reilly Group",
-  "UserPreferenceId": 158,
+  "TargetId": 387,
+  "PrefDescId": 279,
+  "TableName": "Cremin Inc and Sons",
+  "UserPreferenceId": 362,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

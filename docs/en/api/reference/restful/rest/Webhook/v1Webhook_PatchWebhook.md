@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "corporis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "corporis",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 155,
-  "Name": "Olson Inc and Sons",
+  "WebhookId": 290,
+  "Name": "Feest Inc and Sons",
   "Events": [
-    "ea",
-    "architecto"
+    "nihil",
+    "doloribus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ex",
+  "Secret": "vitae",
   "State": "Active",
-  "Type": "dolores",
+  "Type": "deserunt",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "sit"
+    "Headers1": "numquam",
+    "Headers2": "ullam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-12-18T13:13:32.7611997+01:00",
+  "Registered": "2008-08-08T12:01:33.4019705+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-11-26T13:13:32.7611997+01:00",
+  "Updated": "2005-08-07T12:01:33.4019705+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "zetta@bins.ca",
+  "ErrorsEmail": "dane@lind.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 244
+  "QuoteLineId": 488
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 657,
-  "ERPQuoteLineKey": "autem",
-  "QuoteAlternativeId": 498,
-  "ERPProductKey": "minima",
+  "QuoteLineId": 71,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 67,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23718.112,
-  "DeliveredQuantity": 18992.04,
-  "Rank": 152,
-  "Name": "Marvin-Waelchi",
-  "Description": "Virtual mission-critical policy",
-  "Code": "ea",
-  "QuantityUnit": "corrupti",
-  "PriceUnit": "eaque",
-  "ItemNumber": "453320",
+  "Quantity": 30293.244,
+  "DeliveredQuantity": 3005.506,
+  "Rank": 485,
+  "Name": "Swift, Rau and Nicolas",
+  "Description": "Extended impactful installation",
+  "Code": "ut",
+  "QuantityUnit": "nulla",
+  "PriceUnit": "voluptates",
+  "ItemNumber": "1327911",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "nemo",
-  "Supplier": "debitis",
-  "SupplierCode": "est",
-  "Thumbnail": "nihil",
-  "VATInfo": "sapiente",
-  "VAT": 23699.308,
-  "UnitCost": 30587.84,
-  "UnitMinimumPrice": 6653.482,
-  "UnitListPrice": 27328.48,
+  "ProductFamilyKey": "consequuntur",
+  "ProductTypeKey": "distinctio",
+  "Supplier": "et",
+  "SupplierCode": "occaecati",
+  "Thumbnail": "aut",
+  "VATInfo": "aut",
+  "VAT": 7017.026,
+  "UnitCost": 30255.636,
+  "UnitMinimumPrice": 12.536,
+  "UnitListPrice": 19393.192,
   "ExtraInfo": [
     {
-      "Name": "Pollich, Shields and Barrows",
-      "Value": "dolor",
+      "Name": "Willms, Nicolas and Kutch",
+      "Value": "consequuntur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldType": "System.String",
+          "FieldLength": 748
         }
       }
     },
     {
-      "Name": "Pollich, Shields and Barrows",
-      "Value": "dolor",
+      "Name": "Willms, Nicolas and Kutch",
+      "Value": "consequuntur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldType": "System.String",
+          "FieldLength": 748
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
+  "RawExtraInfo": "corrupti",
   "IsSubscription": false,
-  "SubscriptionUnit": "debitis",
-  "SubscriptionQuantity": 21925.464,
-  "SubscriptionStart": "2021-03-05T13:13:23.7581921+01:00",
-  "ERPDiscountPercent": 25689.397999999997,
-  "ERPDiscountAmount": 1698.628,
-  "DiscountPercent": 7073.438,
-  "DiscountAmount": 26670.34,
+  "SubscriptionUnit": "rerum",
+  "SubscriptionQuantity": 15610.454,
+  "SubscriptionStart": "2005-08-30T12:01:28.2128113+02:00",
+  "ERPDiscountPercent": 28168.392,
+  "ERPDiscountAmount": 25328.987999999998,
+  "DiscountPercent": 30481.284,
+  "DiscountAmount": 29917.164,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10132.222,
-  "EarningAmount": 1827.1219999999998,
-  "SubTotal": 26516.773999999998,
-  "TotalPrice": 20123.414,
-  "Rights": "in",
+  "EarningPercent": 30985.858,
+  "EarningAmount": 5716.416,
+  "SubTotal": 8085.7199999999993,
+  "TotalPrice": 26736.154,
+  "Rights": "animi",
   "Rule": "iusto",
-  "ExtraField1": "impedit",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "praesentium",
-  "ExtraField4": "omnis",
-  "ExtraField5": "rem",
+  "ExtraField1": "et",
+  "ExtraField2": "esse",
+  "ExtraField3": "totam",
+  "ExtraField4": "aut",
+  "ExtraField5": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldLength": 526
     }
   }
 }

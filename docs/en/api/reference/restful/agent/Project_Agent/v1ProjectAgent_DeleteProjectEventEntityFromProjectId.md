@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613
+  "ProjectId": 859
 }
 ```
 

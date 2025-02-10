@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 994,
-    "Name": "Witting LLC",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 467
+    "HeadingId": 252,
+    "Name": "Abernathy, Mosciski and Shields",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 990,
+    "UdListDefinitionId": 828
   },
   {
-    "HeadingId": 994,
-    "Name": "Witting LLC",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 467
+    "HeadingId": 252,
+    "Name": "Abernathy, Mosciski and Shields",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 990,
+    "UdListDefinitionId": 828
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 831,
-    "Name": "Zemlak, Collins and Harris",
-    "Tooltip": "quia",
+    "HeadingId": 95,
+    "Name": "Mann, Toy and Watsica",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 654,
-    "UdListDefinitionId": 131,
+    "Rank": 947,
+    "UdListDefinitionId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 349
       }
     }
   }

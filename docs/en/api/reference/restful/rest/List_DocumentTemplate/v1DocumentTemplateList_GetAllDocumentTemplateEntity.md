@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 500,
-    "Name": "Cremin-McClure",
-    "Tooltip": "tenetur",
-    "SaveInDb": 481,
-    "Filename": "voluptas",
-    "DefaultOref": "nihil",
+    "DocumentTemplateId": 515,
+    "Name": "Heidenreich-Anderson",
+    "Tooltip": "est",
+    "SaveInDb": 115,
+    "Filename": "placeat",
+    "DefaultOref": "natus",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 650,
-    "IntentId": 399,
+    "AutoeventId": 313,
+    "IntentId": 394,
     "IsDefaultPublished": false,
-    "Rank": 660,
-    "LoadTemplateFromPlugin": 924,
-    "MimeType": "minima",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 203,
+    "Rank": 406,
+    "LoadTemplateFromPlugin": 252,
+    "MimeType": "perspiciatis",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 864,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "rolando_waters@reynoldsrunte.com",
+    "EmailSubject": "manuela_powlowski@bergnaum.com",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "lera_robel@casper.ca",
+    "SenderEmailAddress": "kelli@glover.com",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldLength": 90
       }
     }
   }

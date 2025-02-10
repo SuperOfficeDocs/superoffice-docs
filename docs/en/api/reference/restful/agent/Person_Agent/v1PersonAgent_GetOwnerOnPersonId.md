@@ -103,6 +103,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -116,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 120
+  "PersonId": 42
 }
 ```
 
@@ -127,52 +128,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "laborum",
-  "PersonId": 119,
-  "Mrmrs": "quia",
-  "Firstname": "Audreanne",
-  "Lastname": "Runolfsdottir",
-  "MiddleName": "Harber, Keebler and Schmeler",
-  "Title": "omnis",
-  "Description": "Quality-focused tangible function",
-  "Email": "genesis@oconnerjacobi.info",
-  "FullName": "Noe Kurtis Lang IV",
-  "DirectPhone": "034.866.3817",
-  "FormalName": "Berge, Satterfield and McKenzie",
-  "CountryId": 515,
-  "ContactId": 853,
-  "ContactName": "Kris, Rohan and Dooley",
-  "Retired": 83,
-  "Rank": 893,
-  "ActiveInterests": 735,
+  "Position": "aut",
+  "PersonId": 246,
+  "Mrmrs": "sunt",
+  "Firstname": "Jacquelyn",
+  "Lastname": "Gaylord",
+  "MiddleName": "Cassin, Ryan and Abernathy",
+  "Title": "assumenda",
+  "Description": "Secured encompassing hardware",
+  "Email": "tressa@dicki.biz",
+  "FullName": "Ms. Devante Gregory Barton PhD",
+  "DirectPhone": "1-777-453-3682 x12182",
+  "FormalName": "Buckridge-Jacobson",
+  "CountryId": 176,
+  "ContactId": 34,
+  "ContactName": "Spinka Inc and Sons",
+  "Retired": 498,
+  "Rank": 9,
+  "ActiveInterests": 709,
   "ContactDepartment": "",
-  "ContactCountryId": 664,
-  "ContactOrgNr": "994661",
-  "FaxPhone": "(314)710-1663 x26903",
-  "MobilePhone": "230-202-9006",
-  "ContactPhone": "794-048-1635",
-  "AssociateName": "Hills, Herman and Becker",
-  "AssociateId": 322,
-  "UsePersonAddress": false,
-  "ContactFax": "laboriosam",
-  "Kanafname": "quis",
-  "Kanalname": "ex",
-  "Post1": "recusandae",
-  "Post2": "eos",
-  "Post3": "ut",
-  "EmailName": "tevin@larkinwolff.co.uk",
-  "ContactFullName": "Glenda Littel",
-  "ActiveErpLinks": 556,
-  "TicketPriorityId": 717,
-  "SupportLanguageId": 522,
-  "SupportAssociateId": 613,
+  "ContactCountryId": 230,
+  "ContactOrgNr": "963847",
+  "FaxPhone": "(687)865-6904",
+  "MobilePhone": "1-117-449-1371 x28800",
+  "ContactPhone": "1-981-226-8182 x54752",
+  "AssociateName": "Leannon LLC",
+  "AssociateId": 755,
+  "UsePersonAddress": true,
+  "ContactFax": "cupiditate",
+  "Kanafname": "animi",
+  "Kanalname": "porro",
+  "Post1": "fugiat",
+  "Post2": "consequuntur",
+  "Post3": "blanditiis",
+  "EmailName": "lura@mckenziegreenholt.uk",
+  "ContactFullName": "Miss Shakira Trudie Price",
+  "ActiveErpLinks": 653,
+  "TicketPriorityId": 672,
+  "SupportLanguageId": 62,
+  "SupportAssociateId": 949,
   "CategoryName": "VIP Customer",
+  "PersonNumber": "1216731",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 517
     }
   }
 }

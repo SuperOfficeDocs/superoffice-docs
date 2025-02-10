@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Kirlin Group",
-  "AssociateId": 924,
-  "DetailsTable": 351,
-  "DetailsRecord": 471,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 255,
+  "Name": "Stark LLC",
+  "AssociateId": 112,
+  "DetailsTable": 850,
+  "DetailsRecord": 842,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "deleniti"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2009-10-16T13:13:23.1802042+02:00",
-  "Created": "2018-04-21T13:13:23.1802042+02:00",
-  "StartCount": 511,
-  "DatabaseSerialNumber": "1417642",
-  "Context": "dolorem",
-  "Result": "ducimus",
+  "LastStarted": "2006-12-11T12:01:27.9002891+01:00",
+  "Created": "2006-10-23T12:01:27.9002891+02:00",
+  "StartCount": 916,
+  "DatabaseSerialNumber": "1034684",
+  "Context": "fugiat",
+  "Result": "dolorem",
   "State": "All",
-  "Description": "Open-architected maximized moderator",
-  "Response": "debitis",
-  "Request": "dolorem",
-  "ProgressDescription": "Innovative assymetric collaboration",
-  "ProgressPercent": 84,
-  "FileName": "Hessel, Graham and Wisoky",
+  "Description": "Right-sized radical customer loyalty",
+  "Response": "autem",
+  "Request": "velit",
+  "ProgressDescription": "Open-architected human-resource focus group",
+  "ProgressPercent": 401,
+  "FileName": "Erdman, Grant and Gislason",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 121
     }
   }
 }

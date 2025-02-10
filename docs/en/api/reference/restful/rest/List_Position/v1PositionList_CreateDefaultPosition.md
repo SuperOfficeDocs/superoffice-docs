@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 373,
-  "Name": "Armstrong, Greenholt and Mertz",
-  "Tooltip": "pariatur",
+  "Id": 846,
+  "Name": "Trantow Group",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "UdListDefinitionId": 540,
-  "Rank": 182,
+  "UdListDefinitionId": 420,
+  "Rank": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

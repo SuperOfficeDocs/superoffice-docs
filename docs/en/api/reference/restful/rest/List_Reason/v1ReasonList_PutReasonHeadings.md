@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 871,
-    "Name": "Trantow, Rice and Lemke",
-    "Tooltip": "aliquid",
+    "HeadingId": 705,
+    "Name": "McCullough LLC",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 271,
-    "UdListDefinitionId": 879
+    "Rank": 800,
+    "UdListDefinitionId": 733
   },
   {
-    "HeadingId": 871,
-    "Name": "Trantow, Rice and Lemke",
-    "Tooltip": "aliquid",
+    "HeadingId": 705,
+    "Name": "McCullough LLC",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 271,
-    "UdListDefinitionId": 879
+    "Rank": 800,
+    "UdListDefinitionId": 733
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 754,
-    "Name": "Romaguera Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 62,
-    "UdListDefinitionId": 733,
+    "HeadingId": 857,
+    "Name": "Johnston-Breitenberg",
+    "Tooltip": "ipsum",
+    "Deleted": false,
+    "Rank": 988,
+    "UdListDefinitionId": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 808
       }
     }
   }

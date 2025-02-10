@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 97
+  "AssociateId": 79
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 920,
-    "ERPName": "Schmitt Group",
-    "DisplayName": "Willms, Runolfsdottir and Trantow",
-    "DisplayDescription": "Organized clear-thinking knowledge base",
-    "Rank": 574,
-    "ConnectorName": "Nolan Inc and Sons",
-    "ErpConnectionId": 510,
-    "ExtraData": "consequatur",
+    "QuoteConnectionId": 788,
+    "ERPName": "Durgan, Breitenberg and Nikolaus",
+    "DisplayName": "Davis-Trantow",
+    "DisplayDescription": "Customer-focused 4th generation productivity",
+    "Rank": 985,
+    "ConnectorName": "Lowe-Bashirian",
+    "ErpConnectionId": 760,
+    "ExtraData": "quo",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 68,
-        "ERPPriceListKey": "sequi",
-        "QuoteConnectionId": 456,
-        "Name": "Rutherford, Kutch and Zulauf",
-        "Description": "Implemented responsive frame",
-        "Currency": "molestias",
-        "CurrencyName": "Legros-Purdy",
-        "ValidFrom": "2015-07-23T13:13:23.7425716+02:00",
-        "ValidTo": "2007-04-28T13:13:23.7425716+02:00",
-        "IsActive": false,
+        "PriceListId": 143,
+        "ERPPriceListKey": "tenetur",
+        "QuoteConnectionId": 605,
+        "Name": "Marvin, Nicolas and Legros",
+        "Description": "Polarised dynamic complexity",
+        "Currency": "sit",
+        "CurrencyName": "Trantow-Reilly",
+        "ValidFrom": "2003-07-20T12:01:28.1971849+02:00",
+        "ValidTo": "2021-04-04T12:01:28.1971849+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 197
+            "FieldLength": 709
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      439,
-      760
+      767,
+      188
     ],
     "AssociateAccessIds": [
-      747,
-      513
+      998,
+      742
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

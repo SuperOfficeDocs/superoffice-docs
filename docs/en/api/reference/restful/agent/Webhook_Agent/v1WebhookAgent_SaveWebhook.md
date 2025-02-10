@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 942,
-  "Name": "Jones LLC",
+  "WebhookId": 815,
+  "Name": "Fadel Inc and Sons",
   "Events": [
-    "sit",
-    "nesciunt"
+    "delectus",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "perferendis",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "blanditiis",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "vel",
-    "Headers2": "veritatis"
+    "Headers1": "recusandae",
+    "Headers2": "dolorem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-07-17T13:13:24.5870773+02:00",
+  "Registered": "2022-01-26T12:01:28.6503413+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-06-16T13:13:24.5870773+02:00",
+  "Updated": "2021-07-13T12:01:28.6503413+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "catharine@rathjacobi.uk"
+  "ErrorsEmail": "amani@ryan.com"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 978,
-  "Name": "Ledner Inc and Sons",
+  "WebhookId": 372,
+  "Name": "Torp LLC",
   "Events": [
-    "ut",
-    "culpa"
+    "qui",
+    "ex"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "dolore",
   "State": "Active",
-  "Type": "earum",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "pariatur",
-    "Headers2": "non"
+    "Headers1": "omnis",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-11-24T13:13:24.5870773+01:00",
+  "Registered": "2023-06-16T12:01:28.6503413+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-04-28T13:13:24.5870773+02:00",
+  "Updated": "2000-11-02T12:01:28.6503413+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "audra.nitzsche@bosco.ca"
+  "ErrorsEmail": "brayan@franeckirohan.ca"
 }
 ```

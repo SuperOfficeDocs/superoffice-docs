@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 30,
-  "Name": "Beahan-Mitchell",
-  "Tooltip": "cumque",
-  "Rank": 313,
+  "SaleTypeId": 949,
+  "Name": "Cruickshank-Klocko",
+  "Tooltip": "provident",
+  "Rank": 262,
   "DurationUnit": "Century",
-  "SaleDuration": 323,
-  "SaleTypeCatId": 936,
-  "Deleted": false,
+  "SaleDuration": 764,
+  "SaleTypeCatId": 969,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 306,
-  "QuoteLinesTemplate": 463,
-  "ConfirmationLinesTemplate": 233,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 262,
+  "QuoteLinesTemplate": 445,
+  "ConfirmationLinesTemplate": 101,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 53,
-  "MinEarningPercent": 809,
-  "GroupQuoteLinesBy": 210,
-  "SortGroupLinesBy": 863,
+  "MaxDiscountPercent": 424,
+  "MinEarningPercent": 876,
+  "GroupQuoteLinesBy": 897,
+  "SortGroupLinesBy": 894,
   "Stages": [
     {
-      "Id": 174,
-      "Name": "Mitchell-Christiansen",
-      "ToolTip": "Totam recusandae deserunt illo.",
-      "Deleted": true,
-      "Rank": 358,
-      "Type": "magnam",
-      "ColorBlock": 198,
-      "IconHint": "aliquam",
+      "Id": 579,
+      "Name": "Stark Group",
+      "ToolTip": "Quia esse id illo.",
+      "Deleted": false,
+      "Rank": 998,
+      "Type": "aut",
+      "ColorBlock": 137,
+      "IconHint": "maiores",
       "Selected": false,
-      "LastChanged": "2007-10-23T13:13:33.5578902+02:00",
+      "LastChanged": "2007-09-06T12:01:33.6519877+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "vero",
-      "Hidden": false,
-      "FullName": "Chadrick Padberg",
+      "ExtraInfo": "velit",
+      "StyleHint": "quos",
+      "Hidden": true,
+      "FullName": "Earnest Medhurst",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 646
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

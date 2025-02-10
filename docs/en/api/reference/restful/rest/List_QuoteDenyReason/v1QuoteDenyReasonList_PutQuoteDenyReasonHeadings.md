@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Harvey-Keebler",
-    "Tooltip": "ipsa",
+    "HeadingId": 48,
+    "Name": "Johnson-Quitzon",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 849
+    "Rank": 558,
+    "UdListDefinitionId": 184
   },
   {
-    "HeadingId": 694,
-    "Name": "Harvey-Keebler",
-    "Tooltip": "ipsa",
+    "HeadingId": 48,
+    "Name": "Johnson-Quitzon",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 702,
-    "UdListDefinitionId": 849
+    "Rank": 558,
+    "UdListDefinitionId": 184
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 634,
-    "Name": "Zemlak LLC",
-    "Tooltip": "facilis",
+    "HeadingId": 722,
+    "Name": "Orn Inc and Sons",
+    "Tooltip": "odio",
     "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 206,
+    "Rank": 874,
+    "UdListDefinitionId": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 480
       }
     }
   }

@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 239,
-  "Name": "Greenholt LLC",
+  "ScreenChooserId": 220,
+  "Name": "Parisian-Davis",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "atque",
-  "Source": "corporis",
-  "Registered": "2021-04-12T13:13:32.5111102+02:00",
-  "RegisteredAssociateId": 579,
-  "Updated": "1999-08-01T13:13:32.5111102+02:00",
-  "UpdatedAssociateId": 312
+  "UniqueIdentifier": "ratione",
+  "Source": "saepe",
+  "Registered": "2021-12-01T12:01:33.2925881+01:00",
+  "RegisteredAssociateId": 562,
+  "Updated": "2011-01-09T12:01:33.2925881+01:00",
+  "UpdatedAssociateId": 299
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 699,
-  "Name": "Kessler LLC",
+  "ScreenChooserId": 629,
+  "Name": "Durgan-Murray",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sit",
-  "Source": "blanditiis",
-  "Registered": "2013-06-05T13:13:32.5111102+02:00",
-  "RegisteredAssociateId": 483,
-  "Updated": "2013-03-01T13:13:32.5111102+01:00",
-  "UpdatedAssociateId": 663,
+  "Enabled": true,
+  "UniqueIdentifier": "eveniet",
+  "Source": "magnam",
+  "Registered": "2014-01-23T12:01:33.2925881+01:00",
+  "RegisteredAssociateId": 113,
+  "Updated": "2001-07-28T12:01:33.2925881+02:00",
+  "UpdatedAssociateId": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldLength": 560
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

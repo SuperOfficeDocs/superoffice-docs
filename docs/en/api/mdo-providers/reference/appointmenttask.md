@@ -17,6 +17,13 @@ specialized icons based on the <see cref="T:SuperOffice.Data.TaskType" />.
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentTaskProvider">AppointmentTaskProvider</see> class.
 The name of the MDO list is 'appointmenttask'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Set to true to get icon hints in format diary_color_<colorIndex>| colorIconHints|false|
+
+
 
 
 

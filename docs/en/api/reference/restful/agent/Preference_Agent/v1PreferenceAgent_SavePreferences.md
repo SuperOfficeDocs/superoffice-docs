@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "autem",
+      "RawValue": "aspernatur",
       "Specification": null,
-      "DisplayValue": "consequatur",
-      "DisplayTooltip": "non",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 460,
-      "PrefDescId": 360,
-      "TableName": "Predovic, Jakubowski and Braun",
-      "UserPreferenceId": 925
+      "TargetId": 601,
+      "PrefDescId": 851,
+      "TableName": "Haley-Keeling",
+      "UserPreferenceId": 661
     }
   ]
 }

@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 692
+  "TicketEntityId": 332
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 31,
-    "Name": "Prosacco-Little",
-    "ContentType": "voluptatum",
-    "AttSize": 184,
-    "InlineImage": false,
-    "ContentId": "porro",
-    "AuthKey": "ut",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 329,
+    "Name": "Greenfelder-Schneider",
+    "ContentType": "et",
+    "AttSize": 993,
+    "InlineImage": true,
+    "ContentId": "illum",
+    "AuthKey": "veniam",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 172
       }
     }
   }

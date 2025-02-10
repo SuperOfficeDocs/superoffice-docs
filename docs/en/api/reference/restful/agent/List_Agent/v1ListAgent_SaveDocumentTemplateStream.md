@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 221,
+  "DocumentTemplateId": 211,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "molestias",
-  "PluginId": 63
+  "LanguageCode": "ullam",
+  "PluginId": 969
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cormier-Lesch",
-  "Description": "Ameliorated stable architecture",
-  "ExternalReference": "suscipit",
-  "MimeType": "cumque",
-  "PluginId": 505
+  "Name": "Hartmann-Treutel",
+  "Description": "Stand-alone zero administration concept",
+  "ExternalReference": "et",
+  "MimeType": "illo",
+  "PluginId": 844
 }
 ```

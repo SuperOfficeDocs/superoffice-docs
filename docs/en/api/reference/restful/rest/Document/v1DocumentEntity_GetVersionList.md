@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "sapiente",
-    "DocumentId": 540,
-    "VersionId": "et",
-    "CheckedInDate": "2023-08-27T13:13:31.714487+02:00",
-    "CheckedInByName": "McKenzie-Gibson",
-    "CheckedInByAssociateId": 340,
-    "Description": "Assimilated mobile throughput",
-    "DisplayText": "quos",
+    "ExternalReference": "ut",
+    "DocumentId": 199,
+    "VersionId": "eligendi",
+    "CheckedInDate": "1998-02-24T12:01:32.9019357+01:00",
+    "CheckedInByName": "Shanahan-Pouros",
+    "CheckedInByAssociateId": 977,
+    "Description": "Cross-platform demand-driven circuit",
+    "DisplayText": "vel",
     "ExtraFields": [
-      "ipsa",
-      "est"
+      "voluptas",
+      "molestiae"
     ]
   }
 ]

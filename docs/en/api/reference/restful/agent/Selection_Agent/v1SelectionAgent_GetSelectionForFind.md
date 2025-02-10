@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Prohaska Inc and Sons",
-  "TypicalSearchId": 792
+  "EntityName": "Olson-Powlowski",
+  "TypicalSearchId": 694
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cormier-Schmeler",
-  "SelectionId": 392,
-  "CanSaveAsSelection": true,
-  "MainHeading": "enim",
-  "FilterScreenHeading": "nihil",
-  "SelectionEntityHeading": "id",
+  "ProviderName": "Cronin-Sporer",
+  "SelectionId": 450,
+  "CanSaveAsSelection": false,
+  "MainHeading": "et",
+  "FilterScreenHeading": "quis",
+  "SelectionEntityHeading": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 78
     }
   }
 }

@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 875,
-  "SaleId": 557,
+  "SuggestedAppointmentId": 71,
+  "SaleId": 782,
   "CreateNow": false,
-  "OwnerId": 53
+  "OwnerId": 756
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-08-19T13:13:21.9614977+02:00",
-  "AppointmentId": 776,
-  "Description": "Object-based didactic synergy",
-  "Title": "unde",
-  "Agenda": "expedita",
-  "InternalNotes": "qui",
-  "StartDate": "2024-09-18T13:13:21.9614977+02:00",
-  "EndDate": "2015-03-08T13:13:21.9614977+01:00",
+  "CreatedDate": "2023-05-05T12:01:27.2596193+02:00",
+  "AppointmentId": 829,
+  "Description": "Phased disintermediate neural-net",
+  "Title": "esse",
+  "Agenda": "voluptatem",
+  "InternalNotes": "ab",
+  "StartDate": "2016-06-03T12:01:27.2596193+02:00",
+  "EndDate": "2005-08-02T12:01:27.2596193+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 683,
+  "MotherId": 960,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-01-19T13:13:21.9614977+01:00",
+  "UpdatedDate": "2003-07-19T12:01:27.2596193+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 904,
+  "ActiveLinks": 323,
   "Links": [
     {
-      "EntityName": "Auer LLC",
-      "Id": 885,
-      "Description": "Assimilated systematic methodology",
-      "ExtraInfo": "et",
-      "LinkId": 843,
+      "EntityName": "Hane-Brekke",
+      "Id": 515,
+      "Description": "Open-architected system-worthy software",
+      "ExtraInfo": "at",
+      "LinkId": 667,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldLength": 144
         }
       }
     }
   ],
-  "AlarmLeadTime": "quas",
-  "HasAlarm": true,
-  "ColorIndex": 514,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "error",
-  "LeadTime": "nesciunt",
-  "Location": "qui",
-  "RejectCounter": 463,
-  "RejectReason": "synthesize revolutionary e-commerce",
+  "AlarmLeadTime": "sapiente",
+  "HasAlarm": false,
+  "ColorIndex": 273,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "sunt",
+  "LeadTime": "qui",
+  "Location": "vitae",
+  "RejectCounter": 89,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 261,
-      "PersonId": 236,
-      "ContactId": 849,
-      "EmailId": 305,
-      "SendEmail": false,
+      "AssociateId": 560,
+      "PersonId": 612,
+      "ContactId": 545,
+      "EmailId": 601,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "marilie@abbott.ca",
-      "Description": "Multi-tiered cohesive process improvement"
+      "EmailAddress": "meghan.okeefe@watsica.co.uk",
+      "Description": "Realigned multimedia help-desk"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-10-04T13:13:21.9614977+02:00",
+  "ActiveDate": "2004-05-24T12:01:27.2596193+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 435,
+  "PreferredTZLocation": 724,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 490,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 57,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sunt",
+  "CentralserviceVideomeetId": "recusandae",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Armando Gerhold DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Noel Xander Pfeffer V",
+    "SuperOffice:2": "Miss Mckenna Terry Lynch"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "ab"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "nostrum"
   },
-  "PublishEventDate": "2024-01-21T13:13:21.9614977+01:00",
-  "PublishTo": "2005-08-01T13:13:21.9614977+02:00",
-  "PublishFrom": "2010-02-28T13:13:21.9614977+01:00",
+  "PublishEventDate": "2018-08-22T12:01:27.2596193+02:00",
+  "PublishTo": "2016-03-21T12:01:27.2596193+01:00",
+  "PublishFrom": "2020-10-06T12:01:27.2596193+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 63,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 219
         }
       }
     },
     {
-      "VisibleId": 63,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 219
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

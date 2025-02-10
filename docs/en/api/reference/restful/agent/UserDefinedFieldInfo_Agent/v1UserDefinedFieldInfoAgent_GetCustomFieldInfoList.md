@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schaden-Auer",
+  "TableName": "Shanahan, Moen and Boehm",
   "IncludeStandard": true
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nienow-Auer",
-    "DisplayName": "Stamm LLC",
-    "Description": "Organic upward-trending functionalities",
-    "ShortLabel": "quibusdam",
+    "FieldName": "Purdy Group",
+    "DisplayName": "Bartell, Wolff and Treutel",
+    "Description": "Future-proofed optimal collaboration",
+    "ShortLabel": "aut",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 839,
-    "TemplateVariableName": "Gerhold-Schmeler"
+    "Rank": 403,
+    "TemplateVariableName": "Prosacco LLC"
   }
 ]
 ```

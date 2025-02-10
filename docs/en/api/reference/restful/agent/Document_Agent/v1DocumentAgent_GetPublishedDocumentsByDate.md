@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 393,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2009-07-06T13:13:22.5863494+02:00",
-  "EndTime": "2015-04-15T13:13:22.5863494+02:00",
-  "Count": 576
+  "PersonId": 364,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2018-05-20T12:01:27.5877684+02:00",
+  "EndTime": "2000-03-19T12:01:27.5877684+01:00",
+  "Count": 314
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 787,
-    "Attention": "quo",
-    "Header": "optio",
-    "Name": "Stroman-Boehm",
-    "OurRef": "error",
-    "YourRef": "dolorum",
-    "Description": "Grass-roots multi-tasking info-mediaries",
-    "DocumentTemplate": "sit",
+    "DocumentId": 763,
+    "Attention": "non",
+    "Header": "consectetur",
+    "Name": "Tremblay Group",
+    "OurRef": "quia",
+    "YourRef": "quae",
+    "Description": "Profit-focused methodical interface",
+    "DocumentTemplate": "soluta",
     "IsPublished": false,
-    "PersonId": 69,
-    "PersonFullName": "Ofelia Legros",
-    "AssociateFullName": "Prof. Madisyn Hilll DDS",
-    "ContactId": 308,
-    "ContactName": "Ritchie-Bogisich",
-    "ProjectId": 769,
-    "ProjectName": "O'Connell Inc and Sons",
-    "AssociateId": 499,
-    "Snum": 931,
-    "SaleId": 734,
-    "SaleName": "Rice, Roberts and Cruickshank",
+    "PersonId": 667,
+    "PersonFullName": "Mrs. Laisha Edison Kohler I",
+    "AssociateFullName": "Marty Hintz",
+    "ContactId": 605,
+    "ContactName": "Kihn-Turner",
+    "ProjectId": 168,
+    "ProjectName": "Bashirian Group",
+    "AssociateId": 580,
+    "Snum": 250,
+    "SaleId": 530,
+    "SaleName": "Bartell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 540
       }
     }
   }

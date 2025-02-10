@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 214,
-  "Name": "VonRueden-Ledner",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "UdListDefinitionId": 118,
-  "Rank": 387,
+  "Id": 822,
+  "Name": "Weimann LLC",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "UdListDefinitionId": 581,
+  "Rank": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "omnis",
-  "To": "iste",
-  "Subject": "alias",
-  "PlainBody": "eveniet",
-  "HtmlBody": "illum",
+  "From": "numquam",
+  "To": "quia",
+  "Subject": "qui",
+  "PlainBody": "enim",
+  "HtmlBody": "omnis",
   "AttachmentIds": [
-    168,
-    533
+    4,
+    244
   ],
-  "EventName": "Mertz Inc and Sons"
+  "EventName": "Kirlin-Dach"
 }
 ```
 

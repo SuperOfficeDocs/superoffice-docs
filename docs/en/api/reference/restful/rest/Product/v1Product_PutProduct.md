@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 555,
-  "ERPProductKey": "nihil",
-  "ERPPriceListKey": "nobis",
-  "Name": "Hilll, Spinka and Klocko",
-  "Description": "Sharable attitude-oriented capacity",
-  "Code": "temporibus",
-  "PriceUnit": "aut",
-  "QuantityUnit": "ut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatum",
-  "DefaultSubscriptionQuantity": 16948.672,
-  "ItemNumber": "1430403",
+  "ProductId": 785,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "fugiat",
+  "Name": "Bernhard Inc and Sons",
+  "Description": "Sharable full-range data-warehouse",
+  "Code": "libero",
+  "PriceUnit": "in",
+  "QuantityUnit": "earum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 15811.029999999999,
+  "ItemNumber": "1605998",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quisquam",
-  "ProductTypeKey": "quos",
-  "VAT": 11341.946,
-  "VATInfo": "quasi",
-  "UnitCost": 24065.986,
-  "UnitMinimumPrice": 17077.166,
-  "UnitListPrice": 16538.118,
+  "ProductFamilyKey": "cupiditate",
+  "ProductTypeKey": "tenetur",
+  "VAT": 4121.21,
+  "VATInfo": "molestias",
+  "UnitCost": 1823.9879999999998,
+  "UnitMinimumPrice": 14018.382,
+  "UnitListPrice": 21809.505999999998,
   "InAssortment": false,
-  "Supplier": "soluta",
-  "SupplierCode": "ut",
-  "Rights": "sunt",
-  "Rule": "vel",
+  "Supplier": "quos",
+  "SupplierCode": "aliquid",
+  "Rights": "omnis",
+  "Rule": "illum",
   "ExtraInfo": [
     {
-      "Name": "Sauer, Donnelly and Kuphal",
-      "Value": "omnis",
+      "Name": "Leannon-Lindgren",
+      "Value": "vitae",
       "Type": "Image"
     },
     {
-      "Name": "Sauer, Donnelly and Kuphal",
-      "Value": "omnis",
+      "Name": "Leannon-Lindgren",
+      "Value": "vitae",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "ex",
-  "ExtraField3": "ea",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "reprehenderit",
-  "InStock": 30543.964
+  "RawExtraInfo": "fugiat",
+  "ExtraField1": "architecto",
+  "ExtraField2": "quia",
+  "ExtraField3": "atque",
+  "ExtraField4": "dolore",
+  "ExtraField5": "consequatur",
+  "InStock": 28845.336
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 338,
-  "ERPProductKey": "doloribus",
-  "ERPPriceListKey": "est",
-  "Name": "D'Amore-Ebert",
-  "Description": "Ergonomic tangible structure",
-  "Code": "modi",
-  "PriceUnit": "incidunt",
-  "QuantityUnit": "vel",
+  "ProductId": 36,
+  "ERPProductKey": "sunt",
+  "ERPPriceListKey": "facilis",
+  "Name": "Abshire Group",
+  "Description": "Open-architected content-based pricing structure",
+  "Code": "velit",
+  "PriceUnit": "at",
+  "QuantityUnit": "cupiditate",
   "IsSubscription": true,
-  "SubscriptionUnit": "debitis",
-  "DefaultSubscriptionQuantity": 23862.275999999998,
-  "ItemNumber": "1683087",
+  "SubscriptionUnit": "cupiditate",
+  "DefaultSubscriptionQuantity": 6581.4,
+  "ItemNumber": "1246578",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "aperiam",
-  "VAT": 5070.812,
-  "VATInfo": "minima",
-  "UnitCost": 10461.292,
-  "UnitMinimumPrice": 17246.402,
-  "UnitListPrice": 4854.566,
+  "ProductFamilyKey": "quibusdam",
+  "ProductTypeKey": "illum",
+  "VAT": 6781.976,
+  "VATInfo": "ipsum",
+  "UnitCost": 25172.288,
+  "UnitMinimumPrice": 25338.39,
+  "UnitListPrice": 20837.966,
   "InAssortment": false,
-  "Supplier": "quasi",
-  "SupplierCode": "expedita",
-  "Rights": "repudiandae",
-  "Rule": "deserunt",
+  "Supplier": "nostrum",
+  "SupplierCode": "fugiat",
+  "Rights": "ullam",
+  "Rule": "rem",
   "ExtraInfo": [
     {
-      "Name": "Mayer-Kirlin",
-      "Value": "asperiores",
+      "Name": "Rowe-Fay",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 734
         }
       }
     },
     {
-      "Name": "Mayer-Kirlin",
-      "Value": "asperiores",
+      "Name": "Rowe-Fay",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 734
         }
       }
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "fugit",
-  "ExtraField2": "et",
-  "ExtraField3": "adipisci",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "officiis",
-  "InStock": 31296.124,
+  "RawExtraInfo": "optio",
+  "ExtraField1": "sunt",
+  "ExtraField2": "quaerat",
+  "ExtraField3": "eum",
+  "ExtraField4": "et",
+  "ExtraField5": "vero",
+  "InStock": 16215.315999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldLength": 30
     }
   }
 }

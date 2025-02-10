@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 425,
-  "Name": "King Group",
-  "Tooltip": "non",
+  "WebPanelId": 387,
+  "Name": "Boyle-Buckridge",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 953,
+  "Rank": 421,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hauck, Harber and Barton",
+  "WindowName": "Wolff-Weissnat",
   "Url": "http://www.example.com/",
-  "ProgId": "ab",
-  "Icon": 100,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "ut",
+  "Icon": 5,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 928,
-  "Name": "Bahringer-Pfannerstill",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "Rank": 678,
+  "WebPanelId": 173,
+  "Name": "Abshire, Leuschke and Johns",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 916,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Konopelski-Lesch",
+  "ShowInStatusBar": true,
+  "WindowName": "D'Amore-Larson",
   "Url": "http://www.example.com/",
-  "ProgId": "in",
-  "Icon": 471,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "illum",
+  "Icon": 173,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 363
     }
   }
 }

@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquid",
-  "ProviderName": "Rutherford Inc and Sons",
-  "StorageKey": "aperiam",
-  "PageSize": 56,
-  "PageNumber": 675,
-  "OrderBy": "dolor"
+  "StorageType": "aut",
+  "ProviderName": "Bayer-Roob",
+  "StorageKey": "aliquid",
+  "PageSize": 51,
+  "PageNumber": 416,
+  "OrderBy": "et"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hegmann-Gibson",
-      "DisplayTooltip": "et",
-      "DisplayType": "nam",
+      "DisplayName": "Jakubowski, Keeling and Ratke",
+      "DisplayTooltip": "minima",
+      "DisplayType": "officiis",
       "CanOrderBy": false,
-      "Name": "Jones, Volkman and Dickinson",
+      "Name": "Zboncak LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "numquam",
-      "RestrictionListName": "Braun, Ebert and Legros",
-      "IsVisible": true,
-      "ExtraInfo": "facere",
-      "Width": "consequuntur",
-      "IconHint": "nisi",
-      "HeadingIconHint": "repellendus"
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Reinger-Wolff",
+      "IsVisible": false,
+      "ExtraInfo": "voluptatem",
+      "Width": "eos",
+      "IconHint": "laborum",
+      "HeadingIconHint": "temporibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lynch Inc and Sons",
-      "PrimaryKey": 325,
+      "EntityName": "Hickle-Rempel",
+      "PrimaryKey": 855,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "similique",
-          "LinkHint": "aspernatur"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "eos",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "voluptatem",
+      "LinkHint": "a",
+      "StyleHint": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 514
+          "FieldType": "System.Int32",
+          "FieldLength": 706
         }
       }
     }
   ],
-  "RowCount": 628,
+  "RowCount": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldLength": 746
     }
   }
 }

@@ -65,7 +65,8 @@ The name of the MDO list is 'emailphone'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Only sms loaded| phoneOnly|False|
+|Only phone numbers are searched| phoneOnly|False|
+|Operator used for search. Available values: 'contains', 'startsWith'. Default value is 'contains'.| operator|contains|
 
 
 

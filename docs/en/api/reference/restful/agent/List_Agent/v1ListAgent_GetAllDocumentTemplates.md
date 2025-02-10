@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 181,
-    "Name": "Morar-Willms",
-    "Tooltip": "adipisci",
-    "SaveInDb": 217,
-    "Filename": "fugit",
-    "DefaultOref": "excepturi",
+    "DocumentTemplateId": 674,
+    "Name": "Hayes, Fisher and Weissnat",
+    "Tooltip": "illum",
+    "SaveInDb": 588,
+    "Filename": "nesciunt",
+    "DefaultOref": "nulla",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 152,
-    "IntentId": 82,
+    "AutoeventId": 323,
+    "IntentId": 585,
     "IsDefaultPublished": false,
-    "Rank": 324,
-    "LoadTemplateFromPlugin": 32,
-    "MimeType": "sequi",
+    "Rank": 907,
+    "LoadTemplateFromPlugin": 367,
+    "MimeType": "sit",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 847,
+    "DocumentTypeKey": 753,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "emilio_smith@hand.us",
-    "IncludeSignature": true,
+    "EmailSubject": "cleo_franecki@maggiokoelpin.uk",
+    "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "katarina@macejkovic.name",
+    "SenderEmailAddress": "erich_davis@stanton.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldLength": 631
       }
     }
   }

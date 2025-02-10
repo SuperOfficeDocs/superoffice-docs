@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 457
+  "ContactId": 995
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 23871.678,
-  "Wgs84Longitude": 4143.148,
+  "Wgs84Latitude": 22430.038,
+  "Wgs84Longitude": 18446.724,
   "LocalizedAddress": [
     [
       {
-        "Name": "Mertz Group",
-        "Value": "dolorem",
-        "Tooltip": "dolore",
-        "Label": "vero",
-        "ValueLength": 974,
-        "AddressType": "nostrum",
+        "Name": "Rohan LLC",
+        "Value": "tempore",
+        "Tooltip": "cupiditate",
+        "Label": "quod",
+        "ValueLength": 519,
+        "AddressType": "laudantium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 979
+            "FieldType": "System.Int32",
+            "FieldLength": 575
           }
         }
       }
     ],
     [
       {
-        "Name": "Graham, Emmerich and Sawayn",
-        "Value": "tenetur",
-        "Tooltip": "assumenda",
-        "Label": "dolor",
-        "ValueLength": 347,
-        "AddressType": "nisi",
+        "Name": "Klocko, Nader and Huel",
+        "Value": "natus",
+        "Tooltip": "molestiae",
+        "Label": "recusandae",
+        "ValueLength": 762,
+        "AddressType": "autem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 914
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "iste",
+  "Formatted": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }
