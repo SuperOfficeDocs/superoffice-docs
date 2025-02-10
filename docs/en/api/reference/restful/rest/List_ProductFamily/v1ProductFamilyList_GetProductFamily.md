@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Botsford Inc and Sons",
-  "Tooltip": "praesentium",
+  "Id": 811,
+  "Name": "Schiller, Swaniawski and Pfeffer",
+  "Tooltip": "itaque",
   "Deleted": true,
-  "UdListDefinitionId": 480,
-  "Rank": 449,
+  "UdListDefinitionId": 867,
+  "Rank": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 716
     }
   }
 }

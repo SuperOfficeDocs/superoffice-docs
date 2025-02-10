@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 11,
-  "ERPName": "Bartell Group",
-  "DisplayName": "Kunze-Ziemann",
-  "DisplayDescription": "Customer-focused uniform projection",
-  "Rank": 299,
-  "ConnectorName": "Braun-Wiegand",
-  "ErpConnectionId": 887,
-  "ExtraData": "tenetur",
-  "IsAvailable": false,
+  "QuoteConnectionId": 70,
+  "ERPName": "Greenholt, Toy and Wiza",
+  "DisplayName": "Daniel Inc and Sons",
+  "DisplayDescription": "Configurable national alliance",
+  "Rank": 337,
+  "ConnectorName": "Shields LLC",
+  "ErpConnectionId": 770,
+  "ExtraData": "quo",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 413,
-      "ERPPriceListKey": "quam",
-      "QuoteConnectionId": 550,
-      "Name": "Thiel-Carter",
-      "Description": "Synergized bandwidth-monitored strategy",
-      "Currency": "et",
-      "CurrencyName": "Gulgowski, Keeling and Smith",
-      "ValidFrom": "2007-02-08T13:13:23.7425716+01:00",
-      "ValidTo": "2016-06-08T13:13:23.7425716+02:00",
-      "IsActive": true,
+      "PriceListId": 844,
+      "ERPPriceListKey": "voluptatem",
+      "QuoteConnectionId": 959,
+      "Name": "Moore LLC",
+      "Description": "Secured grid-enabled workforce",
+      "Currency": "mollitia",
+      "CurrencyName": "Fahey, Johnston and Walsh",
+      "ValidFrom": "2012-06-17T12:01:28.1971849+02:00",
+      "ValidTo": "1997-12-18T12:01:28.1971849+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 893
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    876,
-    908
+    459,
+    871
   ],
   "AssociateAccessIds": [
-    521,
-    499
+    648,
+    859
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 670
     }
   }
 }

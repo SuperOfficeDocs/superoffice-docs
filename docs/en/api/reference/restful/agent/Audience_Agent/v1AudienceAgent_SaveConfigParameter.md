@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Aufderhar Group",
+  "LayoutName": "Lindgren, Halvorson and Ernser",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 212,
-  "Name": "Goyette, Corkery and Frami",
-  "Value": "rerum",
-  "CreatedDate": "2008-02-17T13:13:22.1177118+01:00",
-  "UpdatedDate": "2005-01-14T13:13:22.1177118+01:00",
-  "CreatedBy": "nulla",
-  "UpdatedBy": "voluptatem",
+  "AudienceLayoutId": 830,
+  "Name": "Bahringer Group",
+  "Value": "voluptatibus",
+  "CreatedDate": "2022-02-04T12:01:27.3377499+01:00",
+  "UpdatedDate": "2021-07-07T12:01:27.3377499+02:00",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 829
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Lemke, Conroy and Bauch",
-    "ToolTip": "Maxime corrupti quia consequatur.",
+    "Id": 239,
+    "Name": "Harber Inc and Sons",
+    "ToolTip": "Amet a similique enim ut molestiae et illum.",
     "Deleted": false,
-    "Rank": 67,
-    "Type": "optio",
-    "ColorBlock": 370,
-    "IconHint": "eveniet",
+    "Rank": 827,
+    "Type": "hic",
+    "ColorBlock": 550,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2019-02-11T13:13:32.7924497+01:00",
+    "LastChanged": "2017-02-25T12:01:33.4175965+01:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Hodkiewicz-Kutch",
-        "ToolTip": "Voluptas quaerat deleniti non ut ut reiciendis sed.",
-        "Deleted": false,
-        "Rank": 552,
-        "Type": "molestiae",
-        "ColorBlock": 873,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2016-06-01T13:13:32.7924497+02:00",
+        "Id": 287,
+        "Name": "Tremblay LLC",
+        "ToolTip": "Aliquam nemo.",
+        "Deleted": true,
+        "Rank": 487,
+        "Type": "aut",
+        "ColorBlock": 309,
+        "IconHint": "at",
+        "Selected": false,
+        "LastChanged": "2019-01-12T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "nobis",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mr. Lois Darlene Tremblay V"
+        "FullName": "Ryley Klein"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Mrs. Milton Beer"
+    "ExtraInfo": "velit",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Wyatt Nicolas"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Kassulke LLC",
-    "ToolTip": "Eum quis non est.",
-    "Deleted": true,
-    "Rank": 822,
-    "Type": "veniam",
-    "ColorBlock": 831,
-    "IconHint": "animi",
+    "Id": 97,
+    "Name": "Braun, Stroman and Leannon",
+    "ToolTip": "Rerum et laudantium dignissimos.",
+    "Deleted": false,
+    "Rank": 175,
+    "Type": "qui",
+    "ColorBlock": 116,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2021-04-18T13:13:32.7924497+02:00",
+    "LastChanged": "2021-03-15T12:01:33.4175965+01:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Bergnaum Group",
-        "ToolTip": "Hic quam quia ipsam ipsum ad esse.",
-        "Deleted": false,
-        "Rank": 761,
-        "Type": "mollitia",
-        "ColorBlock": 549,
-        "IconHint": "nihil",
+        "Id": 293,
+        "Name": "Mohr, Glover and Gerhold",
+        "ToolTip": "Voluptatum ratione delectus deserunt quisquam quas dolorem quis.",
+        "Deleted": true,
+        "Rank": 486,
+        "Type": "expedita",
+        "ColorBlock": 839,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-08-10T13:13:32.7924497+02:00",
+        "LastChanged": "2009-12-24T12:01:33.4175965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "ut",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Dusty Kreiger",
+        "FullName": "Jaylan Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "est",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Mrs. Bernice Kuhlman V",
+    "FullName": "Briana Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

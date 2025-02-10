@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 236
+  "QuoteVersionId": 288
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 776,
-    "ERPQuoteAlternativeKey": "consequuntur",
-    "QuoteVersionId": 398,
-    "Name": "Graham Group",
-    "Description": "Multi-lateral reciprocal model",
+    "QuoteAlternativeId": 205,
+    "ERPQuoteAlternativeKey": "deleniti",
+    "QuoteVersionId": 147,
+    "Name": "Huels-Pagac",
+    "Description": "Customizable impactful instruction set",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 6045.486,
-    "ERPDiscountAmount": 22201.255999999998,
-    "DiscountPercent": 2422.582,
-    "DiscountAmount": 28879.809999999998,
+    "ERPDiscountPercent": 8530.748,
+    "ERPDiscountAmount": 739.624,
+    "DiscountPercent": 12382.434,
+    "DiscountAmount": 1219.126,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "et",
-    "VAT": 12028.292,
-    "EarningPercent": 16171.439999999999,
-    "EarningAmount": 26215.91,
-    "SubTotal": 6029.816,
-    "TotalPrice": 16522.448,
-    "ExtraField1": "repellendus",
-    "ExtraField2": "totam",
-    "ExtraField3": "facere",
-    "ExtraField4": "laborum",
-    "ExtraField5": "deleniti",
+    "VATInfo": "minus",
+    "VAT": 3428.596,
+    "EarningPercent": 8574.624,
+    "EarningAmount": 29531.682,
+    "SubTotal": 2466.458,
+    "TotalPrice": 7280.282,
+    "ExtraField1": "tempore",
+    "ExtraField2": "illum",
+    "ExtraField3": "eos",
+    "ExtraField4": "rerum",
+    "ExtraField5": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 246
       }
     }
   }

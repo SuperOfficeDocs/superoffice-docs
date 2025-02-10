@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "assumenda",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "assumenda",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 318,
-  "SourcePersonId": 759,
-  "DestinationContactId": 569,
-  "DestinationPersonId": 115,
-  "RelationId": 466,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 161,
-  "Reversed": 311,
-  "UpdatedDate": "2010-12-13T13:13:31.605139+01:00",
-  "CreatedDate": "2000-10-26T13:13:31.605139+02:00",
+  "SourceContactId": 462,
+  "SourcePersonId": 552,
+  "DestinationContactId": 430,
+  "DestinationPersonId": 575,
+  "RelationId": 2,
+  "Comment": "error",
+  "RelationDefinitionId": 954,
+  "Reversed": 988,
+  "UpdatedDate": "2022-02-18T12:01:32.8394314+01:00",
+  "CreatedDate": "2001-06-10T12:01:32.8394314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pouros Group",
-  "SourcePersonName": "Cummings-Cronin",
-  "DestinationContactName": "Berge-Herzog",
-  "DestinationPersonName": "Bednar-Glover",
-  "ActiveText": "quidem",
-  "PassiveText": "aliquam",
+  "SourceContactName": "Krajcik, Kuhic and Pouros",
+  "SourcePersonName": "Schuppe-Beahan",
+  "DestinationContactName": "Bogisich-Stamm",
+  "DestinationPersonName": "Hilpert LLC",
+  "ActiveText": "natus",
+  "PassiveText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   },
   "_Links": {

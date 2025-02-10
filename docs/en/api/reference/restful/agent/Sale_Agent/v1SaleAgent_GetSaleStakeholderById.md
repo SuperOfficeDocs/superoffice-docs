@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    93,
-    265
+    114,
+    560
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Sawayn, Nolan and Nitzsche",
-    "Comment": "maxime",
-    "StakeholderRoleId": 99,
-    "CountryId": 972,
-    "PersonId": 832,
-    "EmailDescription": "litzy@friesen.biz",
-    "EmailId": 571,
-    "EmailAddress": "marcelino@goldner.info",
-    "PhoneId": 245,
-    "ContactName": "Harvey, Weissnat and Beahan",
-    "ContactId": 425,
-    "SaleId": 45,
-    "Mrmrs": "error",
-    "Firstname": "Brent",
-    "MiddleName": "Thiel, Shanahan and Jacobs",
-    "Lastname": "Wiegand",
-    "SaleStakeholderId": 528,
-    "Rank": 80,
-    "Phone": "(540)233-8421",
+    "StakeholderRoleName": "Labadie Inc and Sons",
+    "Comment": "a",
+    "StakeholderRoleId": 116,
+    "CountryId": 349,
+    "PersonId": 279,
+    "EmailDescription": "percival@rathschimmel.ca",
+    "EmailId": 43,
+    "EmailAddress": "peter.hilll@wolff.com",
+    "PhoneId": 197,
+    "ContactName": "Funk LLC",
+    "ContactId": 619,
+    "SaleId": 156,
+    "Mrmrs": "repellat",
+    "Firstname": "Arno",
+    "MiddleName": "Walsh, Tremblay and Runolfsdottir",
+    "Lastname": "Glover",
+    "SaleStakeholderId": 286,
+    "Rank": 507,
+    "Phone": "1-685-761-3508",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 269
       }
     }
   }

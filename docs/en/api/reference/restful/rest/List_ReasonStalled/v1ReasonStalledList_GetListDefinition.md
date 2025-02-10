@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "Name": "Upton Group",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "Rank": 976,
+  "Id": 524,
+  "Name": "Braun, Cronin and Zboncak",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 603,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   },
   "_Links": {

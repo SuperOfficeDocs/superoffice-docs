@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Swift, DuBuque and Krajcik",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 201,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 155,
+  "Name": "Leannon, Torp and Rowe",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "Rank": 625,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 517
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

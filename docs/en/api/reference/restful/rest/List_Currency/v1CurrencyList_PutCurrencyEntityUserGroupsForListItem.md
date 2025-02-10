@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Sporer-Zulauf",
-    "ToolTip": "Culpa neque occaecati placeat unde vero explicabo fugit.",
-    "Deleted": false,
-    "Rank": 749,
-    "Type": "sapiente",
-    "ColorBlock": 458,
-    "IconHint": "ullam",
+    "Id": 738,
+    "Name": "Wisozk, Borer and Harber",
+    "ToolTip": "Et eius voluptates et numquam non.",
+    "Deleted": true,
+    "Rank": 849,
+    "Type": "iure",
+    "ColorBlock": 635,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2014-07-07T13:13:33.0111516+02:00",
+    "LastChanged": "2024-11-23T12:01:33.4801008+01:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Boehm-Schiller",
-        "ToolTip": "Rem aut quasi facere labore autem.",
+        "Id": 426,
+        "Name": "Brekke Inc and Sons",
+        "ToolTip": "Consequuntur consequuntur magni enim possimus et illum.",
         "Deleted": false,
-        "Rank": 406,
-        "Type": "dolor",
-        "ColorBlock": 929,
-        "IconHint": "fugit",
+        "Rank": 344,
+        "Type": "perferendis",
+        "ColorBlock": 394,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2009-06-06T13:13:33.0111516+02:00",
+        "LastChanged": "2010-06-02T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "ut",
+        "ExtraInfo": "dolore",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Isaiah Cummings"
+        "FullName": "Ms. Brooklyn Bruen"
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "exercitationem",
-    "Hidden": true,
-    "FullName": "Josefa Homenick"
+    "ExtraInfo": "quaerat",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Colten Baumbach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Smitham Group",
-    "ToolTip": "Sit omnis non dolor.",
-    "Deleted": true,
-    "Rank": 62,
-    "Type": "voluptatum",
-    "ColorBlock": 347,
-    "IconHint": "qui",
+    "Id": 279,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Laboriosam adipisci qui saepe quod animi eligendi necessitatibus.",
+    "Deleted": false,
+    "Rank": 753,
+    "Type": "est",
+    "ColorBlock": 115,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2012-05-31T13:13:33.0111516+02:00",
+    "LastChanged": "2015-08-16T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Nolan-Schoen",
-        "ToolTip": "Accusantium veniam rem error et natus.",
+        "Id": 491,
+        "Name": "Hane Group",
+        "ToolTip": "Error provident eius quo natus quod laborum cupiditate.",
         "Deleted": false,
-        "Rank": 495,
-        "Type": "quia",
-        "ColorBlock": 180,
-        "IconHint": "aliquid",
+        "Rank": 73,
+        "Type": "qui",
+        "ColorBlock": 830,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2015-06-30T13:13:33.0111516+02:00",
+        "LastChanged": "2019-02-23T12:01:33.4801008+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "aut",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Ernestina Okuneva",
+        "FullName": "Jaylon Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 654
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "numquam",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Rhiannon Steuber",
+    "FullName": "Ms. Gregoria Miller IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 920
       }
     }
   }

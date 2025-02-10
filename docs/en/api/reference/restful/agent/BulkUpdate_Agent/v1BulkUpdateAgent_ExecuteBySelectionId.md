@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
       "IsActive": true,
-      "Key": "magni",
-      "ValueType": "exercitationem",
-      "Mandatory": false,
-      "EncodedDisplayName": "Corkery Inc and Sons",
-      "EncodedDisplayDescription": "Team-oriented maximized software",
-      "IconHint": "consequatur",
+      "Key": "praesentium",
+      "ValueType": "consequatur",
+      "Mandatory": true,
+      "EncodedDisplayName": "Hilpert LLC",
+      "EncodedDisplayDescription": "Reverse-engineered object-oriented customer loyalty",
+      "IconHint": "totam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "eos",
-      "EncodedDataCaptionDescription": "Diverse upward-trending frame",
-      "CurrentOperationType": "est",
+      "EncodedDataCaption": "in",
+      "EncodedDataCaptionDescription": "Up-sized optimizing focus group",
+      "CurrentOperationType": "voluptas",
       "Values": [
-        "deleniti",
-        "voluptas"
+        "ut",
+        "consequatur"
       ],
       "DisplayValues": [
-        "non",
-        "expedita"
+        "ut",
+        "iure"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kling Group",
-  "Context": "iste",
-  "SelectionId": 124,
+  "TableName": "Greenholt, Jast and Bailey",
+  "Context": "veniam",
+  "SelectionId": 59,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-320
+455
 ```

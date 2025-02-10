@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 335,
-  "Name": "Murazik, Dickinson and Rohan",
-  "Rank": 722,
-  "Tooltip": "omnis",
+  "AssociateId": 769,
+  "Name": "Bartoletti-Connelly",
+  "Rank": 158,
+  "Tooltip": "ullam",
   "LicenseOwners": [
     {
-      "Name": "Gutmann, Maggio and Jacobi",
-      "Description": "Upgradable fault-tolerant support",
+      "Name": "Hettinger Group",
+      "Description": "Enhanced 3rd generation throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     },
     {
-      "Name": "Gutmann, Maggio and Jacobi",
-      "Description": "Upgradable fault-tolerant support",
+      "Name": "Hettinger Group",
+      "Description": "Enhanced 3rd generation throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "est",
-      "Tooltip": "officiis",
-      "Id": 383,
-      "Rank": 302,
-      "Deleted": false,
+      "Value": "fugit",
+      "Tooltip": "non",
+      "Id": 25,
+      "Rank": 927,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1998-02-06T13:13:24.4621693+01:00",
-  "Lastlogout": "2009-10-01T13:13:24.4621693+02:00",
-  "EjUserId": 377,
-  "RequestSignature": "ad",
+  "Lastlogin": "2024-09-04T12:01:28.5878372+02:00",
+  "Lastlogout": "2000-05-29T12:01:28.5878372+02:00",
+  "EjUserId": 228,
+  "RequestSignature": "ea",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "repellendus",
-      "DisplayValue": "sint",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "repellendus",
-      "DisplayValue": "sint",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
-        }
-      }
-    }
-  ],
-  "UserName": "Ullrich Group",
-  "TicketCategories": [
-    {
-      "Id": 831,
-      "Name": "Mohr, Boyle and Carroll",
-      "ToolTip": "At ut ut.",
-      "Deleted": false,
-      "Rank": 451,
-      "Type": "perferendis",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "enim",
-      "ColorBlock": 691,
-      "ExtraInfo": "eligendi",
-      "StyleHint": "reiciendis",
-      "FullName": "Mrs. Rolando Raphael Aufderhar",
+      "Value": "voluptatibus",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 234
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "voluptatibus",
+      "DisplayValue": "recusandae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 234
         }
       }
     }
   ],
-  "NickName": "Fahey LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "pariatur"
-  },
-  "PostSaveCommands": [
+  "UserName": "Nienow Group",
+  "TicketCategories": [
     {
-      "Name": "Schultz, Adams and Rempel",
-      "DisplayName": "Runolfsdottir, Lindgren and Stark",
-      "Description": "Right-sized human-resource middleware",
-      "ToolTip": "Minus illo est ut sapiente fuga laboriosam voluptas.",
-      "Actions": "Implicit",
-      "ActionData": "et",
+      "Id": 263,
+      "Name": "O'Conner Group",
+      "ToolTip": "Eum magni culpa aut hic dolores.",
+      "Deleted": true,
+      "Rank": 502,
+      "Type": "velit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "enim",
+      "ColorBlock": 938,
+      "ExtraInfo": "rem",
+      "StyleHint": "alias",
+      "FullName": "Rosalind Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 793
+        }
+      }
+    }
+  ],
+  "NickName": "Gerhold, Hills and Kuphal",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "molestiae"
+  },
+  "CustomFields": {
+    "CustomFields1": "nostrum",
+    "CustomFields2": "eaque"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Pollich, Gerhold and Roob",
+      "DisplayName": "Bogan-Hintz",
+      "Description": "Ergonomic fault-tolerant project",
+      "ToolTip": "Quisquam illo impedit quasi autem accusamus quisquam.",
+      "Actions": "Implicit",
+      "ActionData": "numquam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
@@ -257,7 +257,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 189
     }
   }
 }

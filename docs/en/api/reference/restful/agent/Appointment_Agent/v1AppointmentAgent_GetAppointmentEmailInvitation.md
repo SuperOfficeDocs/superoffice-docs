@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Haley, Larkin and Stanton",
-  "Language": "explicabo"
+  "TemplateName": "Thompson-Goodwin",
+  "Language": "atque"
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 378,
-      "ContactName": "Hermann, Spencer and Price",
-      "PersonId": 835,
-      "PersonName": "Mertz-Kassulke",
-      "AssociateId": 862,
-      "Address": "numquam",
-      "EmailId": 184,
+      "ContactId": 448,
+      "ContactName": "Harber-Senger",
+      "PersonId": 802,
+      "PersonName": "Russel, Balistreri and Denesik",
+      "AssociateId": 946,
+      "Address": "dolores",
+      "EmailId": 302,
       "DuplicatePersonIds": [
-        365,
-        813
+        617,
+        418
       ],
-      "Name": "Littel Group",
+      "Name": "Cremin, Adams and Abbott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 67
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 609,
-      "ContactName": "Harvey Group",
-      "PersonId": 943,
-      "PersonName": "Heidenreich, Mueller and Stehr",
-      "AssociateId": 46,
+      "ContactId": 262,
+      "ContactName": "Green-Homenick",
+      "PersonId": 525,
+      "PersonName": "Kunde LLC",
+      "AssociateId": 660,
       "Address": "et",
-      "EmailId": 79,
+      "EmailId": 686,
       "DuplicatePersonIds": [
-        209,
-        66
+        275,
+        205
       ],
-      "Name": "Romaguera, Boyle and Ratke",
+      "Name": "Hartmann-Collins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 643
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 333,
-      "ContactName": "Ledner, Rau and Huel",
-      "PersonId": 779,
-      "PersonName": "McLaughlin-Braun",
-      "AssociateId": 187,
-      "Address": "officiis",
-      "EmailId": 371,
+      "ContactId": 932,
+      "ContactName": "Labadie LLC",
+      "PersonId": 624,
+      "PersonName": "Roberts, Gutmann and Russel",
+      "AssociateId": 72,
+      "Address": "in",
+      "EmailId": 277,
       "DuplicatePersonIds": [
-        138,
-        723
+        468,
+        751
       ],
-      "Name": "Hintz-Kuhlman",
+      "Name": "Quigley-Aufderhar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 766
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "perspiciatis",
+  "Subject": "eos",
+  "HTMLBody": "itaque",
   "From": null,
-  "Sent": "2002-01-10T13:13:22.0396004+01:00",
-  "Size": 461,
+  "Sent": "2000-04-17T12:01:27.2908716+02:00",
+  "Size": 668,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "distinctio",
-  "IsSent": true,
+  "MessageID": "odit",
+  "PlainBody": "quaerat",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 632,
+  "ServerId": 288,
   "Attachments": [
     {
-      "Description": "Business-focused grid-enabled matrices",
-      "Filename": "molestias",
-      "Size": 141,
-      "Type": "eum",
-      "Encoding": "et",
-      "Id": "vero",
-      "Disposition": "sed",
+      "Description": "Open-architected interactive architecture",
+      "Filename": "veniam",
+      "Size": 662,
+      "Type": "ut",
+      "Encoding": "impedit",
+      "Id": "suscipit",
+      "Disposition": "ea",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,50 +217,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 485
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Pouros-Nader",
+      "Name": "Ankunding, Boyle and Balistreri",
       "Values": [
-        "qui",
-        "expedita"
+        "praesentium",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldType": "System.Int32",
+          "FieldLength": 549
         }
       }
     },
     {
-      "Name": "Pouros-Nader",
+      "Name": "Ankunding, Boyle and Balistreri",
       "Values": [
-        "qui",
-        "expedita"
+        "praesentium",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldType": "System.Int32",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "FolderName": "Borer-Stehr",
-  "EmailItemId": 862,
-  "AccountId": 615,
-  "ReceivedAt": "2017-03-12T13:13:22.0396004+01:00",
+  "FolderName": "Gutkowski-Herman",
+  "EmailItemId": 980,
+  "AccountId": 47,
+  "ReceivedAt": "2013-05-10T12:01:27.2908716+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-02-12T13:13:22.0396004+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-06-24T12:01:27.2908716+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldLength": 564
     }
   }
 }

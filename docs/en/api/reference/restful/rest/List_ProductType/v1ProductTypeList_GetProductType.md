@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Bartell, Bruen and Dietrich",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 113,
-  "Rank": 271,
+  "Id": 232,
+  "Name": "Volkman LLC",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 842,
+  "Rank": 693,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

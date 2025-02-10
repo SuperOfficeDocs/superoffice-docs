@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Pollich-Rogahn",
-    "ToolTip": "Eius est neque in commodi exercitationem et.",
+    "Id": 515,
+    "Name": "King, Huels and Leannon",
+    "ToolTip": "Qui facere itaque cum molestiae praesentium veritatis ut.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "quaerat",
-    "ColorBlock": 163,
-    "IconHint": "maxime",
+    "Rank": 181,
+    "Type": "iure",
+    "ColorBlock": 670,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2024-11-13T13:13:33.6047606+01:00",
+    "LastChanged": "1998-03-10T12:01:33.6676138+01:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Stokes-Bartell",
-        "ToolTip": "Et delectus et ipsam aut vitae illo consequuntur.",
+        "Id": 205,
+        "Name": "Wisozk-Breitenberg",
+        "ToolTip": "Perferendis tempore dolorum sint iusto libero dignissimos est.",
         "Deleted": false,
-        "Rank": 998,
-        "Type": "officiis",
-        "ColorBlock": 411,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2025-01-03T13:13:33.6047606+01:00",
+        "Rank": 458,
+        "Type": "et",
+        "ColorBlock": 4,
+        "IconHint": "inventore",
+        "Selected": false,
+        "LastChanged": "2012-06-28T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Mr. Roscoe Dickinson"
+        "ExtraInfo": "nulla",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Kolby Hermiston"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Dr. Cleo Schulist"
+    "ExtraInfo": "enim",
+    "StyleHint": "tempora",
+    "Hidden": true,
+    "FullName": "Yasmeen Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Torp, McKenzie and Conroy",
-    "ToolTip": "Error esse.",
-    "Deleted": true,
-    "Rank": 453,
-    "Type": "nulla",
-    "ColorBlock": 526,
-    "IconHint": "cumque",
+    "Id": 477,
+    "Name": "Bailey, Bogisich and Zulauf",
+    "ToolTip": "Est vel quos laboriosam ut iusto sint.",
+    "Deleted": false,
+    "Rank": 990,
+    "Type": "ab",
+    "ColorBlock": 460,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2004-08-08T13:13:33.6047606+02:00",
+    "LastChanged": "2015-07-03T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Eichmann, Hahn and Larkin",
-        "ToolTip": "Maxime iusto error dolorem quas temporibus est.",
-        "Deleted": false,
-        "Rank": 740,
-        "Type": "quia",
-        "ColorBlock": 915,
-        "IconHint": "corrupti",
+        "Id": 949,
+        "Name": "Klein Group",
+        "ToolTip": "Hic suscipit.",
+        "Deleted": true,
+        "Rank": 421,
+        "Type": "molestiae",
+        "ColorBlock": 908,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2010-02-02T13:13:33.6047606+01:00",
+        "LastChanged": "2024-01-02T12:01:33.6676138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "cumque",
+        "ExtraInfo": "expedita",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Mrs. Thurman Green Jr.",
+        "FullName": "Miss Anderson Talia Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 191
+            "FieldLength": 683
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "et",
+    "ExtraInfo": "totam",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Miss Halle Roob DVM",
+    "FullName": "Ms. Peyton Maritza Corwin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldType": "System.String",
+        "FieldLength": 581
       }
     }
   }

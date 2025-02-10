@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 596,
-  "UiCulture": "reprehenderit"
+  "TemplateId": 789,
+  "UiCulture": "nemo"
 }
 ```
 

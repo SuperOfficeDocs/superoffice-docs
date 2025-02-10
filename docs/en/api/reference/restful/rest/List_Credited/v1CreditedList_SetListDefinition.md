@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Zulauf Group",
-  "Tooltip": "eos",
+  "Id": 288,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 193,
-  "IsCustomList": true,
+  "Rank": 477,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Kassulke LLC",
-  "Tooltip": "consequuntur",
+  "Id": 907,
+  "Name": "Zboncak Group",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 29,
+  "Rank": 570,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

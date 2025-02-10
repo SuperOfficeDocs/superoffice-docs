@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Effertz-Muller",
-  "Tooltip": "recusandae",
+  "Id": 46,
+  "Name": "Hermann Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 341,
-  "IsCustomList": true,
+  "Rank": 680,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "numquam",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Becker, Wehner and Hermann",
-  "Tooltip": "et",
+  "Id": 149,
+  "Name": "Kuhn, Adams and McDermott",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 28,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 390,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=dicta
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=reiciendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Swift Group",
-    "ToolTip": "Ut sed pariatur qui doloremque est doloremque.",
-    "Deleted": true,
-    "Rank": 524,
-    "Type": "iste",
+    "Id": 600,
+    "Name": "Lubowitz LLC",
+    "ToolTip": "Voluptatem explicabo maiores esse ad eos.",
+    "Deleted": false,
+    "Rank": 702,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Schneider-Hintz",
-        "ToolTip": "Sequi rerum consequatur beatae.",
-        "Deleted": true,
-        "Rank": 17,
-        "Type": "dolore",
+        "Id": 967,
+        "Name": "Corkery Group",
+        "ToolTip": "Minima non quis dolorum ab ipsum.",
+        "Deleted": false,
+        "Rank": 260,
+        "Type": "iusto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 738,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "aspernatur",
-        "FullName": "Karolann Rozella Beahan MD",
+        "IconHint": "provident",
+        "ColorBlock": 498,
+        "ExtraInfo": "nulla",
+        "StyleHint": "eius",
+        "FullName": "Ms. Eino Curtis Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldLength": 581
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 885,
-    "ExtraInfo": "omnis",
-    "StyleHint": "doloremque",
-    "FullName": "Miss Tamara Raheem Adams",
+    "IconHint": "in",
+    "ColorBlock": 990,
+    "ExtraInfo": "et",
+    "StyleHint": "tempore",
+    "FullName": "Elfrieda Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

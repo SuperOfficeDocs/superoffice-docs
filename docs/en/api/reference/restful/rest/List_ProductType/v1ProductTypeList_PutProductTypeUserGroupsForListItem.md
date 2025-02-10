@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Schumm, Fadel and Kozey",
-    "ToolTip": "Nihil ullam velit aliquid ab soluta repellat ducimus.",
+    "Id": 122,
+    "Name": "Cummings-Moore",
+    "ToolTip": "In rerum explicabo.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "repudiandae",
-    "ColorBlock": 394,
-    "IconHint": "sit",
+    "Rank": 207,
+    "Type": "eius",
+    "ColorBlock": 857,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2015-12-22T13:13:33.3391989+01:00",
+    "LastChanged": "2021-06-15T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Dickinson, Ankunding and Hansen",
-        "ToolTip": "Impedit sit qui.",
+        "Id": 547,
+        "Name": "Koelpin, Anderson and Lynch",
+        "ToolTip": "Facere mollitia corrupti.",
         "Deleted": false,
-        "Rank": 492,
-        "Type": "ratione",
-        "ColorBlock": 551,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2007-05-04T13:13:33.3391989+02:00",
+        "Rank": 387,
+        "Type": "provident",
+        "ColorBlock": 99,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2017-11-14T12:01:33.5894836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Karli Green"
+        "ExtraInfo": "dolor",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Dereck Jewess"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "officiis",
+    "ExtraInfo": "modi",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Ms. Kory Brigitte Murphy"
+    "FullName": "Judah Cassin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Dach, Kris and Torp",
-    "ToolTip": "Ab eum est itaque dicta aliquid.",
-    "Deleted": false,
-    "Rank": 532,
-    "Type": "labore",
-    "ColorBlock": 790,
-    "IconHint": "harum",
+    "Id": 749,
+    "Name": "Gusikowski Group",
+    "ToolTip": "Ut doloribus molestiae quam enim mollitia.",
+    "Deleted": true,
+    "Rank": 662,
+    "Type": "et",
+    "ColorBlock": 346,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2009-11-01T13:13:33.3548212+01:00",
+    "LastChanged": "1999-03-30T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Kulas Group",
-        "ToolTip": "Quo voluptates nisi omnis ad earum dolores libero.",
+        "Id": 619,
+        "Name": "Keebler, Bergnaum and Bode",
+        "ToolTip": "Earum recusandae.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "molestiae",
-        "ColorBlock": 126,
-        "IconHint": "laudantium",
+        "Rank": 379,
+        "Type": "sed",
+        "ColorBlock": 30,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-08-27T13:13:33.3548212+02:00",
+        "LastChanged": "2013-10-05T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "nihil",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Emmitt Harvey",
+        "FullName": "Neil Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldLength": 696
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "est",
+    "ExtraInfo": "neque",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Barbara Weimann",
+    "FullName": "Mr. Cara Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 94
       }
     }
   }

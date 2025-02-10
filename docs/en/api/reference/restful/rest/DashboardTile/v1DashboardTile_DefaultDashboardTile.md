@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 227,
-  "Caption": "esse",
-  "Description": "Expanded optimizing open system",
-  "ChartName": "Powlowski Group",
-  "ChartId": "voluptate",
+  "DashboardTileId": 642,
+  "Caption": "iste",
+  "Description": "Robust reciprocal success",
+  "ChartName": "Eichmann, Bednar and DuBuque",
+  "ChartId": "odit",
   "IsDefault": false,
-  "AssociateId": 802,
-  "GroupId": 444,
-  "SelectionId": 922,
-  "Config": "molestiae",
+  "AssociateId": 982,
+  "GroupId": 711,
+  "SelectionId": 651,
+  "Config": "quae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stehr, Champlin and Greenholt",
-      "Description": "Up-sized exuding ability",
+      "Name": "Blick Group",
+      "Description": "Mandatory even-keeled instruction set",
       "Type": "Boolean",
-      "ListName": "Braun, Hahn and Schoen",
+      "ListName": "Gleason Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "rerum",
+      "Value": "eaque",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 612
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 760,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldType": "System.String",
+          "FieldLength": 72
         }
       }
     },
     {
-      "VisibleId": 760,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldType": "System.String",
+          "FieldLength": 72
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

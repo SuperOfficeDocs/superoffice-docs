@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Murphy-Steuber",
-  "Id": 557
+  "HistoryName": "Waelchi Group",
+  "Id": 752
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 955,
-  "Id": 380,
-  "HistoryName": "Steuber Group",
-  "HistoryId": 544,
-  "AssociateId": 223,
-  "Name": "Reilly, McClure and Swaniawski",
-  "ItemInfo": "iusto",
+  "Rank": 30,
+  "Id": 912,
+  "HistoryName": "Goyette LLC",
+  "HistoryId": 65,
+  "AssociateId": 273,
+  "Name": "Zboncak-Larson",
+  "ItemInfo": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

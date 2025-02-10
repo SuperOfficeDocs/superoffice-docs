@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 978,
-  "PlainMessage": "assumenda",
-  "HtmlMessage": "occaecati",
-  "SmsMessage": "odit",
-  "Description": "Secured mission-critical success",
-  "Subject": "et",
+  "ShipmentMessageId": 285,
+  "PlainMessage": "sunt",
+  "HtmlMessage": "voluptatibus",
+  "SmsMessage": "et",
+  "Description": "Face to face local instruction set",
+  "Subject": "dolor",
   "FolderId": 699,
-  "HeaderField": "harum",
-  "Design": "dolore",
+  "HeaderField": "explicabo",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Re-contextualized attitude-oriented neural-net",
-  "AccessKey": "quam",
-  "DocumentMessage": 944,
-  "Registered": "2007-11-12T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 584,
-  "Updated": "1997-10-27T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 142,
-  "UpdatedCount": 782
+  "LongDescription": "Object-based zero tolerance strategy",
+  "AccessKey": "eius",
+  "DocumentMessage": 127,
+  "Registered": "2005-09-27T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 556,
+  "Updated": "2022-08-13T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 937,
+  "UpdatedCount": 233
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 146,
-  "PlainMessage": "tempora",
-  "HtmlMessage": "exercitationem",
-  "SmsMessage": "pariatur",
-  "Description": "Persistent zero defect service-desk",
-  "Subject": "quae",
-  "FolderId": 500,
-  "HeaderField": "ut",
-  "Design": "molestiae",
+  "ShipmentMessageId": 791,
+  "PlainMessage": "similique",
+  "HtmlMessage": "velit",
+  "SmsMessage": "fuga",
+  "Description": "Face to face interactive throughput",
+  "Subject": "vero",
+  "FolderId": 680,
+  "HeaderField": "sapiente",
+  "Design": "in",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "User-centric exuding alliance",
-  "AccessKey": "similique",
-  "DocumentMessage": 599,
-  "Registered": "2015-11-24T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 591,
-  "Updated": "2022-02-25T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 259,
-  "UpdatedCount": 54,
+  "InlineImages": false,
+  "LongDescription": "Quality-focused 5th generation artificial intelligence",
+  "AccessKey": "distinctio",
+  "DocumentMessage": 826,
+  "Registered": "1999-06-18T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 584,
+  "Updated": "2006-10-26T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 419,
+  "UpdatedCount": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

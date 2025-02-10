@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 606,
-  "IncludeProjectDocuments": false,
-  "StartTime": "1997-12-08T13:13:22.6188095+01:00",
-  "EndTime": "2006-10-14T13:13:22.6188095+02:00",
-  "Count": 989,
-  "TemplateHeadingId": 833
+  "PersonId": 108,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2009-08-13T12:01:27.6033946+02:00",
+  "EndTime": "2017-02-26T12:01:27.6033946+01:00",
+  "Count": 274,
+  "TemplateHeadingId": 983
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 939,
-    "Attention": "possimus",
-    "Header": "esse",
-    "Name": "Gusikowski, Willms and McCullough",
-    "OurRef": "dolores",
-    "YourRef": "molestiae",
-    "Description": "Future-proofed exuding interface",
-    "DocumentTemplate": "illum",
-    "IsPublished": false,
-    "PersonId": 868,
-    "PersonFullName": "Maxine Huel",
-    "AssociateFullName": "Daphne Doyle Heaney Jr.",
-    "ContactId": 769,
-    "ContactName": "Hayes LLC",
-    "ProjectId": 957,
-    "ProjectName": "Parker LLC",
-    "AssociateId": 824,
-    "Snum": 722,
-    "SaleId": 677,
-    "SaleName": "Dickens LLC",
+    "DocumentId": 790,
+    "Attention": "ex",
+    "Header": "numquam",
+    "Name": "Shields-Cormier",
+    "OurRef": "dolore",
+    "YourRef": "unde",
+    "Description": "Cloned intangible framework",
+    "DocumentTemplate": "ab",
+    "IsPublished": true,
+    "PersonId": 297,
+    "PersonFullName": "Jayce Beer",
+    "AssociateFullName": "Albertha Daugherty",
+    "ContactId": 452,
+    "ContactName": "Sanford-Fritsch",
+    "ProjectId": 886,
+    "ProjectName": "Reinger-Pfeffer",
+    "AssociateId": 891,
+    "Snum": 664,
+    "SaleId": 661,
+    "SaleName": "Miller-Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

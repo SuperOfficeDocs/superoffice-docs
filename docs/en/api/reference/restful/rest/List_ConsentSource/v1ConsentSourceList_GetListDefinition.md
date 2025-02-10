@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Marquardt-Cummings",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 97,
+  "Id": 303,
+  "Name": "Lebsack Group",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 488,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   },
   "_Links": {

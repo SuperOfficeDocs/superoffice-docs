@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Swift-Mohr",
-      "Description": "Reactive 24 hour emulation",
-      "Rank": 736,
+      "Name": "McGlynn LLC",
+      "Description": "Persevering national access",
+      "Rank": 807,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Swift-Mohr",
-      "Description": "Reactive 24 hour emulation",
-      "Rank": 736,
+      "Name": "McGlynn LLC",
+      "Description": "Persevering national access",
+      "Rank": 807,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 292
     }
   }
 }

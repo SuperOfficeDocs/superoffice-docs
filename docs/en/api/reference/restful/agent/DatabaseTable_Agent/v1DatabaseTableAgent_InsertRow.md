@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pouros-Block",
+  "TableName": "Kohler, Weber and Donnelly",
   "Values": {
-    "Values1": "nemo",
-    "Values2": "occaecati"
+    "Values1": "consectetur",
+    "Values2": "molestiae"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-655
+288
 ```

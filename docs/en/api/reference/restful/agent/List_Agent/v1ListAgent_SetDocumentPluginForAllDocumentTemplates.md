@@ -68,7 +68,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 799
+  "DocumentPluginId": 295
 }
 ```
 

@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 291,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 273,
-  "Name": "Wiza, Walter and Franecki",
-  "Description": "Sharable exuding interface",
-  "Currency": "cupiditate",
-  "CurrencyName": "Bechtelar, Hills and Sporer",
-  "ValidFrom": "2000-10-21T13:13:33.2454698+02:00",
-  "ValidTo": "2011-09-16T13:13:33.2454698+02:00",
+  "PriceListId": 652,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 61,
+  "Name": "Hermiston LLC",
+  "Description": "Vision-oriented asynchronous alliance",
+  "Currency": "sit",
+  "CurrencyName": "Mills, Hegmann and Brekke",
+  "ValidFrom": "2007-08-02T12:01:33.5582313+02:00",
+  "ValidTo": "2019-02-14T12:01:33.5582313+01:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 67,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 400,
-  "Name": "Jaskolski-Braun",
-  "Description": "Cross-group contextually-based toolset",
-  "Currency": "beatae",
-  "CurrencyName": "Gleichner Inc and Sons",
-  "ValidFrom": "2018-09-25T13:13:33.2454698+02:00",
-  "ValidTo": "2004-11-11T13:13:33.2454698+01:00",
-  "IsActive": false,
+  "PriceListId": 607,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 545,
+  "Name": "Wunsch-Jacobi",
+  "Description": "Enterprise-wide uniform framework",
+  "Currency": "quia",
+  "CurrencyName": "McClure Inc and Sons",
+  "ValidFrom": "2004-09-22T12:01:33.5582313+02:00",
+  "ValidTo": "1998-04-15T12:01:33.5582313+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   },
   "_Links": {

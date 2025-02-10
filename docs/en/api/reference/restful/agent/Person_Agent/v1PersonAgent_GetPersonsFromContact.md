@@ -103,6 +103,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -112,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 289
+  "ContactId": 375
 }
 ```
 
@@ -128,52 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ea",
-    "PersonId": 117,
-    "Mrmrs": "sint",
-    "Firstname": "Noemie",
-    "Lastname": "Barton",
-    "MiddleName": "Frami, Schroeder and Lueilwitz",
-    "Title": "expedita",
-    "Description": "Balanced next generation knowledge base",
-    "Email": "major@bartoletticole.info",
-    "FullName": "Miss Dixie Abigail Howe IV",
-    "DirectPhone": "747-552-7778",
-    "FormalName": "Cummings LLC",
-    "CountryId": 246,
-    "ContactId": 992,
-    "ContactName": "Huel Inc and Sons",
-    "Retired": 217,
-    "Rank": 351,
-    "ActiveInterests": 400,
+    "Position": "ut",
+    "PersonId": 313,
+    "Mrmrs": "ea",
+    "Firstname": "Bernardo",
+    "Lastname": "Torphy",
+    "MiddleName": "Wilkinson Group",
+    "Title": "minima",
+    "Description": "Expanded client-driven hub",
+    "Email": "arjun@botsford.co.uk",
+    "FullName": "Cale Flatley",
+    "DirectPhone": "134.395.9143",
+    "FormalName": "Wilderman Inc and Sons",
+    "CountryId": 396,
+    "ContactId": 591,
+    "ContactName": "Gusikowski-Eichmann",
+    "Retired": 574,
+    "Rank": 94,
+    "ActiveInterests": 669,
     "ContactDepartment": "",
-    "ContactCountryId": 97,
-    "ContactOrgNr": "1014782",
-    "FaxPhone": "(020)040-9008 x9121",
-    "MobilePhone": "(058)540-9567",
-    "ContactPhone": "322-781-6064 x4585",
-    "AssociateName": "Brown, Lebsack and Cruickshank",
-    "AssociateId": 868,
+    "ContactCountryId": 447,
+    "ContactOrgNr": "908381",
+    "FaxPhone": "1-444-911-4455 x112",
+    "MobilePhone": "1-195-369-6856 x2649",
+    "ContactPhone": "083-916-4942 x5810",
+    "AssociateName": "Cormier, Becker and Koepp",
+    "AssociateId": 328,
     "UsePersonAddress": false,
-    "ContactFax": "cum",
-    "Kanafname": "est",
-    "Kanalname": "ipsa",
-    "Post1": "dolorem",
-    "Post2": "accusamus",
-    "Post3": "repellat",
-    "EmailName": "carmelo@rempelwillms.info",
-    "ContactFullName": "Jonathan Gilda Hand PhD",
-    "ActiveErpLinks": 459,
-    "TicketPriorityId": 551,
-    "SupportLanguageId": 890,
-    "SupportAssociateId": 604,
+    "ContactFax": "reprehenderit",
+    "Kanafname": "eveniet",
+    "Kanalname": "neque",
+    "Post1": "aliquam",
+    "Post2": "cum",
+    "Post3": "sit",
+    "EmailName": "joe_bergstrom@kub.uk",
+    "ContactFullName": "Mrs. Gloria Murphy",
+    "ActiveErpLinks": 565,
+    "TicketPriorityId": 530,
+    "SupportLanguageId": 324,
+    "SupportAssociateId": 750,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "679579",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 349
       }
     }
   }

@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 587,
+  "ReportId": 381,
   "ReportCategory": "All",
-  "Description": "Reactive 3rd generation task-force",
+  "Description": "Distributed empowering framework",
   "ReportLayout": "CalendarMonth",
-  "Name": "Simonis-Glover",
-  "AssociateId": 475,
-  "TemplateId": 665,
-  "Published": true,
+  "Name": "Zboncak Inc and Sons",
+  "AssociateId": 777,
+  "TemplateId": 526,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 758
     }
   }
 }

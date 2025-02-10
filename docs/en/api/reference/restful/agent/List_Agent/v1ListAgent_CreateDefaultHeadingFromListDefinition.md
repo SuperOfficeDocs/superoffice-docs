@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 743
+  "UdListDefinitionId": 797
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 751,
-  "Name": "Kassulke, Bruen and Bins",
-  "Tooltip": "sed",
+  "HeadingId": 598,
+  "Name": "Renner-Wintheiser",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 610,
-  "UdListDefinitionId": 923,
+  "Rank": 222,
+  "UdListDefinitionId": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

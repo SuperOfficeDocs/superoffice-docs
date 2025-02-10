@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Langworth-Bernhard"
+  "TaskName": "Cremin Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Smith Group",
-    "AssociateId": 805,
-    "DetailsTable": 216,
-    "DetailsRecord": 117,
+    "Id": 395,
+    "Name": "McClure, Crooks and Hegmann",
+    "AssociateId": 753,
+    "DetailsTable": 977,
+    "DetailsRecord": 648,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "nam"
+      "ParameterObject1": "dolores",
+      "ParameterObject2": "non"
     },
-    "LastStarted": "2007-12-12T13:13:22.133333+01:00",
-    "Created": "2017-04-29T13:13:22.133333+02:00",
-    "StartCount": 775,
-    "DatabaseSerialNumber": "689956",
+    "LastStarted": "2019-02-23T12:01:27.3533761+01:00",
+    "Created": "1999-07-02T12:01:27.3533761+02:00",
+    "StartCount": 274,
+    "DatabaseSerialNumber": "1577796",
     "Context": "et",
-    "Result": "et",
+    "Result": "vero",
     "State": "All",
-    "Description": "Synergistic fault-tolerant archive",
-    "Response": "est",
-    "Request": "illum",
-    "ProgressDescription": "Proactive object-oriented circuit",
-    "ProgressPercent": 49,
-    "FileName": "McLaughlin Group",
+    "Description": "Managed needs-based capacity",
+    "Response": "ipsam",
+    "Request": "aliquam",
+    "ProgressDescription": "Innovative national open system",
+    "ProgressPercent": 827,
+    "FileName": "Muller-Pollich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldType": "System.String",
+        "FieldLength": 122
       }
     }
   }

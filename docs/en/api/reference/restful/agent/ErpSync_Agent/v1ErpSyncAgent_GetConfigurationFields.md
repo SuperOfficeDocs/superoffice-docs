@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 522
+  "ErpConnectorId": 385
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "repellat",
-    "Rank": 268,
-    "DisplayName": "Ritchie Group",
-    "DisplayDescription": "Implemented 24 hour pricing structure",
+    "FieldKey": "reiciendis",
+    "Rank": 435,
+    "DisplayName": "Hamill, Goyette and Kuhn",
+    "DisplayDescription": "Secured uniform middleware",
     "FieldType": "Checkbox",
-    "ListName": "Beer-O'Reilly",
-    "DefaultValue": "ratione",
-    "MaxLength": 861,
+    "ListName": "Eichmann-Hoppe",
+    "DefaultValue": "dolorem",
+    "MaxLength": 56,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

@@ -98,7 +98,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 321,
-    "Name": "Tremblay, Gleason and Turcotte",
-    "Tooltip": "incidunt",
-    "Rank": 736,
+    "SaleTypeId": 709,
+    "Name": "Hauck, Osinski and Hyatt",
+    "Tooltip": "et",
+    "Rank": 43,
     "DurationUnit": "Century",
-    "SaleDuration": 441,
-    "SaleTypeCatId": 865,
+    "SaleDuration": 230,
+    "SaleTypeCatId": 300,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
+    "HasGuide": true,
+    "HasStakeholders": true,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 330,
-    "QuoteLinesTemplate": 595,
-    "ConfirmationLinesTemplate": 623,
+    "DefaultQuoteValidity": 413,
+    "QuoteLinesTemplate": 881,
+    "ConfirmationLinesTemplate": 58,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 257,
-    "MinEarningPercent": 966,
-    "GroupQuoteLinesBy": 387,
-    "SortGroupLinesBy": 895,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 245,
+    "MinEarningPercent": 35,
+    "GroupQuoteLinesBy": 786,
+    "SortGroupLinesBy": 201,
     "Stages": [
       {
-        "Id": 174,
-        "Name": "Koepp-Nienow",
-        "ToolTip": "Earum voluptas assumenda illo fuga excepturi et iure.",
-        "Deleted": false,
-        "Rank": 238,
-        "Type": "et",
-        "ColorBlock": 150,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2011-09-25T13:13:23.2426833+02:00",
+        "Id": 163,
+        "Name": "Wehner, McKenzie and O'Keefe",
+        "ToolTip": "Non eos quidem doloremque adipisci expedita.",
+        "Deleted": true,
+        "Rank": 40,
+        "Type": "sequi",
+        "ColorBlock": 417,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2003-08-12T12:01:27.9315414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Mylene Karolann Glover V",
+        "ExtraInfo": "vitae",
+        "StyleHint": "placeat",
+        "Hidden": true,
+        "FullName": "Carlos Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 993
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldType": "System.String",
+        "FieldLength": 468
       }
     }
   }

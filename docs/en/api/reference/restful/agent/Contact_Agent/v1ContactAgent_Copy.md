@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 390,
-  "DestinationContactName": "Spinka-Schneider",
+  "SourceContactId": 881,
+  "DestinationContactName": "Ernser-Koelpin",
   "DestinationContactDepartment": "",
-  "CopyPersons": false
+  "CopyPersons": true
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-805
+771
 ```

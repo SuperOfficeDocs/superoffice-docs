@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Parker-Nitzsche",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 769,
-  "Rank": 712,
+  "Id": 140,
+  "Name": "Jenkins Inc and Sons",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "UdListDefinitionId": 645,
+  "Rank": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 942
     }
   }
 }

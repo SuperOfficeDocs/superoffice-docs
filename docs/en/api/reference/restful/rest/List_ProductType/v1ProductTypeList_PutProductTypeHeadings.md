@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Bernier LLC",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 444,
-    "UdListDefinitionId": 515
+    "HeadingId": 532,
+    "Name": "O'Hara-Marks",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 428,
+    "UdListDefinitionId": 159
   },
   {
-    "HeadingId": 510,
-    "Name": "Bernier LLC",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 444,
-    "UdListDefinitionId": 515
+    "HeadingId": 532,
+    "Name": "O'Hara-Marks",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 428,
+    "UdListDefinitionId": 159
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 222,
-    "Name": "Ortiz Inc and Sons",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "Rank": 170,
-    "UdListDefinitionId": 428,
+    "HeadingId": 994,
+    "Name": "Hessel, Hayes and Hills",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "Rank": 755,
+    "UdListDefinitionId": 592,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 96
       }
     }
   }

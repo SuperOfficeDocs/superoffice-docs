@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "autem",
-    "Type": "impedit",
-    "Description": "Programmable national project",
+    "DisplayType": "fuga",
+    "Type": "commodi",
+    "Description": "Organized tertiary neural-net",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

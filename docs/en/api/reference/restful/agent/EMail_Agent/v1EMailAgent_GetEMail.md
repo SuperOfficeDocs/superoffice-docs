@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "IncludeAttachments": true
+  "Id": 791,
+  "IncludeAttachments": false
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 95,
-      "ContactName": "Ferry, Hauck and Schneider",
-      "PersonId": 338,
-      "PersonName": "Abbott-Streich",
-      "AssociateId": 296,
-      "Address": "ut",
-      "EmailId": 622,
+      "ContactId": 683,
+      "ContactName": "Hilll, Kshlerin and McGlynn",
+      "PersonId": 674,
+      "PersonName": "Spinka-Treutel",
+      "AssociateId": 712,
+      "Address": "dolores",
+      "EmailId": 756,
       "DuplicatePersonIds": [
-        337,
-        160
+        322,
+        181
       ],
-      "Name": "Cummerata Inc and Sons",
+      "Name": "Dickinson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 238
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 879,
-      "ContactName": "Jakubowski, Grant and Harber",
-      "PersonId": 752,
-      "PersonName": "Bashirian-Fay",
-      "AssociateId": 615,
-      "Address": "ex",
-      "EmailId": 963,
+      "ContactId": 305,
+      "ContactName": "Conroy LLC",
+      "PersonId": 301,
+      "PersonName": "Schmitt-Bashirian",
+      "AssociateId": 888,
+      "Address": "amet",
+      "EmailId": 889,
       "DuplicatePersonIds": [
-        890,
-        633
+        441,
+        977
       ],
-      "Name": "Shields, Langosh and Murphy",
+      "Name": "Beier Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 348
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 423,
-      "ContactName": "Toy LLC",
-      "PersonId": 77,
-      "PersonName": "Toy Inc and Sons",
-      "AssociateId": 437,
-      "Address": "assumenda",
-      "EmailId": 137,
+      "ContactId": 529,
+      "ContactName": "Kassulke Group",
+      "PersonId": 133,
+      "PersonName": "Crooks, Douglas and Farrell",
+      "AssociateId": 126,
+      "Address": "nesciunt",
+      "EmailId": 93,
       "DuplicatePersonIds": [
-        357,
-        320
+        564,
+        971
       ],
-      "Name": "Mayer-Boehm",
+      "Name": "Durgan-Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 996
         }
       }
     }
   ],
-  "Subject": "nesciunt",
-  "HTMLBody": "vel",
+  "Subject": "at",
+  "HTMLBody": "nam",
   "From": null,
-  "Sent": "2022-12-14T13:13:23.0864655+01:00",
-  "Size": 657,
+  "Sent": "2004-04-18T12:01:27.8534108+02:00",
+  "Size": 318,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "minus",
-  "PlainBody": "deleniti",
+  "MessageID": "voluptate",
+  "PlainBody": "architecto",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 119,
+  "ServerId": 655,
   "Attachments": [
     {
-      "Description": "Decentralized multi-tasking capability",
-      "Filename": "cum",
-      "Size": 95,
-      "Type": "dolore",
-      "Encoding": "sequi",
-      "Id": "nam",
-      "Disposition": "et",
-      "IsSafeFileExtension": true,
+      "Description": "Fundamental interactive projection",
+      "Filename": "quia",
+      "Size": 77,
+      "Type": "non",
+      "Encoding": "harum",
+      "Id": "repellat",
+      "Disposition": "sapiente",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldType": "System.String",
+          "FieldLength": 298
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Robel-Hansen",
+      "Name": "Franecki Inc and Sons",
       "Values": [
-        "et",
-        "atque"
+        "labore",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 978
         }
       }
     },
     {
-      "Name": "Robel-Hansen",
+      "Name": "Franecki Inc and Sons",
       "Values": [
-        "et",
-        "atque"
+        "labore",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 978
         }
       }
     }
   ],
-  "FolderName": "Jaskolski, Thompson and Leuschke",
-  "EmailItemId": 995,
-  "AccountId": 386,
-  "ReceivedAt": "2016-08-04T13:13:23.0864655+02:00",
+  "FolderName": "Swaniawski-Runolfsson",
+  "EmailItemId": 958,
+  "AccountId": 867,
+  "ReceivedAt": "2007-08-12T12:01:27.8534108+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-09-30T13:13:23.0864655+02:00",
+  "RepliedAt": "2001-06-19T12:01:27.8534108+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

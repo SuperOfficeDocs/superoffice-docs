@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 707,
+  "ErpConnectionId": 735,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "qui",
-    "Rank": 213,
-    "DisplayName": "Leffler-Stracke",
-    "DisplayDescription": "Cloned global archive",
+    "FieldKey": "sunt",
+    "Rank": 557,
+    "DisplayName": "D'Amore-Gorczany",
+    "DisplayDescription": "Optional incremental flexibility",
     "FieldType": "Checkbox",
-    "ListName": "Walsh, Kuvalis and Kunde",
-    "DefaultValue": "facilis",
-    "MaxLength": 365,
+    "ListName": "Luettgen-Streich",
+    "DefaultValue": "ut",
+    "MaxLength": 323,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 719
       }
     }
   }

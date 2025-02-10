@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "esse",
+  "Id": 174,
+  "Name": "Lindgren-Carter",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 567,
-  "Rank": 394
+  "UdListDefinitionId": 525,
+  "Rank": 685
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Wisozk Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 17,
-  "Rank": 592,
+  "Id": 575,
+  "Name": "Marks, Walker and Cruickshank",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "UdListDefinitionId": 388,
+  "Rank": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 309
     }
   }
 }

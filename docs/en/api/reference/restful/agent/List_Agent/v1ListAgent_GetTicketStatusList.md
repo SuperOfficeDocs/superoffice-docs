@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 963,
-    "Name": "Schultz, West and Bednar",
+    "TicketStatusId": 142,
+    "Name": "Wiegand, Adams and Boyer",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 396
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Tromp-Vandervort",
-    "Tooltip": "totam",
+    "HeadingId": 132,
+    "Name": "Baumbach LLC",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 306,
-    "UdListDefinitionId": 20,
+    "Rank": 780,
+    "UdListDefinitionId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   }

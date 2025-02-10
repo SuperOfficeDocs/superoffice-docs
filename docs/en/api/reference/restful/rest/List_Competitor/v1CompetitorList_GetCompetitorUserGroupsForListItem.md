@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Veum, Waters and Herzog",
-    "ToolTip": "Repellat voluptas cumque qui sint exercitationem aut eveniet.",
+    "Id": 854,
+    "Name": "Gibson Inc and Sons",
+    "ToolTip": "Ut earum.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "saepe",
-    "ColorBlock": 454,
-    "IconHint": "est",
+    "Rank": 339,
+    "Type": "qui",
+    "ColorBlock": 949,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "1998-08-01T13:13:32.8861799+02:00",
+    "LastChanged": "2021-12-08T12:01:33.448849+01:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Schulist, Wisoky and Smith",
-        "ToolTip": "Atque consequuntur.",
-        "Deleted": true,
-        "Rank": 365,
-        "Type": "repellat",
-        "ColorBlock": 76,
-        "IconHint": "voluptatem",
+        "Id": 331,
+        "Name": "Schumm, Kilback and Kunde",
+        "ToolTip": "Iure dolorem rem qui praesentium.",
+        "Deleted": false,
+        "Rank": 450,
+        "Type": "in",
+        "ColorBlock": 891,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2012-03-27T13:13:32.8861799+02:00",
+        "LastChanged": "1998-11-09T12:01:33.448849+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "unde",
+        "ExtraInfo": "nisi",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Mazie Effertz",
+        "FullName": "Marvin Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 785
+            "FieldType": "System.Int32",
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "dolor",
+    "ExtraInfo": "culpa",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Omer Ardella Quitzon V",
+    "FullName": "Elwyn Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 614
       }
     }
   }

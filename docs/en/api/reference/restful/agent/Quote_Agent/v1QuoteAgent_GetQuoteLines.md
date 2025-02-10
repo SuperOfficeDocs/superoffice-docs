@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 791
+  "QuoteAlternativeId": 196
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 516,
-    "ERPQuoteLineKey": "quia",
-    "QuoteAlternativeId": 783,
-    "ERPProductKey": "perspiciatis",
+    "QuoteLineId": 85,
+    "ERPQuoteLineKey": "id",
+    "QuoteAlternativeId": 422,
+    "ERPProductKey": "sed",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 3682.45,
-    "DeliveredQuantity": 14244.029999999999,
-    "Rank": 471,
-    "Name": "Smitham-Thiel",
-    "Description": "Configurable exuding migration",
-    "Code": "in",
-    "QuantityUnit": "pariatur",
-    "PriceUnit": "sed",
-    "ItemNumber": "1213479",
+    "Quantity": 8283.162,
+    "DeliveredQuantity": 15952.06,
+    "Rank": 907,
+    "Name": "Pouros, Becker and Green",
+    "Description": "Organic high-level algorithm",
+    "Code": "odit",
+    "QuantityUnit": "in",
+    "PriceUnit": "quidem",
+    "ItemNumber": "976637",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ducimus",
-    "ProductTypeKey": "sint",
-    "Supplier": "corporis",
-    "SupplierCode": "non",
-    "Thumbnail": "a",
-    "VATInfo": "nihil",
-    "VAT": 10398.612,
-    "UnitCost": 29337.374,
-    "UnitMinimumPrice": 21486.703999999998,
-    "UnitListPrice": 26839.576,
+    "ProductFamilyKey": "a",
+    "ProductTypeKey": "magnam",
+    "Supplier": "at",
+    "SupplierCode": "animi",
+    "Thumbnail": "vitae",
+    "VATInfo": "deserunt",
+    "VAT": 2967.8979999999997,
+    "UnitCost": 9909.708,
+    "UnitMinimumPrice": 4274.776,
+    "UnitListPrice": 27886.332,
     "ExtraInfo": [
       {
-        "Name": "Dicki LLC",
-        "Value": "ratione",
+        "Name": "Mertz, Weimann and Halvorson",
+        "Value": "et",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldLength": 818
           }
         }
       },
       {
-        "Name": "Dicki LLC",
-        "Value": "ratione",
+        "Name": "Mertz, Weimann and Halvorson",
+        "Value": "et",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldLength": 818
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptatem",
+    "RawExtraInfo": "recusandae",
     "IsSubscription": false,
-    "SubscriptionUnit": "corrupti",
-    "SubscriptionQuantity": 11191.514,
-    "SubscriptionStart": "1999-11-01T13:13:23.7738157+01:00",
-    "ERPDiscountPercent": 10580.384,
-    "ERPDiscountAmount": 25162.886,
-    "DiscountPercent": 30907.507999999998,
-    "DiscountAmount": 29691.516,
+    "SubscriptionUnit": "deleniti",
+    "SubscriptionQuantity": 18029.902,
+    "SubscriptionStart": "2016-09-12T12:01:28.2128113+02:00",
+    "ERPDiscountPercent": 15670.0,
+    "ERPDiscountAmount": 24185.077999999998,
+    "DiscountPercent": 22815.52,
+    "DiscountAmount": 29055.314,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 25598.512,
-    "EarningAmount": 29168.138,
-    "SubTotal": 12332.289999999999,
-    "TotalPrice": 9850.162,
-    "Rights": "ullam",
-    "Rule": "illo",
-    "ExtraField1": "praesentium",
-    "ExtraField2": "reprehenderit",
-    "ExtraField3": "in",
-    "ExtraField4": "error",
-    "ExtraField5": "provident",
+    "EarningPercent": 2243.944,
+    "EarningAmount": 30525.16,
+    "SubTotal": 11335.678,
+    "TotalPrice": 11953.076,
+    "Rights": "perferendis",
+    "Rule": "eius",
+    "ExtraField1": "placeat",
+    "ExtraField2": "dolores",
+    "ExtraField3": "ab",
+    "ExtraField4": "ea",
+    "ExtraField5": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    443,
-    286
+    834,
+    991
   ],
-  "StartTime": "2008-11-13T13:13:21.5709641+01:00",
-  "EndTime": "2012-02-12T13:13:21.5709641+01:00"
+  "StartTime": "2007-06-18T12:01:27.0252114+02:00",
+  "EndTime": "2012-11-15T12:01:27.0252114+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 495,
-    "StartDate": "2003-09-22T13:13:21.5709641+02:00",
-    "EndDate": "2017-04-19T13:13:21.5709641+02:00",
+    "AppointmentId": 124,
+    "StartDate": "2021-02-21T12:01:27.0252114+01:00",
+    "EndDate": "2010-06-07T12:01:27.0252114+02:00",
     "Type": "BookingForChecklist",
-    "Task": "minus",
-    "AssociateFullName": "Felipe Bernhard",
-    "ContactName": "Bailey, Schultz and Jast",
-    "Description": "Multi-lateral next generation matrices",
-    "PersonFullName": "Hertha Koch",
-    "PersonId": 709,
-    "ContactId": 563,
-    "ProjectId": 184,
-    "ProjectName": "Hermiston Group",
-    "IsPublished": false,
-    "AssociateId": 452,
-    "ColorIndex": 656,
+    "Task": "deleniti",
+    "AssociateFullName": "Ryann Volkman",
+    "ContactName": "Hermiston LLC",
+    "Description": "Innovative transitional utilisation",
+    "PersonFullName": "Fletcher Gusikowski",
+    "PersonId": 443,
+    "ContactId": 574,
+    "ProjectId": 221,
+    "ProjectName": "Walker, Rutherford and Predovic",
+    "IsPublished": true,
+    "AssociateId": 931,
+    "ColorIndex": 699,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 574,
-    "PriorityName": "Daugherty, Ritchie and Frami",
+    "PriorityId": 826,
+    "PriorityName": "Farrell-Schaefer",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-06-01T13:13:21.5709641+02:00",
+    "ActiveDate": "2022-09-05T12:01:27.0252114+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-09-19T13:13:21.5709641+02:00",
-    "RecurringEndDate": "2003-12-11T13:13:21.5709641+01:00",
-    "MotherId": 770,
-    "AssignedBy": 62,
-    "AssignedByFullName": "Cathryn Prohaska",
+    "RecurringStartDate": "2012-10-26T12:01:27.0252114+02:00",
+    "RecurringEndDate": "2007-08-02T12:01:27.0252114+02:00",
+    "MotherId": 656,
+    "AssignedBy": 523,
+    "AssignedByFullName": "Vita Hoyt Lang III",
     "RejectReason": "",
-    "Location": "consequuntur",
-    "AlarmLeadTime": "vel",
-    "SaleId": 646,
-    "SaleName": "Simonis, Graham and Kuphal",
-    "AssociateName": "Rutherford-Labadie",
-    "CreatedDate": "2014-08-31T13:13:21.5709641+02:00",
-    "CreatedBy": "ea",
-    "CreatedByFullName": "Alice Mona Homenick DDS",
-    "CreatedByAssociateId": 445,
+    "Location": "vel",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 134,
+    "SaleName": "Dare-Lind",
+    "AssociateName": "Howell-Weber",
+    "CreatedDate": "2009-06-12T12:01:27.0252114+02:00",
+    "CreatedBy": "dolor",
+    "CreatedByFullName": "Margaretta Grant",
+    "CreatedByAssociateId": 714,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 734,
-    "Title": "velit",
-    "Agenda": "quo",
-    "InternalNotes": "ex",
+    "PreferredTZLocation": 414,
+    "Title": "repudiandae",
+    "Agenda": "et",
+    "InternalNotes": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

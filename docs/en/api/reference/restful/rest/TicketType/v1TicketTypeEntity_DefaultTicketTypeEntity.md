@@ -75,7 +75,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 41,
-  "Name": "Jerde Group",
-  "Rank": 607,
-  "Tooltip": "sit",
-  "Icon": "sequi",
-  "DefaultTicketStatus": 745,
+  "TicketTypeId": 545,
+  "Name": "McLaughlin, Hermann and Powlowski",
+  "Rank": 306,
+  "Tooltip": "aperiam",
+  "Icon": "consequuntur",
+  "DefaultTicketStatus": 950,
   "TicketStatuses": [
-    745,
-    621
+    449,
+    617
   ],
-  "DefaultTicketPriority": 217,
+  "DefaultTicketPriority": 393,
   "TicketPriorities": [
-    380,
-    145
+    394,
+    150
   ],
-  "ReplyTemplate": 481,
+  "ReplyTemplate": 822,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    903,
-    416
+    924,
+    96
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 622
     }
   }
 }

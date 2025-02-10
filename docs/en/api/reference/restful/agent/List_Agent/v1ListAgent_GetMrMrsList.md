@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetMrMrsList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Value": "voluptatum",
-    "Tooltip": "consequatur",
+    "Id": 256,
+    "Value": "impedit",
+    "Tooltip": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   },
   {
-    "Id": 197,
-    "Value": "voluptatum",
-    "Tooltip": "consequatur",
+    "Id": 256,
+    "Value": "impedit",
+    "Tooltip": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   }

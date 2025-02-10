@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Schulist, Schneider and Kovacek",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "UdListDefinitionId": 381,
-  "Rank": 963
+  "Id": 975,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "UdListDefinitionId": 883,
+  "Rank": 272
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Rippin LLC",
-  "Tooltip": "quam",
+  "Id": 559,
+  "Name": "Hand-Schamberger",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 77,
-  "Rank": 83,
+  "UdListDefinitionId": 282,
+  "Rank": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 577
     }
   }
 }

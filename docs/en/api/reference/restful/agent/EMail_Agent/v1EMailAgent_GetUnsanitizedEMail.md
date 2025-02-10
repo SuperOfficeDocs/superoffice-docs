@@ -108,8 +108,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "IncludeAttachments": true
+  "Id": 587,
+  "IncludeAttachments": false
 }
 ```
 
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 901,
-      "ContactName": "Ritchie, Jakubowski and Harvey",
-      "PersonId": 766,
-      "PersonName": "Cummings-Lynch",
-      "AssociateId": 260,
-      "Address": "velit",
-      "EmailId": 149,
+      "ContactId": 360,
+      "ContactName": "Balistreri-Torp",
+      "PersonId": 537,
+      "PersonName": "Swaniawski Group",
+      "AssociateId": 353,
+      "Address": "ducimus",
+      "EmailId": 410,
       "DuplicatePersonIds": [
-        245,
-        360
+        223,
+        906
       ],
-      "Name": "Rempel LLC",
+      "Name": "Zemlak Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldLength": 900
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 996,
-      "ContactName": "Kub-Lehner",
-      "PersonId": 393,
-      "PersonName": "Bartell, O'Kon and Pacocha",
-      "AssociateId": 861,
-      "Address": "doloribus",
-      "EmailId": 293,
+      "ContactId": 622,
+      "ContactName": "Muller, Ward and Bogan",
+      "PersonId": 884,
+      "PersonName": "Graham-Hilll",
+      "AssociateId": 852,
+      "Address": "id",
+      "EmailId": 972,
       "DuplicatePersonIds": [
-        568,
-        679
+        686,
+        435
       ],
-      "Name": "Nienow-Swaniawski",
+      "Name": "Rowe-Dietrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 910
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 101,
-      "ContactName": "Schimmel LLC",
-      "PersonId": 872,
-      "PersonName": "Toy Inc and Sons",
-      "AssociateId": 368,
-      "Address": "impedit",
-      "EmailId": 285,
+      "ContactId": 373,
+      "ContactName": "McCullough-Cartwright",
+      "PersonId": 506,
+      "PersonName": "Schiller LLC",
+      "AssociateId": 203,
+      "Address": "commodi",
+      "EmailId": 812,
       "DuplicatePersonIds": [
-        416,
-        367
+        556,
+        742
       ],
-      "Name": "Denesik-Shanahan",
+      "Name": "Hartmann-Kreiger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "assumenda",
+  "Subject": "mollitia",
+  "HTMLBody": "quas",
   "From": null,
-  "Sent": "2004-04-05T13:13:23.0864655+02:00",
-  "Size": 882,
+  "Sent": "2023-03-21T12:01:27.8534108+01:00",
+  "Size": 823,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "exercitationem",
-  "PlainBody": "cupiditate",
+  "MessageID": "totam",
+  "PlainBody": "doloremque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 418,
+  "ServerId": 721,
   "Attachments": [
     {
-      "Description": "Configurable human-resource analyzer",
-      "Filename": "doloremque",
-      "Size": 233,
-      "Type": "necessitatibus",
-      "Encoding": "aut",
-      "Id": "omnis",
-      "Disposition": "asperiores",
-      "IsSafeFileExtension": false,
+      "Description": "Enhanced eco-centric flexibility",
+      "Filename": "odio",
+      "Size": 406,
+      "Type": "aliquid",
+      "Encoding": "sunt",
+      "Id": "animi",
+      "Disposition": "est",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 890
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Considine-Bednar",
+      "Name": "Sawayn, Blanda and Hermann",
       "Values": [
-        "eum",
-        "temporibus"
+        "quae",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     },
     {
-      "Name": "Considine-Bednar",
+      "Name": "Sawayn, Blanda and Hermann",
       "Values": [
-        "eum",
-        "temporibus"
+        "quae",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     }
   ],
-  "FolderName": "Zulauf LLC",
-  "EmailItemId": 564,
-  "AccountId": 176,
-  "ReceivedAt": "2019-12-08T13:13:23.0864655+01:00",
+  "FolderName": "Homenick-Rutherford",
+  "EmailItemId": 147,
+  "AccountId": 247,
+  "ReceivedAt": "2022-01-31T12:01:27.8534108+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-02-14T13:13:23.0864655+01:00",
+  "RepliedAt": "2006-12-26T12:01:27.8534108+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 977
     }
   }
 }

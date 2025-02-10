@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924
+  "Id": 880
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "blanditiis",
+  "RawValue": "minima",
   "Specification": null,
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "quo",
+  "DisplayValue": "et",
+  "DisplayTooltip": "aliquid",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 330,
-  "PrefDescId": 882,
-  "TableName": "Bashirian-Toy",
-  "UserPreferenceId": 561,
+  "TargetId": 941,
+  "PrefDescId": 645,
+  "TableName": "Schimmel-Mraz",
+  "UserPreferenceId": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

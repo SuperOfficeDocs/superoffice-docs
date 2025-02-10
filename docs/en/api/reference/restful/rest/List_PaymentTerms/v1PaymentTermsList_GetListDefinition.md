@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "McClure Group",
-  "Tooltip": "magni",
+  "Id": 803,
+  "Name": "Nolan Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 56,
+  "Rank": 227,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aperiam",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   },
   "_Links": {

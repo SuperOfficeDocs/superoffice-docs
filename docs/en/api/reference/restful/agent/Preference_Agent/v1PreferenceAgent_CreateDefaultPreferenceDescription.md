@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 162,
-  "Section": "vel",
-  "Key": "velit",
-  "Name": "Leffler, Kuphal and Johns",
+  "PrefDescId": 395,
+  "Section": "autem",
+  "Key": "cupiditate",
+  "Name": "Gibson LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated empowering policy",
+  "Description": "Inverse fault-tolerant groupware",
   "IsBuiltin": true,
-  "TableName": "Gulgowski Inc and Sons",
-  "UserDefinedListId": 852,
-  "Rank": 310,
-  "SubGroup": "nam",
-  "MinLevel": 265,
-  "MaxValue": 437,
-  "MinValue": 490,
-  "RequiredLicense": "consectetur",
+  "TableName": "Hammes LLC",
+  "UserDefinedListId": 470,
+  "Rank": 870,
+  "SubGroup": "rem",
+  "MinLevel": 952,
+  "MaxValue": 518,
+  "MinValue": 570,
+  "RequiredLicense": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldLength": 906
     }
   }
 }

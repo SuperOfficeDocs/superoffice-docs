@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Miller, Torphy and Fahey",
-    "ToolTip": "Est temporibus.",
+    "Id": 632,
+    "Name": "Satterfield-Grady",
+    "ToolTip": "Culpa velit esse ratione eaque voluptas non.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "quam",
-    "ColorBlock": 652,
-    "IconHint": "nesciunt",
+    "Rank": 128,
+    "Type": "error",
+    "ColorBlock": 244,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2012-07-27T13:13:33.6047606+02:00",
+    "LastChanged": "2005-11-01T12:01:33.6676138+01:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "McClure, Beatty and Wisozk",
-        "ToolTip": "Ea maiores molestiae eum.",
+        "Id": 746,
+        "Name": "Harris, Dach and Walker",
+        "ToolTip": "Inventore nostrum sunt eveniet culpa error cum dolore.",
         "Deleted": true,
-        "Rank": 813,
-        "Type": "et",
-        "ColorBlock": 53,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2015-10-18T13:13:33.6047606+02:00",
+        "Rank": 25,
+        "Type": "nisi",
+        "ColorBlock": 215,
+        "IconHint": "minus",
+        "Selected": true,
+        "LastChanged": "2021-07-25T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Patrick McCullough",
+        "ExtraInfo": "possimus",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Mr. Lila Alec Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 645
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ut",
+    "ExtraInfo": "eius",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Bianka Breitenberg",
+    "FullName": "Bessie Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 155
       }
     }
   }

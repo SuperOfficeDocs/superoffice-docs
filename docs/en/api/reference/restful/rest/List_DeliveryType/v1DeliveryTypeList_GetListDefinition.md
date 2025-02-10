@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Howell-Bode",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "Rank": 330,
+  "Id": 321,
+  "Name": "O'Keefe Group",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "Rank": 76,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

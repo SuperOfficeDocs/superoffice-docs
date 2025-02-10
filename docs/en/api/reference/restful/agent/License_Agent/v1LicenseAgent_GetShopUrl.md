@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kub LLC"
+  "OwnerName": "Hilpert-Osinski"
 }
 ```
 

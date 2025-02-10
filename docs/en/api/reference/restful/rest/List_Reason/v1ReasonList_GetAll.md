@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Cartwright-Torphy",
-    "Tooltip": "qui",
+    "Id": 614,
+    "Name": "Schamberger, Boyer and Balistreri",
+    "Tooltip": "eius",
     "Deleted": false,
-    "UdListDefinitionId": 944,
-    "Rank": 353,
+    "UdListDefinitionId": 803,
+    "Rank": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldType": "System.String",
+        "FieldLength": 389
       }
     }
   }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 725,
-  "StartTime": "2000-08-20T13:13:22.6019709+02:00",
-  "EndTime": "2019-03-30T13:13:22.6019709+01:00",
-  "Count": 867,
+  "PersonId": 337,
+  "StartTime": "2017-04-15T12:01:27.5877684+02:00",
+  "EndTime": "2024-11-13T12:01:27.5877684+01:00",
+  "Count": 152,
   "DocumentTemplateIds": [
-    683,
-    565
+    282,
+    235
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 235,
-    "Attention": "expedita",
-    "Header": "odio",
-    "Name": "Kozey LLC",
-    "OurRef": "consequatur",
-    "YourRef": "quia",
-    "Description": "Balanced system-worthy hub",
-    "DocumentTemplate": "est",
+    "DocumentId": 3,
+    "Attention": "eum",
+    "Header": "dolores",
+    "Name": "Parker Group",
+    "OurRef": "quia",
+    "YourRef": "blanditiis",
+    "Description": "Focused zero tolerance artificial intelligence",
+    "DocumentTemplate": "accusamus",
     "IsPublished": false,
-    "PersonId": 710,
-    "PersonFullName": "Ms. Berenice Tillman I",
-    "AssociateFullName": "Shawn Feeney",
-    "ContactId": 624,
-    "ContactName": "Kling-Morissette",
-    "ProjectId": 378,
-    "ProjectName": "Cummerata, Emmerich and Kris",
-    "AssociateId": 109,
-    "Snum": 194,
-    "SaleId": 212,
-    "SaleName": "Schmitt Group",
+    "PersonId": 689,
+    "PersonFullName": "Hobart Lubowitz",
+    "AssociateFullName": "Carmella Labadie",
+    "ContactId": 132,
+    "ContactName": "Runte-Hahn",
+    "ProjectId": 916,
+    "ProjectName": "Hettinger-Powlowski",
+    "AssociateId": 198,
+    "Snum": 579,
+    "SaleId": 601,
+    "SaleName": "Willms-Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldType": "System.String",
+        "FieldLength": 855
       }
     }
   }

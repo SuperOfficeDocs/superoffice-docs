@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 744
+  "KbEntryId": 916
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "reprehenderit",
-  "RegisteredByFullName": "Zechariah Kling",
-  "Updated": "2015-07-05T13:13:22.5394847+02:00",
-  "Question": "expedita",
-  "Answer": "magnam",
+  "Title": "et",
+  "RegisteredByFullName": "Ms. Oral Wintheiser",
+  "Updated": "2007-11-03T12:01:27.5565162+01:00",
+  "Question": "ex",
+  "Answer": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

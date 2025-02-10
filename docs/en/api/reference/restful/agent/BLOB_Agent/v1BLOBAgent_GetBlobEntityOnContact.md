@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 562
+  "ContactId": 599
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 276,
-  "BlobSize": 607,
-  "Description": "Realigned demand-driven budgetary management",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": true,
+  "BlobId": 887,
+  "BlobSize": 814,
+  "Description": "Synergized secondary focus group",
+  "ExtraInfo": "dignissimos",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 939,
-  "CreatedDate": "2006-02-18T13:13:22.1645758+01:00",
-  "UpdatedDate": "2011-03-03T13:13:22.1645758+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 720,
+  "CreatedDate": "2024-11-22T12:01:27.3690022+01:00",
+  "UpdatedDate": "2010-07-08T12:01:27.3690022+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

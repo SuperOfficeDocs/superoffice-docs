@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 347,
-  "Name": "Langworth LLC",
-  "Tooltip": "non",
-  "Rank": 418,
+  "SaleTypeId": 885,
+  "Name": "O'Reilly Group",
+  "Tooltip": "vero",
+  "Rank": 785,
   "DurationUnit": "Century",
-  "SaleDuration": 805,
-  "SaleTypeCatId": 1001,
-  "Deleted": false,
+  "SaleDuration": 904,
+  "SaleTypeCatId": 468,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 350,
-  "QuoteLinesTemplate": 564,
-  "ConfirmationLinesTemplate": 758,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 79,
+  "QuoteLinesTemplate": 253,
+  "ConfirmationLinesTemplate": 716,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 957,
-  "MinEarningPercent": 440,
-  "GroupQuoteLinesBy": 518,
-  "SortGroupLinesBy": 963,
+  "MaxDiscountPercent": 925,
+  "MinEarningPercent": 270,
+  "GroupQuoteLinesBy": 814,
+  "SortGroupLinesBy": 312,
   "Stages": [
     {
-      "Id": 771,
-      "Name": "Wisoky, Walker and Zieme",
-      "ToolTip": "Iste id veritatis dolorem id eum.",
+      "Id": 539,
+      "Name": "Schroeder-Steuber",
+      "ToolTip": "Et nihil est eum non corrupti autem nam.",
       "Deleted": false,
-      "Rank": 135,
-      "Type": "doloribus",
-      "ColorBlock": 196,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "1998-04-24T13:13:23.3207956+02:00",
+      "Rank": 431,
+      "Type": "ab",
+      "ColorBlock": 653,
+      "IconHint": "ex",
+      "Selected": true,
+      "LastChanged": "2004-09-09T12:01:27.97842+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officia",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Mr. Jackie Maybell Strosin V"
+      "ExtraInfo": "corrupti",
+      "StyleHint": "eveniet",
+      "Hidden": true,
+      "FullName": "Jessyca Rosenbaum"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 868,
-  "Name": "Schuster-Watsica",
-  "Tooltip": "numquam",
-  "Rank": 40,
+  "SaleTypeId": 786,
+  "Name": "Hoeger Group",
+  "Tooltip": "consequatur",
+  "Rank": 979,
   "DurationUnit": "Century",
-  "SaleDuration": 326,
-  "SaleTypeCatId": 121,
+  "SaleDuration": 668,
+  "SaleTypeCatId": 132,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 563,
-  "QuoteLinesTemplate": 178,
-  "ConfirmationLinesTemplate": 390,
+  "DefaultQuoteValidity": 248,
+  "QuoteLinesTemplate": 573,
+  "ConfirmationLinesTemplate": 728,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 361,
-  "MinEarningPercent": 624,
-  "GroupQuoteLinesBy": 859,
-  "SortGroupLinesBy": 83,
+  "MaxDiscountPercent": 783,
+  "MinEarningPercent": 179,
+  "GroupQuoteLinesBy": 424,
+  "SortGroupLinesBy": 677,
   "Stages": [
     {
-      "Id": 565,
-      "Name": "Spencer-Klein",
-      "ToolTip": "Repudiandae quasi incidunt alias quia sequi.",
-      "Deleted": true,
-      "Rank": 299,
-      "Type": "expedita",
-      "ColorBlock": 252,
-      "IconHint": "molestias",
+      "Id": 249,
+      "Name": "Hirthe LLC",
+      "ToolTip": "Deserunt nostrum laudantium.",
+      "Deleted": false,
+      "Rank": 203,
+      "Type": "perferendis",
+      "ColorBlock": 68,
+      "IconHint": "tempora",
       "Selected": true,
-      "LastChanged": "2020-12-19T13:13:23.3364181+01:00",
+      "LastChanged": "2019-04-25T12:01:27.97842+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "quia",
+      "ExtraInfo": "saepe",
+      "StyleHint": "at",
       "Hidden": false,
-      "FullName": "Bobbie Altenwerth III",
+      "FullName": "Mrs. Britney Larissa Douglas DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldType": "System.String",
+          "FieldLength": 710
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

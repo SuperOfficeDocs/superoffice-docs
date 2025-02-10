@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Jast, Hoppe and Stehr",
-    "ToolTip": "Et necessitatibus officiis laudantium quae sapiente voluptas voluptatem.",
+    "Id": 736,
+    "Name": "Beahan-Towne",
+    "ToolTip": "Sit et corporis quis.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "ex",
-    "ColorBlock": 407,
-    "IconHint": "odio",
+    "Rank": 311,
+    "Type": "quia",
+    "ColorBlock": 451,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2022-02-03T13:13:33.1986076+01:00",
+    "LastChanged": "2015-06-26T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Tromp-Bartoletti",
-        "ToolTip": "Sunt earum.",
+        "Id": 885,
+        "Name": "Price, Davis and Hilll",
+        "ToolTip": "Soluta eius voluptate qui atque incidunt cum.",
         "Deleted": false,
-        "Rank": 558,
-        "Type": "fugiat",
-        "ColorBlock": 933,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2023-03-27T13:13:33.1986076+02:00",
+        "Rank": 696,
+        "Type": "vero",
+        "ColorBlock": 15,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2015-11-04T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "quas",
+        "ExtraInfo": "nulla",
+        "StyleHint": "ullam",
         "Hidden": true,
-        "FullName": "Agustin Blick",
+        "FullName": "Ms. Kyla Botsford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 467
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "impedit",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Marguerite Grimes MD",
+    "FullName": "Wallace Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   }

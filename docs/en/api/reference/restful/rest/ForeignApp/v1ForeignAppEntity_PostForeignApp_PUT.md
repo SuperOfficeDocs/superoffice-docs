@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 660,
-  "Name": "Kunde, Keeling and Renner",
-  "CreatedDate": "2022-08-06T13:13:31.7301065+02:00",
-  "UpdatedDate": "2012-12-25T13:13:31.7301065+01:00",
+  "ForeignAppId": 112,
+  "Name": "Parisian, Leuschke and Wilderman",
+  "CreatedDate": "2005-04-13T12:01:32.9019357+02:00",
+  "UpdatedDate": "2011-10-27T12:01:32.9019357+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 486,
-      "Name": "Heathcote Inc and Sons",
-      "CreatedDate": "2024-06-02T13:13:31.7301065+02:00",
-      "UpdatedDate": "2019-10-22T13:13:31.7301065+02:00",
-      "AssociateFullName": "Leonel Grimes",
-      "CreatedBy": "autem",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 5,
+      "ForeignDeviceId": 449,
+      "Name": "Bruen-Conn",
+      "CreatedDate": "2019-04-14T12:01:32.9019357+02:00",
+      "UpdatedDate": "2018-09-16T12:01:32.9019357+02:00",
+      "AssociateFullName": "Fannie Wunsch",
+      "CreatedBy": "iusto",
+      "UpdatedBy": "omnis",
+      "DeviceIdentifier": "sint",
+      "ForeignAppId": 527,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldType": "System.Int32",
+          "FieldLength": 175
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 279,
+  "TargetAssignmentInfoId": 602,
   "Values": [
-    304,
-    326
+    700,
+    389
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 545,
-  "DimensionListItemDisplayName": "Schultz, Welch and Bednar",
+  "DimensionListItem": 61,
+  "DimensionListItemDisplayName": "Grimes-Upton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   }
 }

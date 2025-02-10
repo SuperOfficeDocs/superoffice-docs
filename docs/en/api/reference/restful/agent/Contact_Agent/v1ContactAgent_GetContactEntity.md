@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=906
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=911
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 599,
-  "Name": "Erdman, Nienow and Haley",
+  "ContactId": 313,
+  "Name": "Waelchi, Paucek and Morissette",
   "Department": "",
-  "OrgNr": "462133",
-  "Number1": "775737",
-  "Number2": "1102565",
-  "UpdatedDate": "2004-01-25T13:13:22.3988933+01:00",
-  "CreatedDate": "2022-10-26T13:13:22.3988933+02:00",
+  "OrgNr": "1445161",
+  "Number1": "1122689",
+  "Number2": "778239",
+  "UpdatedDate": "2022-01-26T12:01:27.4783858+01:00",
+  "CreatedDate": "2022-06-21T12:01:27.4783858+02:00",
   "Emails": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "odio",
-      "Description": "Mandatory tangible local area network",
+      "Value": "necessitatibus",
+      "StrippedValue": "quae",
+      "Description": "Assimilated composite flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 952
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "odio",
-      "Description": "Mandatory tangible local area network",
+      "Value": "necessitatibus",
+      "StrippedValue": "quae",
+      "Description": "Assimilated composite flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 952
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 655,
-      "Name": "Dicki, Abshire and Tillman",
-      "ToolTip": "Quasi eos quod.",
+      "Id": 580,
+      "Name": "Monahan LLC",
+      "ToolTip": "Culpa expedita.",
       "Deleted": false,
-      "Rank": 538,
-      "Type": "necessitatibus",
-      "ColorBlock": 947,
-      "IconHint": "impedit",
+      "Rank": 372,
+      "Type": "ipsam",
+      "ColorBlock": 92,
+      "IconHint": "saepe",
       "Selected": false,
-      "LastChanged": "2017-09-23T13:13:22.3988933+02:00",
+      "LastChanged": "2002-08-02T12:01:27.4783858+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "quis",
+      "ExtraInfo": "eos",
+      "StyleHint": "animi",
       "Hidden": true,
-      "FullName": "Amara Rogahn",
+      "FullName": "Audreanne Bartell V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 263
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "libero",
-      "StrippedValue": "itaque",
-      "Description": "Horizontal client-server migration",
+      "Value": "ad",
+      "StrippedValue": "suscipit",
+      "Description": "Reverse-engineered object-oriented structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     },
     {
-      "Value": "libero",
-      "StrippedValue": "itaque",
-      "Description": "Horizontal client-server migration",
+      "Value": "ad",
+      "StrippedValue": "suscipit",
+      "Description": "Reverse-engineered object-oriented structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "ea",
-      "StrippedValue": "laudantium",
-      "Description": "Reverse-engineered national initiative",
+      "Value": "soluta",
+      "StrippedValue": "est",
+      "Description": "Virtual system-worthy encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 541
         }
       }
     },
     {
-      "Value": "ea",
-      "StrippedValue": "laudantium",
-      "Description": "Reverse-engineered national initiative",
+      "Value": "soluta",
+      "StrippedValue": "est",
+      "Description": "Virtual system-worthy encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 541
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ea",
-      "StrippedValue": "sunt",
-      "Description": "Networked homogeneous paradigm",
+      "Value": "voluptas",
+      "StrippedValue": "corporis",
+      "Description": "Reactive context-sensitive structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 997
         }
       }
     },
     {
-      "Value": "ea",
-      "StrippedValue": "sunt",
-      "Description": "Networked homogeneous paradigm",
+      "Value": "voluptas",
+      "StrippedValue": "corporis",
+      "Description": "Reactive context-sensitive structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 997
         }
       }
     }
   ],
-  "Description": "Object-based intangible secured line",
+  "Description": "Operative coherent customer loyalty",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "voluptatem",
-      "PersonId": 21,
-      "Mrmrs": "ab",
-      "Firstname": "Adrian",
-      "Lastname": "Ratke",
-      "MiddleName": "Berge-Gulgowski",
-      "Title": "ducimus",
-      "Description": "Distributed bi-directional function",
-      "Email": "amya_kunde@champlinweimann.us",
-      "FullName": "Jacey Ross Bernier DVM",
-      "DirectPhone": "275-078-5171 x87959",
-      "FormalName": "Corkery-Little",
-      "CountryId": 342,
-      "ContactId": 213,
-      "ContactName": "Bins, Quigley and Walker",
-      "Retired": 526,
-      "Rank": 998,
-      "ActiveInterests": 893,
+      "Position": "et",
+      "PersonId": 142,
+      "Mrmrs": "culpa",
+      "Firstname": "Jon",
+      "Lastname": "Lebsack",
+      "MiddleName": "Effertz-Schuppe",
+      "Title": "laboriosam",
+      "Description": "Reduced multimedia data-warehouse",
+      "Email": "stephany_huel@bogisich.com",
+      "FullName": "Euna Eichmann",
+      "DirectPhone": "951-089-4108 x6006",
+      "FormalName": "Bahringer, Pollich and Beier",
+      "CountryId": 87,
+      "ContactId": 890,
+      "ContactName": "Abshire Inc and Sons",
+      "Retired": 394,
+      "Rank": 16,
+      "ActiveInterests": 642,
       "ContactDepartment": "",
-      "ContactCountryId": 562,
-      "ContactOrgNr": "1212071",
-      "FaxPhone": "847-553-1365",
-      "MobilePhone": "693-674-0249 x2337",
-      "ContactPhone": "(565)969-5248 x01458",
-      "AssociateName": "Weimann, Moen and Barton",
-      "AssociateId": 825,
+      "ContactCountryId": 971,
+      "ContactOrgNr": "800996",
+      "FaxPhone": "968-625-2620 x2109",
+      "MobilePhone": "399.582.3077",
+      "ContactPhone": "(197)176-9361 x336",
+      "AssociateName": "Leuschke Inc and Sons",
+      "AssociateId": 742,
       "UsePersonAddress": false,
-      "ContactFax": "voluptatem",
-      "Kanafname": "reiciendis",
-      "Kanalname": "consequatur",
-      "Post1": "quam",
-      "Post2": "ullam",
-      "Post3": "delectus",
-      "EmailName": "kelli@wunsch.ca",
-      "ContactFullName": "Al Hickle",
-      "ActiveErpLinks": 385,
-      "TicketPriorityId": 150,
-      "SupportLanguageId": 517,
-      "SupportAssociateId": 219,
+      "ContactFax": "iste",
+      "Kanafname": "illo",
+      "Kanalname": "similique",
+      "Post1": "repudiandae",
+      "Post2": "debitis",
+      "Post3": "quas",
+      "EmailName": "wilford.wisoky@mooregoyette.com",
+      "ContactFullName": "Wayne Thompson",
+      "ActiveErpLinks": 192,
+      "TicketPriorityId": 969,
+      "SupportLanguageId": 383,
+      "SupportAssociateId": 912,
       "CategoryName": "VIP Customer",
+      "PersonNumber": "410775",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldType": "System.Int32",
+          "FieldLength": 795
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "adipisci",
-  "Xstop": false,
-  "ActiveInterests": 501,
-  "GroupId": 565,
-  "ActiveStatusMonitorId": 493,
+  "Kananame": "odit",
+  "Xstop": true,
+  "ActiveInterests": 162,
+  "GroupId": 323,
+  "ActiveStatusMonitorId": 15,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 599,
-  "DbiAgentId": 625,
-  "DbiLastSyncronized": "2024-05-26T13:13:22.3988933+02:00",
-  "DbiKey": "quis",
-  "DbiLastModified": "2011-12-08T13:13:22.3988933+01:00",
+  "Deleted": 805,
+  "DbiAgentId": 642,
+  "DbiLastSyncronized": "2022-05-01T12:01:27.4783858+02:00",
+  "DbiKey": "tempore",
+  "DbiLastModified": "2020-02-01T12:01:27.4783858+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 330,
-  "ActiveErpLinks": 331,
+  "Source": 362,
+  "ActiveErpLinks": 558,
   "BounceEmails": [
-    "caesar@hueloconnell.biz",
-    "elody.bradtke@wisozk.com"
+    "lesley@murray.uk",
+    "thaddeus@smitham.co.uk"
   ],
   "Domains": [
-    "quia",
-    "officia"
+    "deleniti",
+    "quia"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "298438857"
+    "SuperOffice:1": "Houston Dare",
+    "SuperOffice:2": "Rosendo Gerard Hilpert DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "eos",
+    "CustomFields2": "magnam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

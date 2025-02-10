@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401
+  "Id": 686
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Koss-Fisher",
-  "AssociateId": 119,
-  "DetailsTable": 616,
-  "DetailsRecord": 919,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 108,
+  "Name": "Hills, Bernier and Ruecker",
+  "AssociateId": 93,
+  "DetailsTable": 233,
+  "DetailsRecord": 656,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "cum"
+    "ParameterObject1": "veritatis",
+    "ParameterObject2": "dolores"
   },
-  "LastStarted": "2001-11-26T13:13:22.133333+01:00",
-  "Created": "1998-08-23T13:13:22.133333+02:00",
-  "StartCount": 666,
-  "DatabaseSerialNumber": "1235362",
-  "Context": "unde",
-  "Result": "at",
+  "LastStarted": "2024-07-03T12:01:27.3377499+02:00",
+  "Created": "2020-03-02T12:01:27.3377499+01:00",
+  "StartCount": 751,
+  "DatabaseSerialNumber": "1023876",
+  "Context": "quaerat",
+  "Result": "qui",
   "State": "All",
-  "Description": "Grass-roots dedicated support",
-  "Response": "praesentium",
-  "Request": "consequuntur",
-  "ProgressDescription": "Intuitive interactive firmware",
-  "ProgressPercent": 458,
-  "FileName": "Friesen Group",
+  "Description": "Synergistic web-enabled customer loyalty",
+  "Response": "sapiente",
+  "Request": "quos",
+  "ProgressDescription": "Digitized content-based definition",
+  "ProgressPercent": 853,
+  "FileName": "Sawayn Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 626
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "velit",
-  "SignOffText": "nemo",
-  "SignOnConfirmationText": "beatae",
-  "SignOnText": "voluptatem",
-  "EventDate": "1999-02-27T13:13:23.6175382+01:00",
+  "SignOffConfirmationText": "optio",
+  "SignOffText": "quibusdam",
+  "SignOnConfirmationText": "et",
+  "SignOnText": "corrupti",
+  "EventDate": "2013-11-04T12:01:28.1346745+01:00",
   "Enabled": true,
-  "CreatedDate": "2007-09-11T13:13:23.6175382+02:00",
+  "CreatedDate": "2000-09-13T12:01:28.1346745+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 301,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 894,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 414,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2005-04-10T13:13:23.6175382+02:00",
+  "SignOnTaskId": 596,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2013-01-31T12:01:28.1346745+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 437,
-  "Id": 179,
-  "PublishFrom": "1998-09-15T13:13:23.633159+02:00",
+  "ProjectId": 371,
+  "Id": 726,
+  "PublishFrom": "2010-10-12T12:01:28.1346745+02:00",
   "PublishType": "External",
-  "PublishTo": "2022-02-26T13:13:23.633159+01:00",
+  "PublishTo": "2017-06-16T12:01:28.1346745+02:00",
   "VisibleForCategories": [
     {
-      "Id": 288,
-      "Name": "Spinka Group",
-      "ToolTip": "Deleniti id ad.",
-      "Deleted": false,
-      "Rank": 991,
-      "Type": "est",
+      "Id": 824,
+      "Name": "Bailey-Wunsch",
+      "ToolTip": "Totam quos voluptate est blanditiis.",
+      "Deleted": true,
+      "Rank": 268,
+      "Type": "praesentium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "alias",
-      "ColorBlock": 500,
-      "ExtraInfo": "sapiente",
-      "StyleHint": "magnam",
-      "FullName": "Clay Dickinson",
+      "IconHint": "error",
+      "ColorBlock": 413,
+      "ExtraInfo": "ut",
+      "StyleHint": "et",
+      "FullName": "Dr. Trenton Geraldine Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 473
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 529,
-      "Name": "Hackett Group",
-      "ToolTip": "Esse ut natus ipsam.",
+      "Id": 933,
+      "Name": "Nader LLC",
+      "ToolTip": "Perferendis odit amet quam delectus quam possimus.",
       "Deleted": true,
-      "Rank": 764,
-      "Type": "enim",
+      "Rank": 80,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 658,
-      "ExtraInfo": "est",
-      "StyleHint": "minima",
-      "FullName": "Kiarra Grady",
+      "IconHint": "vitae",
+      "ColorBlock": 173,
+      "ExtraInfo": "quia",
+      "StyleHint": "fugiat",
+      "FullName": "Charlene Caleb Donnelly PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 319
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 771,
+  "ProjectEventId": 846,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
 }

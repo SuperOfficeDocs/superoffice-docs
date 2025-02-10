@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 914,
-    "Name": "Graham-Marks",
-    "Tooltip": "vel",
+    "HeadingId": 50,
+    "Name": "Kling-Lockman",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 161
+    "Rank": 572,
+    "UdListDefinitionId": 120
   },
   {
-    "HeadingId": 914,
-    "Name": "Graham-Marks",
-    "Tooltip": "vel",
+    "HeadingId": 50,
+    "Name": "Kling-Lockman",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 161
+    "Rank": 572,
+    "UdListDefinitionId": 120
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 983,
-    "Name": "Hermiston Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 501,
+    "Name": "Beahan-Dibbert",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 789,
-    "UdListDefinitionId": 801,
+    "Rank": 78,
+    "UdListDefinitionId": 317,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 265
       }
     }
   }

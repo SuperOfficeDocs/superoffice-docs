@@ -98,40 +98,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "tempora",
-    "InputValues2": "explicabo"
+    "InputValues1": "error",
+    "InputValues2": "eum"
   },
-  "BlockExecution": false,
-  "NavigateTo": "autem",
-  "Message": "maiores",
-  "ShowDialog": "nihil",
+  "BlockExecution": true,
+  "NavigateTo": "cupiditate",
+  "Message": "quasi",
+  "ShowDialog": "blanditiis",
   "OutputValues": {
-    "OutputValues1": "ea",
-    "OutputValues2": "voluptatum"
+    "OutputValues1": "iure",
+    "OutputValues2": "qui"
   },
   "StateValues": {
-    "StateValues1": "dolores",
-    "StateValues2": "maxime"
+    "StateValues1": "nihil",
+    "StateValues2": "unde"
   },
-  "Exception": "enim",
+  "Exception": "autem",
   "ParserValues": {
-    "ParserValues1": "porro",
-    "ParserValues2": "praesentium"
+    "ParserValues1": "quidem",
+    "ParserValues2": "libero"
   },
   "CgiVariables": {
-    "CgiVariables1": "eum",
-    "CgiVariables2": "perferendis"
+    "CgiVariables1": "neque",
+    "CgiVariables2": "aut"
   },
-  "CgiContent": "officia",
+  "CgiContent": "quis",
   "Headers": {
-    "Headers1": "optio",
-    "Headers2": "nihil"
+    "Headers1": "dolorum",
+    "Headers2": "maxime"
   },
   "TraceExecution": false
 }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quam",
-    "InputValues2": "autem"
+    "InputValues1": "officiis",
+    "InputValues2": "ea"
   },
   "BlockExecution": false,
-  "NavigateTo": "soluta",
-  "Message": "consequuntur",
-  "ShowDialog": "aut",
+  "NavigateTo": "deleniti",
+  "Message": "libero",
+  "ShowDialog": "laudantium",
   "OutputValues": {
-    "OutputValues1": "dignissimos",
-    "OutputValues2": "quo"
+    "OutputValues1": "ab",
+    "OutputValues2": "ad"
   },
   "StateValues": {
-    "StateValues1": "ad",
-    "StateValues2": "maxime"
+    "StateValues1": "mollitia",
+    "StateValues2": "porro"
   },
-  "Exception": "laborum",
+  "Exception": "esse",
   "ParserValues": {
-    "ParserValues1": "quam",
-    "ParserValues2": "hic"
+    "ParserValues1": "architecto",
+    "ParserValues2": "facere"
   },
   "CgiVariables": {
-    "CgiVariables1": "alias",
-    "CgiVariables2": "temporibus"
+    "CgiVariables1": "aliquam",
+    "CgiVariables2": "iusto"
   },
-  "CgiContent": "quis",
+  "CgiContent": "molestiae",
   "Headers": {
-    "Headers1": "error",
-    "Headers2": "quod"
+    "Headers1": "quidem",
+    "Headers2": "quis"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 138
     }
   }
 }

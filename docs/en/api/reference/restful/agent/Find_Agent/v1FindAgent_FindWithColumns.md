@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facere",
-  "ProviderName": "Stehr-Anderson",
-  "StorageKey": "non",
+  "StorageType": "ut",
+  "ProviderName": "Lynch-Funk",
+  "StorageKey": "dicta",
   "DesiredColumns": [
-    "quia",
-    "consectetur"
+    "molestias",
+    "voluptatem"
   ],
-  "PageSize": 918,
-  "PageNumber": 882,
+  "PageSize": 954,
+  "PageNumber": 440,
   "OrderBy": [
     {
-      "Name": "Jerde-Reichel",
+      "Name": "Dickinson LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Jerde-Reichel",
+      "Name": "Dickinson LLC",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koepp-Price",
-      "DisplayTooltip": "debitis",
-      "DisplayType": "expedita",
+      "DisplayName": "Ruecker, Cormier and Metz",
+      "DisplayTooltip": "facere",
+      "DisplayType": "libero",
       "CanOrderBy": false,
-      "Name": "Hermiston-Crona",
+      "Name": "Stroman-Russel",
       "CanRestrictBy": false,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Schinner, Hoppe and McKenzie",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Lowe, Little and Bogisich",
       "IsVisible": false,
-      "ExtraInfo": "quam",
-      "Width": "ut",
-      "IconHint": "perferendis",
-      "HeadingIconHint": "quae"
+      "ExtraInfo": "ea",
+      "Width": "consequuntur",
+      "IconHint": "dolor",
+      "HeadingIconHint": "ea"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Runte Inc and Sons",
-      "PrimaryKey": 544,
+      "EntityName": "Konopelski-Hansen",
+      "PrimaryKey": 418,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "qui",
-          "LinkHint": "et"
+          "DisplayValue": "qui",
+          "TooltipHint": "perspiciatis",
+          "LinkHint": "necessitatibus"
         }
       },
-      "LinkHint": "sapiente",
-      "StyleHint": "qui",
+      "LinkHint": "nisi",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "RowCount": 577,
+  "RowCount": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

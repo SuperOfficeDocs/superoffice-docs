@@ -92,7 +92,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "fugiat",
+  "TriggerScriptUniqueId": "et",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 981,
-  "Name": "McLaughlin Inc and Sons",
+  "ScreenChooserId": 652,
+  "Name": "Medhurst, Swift and Witting",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "ut",
-  "Registered": "2013-03-07T13:13:22.5238611+01:00",
-  "RegisteredAssociateId": 25,
-  "Updated": "2014-05-23T13:13:22.5238611+02:00",
-  "UpdatedAssociateId": 448,
+  "UniqueIdentifier": "exercitationem",
+  "Source": "magnam",
+  "Registered": "2014-08-20T12:01:27.5408902+02:00",
+  "RegisteredAssociateId": 976,
+  "Updated": "2024-06-29T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   }
 }

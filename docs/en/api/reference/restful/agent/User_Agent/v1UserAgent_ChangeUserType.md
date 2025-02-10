@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 795,
-  "Name": "Spencer-Howe",
-  "Rank": 724,
-  "Tooltip": "esse",
+  "AssociateId": 255,
+  "Name": "Jaskolski-Emmerich",
+  "Rank": 26,
+  "Tooltip": "eius",
   "LicenseOwners": [
     {
-      "Name": "Welch LLC",
-      "Description": "Devolved zero defect matrices",
+      "Name": "Stokes-Welch",
+      "Description": "Multi-lateral interactive forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 443
         }
       }
     },
     {
-      "Name": "Welch LLC",
-      "Description": "Devolved zero defect matrices",
+      "Name": "Stokes-Welch",
+      "Description": "Multi-lateral interactive forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 443
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sit",
-      "Tooltip": "corrupti",
-      "Id": 461,
-      "Rank": 16,
-      "Deleted": false,
+      "Value": "omnis",
+      "Tooltip": "placeat",
+      "Id": 279,
+      "Rank": 894,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 152
+          "FieldType": "System.Int32",
+          "FieldLength": 779
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2011-04-25T13:13:24.4465489+02:00",
-  "Lastlogout": "1999-05-07T13:13:24.4465489+02:00",
-  "EjUserId": 655,
-  "RequestSignature": "expedita",
+  "Lastlogin": "2016-03-27T12:01:28.5722109+02:00",
+  "Lastlogout": "2017-11-22T12:01:28.5722109+01:00",
+  "EjUserId": 604,
+  "RequestSignature": "veniam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
+      "Value": "iste",
       "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     },
     {
       "Type": null,
-      "Value": "sit",
+      "Value": "iste",
       "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
   ],
-  "UserName": "Kuhlman-Breitenberg",
+  "UserName": "Fritsch LLC",
   "TicketCategories": [
     {
-      "Id": 529,
-      "Name": "Kuhn Group",
-      "ToolTip": "Suscipit enim voluptatem.",
-      "Deleted": false,
-      "Rank": 646,
-      "Type": "debitis",
+      "Id": 417,
+      "Name": "Hammes-Rempel",
+      "ToolTip": "Sunt consequatur adipisci accusantium dolorem qui.",
+      "Deleted": true,
+      "Rank": 161,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 874,
-      "ExtraInfo": "et",
-      "StyleHint": "ad",
-      "FullName": "Miss Fredy Marquardt IV",
+      "IconHint": "totam",
+      "ColorBlock": 96,
+      "ExtraInfo": "facilis",
+      "StyleHint": "aut",
+      "FullName": "Jacynthe Kling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
   ],
-  "NickName": "Herzog LLC",
+  "NickName": "Padberg, McCullough and Marvin",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "quasi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Johnston, Schinner and Stanton",
-      "DisplayName": "Lemke Group",
-      "Description": "Distributed demand-driven knowledge user",
-      "ToolTip": "Rerum porro non dolor aut perspiciatis aut.",
+      "Name": "Schuster, Mosciski and Gleichner",
+      "DisplayName": "Mills Group",
+      "Description": "Extended optimal task-force",
+      "ToolTip": "Doloribus omnis.",
       "Actions": "Implicit",
-      "ActionData": "ea",
+      "ActionData": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 958
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 658
     }
   }
 }

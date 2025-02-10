@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 958,
-  "Name": "Wolf-Nolan",
-  "Description": "Automated upward-trending emulation",
-  "DeltaJson": "a",
+  "ConfigurableScreenDeltaId": 892,
+  "Name": "Schowalter, Thiel and Lueilwitz",
+  "Description": "Streamlined dynamic application",
+  "DeltaJson": "amet",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sed",
-  "UpdatedDate": "2021-10-10T13:13:22.3207878+02:00",
-  "CreatedDate": "2013-07-25T13:13:22.3207878+02:00",
+  "RecipeId": "animi",
+  "UpdatedDate": "2017-09-04T12:01:27.4471334+02:00",
+  "CreatedDate": "2002-10-30T12:01:27.4471334+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    891,
-    479
+    653,
+    420
   ],
-  "AppliesToKey": "tenetur",
+  "AppliesToKey": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

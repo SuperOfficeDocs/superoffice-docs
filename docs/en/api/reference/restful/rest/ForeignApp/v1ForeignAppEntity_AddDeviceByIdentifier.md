@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 312,
-  "Name": "Steuber, Kutch and DuBuque",
-  "CreatedDate": "2018-07-25T13:13:31.7457296+02:00",
-  "UpdatedDate": "2021-09-12T13:13:31.7457296+02:00",
-  "AssociateFullName": "Josiah Schuppe",
-  "CreatedBy": "deleniti",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "optio",
-  "ForeignAppId": 446,
+  "ForeignDeviceId": 801,
+  "Name": "Wilderman Inc and Sons",
+  "CreatedDate": "2007-11-30T12:01:32.9175621+01:00",
+  "UpdatedDate": "2017-06-30T12:01:32.9175621+02:00",
+  "AssociateFullName": "Javon Gerlach Jr.",
+  "CreatedBy": "et",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "facilis",
+  "ForeignAppId": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   }
 }

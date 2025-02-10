@@ -90,20 +90,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 813,
-  "AssociateId": 332,
-  "Block": "ratione",
-  "Registered": "1999-07-27T13:13:32.3392746+02:00",
-  "RegisteredAssociateId": 42,
-  "Updated": "1997-11-22T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 124,
-  "UpdatedCount": 512,
+  "ShipmentMessageBlockId": 461,
+  "AssociateId": 605,
+  "Block": "totam",
+  "Registered": "2014-06-15T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 676,
+  "Updated": "1998-03-28T12:01:33.2144574+01:00",
+  "UpdatedAssociateId": 439,
+  "UpdatedCount": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   },
   "_Links": {

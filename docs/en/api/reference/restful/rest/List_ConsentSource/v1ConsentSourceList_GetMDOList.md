@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=et
+GET /api/v1/List/ConsentSource/MDOItems?query=velit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "Hane Inc and Sons",
-    "ToolTip": "Dolor aut reiciendis sunt amet.",
+    "Id": 936,
+    "Name": "Wilkinson-Bailey",
+    "ToolTip": "Voluptatibus est occaecati.",
     "Deleted": false,
-    "Rank": 184,
-    "Type": "nobis",
+    "Rank": 876,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Haag Inc and Sons",
-        "ToolTip": "Aliquam corrupti eius autem ratione non ut enim.",
-        "Deleted": true,
-        "Rank": 390,
-        "Type": "quo",
+        "Id": 749,
+        "Name": "Gulgowski-O'Connell",
+        "ToolTip": "Assumenda et et ut quasi.",
+        "Deleted": false,
+        "Rank": 452,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eaque",
-        "ColorBlock": 651,
-        "ExtraInfo": "ut",
-        "StyleHint": "repellat",
-        "FullName": "Isac Barrows",
+        "IconHint": "itaque",
+        "ColorBlock": 172,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "reprehenderit",
+        "FullName": "Wanda Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 631
+            "FieldType": "System.Int32",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 734,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "iusto",
-    "FullName": "Obie Hillard Reinger III",
+    "IconHint": "nobis",
+    "ColorBlock": 562,
+    "ExtraInfo": "quos",
+    "StyleHint": "qui",
+    "FullName": "Leonard Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

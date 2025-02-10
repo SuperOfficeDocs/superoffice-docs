@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 64,
-  "CrmRecordId": 355,
+  "ErpConnectionId": 528,
+  "CrmRecordId": 708,
   "CrmActorType": "Contact",
-  "ErpKey": "tenetur",
+  "ErpKey": "libero",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Grimes LLC",
-      "CrmFieldKey": "libero",
-      "Value": "quasi",
-      "DisplayValue": "dolores",
+      "DisplayName": "Rodriguez Group",
+      "CrmFieldKey": "et",
+      "Value": "qui",
+      "DisplayValue": "debitis",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Grimes LLC",
-      "CrmFieldKey": "libero",
-      "Value": "quasi",
-      "DisplayValue": "dolores",
+      "DisplayName": "Rodriguez Group",
+      "CrmFieldKey": "et",
+      "Value": "qui",
+      "DisplayValue": "debitis",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }

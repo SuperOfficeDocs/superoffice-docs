@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 163,
-  "DimensionId": 808
+  "TargetYear": 306,
+  "DimensionId": 89
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 784,
-  "Year": 169,
+  "TargetGroupId": 386,
+  "Year": 715,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 278,
+      "TargetAssignmentInfoId": 8,
       "Values": [
-        351,
-        472
+        346,
+        755
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 545,
-      "DimensionListItemDisplayName": "Fahey, Oberbrunner and McGlynn",
+      "DimensionListItem": 585,
+      "DimensionListItemDisplayName": "Strosin, Hauck and Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 253
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 947
     }
   }
 }

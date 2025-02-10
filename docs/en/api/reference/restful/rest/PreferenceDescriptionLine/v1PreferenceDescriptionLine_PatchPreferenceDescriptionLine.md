@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "eaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "eaque",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 213,
-  "PrefDescId": 72,
-  "PrefValue": "debitis",
-  "PrefShowValue": "et",
-  "Description": "Monitored mobile matrices",
+  "PrefDescLineId": 814,
+  "PrefDescId": 353,
+  "PrefValue": "neque",
+  "PrefShowValue": "voluptatum",
+  "Description": "Switchable zero administration methodology",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 978
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

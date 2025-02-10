@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "fugit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "fugit",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 993,
-  "Name": "Kuhic, Macejkovic and Hansen",
-  "ContentType": "fugit",
-  "AttSize": 535,
+  "AttachmentId": 525,
+  "Name": "Simonis Group",
+  "ContentType": "voluptates",
+  "AttSize": 456,
   "InlineImage": false,
-  "ContentId": "sequi",
-  "AuthKey": "aperiam",
-  "IsSafeFileExtension": true,
+  "ContentId": "odit",
+  "AuthKey": "nihil",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 652
     }
   },
   "_Links": {

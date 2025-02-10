@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 654,
-  "ERPProductKey": "tempore",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Feest LLC",
-  "Description": "Integrated foreground middleware",
-  "Code": "omnis",
-  "PriceUnit": "aperiam",
-  "QuantityUnit": "illum",
+  "ProductId": 751,
+  "ERPProductKey": "rerum",
+  "ERPPriceListKey": "quia",
+  "Name": "Stoltenberg-Schulist",
+  "Description": "Configurable uniform access",
+  "Code": "officiis",
+  "PriceUnit": "eum",
+  "QuantityUnit": "cum",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 3726.326,
-  "ItemNumber": "928981",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 15068.271999999999,
+  "ItemNumber": "656251",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ducimus",
-  "ProductTypeKey": "est",
-  "VAT": 12839.998,
-  "VATInfo": "et",
-  "UnitCost": 1648.484,
-  "UnitMinimumPrice": 3463.0699999999997,
-  "UnitListPrice": 6531.2559999999994,
+  "ProductFamilyKey": "quam",
+  "ProductTypeKey": "dolorem",
+  "VAT": 21687.28,
+  "VATInfo": "eveniet",
+  "UnitCost": 5600.458,
+  "UnitMinimumPrice": 3532.018,
+  "UnitListPrice": 3958.2419999999997,
   "InAssortment": true,
-  "Supplier": "vel",
-  "SupplierCode": "natus",
-  "Rights": "et",
-  "Rule": "rerum",
+  "Supplier": "quia",
+  "SupplierCode": "exercitationem",
+  "Rights": "nulla",
+  "Rule": "sunt",
   "ExtraInfo": [
     {
-      "Name": "Hegmann, Bauch and Emmerich",
-      "Value": "voluptates",
+      "Name": "Willms-Fahey",
+      "Value": "accusantium",
       "Type": "Image"
     },
     {
-      "Name": "Hegmann, Bauch and Emmerich",
-      "Value": "voluptates",
+      "Name": "Willms-Fahey",
+      "Value": "accusantium",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "enim",
-  "ExtraField1": "vero",
-  "ExtraField2": "aut",
-  "ExtraField3": "qui",
-  "ExtraField4": "ipsam",
-  "ExtraField5": "ex",
-  "InStock": 28177.793999999998
+  "RawExtraInfo": "animi",
+  "ExtraField1": "beatae",
+  "ExtraField2": "officia",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "dicta",
+  "ExtraField5": "quo",
+  "InStock": 28425.379999999997
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 601,
-  "ERPProductKey": "eos",
-  "ERPPriceListKey": "expedita",
-  "Name": "Crooks LLC",
-  "Description": "Reverse-engineered content-based analyzer",
-  "Code": "voluptatibus",
-  "PriceUnit": "eius",
-  "QuantityUnit": "quae",
+  "ProductId": 618,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "accusantium",
+  "Name": "Reichert, Greenholt and Sanford",
+  "Description": "User-centric regional system engine",
+  "Code": "eum",
+  "PriceUnit": "nostrum",
+  "QuantityUnit": "odio",
   "IsSubscription": false,
-  "SubscriptionUnit": "nulla",
-  "DefaultSubscriptionQuantity": 23345.165999999997,
-  "ItemNumber": "706029",
+  "SubscriptionUnit": "dolorem",
+  "DefaultSubscriptionQuantity": 16741.827999999998,
+  "ItemNumber": "1635114",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "aut",
-  "VAT": 30315.182,
-  "VATInfo": "quo",
-  "UnitCost": 26128.158,
-  "UnitMinimumPrice": 17553.534,
-  "UnitListPrice": 19784.942,
+  "ProductFamilyKey": "illum",
+  "ProductTypeKey": "doloribus",
+  "VAT": 3660.5119999999997,
+  "VATInfo": "quod",
+  "UnitCost": 7715.9079999999994,
+  "UnitMinimumPrice": 3168.4739999999997,
+  "UnitListPrice": 14234.627999999999,
   "InAssortment": false,
-  "Supplier": "rerum",
-  "SupplierCode": "amet",
-  "Rights": "aliquid",
-  "Rule": "repudiandae",
+  "Supplier": "ut",
+  "SupplierCode": "tempora",
+  "Rights": "itaque",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Walsh Inc and Sons",
-      "Value": "dolor",
+      "Name": "Trantow, Gleichner and Ruecker",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 850
         }
       }
     },
     {
-      "Name": "Walsh Inc and Sons",
-      "Value": "dolor",
+      "Name": "Trantow, Gleichner and Ruecker",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 850
         }
       }
     }
   ],
-  "RawExtraInfo": "fugiat",
-  "ExtraField1": "nemo",
-  "ExtraField2": "autem",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "cupiditate",
-  "ExtraField5": "fugiat",
-  "InStock": 16569.458,
+  "RawExtraInfo": "quis",
+  "ExtraField1": "illo",
+  "ExtraField2": "cumque",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "placeat",
+  "ExtraField5": "quia",
+  "InStock": 29205.746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 466
     }
   }
 }

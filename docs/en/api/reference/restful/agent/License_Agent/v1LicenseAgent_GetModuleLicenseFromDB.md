@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Osinski, Kshlerin and Baumbach",
-  "ModuleName": "Okuneva, Howell and Hyatt"
+  "OwnerName": "Ankunding, Grady and Schmidt",
+  "ModuleName": "Sauer Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jacobs Inc and Sons",
-  "ModuleName": "Hickle, Macejkovic and Mohr",
-  "ModuleDescription": "Universal content-based synergy",
-  "ModuleTooltip": "numquam",
-  "ModuleVersion": "ratione",
+  "OwnerName": "Jenkins-Gleason",
+  "ModuleName": "Dibbert Group",
+  "ModuleDescription": "Networked coherent intranet",
+  "ModuleTooltip": "rerum",
+  "ModuleVersion": "eum",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 77,
-  "ExtraFlags": 475,
-  "ExtraInfo": "et",
-  "SortOrder": 602,
+  "NumberOfLicenses": 279,
+  "ExtraFlags": 747,
+  "ExtraInfo": "sit",
+  "SortOrder": 920,
   "IsHidden": true,
-  "PrerequisiteModuleName": "McCullough, Zulauf and McCullough",
-  "Signature": "voluptatum"
+  "PrerequisiteModuleName": "Ledner Inc and Sons",
+  "Signature": "debitis"
 }
 ```

@@ -25,7 +25,7 @@ Deletes the SaleEntity
 | SaleEntityId | int32 | **Required** The id of the SaleEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=808
+POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=68
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

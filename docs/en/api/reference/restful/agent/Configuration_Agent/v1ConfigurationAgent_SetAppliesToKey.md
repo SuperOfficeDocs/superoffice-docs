@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "ut",
-  "AppliesToKey": "et"
+  "RecipeId": "autem",
+  "AppliesToKey": "molestiae"
 }
 ```
 

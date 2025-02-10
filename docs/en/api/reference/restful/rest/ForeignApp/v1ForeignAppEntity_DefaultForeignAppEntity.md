@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 12 Sep 2024 13:13:31 G9T
+Last-Modified: Tue, 28 Oct 2008 12:01:32 G10T
 
 {
-  "ForeignAppId": 674,
-  "Name": "Koss-Gutmann",
-  "CreatedDate": "2014-08-09T13:13:31.7301065+02:00",
-  "UpdatedDate": "2024-09-12T13:13:31.7301065+02:00",
+  "ForeignAppId": 217,
+  "Name": "Wyman, Waters and Predovic",
+  "CreatedDate": "2020-05-04T12:01:32.9175621+02:00",
+  "UpdatedDate": "2008-10-28T12:01:32.9175621+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 983,
-      "Name": "Bernhard Inc and Sons",
-      "CreatedDate": "2015-04-02T13:13:31.7301065+02:00",
-      "UpdatedDate": "2008-06-20T13:13:31.7301065+02:00",
-      "AssociateFullName": "Christiana Maximus Bernhard V",
-      "CreatedBy": "molestias",
-      "UpdatedBy": "minima",
-      "DeviceIdentifier": "veritatis",
-      "ForeignAppId": 881,
+      "ForeignDeviceId": 814,
+      "Name": "Marvin, Kiehn and Welch",
+      "CreatedDate": "2013-01-12T12:01:32.9175621+01:00",
+      "UpdatedDate": "2006-01-30T12:01:32.9175621+01:00",
+      "AssociateFullName": "Napoleon Murray",
+      "CreatedBy": "tempora",
+      "UpdatedBy": "explicabo",
+      "DeviceIdentifier": "voluptatum",
+      "ForeignAppId": 559,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 631
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Thu, 12 Sep 2024 13:13:31 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   }
 }

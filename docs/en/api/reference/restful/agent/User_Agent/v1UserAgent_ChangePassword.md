@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 688,
-  "OldPassword": "odit",
-  "NewPassword": "impedit"
+  "AssociateId": 426,
+  "OldPassword": "nulla",
+  "NewPassword": "molestias"
 }
 ```
 

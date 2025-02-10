@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 110,
-  "Name": "Walter, Glover and Ernser",
-  "Tooltip": "voluptas",
-  "Rank": 510,
+  "SaleTypeId": 698,
+  "Name": "Shields Inc and Sons",
+  "Tooltip": "nostrum",
+  "Rank": 716,
   "DurationUnit": "Century",
-  "SaleDuration": 538,
-  "SaleTypeCatId": 279,
+  "SaleDuration": 804,
+  "SaleTypeCatId": 449,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 604,
-  "QuoteLinesTemplate": 436,
-  "ConfirmationLinesTemplate": 628,
+  "DefaultQuoteValidity": 508,
+  "QuoteLinesTemplate": 696,
+  "ConfirmationLinesTemplate": 128,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 106,
-  "MinEarningPercent": 213,
-  "GroupQuoteLinesBy": 840,
-  "SortGroupLinesBy": 852,
+  "MaxDiscountPercent": 720,
+  "MinEarningPercent": 708,
+  "GroupQuoteLinesBy": 464,
+  "SortGroupLinesBy": 967,
   "Stages": [
     {
-      "Id": 804,
-      "Name": "Cremin-Jerde",
-      "ToolTip": "Ut cum non voluptas ea.",
-      "Deleted": false,
-      "Rank": 890,
-      "Type": "aut",
-      "ColorBlock": 893,
-      "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2020-06-29T13:13:33.5735178+02:00",
+      "Id": 408,
+      "Name": "Jaskolski Inc and Sons",
+      "ToolTip": "Rerum esse iusto suscipit.",
+      "Deleted": true,
+      "Rank": 932,
+      "Type": "vel",
+      "ColorBlock": 215,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "2019-03-20T12:01:33.6519877+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quasi",
-      "StyleHint": "eius",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Elva Kris",
+      "FullName": "Mrs. Claire Botsford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 419
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

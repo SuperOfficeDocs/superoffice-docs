@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Gusikowski LLC",
-    "ToolTip": "Dolor aut qui ut illo corrupti aut quibusdam.",
+    "Id": 138,
+    "Name": "Donnelly-Rau",
+    "ToolTip": "Eum facere et.",
     "Deleted": true,
-    "Rank": 757,
-    "Type": "quasi",
-    "ColorBlock": 825,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2009-01-06T13:13:33.370443+01:00",
+    "Rank": 310,
+    "Type": "quis",
+    "ColorBlock": 972,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2023-02-19T12:01:33.5894836+01:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Sipes, Goyette and Mann",
-        "ToolTip": "Ut saepe qui laudantium eius numquam veniam voluptate.",
-        "Deleted": true,
-        "Rank": 126,
-        "Type": "illum",
-        "ColorBlock": 832,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1999-09-21T13:13:33.370443+02:00",
+        "Id": 939,
+        "Name": "Buckridge, Shanahan and Roob",
+        "ToolTip": "At ut aut sit odit.",
+        "Deleted": false,
+        "Rank": 585,
+        "Type": "inventore",
+        "ColorBlock": 233,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2003-07-30T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "earum",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Karolann Mosciski"
+        "FullName": "Tanner Homenick"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Carli Ledner"
+    "ExtraInfo": "pariatur",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mrs. Stacy Tabitha Wuckert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Keebler LLC",
-    "ToolTip": "Placeat ducimus.",
+    "Id": 209,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Voluptas iure sed nisi placeat velit.",
     "Deleted": true,
-    "Rank": 418,
-    "Type": "deserunt",
-    "ColorBlock": 450,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2021-08-13T13:13:33.370443+02:00",
+    "Rank": 948,
+    "Type": "incidunt",
+    "ColorBlock": 806,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2017-05-18T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Ut possimus quo occaecati.",
-        "Deleted": true,
-        "Rank": 739,
-        "Type": "a",
-        "ColorBlock": 630,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2005-04-25T13:13:33.370443+02:00",
+        "Id": 888,
+        "Name": "Upton, Kuhic and O'Conner",
+        "ToolTip": "Ipsam ipsa illo vel ut autem doloribus.",
+        "Deleted": false,
+        "Rank": 813,
+        "Type": "id",
+        "ColorBlock": 909,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2011-08-28T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "aut",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mario Farrell Jr.",
+        "FullName": "Evangeline Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Ms. Mary Walter I",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Jaquelin Romaguera Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 546
       }
     }
   }

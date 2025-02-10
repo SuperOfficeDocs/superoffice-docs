@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 87,
-  "TopicId": 884,
+  "ChatSessionId": 580,
+  "TopicId": 968,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dicta",
-  "CustomerHost": "sequi",
-  "CustomerName": "Borer, Larkin and Trantow",
-  "CustomerEmail": "antone_klein@reinger.biz",
-  "CustomerPhone": "(566)097-2163",
+  "CustomerAlias": "aut",
+  "CustomerHost": "ut",
+  "CustomerName": "Jones-Beer",
+  "CustomerEmail": "eunice.schinner@blanda.info",
+  "CustomerPhone": "740-826-0585 x9482",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Lockman LLC",
+  "CustomerCompanyName": "Terry, O'Kon and Wilkinson",
   "Status": "Closed",
-  "FirstMessage": "itaque",
-  "LastMessage": "consequatur",
-  "WhenRequested": "2023-10-21T13:13:31.4020561+02:00",
-  "WhenStarted": "2004-05-04T13:13:31.4020561+02:00",
-  "WhenEnded": "2024-02-26T13:13:31.4020561+01:00",
-  "WhenIdle": "2014-04-19T13:13:31.4020561+02:00",
-  "WhenFetched": "2018-11-07T13:13:31.4020561+01:00",
-  "SessionKey": "deleniti",
-  "InitialQueuePos": 162,
-  "AlertLevel": 724,
-  "Rank": 211,
+  "FirstMessage": "nisi",
+  "LastMessage": "tempora",
+  "WhenRequested": "2024-02-20T12:01:32.745675+01:00",
+  "WhenStarted": "2013-09-21T12:01:32.745675+02:00",
+  "WhenEnded": "2004-04-18T12:01:32.745675+02:00",
+  "WhenIdle": "2011-10-15T12:01:32.745675+02:00",
+  "WhenFetched": "2002-05-14T12:01:32.745675+02:00",
+  "SessionKey": "esse",
+  "InitialQueuePos": 773,
+  "AlertLevel": 361,
+  "Rank": 985,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 394,
+  "ChatbotIsActive": true,
+  "Rating": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 503
     }
   }
 }

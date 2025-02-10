@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 346,
-    "Name": "Gorczany, Aufderhar and Paucek",
-    "Tooltip": "quia",
+    "HeadingId": 342,
+    "Name": "Padberg-Kub",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 917,
-    "UdListDefinitionId": 740
+    "Rank": 320,
+    "UdListDefinitionId": 936
   },
   {
-    "HeadingId": 346,
-    "Name": "Gorczany, Aufderhar and Paucek",
-    "Tooltip": "quia",
+    "HeadingId": 342,
+    "Name": "Padberg-Kub",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 917,
-    "UdListDefinitionId": 740
+    "Rank": 320,
+    "UdListDefinitionId": 936
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 64,
-    "Name": "Watsica Inc and Sons",
-    "Tooltip": "iste",
+    "HeadingId": 395,
+    "Name": "Bergnaum, Daugherty and Gleason",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 420,
-    "UdListDefinitionId": 773,
+    "Rank": 665,
+    "UdListDefinitionId": 427,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 495
       }
     }
   }

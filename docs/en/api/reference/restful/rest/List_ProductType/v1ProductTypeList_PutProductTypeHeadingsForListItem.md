@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Koch, Hand and Lockman",
-    "ToolTip": "Fugiat dolor fugit maxime aliquam nemo.",
+    "Id": 762,
+    "Name": "Emard Group",
+    "ToolTip": "Vel perferendis laboriosam debitis qui placeat et.",
     "Deleted": true,
-    "Rank": 96,
-    "Type": "quae",
-    "ColorBlock": 318,
-    "IconHint": "dolores",
+    "Rank": 178,
+    "Type": "nulla",
+    "ColorBlock": 751,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2022-05-03T13:13:33.3548212+02:00",
+    "LastChanged": "2015-01-04T12:01:33.5894836+01:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Welch, Wiza and Kling",
-        "ToolTip": "At deleniti voluptatem modi quo quaerat nobis facilis.",
-        "Deleted": true,
-        "Rank": 200,
-        "Type": "voluptas",
-        "ColorBlock": 495,
+        "Id": 354,
+        "Name": "Metz, Marvin and VonRueden",
+        "ToolTip": "Dolores et ipsa magni facere est et provident.",
+        "Deleted": false,
+        "Rank": 410,
+        "Type": "voluptates",
+        "ColorBlock": 499,
         "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2009-03-12T13:13:33.3548212+01:00",
+        "LastChanged": "2008-07-16T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "fuga",
+        "ExtraInfo": "quis",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Prof. Letha Reta Tromp"
+        "FullName": "Althea Thompson"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "vitae",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Annamae Jakubowski"
+    "FullName": "Scottie Reinger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Tenetur a.",
-    "Deleted": true,
-    "Rank": 220,
-    "Type": "placeat",
-    "ColorBlock": 198,
-    "IconHint": "deserunt",
+    "Id": 78,
+    "Name": "Wintheiser, Dietrich and Waelchi",
+    "ToolTip": "Ut neque non tempore.",
+    "Deleted": false,
+    "Rank": 517,
+    "Type": "quos",
+    "ColorBlock": 32,
+    "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "2010-01-03T13:13:33.3548212+01:00",
+    "LastChanged": "2024-07-27T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Thompson-Rosenbaum",
-        "ToolTip": "Tempore perferendis tenetur aut.",
-        "Deleted": true,
-        "Rank": 346,
-        "Type": "sit",
-        "ColorBlock": 514,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2000-11-25T13:13:33.3548212+01:00",
+        "Id": 685,
+        "Name": "Senger-Hessel",
+        "ToolTip": "Aliquam saepe velit quis.",
+        "Deleted": false,
+        "Rank": 635,
+        "Type": "est",
+        "ColorBlock": 247,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2010-08-17T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "iure",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Laverne Clementina Dickens MD",
+        "FullName": "Earline Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Keven Satterfield",
+    "ExtraInfo": "fuga",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Candice Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

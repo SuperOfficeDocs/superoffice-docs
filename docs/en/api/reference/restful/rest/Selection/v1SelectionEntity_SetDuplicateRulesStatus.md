@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marvin, Toy and Abbott",
-    "DisplayName": "Harris, Cruickshank and Keeling",
-    "DisplayTooltip": "et",
+    "Name": "Welch-Hansen",
+    "DisplayName": "Lowe Inc and Sons",
+    "DisplayTooltip": "aut",
     "IsActive": false
   },
   {
-    "Name": "Marvin, Toy and Abbott",
-    "DisplayName": "Harris, Cruickshank and Keeling",
-    "DisplayTooltip": "et",
+    "Name": "Welch-Hansen",
+    "DisplayName": "Lowe Inc and Sons",
+    "DisplayTooltip": "aut",
     "IsActive": false
   }
 ]

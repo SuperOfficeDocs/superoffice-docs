@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kub-Dietrich",
+  "TemplateName": "Howe-Fisher",
   "AllowPersonal": false,
-  "UiCulture": "reiciendis"
+  "UiCulture": "quibusdam"
 }
 ```
 

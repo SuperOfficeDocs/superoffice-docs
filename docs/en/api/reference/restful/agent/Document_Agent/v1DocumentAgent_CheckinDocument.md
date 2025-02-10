@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 824,
+  "DocumentId": 257,
   "AllowedReturnTypes": [
-    "ratione",
-    "omnis"
+    "dolorum",
+    "quae"
   ],
-  "VersionDescription": "Optimized impactful ability",
+  "VersionDescription": "Assimilated didactic firmware",
   "VersionExtraFields": [
-    "id",
-    "amet"
+    "dolore",
+    "quia"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ad",
-  "VersionId": "maiores",
-  "Success": false,
+  "ExternalReference": "nobis",
+  "VersionId": "odit",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "perspiciatis"
+  "Value": "voluptate",
+  "AdditionalInfo": "corporis"
 }
 ```

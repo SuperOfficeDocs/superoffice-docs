@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Bergstrom, Hermiston and Ebert",
-    "ToolTip": "Earum aliquid nobis nulla soluta repudiandae.",
-    "Deleted": false,
-    "Rank": 355,
-    "Type": "nam",
-    "ColorBlock": 87,
-    "IconHint": "odio",
+    "Id": 752,
+    "Name": "Braun Group",
+    "ToolTip": "Est est aut minima.",
+    "Deleted": true,
+    "Rank": 612,
+    "Type": "quis",
+    "ColorBlock": 537,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2009-07-30T13:13:33.5735178+02:00",
+    "LastChanged": "1998-05-12T12:01:33.6519877+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Jacobson, Pollich and Greenholt",
-        "ToolTip": "Est enim facere dolor.",
+        "Id": 511,
+        "Name": "Cruickshank-Bailey",
+        "ToolTip": "Possimus quo provident voluptas ex quibusdam sapiente.",
         "Deleted": false,
-        "Rank": 568,
-        "Type": "veritatis",
-        "ColorBlock": 552,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "1999-01-05T13:13:33.5735178+01:00",
+        "Rank": 277,
+        "Type": "qui",
+        "ColorBlock": 73,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2014-04-20T12:01:33.6519877+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "rerum",
+        "ExtraInfo": "magnam",
+        "StyleHint": "ipsa",
         "Hidden": true,
-        "FullName": "Sylvia Volkman"
+        "FullName": "Jess Stehr"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Jody Elisabeth Streich IV"
+    "FullName": "Dr. Orlo Shanna Wolf"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Halvorson Inc and Sons",
-    "ToolTip": "Dignissimos et quos fugit aliquid quia consequuntur.",
+    "Id": 81,
+    "Name": "Casper-Wunsch",
+    "ToolTip": "Et nostrum veritatis eos nulla corporis dolor unde.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "ipsam",
-    "ColorBlock": 295,
-    "IconHint": "qui",
+    "Rank": 620,
+    "Type": "dolor",
+    "ColorBlock": 326,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2006-12-09T13:13:33.5891415+01:00",
+    "LastChanged": "2013-04-23T12:01:33.6519877+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Jacobs-Auer",
-        "ToolTip": "Eos et adipisci vel officiis ea asperiores.",
+        "Id": 988,
+        "Name": "Hudson-Legros",
+        "ToolTip": "Commodi eius.",
         "Deleted": true,
-        "Rank": 265,
-        "Type": "aliquam",
-        "ColorBlock": 711,
-        "IconHint": "repellat",
+        "Rank": 225,
+        "Type": "incidunt",
+        "ColorBlock": 294,
+        "IconHint": "culpa",
         "Selected": true,
-        "LastChanged": "2018-03-06T13:13:33.5891415+01:00",
+        "LastChanged": "2018-08-06T12:01:33.6519877+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "odio",
+        "ExtraInfo": "aut",
+        "StyleHint": "cumque",
         "Hidden": true,
-        "FullName": "Ms. Andreanne Raheem Wintheiser",
+        "FullName": "Theron Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldType": "System.Int32",
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "quasi",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Ms. Oleta Nikolaus II",
+    "FullName": "Hoyt Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   }

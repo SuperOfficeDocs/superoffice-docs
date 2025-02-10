@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Senger, Kihn and Walter",
-    "DisplayName": "Pouros Inc and Sons",
-    "Description": "Cloned stable functionalities",
-    "ShortLabel": "neque",
+    "FieldName": "Reichert Inc and Sons",
+    "DisplayName": "Dicki-King",
+    "Description": "Realigned system-worthy support",
+    "ShortLabel": "sit",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 671,
-    "TemplateVariableName": "Crona Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 913,
+    "TemplateVariableName": "Ernser, Schamberger and Rau"
   }
 ]
 ```

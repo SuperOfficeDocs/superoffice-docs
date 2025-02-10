@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "dolore",
-  "SoProtocol": "non",
-  "CurrentId": 395
+  "IsoLangCode": "est",
+  "SoProtocol": "tenetur",
+  "CurrentId": 878
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2008-10-02T13:13:21.4771717+02:00",
-  "UserPrompt": "est",
-  "UserDisplayText": "est",
-  "BotResponse": "nam",
+  "Timestamp": "2007-09-27T12:01:26.9783334+02:00",
+  "UserPrompt": "repellat",
+  "UserDisplayText": "quam",
+  "BotResponse": "est",
   "BotActions": {
-    "BotActions1": "qui",
-    "BotActions2": "odit"
+    "BotActions1": "et",
+    "BotActions2": "est"
   },
   "Attachments": [
-    "dolor",
-    "porro"
+    "aut",
+    "rerum"
   ]
 }
 ```

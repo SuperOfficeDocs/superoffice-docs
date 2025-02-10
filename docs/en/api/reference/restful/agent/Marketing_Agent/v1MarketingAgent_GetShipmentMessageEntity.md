@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=84
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=811
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 200,
-  "PlainMessage": "sit",
-  "HtmlMessage": "itaque",
-  "SmsMessage": "quibusdam",
-  "Description": "Universal transitional migration",
-  "Subject": "voluptatem",
-  "FolderId": 568,
-  "HeaderField": "et",
-  "Design": "consequatur",
+  "ShipmentMessageId": 37,
+  "PlainMessage": "perspiciatis",
+  "HtmlMessage": "fugit",
+  "SmsMessage": "vero",
+  "Description": "Cross-group directional structure",
+  "Subject": "alias",
+  "FolderId": 986,
+  "HeaderField": "repellendus",
+  "Design": "quasi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Advanced value-added product",
-  "AccessKey": "modi",
-  "DocumentMessage": 239,
-  "Registered": "2022-01-27T13:13:23.3676626+01:00",
-  "RegisteredAssociateId": 464,
-  "Updated": "1997-12-10T13:13:23.3676626+01:00",
-  "UpdatedAssociateId": 668,
-  "UpdatedCount": 945,
+  "InlineImages": false,
+  "LongDescription": "Cloned full-range task-force",
+  "AccessKey": "sunt",
+  "DocumentMessage": 1000,
+  "Registered": "2004-02-26T12:01:27.9940463+01:00",
+  "RegisteredAssociateId": 516,
+  "Updated": "2008-08-21T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 201,
+  "UpdatedCount": 907,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldLength": 863
     }
   }
 }

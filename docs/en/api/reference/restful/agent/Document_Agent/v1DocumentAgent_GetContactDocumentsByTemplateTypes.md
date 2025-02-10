@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 528,
-  "StartTime": "2002-06-26T13:13:22.5863494+02:00",
-  "EndTime": "2003-08-16T13:13:22.5863494+02:00",
-  "Count": 980,
+  "ContactId": 10,
+  "StartTime": "2013-11-16T12:01:27.5877684+01:00",
+  "EndTime": "2014-08-09T12:01:27.5877684+02:00",
+  "Count": 87,
   "DocumentTemplateIds": [
-    830,
-    862
+    755,
+    155
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 151,
-    "Attention": "dolores",
-    "Header": "aliquam",
-    "Name": "Daugherty LLC",
-    "OurRef": "laborum",
-    "YourRef": "quae",
-    "Description": "Down-sized composite database",
-    "DocumentTemplate": "hic",
+    "DocumentId": 234,
+    "Attention": "occaecati",
+    "Header": "quae",
+    "Name": "Welch, Labadie and Romaguera",
+    "OurRef": "neque",
+    "YourRef": "vero",
+    "Description": "Open-architected leading edge encoding",
+    "DocumentTemplate": "tempore",
     "IsPublished": false,
-    "PersonId": 383,
-    "PersonFullName": "Dr. Elna Emelia Reilly IV",
-    "AssociateFullName": "William Heaney",
-    "ContactId": 806,
-    "ContactName": "Farrell, Bogan and Jaskolski",
-    "ProjectId": 27,
-    "ProjectName": "Moen, Friesen and Turcotte",
-    "AssociateId": 585,
-    "Snum": 198,
-    "SaleId": 360,
-    "SaleName": "Skiles, Stamm and Streich",
+    "PersonId": 209,
+    "PersonFullName": "Prof. Garland Schuppe",
+    "AssociateFullName": "Franz Bahringer Jr.",
+    "ContactId": 141,
+    "ContactName": "Hegmann Group",
+    "ProjectId": 452,
+    "ProjectName": "Keebler, Hudson and Bosco",
+    "AssociateId": 744,
+    "Snum": 808,
+    "SaleId": 65,
+    "SaleName": "Pacocha-Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 722
       }
     }
   }

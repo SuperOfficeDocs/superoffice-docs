@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 226,
+  "AssociateId": 183,
   "Type": "AnonymousAssociate",
-  "PersonId": 562,
-  "UserName": "Auer Group"
+  "PersonId": 875,
+  "UserName": "Nader, Corwin and McKenzie"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 577
     }
   }
 }

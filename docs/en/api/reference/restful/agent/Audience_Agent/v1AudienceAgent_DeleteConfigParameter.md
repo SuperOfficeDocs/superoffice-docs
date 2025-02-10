@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lang, Armstrong and Lehner",
-  "ParameterName": "Buckridge-Hartmann"
+  "LayoutName": "Stamm, Berge and Kertzmann",
+  "ParameterName": "Gottlieb LLC"
 }
 ```
 

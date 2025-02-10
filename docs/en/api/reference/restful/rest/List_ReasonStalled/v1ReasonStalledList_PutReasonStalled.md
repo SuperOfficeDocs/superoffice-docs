@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Muller-Kris",
-  "Tooltip": "illo",
+  "Id": 941,
+  "Name": "Kunde-Pacocha",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "UdListDefinitionId": 178,
-  "Rank": 982
+  "UdListDefinitionId": 45,
+  "Rank": 808
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Weimann, Wyman and Rempel",
-  "Tooltip": "eligendi",
+  "Id": 614,
+  "Name": "Zemlak LLC",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 871,
+  "UdListDefinitionId": 428,
+  "Rank": 542,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

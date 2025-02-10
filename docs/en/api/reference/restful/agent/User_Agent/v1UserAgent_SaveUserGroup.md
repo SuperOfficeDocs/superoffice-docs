@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ut",
-  "Tooltip": "enim",
-  "Id": 220,
-  "Rank": 705,
+  "Value": "dolore",
+  "Tooltip": "sit",
+  "Id": 536,
+  "Rank": 867,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 352
     }
   }
 }

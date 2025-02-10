@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Paucek, Labadie and O'Keefe",
-    "Description": "Visionary disintermediate system engine",
+    "Name": "Cormier LLC",
+    "Description": "Streamlined non-volatile functionalities",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 281,
-        "Tooltip": "deleniti",
-        "CanAssign": false,
-        "Free": 304,
-        "InUse": 961,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 192,
+        "Tooltip": "dolores",
+        "CanAssign": true,
+        "Free": 84,
+        "InUse": 502,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 406,
-        "Name": "Hahn-Jewess",
-        "Description": "Total eco-centric function",
-        "PrerequisiteModuleName": "Buckridge LLC",
-        "SortOrder": 107,
-        "ExtraFlags": 474,
+        "ModuleLicenseId": 925,
+        "Name": "Runolfsdottir LLC",
+        "Description": "Inverse directional migration",
+        "PrerequisiteModuleName": "Lang-Volkman",
+        "SortOrder": 58,
+        "ExtraFlags": 932,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldType": "System.Int32",
+            "FieldLength": 268
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 325,
-        "Tooltip": "ut",
-        "CanAssign": false,
-        "Free": 737,
-        "InUse": 678,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 42,
+        "Tooltip": "esse",
+        "CanAssign": true,
+        "Free": 140,
+        "InUse": 773,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 652,
-        "Name": "Hane LLC",
-        "Description": "Optimized 6th generation solution",
-        "PrerequisiteModuleName": "Willms Group",
-        "SortOrder": 575,
-        "ExtraFlags": 773,
+        "ModuleLicenseId": 470,
+        "Name": "Medhurst Group",
+        "Description": "Visionary encompassing challenge",
+        "PrerequisiteModuleName": "Kautzer, Quigley and Mante",
+        "SortOrder": 452,
+        "ExtraFlags": 750,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 496
+            "FieldLength": 868
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 269
       }
     }
   },
   {
-    "Name": "Paucek, Labadie and O'Keefe",
-    "Description": "Visionary disintermediate system engine",
+    "Name": "Cormier LLC",
+    "Description": "Streamlined non-volatile functionalities",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 281,
-        "Tooltip": "deleniti",
-        "CanAssign": false,
-        "Free": 304,
-        "InUse": 961,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 192,
+        "Tooltip": "dolores",
+        "CanAssign": true,
+        "Free": 84,
+        "InUse": 502,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 406,
-        "Name": "Hahn-Jewess",
-        "Description": "Total eco-centric function",
-        "PrerequisiteModuleName": "Buckridge LLC",
-        "SortOrder": 107,
-        "ExtraFlags": 474,
+        "ModuleLicenseId": 925,
+        "Name": "Runolfsdottir LLC",
+        "Description": "Inverse directional migration",
+        "PrerequisiteModuleName": "Lang-Volkman",
+        "SortOrder": 58,
+        "ExtraFlags": 932,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldType": "System.Int32",
+            "FieldLength": 268
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 325,
-        "Tooltip": "ut",
-        "CanAssign": false,
-        "Free": 737,
-        "InUse": 678,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 42,
+        "Tooltip": "esse",
+        "CanAssign": true,
+        "Free": 140,
+        "InUse": 773,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 652,
-        "Name": "Hane LLC",
-        "Description": "Optimized 6th generation solution",
-        "PrerequisiteModuleName": "Willms Group",
-        "SortOrder": 575,
-        "ExtraFlags": 773,
+        "ModuleLicenseId": 470,
+        "Name": "Medhurst Group",
+        "Description": "Visionary encompassing challenge",
+        "PrerequisiteModuleName": "Kautzer, Quigley and Mante",
+        "SortOrder": 452,
+        "ExtraFlags": 750,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 496
+            "FieldLength": 868
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 269
       }
     }
   }

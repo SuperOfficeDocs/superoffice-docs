@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Schowalter, D'Amore and Treutel",
-    "ToolTip": "Soluta cumque.",
+    "Id": 804,
+    "Name": "Gislason, Turner and Macejkovic",
+    "ToolTip": "Fugiat nostrum qui doloremque cum.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "dolorem",
-    "ColorBlock": 115,
-    "IconHint": "voluptatem",
+    "Rank": 652,
+    "Type": "nesciunt",
+    "ColorBlock": 816,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "1999-03-14T13:13:32.9955292+01:00",
+    "LastChanged": "2021-06-15T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Legros Group",
-        "ToolTip": "Ad temporibus facilis ex.",
+        "Id": 667,
+        "Name": "Abshire Group",
+        "ToolTip": "Molestiae modi et natus incidunt accusamus qui voluptatem.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "eum",
-        "ColorBlock": 152,
-        "IconHint": "aut",
+        "Rank": 804,
+        "Type": "excepturi",
+        "ColorBlock": 165,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2017-10-16T13:13:32.9955292+02:00",
+        "LastChanged": "2015-10-31T12:01:33.4801008+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Carleton Ortiz"
+        "ExtraInfo": "porro",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Vicky Bahringer"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "quis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Alexandro Nick Rohan Sr."
+    "FullName": "Fern Kunze"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Stracke-Hamill",
-    "ToolTip": "Quibusdam sit saepe.",
-    "Deleted": false,
-    "Rank": 824,
-    "Type": "voluptas",
-    "ColorBlock": 688,
-    "IconHint": "doloremque",
-    "Selected": false,
-    "LastChanged": "2015-07-28T13:13:32.9955292+02:00",
+    "Id": 370,
+    "Name": "Rohan Inc and Sons",
+    "ToolTip": "Et qui optio cupiditate deserunt et.",
+    "Deleted": true,
+    "Rank": 611,
+    "Type": "numquam",
+    "ColorBlock": 218,
+    "IconHint": "suscipit",
+    "Selected": true,
+    "LastChanged": "2006-09-05T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Auer, Bogisich and Auer",
-        "ToolTip": "Aut nihil dolorum.",
+        "Id": 410,
+        "Name": "Marks Inc and Sons",
+        "ToolTip": "Alias itaque.",
         "Deleted": false,
-        "Rank": 269,
-        "Type": "nobis",
-        "ColorBlock": 46,
-        "IconHint": "perferendis",
+        "Rank": 22,
+        "Type": "ex",
+        "ColorBlock": 775,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2004-04-28T13:13:32.9955292+02:00",
+        "LastChanged": "2007-07-26T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "unde",
+        "ExtraInfo": "quidem",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Jayce Wolf",
+        "FullName": "Floyd Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 629
+            "FieldLength": 829
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Emily Bashirian",
+    "ExtraInfo": "et",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Tristin Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 999
       }
     }
   }

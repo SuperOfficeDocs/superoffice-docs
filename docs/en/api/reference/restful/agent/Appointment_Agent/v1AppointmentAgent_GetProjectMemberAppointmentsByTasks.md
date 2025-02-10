@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 921,
-  "StartTime": "2011-02-20T13:13:21.5397229+01:00",
-  "EndTime": "1997-09-30T13:13:21.5397229+02:00",
-  "Count": 111,
+  "PersonId": 233,
+  "StartTime": "2007-02-12T12:01:27.0095855+01:00",
+  "EndTime": "2013-07-10T12:01:27.0095855+02:00",
+  "Count": 670,
   "TaskIds": [
-    523,
-    475
+    388,
+    710
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 723,
-    "StartDate": "2009-07-25T13:13:21.5397229+02:00",
-    "EndDate": "2003-11-09T13:13:21.5397229+01:00",
+    "AppointmentId": 679,
+    "StartDate": "2010-07-25T12:01:27.0095855+02:00",
+    "EndDate": "2019-10-16T12:01:27.0095855+02:00",
     "Type": "BookingForChecklist",
-    "Task": "libero",
-    "AssociateFullName": "Kraig Stark",
-    "ContactName": "Wilderman-Cruickshank",
-    "Description": "Visionary tertiary function",
-    "PersonFullName": "Miss Rodger Schaefer III",
-    "PersonId": 866,
-    "ContactId": 93,
-    "ProjectId": 339,
-    "ProjectName": "Hudson-Willms",
-    "IsPublished": true,
-    "AssociateId": 902,
-    "ColorIndex": 951,
-    "IsFree": true,
+    "Task": "perferendis",
+    "AssociateFullName": "Lurline Olson",
+    "ContactName": "Larkin LLC",
+    "Description": "Ergonomic hybrid approach",
+    "PersonFullName": "Danyka O'Connell",
+    "PersonId": 726,
+    "ContactId": 949,
+    "ProjectId": 346,
+    "ProjectName": "Marks Group",
+    "IsPublished": false,
+    "AssociateId": 958,
+    "ColorIndex": 969,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 823,
-    "PriorityName": "Leffler, Marquardt and Gorczany",
+    "PriorityId": 964,
+    "PriorityName": "Rowe Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1999-06-15T13:13:21.5397229+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2001-09-09T12:01:27.0095855+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-02-16T13:13:21.5397229+01:00",
-    "RecurringEndDate": "2023-01-11T13:13:21.5397229+01:00",
-    "MotherId": 212,
-    "AssignedBy": 138,
-    "AssignedByFullName": "Haley Carter",
+    "RecurringStartDate": "2025-01-12T12:01:27.0095855+01:00",
+    "RecurringEndDate": "2023-06-25T12:01:27.0095855+02:00",
+    "MotherId": 836,
+    "AssignedBy": 28,
+    "AssignedByFullName": "Frances Oberbrunner",
     "RejectReason": "",
-    "Location": "ipsa",
-    "AlarmLeadTime": "enim",
-    "SaleId": 401,
-    "SaleName": "Mueller LLC",
-    "AssociateName": "Klein Group",
-    "CreatedDate": "2022-08-14T13:13:21.5397229+02:00",
-    "CreatedBy": "error",
-    "CreatedByFullName": "Anna Amir Brown V",
-    "CreatedByAssociateId": 991,
+    "Location": "ullam",
+    "AlarmLeadTime": "eaque",
+    "SaleId": 913,
+    "SaleName": "Hackett LLC",
+    "AssociateName": "Powlowski, Goodwin and Steuber",
+    "CreatedDate": "2022-09-27T12:01:27.0095855+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Jayson Becker MD",
+    "CreatedByAssociateId": 363,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 987,
-    "Title": "et",
-    "Agenda": "sunt",
-    "InternalNotes": "eum",
+    "PreferredTZLocation": 180,
+    "Title": "ullam",
+    "Agenda": "ratione",
+    "InternalNotes": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

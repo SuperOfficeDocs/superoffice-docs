@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Hermann, Langosh and Nicolas",
-      "DisplayName": "Stokes, Stehr and Armstrong",
-      "DisplayTooltip": "repudiandae",
+      "Name": "Predovic-Jacobs",
+      "DisplayName": "Lebsack, Boyle and Sauer",
+      "DisplayTooltip": "quia",
       "IsActive": false
     },
     {
-      "Name": "Hermann, Langosh and Nicolas",
-      "DisplayName": "Stokes, Stehr and Armstrong",
-      "DisplayTooltip": "repudiandae",
+      "Name": "Predovic-Jacobs",
+      "DisplayName": "Lebsack, Boyle and Sauer",
+      "DisplayTooltip": "quia",
       "IsActive": false
     }
   ]

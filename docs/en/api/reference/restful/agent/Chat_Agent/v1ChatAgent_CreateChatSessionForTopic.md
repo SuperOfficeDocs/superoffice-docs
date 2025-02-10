@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 686
+  "ChatTopicId": 211
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 369,
-  "TopicId": 345,
+  "ChatSessionId": 731,
+  "TopicId": 964,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "nostrum",
-  "CustomerName": "Marvin-Lemke",
-  "CustomerEmail": "elvera.quitzon@thompsonklein.co.uk",
-  "CustomerPhone": "427.922.7016",
+  "CustomerAlias": "odit",
+  "CustomerHost": "adipisci",
+  "CustomerName": "O'Hara Inc and Sons",
+  "CustomerEmail": "delphine@gleichner.ca",
+  "CustomerPhone": "1-931-647-2547",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Gibson-Watsica",
+  "CustomerCompanyName": "Kessler-Haag",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "expedita",
-  "WhenRequested": "2011-07-02T13:13:22.3207878+02:00",
-  "WhenStarted": "1999-11-22T13:13:22.3207878+01:00",
-  "WhenEnded": "2011-04-29T13:13:22.3207878+02:00",
-  "WhenIdle": "2018-12-08T13:13:22.3207878+01:00",
-  "WhenFetched": "1999-10-30T13:13:22.3207878+02:00",
-  "SessionKey": "aliquam",
-  "InitialQueuePos": 287,
-  "AlertLevel": 419,
-  "Rank": 448,
+  "FirstMessage": "quaerat",
+  "LastMessage": "suscipit",
+  "WhenRequested": "2000-04-29T12:01:27.4471334+02:00",
+  "WhenStarted": "2000-01-08T12:01:27.4471334+01:00",
+  "WhenEnded": "2015-03-15T12:01:27.4471334+01:00",
+  "WhenIdle": "2001-10-28T12:01:27.4471334+01:00",
+  "WhenFetched": "2009-12-27T12:01:27.4471334+01:00",
+  "SessionKey": "quasi",
+  "InitialQueuePos": 884,
+  "AlertLevel": 96,
+  "Rank": 699,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 787,
+  "Rating": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

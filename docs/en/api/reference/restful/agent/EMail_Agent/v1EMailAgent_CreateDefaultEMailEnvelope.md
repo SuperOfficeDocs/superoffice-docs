@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 302,
-  "MessageId": "dolor",
-  "Subject": "ipsa",
+  "ServerId": 809,
+  "MessageId": "exercitationem",
+  "Subject": "architecto",
   "From": null,
   "To": [
     {
-      "ContactId": 68,
-      "ContactName": "Macejkovic Inc and Sons",
-      "PersonId": 548,
-      "PersonName": "Kohler-Shanahan",
-      "AssociateId": 368,
-      "Address": "dolores",
-      "EmailId": 633,
+      "ContactId": 499,
+      "ContactName": "Nader-Mills",
+      "PersonId": 900,
+      "PersonName": "Klocko LLC",
+      "AssociateId": 859,
+      "Address": "optio",
+      "EmailId": 337,
       "DuplicatePersonIds": [
-        941,
-        743
+        46,
+        950
       ],
-      "Name": "Beier, Mohr and Johnston",
+      "Name": "Maggio Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 218
         }
       }
     }
   ],
-  "Sent": "2002-12-30T13:13:23.0083594+01:00",
+  "Sent": "2021-02-17T12:01:27.8221586+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 753,
+  "Size": 794,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 732
     }
   }
 }

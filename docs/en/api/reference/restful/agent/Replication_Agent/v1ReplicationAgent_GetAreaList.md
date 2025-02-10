@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 373,
-    "Name": "Nolan Group",
-    "MaxDataAge": 885,
-    "NumberOfUsers": 123,
-    "NumberOfLogins": 770,
+    "AreaId": 46,
+    "Name": "McDermott Inc and Sons",
+    "MaxDataAge": 505,
+    "NumberOfUsers": 535,
+    "NumberOfLogins": 35,
     "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 715
+        "FieldLength": 742
       }
     }
   }

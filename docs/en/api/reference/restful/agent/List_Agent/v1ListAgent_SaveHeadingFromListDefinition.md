@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
+  "Id": 112,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 562,
-  "Name": "Cummerata Inc and Sons",
-  "Tooltip": "quia",
+  "HeadingId": 445,
+  "Name": "Emmerich LLC",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 304,
-  "UdListDefinitionId": 767,
+  "Rank": 499,
+  "UdListDefinitionId": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

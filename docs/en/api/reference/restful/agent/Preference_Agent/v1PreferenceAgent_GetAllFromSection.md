@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "assumenda"
+  "Section": "omnis"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 870,
-    "Section": "ullam",
-    "Key": "cupiditate",
-    "Name": "Krajcik Inc and Sons",
+    "PrefDescId": 119,
+    "Section": "cum",
+    "Key": "dolores",
+    "Name": "Hilpert Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Exclusive directional archive",
-    "IsBuiltin": false,
-    "TableName": "Mitchell, Huel and Schmitt",
-    "UserDefinedListId": 222,
-    "Rank": 856,
-    "SubGroup": "et",
-    "MinLevel": 592,
-    "MaxValue": 139,
-    "MinValue": 391,
-    "RequiredLicense": "eum",
+    "Description": "Polarised client-driven strategy",
+    "IsBuiltin": true,
+    "TableName": "Marquardt, Kilback and Parisian",
+    "UserDefinedListId": 221,
+    "Rank": 807,
+    "SubGroup": "ut",
+    "MinLevel": 309,
+    "MaxValue": 961,
+    "MinValue": 181,
+    "RequiredLicense": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldLength": 950
       }
     }
   }

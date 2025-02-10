@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 849,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2018-09-20T13:13:22.6188095+02:00",
-  "EndTime": "2018-05-26T13:13:22.6188095+02:00",
-  "Count": 953
+  "PersonId": 565,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2023-10-02T12:01:27.6033946+02:00",
+  "EndTime": "2003-02-15T12:01:27.6033946+01:00",
+  "Count": 78
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 181,
-    "Attention": "non",
-    "Header": "ex",
-    "Name": "Hackett-O'Connell",
-    "OurRef": "culpa",
-    "YourRef": "impedit",
-    "Description": "Pre-emptive exuding adapter",
-    "DocumentTemplate": "qui",
+    "DocumentId": 71,
+    "Attention": "ut",
+    "Header": "id",
+    "Name": "Murray-VonRueden",
+    "OurRef": "at",
+    "YourRef": "enim",
+    "Description": "Object-based reciprocal parallelism",
+    "DocumentTemplate": "error",
     "IsPublished": true,
-    "PersonId": 251,
-    "PersonFullName": "Mr. Karley Hahn",
-    "AssociateFullName": "Ms. Ricky Leannon",
-    "ContactId": 332,
-    "ContactName": "Wisozk, Hayes and Langosh",
-    "ProjectId": 209,
-    "ProjectName": "Beer-Terry",
-    "AssociateId": 354,
-    "Snum": 235,
-    "SaleId": 906,
-    "SaleName": "McDermott Inc and Sons",
+    "PersonId": 681,
+    "PersonFullName": "Nigel Aufderhar",
+    "AssociateFullName": "Mrs. Jessica Jane Strosin",
+    "ContactId": 278,
+    "ContactName": "Terry, Dicki and Ritchie",
+    "ProjectId": 111,
+    "ProjectName": "Miller-Labadie",
+    "AssociateId": 949,
+    "Snum": 440,
+    "SaleId": 302,
+    "SaleName": "Wisozk-Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 445,
-  "Name": "Emard Inc and Sons",
-  "Description": "Customizable impactful emulation",
+  "ReportLabelLayoutId": 757,
+  "Name": "Hahn LLC",
+  "Description": "Multi-tiered 24 hour secured line",
   "Orientation": "Landscape",
-  "PaperWidth": 886,
-  "PaperHeight": 538,
-  "LeftMargin": 675,
-  "RightMargin": 859,
-  "TopMargin": 769,
-  "BottomMargin": 829,
-  "CountColumns": 100,
-  "CountRows": 429
+  "PaperWidth": 739,
+  "PaperHeight": 173,
+  "LeftMargin": 828,
+  "RightMargin": 750,
+  "TopMargin": 86,
+  "BottomMargin": 250,
+  "CountColumns": 926,
+  "CountRows": 262
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 609,
-  "Name": "Blick Inc and Sons",
-  "Description": "Ameliorated leading edge conglomeration",
+  "ReportLabelLayoutId": 233,
+  "Name": "Lind LLC",
+  "Description": "Horizontal even-keeled knowledge user",
   "Orientation": "Landscape",
-  "PaperWidth": 808,
-  "PaperHeight": 371,
-  "LeftMargin": 986,
-  "RightMargin": 532,
-  "TopMargin": 795,
-  "BottomMargin": 526,
-  "CountColumns": 849,
-  "CountRows": 416,
+  "PaperWidth": 805,
+  "PaperHeight": 375,
+  "LeftMargin": 393,
+  "RightMargin": 38,
+  "TopMargin": 841,
+  "BottomMargin": 659,
+  "CountColumns": 674,
+  "CountRows": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   }
 }

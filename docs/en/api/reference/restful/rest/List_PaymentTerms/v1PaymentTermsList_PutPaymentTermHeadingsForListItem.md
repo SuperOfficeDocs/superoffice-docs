@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Streich-Kuvalis",
-    "ToolTip": "Eos voluptate enim corporis nulla doloribus.",
-    "Deleted": true,
-    "Rank": 602,
-    "Type": "voluptatem",
-    "ColorBlock": 403,
-    "IconHint": "aut",
+    "Id": 301,
+    "Name": "Douglas, Stamm and Kunze",
+    "ToolTip": "Numquam consequatur.",
+    "Deleted": false,
+    "Rank": 535,
+    "Type": "itaque",
+    "ColorBlock": 688,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2010-06-04T13:13:33.1986076+02:00",
+    "LastChanged": "2001-10-26T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Swaniawski, O'Kon and Luettgen",
-        "ToolTip": "Sunt odit ratione et dolorem.",
+        "Id": 437,
+        "Name": "Berge, Veum and Runolfsdottir",
+        "ToolTip": "Eligendi quod officiis est officia.",
         "Deleted": true,
-        "Rank": 673,
-        "Type": "vel",
-        "ColorBlock": 102,
-        "IconHint": "ut",
+        "Rank": 10,
+        "Type": "eaque",
+        "ColorBlock": 284,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2015-12-12T13:13:33.1986076+01:00",
+        "LastChanged": "2021-11-19T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Annabelle Lind"
+        "ExtraInfo": "sint",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Dortha Glover"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illum",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Ricky Wyatt Sporer II"
+    "FullName": "Michale Reichert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Maiores eligendi debitis error ut illum voluptatem cupiditate.",
+    "Id": 89,
+    "Name": "Kreiger, Koch and Bogan",
+    "ToolTip": "Beatae qui autem qui quaerat.",
     "Deleted": false,
-    "Rank": 686,
-    "Type": "perferendis",
-    "ColorBlock": 81,
-    "IconHint": "aut",
+    "Rank": 175,
+    "Type": "perspiciatis",
+    "ColorBlock": 999,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2010-02-20T13:13:33.1986076+01:00",
+    "LastChanged": "2019-04-20T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Blick-Kozey",
-        "ToolTip": "Dolor et ut.",
-        "Deleted": true,
-        "Rank": 1002,
-        "Type": "dolorem",
-        "ColorBlock": 63,
-        "IconHint": "sint",
+        "Id": 633,
+        "Name": "Marvin Group",
+        "ToolTip": "Provident quasi magni nostrum et.",
+        "Deleted": false,
+        "Rank": 157,
+        "Type": "ipsum",
+        "ColorBlock": 215,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "1998-04-13T13:13:33.1986076+02:00",
+        "LastChanged": "2018-07-19T12:01:33.5426053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "numquam",
+        "ExtraInfo": "nobis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Daniela Hamill",
+        "FullName": "Elva Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 69
+            "FieldType": "System.Int32",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "inventore",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Karson Marvin",
+    "FullName": "Cullen Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 100
       }
     }
   }

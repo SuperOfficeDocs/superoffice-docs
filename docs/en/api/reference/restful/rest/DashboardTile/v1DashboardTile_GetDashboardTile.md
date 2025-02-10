@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 585,
-  "Caption": "aliquam",
-  "Description": "Expanded 24/7 conglomeration",
-  "ChartName": "Hoppe-Schultz",
-  "ChartId": "porro",
-  "IsDefault": true,
-  "AssociateId": 246,
-  "GroupId": 907,
-  "SelectionId": 689,
-  "Config": "praesentium",
+  "DashboardTileId": 110,
+  "Caption": "est",
+  "Description": "Business-focused optimizing middleware",
+  "ChartName": "Osinski-Lemke",
+  "ChartId": "nemo",
+  "IsDefault": false,
+  "AssociateId": 925,
+  "GroupId": 292,
+  "SelectionId": 110,
+  "Config": "quaerat",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Koss-Upton",
-      "Description": "Assimilated needs-based knowledge user",
+      "Name": "Zboncak, Smitham and Buckridge",
+      "Description": "Up-sized mission-critical migration",
       "Type": "Boolean",
-      "ListName": "Kshlerin-Nitzsche",
+      "ListName": "Schaefer-Corwin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
-      "DefaultDataOption": true,
+      "Value": "voluptatem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 117,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     },
     {
-      "VisibleId": 117,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 891
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

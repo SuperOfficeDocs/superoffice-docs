@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 625,
-  "RecurrenceRuleId": 600
+  "MotherId": 949,
+  "RecurrenceRuleId": 650
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 436,
-    "StartDate": "1998-11-30T13:13:21.5709641+01:00",
-    "EndDate": "2004-10-24T13:13:21.5709641+02:00",
+    "AppointmentId": 747,
+    "StartDate": "2008-08-28T12:01:27.0252114+02:00",
+    "EndDate": "2007-09-04T12:01:27.0252114+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Jacquelyn Kertzmann",
-    "ContactName": "Schiller Inc and Sons",
-    "Description": "Managed intangible artificial intelligence",
-    "PersonFullName": "Alvina Lynch",
-    "PersonId": 897,
-    "ContactId": 208,
-    "ProjectId": 442,
-    "ProjectName": "Gleason Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 196,
-    "ColorIndex": 918,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "Task": "ipsa",
+    "AssociateFullName": "Jarrett Windler I",
+    "ContactName": "Grant, Kuphal and Altenwerth",
+    "Description": "Fully-configurable homogeneous local area network",
+    "PersonFullName": "Jabari Hegmann",
+    "PersonId": 385,
+    "ContactId": 380,
+    "ProjectId": 232,
+    "ProjectName": "Fadel Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 36,
+    "ColorIndex": 344,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 173,
-    "PriorityName": "Rau, Lebsack and Will",
+    "PriorityId": 300,
+    "PriorityName": "Fay, Langosh and Daniel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-03-06T13:13:21.5709641+01:00",
+    "ActiveDate": "1999-03-10T12:01:27.0252114+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-05-20T13:13:21.5709641+02:00",
-    "RecurringEndDate": "2023-08-29T13:13:21.5709641+02:00",
-    "MotherId": 929,
-    "AssignedBy": 869,
-    "AssignedByFullName": "Miss Otha Bednar Sr.",
+    "RecurringStartDate": "1999-06-25T12:01:27.0252114+02:00",
+    "RecurringEndDate": "1998-03-15T12:01:27.0252114+01:00",
+    "MotherId": 800,
+    "AssignedBy": 966,
+    "AssignedByFullName": "Westley Hirthe",
     "RejectReason": "",
-    "Location": "unde",
-    "AlarmLeadTime": "sint",
-    "SaleId": 635,
-    "SaleName": "Kovacek, Oberbrunner and Pollich",
-    "AssociateName": "Boyer, Bartoletti and Ryan",
-    "CreatedDate": "2019-09-16T13:13:21.5709641+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Ms. Rachael Hartmann",
-    "CreatedByAssociateId": 220,
+    "Location": "dolor",
+    "AlarmLeadTime": "ad",
+    "SaleId": 630,
+    "SaleName": "Lueilwitz Group",
+    "AssociateName": "Jewess-Walter",
+    "CreatedDate": "2006-01-31T12:01:27.0252114+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Oleta Stoltenberg",
+    "CreatedByAssociateId": 751,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 557,
-    "Title": "aut",
-    "Agenda": "ut",
-    "InternalNotes": "cum",
+    "PreferredTZLocation": 376,
+    "Title": "qui",
+    "Agenda": "nihil",
+    "InternalNotes": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 908
       }
     }
   }

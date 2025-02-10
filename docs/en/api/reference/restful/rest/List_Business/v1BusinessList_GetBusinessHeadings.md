@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Connelly-Stoltenberg",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 897,
-    "UdListDefinitionId": 495,
+    "HeadingId": 579,
+    "Name": "Schamberger LLC",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 270,
+    "UdListDefinitionId": 409,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldType": "System.String",
+        "FieldLength": 850
       }
     }
   }

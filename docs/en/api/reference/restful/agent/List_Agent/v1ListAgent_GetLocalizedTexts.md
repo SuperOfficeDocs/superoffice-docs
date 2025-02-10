@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 482,
-    "ResourceId": 272,
-    "Text": "velit",
+    "LanguageId": 896,
+    "ResourceId": 693,
+    "Text": "qui",
     "Type": "Column",
-    "LocalizedTextId": 278,
+    "LocalizedTextId": 561,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 962
       }
     }
   }

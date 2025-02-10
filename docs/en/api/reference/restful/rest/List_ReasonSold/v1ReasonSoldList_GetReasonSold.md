@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Borer-Trantow",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "UdListDefinitionId": 935,
-  "Rank": 435,
+  "Id": 469,
+  "Name": "Von-Murray",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 397,
+  "Rank": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 425
     }
   }
 }

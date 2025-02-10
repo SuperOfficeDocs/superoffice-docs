@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "cum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-05-05T13:13:32.2143042+02:00",
-  "Amount": 5964.0019999999995,
-  "SaleId": 430,
-  "Earning": 7054.634,
-  "EarningPercent": 3130.866,
-  "Heading": "sunt",
-  "Number": "813880",
-  "Probability": 738,
-  "CreatedDate": "2011-09-14T13:13:32.2143042+02:00",
-  "UpdatedDate": "2012-03-26T13:13:32.2143042+02:00",
+  "Saledate": "2001-04-11T12:01:33.0581965+02:00",
+  "Amount": 303.998,
+  "SaleId": 104,
+  "Earning": 29885.824,
+  "EarningPercent": 3958.2419999999997,
+  "Heading": "laboriosam",
+  "Number": "1513063",
+  "Probability": 65,
+  "CreatedDate": "2003-02-18T12:01:33.0581965+01:00",
+  "UpdatedDate": "2000-08-26T12:01:33.0581965+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 522,
+  "ActiveLinks": 73,
   "Links": [
     {
-      "EntityName": "Hoppe-Hoppe",
-      "Id": 453,
-      "Description": "Horizontal zero defect definition",
-      "ExtraInfo": "iure",
-      "LinkId": 660
+      "EntityName": "Effertz-Kulas",
+      "Id": 323,
+      "Description": "Right-sized tangible alliance",
+      "ExtraInfo": "incidunt",
+      "LinkId": 425
     },
     {
-      "EntityName": "Hoppe-Hoppe",
-      "Id": 453,
-      "Description": "Horizontal zero defect definition",
-      "ExtraInfo": "iure",
-      "LinkId": 660
+      "EntityName": "Effertz-Kulas",
+      "Id": 323,
+      "Description": "Right-sized tangible alliance",
+      "ExtraInfo": "incidunt",
+      "LinkId": 425
     }
   ],
-  "NextDueDate": "2014-02-22T13:13:32.2143042+01:00",
-  "Postit": "tenetur",
+  "NextDueDate": "2008-02-13T12:01:33.0581965+01:00",
+  "Postit": "laudantium",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-03-09T13:13:32.2143042+01:00",
+  "ReopenDate": "2024-11-11T12:01:33.0581965+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Borer, O'Hara and Langosh",
-      "Comment": "et",
-      "StakeholderRoleId": 556,
-      "CountryId": 674,
-      "PersonId": 941,
-      "EmailDescription": "damaris@heller.co.uk",
-      "EmailId": 1000,
-      "EmailAddress": "kieran@jewess.us",
-      "PhoneId": 347,
-      "ContactName": "Bradtke Inc and Sons",
-      "ContactId": 687,
-      "SaleId": 504,
-      "Mrmrs": "eum",
-      "Firstname": "Freda",
-      "MiddleName": "Koss LLC",
-      "Lastname": "Tromp",
-      "SaleStakeholderId": 47,
-      "Rank": 514,
-      "Phone": "989-183-9018 x386"
+      "StakeholderRoleName": "Brekke Group",
+      "Comment": "aut",
+      "StakeholderRoleId": 116,
+      "CountryId": 945,
+      "PersonId": 52,
+      "EmailDescription": "laury@gaylordoconner.name",
+      "EmailId": 742,
+      "EmailAddress": "emmie@jacobi.co.uk",
+      "PhoneId": 232,
+      "ContactName": "Pfannerstill-Lowe",
+      "ContactId": 697,
+      "SaleId": 157,
+      "Mrmrs": "sit",
+      "Firstname": "Sydnie",
+      "MiddleName": "Rowe, Feeney and Gleason",
+      "Lastname": "Von",
+      "SaleStakeholderId": 914,
+      "Rank": 71,
+      "Phone": "488-987-4082 x3835"
     }
   ],
-  "ActiveErpLinks": 664,
+  "ActiveErpLinks": 64,
   "UserDefinedFields": {
-    "SuperOffice:1": "Orpha Mueller",
+    "SuperOffice:1": "395227229",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "in"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "nihil"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2007-05-26T13:13:32.2143042+02:00",
-  "PublishTo": "2004-09-09T13:13:32.2143042+02:00",
-  "PublishFrom": "2003-10-13T13:13:32.2143042+02:00",
+  "PublishEventDate": "2002-11-10T12:01:33.0581965+01:00",
+  "PublishTo": "2011-08-11T12:01:33.0581965+02:00",
+  "PublishFrom": "2017-10-14T12:01:33.0581965+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 691,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 691,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quo",
+  "SaleText": "at",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-02-08T13:13:32.2299256+01:00",
-  "Amount": 2779.8579999999997,
-  "SaleId": 715,
-  "Earning": 15861.173999999999,
-  "EarningPercent": 26883.451999999997,
-  "Heading": "est",
-  "Number": "1889403",
-  "Probability": 665,
-  "CreatedDate": "2016-06-18T13:13:32.2299256+02:00",
-  "UpdatedDate": "2000-11-12T13:13:32.2299256+01:00",
+  "Saledate": "2001-12-07T12:01:33.0581965+01:00",
+  "Amount": 11495.511999999999,
+  "SaleId": 780,
+  "Earning": 27817.384,
+  "EarningPercent": 13654.838,
+  "Heading": "voluptas",
+  "Number": "1066988",
+  "Probability": 703,
+  "CreatedDate": "2022-04-16T12:01:33.0581965+02:00",
+  "UpdatedDate": "2000-10-23T12:01:33.0581965+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 814,
+  "ActiveLinks": 273,
   "Links": [
     {
-      "EntityName": "Murazik Group",
-      "Id": 856,
-      "Description": "Switchable scalable flexibility",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 995,
+      "EntityName": "Schimmel-Conroy",
+      "Id": 460,
+      "Description": "User-centric holistic concept",
+      "ExtraInfo": "omnis",
+      "LinkId": 33,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldType": "System.String",
+          "FieldLength": 239
         }
       }
     }
   ],
-  "NextDueDate": "2016-01-29T13:13:32.2299256+01:00",
-  "Postit": "dolore",
+  "NextDueDate": "2020-09-22T12:01:33.0581965+02:00",
+  "Postit": "at",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-04-10T13:13:32.2299256+02:00",
+  "ReopenDate": "2019-11-10T12:01:33.0581965+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dietrich Inc and Sons",
-      "Comment": "perspiciatis",
-      "StakeholderRoleId": 910,
-      "CountryId": 594,
-      "PersonId": 274,
-      "EmailDescription": "katrina@willms.uk",
-      "EmailId": 207,
-      "EmailAddress": "luciano@dooley.name",
-      "PhoneId": 861,
-      "ContactName": "Beier Group",
-      "ContactId": 300,
-      "SaleId": 81,
-      "Mrmrs": "assumenda",
-      "Firstname": "Braulio",
-      "MiddleName": "Kuhlman-Herzog",
-      "Lastname": "Wolf",
-      "SaleStakeholderId": 819,
-      "Rank": 858,
-      "Phone": "1-134-566-6781",
+      "StakeholderRoleName": "Goldner-Legros",
+      "Comment": "nisi",
+      "StakeholderRoleId": 744,
+      "CountryId": 496,
+      "PersonId": 540,
+      "EmailDescription": "edna@mohr.com",
+      "EmailId": 697,
+      "EmailAddress": "eloise@gulgowski.biz",
+      "PhoneId": 989,
+      "ContactName": "Hudson-Schoen",
+      "ContactId": 418,
+      "SaleId": 195,
+      "Mrmrs": "enim",
+      "Firstname": "Greta",
+      "MiddleName": "Fisher Group",
+      "Lastname": "Homenick",
+      "SaleStakeholderId": 889,
+      "Rank": 474,
+      "Phone": "(097)287-5196 x71065",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 724
         }
       }
     }
   ],
-  "ActiveErpLinks": 976,
+  "ActiveErpLinks": 388,
   "UserDefinedFields": {
-    "SuperOffice:1": "1589093518",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mrs. Hunter West I"
   },
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "delectus",
+    "CustomFields2": "fuga"
   },
-  "PublishEventDate": "2017-05-30T13:13:32.2299256+02:00",
-  "PublishTo": "2003-03-17T13:13:32.2299256+01:00",
-  "PublishFrom": "2014-10-02T13:13:32.2299256+02:00",
+  "PublishEventDate": "2020-08-28T12:01:33.0581965+02:00",
+  "PublishTo": "2001-10-18T12:01:33.0581965+02:00",
+  "PublishFrom": "2000-06-25T12:01:33.0581965+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 984,
+      "VisibleId": 666,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 439
         }
       }
     },
     {
-      "VisibleId": 984,
+      "VisibleId": 666,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 439
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 181
     }
   },
   "_Links": {

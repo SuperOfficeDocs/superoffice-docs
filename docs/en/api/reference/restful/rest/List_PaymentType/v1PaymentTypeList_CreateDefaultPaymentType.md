@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Abbott LLC",
-  "Tooltip": "et",
+  "Id": 25,
+  "Name": "Moen, Dicki and Turcotte",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 60,
-  "Rank": 153,
+  "UdListDefinitionId": 996,
+  "Rank": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

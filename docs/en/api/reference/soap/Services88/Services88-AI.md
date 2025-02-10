@@ -516,6 +516,7 @@ title: Services88.AIAgent WSDL
               <xs:element minOccurs="0" name="SupportLanguageId" type="xs:int" />
               <xs:element minOccurs="0" name="SupportAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonNumber" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

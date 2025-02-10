@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=sed
+GET /api/v1/List/Credited/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Bruen-Schmidt",
-    "ToolTip": "Ipsa ut est sit architecto aut incidunt ut.",
+    "Id": 296,
+    "Name": "Hahn, Schultz and Heaney",
+    "ToolTip": "Quam similique repellendus.",
     "Deleted": false,
-    "Rank": 953,
-    "Type": "aut",
+    "Rank": 963,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Wunsch Inc and Sons",
-        "ToolTip": "Quaerat eos dignissimos.",
-        "Deleted": false,
-        "Rank": 222,
-        "Type": "fugit",
+        "Id": 702,
+        "Name": "Parker, Padberg and Treutel",
+        "ToolTip": "Debitis soluta vitae repudiandae mollitia explicabo.",
+        "Deleted": true,
+        "Rank": 750,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 704,
-        "ExtraInfo": "et",
-        "StyleHint": "excepturi",
-        "FullName": "Antonietta Hayes",
+        "IconHint": "quos",
+        "ColorBlock": 861,
+        "ExtraInfo": "illum",
+        "StyleHint": "debitis",
+        "FullName": "Eleonore Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldType": "System.String",
+            "FieldLength": 291
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 82,
-    "ExtraInfo": "harum",
-    "StyleHint": "dolorem",
-    "FullName": "Dr. Kelsie Stuart Kihn",
+    "IconHint": "officia",
+    "ColorBlock": 315,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "labore",
+    "FullName": "Ms. Eusebio Tracey Kozey MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldLength": 778
       }
     }
   }

@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "vel",
+  "RawValue": "corporis",
   "Specification": null,
-  "DisplayValue": "dolorem",
-  "DisplayTooltip": "non",
+  "DisplayValue": "est",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 465,
-  "PrefDescId": 687,
-  "TableName": "Green Inc and Sons",
-  "UserPreferenceId": 930,
+  "TargetId": 90,
+  "PrefDescId": 832,
+  "TableName": "Block Inc and Sons",
+  "UserPreferenceId": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldLength": 890
     }
   }
 }

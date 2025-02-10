@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 106,
-    "ColumnId": 297,
-    "FieldDefault": "dolorem",
-    "FieldHeight": 235,
-    "FieldLabel": "a",
-    "FieldLeft": 304,
-    "FieldTop": 204,
+    "UDefFieldId": 470,
+    "ColumnId": 944,
+    "FieldDefault": "dolor",
+    "FieldHeight": 394,
+    "FieldLabel": "sed",
+    "FieldLeft": 732,
+    "FieldTop": 248,
     "FieldType": "Checkbox",
-    "FieldWidth": 438,
-    "FormatMask": "qui",
+    "FieldWidth": 318,
+    "FormatMask": "est",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 735,
-    "LabelLeft": 992,
-    "LabelTop": 193,
-    "LabelWidth": 273,
-    "LastVersionId": 835,
-    "ListTableId": 874,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 598,
+    "LabelLeft": 64,
+    "LabelTop": 596,
+    "LabelWidth": 227,
+    "LastVersionId": 440,
+    "ListTableId": 455,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 302,
-    "ProgId": "at",
-    "IsReadOnly": true,
-    "ShortLabel": "magni",
-    "TabOrder": 557,
-    "TextLength": 439,
-    "Tooltip": "quis",
-    "UdefIdentity": 209,
-    "UDListDefinitionId": 56,
+    "Page1LineNo": 567,
+    "ProgId": "ab",
+    "IsReadOnly": false,
+    "ShortLabel": "rerum",
+    "TabOrder": 899,
+    "TextLength": 549,
+    "Tooltip": "ratione",
+    "UdefIdentity": 603,
+    "UDListDefinitionId": 307,
     "Justification": "Center",
-    "Version": 663,
-    "TemplateVariableName": "Crist Group",
+    "Version": 627,
+    "TemplateVariableName": "Roob-Wintheiser",
     "HasBeenPublished": false,
-    "MdoListName": "Stark-Lehner",
+    "MdoListName": "Torp-Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldLength": 653
       }
     }
   }

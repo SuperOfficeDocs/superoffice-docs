@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 661,
-  "Name": "Quigley-Mueller",
-  "Tooltip": "unde",
+  "RoleId": 162,
+  "Name": "Conn Group",
+  "Tooltip": "voluptate",
   "RoleType": "Anonymous",
-  "Deleted": 18,
-  "Rank": 292,
-  "Created": "2012-11-04T13:13:31.9800495+01:00",
-  "UseCategories": 761,
+  "Deleted": 827,
+  "Rank": 511,
+  "Created": "1999-10-12T12:01:33.0269443+02:00",
+  "UseCategories": 472,
   "CreatedBy": null,
-  "Updated": "2006-09-09T13:13:31.9800495+02:00",
+  "Updated": "2015-10-15T12:01:33.0269443+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 89,
-  "Name": "Carter, Doyle and Lockman",
-  "Tooltip": "laudantium",
+  "RoleId": 914,
+  "Name": "Nienow, Sawayn and Hahn",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 202,
-  "Rank": 293,
-  "Created": "2019-11-23T13:13:31.9956719+01:00",
-  "UseCategories": 200,
+  "Deleted": 556,
+  "Rank": 508,
+  "Created": "2004-12-03T12:01:33.0269443+01:00",
+  "UseCategories": 542,
   "CreatedBy": null,
-  "Updated": "2010-10-09T13:13:31.9956719+02:00",
+  "Updated": "2021-07-11T12:01:33.0425704+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

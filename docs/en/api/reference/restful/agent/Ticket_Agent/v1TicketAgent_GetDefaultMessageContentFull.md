@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 2,
+  "TicketId": 269,
   "MessageActionType": "Forward",
-  "TicketMessageId": 674,
-  "TicketTypeId": 715
+  "TicketMessageId": 228,
+  "TicketTypeId": 617
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "voluptas",
+  "Body": "autem",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 735,
-      "Name": "Rath-Schuppe",
-      "ContentType": "et",
-      "AttSize": 960,
-      "InlineImage": false,
-      "ContentId": "fugit",
-      "AuthKey": "est",
+      "AttachmentId": 345,
+      "Name": "Weissnat Group",
+      "ContentType": "nisi",
+      "AttSize": 153,
+      "InlineImage": true,
+      "ContentId": "quos",
+      "AuthKey": "odio",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=aliquid
-GET /api/v1/SaleStakeholder?$top=676
-GET /api/v1/SaleStakeholder?$skip=43
+GET /api/v1/SaleStakeholder?$entities=dicta
+GET /api/v1/SaleStakeholder?$top=438
+GET /api/v1/SaleStakeholder?$skip=814
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=impedit
+GET /api/v1/SaleStakeholder?$context=ipsum
 GET /api/v1/SaleStakeholder?$format=JSON
-GET /api/v1/SaleStakeholder?$jsonSafe=False
+GET /api/v1/SaleStakeholder?$jsonSafe=True
 GET /api/v1/SaleStakeholder?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "quis",
   "value": [
     {
-      "PrimaryKey": 3927,
+      "PrimaryKey": 7870,
       "EntityName": "person",
-      "personId": 3927,
-      "fullName": "Miss Alanna Candice Crist DDS"
+      "personId": 7870,
+      "fullName": "Prof. Cierra Bode I"
     },
     {
-      "PrimaryKey": 2372,
+      "PrimaryKey": 6812,
       "EntityName": "person",
-      "personId": 2372,
-      "fullName": "Federico Crooks"
+      "personId": 6812,
+      "fullName": "Boris Beatty"
     }
   ]
 }

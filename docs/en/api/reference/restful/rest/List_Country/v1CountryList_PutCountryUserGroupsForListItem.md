@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Mohr-Durgan",
-    "ToolTip": "Nisi odio excepturi voluptate consequatur aut nulla.",
-    "Deleted": false,
-    "Rank": 900,
-    "Type": "necessitatibus",
-    "ColorBlock": 527,
-    "IconHint": "sapiente",
+    "Id": 921,
+    "Name": "Cruickshank Group",
+    "ToolTip": "Laborum velit sint qui.",
+    "Deleted": true,
+    "Rank": 400,
+    "Type": "cupiditate",
+    "ColorBlock": 166,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2011-06-16T13:13:32.9642864+02:00",
+    "LastChanged": "2018-06-15T12:01:33.4644748+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Schaden Inc and Sons",
-        "ToolTip": "Alias dolores cupiditate et.",
-        "Deleted": true,
-        "Rank": 903,
-        "Type": "voluptatibus",
-        "ColorBlock": 856,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2020-01-12T13:13:32.9642864+01:00",
+        "Id": 79,
+        "Name": "Frami-Grant",
+        "ToolTip": "Explicabo voluptates sequi aut explicabo.",
+        "Deleted": false,
+        "Rank": 834,
+        "Type": "hic",
+        "ColorBlock": 843,
+        "IconHint": "aliquid",
+        "Selected": true,
+        "LastChanged": "2000-03-10T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "sed",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Dr. Aliyah Paucek"
+        "FullName": "Miss Omari Kuvalis"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "amet",
-    "Hidden": false,
-    "FullName": "Ms. Sammie Lubowitz"
+    "ExtraInfo": "non",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Mr. Sasha Marty Huels V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Hudson, Hintz and Rempel",
-    "ToolTip": "Et quam qui ex aut nobis vitae voluptates.",
-    "Deleted": false,
-    "Rank": 65,
-    "Type": "dolores",
-    "ColorBlock": 528,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2006-11-12T13:13:32.9642864+01:00",
+    "Id": 247,
+    "Name": "Effertz LLC",
+    "ToolTip": "Dolore vero in molestiae veritatis in libero et.",
+    "Deleted": true,
+    "Rank": 274,
+    "Type": "eaque",
+    "ColorBlock": 800,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2019-08-14T12:01:33.4644748+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Autem aut.",
-        "Deleted": true,
-        "Rank": 964,
-        "Type": "in",
-        "ColorBlock": 995,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2003-05-17T13:13:32.9642864+02:00",
+        "Id": 243,
+        "Name": "Stamm, Buckridge and Dietrich",
+        "ToolTip": "Fuga impedit minima sunt aliquid minus architecto.",
+        "Deleted": false,
+        "Rank": 778,
+        "Type": "voluptatem",
+        "ColorBlock": 718,
+        "IconHint": "repellat",
+        "Selected": true,
+        "LastChanged": "2023-01-28T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sunt",
+        "ExtraInfo": "soluta",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Anastasia Dare",
+        "FullName": "Miss Hudson Dibbert III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "inventore",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Heidi Daniel",
+    "FullName": "Krystina Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 556
       }
     }
   }

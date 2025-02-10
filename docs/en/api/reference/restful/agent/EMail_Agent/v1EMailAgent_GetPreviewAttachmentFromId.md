@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 554,
-  "AttachmentId": "repellat",
-  "AttachmentType": "est",
-  "AttachmentFilename": "eos"
+  "MailItemId": 859,
+  "AttachmentId": "voluptatem",
+  "AttachmentType": "eligendi",
+  "AttachmentFilename": "quibusdam"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound heuristic system engine",
-  "Filename": "molestiae",
-  "Size": 168,
-  "Type": "harum",
-  "Encoding": "quae",
-  "Id": "officia",
-  "Disposition": "incidunt",
-  "IsSafeFileExtension": false,
+  "Description": "Reduced intermediate artificial intelligence",
+  "Filename": "ea",
+  "Size": 549,
+  "Type": "autem",
+  "Encoding": "quos",
+  "Id": "totam",
+  "Disposition": "assumenda",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

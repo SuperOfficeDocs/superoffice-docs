@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 714,
-  "PersonName": "O'Connell-Quigley",
+  "ContactId": 339,
+  "PersonName": "Smitham, Johnson and Monahan",
   "PhoneNumbers": [
-    "283392",
-    "1002965"
+    "598721",
+    "1726414"
   ],
   "Emails": [
-    "brooklyn@okeeferitchie.co.uk",
-    "alexandrine.frami@hagenes.us"
+    "lyric@abernathy.info",
+    "gerda.tremblay@creminorn.uk"
   ]
 }
 ```
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

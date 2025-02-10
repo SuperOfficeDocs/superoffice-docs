@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=631
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=484
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Zboncak, Kuhn and Kessler",
-  "Comment": "perspiciatis",
-  "StakeholderRoleId": 354,
-  "CountryId": 509,
-  "PersonId": 345,
-  "EmailDescription": "johnathon@mosciski.com",
-  "EmailId": 157,
-  "EmailAddress": "kieran@barrowstowne.info",
-  "PhoneId": 61,
-  "ContactName": "Walker-Bosco",
-  "ContactId": 127,
-  "SaleId": 759,
-  "Mrmrs": "repellat",
-  "Firstname": "Brionna",
-  "MiddleName": "Lockman-Kihn",
-  "Lastname": "Romaguera",
-  "SaleStakeholderId": 287,
-  "Rank": 242,
-  "Phone": "609.386.3947",
+  "StakeholderRoleName": "Treutel-Lesch",
+  "Comment": "harum",
+  "StakeholderRoleId": 633,
+  "CountryId": 796,
+  "PersonId": 564,
+  "EmailDescription": "jarred.predovic@bradtke.uk",
+  "EmailId": 188,
+  "EmailAddress": "arjun@bergstrom.us",
+  "PhoneId": 854,
+  "ContactName": "Schulist-Crooks",
+  "ContactId": 895,
+  "SaleId": 296,
+  "Mrmrs": "eius",
+  "Firstname": "America",
+  "MiddleName": "Kovacek-Torp",
+  "Lastname": "Gibson",
+  "SaleStakeholderId": 258,
+  "Rank": 436,
+  "Phone": "(125)528-6387 x76676",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 299
     }
   }
 }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sanford LLC",
+  "Name": "Corkery-Dooley",
   "ForceFlatList": true,
-  "AdditionalInfo": "minima",
+  "AdditionalInfo": "doloremque",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Schuster-Lindgren",
-    "ToolTip": "Dolor ex odio eveniet.",
-    "Deleted": false,
-    "Rank": 402,
-    "Type": "minima",
+    "Id": 209,
+    "Name": "Turcotte-Halvorson",
+    "ToolTip": "Aut enim modi ut quidem non.",
+    "Deleted": true,
+    "Rank": 803,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Rempel LLC",
-        "ToolTip": "Voluptatem delectus voluptatem sint quia accusantium.",
+        "Id": 54,
+        "Name": "Durgan-McClure",
+        "ToolTip": "Non labore ut velit eum.",
         "Deleted": false,
-        "Rank": 965,
-        "Type": "veniam",
+        "Rank": 547,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 834,
-        "ExtraInfo": "possimus",
-        "StyleHint": "voluptatem",
-        "FullName": "Katarina Blanda",
+        "IconHint": "et",
+        "ColorBlock": 332,
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "FullName": "Wyatt Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldLength": 514
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 12,
-    "ExtraInfo": "officia",
-    "StyleHint": "accusamus",
-    "FullName": "Marcelle Abshire",
+    "IconHint": "saepe",
+    "ColorBlock": 58,
+    "ExtraInfo": "nobis",
+    "StyleHint": "dolor",
+    "FullName": "Fletcher Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Gleichner, Bartoletti and Rau",
-  "UserName": "Schimmel-Legros",
-  "Password": "consequatur",
-  "Folder": "molestias",
-  "UseSSL": false,
+  "ServerName": "Koelpin, Stark and Nienow",
+  "UserName": "Feeney, Kshlerin and Kautzer",
+  "Password": "praesentium",
+  "Folder": "necessitatibus",
+  "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 869
     }
   }
 }

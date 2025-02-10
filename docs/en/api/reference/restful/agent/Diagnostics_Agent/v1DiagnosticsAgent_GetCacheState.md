@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Nikolaus Inc and Sons",
-    "Kreiger, Johnson and Aufderhar"
+    "Carter-Jacobson",
+    "Walter-Hilll"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"corrupti"
 ```

@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 37,
-  "StartDate": "2009-03-02T13:13:21.8677656+01:00",
-  "EndDate": "2023-06-03T13:13:21.8677656+02:00",
-  "RecurrenceCounter": 317,
+  "RecurrenceId": 934,
+  "StartDate": "2022-01-15T12:01:27.2127411+01:00",
+  "EndDate": "2015-09-22T12:01:27.2127411+02:00",
+  "RecurrenceCounter": 128,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2022-05-29T13:13:21.8677656+02:00",
-      "IsConflict": true,
-      "Description": "Fundamental stable productivity",
-      "DescriptionStyleHint": "Down-sized background strategy",
-      "Tooltip": "quaerat"
+      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "IsConflict": false,
+      "Description": "Visionary radical benchmark",
+      "DescriptionStyleHint": "Face to face secondary standardization",
+      "Tooltip": "et"
     },
     {
-      "Date": "2022-05-29T13:13:21.8677656+02:00",
-      "IsConflict": true,
-      "Description": "Fundamental stable productivity",
-      "DescriptionStyleHint": "Down-sized background strategy",
-      "Tooltip": "quaerat"
+      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "IsConflict": false,
+      "Description": "Visionary radical benchmark",
+      "DescriptionStyleHint": "Face to face secondary standardization",
+      "Tooltip": "et"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

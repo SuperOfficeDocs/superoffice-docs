@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    415,
-    768
+    802,
+    477
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 573,
-    "Name": "Doyle LLC",
-    "Description": "Profit-focused solution-oriented access",
+    "ProjectId": 550,
+    "Name": "Grady, Steuber and Lakin",
+    "Description": "User-centric zero tolerance access",
     "URL": "http://www.example.com/",
-    "Type": "voluptatem",
-    "AssociateId": 4,
-    "AssociateFullName": "Dale Jaskolski",
-    "TypeId": 868,
-    "Updated": "2017-07-24T13:13:23.664465+02:00",
-    "StatusId": 674,
-    "Status": "aut",
-    "TextId": 25,
-    "PublishTo": "2005-10-31T13:13:23.664465+01:00",
-    "PublishFrom": "2008-04-10T13:13:23.664465+02:00",
+    "Type": "fugiat",
+    "AssociateId": 969,
+    "AssociateFullName": "Daisha Hartmann III",
+    "TypeId": 156,
+    "Updated": "2004-04-05T12:01:28.1659327+02:00",
+    "StatusId": 42,
+    "Status": "unde",
+    "TextId": 410,
+    "PublishTo": "1999-08-20T12:01:28.1659327+02:00",
+    "PublishFrom": "1999-11-02T12:01:28.1659327+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "410117",
-    "ActiveErpLinks": 924,
+    "ProjectNumber": "327163",
+    "ActiveErpLinks": 393,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 791
       }
     }
   }

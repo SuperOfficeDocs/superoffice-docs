@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 351,
-  "Name": "Cartwright, Mraz and Hessel",
+  "TicketPriorityId": 111,
+  "Name": "Nader-Legros",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 740,
+  "SortOrder": 419,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 110,
-  "MonStart": "2018-10-10T13:13:23.3364181+02:00",
-  "MonStop": "2002-02-01T13:13:23.3364181+01:00",
-  "TueStart": "2004-09-27T13:13:23.3364181+02:00",
-  "TueStop": "2005-10-27T13:13:23.3364181+02:00",
-  "WedStart": "2001-04-19T13:13:23.3364181+02:00",
-  "WedStop": "2015-03-18T13:13:23.3364181+01:00",
-  "ThuStart": "2008-08-20T13:13:23.3364181+02:00",
-  "ThuStop": "2019-09-10T13:13:23.3364181+02:00",
-  "FriStart": "2001-10-13T13:13:23.3364181+02:00",
-  "FriStop": "1999-10-22T13:13:23.3364181+02:00",
-  "SatStart": "2020-10-22T13:13:23.3364181+02:00",
-  "SatStop": "2008-05-05T13:13:23.3364181+02:00",
-  "SunStart": "2016-08-25T13:13:23.3364181+02:00",
-  "SunStop": "2004-04-22T13:13:23.3364181+02:00",
+  "Deadline": 991,
+  "MonStart": "2010-11-02T12:01:27.97842+01:00",
+  "MonStop": "2013-09-20T12:01:27.97842+02:00",
+  "TueStart": "2008-05-01T12:01:27.97842+02:00",
+  "TueStop": "1998-03-07T12:01:27.97842+01:00",
+  "WedStart": "2013-04-01T12:01:27.97842+02:00",
+  "WedStop": "2001-04-23T12:01:27.97842+02:00",
+  "ThuStart": "2008-07-19T12:01:27.97842+02:00",
+  "ThuStop": "2010-01-13T12:01:27.97842+01:00",
+  "FriStart": "2006-02-17T12:01:27.97842+01:00",
+  "FriStop": "2024-06-14T12:01:27.97842+02:00",
+  "SatStart": "2017-04-16T12:01:27.97842+02:00",
+  "SatStop": "2005-03-30T12:01:27.97842+02:00",
+  "SunStart": "2014-03-06T12:01:27.97842+01:00",
+  "SunStop": "2016-04-13T12:01:27.97842+02:00",
   "NonDates": [
-    "illum",
-    "doloribus"
+    "deserunt",
+    "nostrum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 70,
-      "AlertLevel": 13,
-      "AlertTimeout": 643,
-      "Action": 323,
-      "DelegateTo": 862,
-      "ScriptId": 112,
-      "EmailTo": "lloyd.leuschke@bosco.info",
-      "SmsTo": "nobis",
-      "ReplyTemplateIdCustomer": 444,
-      "ReplyTemplateIdUser": 533,
-      "ReplyTemplateIdCatmast": 156,
-      "ReplyTemplateIdEmail": 262,
-      "RtiCustomerSms": 368,
-      "ReplyTemplateIdUserSms": 265,
-      "ReplyTemplateIdCatmastSms": 995,
-      "ReplyTemplateIdSms": 75,
+      "TicketAlertId": 1000,
+      "AlertLevel": 478,
+      "AlertTimeout": 169,
+      "Action": 557,
+      "DelegateTo": 121,
+      "ScriptId": 170,
+      "EmailTo": "rashawn_gorczany@bashirian.us",
+      "SmsTo": "aliquam",
+      "ReplyTemplateIdCustomer": 115,
+      "ReplyTemplateIdUser": 960,
+      "ReplyTemplateIdCatmast": 34,
+      "ReplyTemplateIdEmail": 568,
+      "RtiCustomerSms": 422,
+      "ReplyTemplateIdUserSms": 359,
+      "ReplyTemplateIdCatmastSms": 754,
+      "ReplyTemplateIdSms": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 96
     }
   }
 }

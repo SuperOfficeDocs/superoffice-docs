@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 561,
-    "Name": "Johnson, Jaskolski and Marks",
-    "Tooltip": "voluptatem",
+    "HeadingId": 182,
+    "Name": "Lindgren-Bartoletti",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 488,
-    "UdListDefinitionId": 538
+    "Rank": 176,
+    "UdListDefinitionId": 661
   },
   {
-    "HeadingId": 561,
-    "Name": "Johnson, Jaskolski and Marks",
-    "Tooltip": "voluptatem",
+    "HeadingId": 182,
+    "Name": "Lindgren-Bartoletti",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 488,
-    "UdListDefinitionId": 538
+    "Rank": 176,
+    "UdListDefinitionId": 661
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 528,
-    "Name": "Kuhic Inc and Sons",
-    "Tooltip": "nemo",
+    "HeadingId": 137,
+    "Name": "Pollich, Gutmann and Kreiger",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 682,
+    "Rank": 838,
+    "UdListDefinitionId": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldLength": 629
       }
     }
   }

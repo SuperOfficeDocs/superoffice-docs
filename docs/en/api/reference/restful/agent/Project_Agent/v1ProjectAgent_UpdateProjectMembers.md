@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 933,
+  "ProjectId": 15,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 446,
-      "ContactId": 693,
-      "ProjectId": 955,
-      "ContactName": "Herzog-Lindgren",
+      "ProjectmemberId": 754,
+      "ContactId": 687,
+      "ProjectId": 914,
+      "ContactName": "Hudson-Hahn",
       "ContactDepartment": "",
-      "ProjectName": "Grady, Welch and Wiegand",
-      "EmailId": 532,
-      "EmailAddress": "raymond@mante.name",
-      "CountryId": 325,
-      "Firstname": "Gretchen",
-      "MiddleName": "Walker Inc and Sons",
-      "Lastname": "Becker",
-      "PersonId": 129,
-      "Mrmrs": "aut",
-      "ProjectMemberTypeName": "Jacobson, Steuber and Jaskolski",
-      "Phone": "220.674.1540",
-      "PhoneId": 925,
-      "ProjectMemberTypeId": 711,
-      "EmailAddressName": "janessa@bruenhane.com",
-      "Comment": "voluptates",
-      "FullName": "Alaina Kuhic"
+      "ProjectName": "Toy Group",
+      "EmailId": 698,
+      "EmailAddress": "emmie@herzogabbott.info",
+      "CountryId": 770,
+      "Firstname": "Petra",
+      "MiddleName": "Dietrich, Gislason and Dickens",
+      "Lastname": "Zboncak",
+      "PersonId": 285,
+      "Mrmrs": "laboriosam",
+      "ProjectMemberTypeName": "Nader, Koss and Schoen",
+      "Phone": "(580)088-1891",
+      "PhoneId": 368,
+      "ProjectMemberTypeId": 164,
+      "EmailAddressName": "aaron.hudson@langosh.name",
+      "Comment": "ullam",
+      "FullName": "Bernita Cremin"
     }
   ]
 }

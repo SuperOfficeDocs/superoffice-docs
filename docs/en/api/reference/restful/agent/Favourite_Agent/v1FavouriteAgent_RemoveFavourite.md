@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Yundt-Morar",
-  "RecordId": 716,
-  "AssociateId": 139
+  "TableName": "Koelpin, Hilpert and Heller",
+  "RecordId": 319,
+  "AssociateId": 56
 }
 ```
 

@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 394,
-  "Name": "Kilback-Pagac",
+  "TicketStatusId": 85,
+  "Name": "Franecki, Rohan and Volkman",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": true,
+  "NoEmailReopen": false,
+  "IsDefault": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

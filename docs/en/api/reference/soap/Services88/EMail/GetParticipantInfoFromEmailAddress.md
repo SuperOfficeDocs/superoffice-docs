@@ -104,6 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:SupportLanguageId xsi:type="xsd:int">0</EMail:SupportLanguageId>
     <EMail:SupportAssociateId xsi:type="xsd:int">0</EMail:SupportAssociateId>
     <EMail:CategoryName xsi:type="xsd:string"></EMail:CategoryName>
+    <EMail:PersonNumber xsi:type="xsd:string"></EMail:PersonNumber>
    </EMail:Response>
   </EMail:GetParticipantInfoFromEmailAddressResponse>
  </SOAP-ENV:Body>

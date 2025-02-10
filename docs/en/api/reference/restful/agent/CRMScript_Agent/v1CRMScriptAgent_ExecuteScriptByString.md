@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "earum",
+  "Script": "eius",
   "Parameters": {
-    "Parameters1": "aut",
-    "Parameters2": "repellendus"
+    "Parameters1": "ut",
+    "Parameters2": "sunt"
   },
   "EventData": null
 }
@@ -102,10 +102,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "quo",
+  "Output": "quam",
   "Parameters": {
-    "Parameters1": "facilis",
-    "Parameters2": "nihil"
+    "Parameters1": "ut",
+    "Parameters2": "aperiam"
   },
   "TraceRun": null,
   "Eventdata": null,
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

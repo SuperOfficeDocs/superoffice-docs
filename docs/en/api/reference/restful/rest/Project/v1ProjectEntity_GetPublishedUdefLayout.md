@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 781,
-    "ColumnId": 333,
-    "FieldDefault": "reprehenderit",
-    "FieldHeight": 30,
-    "FieldLabel": "et",
-    "FieldLeft": 555,
-    "FieldTop": 702,
+    "UDefFieldId": 428,
+    "ColumnId": 72,
+    "FieldDefault": "ad",
+    "FieldHeight": 793,
+    "FieldLabel": "sed",
+    "FieldLeft": 4,
+    "FieldTop": 994,
     "FieldType": "Checkbox",
-    "FieldWidth": 839,
-    "FormatMask": "vel",
+    "FieldWidth": 157,
+    "FormatMask": "laborum",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 708,
-    "LabelLeft": 594,
-    "LabelTop": 941,
-    "LabelWidth": 511,
-    "LastVersionId": 314,
-    "ListTableId": 885,
-    "IsMandatory": false,
+    "LabelHeight": 170,
+    "LabelLeft": 173,
+    "LabelTop": 455,
+    "LabelWidth": 207,
+    "LastVersionId": 629,
+    "ListTableId": 196,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 26,
-    "ProgId": "explicabo",
-    "IsReadOnly": true,
-    "ShortLabel": "corrupti",
-    "TabOrder": 947,
-    "TextLength": 204,
-    "Tooltip": "repellendus",
-    "UdefIdentity": 776,
-    "UDListDefinitionId": 854,
+    "Page1LineNo": 377,
+    "ProgId": "minus",
+    "IsReadOnly": false,
+    "ShortLabel": "quo",
+    "TabOrder": 992,
+    "TextLength": 79,
+    "Tooltip": "veniam",
+    "UdefIdentity": 708,
+    "UDListDefinitionId": 82,
     "Justification": "Center",
-    "Version": 62,
-    "TemplateVariableName": "Kuvalis-Kertzmann",
-    "HasBeenPublished": true,
-    "MdoListName": "Koelpin Group",
+    "Version": 950,
+    "TemplateVariableName": "Daniel Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Kub-Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldType": "System.String",
+        "FieldLength": 619
       }
     }
   }

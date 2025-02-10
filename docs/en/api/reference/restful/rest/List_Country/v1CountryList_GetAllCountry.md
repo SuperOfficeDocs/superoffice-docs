@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 999,
-    "Name": "Langosh-Kling",
-    "CurrencyId": 6,
-    "EnglishName": "Reilly Group",
+    "CountryId": 793,
+    "Name": "Spencer Group",
+    "CurrencyId": 469,
+    "EnglishName": "Schuster-Vandervort",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Inverse zero defect implementation",
-    "OrgNrText": "1779333",
-    "InterAreaPrefix": "placeat",
-    "DialInPrefix": "at",
-    "ZipPrefix": "tenetur",
-    "DomainName": "Jerde, Conroy and Kuhic",
-    "AddressLayoutId": 926,
-    "DomesticAddressLayoutId": 950,
-    "ForeignAddressLayoutId": 860,
-    "Rank": 41,
-    "Tooltip": "aut",
+    "ImageDescription": "Persistent methodical encryption",
+    "OrgNrText": "1032403",
+    "InterAreaPrefix": "veritatis",
+    "DialInPrefix": "voluptates",
+    "ZipPrefix": "in",
+    "DomainName": "Bruen-Cartwright",
+    "AddressLayoutId": 75,
+    "DomesticAddressLayoutId": 261,
+    "ForeignAddressLayoutId": 821,
+    "Rank": 894,
+    "Tooltip": "saepe",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

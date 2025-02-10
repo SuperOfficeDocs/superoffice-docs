@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 480,
-  "StartDate": "2008-01-29T13:13:21.8677656+01:00",
-  "EndDate": "2004-11-28T13:13:21.8677656+01:00",
-  "RecurrenceCounter": 884,
+  "RecurrenceId": 797,
+  "StartDate": "2001-03-20T12:01:27.2127411+01:00",
+  "EndDate": "2012-03-09T12:01:27.2127411+01:00",
+  "RecurrenceCounter": 835,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-11-23T13:13:21.8677656+01:00",
+      "Date": "2016-08-08T12:01:27.2127411+02:00",
       "IsConflict": false,
-      "Description": "Right-sized systemic hierarchy",
-      "DescriptionStyleHint": "Persevering client-driven secured line",
-      "Tooltip": "magnam"
+      "Description": "Ameliorated background flexibility",
+      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
+      "Tooltip": "labore"
     },
     {
-      "Date": "2009-11-23T13:13:21.8677656+01:00",
+      "Date": "2016-08-08T12:01:27.2127411+02:00",
       "IsConflict": false,
-      "Description": "Right-sized systemic hierarchy",
-      "DescriptionStyleHint": "Persevering client-driven secured line",
-      "Tooltip": "magnam"
+      "Description": "Ameliorated background flexibility",
+      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
+      "Tooltip": "labore"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 417,
-  "Name": "Ritchie-Zboncak",
+  "ContactId": 790,
+  "Name": "Fisher, Schaden and Conn",
   "Department": "",
-  "OrgNr": "964396",
-  "Number1": "1653770",
-  "Number2": "897956",
-  "UpdatedDate": "2000-06-02T13:13:31.5738909+02:00",
-  "CreatedDate": "2001-05-31T13:13:31.5738909+02:00",
+  "OrgNr": "744074",
+  "Number1": "1217997",
+  "Number2": "1253086",
+  "UpdatedDate": "2011-02-25T12:01:32.8238054+01:00",
+  "CreatedDate": "2011-02-18T12:01:32.8238054+01:00",
   "Emails": [
     {
-      "Value": "officia",
-      "StrippedValue": "non",
-      "Description": "Cross-group background data-warehouse"
+      "Value": "itaque",
+      "StrippedValue": "officiis",
+      "Description": "Innovative systemic contingency"
     },
     {
-      "Value": "officia",
-      "StrippedValue": "non",
-      "Description": "Cross-group background data-warehouse"
+      "Value": "itaque",
+      "StrippedValue": "officiis",
+      "Description": "Innovative systemic contingency"
     }
   ],
   "Interests": [
     {
-      "Id": 584,
-      "Name": "Steuber Group",
-      "ToolTip": "Consequatur rerum culpa nihil ducimus velit.",
-      "Deleted": false,
-      "Rank": 201,
-      "Type": "nobis",
-      "ColorBlock": 114,
-      "IconHint": "animi",
-      "Selected": false,
-      "LastChanged": "2007-05-15T13:13:31.5738909+02:00",
+      "Id": 950,
+      "Name": "Terry-Welch",
+      "ToolTip": "Porro in dolor qui perferendis.",
+      "Deleted": true,
+      "Rank": 977,
+      "Type": "et",
+      "ColorBlock": 15,
+      "IconHint": "aspernatur",
+      "Selected": true,
+      "LastChanged": "2024-02-24T12:01:32.8238054+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "et",
+      "ExtraInfo": "earum",
+      "StyleHint": "repudiandae",
       "Hidden": false,
-      "FullName": "Ms. Kolby Theo Rutherford PhD"
+      "FullName": "Maryjane Jacobi DVM"
     }
   ],
   "Urls": [
     {
-      "Value": "est",
-      "StrippedValue": "expedita",
-      "Description": "Programmable client-driven access"
+      "Value": "quaerat",
+      "StrippedValue": "quaerat",
+      "Description": "Reverse-engineered demand-driven core"
     },
     {
-      "Value": "est",
-      "StrippedValue": "expedita",
-      "Description": "Programmable client-driven access"
+      "Value": "quaerat",
+      "StrippedValue": "quaerat",
+      "Description": "Reverse-engineered demand-driven core"
     }
   ],
   "Phones": [
     {
-      "Value": "sit",
-      "StrippedValue": "quis",
-      "Description": "Intuitive coherent product"
+      "Value": "vel",
+      "StrippedValue": "consequuntur",
+      "Description": "Profit-focused global attitude"
     },
     {
-      "Value": "sit",
-      "StrippedValue": "quis",
-      "Description": "Intuitive coherent product"
+      "Value": "vel",
+      "StrippedValue": "consequuntur",
+      "Description": "Profit-focused global attitude"
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "aut",
-      "Description": "Horizontal executive policy"
+      "Value": "voluptas",
+      "StrippedValue": "quis",
+      "Description": "Right-sized regional structure"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "aut",
-      "Description": "Horizontal executive policy"
+      "Value": "voluptas",
+      "StrippedValue": "quis",
+      "Description": "Right-sized regional structure"
     }
   ],
-  "Description": "Self-enabling directional conglomeration",
+  "Description": "Pre-emptive web-enabled initiative",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,86 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quas",
-      "PersonId": 209,
-      "Mrmrs": "et",
-      "Firstname": "Mortimer",
-      "Lastname": "Langworth",
-      "MiddleName": "Lowe, Hoppe and Rogahn",
-      "Title": "est",
-      "Description": "Optional 24/7 local area network",
-      "Email": "adah_will@jerde.co.uk",
-      "FullName": "Dr. Milton Sofia Kozey II",
-      "DirectPhone": "1-837-668-4848 x598",
-      "FormalName": "Blanda-Feest",
-      "CountryId": 269,
-      "ContactId": 371,
-      "ContactName": "White, Welch and Wilderman",
-      "Retired": 170,
-      "Rank": 400,
-      "ActiveInterests": 302,
-      "ContactDepartment": "aggregate collaborative models",
-      "ContactCountryId": 239,
-      "ContactOrgNr": "359112",
-      "FaxPhone": "1-156-389-4114 x17233",
-      "MobilePhone": "786-508-7055 x65255",
-      "ContactPhone": "010.935.4819",
-      "AssociateName": "Fisher, Pacocha and Conroy",
-      "AssociateId": 780,
-      "UsePersonAddress": false,
-      "ContactFax": "culpa",
-      "Kanafname": "nihil",
-      "Kanalname": "quae",
-      "Post1": "consequatur",
-      "Post2": "voluptatem",
-      "Post3": "quae",
-      "EmailName": "dagmar_heller@cartwrightjacobson.name",
-      "ContactFullName": "Frieda Mills",
-      "ActiveErpLinks": 385,
-      "TicketPriorityId": 916,
-      "SupportLanguageId": 652,
-      "SupportAssociateId": 467,
-      "CategoryName": "VIP Customer"
+      "Position": "sed",
+      "PersonId": 363,
+      "Mrmrs": "sapiente",
+      "Firstname": "Tillman",
+      "Lastname": "Conroy",
+      "MiddleName": "Mraz, Goodwin and Kris",
+      "Title": "vel",
+      "Description": "Open-architected reciprocal concept",
+      "Email": "esmeralda@abbott.ca",
+      "FullName": "Destinee Wilhelm Prosacco PhD",
+      "DirectPhone": "061-763-8847",
+      "FormalName": "Swift, Hand and Rosenbaum",
+      "CountryId": 792,
+      "ContactId": 881,
+      "ContactName": "Ebert Group",
+      "Retired": 916,
+      "Rank": 21,
+      "ActiveInterests": 288,
+      "ContactDepartment": "",
+      "ContactCountryId": 949,
+      "ContactOrgNr": "743477",
+      "FaxPhone": "1-439-983-7236",
+      "MobilePhone": "(947)686-7492 x4076",
+      "ContactPhone": "1-088-102-2345 x37494",
+      "AssociateName": "Toy, Emmerich and Hills",
+      "AssociateId": 985,
+      "UsePersonAddress": true,
+      "ContactFax": "suscipit",
+      "Kanafname": "accusantium",
+      "Kanalname": "vitae",
+      "Post1": "recusandae",
+      "Post2": "quia",
+      "Post3": "aut",
+      "EmailName": "shanelle@barrowshowell.uk",
+      "ContactFullName": "Logan Turner",
+      "ActiveErpLinks": 371,
+      "TicketPriorityId": 564,
+      "SupportLanguageId": 794,
+      "SupportAssociateId": 901,
+      "CategoryName": "VIP Customer",
+      "PersonNumber": "561917"
     }
   ],
-  "NoMailing": true,
-  "Kananame": "laborum",
+  "NoMailing": false,
+  "Kananame": "repellat",
   "Xstop": false,
-  "ActiveInterests": 284,
-  "GroupId": 672,
-  "ActiveStatusMonitorId": 836,
+  "ActiveInterests": 830,
+  "GroupId": 818,
+  "ActiveStatusMonitorId": 370,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 990,
-  "DbiAgentId": 652,
-  "DbiLastSyncronized": "2007-05-14T13:13:31.5895173+02:00",
-  "DbiKey": "repellendus",
-  "DbiLastModified": "2013-12-17T13:13:31.5895173+01:00",
+  "Deleted": 272,
+  "DbiAgentId": 458,
+  "DbiLastSyncronized": "1999-01-17T12:01:32.8238054+01:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2003-09-08T12:01:32.8238054+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 278,
-  "ActiveErpLinks": 708,
+  "Source": 542,
+  "ActiveErpLinks": 834,
   "BounceEmails": [
-    "maxie.hodkiewicz@rodriguez.com",
-    "sandra.boehm@considinepouros.info"
+    "nicklaus@collinsbergstrom.name",
+    "kaylah@medhurst.com"
   ],
   "Domains": [
-    "consequatur",
-    "sed"
+    "reprehenderit",
+    "molestias"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Katarina Shyanne Aufderhar Jr.",
-    "SuperOffice:2": "Vincenza Gutkowski"
+    "SuperOffice:1": "Julia Yundt PhD",
+    "SuperOffice:2": "Linnie Wyman"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "et"
+    "CustomFields1": "quidem",
+    "CustomFields2": "doloremque"
   }
 }
 ```
@@ -282,7 +283,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloribus",
-  "2": "nobis"
+  "1": "repudiandae",
+  "2": "rerum"
 }
 ```

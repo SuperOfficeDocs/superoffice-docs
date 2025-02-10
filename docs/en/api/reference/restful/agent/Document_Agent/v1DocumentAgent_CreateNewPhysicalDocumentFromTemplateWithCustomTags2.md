@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 590,
-  "PersonId": 642,
-  "AppointmentId": 147,
-  "DocumentId": 165,
-  "SaleId": 208,
-  "SelectionId": 995,
-  "ProjectId": 902,
+  "ContactId": 849,
+  "PersonId": 578,
+  "AppointmentId": 215,
+  "DocumentId": 567,
+  "SaleId": 529,
+  "SelectionId": 797,
+  "ProjectId": 313,
   "CustomTags": {
-    "CustomTags1": "pariatur",
-    "CustomTags2": "vel"
+    "CustomTags1": "error",
+    "CustomTags2": "ad"
   },
-  "UiCulture": "dolores"
+  "UiCulture": "adipisci"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 512,
+  "DocumentId": 74,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veritatis",
-  "Header": "dolores",
-  "Name": "Hauck Inc and Sons",
-  "OurRef": "debitis",
-  "YourRef": "suscipit",
-  "CreatedDate": "2010-12-31T13:13:22.867778+01:00",
-  "UpdatedDate": "2012-09-22T13:13:22.867778+02:00",
-  "Description": "Open-source bandwidth-monitored data-warehouse",
+  "Attention": "a",
+  "Header": "omnis",
+  "Name": "Lowe-Ondricka",
+  "OurRef": "sit",
+  "YourRef": "delectus",
+  "CreatedDate": "2021-05-23T12:01:27.7440229+02:00",
+  "UpdatedDate": "2019-09-05T12:01:27.7440229+02:00",
+  "Description": "Implemented mission-critical workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-11-20T13:13:22.867778+01:00",
-  "ExternalRef": "ut",
+  "Date": "2018-03-14T12:01:27.7440229+01:00",
+  "ExternalRef": "doloribus",
   "Completed": "Completed",
-  "ActiveLinks": 606,
+  "ActiveLinks": 885,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Thiel Inc and Sons",
-      "Id": 814,
-      "Description": "Organized demand-driven collaboration",
-      "ExtraInfo": "similique",
-      "LinkId": 846,
+      "EntityName": "Johns, Keebler and Huels",
+      "Id": 528,
+      "Description": "Front-line bottom-line migration",
+      "ExtraInfo": "voluptates",
+      "LinkId": 421,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 751
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 14,
-  "Snum": 933,
+  "SuggestedDocumentId": 699,
+  "Snum": 313,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Berenice Jakubowski I",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Eleazar Johnston"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "error"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "vero"
+    "CustomFields1": "est",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2024-06-05T13:13:22.867778+02:00",
-  "PublishTo": "2010-02-26T13:13:22.867778+01:00",
-  "PublishFrom": "2015-03-20T13:13:22.867778+01:00",
+  "PublishEventDate": "2024-05-22T12:01:27.7440229+02:00",
+  "PublishTo": "2015-11-03T12:01:27.7440229+01:00",
+  "PublishFrom": "2004-01-27T12:01:27.7440229+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 324,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 825
         }
       }
     },
     {
-      "VisibleId": 324,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 825
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 68
     }
   }
 }

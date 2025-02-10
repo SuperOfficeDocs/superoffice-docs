@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Bauch Group",
-  "Description": "Synergistic stable focus group",
-  "IncludeId": "nihil",
-  "Source": "iure",
-  "Registered": "2022-04-23T13:13:32.6204588+02:00",
-  "RegisteredBy": "deleniti",
-  "Updated": "2024-05-19T13:13:32.6204588+02:00",
-  "UpdatedBy": "voluptatem",
-  "Path": "est"
+  "UniqueIdentifier": "sunt",
+  "Name": "Champlin LLC",
+  "Description": "Customer-focused national help-desk",
+  "IncludeId": "eos",
+  "Source": "qui",
+  "Registered": "2005-07-26T12:01:33.3550923+02:00",
+  "RegisteredBy": "iste",
+  "Updated": "2022-06-07T12:01:33.3550923+02:00",
+  "UpdatedBy": "sed",
+  "Path": "recusandae"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ea",
-  "Name": "Gleason, Wuckert and Reinger",
-  "Description": "Synchronised intangible adapter",
-  "IncludeId": "aut",
-  "Source": "asperiores",
-  "Registered": "2013-07-19T13:13:32.6204588+02:00",
-  "RegisteredBy": "dolore",
-  "Updated": "2003-08-07T13:13:32.6204588+02:00",
-  "UpdatedBy": "quae",
-  "Path": "consequatur",
+  "UniqueIdentifier": "non",
+  "Name": "Crona, Haley and Crooks",
+  "Description": "Grass-roots user-facing implementation",
+  "IncludeId": "dolorem",
+  "Source": "maxime",
+  "Registered": "2020-04-08T12:01:33.3550923+02:00",
+  "RegisteredBy": "nobis",
+  "Updated": "2002-02-13T12:01:33.3550923+01:00",
+  "UpdatedBy": "et",
+  "Path": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   }
 }

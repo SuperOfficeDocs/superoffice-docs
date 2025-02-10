@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 974,
-  "MinDate": "2020-01-03T13:13:22.9302583+01:00",
-  "MaxDate": "2019-12-06T13:13:22.9302583+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 123,
+  "MinDate": "2017-08-23T12:01:27.7752804+02:00",
+  "MaxDate": "2015-04-22T12:01:27.7752804+02:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 674,
-  "NumDocumentsAlreadyMigrated": 194,
+  "NumDocumentsOmitted": 623,
+  "NumDocumentsAlreadyMigrated": 180,
   "Documents": [
     {
-      "DocumentId": 34,
-      "ContactId": 899,
-      "PersonId": 1001,
-      "SaleId": 455,
-      "ProjectId": 705,
-      "DocTmplId": 25,
-      "AssociateId": 749,
-      "UserGroupId": 578,
-      "VisibleForId": 150
+      "DocumentId": 547,
+      "ContactId": 907,
+      "PersonId": 542,
+      "SaleId": 805,
+      "ProjectId": 603,
+      "DocTmplId": 496,
+      "AssociateId": 124,
+      "UserGroupId": 846,
+      "VisibleForId": 137
     }
   ],
   "Associates": [
     {
-      "AssociateId": 765,
-      "EmailAddress": "isaiah@beckerboehm.uk"
+      "AssociateId": 154,
+      "EmailAddress": "celine@yundtbailey.us"
     },
     {
-      "AssociateId": 765,
-      "EmailAddress": "isaiah@beckerboehm.uk"
+      "AssociateId": 154,
+      "EmailAddress": "celine@yundtbailey.us"
     }
   ]
 }

@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 631,
-  "Filter": "autem"
+  "SelectionId": 242,
+  "Filter": "aut"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes, Lueilwitz and Beer",
-    "Operator": "dicta",
+    "Name": "Cronin, Orn and Miller",
+    "Operator": "optio",
     "Values": [
-      "doloribus",
-      "deserunt"
+      "voluptatem",
+      "magni"
     ],
     "DisplayValues": [
-      "quia",
-      "voluptatibus"
+      "dolore",
+      "in"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bartoletti Inc and Sons",
-        "Operator": "quas",
+        "Name": "Crona, Welch and Feest",
+        "Operator": "fugit",
         "Values": [
-          "odio",
-          "et"
+          "praesentium",
+          "vel"
         ],
         "DisplayValues": [
-          "repellendus",
-          "laboriosam"
+          "voluptatibus",
+          "veritatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 571,
+        "InterParenthesis": 488,
         "InterOperator": "And",
-        "UniqueHash": 793
+        "UniqueHash": 710
       }
     ],
-    "InterParenthesis": 205,
+    "InterParenthesis": 912,
     "InterOperator": "And",
-    "UniqueHash": 85
+    "UniqueHash": 523
   }
 ]
 ```

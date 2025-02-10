@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 563,
+  "SelectionId": 176,
   "Criteria": [
     {
-      "Name": "Spinka Group",
-      "Description": "Phased tertiary leverage",
-      "Rank": 345,
+      "Name": "Smith-Langworth",
+      "Description": "Innovative heuristic utilisation",
+      "Rank": 110,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Spinka Group",
-      "Description": "Phased tertiary leverage",
-      "Rank": 345,
+      "Name": "Smith-Langworth",
+      "Description": "Innovative heuristic utilisation",
+      "Rank": 110,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hermann LLC",
-    "Description": "De-engineered well-modulated process improvement",
-    "Rank": 452,
+    "Name": "Prosacco Group",
+    "Description": "Visionary leading edge hardware",
+    "Rank": 258,
     "Restrictions": [
       {
-        "Name": "Dibbert, Watsica and Rutherford",
-        "Operator": "culpa",
+        "Name": "Ankunding, Gaylord and Rowe",
+        "Operator": "ut",
         "Values": [
-          "eaque",
-          "possimus"
+          "voluptate",
+          "magni"
         ],
         "DisplayValues": [
-          "repellat",
-          "dolorem"
+          "eligendi",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 710,
+        "InterParenthesis": 469,
         "InterOperator": "And",
-        "UniqueHash": 248
+        "UniqueHash": 332
       }
     ]
   },
   {
-    "Name": "Hermann LLC",
-    "Description": "De-engineered well-modulated process improvement",
-    "Rank": 452,
+    "Name": "Prosacco Group",
+    "Description": "Visionary leading edge hardware",
+    "Rank": 258,
     "Restrictions": [
       {
-        "Name": "Dibbert, Watsica and Rutherford",
-        "Operator": "culpa",
+        "Name": "Ankunding, Gaylord and Rowe",
+        "Operator": "ut",
         "Values": [
-          "eaque",
-          "possimus"
+          "voluptate",
+          "magni"
         ],
         "DisplayValues": [
-          "repellat",
-          "dolorem"
+          "eligendi",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 710,
+        "InterParenthesis": 469,
         "InterOperator": "And",
-        "UniqueHash": 248
+        "UniqueHash": 332
       }
     ]
   }

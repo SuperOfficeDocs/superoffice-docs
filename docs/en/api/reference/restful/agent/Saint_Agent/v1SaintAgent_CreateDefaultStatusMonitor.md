@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 46,
-  "Rank": 395,
-  "DefaultTask": 489,
-  "DefaultTaskText": "quae",
+  "OwnerTable": 226,
+  "Rank": 761,
+  "DefaultTask": 663,
+  "DefaultTaskText": "optio",
   "IsVisual": false,
-  "LastGenerated": "2019-03-27T13:13:23.7893721+01:00",
-  "Description": "Stand-alone fresh-thinking task-force",
-  "Name": "Adams Group",
-  "StatusMonitorId": 606,
-  "PictureId": 875,
+  "LastGenerated": "2001-10-09T12:01:28.2284376+02:00",
+  "Description": "Automated exuding focus group",
+  "Name": "Feest-Altenwerth",
+  "StatusMonitorId": 953,
+  "PictureId": 803,
   "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 543,
-  "NumNeedUpdate": 743,
-  "GenerationStart": "2014-11-20T13:13:23.7893721+01:00",
+  "Deleted": true,
+  "NumMatches": 461,
+  "NumNeedUpdate": 308,
+  "GenerationStart": "2002-06-22T12:01:28.2284376+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 135
     }
   }
 }

@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 7,
-  "Section": "ipsam",
-  "Key": "rerum",
-  "Name": "Wunsch, Reichert and Hand",
+  "PrefDescId": 838,
+  "Section": "et",
+  "Key": "ex",
+  "Name": "Swift-Dickens",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed multi-state monitoring",
+  "Description": "Optimized mission-critical intranet",
   "IsBuiltin": false,
-  "TableName": "Dickinson, Hamill and Haag",
-  "UserDefinedListId": 115,
-  "Rank": 308,
-  "SubGroup": "consequatur",
-  "MinLevel": 110,
-  "MaxValue": 238,
-  "MinValue": 722,
-  "RequiredLicense": "quasi",
+  "TableName": "Rippin-Pacocha",
+  "UserDefinedListId": 730,
+  "Rank": 670,
+  "SubGroup": "voluptatibus",
+  "MinLevel": 46,
+  "MaxValue": 220,
+  "MinValue": 539,
+  "RequiredLicense": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 20
     }
   },
   "_Links": {

@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 80,
-  "Section": "inventore",
-  "Key": "fugiat",
-  "Name": "Cummerata, Stokes and Hoppe",
+  "PrefDescId": 719,
+  "Section": "occaecati",
+  "Key": "totam",
+  "Name": "Ebert, Beatty and Rice",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound zero administration knowledge user",
-  "IsBuiltin": false,
-  "TableName": "Ratke LLC",
-  "UserDefinedListId": 560,
-  "Rank": 379,
-  "SubGroup": "quaerat",
-  "MinLevel": 526,
-  "MaxValue": 533,
-  "MinValue": 774,
-  "RequiredLicense": "ducimus",
+  "Description": "Decentralized coherent core",
+  "IsBuiltin": true,
+  "TableName": "Bahringer-Turcotte",
+  "UserDefinedListId": 254,
+  "Rank": 977,
+  "SubGroup": "eos",
+  "MinLevel": 359,
+  "MaxValue": 884,
+  "MinValue": 426,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

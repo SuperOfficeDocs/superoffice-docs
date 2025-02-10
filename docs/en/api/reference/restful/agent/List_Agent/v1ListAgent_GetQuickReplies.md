@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 588,
-    "Name": "Beer Group",
-    "HtmlBody": "ipsa",
+    "QuickReplyId": 939,
+    "Name": "Kuvalis Inc and Sons",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   },
   {
-    "QuickReplyId": 588,
-    "Name": "Beer Group",
-    "HtmlBody": "ipsa",
+    "QuickReplyId": 939,
+    "Name": "Kuvalis Inc and Sons",
+    "HtmlBody": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

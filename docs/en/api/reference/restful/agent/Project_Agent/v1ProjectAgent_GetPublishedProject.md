@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 64
+  "ProjectId": 149
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 147,
-  "Name": "Carroll-Macejkovic",
-  "Description": "Operative non-volatile parallelism",
+  "ProjectId": 373,
+  "Name": "Predovic, Rippin and Okuneva",
+  "Description": "Proactive actuating contingency",
   "URL": "http://www.example.com/",
-  "Type": "laboriosam",
-  "AssociateId": 281,
-  "AssociateFullName": "Dr. Allison Shanahan",
-  "TypeId": 384,
-  "Updated": "2018-06-27T13:13:23.664465+02:00",
-  "StatusId": 795,
-  "Status": "cupiditate",
-  "TextId": 356,
-  "PublishTo": "2021-04-17T13:13:23.664465+02:00",
-  "PublishFrom": "2013-11-15T13:13:23.664465+01:00",
-  "IsPublished": false,
+  "Type": "velit",
+  "AssociateId": 874,
+  "AssociateFullName": "Alverta Schultz",
+  "TypeId": 311,
+  "Updated": "2016-10-06T12:01:28.1659327+02:00",
+  "StatusId": 969,
+  "Status": "totam",
+  "TextId": 765,
+  "PublishTo": "2002-08-14T12:01:28.1659327+02:00",
+  "PublishFrom": "2016-09-22T12:01:28.1659327+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "539860",
-  "ActiveErpLinks": 521,
+  "ProjectNumber": "639467",
+  "ActiveErpLinks": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 476
     }
   }
 }

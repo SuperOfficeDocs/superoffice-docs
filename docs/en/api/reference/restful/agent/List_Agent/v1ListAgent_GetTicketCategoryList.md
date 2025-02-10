@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 531,
-    "ParentId": 515,
-    "Name": "Wisoky-Block",
-    "Fullname": "deleniti",
-    "CategoryMaster": 714,
+    "TicketCategoryId": 551,
+    "ParentId": 170,
+    "Name": "Gusikowski-Veum",
+    "Fullname": "alias",
+    "CategoryMaster": 738,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "White, Von and Mann",
+    "ExternalName": "Wolf-Wolff",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 206,
-    "ReplyTemplate": 696,
-    "NotificationEmail": "june@abernathy.biz",
+    "AssignmentLag": 521,
+    "ReplyTemplate": 146,
+    "NotificationEmail": "shayna@balistreri.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 417,
+    "EffectiveReplyTemplateId": 397,
     "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "odio"
+      "ExtraFields1": "maiores",
+      "ExtraFields2": "possimus"
     },
     "CustomFields": {
-      "CustomFields1": "aut",
-      "CustomFields2": "placeat"
+      "CustomFields1": "doloribus",
+      "CustomFields2": "sed"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldLength": 926
       }
     }
   }

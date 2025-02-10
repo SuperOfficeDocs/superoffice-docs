@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=352
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=179
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 133,
-  "ContactId": 67,
-  "ProjectId": 591,
-  "ContactName": "Thiel Group",
+  "ProjectmemberId": 663,
+  "ContactId": 358,
+  "ProjectId": 683,
+  "ContactName": "Treutel-Wintheiser",
   "ContactDepartment": "",
-  "ProjectName": "Donnelly Group",
-  "EmailId": 819,
-  "EmailAddress": "laurie@hayes.com",
-  "CountryId": 809,
-  "Firstname": "Mortimer",
-  "MiddleName": "McGlynn, Christiansen and Stokes",
-  "Lastname": "Walter",
-  "PersonId": 813,
-  "Mrmrs": "sequi",
-  "ProjectMemberTypeName": "Huels, Hintz and Cassin",
-  "Phone": "(194)618-7717",
-  "PhoneId": 387,
-  "ProjectMemberTypeId": 52,
-  "EmailAddressName": "alessandro_gusikowski@kunde.biz",
-  "Comment": "perferendis",
-  "FullName": "Prof. Megane Stokes",
+  "ProjectName": "Bernier-Hodkiewicz",
+  "EmailId": 107,
+  "EmailAddress": "abigail@bernier.uk",
+  "CountryId": 258,
+  "Firstname": "Susan",
+  "MiddleName": "Klein-Herzog",
+  "Lastname": "Gulgowski",
+  "PersonId": 128,
+  "Mrmrs": "earum",
+  "ProjectMemberTypeName": "Larkin, Aufderhar and Hansen",
+  "Phone": "(839)079-3425 x80898",
+  "PhoneId": 667,
+  "ProjectMemberTypeId": 360,
+  "EmailAddressName": "melissa.beier@reichert.uk",
+  "Comment": "magnam",
+  "FullName": "Tanner Schmidt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 418
     }
   }
 }

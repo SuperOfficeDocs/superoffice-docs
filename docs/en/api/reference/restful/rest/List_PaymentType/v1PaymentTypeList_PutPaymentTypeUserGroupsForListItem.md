@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Boyer LLC",
-    "ToolTip": "Suscipit illo necessitatibus alias.",
+    "Id": 107,
+    "Name": "Bartoletti-Grady",
+    "ToolTip": "Repellendus qui voluptatum architecto qui sunt.",
     "Deleted": false,
-    "Rank": 102,
-    "Type": "necessitatibus",
-    "ColorBlock": 968,
-    "IconHint": "beatae",
+    "Rank": 345,
+    "Type": "optio",
+    "ColorBlock": 78,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1998-04-19T13:13:33.2142268+02:00",
+    "LastChanged": "2020-11-28T12:01:33.5426053+01:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Cassin Inc and Sons",
-        "ToolTip": "Vel aut rem soluta consectetur.",
+        "Id": 245,
+        "Name": "Champlin-O'Conner",
+        "ToolTip": "Repellendus sunt culpa quo voluptas et autem ad.",
         "Deleted": false,
-        "Rank": 292,
-        "Type": "enim",
-        "ColorBlock": 601,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2017-10-11T13:13:33.2142268+02:00",
+        "Rank": 235,
+        "Type": "incidunt",
+        "ColorBlock": 588,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2020-11-21T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "nemo",
+        "ExtraInfo": "repellat",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Mrs. Aniya Wilford Turner MD"
+        "FullName": "Ally Kerluke"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "est",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Lelah Wuckert"
+    "FullName": "Mr. Imani Emilie Mann PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Shields, Bergstrom and Mante",
-    "ToolTip": "Eligendi quidem perferendis error.",
-    "Deleted": false,
-    "Rank": 693,
-    "Type": "enim",
-    "ColorBlock": 946,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2002-07-06T13:13:33.2142268+02:00",
+    "Id": 952,
+    "Name": "Smith Inc and Sons",
+    "ToolTip": "Et et occaecati ut amet.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "sit",
+    "ColorBlock": 330,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2015-12-21T12:01:33.5426053+01:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Skiles LLC",
-        "ToolTip": "Perferendis consequuntur.",
-        "Deleted": true,
-        "Rank": 315,
-        "Type": "voluptatem",
-        "ColorBlock": 961,
-        "IconHint": "corporis",
+        "Id": 99,
+        "Name": "Weissnat-Metz",
+        "ToolTip": "Deleniti similique sunt laudantium voluptates.",
+        "Deleted": false,
+        "Rank": 54,
+        "Type": "voluptas",
+        "ColorBlock": 621,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2016-07-06T13:13:33.2142268+02:00",
+        "LastChanged": "2011-12-25T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Devyn Borer",
+        "ExtraInfo": "corporis",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Michelle Gerda Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 271
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Mack Wisoky",
+    "FullName": "Stacey Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

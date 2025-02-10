@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "UdListDefinitionId": 97,
+  "Id": 662,
+  "UdListDefinitionId": 428,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Greenholt, Rohan and Metz",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "UdListDefinitionId": 307,
-  "Rank": 455,
+  "Id": 551,
+  "Name": "O'Hara LLC",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "UdListDefinitionId": 368,
+  "Rank": 893,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 92
     }
   }
 }

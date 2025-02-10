@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 742,
-    "Name": "Padberg-Rosenbaum",
-    "Tooltip": "sed",
+    "HeadingId": 517,
+    "Name": "Altenwerth, Parisian and Gottlieb",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 745,
-    "UdListDefinitionId": 133
+    "Rank": 624,
+    "UdListDefinitionId": 135
   },
   {
-    "HeadingId": 742,
-    "Name": "Padberg-Rosenbaum",
-    "Tooltip": "sed",
+    "HeadingId": 517,
+    "Name": "Altenwerth, Parisian and Gottlieb",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 745,
-    "UdListDefinitionId": 133
+    "Rank": 624,
+    "UdListDefinitionId": 135
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Langosh LLC",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 5,
-    "UdListDefinitionId": 206,
+    "HeadingId": 924,
+    "Name": "Douglas-Kerluke",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 843,
+    "UdListDefinitionId": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldLength": 351
       }
     }
   }

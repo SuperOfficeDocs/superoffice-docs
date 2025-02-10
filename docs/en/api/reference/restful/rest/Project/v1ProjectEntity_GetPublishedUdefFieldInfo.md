@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 644,
-  "ColumnId": 316,
-  "FieldDefault": "dolor",
-  "FieldHeight": 2,
-  "FieldLabel": "ad",
-  "FieldLeft": 481,
-  "FieldTop": 326,
+  "UDefFieldId": 272,
+  "ColumnId": 15,
+  "FieldDefault": "qui",
+  "FieldHeight": 233,
+  "FieldLabel": "saepe",
+  "FieldLeft": 362,
+  "FieldTop": 288,
   "FieldType": "Checkbox",
-  "FieldWidth": 11,
-  "FormatMask": "illo",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 550,
-  "LabelLeft": 529,
-  "LabelTop": 556,
-  "LabelWidth": 759,
-  "LastVersionId": 997,
-  "ListTableId": 706,
-  "IsMandatory": true,
+  "FieldWidth": 321,
+  "FormatMask": "non",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 950,
+  "LabelLeft": 223,
+  "LabelTop": 468,
+  "LabelWidth": 511,
+  "LastVersionId": 747,
+  "ListTableId": 331,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 97,
-  "ProgId": "libero",
-  "IsReadOnly": true,
-  "ShortLabel": "aperiam",
-  "TabOrder": 573,
-  "TextLength": 310,
-  "Tooltip": "ea",
-  "UdefIdentity": 336,
-  "UDListDefinitionId": 502,
+  "Page1LineNo": 834,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "et",
+  "TabOrder": 760,
+  "TextLength": 291,
+  "Tooltip": "tenetur",
+  "UdefIdentity": 270,
+  "UDListDefinitionId": 233,
   "Justification": "Center",
-  "Version": 732,
-  "TemplateVariableName": "Homenick-Zulauf",
-  "HasBeenPublished": false,
-  "MdoListName": "Christiansen, Gottlieb and Gibson",
+  "Version": 11,
+  "TemplateVariableName": "Hahn, Nolan and Orn",
+  "HasBeenPublished": true,
+  "MdoListName": "Bradtke, Corkery and Kub",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 51
     }
   }
 }

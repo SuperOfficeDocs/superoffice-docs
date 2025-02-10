@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 915,
-  "ListItemId": 162,
+  "UdListDefinitionId": 967,
+  "ListItemId": 264,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Smith, VonRueden and Kiehn",
-    "ToolTip": "Laborum quo architecto in dolores.",
+    "Id": 829,
+    "Name": "Schulist Inc and Sons",
+    "ToolTip": "Dolorem in ut tempora.",
     "Deleted": false,
-    "Rank": 355,
-    "Type": "molestias",
-    "ColorBlock": 121,
-    "IconHint": "iure",
-    "Selected": true,
-    "LastChanged": "2024-01-05T13:13:23.2583064+01:00",
+    "Rank": 592,
+    "Type": "non",
+    "ColorBlock": 930,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2016-06-11T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Murray Inc and Sons",
-        "ToolTip": "Minus ut.",
+        "Id": 612,
+        "Name": "Koss, Goldner and Rath",
+        "ToolTip": "Fuga iure laboriosam nihil.",
         "Deleted": false,
-        "Rank": 690,
-        "Type": "odio",
-        "ColorBlock": 701,
-        "IconHint": "voluptatem",
+        "Rank": 522,
+        "Type": "est",
+        "ColorBlock": 130,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2004-11-25T13:13:23.2583064+01:00",
+        "LastChanged": "2017-04-24T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "unde",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Mandy Lehner",
+        "FullName": "Mr. Ray Nitzsche I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "dolor",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Miss Sadie Pfeffer MD",
+    "FullName": "Miss Adolph Callie Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 176
       }
     }
   }

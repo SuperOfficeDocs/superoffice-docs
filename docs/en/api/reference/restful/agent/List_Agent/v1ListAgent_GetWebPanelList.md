@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 265,
-    "Name": "Abshire, Halvorson and Gulgowski",
-    "Tooltip": "consectetur",
+    "WebPanelId": 795,
+    "Name": "Bode-Keeling",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 632,
+    "Rank": 155,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
+    "OnCentral": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Collins, Mills and Kling",
+    "WindowName": "Maggio, Effertz and Ullrich",
     "Url": "http://www.example.com/",
-    "ProgId": "in",
-    "Icon": 977,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "quidem",
+    "Icon": 135,
+    "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 251
       }
     }
   }

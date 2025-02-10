@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 247,
-  "ColumnId": 652,
-  "FieldDefault": "eos",
-  "FieldHeight": 102,
-  "FieldLabel": "ducimus",
-  "FieldLeft": 420,
-  "FieldTop": 482,
+  "UDefFieldId": 991,
+  "ColumnId": 296,
+  "FieldDefault": "quidem",
+  "FieldHeight": 941,
+  "FieldLabel": "aspernatur",
+  "FieldLeft": 801,
+  "FieldTop": 297,
   "FieldType": "Checkbox",
-  "FieldWidth": 94,
-  "FormatMask": "maxime",
+  "FieldWidth": 796,
+  "FormatMask": "id",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 592,
-  "LabelLeft": 706,
-  "LabelTop": 132,
-  "LabelWidth": 542,
-  "LastVersionId": 333,
-  "ListTableId": 969,
-  "IsMandatory": true,
+  "LabelHeight": 618,
+  "LabelLeft": 941,
+  "LabelTop": 232,
+  "LabelWidth": 457,
+  "LastVersionId": 494,
+  "ListTableId": 583,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 718,
-  "ProgId": "quae",
+  "Page1LineNo": 640,
+  "ProgId": "sunt",
   "IsReadOnly": true,
-  "ShortLabel": "quod",
-  "TabOrder": 865,
-  "TextLength": 623,
-  "Tooltip": "sit",
-  "UdefIdentity": 725,
-  "UDListDefinitionId": 519,
+  "ShortLabel": "similique",
+  "TabOrder": 747,
+  "TextLength": 629,
+  "Tooltip": "odit",
+  "UdefIdentity": 825,
+  "UDListDefinitionId": 504,
   "Justification": "Center",
-  "Version": 762,
-  "TemplateVariableName": "Lindgren, Schulist and Miller",
-  "HasBeenPublished": false,
-  "MdoListName": "Ferry Inc and Sons",
+  "Version": 810,
+  "TemplateVariableName": "Klein, Stracke and Hamill",
+  "HasBeenPublished": true,
+  "MdoListName": "Schultz, Gutmann and Zulauf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

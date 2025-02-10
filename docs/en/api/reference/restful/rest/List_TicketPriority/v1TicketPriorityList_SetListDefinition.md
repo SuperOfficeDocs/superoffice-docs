@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Bahringer Inc and Sons",
-  "Tooltip": "et",
+  "Id": 981,
+  "Name": "Schulist-Barton",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 14,
+  "Rank": 422,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "libero",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Kshlerin, Olson and Mosciski",
-  "Tooltip": "nisi",
+  "Id": 444,
+  "Name": "Schroeder-Bahringer",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 742,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 99,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

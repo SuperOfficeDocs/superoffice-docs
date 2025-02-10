@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Yost-Wilderman",
-    "ToolTip": "Odio aspernatur eos odio et sit expedita veritatis.",
-    "Deleted": true,
-    "Rank": 13,
-    "Type": "minima",
-    "ColorBlock": 144,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2020-12-14T13:13:32.933046+01:00",
+    "Id": 118,
+    "Name": "Baumbach-Durgan",
+    "ToolTip": "Ab pariatur non corrupti aut.",
+    "Deleted": false,
+    "Rank": 528,
+    "Type": "facere",
+    "ColorBlock": 303,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2023-08-13T12:01:33.4644748+02:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Collins-Becker",
-        "ToolTip": "Sit rerum eveniet dolor.",
-        "Deleted": false,
-        "Rank": 617,
-        "Type": "quo",
-        "ColorBlock": 409,
-        "IconHint": "enim",
+        "Id": 482,
+        "Name": "Block, Windler and Schaefer",
+        "ToolTip": "Facilis placeat aut exercitationem eaque iure.",
+        "Deleted": true,
+        "Rank": 565,
+        "Type": "voluptatum",
+        "ColorBlock": 144,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2001-12-07T13:13:32.933046+01:00",
+        "LastChanged": "1998-07-20T12:01:33.4644748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quas",
+        "ExtraInfo": "ea",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Dannie O'Keefe",
+        "FullName": "Salvador Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 397
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Turner O'Connell DDS",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Mackenzie Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 679
       }
     }
   }

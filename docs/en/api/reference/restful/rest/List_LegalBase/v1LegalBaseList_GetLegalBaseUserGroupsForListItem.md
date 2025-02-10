@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Heller-Dickinson",
-    "ToolTip": "Ullam esse dignissimos.",
+    "Id": 730,
+    "Name": "Bogan-Zboncak",
+    "ToolTip": "A tenetur et repellendus.",
     "Deleted": false,
-    "Rank": 355,
-    "Type": "dignissimos",
-    "ColorBlock": 782,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2006-09-13T13:13:33.1361219+02:00",
+    "Rank": 979,
+    "Type": "sint",
+    "ColorBlock": 674,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2021-04-17T12:01:33.5269792+02:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Mayer Group",
-        "ToolTip": "Dicta id.",
-        "Deleted": true,
-        "Rank": 640,
-        "Type": "et",
-        "ColorBlock": 763,
-        "IconHint": "voluptatibus",
-        "Selected": false,
-        "LastChanged": "2022-12-24T13:13:33.1361219+01:00",
+        "Id": 866,
+        "Name": "Sipes, Kovacek and Rippin",
+        "ToolTip": "Sed voluptatem.",
+        "Deleted": false,
+        "Rank": 502,
+        "Type": "sunt",
+        "ColorBlock": 211,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2009-11-10T12:01:33.5269792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "repellat",
+        "ExtraInfo": "veniam",
+        "StyleHint": "ducimus",
         "Hidden": true,
-        "FullName": "Dr. Victor Ayla Wunsch IV",
+        "FullName": "Mrs. Alexis Eloisa Nitzsche III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 916
+            "FieldType": "System.Int32",
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sit",
+    "ExtraInfo": "nemo",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Eliane Wolf",
+    "FullName": "Mrs. Garrett Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 695
       }
     }
   }

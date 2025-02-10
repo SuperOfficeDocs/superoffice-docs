@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Nader, Paucek and Leffler",
-    "ToolTip": "Illum dolores voluptatem dicta porro aut quo delectus.",
+    "Id": 904,
+    "Name": "Ankunding LLC",
+    "ToolTip": "Unde sit est.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "ut",
-    "ColorBlock": 281,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2024-03-04T13:13:33.3235805+01:00",
+    "Rank": 82,
+    "Type": "exercitationem",
+    "ColorBlock": 289,
+    "IconHint": "voluptatum",
+    "Selected": true,
+    "LastChanged": "2013-01-24T12:01:33.5738574+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Tromp LLC",
-        "ToolTip": "Soluta itaque est aut ab odio doloribus.",
+        "Id": 249,
+        "Name": "Shields Inc and Sons",
+        "ToolTip": "Aut voluptatem velit iste impedit assumenda.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "fugit",
-        "ColorBlock": 999,
-        "IconHint": "quia",
+        "Rank": 299,
+        "Type": "et",
+        "ColorBlock": 914,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2019-05-09T13:13:33.3235805+02:00",
+        "LastChanged": "2020-07-11T12:01:33.5738574+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Dr. Edythe Rogahn"
+        "ExtraInfo": "id",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Mr. Hilda Viva Satterfield DDS"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "neque",
+    "ExtraInfo": "autem",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Sheldon Beier"
+    "FullName": "Mr. Zachery Gutkowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "D'Amore-Collier",
-    "ToolTip": "Quibusdam ipsa consectetur ullam tenetur.",
-    "Deleted": true,
-    "Rank": 964,
-    "Type": "fugit",
-    "ColorBlock": 13,
-    "IconHint": "quae",
+    "Id": 225,
+    "Name": "Howell, Schneider and Tillman",
+    "ToolTip": "Veniam facere ea commodi.",
+    "Deleted": false,
+    "Rank": 887,
+    "Type": "et",
+    "ColorBlock": 772,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2001-06-10T13:13:33.3235805+02:00",
+    "LastChanged": "2003-04-27T12:01:33.5738574+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Skiles-Daniel",
-        "ToolTip": "Accusantium porro ea enim ipsa.",
-        "Deleted": false,
-        "Rank": 377,
-        "Type": "in",
-        "ColorBlock": 345,
-        "IconHint": "officia",
+        "Id": 312,
+        "Name": "Denesik Group",
+        "ToolTip": "Sit enim nulla distinctio sint similique ut.",
+        "Deleted": true,
+        "Rank": 694,
+        "Type": "sit",
+        "ColorBlock": 867,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2010-02-08T13:13:33.3235805+01:00",
+        "LastChanged": "2020-01-31T12:01:33.5738574+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "et",
+        "ExtraInfo": "earum",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Bridget Wisozk",
+        "FullName": "Hyman Jewel Davis PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 977
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aperiam",
-    "Hidden": true,
-    "FullName": "Verlie Grady",
+    "ExtraInfo": "quis",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Daphne Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 717
       }
     }
   }

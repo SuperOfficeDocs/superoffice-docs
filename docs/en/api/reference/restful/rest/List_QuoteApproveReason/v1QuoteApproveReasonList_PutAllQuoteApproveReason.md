@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Senger Group",
-    "Tooltip": "voluptatem",
+    "Id": 36,
+    "Name": "Blanda, Little and Hills",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 399,
-    "Rank": 91
+    "UdListDefinitionId": 637,
+    "Rank": 94
   },
   {
-    "Id": 699,
-    "Name": "Senger Group",
-    "Tooltip": "voluptatem",
+    "Id": 36,
+    "Name": "Blanda, Little and Hills",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 399,
-    "Rank": 91
+    "UdListDefinitionId": 637,
+    "Rank": 94
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Goldner, Hirthe and Howell",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "UdListDefinitionId": 847,
-    "Rank": 315,
+    "Id": 996,
+    "Name": "Streich, Hayes and Dickens",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "UdListDefinitionId": 962,
+    "Rank": 428,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

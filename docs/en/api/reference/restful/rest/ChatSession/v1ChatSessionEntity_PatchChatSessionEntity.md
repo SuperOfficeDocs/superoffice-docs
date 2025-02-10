@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 732,
-  "TopicId": 613,
+  "ChatSessionId": 499,
+  "TopicId": 621,
   "User": null,
   "Person": null,
-  "CustomerAlias": "totam",
-  "CustomerHost": "aut",
-  "CustomerName": "Kutch, Bernier and Windler",
-  "CustomerEmail": "lilly@kling.ca",
-  "CustomerPhone": "448-700-4147 x3324",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Mills, Cartwright and Kuhic",
+  "CustomerAlias": "eligendi",
+  "CustomerHost": "necessitatibus",
+  "CustomerName": "Ondricka LLC",
+  "CustomerEmail": "river@lindgren.info",
+  "CustomerPhone": "175-973-2489 x23884",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Lehner, Dickinson and Hegmann",
   "Status": "Closed",
-  "FirstMessage": "illum",
-  "LastMessage": "ex",
-  "WhenRequested": "2022-04-17T13:13:31.3395668+02:00",
-  "WhenStarted": "2004-06-01T13:13:31.3395668+02:00",
-  "WhenEnded": "2011-12-30T13:13:31.3395668+01:00",
-  "WhenIdle": "2008-09-24T13:13:31.3395668+02:00",
-  "WhenFetched": "2022-08-30T13:13:31.3395668+02:00",
-  "SessionKey": "nulla",
-  "InitialQueuePos": 805,
-  "AlertLevel": 622,
-  "Rank": 231,
+  "FirstMessage": "sed",
+  "LastMessage": "exercitationem",
+  "WhenRequested": "2021-03-22T12:01:32.7144227+01:00",
+  "WhenStarted": "2020-01-30T12:01:32.7144227+01:00",
+  "WhenEnded": "2015-03-28T12:01:32.7144227+01:00",
+  "WhenIdle": "2009-06-29T12:01:32.7144227+02:00",
+  "WhenFetched": "2005-06-12T12:01:32.7144227+02:00",
+  "SessionKey": "blanditiis",
+  "InitialQueuePos": 662,
+  "AlertLevel": 162,
+  "Rank": 922,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,18 +192,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 388,
+  "Rating": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Oberbrunner-Kautzer",
-  "DeviceName": "Gutkowski-Olson",
-  "DeviceIdentifier": "iusto"
+  "ApplicationName": "Christiansen LLC",
+  "DeviceName": "Ortiz, Willms and Langosh",
+  "DeviceIdentifier": "odit"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "in",
-  "Value": "dolorem",
-  "RecordId": 640,
-  "CreatedDate": "2023-02-06T13:13:23.1802042+01:00",
-  "UpdatedDate": "2009-12-08T13:13:23.1802042+01:00",
-  "UpdatedBy": "amet",
-  "CreatedBy": "molestiae",
-  "TableName": "Stark-Greenfelder",
+  "Key": "ex",
+  "Value": "consequatur",
+  "RecordId": 71,
+  "CreatedDate": "2006-07-10T12:01:27.9002891+02:00",
+  "UpdatedDate": "2005-05-02T12:01:27.9002891+02:00",
+  "UpdatedBy": "dolorem",
+  "CreatedBy": "id",
+  "TableName": "Vandervort-Lang",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 360
     }
   }
 }

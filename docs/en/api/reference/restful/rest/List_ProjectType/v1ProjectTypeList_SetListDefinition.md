@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Jacobs Group",
-  "Tooltip": "fuga",
+  "Id": 37,
+  "Name": "Hickle-Jast",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "Rank": 220,
+  "Rank": 652,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "ListType": "hic",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Abshire LLC",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 485,
+  "Id": 611,
+  "Name": "Torphy-Rau",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 537,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 662
     }
   }
 }

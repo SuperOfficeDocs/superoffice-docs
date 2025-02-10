@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Russel, Johns and Goyette",
-    "ToolTip": "Ut explicabo aliquam quo.",
-    "Deleted": true,
-    "Rank": 850,
-    "Type": "soluta",
-    "ColorBlock": 992,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2001-07-25T13:13:32.9174228+02:00",
+    "Id": 654,
+    "Name": "Schoen, Reinger and Leannon",
+    "ToolTip": "Nobis sed consequatur vel voluptas nisi consequuntur.",
+    "Deleted": false,
+    "Rank": 145,
+    "Type": "in",
+    "ColorBlock": 679,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2006-03-27T12:01:33.4644748+02:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Walsh-Goodwin",
-        "ToolTip": "Non pariatur qui corrupti.",
+        "Id": 743,
+        "Name": "Mann-Rippin",
+        "ToolTip": "Culpa possimus cum.",
         "Deleted": true,
-        "Rank": 7,
-        "Type": "odit",
-        "ColorBlock": 905,
-        "IconHint": "ipsum",
+        "Rank": 654,
+        "Type": "in",
+        "ColorBlock": 44,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-10-17T13:13:32.9174228+02:00",
+        "LastChanged": "2004-12-24T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Brooks Vandervort"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Providenci O'Kon"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "eos",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Candido Beahan I"
+    "FullName": "Mohamed Fay II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Hilpert-Kris",
-    "ToolTip": "Placeat omnis saepe et eligendi aut aut.",
-    "Deleted": false,
-    "Rank": 474,
-    "Type": "in",
-    "ColorBlock": 806,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2004-01-15T13:13:32.9174228+01:00",
+    "Id": 146,
+    "Name": "Farrell-Feeney",
+    "ToolTip": "Qui quia et ipsum.",
+    "Deleted": true,
+    "Rank": 605,
+    "Type": "magni",
+    "ColorBlock": 163,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2013-02-15T12:01:33.4644748+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Volkman Group",
-        "ToolTip": "Voluptatem et sit quis aspernatur sequi ipsum.",
+        "Id": 609,
+        "Name": "Feeney Inc and Sons",
+        "ToolTip": "Et quia.",
         "Deleted": false,
-        "Rank": 322,
-        "Type": "minus",
-        "ColorBlock": 383,
-        "IconHint": "labore",
+        "Rank": 86,
+        "Type": "nostrum",
+        "ColorBlock": 761,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2004-04-07T13:13:32.9174228+02:00",
+        "LastChanged": "2003-12-27T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "molestias",
+        "ExtraInfo": "quo",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Armando Kerluke",
+        "FullName": "Geoffrey Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 175
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Juana Von",
+    "ExtraInfo": "maxime",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Mrs. Pearl Okuneva Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldLength": 684
       }
     }
   }

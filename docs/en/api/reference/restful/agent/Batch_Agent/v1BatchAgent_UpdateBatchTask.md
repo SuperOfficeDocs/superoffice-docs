@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Reilly Group",
-  "AssociateId": 483,
-  "DetailsTable": 844,
-  "DetailsRecord": 65,
+  "Id": 107,
+  "Name": "Smitham, Fadel and Dietrich",
+  "AssociateId": 340,
+  "DetailsTable": 58,
+  "DetailsRecord": 17,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nulla",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "et",
+    "ParameterObject2": "neque"
   },
-  "LastStarted": "2008-01-06T13:13:22.133333+01:00",
-  "Created": "2015-09-27T13:13:22.133333+02:00",
-  "StartCount": 39,
-  "DatabaseSerialNumber": "1550755",
-  "Context": "occaecati",
-  "Result": "aut",
+  "LastStarted": "2002-03-13T12:01:27.3533761+01:00",
+  "Created": "2020-10-08T12:01:27.3533761+02:00",
+  "StartCount": 223,
+  "DatabaseSerialNumber": "421448",
+  "Context": "et",
+  "Result": "temporibus",
   "State": "All",
-  "Description": "Focused responsive knowledge user",
-  "Response": "est",
-  "Request": "harum",
-  "ProgressDescription": "Distributed systemic secured line",
-  "ProgressPercent": 237,
-  "FileName": "Christiansen-O'Hara",
+  "Description": "Stand-alone mission-critical hierarchy",
+  "Response": "aspernatur",
+  "Request": "illum",
+  "ProgressDescription": "Enhanced cohesive structure",
+  "ProgressPercent": 186,
+  "FileName": "Legros LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 283
     }
   }
 }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 825,
-  "Name": "Tremblay LLC"
+  "DashboardId": 416,
+  "Name": "Daniel Group"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 153,
-  "UniqueId": "error",
-  "Name": "Balistreri, Willms and Halvorson",
-  "Description": "Streamlined next generation software",
-  "AssociateId": 734,
-  "Columns": 377,
+  "DashboardId": 981,
+  "UniqueId": "quas",
+  "Name": "Marks-Miller",
+  "Description": "Digitized multimedia workforce",
+  "AssociateId": 353,
+  "Columns": 888,
   "Theme": null,
-  "VisibleForAll": 598,
+  "VisibleForAll": 761,
   "VisibleForAssociates": [
-    13,
-    139
+    84,
+    979
   ],
   "VisibleForGroups": [
-    342,
-    899
+    346,
+    477
   ],
-  "PinForAll": 187,
+  "PinForAll": 382,
   "PinForAssociates": [
-    673,
-    4
+    598,
+    719
   ],
   "PinForGroups": [
-    486,
-    605
+    387,
+    61
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

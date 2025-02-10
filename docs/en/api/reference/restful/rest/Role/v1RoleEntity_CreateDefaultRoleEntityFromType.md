@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 551,
-  "Name": "Balistreri LLC",
-  "Tooltip": "rem",
+  "RoleId": 279,
+  "Name": "Gottlieb-Hintz",
+  "Tooltip": "aliquid",
   "RoleType": "Anonymous",
-  "Deleted": 145,
-  "Rank": 927,
-  "Created": "2012-04-28T13:13:31.9956719+02:00",
-  "UseCategories": 289,
+  "Deleted": 495,
+  "Rank": 813,
+  "Created": "2024-12-18T12:01:33.0425704+01:00",
+  "UseCategories": 522,
   "CreatedBy": null,
-  "Updated": "2012-11-02T13:13:31.9956719+01:00",
+  "Updated": "2002-05-21T12:01:33.0425704+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 396
     }
   }
 }

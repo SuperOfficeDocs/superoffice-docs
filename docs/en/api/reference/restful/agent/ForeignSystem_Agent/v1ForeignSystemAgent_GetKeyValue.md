@@ -78,11 +78,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schamberger Inc and Sons",
-  "DeviceName": "Parker, Dicki and Wiegand",
-  "KeyName": "Gislason, Morar and Dicki",
-  "TableName": "Carter-Blick",
-  "RecordId": 536
+  "ApplicationName": "Kertzmann-Goldner",
+  "DeviceName": "Block Inc and Sons",
+  "KeyName": "Ratke-Hirthe",
+  "TableName": "Parker, Bahringer and Ullrich",
+  "RecordId": 396
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"animi"
+"reprehenderit"
 ```

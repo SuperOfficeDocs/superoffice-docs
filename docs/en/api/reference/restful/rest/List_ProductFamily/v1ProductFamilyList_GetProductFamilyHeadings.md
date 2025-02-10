@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 489,
-    "Name": "Gleason Inc and Sons",
-    "Tooltip": "eligendi",
+    "HeadingId": 501,
+    "Name": "Watsica, Blick and Satterfield",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 210,
-    "UdListDefinitionId": 978,
+    "Rank": 312,
+    "UdListDefinitionId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

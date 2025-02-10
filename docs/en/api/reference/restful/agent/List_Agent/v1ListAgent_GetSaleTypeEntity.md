@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=217
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=259
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 937,
-  "Name": "Kautzer, Senger and Gerlach",
+  "SaleTypeId": 530,
+  "Name": "Davis, Conroy and Corwin",
   "Tooltip": "aut",
-  "Rank": 781,
+  "Rank": 880,
   "DurationUnit": "Century",
-  "SaleDuration": 785,
-  "SaleTypeCatId": 981,
+  "SaleDuration": 179,
+  "SaleTypeCatId": 693,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 320,
-  "QuoteLinesTemplate": 627,
-  "ConfirmationLinesTemplate": 918,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 326,
-  "MinEarningPercent": 944,
-  "GroupQuoteLinesBy": 805,
-  "SortGroupLinesBy": 984,
+  "DefaultQuoteValidity": 784,
+  "QuoteLinesTemplate": 718,
+  "ConfirmationLinesTemplate": 370,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 124,
+  "MinEarningPercent": 150,
+  "GroupQuoteLinesBy": 170,
+  "SortGroupLinesBy": 30,
   "Stages": [
     {
-      "Id": 109,
-      "Name": "Schmeler, Larkin and Hirthe",
-      "ToolTip": "Itaque voluptatum ut nisi cumque.",
+      "Id": 425,
+      "Name": "Welch, Ernser and Davis",
+      "ToolTip": "Odit consequatur et et.",
       "Deleted": false,
-      "Rank": 556,
-      "Type": "et",
-      "ColorBlock": 881,
-      "IconHint": "consectetur",
+      "Rank": 994,
+      "Type": "soluta",
+      "ColorBlock": 236,
+      "IconHint": "maiores",
       "Selected": true,
-      "LastChanged": "2015-07-05T13:13:23.2426833+02:00",
+      "LastChanged": "2011-04-12T12:01:27.9315414+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "praesentium",
-      "StyleHint": "autem",
-      "Hidden": false,
-      "FullName": "Telly Pollich I",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "deserunt",
+      "Hidden": true,
+      "FullName": "Shane Mayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 104
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

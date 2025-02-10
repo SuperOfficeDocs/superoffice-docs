@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 960,
+  "Id": 303,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 978,
+  "EjMessageId": 429,
   "Ticket": null,
-  "CreatedAt": "2018-09-14T13:13:24.430923+02:00",
+  "CreatedAt": "2011-10-04T12:01:28.5565847+02:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "natus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "cupiditate",
-  "TimeSpent": 989,
-  "Body": "explicabo",
-  "HtmlBody": "quod",
-  "EmailHeader": "jeramy@christiansenleuschke.name",
-  "DebugInfo": "iste",
-  "MailSorter": "expedita",
+  "MessageId": "exercitationem",
+  "TimeSpent": 357,
+  "Body": "perferendis",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "leonard@waelchibergnaum.uk",
+  "DebugInfo": "eveniet",
+  "MailSorter": "nam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 63,
-      "Name": "Bruen Group",
-      "Value": "corrupti",
+      "Id": 497,
+      "Name": "McKenzie Inc and Sons",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -146,50 +146,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 935
         }
       }
     }
   ],
   "Important": false,
-  "Language": "repellendus",
-  "Sentiment": 579,
-  "SentimentConfidence": 575,
+  "Language": "omnis",
+  "Sentiment": 415,
+  "SentimentConfidence": 206,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 345,
-      "Name": "Bruen-Kreiger",
-      "ContentType": "nisi",
-      "AttSize": 655,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "dolor",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 879,
+      "Name": "Abshire-McClure",
+      "ContentType": "eaque",
+      "AttSize": 930,
+      "InlineImage": true,
+      "ContentId": "dicta",
+      "AuthKey": "quis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 388
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "omnis"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 520
     }
   }
 }

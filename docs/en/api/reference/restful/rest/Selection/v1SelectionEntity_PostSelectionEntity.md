@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized systematic projection",
-  "Postit": "laboriosam",
+  "Description": "Organic intangible functionalities",
+  "Postit": "tempore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 888,
-  "IncludePerson": 726,
+  "GroupIdx": 161,
+  "IncludePerson": 883,
   "MemberCount": 99.99,
-  "Name": "Abbott-Smith",
-  "PostitTextId": 436,
-  "CreatedDate": "2023-06-19T13:13:32.3080319+02:00",
-  "SelectionId": 236,
-  "SoundEx": "et",
-  "Source": 504,
-  "TextId": 935,
-  "UpdatedDate": "2013-02-23T13:13:32.3080319+01:00",
-  "UpdatedCount": 194,
-  "Visibility": 489,
+  "Name": "Beatty, Raynor and Rosenbaum",
+  "PostitTextId": 326,
+  "CreatedDate": "2008-01-27T12:01:33.1988321+01:00",
+  "SelectionId": 262,
+  "SoundEx": "inventore",
+  "Source": 725,
+  "TextId": 645,
+  "UpdatedDate": "2013-03-04T12:01:33.1988321+01:00",
+  "UpdatedCount": 873,
+  "Visibility": 307,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 361,
-  "TargetTableName": "Hudson Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 24,
-  "RightSelectionId": 570,
+  "TargetTableNumber": 560,
+  "TargetTableName": "Wilkinson, Luettgen and D'Amore",
+  "Completed": true,
+  "LeftSelectionId": 324,
+  "RightSelectionId": 994,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mills Inc and Sons",
-  "ShadowProviderName": "Padberg, Gusikowski and Cole",
-  "ChartKey": "iste",
-  "LastLoaded": "2013-10-12T13:13:32.3080319+02:00",
-  "LastLoadedBy": 520,
+  "MainProviderName": "McClure, Schmidt and Wisoky",
+  "ShadowProviderName": "Thiel, Witting and Kulas",
+  "ChartKey": "veritatis",
+  "LastLoaded": "2019-06-20T12:01:33.1988321+02:00",
+  "LastLoadedBy": 670,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-09-10T13:13:32.3080319+02:00",
-  "LastMembershipChangeBy": 977,
+  "LastMembershipChange": "2023-11-13T12:01:33.1988321+01:00",
+  "LastMembershipChangeBy": 827,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsam",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Breitenberg, Stracke and Olson",
-  "DashboardTileDefinitionId": 394,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Hintz Group",
+  "DashboardTileDefinitionId": 234,
   "VisibleFor": [
     {
-      "VisibleId": 755,
+      "VisibleId": 135,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "nemo"
     },
     {
-      "VisibleId": 755,
+      "VisibleId": 135,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "nemo"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused holistic adapter",
-  "Postit": "eaque",
+  "Description": "Persevering cohesive approach",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 410,
-  "IncludePerson": 284,
+  "GroupIdx": 751,
+  "IncludePerson": 823,
   "MemberCount": 99.99,
-  "Name": "Bartoletti-Ward",
-  "PostitTextId": 304,
-  "CreatedDate": "2015-06-20T13:13:32.3080319+02:00",
-  "SelectionId": 504,
-  "SoundEx": "dolor",
-  "Source": 143,
-  "TextId": 831,
-  "UpdatedDate": "2007-07-19T13:13:32.3080319+02:00",
-  "UpdatedCount": 627,
-  "Visibility": 796,
+  "Name": "Wuckert LLC",
+  "PostitTextId": 939,
+  "CreatedDate": "2009-07-06T12:01:33.1988321+02:00",
+  "SelectionId": 592,
+  "SoundEx": "accusantium",
+  "Source": 106,
+  "TextId": 705,
+  "UpdatedDate": "2011-03-24T12:01:33.1988321+01:00",
+  "UpdatedCount": 927,
+  "Visibility": 48,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 253,
-  "TargetTableName": "Lang-Reichel",
+  "TargetTableNumber": 701,
+  "TargetTableName": "Green-Bogan",
   "Completed": false,
-  "LeftSelectionId": 582,
-  "RightSelectionId": 695,
+  "LeftSelectionId": 883,
+  "RightSelectionId": 117,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Walker Group",
-  "ShadowProviderName": "Doyle LLC",
-  "ChartKey": "quis",
-  "LastLoaded": "2002-07-17T13:13:32.3080319+02:00",
-  "LastLoadedBy": 669,
+  "MainProviderName": "Ondricka-Deckow",
+  "ShadowProviderName": "Wolff-Gleichner",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2018-07-15T12:01:33.1988321+02:00",
+  "LastLoadedBy": 141,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-09-08T13:13:32.3080319+02:00",
-  "LastMembershipChangeBy": 42,
+  "LastMembershipChange": "2025-02-05T12:01:33.1988321+01:00",
+  "LastMembershipChangeBy": 755,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "illo",
-  "MailingsProviderName": "Pagac Group",
-  "DashboardTileDefinitionId": 324,
+  "MainHeading": "odio",
+  "MemberTabHeading": "maxime",
+  "MailingsProviderName": "Murazik-Kuhn",
+  "DashboardTileDefinitionId": 44,
   "VisibleFor": [
     {
-      "VisibleId": 137,
+      "VisibleId": 665,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 120
         }
       }
     },
     {
-      "VisibleId": 137,
+      "VisibleId": 665,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 120
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldLength": 858
     }
   },
   "_Links": {

@@ -22,6 +22,8 @@ generated: true
 
 * [POST Agents/Quote/GetExtraInfo](v1QuoteAgent_GetExtraInfo.md)
 
+* [POST Agents/Quote/CreateAndSaveQuoteLines](v1QuoteAgent_CreateAndSaveQuoteLines.md)
+
 * [POST Agents/Quote/GetQuoteLineConfiguration](v1QuoteAgent_GetQuoteLineConfiguration.md)
 
 * [POST Agents/Quote/GetQuoteLineConfigurationFromFieldName](v1QuoteAgent_GetQuoteLineConfigurationFromFieldName.md)

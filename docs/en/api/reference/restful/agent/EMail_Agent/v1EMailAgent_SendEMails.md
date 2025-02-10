@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "aspernatur",
-      "HTMLBody": "natus",
+      "Subject": "deserunt",
+      "HTMLBody": "voluptatibus",
       "From": null,
-      "Sent": "2003-06-22T13:13:23.0396028+02:00",
-      "Size": 216,
+      "Sent": "2006-07-31T12:01:27.8377848+02:00",
+      "Size": 170,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "rerum",
-      "PlainBody": "voluptate",
-      "IsSent": false,
+      "MessageID": "minus",
+      "PlainBody": "ducimus",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 297,
+      "ServerId": 501,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Lang, Bartoletti and Gleichner",
-      "EmailItemId": 758,
-      "AccountId": 939,
-      "ReceivedAt": "1998-12-12T13:13:23.0396028+01:00",
+      "FolderName": "Murray Group",
+      "EmailItemId": 333,
+      "AccountId": 940,
+      "ReceivedAt": "2015-06-15T12:01:27.8377848+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2005-03-31T13:13:23.0396028+02:00",
+      "RepliedAt": "2008-08-30T12:01:27.8377848+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 814,
-        "ContactName": "Metz Group",
-        "PersonId": 82,
-        "PersonName": "Stamm-Kihn",
-        "AssociateId": 836,
-        "Address": "at",
-        "EmailId": 846,
+        "ContactId": 669,
+        "ContactName": "Kautzer LLC",
+        "PersonId": 44,
+        "PersonName": "Rath, Hyatt and Bosco",
+        "AssociateId": 446,
+        "Address": "laborum",
+        "EmailId": 578,
         "DuplicatePersonIds": [
-          960,
-          392
+          462,
+          26
         ],
-        "Name": "Huel LLC",
+        "Name": "Towne-Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 551
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 504,
-        "ContactName": "Pouros-Dickinson",
-        "PersonId": 460,
-        "PersonName": "Gutkowski Inc and Sons",
-        "AssociateId": 309,
-        "Address": "doloribus",
-        "EmailId": 158,
+        "ContactId": 168,
+        "ContactName": "Nader-Pagac",
+        "PersonId": 781,
+        "PersonName": "Reinger, Torp and Grady",
+        "AssociateId": 824,
+        "Address": "tempore",
+        "EmailId": 785,
         "DuplicatePersonIds": [
-          132,
-          941
+          140,
+          404
         ],
-        "Name": "Morissette Group",
+        "Name": "Wilderman LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldLength": 162
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 765,
-        "ContactName": "Witting LLC",
-        "PersonId": 728,
-        "PersonName": "Wyman-Fritsch",
-        "AssociateId": 998,
-        "Address": "quos",
-        "EmailId": 597,
+        "ContactId": 198,
+        "ContactName": "Ward-Tillman",
+        "PersonId": 669,
+        "PersonName": "Hane, Beahan and Schroeder",
+        "AssociateId": 542,
+        "Address": "recusandae",
+        "EmailId": 668,
         "DuplicatePersonIds": [
-          793,
-          711
+          354,
+          833
         ],
-        "Name": "Oberbrunner LLC",
+        "Name": "Koch Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldType": "System.String",
+            "FieldLength": 778
           }
         }
       }
     ],
-    "Subject": "sapiente",
-    "HTMLBody": "vitae",
+    "Subject": "corrupti",
+    "HTMLBody": "rerum",
     "From": null,
-    "Sent": "1998-09-21T13:13:23.0396028+02:00",
-    "Size": 224,
+    "Sent": "2007-04-13T12:01:27.8377848+02:00",
+    "Size": 223,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "neque",
-    "PlainBody": "ut",
+    "MessageID": "molestiae",
+    "PlainBody": "itaque",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 321,
+    "ServerId": 457,
     "Attachments": [
       {
-        "Description": "Automated 6th generation throughput",
-        "Filename": "consequatur",
-        "Size": 660,
-        "Type": "fugiat",
-        "Encoding": "et",
-        "Id": "voluptas",
-        "Disposition": "alias",
-        "IsSafeFileExtension": false,
+        "Description": "Re-engineered neutral adapter",
+        "Filename": "est",
+        "Size": 44,
+        "Type": "vel",
+        "Encoding": "non",
+        "Id": "placeat",
+        "Disposition": "molestiae",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldLength": 809
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Klein-Paucek",
+        "Name": "Torphy Inc and Sons",
         "Values": [
-          "dolores",
-          "dolorem"
+          "laboriosam",
+          "pariatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldLength": 212
           }
         }
       },
       {
-        "Name": "Klein-Paucek",
+        "Name": "Torphy Inc and Sons",
         "Values": [
-          "dolores",
-          "dolorem"
+          "laboriosam",
+          "pariatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldLength": 212
           }
         }
       }
     ],
-    "FolderName": "Sporer, Harber and Reinger",
-    "EmailItemId": 861,
-    "AccountId": 706,
-    "ReceivedAt": "2014-04-23T13:13:23.0396028+02:00",
+    "FolderName": "Davis Inc and Sons",
+    "EmailItemId": 207,
+    "AccountId": 664,
+    "ReceivedAt": "2023-03-14T12:01:27.8377848+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2008-07-10T13:13:23.0396028+02:00",
+    "RepliedAt": "2019-02-08T12:01:27.8377848+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 70
       }
     }
   }

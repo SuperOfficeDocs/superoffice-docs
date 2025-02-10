@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 690,
-    "Name": "Lakin, Gorczany and Gibson",
-    "Tooltip": "facere",
+    "HeadingId": 382,
+    "Name": "Toy, Keebler and Rolfson",
+    "Tooltip": "tempore",
     "Deleted": true,
-    "Rank": 982,
-    "UdListDefinitionId": 589
+    "Rank": 359,
+    "UdListDefinitionId": 239
   },
   {
-    "HeadingId": 690,
-    "Name": "Lakin, Gorczany and Gibson",
-    "Tooltip": "facere",
+    "HeadingId": 382,
+    "Name": "Toy, Keebler and Rolfson",
+    "Tooltip": "tempore",
     "Deleted": true,
-    "Rank": 982,
-    "UdListDefinitionId": 589
+    "Rank": 359,
+    "UdListDefinitionId": 239
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Osinski Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 812,
-    "UdListDefinitionId": 253,
+    "HeadingId": 923,
+    "Name": "Kuhic, Rolfson and Willms",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 920,
+    "UdListDefinitionId": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 921
       }
     }
   }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 120,
-  "Created": "2005-07-16T13:13:23.7738157+02:00",
+  "SatelliteId": 694,
+  "Created": "2002-11-12T12:01:28.2128113+01:00",
   "CreatedBy": null,
-  "Updated": "2004-04-26T13:13:23.7738157+02:00",
+  "Updated": "2010-04-23T12:01:28.2128113+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Gulgowski, Cremin and Stamm",
-      "Description": "Networked modular Graphic Interface",
+      "Name": "Mayert-Cummings",
+      "Description": "Phased 24/7 function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Gulgowski, Cremin and Stamm",
-      "Description": "Networked modular Graphic Interface",
+      "Name": "Mayert-Cummings",
+      "Description": "Phased 24/7 function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 378,
-  "Created": "2011-12-27T13:13:23.7893721+01:00",
+  "SatelliteId": 965,
+  "Created": "2022-08-18T12:01:28.2128113+02:00",
   "CreatedBy": null,
-  "Updated": "2006-01-28T13:13:23.7893721+01:00",
+  "Updated": "2000-07-22T12:01:28.2128113+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Huels, Ebert and Runte",
-      "Description": "Multi-channelled coherent focus group",
+      "Name": "Cassin, Conn and Smith",
+      "Description": "Progressive empowering ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 999
         }
       }
     },
     {
-      "Name": "Huels, Ebert and Runte",
-      "Description": "Multi-channelled coherent focus group",
+      "Name": "Cassin, Conn and Smith",
+      "Description": "Progressive empowering ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 999
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

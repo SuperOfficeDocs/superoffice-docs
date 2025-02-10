@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 927
+  "EjUserId": 202
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 315,
-    "Name": "Dare LLC",
-    "Rank": 372,
-    "Tooltip": "laborum",
+    "AssociateId": 378,
+    "Name": "Wolff LLC",
+    "Rank": 636,
+    "Tooltip": "iste",
     "LicenseOwners": [
       {
-        "Name": "Quitzon-Hirthe",
-        "Description": "Multi-layered 24/7 moratorium",
+        "Name": "Romaguera-Ankunding",
+        "Description": "Customizable bandwidth-monitored structure",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldLength": 397
           }
         }
       },
       {
-        "Name": "Quitzon-Hirthe",
-        "Description": "Multi-layered 24/7 moratorium",
+        "Name": "Romaguera-Ankunding",
+        "Description": "Customizable bandwidth-monitored structure",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldLength": 397
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "tempora",
-        "Tooltip": "harum",
-        "Id": 251,
-        "Rank": 357,
-        "Deleted": false,
+        "Value": "ab",
+        "Tooltip": "excepturi",
+        "Id": 476,
+        "Rank": 210,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 327
           }
         }
       }
     ],
     "Person": null,
     "Deleted": true,
-    "Lastlogin": "2010-02-10T13:13:24.5558968+01:00",
-    "Lastlogout": "2023-09-19T13:13:24.5558968+02:00",
-    "EjUserId": 455,
-    "RequestSignature": "rem",
+    "Lastlogin": "2000-09-06T12:01:28.6347153+02:00",
+    "Lastlogout": "2009-04-16T12:01:28.6347153+02:00",
+    "EjUserId": 652,
+    "RequestSignature": "et",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "veniam",
-        "DisplayValue": "totam",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 511
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "veniam",
-        "DisplayValue": "totam",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 511
-          }
-        }
-      }
-    ],
-    "UserName": "Swaniawski, Windler and Marks",
-    "TicketCategories": [
-      {
-        "Id": 510,
-        "Name": "Pfannerstill Inc and Sons",
-        "ToolTip": "Voluptatem esse nam et ea incidunt voluptatem.",
-        "Deleted": true,
-        "Rank": 518,
-        "Type": "vel",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "officiis",
-        "ColorBlock": 851,
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "omnis",
-        "FullName": "Citlalli Crist",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 826
-          }
-        }
-      }
-    ],
-    "NickName": "Wintheiser-Emard",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "quod",
-      "ExtraFields2": "laboriosam"
-    },
-    "CustomFields": {
-      "CustomFields1": "enim",
-      "CustomFields2": "praesentium"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Crona-Ruecker",
-        "DisplayName": "Bradtke, Wiegand and Deckow",
-        "Description": "Open-architected holistic algorithm",
-        "ToolTip": "Voluptatem aut delectus qui sunt.",
-        "Actions": "Implicit",
-        "ActionData": "facilis",
+        "Value": "magnam",
+        "DisplayValue": "ullam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldLength": 767
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "magnam",
+        "DisplayValue": "ullam",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 767
+          }
+        }
+      }
+    ],
+    "UserName": "Bergnaum-Howe",
+    "TicketCategories": [
+      {
+        "Id": 141,
+        "Name": "Nolan-Schmidt",
+        "ToolTip": "Quia ab totam.",
+        "Deleted": false,
+        "Rank": 696,
+        "Type": "sit",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "nisi",
+        "ColorBlock": 184,
+        "ExtraInfo": "ipsam",
+        "StyleHint": "sed",
+        "FullName": "Rhett Jakubowski MD",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 979
+          }
+        }
+      }
+    ],
+    "NickName": "Johnston Group",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "maiores",
+      "ExtraFields2": "molestias"
+    },
+    "CustomFields": {
+      "CustomFields1": "quae",
+      "CustomFields2": "debitis"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Boehm Group",
+        "DisplayName": "Grant, Satterfield and Gleichner",
+        "Description": "Polarised optimal functionalities",
+        "ToolTip": "Sed aliquid.",
+        "Actions": "Implicit",
+        "ActionData": "suscipit",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 868
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 567
       }
     }
   }

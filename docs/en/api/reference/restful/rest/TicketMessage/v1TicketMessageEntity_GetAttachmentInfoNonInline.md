@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 531,
-    "Name": "Olson-Hackett",
-    "ContentType": "blanditiis",
-    "AttSize": 785,
-    "InlineImage": true,
-    "ContentId": "maxime",
-    "AuthKey": "in",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 823,
+    "Name": "Predovic LLC",
+    "ContentType": "quia",
+    "AttSize": 69,
+    "InlineImage": false,
+    "ContentId": "nostrum",
+    "AuthKey": "minus",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 390
       }
     }
   }

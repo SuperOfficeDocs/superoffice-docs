@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669,
-  "Name": "Graham Group",
-  "Tooltip": "ex",
+  "Id": 991,
+  "Name": "Borer, Ebert and Barton",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 752,
-  "Rank": 530,
+  "UdListDefinitionId": 176,
+  "Rank": 485,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldLength": 732
     }
   }
 }

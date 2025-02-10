@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Harris, Bauch and Dooley",
-  "StorageKey": "placeat",
+  "StorageType": "ducimus",
+  "ProviderName": "Windler LLC",
+  "StorageKey": "nam",
   "Restrictions": [
     {
-      "Name": "Homenick, Powlowski and Hessel",
-      "Operator": "consequuntur",
+      "Name": "O'Keefe LLC",
+      "Operator": "in",
       "Values": [
-        "amet",
-        "cumque"
+        "ipsa",
+        "similique"
       ],
       "DisplayValues": [
-        "aliquam",
-        "dicta"
+        "asperiores",
+        "ex"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 329,
+      "InterParenthesis": 92,
       "InterOperator": "And",
-      "UniqueHash": 584
+      "UniqueHash": 980
     }
   ],
   "StaticColumns": [
-    "et",
-    "vitae"
+    "minus",
+    "quibusdam"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Auer, Buckridge and Bernier",
-      "Operator": "quod",
+      "Name": "Hyatt Group",
+      "Operator": "a",
       "Values": [
-        "quasi",
-        "placeat"
+        "architecto",
+        "quos"
       ],
       "DisplayValues": [
-        "libero",
-        "et"
+        "recusandae",
+        "esse"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 720,
+      "InterParenthesis": 745,
       "InterOperator": "And",
-      "UniqueHash": 970
+      "UniqueHash": 578
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stamm Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "aut",
+      "DisplayName": "Schamberger Inc and Sons",
+      "DisplayTooltip": "harum",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Murphy, Torphy and Stamm",
+      "Name": "Hansen, Fay and Bogan",
       "CanRestrictBy": false,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Fadel, Herzog and Block",
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "D'Amore-Bradtke",
       "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "error",
-      "IconHint": "ea",
-      "HeadingIconHint": "totam"
+      "ExtraInfo": "nam",
+      "Width": "quam",
+      "IconHint": "explicabo",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Dicki, Dickens and Hilpert",
-      "PrimaryKey": 161,
+      "EntityName": "Crona LLC",
+      "PrimaryKey": 586,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "numquam",
-          "LinkHint": "dolorem"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "ea",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "deserunt",
+      "LinkHint": "hic",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 921
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schroeder-Runte",
-      "Description": "Sharable client-server flexibility",
-      "Rank": 746,
+      "Name": "Klein-Cremin",
+      "Description": "Diverse high-level portal",
+      "Rank": 113,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schroeder-Runte",
-      "Description": "Sharable client-server flexibility",
-      "Rank": 746,
+      "Name": "Klein-Cremin",
+      "Description": "Diverse high-level portal",
+      "Rank": 113,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

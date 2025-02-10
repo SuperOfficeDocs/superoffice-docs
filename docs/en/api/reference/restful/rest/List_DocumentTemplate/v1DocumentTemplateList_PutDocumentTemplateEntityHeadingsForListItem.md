@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Friesen-Collins",
-    "ToolTip": "Voluptas omnis qui.",
+    "Id": 677,
+    "Name": "Wiza LLC",
+    "ToolTip": "Corrupti sint ipsam.",
     "Deleted": false,
-    "Rank": 25,
-    "Type": "voluptate",
-    "ColorBlock": 244,
-    "IconHint": "ea",
+    "Rank": 620,
+    "Type": "eum",
+    "ColorBlock": 58,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2007-02-01T13:13:33.1048791+01:00",
+    "LastChanged": "2003-06-30T12:01:33.511353+02:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Jaskolski-DuBuque",
-        "ToolTip": "Totam ab tempore quisquam velit animi.",
+        "Id": 347,
+        "Name": "Torp Inc and Sons",
+        "ToolTip": "Consequatur sed rem autem asperiores tempore ipsam iste.",
         "Deleted": true,
-        "Rank": 140,
-        "Type": "laboriosam",
-        "ColorBlock": 342,
-        "IconHint": "earum",
+        "Rank": 947,
+        "Type": "ut",
+        "ColorBlock": 230,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2014-04-24T13:13:33.1048791+02:00",
+        "LastChanged": "2002-07-30T12:01:33.511353+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Jamar Rodriguez"
+        "ExtraInfo": "est",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Kayla Schuster"
       }
     ],
     "ExtraInfo": "autem",
-    "StyleHint": "eum",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Dr. Natasha Crooks"
+    "FullName": "Tommie Yost"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Kassulke-Howe",
-    "ToolTip": "Velit quidem aut.",
+    "Id": 792,
+    "Name": "Champlin, Schuppe and Daniel",
+    "ToolTip": "Minima eos eos quisquam.",
     "Deleted": true,
-    "Rank": 76,
-    "Type": "aut",
-    "ColorBlock": 605,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "1999-08-19T13:13:33.1048791+02:00",
+    "Rank": 832,
+    "Type": "eveniet",
+    "ColorBlock": 119,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2010-03-31T12:01:33.511353+02:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Homenick, Reynolds and White",
-        "ToolTip": "Maiores eos.",
+        "Id": 466,
+        "Name": "Reichert Inc and Sons",
+        "ToolTip": "Est labore et.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "qui",
-        "ColorBlock": 857,
-        "IconHint": "sint",
+        "Rank": 881,
+        "Type": "et",
+        "ColorBlock": 79,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2021-12-30T13:13:33.1048791+01:00",
+        "LastChanged": "2017-11-01T12:01:33.511353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "laborum",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Clifton Lockman DVM",
+        "FullName": "Santiago Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 126
+            "FieldType": "System.Int32",
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Katharina Bode",
+    "ExtraInfo": "amet",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Ellen Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 727
       }
     }
   }

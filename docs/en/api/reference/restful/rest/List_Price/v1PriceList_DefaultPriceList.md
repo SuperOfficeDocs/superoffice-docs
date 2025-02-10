@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 641,
-  "ERPPriceListKey": "sed",
-  "QuoteConnectionId": 548,
-  "Name": "Mitchell, Swaniawski and Mayert",
-  "Description": "Extended full-range ability",
-  "Currency": "ullam",
-  "CurrencyName": "Pagac, Wiza and Runolfsdottir",
-  "ValidFrom": "2014-11-13T13:13:33.2454698+01:00",
-  "ValidTo": "1998-11-20T13:13:33.2454698+01:00",
-  "IsActive": true,
+  "PriceListId": 880,
+  "ERPPriceListKey": "repudiandae",
+  "QuoteConnectionId": 822,
+  "Name": "Bayer, Bayer and Abbott",
+  "Description": "Versatile upward-trending frame",
+  "Currency": "inventore",
+  "CurrencyName": "O'Conner, Osinski and Crona",
+  "ValidFrom": "2023-09-26T12:01:33.5582313+02:00",
+  "ValidTo": "2011-10-20T12:01:33.5582313+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

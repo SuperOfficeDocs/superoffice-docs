@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 916,
-    "Name": "Jacobson, Fay and Kassulke",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 16,
+    "WebPanelId": 713,
+    "Name": "Lueilwitz, Kovacek and Ebert",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 70,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": true,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Abbott, Hirthe and Mayert",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Towne-Hauck",
     "Url": "http://www.example.com/",
-    "ProgId": "nulla",
-    "Icon": 689,
+    "ProgId": "ea",
+    "Icon": 702,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   }

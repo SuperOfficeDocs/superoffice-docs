@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Maggio, Jerde and Strosin",
+  "TableName": "Willms-Hand",
   "IDs": [
-    232,
-    864
+    132,
+    100
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "voluptatem",
-  "Inserts": 213,
-  "Updates": 371,
-  "Deletes": 756,
+  "Success": true,
+  "Message": "ex",
+  "Inserts": 208,
+  "Updates": 427,
+  "Deletes": 765,
   "RowStatus": [
     {
-      "PrimaryKey": 772,
+      "PrimaryKey": 330,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "facere"
+        "et",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldLength": 228
         }
       }
     },
     {
-      "PrimaryKey": 772,
+      "PrimaryKey": 330,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "facere"
+        "et",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldLength": 228
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

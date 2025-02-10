@@ -104,6 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:SupportLanguageId xsi:type="xsd:int">0</Contact:SupportLanguageId>
      <Contact:SupportAssociateId xsi:type="xsd:int">0</Contact:SupportAssociateId>
      <Contact:CategoryName xsi:type="xsd:string"></Contact:CategoryName>
+     <Contact:PersonNumber xsi:type="xsd:string"></Contact:PersonNumber>
     </Contact:Person>
    </Contact:Response>
   </Contact:GetPersonsResponse>

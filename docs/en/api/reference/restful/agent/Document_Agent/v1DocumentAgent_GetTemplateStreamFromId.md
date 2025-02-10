@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 917,
-  "UiCulture": "animi"
+  "TemplateId": 275,
+  "UiCulture": "doloribus"
 }
 ```
 

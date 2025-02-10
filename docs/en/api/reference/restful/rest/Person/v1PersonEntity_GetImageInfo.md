@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 May 2013 13:13:31 G5T
+Last-Modified: Fri, 14 May 2004 12:01:32 G5T
 
 {
-  "BlobId": 114,
-  "BlobSize": 519,
-  "Description": "Open-architected composite functionalities",
-  "ExtraInfo": "eveniet",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ipsa",
-  "OriginalSize": 395,
-  "CreatedDate": "2015-06-22T13:13:31.8863203+02:00",
-  "UpdatedDate": "2013-05-23T13:13:31.8863203+02:00",
+  "BlobId": 764,
+  "BlobSize": 446,
+  "Description": "Profit-focused heuristic paradigm",
+  "ExtraInfo": "explicabo",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 533,
+  "CreatedDate": "2016-09-30T12:01:32.9956921+02:00",
+  "UpdatedDate": "2004-05-14T12:01:32.9956921+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempora",
+  "ConceptualType": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 170
     }
   }
 }

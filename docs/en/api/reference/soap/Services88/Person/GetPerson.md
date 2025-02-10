@@ -103,6 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:SupportLanguageId xsi:type="xsd:int">0</Person:SupportLanguageId>
     <Person:SupportAssociateId xsi:type="xsd:int">0</Person:SupportAssociateId>
     <Person:CategoryName xsi:type="xsd:string"></Person:CategoryName>
+    <Person:PersonNumber xsi:type="xsd:string"></Person:PersonNumber>
    </Person:Response>
   </Person:GetPersonResponse>
  </SOAP-ENV:Body>

@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Smith, Wiegand and O'Conner",
-  "UsergroupId": 813,
+  "UdListDefinitionName": "Ortiz LLC",
+  "UsergroupId": 874,
   "ListItemsID": [
-    295,
-    662
+    684,
+    225
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

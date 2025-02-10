@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Waelchi-Bauch",
-  "Tooltip": "provident",
+  "Id": 921,
+  "Name": "Harris-O'Reilly",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "UdListDefinitionId": 67,
-  "Rank": 966
+  "UdListDefinitionId": 211,
+  "Rank": 667
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Aufderhar, Jerde and Raynor",
-  "Tooltip": "dolor",
+  "Id": 665,
+  "Name": "Wintheiser, Rohan and Mante",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 79,
-  "Rank": 806,
+  "UdListDefinitionId": 80,
+  "Rank": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 502
     }
   }
 }

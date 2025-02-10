@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Murphy-Stehr",
+  "ProviderName": "Ryan-Marvin",
   "Columns": [
-    "sint",
-    "provident"
+    "quibusdam",
+    "sint"
   ],
   "SortOrder": [
     {
-      "Name": "Pacocha Group",
+      "Name": "Homenick-Weissnat",
       "Direction": "ASC"
     },
     {
-      "Name": "Pacocha Group",
+      "Name": "Homenick-Weissnat",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Altenwerth, Blick and Funk",
-      "Operator": "consequuntur",
+      "Name": "Crooks LLC",
+      "Operator": "perspiciatis",
       "Values": [
-        "ab",
-        "qui"
+        "fuga",
+        "praesentium"
       ],
       "DisplayValues": [
-        "cumque",
-        "et"
+        "soluta",
+        "quis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 251,
+      "InterParenthesis": 810,
       "InterOperator": "And",
-      "UniqueHash": 748
+      "UniqueHash": 945
     }
   ],
   "Entities": [
-    "nihil",
-    "est"
+    "dolore",
+    "hic"
   ],
-  "Page": 661,
-  "PageSize": 754
+  "Page": 786,
+  "PageSize": 352
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Emmerich LLC",
-    "PrimaryKey": 18,
+    "EntityName": "Torphy, DuBuque and Kuvalis",
+    "PrimaryKey": 421,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "eaque",
-        "TooltipHint": "suscipit",
-        "LinkHint": "soluta"
+        "DisplayValue": "facere",
+        "TooltipHint": "esse",
+        "LinkHint": "itaque"
       }
     },
     "LinkHint": "earum",
-    "StyleHint": "adipisci",
+    "StyleHint": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 905
       }
     }
   }

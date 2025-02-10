@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "aut",
-    "velit"
+    "qui",
+    "dolore"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-10-27T13:13:21.8677656+02:00",
-    "IsConflict": false,
-    "Description": "Synergized high-level knowledge user",
-    "DescriptionStyleHint": "Reverse-engineered systematic open architecture",
-    "Tooltip": "exercitationem"
+    "Date": "2002-09-24T12:01:27.2127411+02:00",
+    "IsConflict": true,
+    "Description": "Automated radical moderator",
+    "DescriptionStyleHint": "Inverse next generation internet solution",
+    "Tooltip": "commodi"
   },
   {
-    "Date": "2005-10-27T13:13:21.8677656+02:00",
-    "IsConflict": false,
-    "Description": "Synergized high-level knowledge user",
-    "DescriptionStyleHint": "Reverse-engineered systematic open architecture",
-    "Tooltip": "exercitationem"
+    "Date": "2002-09-24T12:01:27.2127411+02:00",
+    "IsConflict": true,
+    "Description": "Automated radical moderator",
+    "DescriptionStyleHint": "Inverse next generation internet solution",
+    "Tooltip": "commodi"
   }
 ]
 ```

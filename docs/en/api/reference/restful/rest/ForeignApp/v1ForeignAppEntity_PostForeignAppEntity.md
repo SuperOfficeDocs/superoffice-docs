@@ -92,23 +92,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 340,
-  "Name": "Labadie Group",
-  "CreatedDate": "2008-06-16T13:13:31.7301065+02:00",
-  "UpdatedDate": "2014-10-17T13:13:31.7301065+02:00",
+  "ForeignAppId": 451,
+  "Name": "Kshlerin-Kemmer",
+  "CreatedDate": "2001-01-30T12:01:32.9175621+01:00",
+  "UpdatedDate": "2011-10-20T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 385,
-      "Name": "Sawayn, Powlowski and Stark",
-      "CreatedDate": "2002-11-28T13:13:31.7301065+01:00",
-      "UpdatedDate": "2002-03-28T13:13:31.7301065+01:00",
-      "AssociateFullName": "Hazle Kassulke",
-      "CreatedBy": "praesentium",
-      "UpdatedBy": "sed",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 919
+      "ForeignDeviceId": 605,
+      "Name": "Maggio, Lind and Howe",
+      "CreatedDate": "2002-03-03T12:01:32.9175621+01:00",
+      "UpdatedDate": "2013-07-09T12:01:32.9175621+02:00",
+      "AssociateFullName": "Anjali Weimann",
+      "CreatedBy": "minus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "unde",
+      "ForeignAppId": 809
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 445,
-  "Name": "Mertz-McKenzie",
-  "CreatedDate": "1998-09-25T13:13:31.7301065+02:00",
-  "UpdatedDate": "2013-05-12T13:13:31.7301065+02:00",
+  "ForeignAppId": 765,
+  "Name": "Beahan Group",
+  "CreatedDate": "2000-04-11T12:01:32.9175621+02:00",
+  "UpdatedDate": "2010-05-20T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 300,
-      "Name": "Murray, Kohler and Osinski",
-      "CreatedDate": "2011-02-07T13:13:31.7301065+01:00",
-      "UpdatedDate": "2012-01-05T13:13:31.7301065+01:00",
-      "AssociateFullName": "Dr. Kelley Mertz Sr.",
-      "CreatedBy": "illum",
-      "UpdatedBy": "facilis",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 941,
+      "ForeignDeviceId": 390,
+      "Name": "Pouros-Emmerich",
+      "CreatedDate": "2006-09-14T12:01:32.9175621+02:00",
+      "UpdatedDate": "2008-02-29T12:01:32.9175621+01:00",
+      "AssociateFullName": "Newell Sanford",
+      "CreatedBy": "expedita",
+      "UpdatedBy": "inventore",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 59,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 30
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 664
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

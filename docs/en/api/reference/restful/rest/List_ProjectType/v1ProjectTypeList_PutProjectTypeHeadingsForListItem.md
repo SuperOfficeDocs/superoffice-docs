@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Mills, Heaney and Abernathy",
-    "ToolTip": "Et ipsa voluptatem corrupti dolores eaque.",
-    "Deleted": true,
-    "Rank": 758,
-    "Type": "saepe",
-    "ColorBlock": 340,
-    "IconHint": "officia",
+    "Id": 970,
+    "Name": "Altenwerth-Friesen",
+    "ToolTip": "Dolores animi sint ratione nesciunt voluptates rerum.",
+    "Deleted": false,
+    "Rank": 605,
+    "Type": "iste",
+    "ColorBlock": 993,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2022-11-01T13:13:33.4016848+01:00",
+    "LastChanged": "2012-12-06T12:01:33.6051097+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Deckow Inc and Sons",
-        "ToolTip": "Sed cum non molestiae neque qui.",
+        "Id": 79,
+        "Name": "Ryan LLC",
+        "ToolTip": "Quo aperiam id.",
         "Deleted": false,
-        "Rank": 753,
-        "Type": "et",
-        "ColorBlock": 63,
-        "IconHint": "labore",
+        "Rank": 15,
+        "Type": "debitis",
+        "ColorBlock": 355,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2017-02-13T13:13:33.4016848+01:00",
+        "LastChanged": "2001-04-29T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "qui",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Mitchell Nader"
+        "FullName": "Patrick Gutkowski"
       }
     ],
-    "ExtraInfo": "pariatur",
+    "ExtraInfo": "itaque",
     "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Norene Osinski"
+    "FullName": "Alaina Stanton MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Raynor Inc and Sons",
-    "ToolTip": "Labore rerum voluptates nesciunt.",
-    "Deleted": false,
-    "Rank": 10,
-    "Type": "labore",
-    "ColorBlock": 270,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "2017-10-25T13:13:33.417305+02:00",
+    "Id": 925,
+    "Name": "Miller, O'Hara and Macejkovic",
+    "ToolTip": "At dolores hic aliquid ea sit quas.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "minus",
+    "ColorBlock": 26,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "2002-12-05T12:01:33.6051097+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Goodwin LLC",
-        "ToolTip": "Modi debitis debitis rerum est eos est dolores.",
+        "Id": 582,
+        "Name": "Kemmer Inc and Sons",
+        "ToolTip": "In distinctio enim repudiandae reiciendis.",
         "Deleted": false,
-        "Rank": 594,
-        "Type": "quod",
-        "ColorBlock": 732,
-        "IconHint": "commodi",
+        "Rank": 535,
+        "Type": "quibusdam",
+        "ColorBlock": 565,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2015-03-14T13:13:33.417305+01:00",
+        "LastChanged": "2000-03-27T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "itaque",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Dillon Hills",
+        "FullName": "Mrs. Heber Crona Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "similique",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Miss Dillan Mohr",
+    "FullName": "Prof. Marta Cummings Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 873
       }
     }
   }

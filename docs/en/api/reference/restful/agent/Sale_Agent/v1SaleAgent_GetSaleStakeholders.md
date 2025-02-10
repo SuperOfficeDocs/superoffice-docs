@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 61
+  "SaleId": 330
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "VonRueden, Krajcik and Kris",
-    "Comment": "asperiores",
-    "StakeholderRoleId": 667,
-    "CountryId": 256,
-    "PersonId": 312,
-    "EmailDescription": "joelle@smith.ca",
-    "EmailId": 229,
-    "EmailAddress": "edwardo.donnelly@moore.ca",
-    "PhoneId": 216,
-    "ContactName": "Jacobi-Schuster",
-    "ContactId": 990,
-    "SaleId": 259,
-    "Mrmrs": "ea",
-    "Firstname": "Drake",
-    "MiddleName": "Carroll Inc and Sons",
-    "Lastname": "Wintheiser",
-    "SaleStakeholderId": 746,
-    "Rank": 142,
-    "Phone": "1-235-788-4206 x1588",
+    "StakeholderRoleName": "Schmidt, Windler and O'Connell",
+    "Comment": "mollitia",
+    "StakeholderRoleId": 53,
+    "CountryId": 349,
+    "PersonId": 780,
+    "EmailDescription": "laila@pourossatterfield.com",
+    "EmailId": 31,
+    "EmailAddress": "miracle.hagenes@towne.uk",
+    "PhoneId": 876,
+    "ContactName": "Yost, Stehr and Bednar",
+    "ContactId": 522,
+    "SaleId": 727,
+    "Mrmrs": "error",
+    "Firstname": "Myrna",
+    "MiddleName": "Cole, Schumm and Kemmer",
+    "Lastname": "Borer",
+    "SaleStakeholderId": 364,
+    "Rank": 926,
+    "Phone": "314-023-6383 x28471",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 498
       }
     }
   }

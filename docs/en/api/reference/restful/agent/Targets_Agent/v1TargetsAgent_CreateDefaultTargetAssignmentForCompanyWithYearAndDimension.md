@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 247,
-  "TargetDimensionId": 958
+  "Year": 671,
+  "TargetDimensionId": 426
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 278,
+    "TargetAssignmentInfoId": 192,
     "Values": [
-      107,
-      548
+      757,
+      235
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 358,
-    "DimensionListItemDisplayName": "Klocko, Douglas and Jones",
+    "DimensionListItem": 676,
+    "DimensionListItemDisplayName": "Greenholt, Waelchi and Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 888
       }
     }
   }

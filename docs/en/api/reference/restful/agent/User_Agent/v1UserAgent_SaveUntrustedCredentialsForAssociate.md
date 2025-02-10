@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 925,
-  "Type": "inventore",
+  "AssociateId": 194,
+  "Type": "aut",
   "Credentials": null
 }
 ```

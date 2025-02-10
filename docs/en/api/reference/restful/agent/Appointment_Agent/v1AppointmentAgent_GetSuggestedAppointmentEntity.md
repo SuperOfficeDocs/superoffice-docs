@@ -26,7 +26,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=177
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=76
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,17 +90,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 818,
-  "Name": "Tremblay, Larson and Lesch",
-  "Tooltip": "facilis",
-  "Rank": 389,
+  "SuggestedAppointmentId": 281,
+  "Name": "Schmitt-Goldner",
+  "Tooltip": "accusamus",
+  "Rank": 436,
   "Deleted": true,
-  "DaysFuture": 824,
-  "Duration": "et",
+  "DaysFuture": 703,
+  "Duration": "temporibus",
   "AutoSuggest": true,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "aspernatur",
+  "Text": "nulla",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 119
     }
   }
 }

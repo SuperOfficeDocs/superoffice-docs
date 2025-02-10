@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ut",
-  "PrefKey": "reiciendis",
+  "PrefSection": "recusandae",
+  "PrefKey": "perspiciatis",
   "PrefLevel": "Database",
-  "OwnerId": 953
+  "OwnerId": 506
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "illum",
+  "RawValue": "non",
   "Specification": null,
   "DisplayValue": "dignissimos",
-  "DisplayTooltip": "reiciendis",
+  "DisplayTooltip": "minus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 492,
-  "PrefDescId": 244,
-  "TableName": "Bergstrom, Weimann and Abbott",
-  "UserPreferenceId": 354,
+  "TargetId": 514,
+  "PrefDescId": 291,
+  "TableName": "Lemke-O'Conner",
+  "UserPreferenceId": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 217,
-  "Currency": "numquam"
+  "QuoteConnectionId": 916,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 814,
-    "ERPPriceListKey": "autem",
-    "QuoteConnectionId": 497,
-    "Name": "Jenkins Group",
-    "Description": "Diverse composite capacity",
-    "Currency": "magni",
-    "CurrencyName": "O'Hara LLC",
-    "ValidFrom": "1997-11-15T13:13:23.7425716+01:00",
-    "ValidTo": "2000-07-18T13:13:23.7425716+02:00",
+    "PriceListId": 742,
+    "ERPPriceListKey": "nobis",
+    "QuoteConnectionId": 203,
+    "Name": "Deckow, Gorczany and Yundt",
+    "Description": "Function-based context-sensitive productivity",
+    "Currency": "voluptatem",
+    "CurrencyName": "Jones Inc and Sons",
+    "ValidFrom": "2010-09-30T12:01:28.1971849+02:00",
+    "ValidTo": "2014-09-02T12:01:28.1971849+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 232
       }
     }
   }

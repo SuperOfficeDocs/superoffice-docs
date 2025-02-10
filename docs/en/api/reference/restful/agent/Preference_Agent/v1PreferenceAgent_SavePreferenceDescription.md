@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 434,
-  "Section": "iste",
-  "Key": "corrupti",
-  "Name": "Considine LLC",
+  "PrefDescId": 788,
+  "Section": "rerum",
+  "Key": "optio",
+  "Name": "Stroman, Pouros and Block",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive discrete analyzer",
-  "IsBuiltin": true,
-  "TableName": "Hessel-Trantow",
-  "UserDefinedListId": 371,
-  "Rank": 619,
-  "SubGroup": "provident",
-  "MinLevel": 128,
-  "MaxValue": 417,
-  "MinValue": 73,
-  "RequiredLicense": "ratione"
+  "Description": "Decentralized attitude-oriented ability",
+  "IsBuiltin": false,
+  "TableName": "Cassin Inc and Sons",
+  "UserDefinedListId": 519,
+  "Rank": 673,
+  "SubGroup": "magnam",
+  "MinLevel": 590,
+  "MaxValue": 806,
+  "MinValue": 153,
+  "RequiredLicense": "quia"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 248,
-  "Section": "eos",
-  "Key": "voluptatem",
-  "Name": "Pacocha, Mills and Leffler",
+  "PrefDescId": 843,
+  "Section": "vitae",
+  "Key": "natus",
+  "Name": "Hagenes-Koch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive methodical focus group",
-  "IsBuiltin": true,
-  "TableName": "Lemke, Lebsack and Graham",
-  "UserDefinedListId": 620,
-  "Rank": 742,
-  "SubGroup": "hic",
-  "MinLevel": 961,
-  "MaxValue": 545,
-  "MinValue": 342,
-  "RequiredLicense": "a",
+  "Description": "User-friendly dedicated encoding",
+  "IsBuiltin": false,
+  "TableName": "Lueilwitz, Haley and Hilll",
+  "UserDefinedListId": 136,
+  "Rank": 315,
+  "SubGroup": "quo",
+  "MinLevel": 627,
+  "MaxValue": 719,
+  "MinValue": 699,
+  "RequiredLicense": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

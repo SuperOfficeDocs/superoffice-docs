@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wehner-Aufderhar",
-  "ProviderName": "Schulist-Watsica",
-  "Context": "fugiat",
-  "OwnerKeys": "cum",
+  "GuiName": "Price, Hayes and Doyle",
+  "ProviderName": "Reichert Group",
+  "Context": "animi",
+  "OwnerKeys": "eius",
   "ChosenColumns": [
-    "odit",
-    "ex"
+    "aliquid",
+    "minus"
   ]
 }
 ```

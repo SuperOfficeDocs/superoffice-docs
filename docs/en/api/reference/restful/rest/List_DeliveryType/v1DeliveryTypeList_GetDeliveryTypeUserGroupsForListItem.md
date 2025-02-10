@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Becker Group",
-    "ToolTip": "Qui velit et voluptas.",
+    "Id": 473,
+    "Name": "Schumm Group",
+    "ToolTip": "Aut sint impedit aut qui aut.",
     "Deleted": false,
-    "Rank": 410,
-    "Type": "ut",
-    "ColorBlock": 909,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2000-08-02T13:13:33.0580147+02:00",
+    "Rank": 766,
+    "Type": "tempora",
+    "ColorBlock": 370,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2007-04-26T12:01:33.495727+02:00",
     "ChildItems": [
       {
-        "Id": 911,
-        "Name": "Legros-Champlin",
-        "ToolTip": "Expedita cumque est iusto et et.",
+        "Id": 652,
+        "Name": "Lind, Yost and Corkery",
+        "ToolTip": "Aliquid a nostrum omnis.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "similique",
-        "ColorBlock": 435,
-        "IconHint": "autem",
+        "Rank": 161,
+        "Type": "expedita",
+        "ColorBlock": 135,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-09-17T13:13:33.0580147+02:00",
+        "LastChanged": "2004-12-22T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "et",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Daryl Shields",
+        "FullName": "Raul Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldType": "System.Int32",
+            "FieldLength": 474
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Bethany Osinski Sr.",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nemo",
+    "Hidden": false,
+    "FullName": "Dessie McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 981
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 344,
-    "Attention": "sint",
-    "Header": "mollitia",
-    "Name": "Mraz-Christiansen",
-    "OurRef": "vel",
-    "YourRef": "sint",
-    "Description": "Expanded multimedia migration",
-    "DocumentTemplate": "qui",
+    "DocumentId": 298,
+    "Attention": "ullam",
+    "Header": "voluptas",
+    "Name": "Hartmann-Abernathy",
+    "OurRef": "repudiandae",
+    "YourRef": "est",
+    "Description": "Upgradable 6th generation system engine",
+    "DocumentTemplate": "id",
     "IsPublished": false,
-    "PersonId": 620,
-    "PersonFullName": "Ms. Margarette Hane DDS",
-    "AssociateFullName": "Art Schimmel",
-    "ContactId": 949,
-    "ContactName": "Upton-Frami",
-    "ProjectId": 925,
-    "ProjectName": "Hodkiewicz-Watsica",
-    "AssociateId": 429,
-    "Snum": 699,
-    "SaleId": 338,
-    "SaleName": "Turner-Langworth",
+    "PersonId": 695,
+    "PersonFullName": "Ms. Lionel Dayana Lesch",
+    "AssociateFullName": "Prof. Lamont Dwight Trantow I",
+    "ContactId": 779,
+    "ContactName": "Lesch-Leuschke",
+    "ProjectId": 251,
+    "ProjectName": "Boehm Group",
+    "AssociateId": 945,
+    "Snum": 939,
+    "SaleId": 501,
+    "SaleName": "Balistreri Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

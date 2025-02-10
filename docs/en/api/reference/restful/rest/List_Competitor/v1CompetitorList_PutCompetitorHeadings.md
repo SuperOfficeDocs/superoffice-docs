@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 899,
-    "Name": "Brakus-Douglas",
-    "Tooltip": "et",
+    "HeadingId": 108,
+    "Name": "Murray, Gleason and Kris",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 785
+    "Rank": 531,
+    "UdListDefinitionId": 733
   },
   {
-    "HeadingId": 899,
-    "Name": "Brakus-Douglas",
-    "Tooltip": "et",
+    "HeadingId": 108,
+    "Name": "Murray, Gleason and Kris",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 785
+    "Rank": 531,
+    "UdListDefinitionId": 733
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 346,
-    "Name": "Windler-Von",
-    "Tooltip": "ut",
+    "HeadingId": 192,
+    "Name": "Konopelski Inc and Sons",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 163,
+    "Rank": 602,
+    "UdListDefinitionId": 406,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 558
       }
     }
   }

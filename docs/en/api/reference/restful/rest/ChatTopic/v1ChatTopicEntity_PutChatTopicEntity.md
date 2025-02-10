@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 416,
-  "Name": "Boyer, Daniel and Howe",
-  "Description": "Extended non-volatile function",
-  "WelcomeMessage": "sequi",
+  "ChatTopicId": 116,
+  "Name": "Ebert, Lowe and Boyer",
+  "Description": "Team-oriented fresh-thinking migration",
+  "WelcomeMessage": "distinctio",
   "Language": null,
-  "LastAccept": "2016-06-19T13:13:31.4333046+02:00",
-  "SecondsPrAccept": 690,
-  "AlertRecipient": "possimus",
+  "LastAccept": "2001-04-23T12:01:32.7613009+02:00",
+  "SecondsPrAccept": 304,
+  "AlertRecipient": "vel",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "ut",
+  "CollectConsent": false,
+  "BadgeHeader": "quae",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "repellendus",
-  "WarnNewChatMinutes": 166,
-  "WarnManagerNewChatMinutes": 985,
+  "CustomQueueText": "nostrum",
+  "WarnNewChatMinutes": 957,
+  "WarnManagerNewChatMinutes": 168,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 748,
-  "WarnManagerChatMessageMinutes": 497,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 57,
-  "OfflineFormQueueLength": 323,
+  "WarnChatMessageMinutes": 747,
+  "WarnManagerChatMessageMinutes": 263,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 497,
+  "OfflineFormQueueLength": 542,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nemo"
+  "WidgetRatingText": "ducimus"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 148,
-  "Name": "Hand, Adams and Marquardt",
-  "Description": "Phased mobile model",
-  "WelcomeMessage": "officia",
+  "ChatTopicId": 301,
+  "Name": "Hettinger, Ullrich and Hamill",
+  "Description": "Multi-channelled multi-tasking intranet",
+  "WelcomeMessage": "deleniti",
   "Language": null,
-  "LastAccept": "2019-01-28T13:13:31.4333046+01:00",
-  "SecondsPrAccept": 990,
-  "AlertRecipient": "et",
+  "LastAccept": "2023-02-28T12:01:32.7613009+01:00",
+  "SecondsPrAccept": 163,
+  "AlertRecipient": "esse",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "labore",
+  "BadgeHeader": "rem",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consequatur",
-  "WarnNewChatMinutes": 984,
-  "WarnManagerNewChatMinutes": 533,
+  "CustomQueueText": "voluptatum",
+  "WarnNewChatMinutes": 899,
+  "WarnManagerNewChatMinutes": 390,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -208,19 +208,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 694,
-  "WarnManagerChatMessageMinutes": 857,
+  "WarnChatMessageMinutes": 728,
+  "WarnManagerChatMessageMinutes": 112,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 757,
-  "OfflineFormQueueLength": 187,
+  "OfflineFormTimeLimit": 395,
+  "OfflineFormQueueLength": 502,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 308
     }
   },
   "_Links": {

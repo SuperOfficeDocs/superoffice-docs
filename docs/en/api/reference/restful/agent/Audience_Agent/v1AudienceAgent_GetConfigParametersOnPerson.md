@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 995
+  "PersonId": 77
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 410,
-    "Name": "Grady, Mitchell and Weber",
-    "Value": "vel",
-    "CreatedDate": "2003-05-26T13:13:22.1177118+02:00",
-    "UpdatedDate": "2002-02-03T13:13:22.1177118+01:00",
-    "CreatedBy": "magni",
-    "UpdatedBy": "nulla",
+    "AudienceLayoutId": 369,
+    "Name": "Yundt, Collins and Wiza",
+    "Value": "rerum",
+    "CreatedDate": "2012-05-06T12:01:27.3377499+02:00",
+    "UpdatedDate": "2007-06-22T12:01:27.3377499+02:00",
+    "CreatedBy": "culpa",
+    "UpdatedBy": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

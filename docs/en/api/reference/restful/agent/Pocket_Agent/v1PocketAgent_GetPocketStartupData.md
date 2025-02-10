@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "est",
-    "nihil"
+    "dolore",
+    "eos"
   ],
-  "CurrentClientTime": "2015-11-21T13:13:23.5863599+01:00"
+  "CurrentClientTime": "2012-03-01T12:01:28.1190543+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "saepe",
-    "ut"
+    "quos",
+    "beatae"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 137,
-  "NotificationsCount": 257,
+  "OverdueSalesCount": 413,
+  "NotificationsCount": 256,
   "SystemWebPanels": [
     {
-      "WebPanelId": 914,
-      "Name": "Brakus, Beahan and Williamson",
-      "Tooltip": "nihil",
+      "WebPanelId": 495,
+      "Name": "Kertzmann, Schaefer and Ruecker",
+      "Tooltip": "voluptatibus",
       "Deleted": false,
-      "Rank": 301,
+      "Rank": 233,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": false,
+      "OnSatellite": true,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": false,
+      "OnSalesMarketingPocket": true,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
-      "ShowInAddressBar": false,
+      "ShowInToolBar": true,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Moore Group",
+      "WindowName": "Jacobs, Steuber and Gibson",
       "Url": "http://www.example.com/",
-      "ProgId": "praesentium",
-      "Icon": 929,
+      "ProgId": "molestias",
+      "Icon": 63,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 627
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "reprehenderit",
+      "RawValue": "consequatur",
       "Specification": null,
-      "DisplayValue": "nisi",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "quae",
+      "DisplayTooltip": "illum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 582,
-      "PrefDescId": 278,
-      "TableName": "Romaguera Inc and Sons",
-      "UserPreferenceId": 844,
+      "TargetId": 594,
+      "PrefDescId": 289,
+      "TableName": "Kunze Inc and Sons",
+      "UserPreferenceId": 23,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldType": "System.String",
+          "FieldLength": 618
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "aut",
+  "CustomData": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 712
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wiza Group",
-    "Description": "Automated coherent utilisation",
+    "Name": "Parisian-Watsica",
+    "Description": "Seamless encompassing middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 526,
-        "Tooltip": "iusto",
+        "Total": 731,
+        "Tooltip": "architecto",
         "CanAssign": false,
-        "Free": 380,
-        "InUse": 748,
+        "Free": 22,
+        "InUse": 944,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Volkman-Deckow",
-        "Description": "Compatible 24/7 Graphic Interface",
-        "PrerequisiteModuleName": "Wuckert-Kshlerin",
-        "SortOrder": 449,
-        "ExtraFlags": 959,
+        "Assigned": false,
+        "ModuleLicenseId": 762,
+        "Name": "Mann-Hudson",
+        "Description": "Ergonomic asynchronous secured line",
+        "PrerequisiteModuleName": "Erdman-Kulas",
+        "SortOrder": 152,
+        "ExtraFlags": 1001,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 549
+            "FieldType": "System.Int32",
+            "FieldLength": 198
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 724,
-        "Tooltip": "corrupti",
+        "Unrestricted": false,
+        "Total": 918,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 137,
-        "InUse": 474,
+        "Free": 736,
+        "InUse": 524,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 329,
-        "Name": "King, Dickinson and Kassulke",
-        "Description": "Public-key scalable productivity",
-        "PrerequisiteModuleName": "Walker Group",
-        "SortOrder": 422,
-        "ExtraFlags": 649,
+        "ModuleLicenseId": 206,
+        "Name": "Lehner, Carter and Blanda",
+        "Description": "Grass-roots local product",
+        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
+        "SortOrder": 385,
+        "ExtraFlags": 792,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldType": "System.Int32",
+            "FieldLength": 318
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldLength": 619
       }
     }
   },
   {
-    "Name": "Wiza Group",
-    "Description": "Automated coherent utilisation",
+    "Name": "Parisian-Watsica",
+    "Description": "Seamless encompassing middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 526,
-        "Tooltip": "iusto",
+        "Total": 731,
+        "Tooltip": "architecto",
         "CanAssign": false,
-        "Free": 380,
-        "InUse": 748,
+        "Free": 22,
+        "InUse": 944,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Volkman-Deckow",
-        "Description": "Compatible 24/7 Graphic Interface",
-        "PrerequisiteModuleName": "Wuckert-Kshlerin",
-        "SortOrder": 449,
-        "ExtraFlags": 959,
+        "Assigned": false,
+        "ModuleLicenseId": 762,
+        "Name": "Mann-Hudson",
+        "Description": "Ergonomic asynchronous secured line",
+        "PrerequisiteModuleName": "Erdman-Kulas",
+        "SortOrder": 152,
+        "ExtraFlags": 1001,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 549
+            "FieldType": "System.Int32",
+            "FieldLength": 198
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 724,
-        "Tooltip": "corrupti",
+        "Unrestricted": false,
+        "Total": 918,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 137,
-        "InUse": 474,
+        "Free": 736,
+        "InUse": 524,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 329,
-        "Name": "King, Dickinson and Kassulke",
-        "Description": "Public-key scalable productivity",
-        "PrerequisiteModuleName": "Walker Group",
-        "SortOrder": 422,
-        "ExtraFlags": 649,
+        "ModuleLicenseId": 206,
+        "Name": "Lehner, Carter and Blanda",
+        "Description": "Grass-roots local product",
+        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
+        "SortOrder": 385,
+        "ExtraFlags": 792,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldType": "System.Int32",
+            "FieldLength": 318
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldLength": 619
       }
     }
   }

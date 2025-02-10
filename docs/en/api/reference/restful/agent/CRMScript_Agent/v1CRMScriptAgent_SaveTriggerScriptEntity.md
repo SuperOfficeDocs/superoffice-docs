@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 813,
-  "Name": "Larson, Ortiz and Jacobson",
+  "ScreenChooserId": 951,
+  "Name": "Ankunding-Kris",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "earum",
-  "Source": "numquam",
-  "Registered": "2015-04-30T13:13:22.508244+02:00",
-  "RegisteredAssociateId": 197,
-  "Updated": "2019-08-14T13:13:22.508244+02:00",
-  "UpdatedAssociateId": 795
+  "UniqueIdentifier": "hic",
+  "Source": "et",
+  "Registered": "2013-09-11T12:01:27.5408902+02:00",
+  "RegisteredAssociateId": 909,
+  "Updated": "2014-08-23T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 219
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 302,
-  "Name": "Sporer, Grady and Herman",
+  "ScreenChooserId": 987,
+  "Name": "Ratke-Gutmann",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quidem",
-  "Source": "ipsam",
-  "Registered": "2017-10-28T13:13:22.508244+02:00",
-  "RegisteredAssociateId": 364,
-  "Updated": "2003-06-09T13:13:22.508244+02:00",
-  "UpdatedAssociateId": 510,
+  "Enabled": false,
+  "UniqueIdentifier": "corrupti",
+  "Source": "cum",
+  "Registered": "2016-01-08T12:01:27.5408902+01:00",
+  "RegisteredAssociateId": 811,
+  "Updated": "2022-07-05T12:01:27.5408902+02:00",
+  "UpdatedAssociateId": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

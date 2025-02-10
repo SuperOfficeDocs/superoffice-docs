@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Reinger Group",
-    "Tooltip": "voluptatem",
+    "Id": 316,
+    "Name": "Dickinson, Gutkowski and Upton",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 782
+    "UdListDefinitionId": 49,
+    "Rank": 896
   },
   {
-    "Id": 938,
-    "Name": "Reinger Group",
-    "Tooltip": "voluptatem",
+    "Id": 316,
+    "Name": "Dickinson, Gutkowski and Upton",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 782
+    "UdListDefinitionId": 49,
+    "Rank": 896
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Kuphal, Auer and Gaylord",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "UdListDefinitionId": 244,
-    "Rank": 983,
+    "Id": 384,
+    "Name": "Dibbert, Jenkins and Torp",
+    "Tooltip": "esse",
+    "Deleted": false,
+    "UdListDefinitionId": 274,
+    "Rank": 910,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 230
       }
     }
   }

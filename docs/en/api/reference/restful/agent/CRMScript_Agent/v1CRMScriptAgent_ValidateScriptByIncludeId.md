@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "perspiciatis"
+  "CRMScriptIncludeId": "autem"
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "reiciendis",
-  "LineNumber": 653,
+  "Valid": true,
+  "ErrorMessage": "aut",
+  "LineNumber": 651,
   "ErrorInformation": null,
-  "Transpiled": "dolor",
+  "Transpiled": "sint",
   "Includes": [
-    246,
-    951
+    280,
+    292
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 261,
-      "LineNumberTo": 291,
-      "Delta": 224,
-      "IncludeId": "veritatis",
+      "LineNumberFrom": 614,
+      "LineNumberTo": 111,
+      "Delta": 774,
+      "IncludeId": "et",
       "IncludedFrom": [
-        "dicta",
-        "ad"
+        "rerum",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 965
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 619
     }
   }
 }

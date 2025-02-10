@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 17,
-  "Name": "Gleason, Will and Terry",
-  "Tooltip": "itaque",
+  "HeadingId": 896,
+  "Name": "Hauck LLC",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 625,
-  "UdListDefinitionId": 279
+  "Rank": 445,
+  "UdListDefinitionId": 298
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 696,
-  "Name": "Leuschke Inc and Sons",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 946,
-  "UdListDefinitionId": 975,
+  "HeadingId": 738,
+  "Name": "Walker, Stehr and Funk",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 144,
+  "UdListDefinitionId": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

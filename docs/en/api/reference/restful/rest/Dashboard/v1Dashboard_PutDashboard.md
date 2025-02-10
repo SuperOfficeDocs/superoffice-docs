@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 964,
-  "AssociateId": 437,
-  "Caption": "consequuntur",
+  "DashboardId": 359,
+  "AssociateId": 93,
+  "Caption": "aliquid",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 627,
-      "Caption": "alias",
-      "Description": "Mandatory actuating info-mediaries",
-      "ChartName": "Maggio, Rodriguez and Jast",
-      "ChartId": "aut",
+      "DashboardTileId": 683,
+      "Caption": "voluptas",
+      "Description": "Enterprise-wide clear-thinking artificial intelligence",
+      "ChartName": "Erdman, Braun and Ernser",
+      "ChartId": "iusto",
       "IsDefault": false,
-      "AssociateId": 925,
-      "GroupId": 980,
-      "SelectionId": 953,
-      "Config": "eius",
+      "AssociateId": 431,
+      "GroupId": 327,
+      "SelectionId": 729,
+      "Config": "consequatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 717,
-  "AssociateId": 50,
-  "Caption": "sunt",
+  "DashboardId": 744,
+  "AssociateId": 805,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 746,
-      "Caption": "consequatur",
-      "Description": "Distributed real-time groupware",
-      "ChartName": "Toy, Hills and Sauer",
-      "ChartId": "ut",
-      "IsDefault": false,
-      "AssociateId": 291,
-      "GroupId": 991,
-      "SelectionId": 784,
-      "Config": "est",
+      "DashboardTileId": 822,
+      "Caption": "id",
+      "Description": "Centralized impactful info-mediaries",
+      "ChartName": "Baumbach-Hammes",
+      "ChartId": "autem",
+      "IsDefault": true,
+      "AssociateId": 707,
+      "GroupId": 896,
+      "SelectionId": 173,
+      "Config": "ullam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 365
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

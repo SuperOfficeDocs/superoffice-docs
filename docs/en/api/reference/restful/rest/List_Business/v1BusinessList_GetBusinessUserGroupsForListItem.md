@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Kshlerin Inc and Sons",
-    "ToolTip": "Quod quod.",
-    "Deleted": false,
-    "Rank": 489,
-    "Type": "beatae",
-    "ColorBlock": 236,
-    "IconHint": "officiis",
+    "Id": 675,
+    "Name": "Shanahan-Schmitt",
+    "ToolTip": "Laborum maiores voluptatem et praesentium.",
+    "Deleted": true,
+    "Rank": 136,
+    "Type": "enim",
+    "ColorBlock": 383,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "1998-05-03T13:13:32.839316+02:00",
+    "LastChanged": "2000-10-05T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Feil, Parker and Spencer",
-        "ToolTip": "Facere voluptatibus aliquam odio doloremque.",
+        "Id": 728,
+        "Name": "Treutel-Will",
+        "ToolTip": "Dolores odit nostrum dolorum incidunt nostrum dolorem.",
         "Deleted": false,
-        "Rank": 352,
-        "Type": "sed",
-        "ColorBlock": 368,
-        "IconHint": "voluptatem",
+        "Rank": 548,
+        "Type": "ab",
+        "ColorBlock": 342,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2003-01-30T13:13:32.839316+01:00",
+        "LastChanged": "2005-06-27T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Amira Jerde",
+        "FullName": "Lauretta Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldType": "System.String",
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Mrs. Haylie Kuhic",
+    "ExtraInfo": "porro",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Fernando Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldLength": 739
       }
     }
   }

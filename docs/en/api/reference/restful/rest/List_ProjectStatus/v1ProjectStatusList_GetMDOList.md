@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=cum
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=vel
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Auer-Schimmel",
-    "ToolTip": "Ad officia.",
+    "Id": 788,
+    "Name": "Hessel LLC",
+    "ToolTip": "Quae ut et est recusandae.",
     "Deleted": false,
-    "Rank": 680,
-    "Type": "praesentium",
+    "Rank": 439,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Heidenreich-Rau",
-        "ToolTip": "Totam aspernatur a enim deserunt consequuntur.",
+        "Id": 234,
+        "Name": "Wunsch, Powlowski and Howe",
+        "ToolTip": "Officia qui sit.",
         "Deleted": false,
-        "Rank": 320,
-        "Type": "voluptatem",
+        "Rank": 175,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deserunt",
-        "ColorBlock": 263,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "numquam",
-        "FullName": "Prof. Brandyn Lera Bergnaum Jr.",
+        "IconHint": "omnis",
+        "ColorBlock": 999,
+        "ExtraInfo": "odio",
+        "StyleHint": "illum",
+        "FullName": "Miss Marianna Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldLength": 849
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 507,
-    "ExtraInfo": "numquam",
-    "StyleHint": "vel",
-    "FullName": "Hassie Fay",
+    "IconHint": "minima",
+    "ColorBlock": 388,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "id",
+    "FullName": "Ted Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 258
       }
     }
   }

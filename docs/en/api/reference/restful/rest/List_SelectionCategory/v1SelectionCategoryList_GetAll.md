@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Cremin, McLaughlin and Jacobi",
-    "Tooltip": "quae",
+    "Id": 374,
+    "Name": "Klein LLC",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 728,
-    "Rank": 347,
+    "UdListDefinitionId": 303,
+    "Rank": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

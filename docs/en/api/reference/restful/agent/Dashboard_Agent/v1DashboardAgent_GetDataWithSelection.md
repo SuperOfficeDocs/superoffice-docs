@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 685,
-  "SelectionId": 93,
-  "Restrictions": "ut"
+  "DashboardTileId": 542,
+  "SelectionId": 968,
+  "Restrictions": "eos"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kreiger, Jacobson and Feil",
-        "DisplayTooltip": "qui",
-        "DisplayType": "et",
-        "CanOrderBy": false,
-        "Name": "Greenholt Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "possimus",
-        "RestrictionListName": "Rau, Boyle and Crona",
+        "DisplayName": "Thompson, Boyle and Hintz",
+        "DisplayTooltip": "sunt",
+        "DisplayType": "sint",
+        "CanOrderBy": true,
+        "Name": "Beier Group",
+        "CanRestrictBy": false,
+        "RestrictionType": "perspiciatis",
+        "RestrictionListName": "Larson, Brown and Hills",
         "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "dolor",
-        "IconHint": "omnis",
-        "HeadingIconHint": "dolores"
+        "ExtraInfo": "nihil",
+        "Width": "at",
+        "IconHint": "mollitia",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kreiger, Jacobson and Feil",
-        "DisplayTooltip": "qui",
-        "DisplayType": "et",
-        "CanOrderBy": false,
-        "Name": "Greenholt Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "possimus",
-        "RestrictionListName": "Rau, Boyle and Crona",
+        "DisplayName": "Thompson, Boyle and Hintz",
+        "DisplayTooltip": "sunt",
+        "DisplayType": "sint",
+        "CanOrderBy": true,
+        "Name": "Beier Group",
+        "CanRestrictBy": false,
+        "RestrictionType": "perspiciatis",
+        "RestrictionListName": "Larson, Brown and Hills",
         "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "dolor",
-        "IconHint": "omnis",
-        "HeadingIconHint": "dolores"
+        "ExtraInfo": "nihil",
+        "Width": "at",
+        "IconHint": "mollitia",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null

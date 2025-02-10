@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Howell, Conroy and Von",
-  "StorageKey": "quia",
+  "StorageType": "quasi",
+  "ProviderName": "Jast-Collins",
+  "StorageKey": "non",
   "RestrictionGroups": [
     {
-      "Name": "Ziemann-Thiel",
-      "Description": "Adaptive mission-critical budgetary management",
-      "Rank": 710,
+      "Name": "Blanda-Crooks",
+      "Description": "Reverse-engineered content-based infrastructure",
+      "Rank": 933,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ziemann-Thiel",
-      "Description": "Adaptive mission-critical budgetary management",
-      "Rank": 710,
+      "Name": "Blanda-Crooks",
+      "Description": "Reverse-engineered content-based infrastructure",
+      "Rank": 933,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "qui"
+  "Context": "aut"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Macejkovic-McCullough",
-    "Description": "Customer-focused system-worthy collaboration",
-    "Rank": 557,
+    "Name": "McDermott Inc and Sons",
+    "Description": "Intuitive background data-warehouse",
+    "Rank": 406,
     "Restrictions": [
       {
-        "Name": "Hegmann, Daniel and Hintz",
-        "Operator": "nobis",
+        "Name": "Doyle, Bernhard and Prohaska",
+        "Operator": "quos",
         "Values": [
-          "dolorum",
-          "eos"
+          "ipsam",
+          "beatae"
         ],
         "DisplayValues": [
-          "in",
-          "ab"
+          "facilis",
+          "vitae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 588,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 976
+        "UniqueHash": 576
       }
     ]
   },
   {
-    "Name": "Macejkovic-McCullough",
-    "Description": "Customer-focused system-worthy collaboration",
-    "Rank": 557,
+    "Name": "McDermott Inc and Sons",
+    "Description": "Intuitive background data-warehouse",
+    "Rank": 406,
     "Restrictions": [
       {
-        "Name": "Hegmann, Daniel and Hintz",
-        "Operator": "nobis",
+        "Name": "Doyle, Bernhard and Prohaska",
+        "Operator": "quos",
         "Values": [
-          "dolorum",
-          "eos"
+          "ipsam",
+          "beatae"
         ],
         "DisplayValues": [
-          "in",
-          "ab"
+          "facilis",
+          "vitae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 588,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 976
+        "UniqueHash": 576
       }
     ]
   }

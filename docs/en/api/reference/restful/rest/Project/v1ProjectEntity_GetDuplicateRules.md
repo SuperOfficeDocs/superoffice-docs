@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Borer-Mayer",
-    "DisplayName": "Roberts LLC",
-    "DisplayTooltip": "aspernatur",
-    "IsActive": true,
+    "Name": "Yost Inc and Sons",
+    "DisplayName": "Weimann LLC",
+    "DisplayTooltip": "non",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   },
   {
-    "Name": "Borer-Mayer",
-    "DisplayName": "Roberts LLC",
-    "DisplayTooltip": "aspernatur",
-    "IsActive": true,
+    "Name": "Yost Inc and Sons",
+    "DisplayName": "Weimann LLC",
+    "DisplayTooltip": "non",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   }

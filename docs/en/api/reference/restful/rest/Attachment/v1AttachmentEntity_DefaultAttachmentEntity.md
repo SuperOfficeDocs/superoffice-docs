@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 545,
-  "Name": "Bins-Schiller",
-  "ContentType": "aut",
-  "AttSize": 532,
-  "InlineImage": false,
-  "ContentId": "esse",
-  "AuthKey": "natus",
+  "AttachmentId": 265,
+  "Name": "Rath, Schuppe and Lehner",
+  "ContentType": "quia",
+  "AttSize": 20,
+  "InlineImage": true,
+  "ContentId": "minus",
+  "AuthKey": "laborum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 500
     }
   }
 }

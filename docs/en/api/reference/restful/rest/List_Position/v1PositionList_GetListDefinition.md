@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "Rempel-Hauck",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "Rank": 541,
+  "Id": 25,
+  "Name": "Howell, West and Schamberger",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "Rank": 705,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

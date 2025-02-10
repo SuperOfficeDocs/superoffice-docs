@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 859,
-  "Name": "Tillman LLC",
-  "Tooltip": "autem",
-  "Rank": 765,
-  "Rate": 22846.86,
-  "Units": 23373.372,
-  "Deleted": true,
+  "CurrencyId": 152,
+  "Name": "VonRueden Group",
+  "Tooltip": "occaecati",
+  "Rank": 971,
+  "Rate": 20819.162,
+  "Units": 16986.28,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 996
     }
   }
 }

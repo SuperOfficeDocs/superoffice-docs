@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 706,
-  "Name": "Von LLC",
+  "ScreenChooserId": 71,
+  "Name": "Beier, Herman and Stehr",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "mollitia",
-  "Registered": "2023-03-09T13:13:32.5111102+01:00",
-  "RegisteredAssociateId": 868,
-  "Updated": "2005-10-07T13:13:32.5111102+02:00",
-  "UpdatedAssociateId": 202
+  "UniqueIdentifier": "aut",
+  "Source": "natus",
+  "Registered": "2013-04-20T12:01:33.2925881+02:00",
+  "RegisteredAssociateId": 36,
+  "Updated": "2017-10-15T12:01:33.2925881+02:00",
+  "UpdatedAssociateId": 843
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 932,
-  "Name": "Kessler Group",
+  "ScreenChooserId": 489,
+  "Name": "Mueller LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "provident",
-  "Source": "maxime",
-  "Registered": "2021-12-05T13:13:32.5111102+01:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2015-09-01T13:13:32.5111102+02:00",
-  "UpdatedAssociateId": 396,
+  "UniqueIdentifier": "et",
+  "Source": "qui",
+  "Registered": "2000-09-06T12:01:33.2925881+02:00",
+  "RegisteredAssociateId": 662,
+  "Updated": "2012-03-05T12:01:33.2925881+01:00",
+  "UpdatedAssociateId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldLength": 388
     }
   },
   "_Links": {

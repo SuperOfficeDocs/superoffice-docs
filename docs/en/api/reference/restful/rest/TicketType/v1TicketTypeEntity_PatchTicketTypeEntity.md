@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 488,
-  "Name": "Dickinson-Adams",
-  "Rank": 199,
-  "Tooltip": "et",
-  "Icon": "voluptatum",
-  "DefaultTicketStatus": 905,
+  "TicketTypeId": 882,
+  "Name": "D'Amore, Reynolds and Flatley",
+  "Rank": 335,
+  "Tooltip": "voluptates",
+  "Icon": "vel",
+  "DefaultTicketStatus": 818,
   "TicketStatuses": [
-    910,
-    230
+    398,
+    273
   ],
-  "DefaultTicketPriority": 486,
+  "DefaultTicketPriority": 913,
   "TicketPriorities": [
-    187,
-    651
+    561,
+    163
   ],
-  "ReplyTemplate": 150,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 305,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    673,
-    375
+    346,
+    819
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   },
   "_Links": {

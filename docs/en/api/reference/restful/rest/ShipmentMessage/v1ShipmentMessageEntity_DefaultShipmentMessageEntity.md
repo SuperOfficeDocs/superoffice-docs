@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 643,
-  "PlainMessage": "eligendi",
-  "HtmlMessage": "totam",
-  "SmsMessage": "omnis",
-  "Description": "Switchable asynchronous matrix",
-  "Subject": "aperiam",
-  "FolderId": 957,
-  "HeaderField": "est",
-  "Design": "ex",
+  "ShipmentMessageId": 394,
+  "PlainMessage": "sunt",
+  "HtmlMessage": "corrupti",
+  "SmsMessage": "consequatur",
+  "Description": "Adaptive empowering frame",
+  "Subject": "modi",
+  "FolderId": 999,
+  "HeaderField": "expedita",
+  "Design": "earum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Customizable systematic model",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 765,
-  "Registered": "2008-09-22T13:13:32.3392746+02:00",
-  "RegisteredAssociateId": 762,
-  "Updated": "2004-06-06T13:13:32.3392746+02:00",
-  "UpdatedAssociateId": 815,
-  "UpdatedCount": 520,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Centralized context-sensitive definition",
+  "AccessKey": "sed",
+  "DocumentMessage": 692,
+  "Registered": "2005-12-03T12:01:33.2144574+01:00",
+  "RegisteredAssociateId": 314,
+  "Updated": "2001-01-14T12:01:33.2144574+01:00",
+  "UpdatedAssociateId": 598,
+  "UpdatedCount": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

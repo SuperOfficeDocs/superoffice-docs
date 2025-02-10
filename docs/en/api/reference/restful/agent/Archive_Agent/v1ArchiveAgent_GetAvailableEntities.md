@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Buckridge, Johnston and Gibson",
-  "Context": "autem"
+  "ProviderName": "McCullough, Thiel and O'Hara",
+  "Context": "fugiat"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Kling LLC",
-    "ToolTip": "Non nam placeat provident.",
+    "Id": 18,
+    "Name": "Schamberger, Lynch and Shields",
+    "ToolTip": "Mollitia accusantium quam beatae eos.",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "sunt",
+    "Rank": 168,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Smitham LLC",
-        "ToolTip": "Ipsam explicabo.",
-        "Deleted": false,
-        "Rank": 802,
-        "Type": "quo",
+        "Id": 218,
+        "Name": "Jenkins Inc and Sons",
+        "ToolTip": "Tempore velit sed voluptas sunt omnis harum.",
+        "Deleted": true,
+        "Rank": 410,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsa",
-        "ColorBlock": 649,
-        "ExtraInfo": "nihil",
-        "StyleHint": "sed",
-        "FullName": "Reba Lang",
+        "IconHint": "quo",
+        "ColorBlock": 433,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "laudantium",
+        "FullName": "Mrs. Meredith Henriette Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldLength": 271
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 797,
-    "ExtraInfo": "et",
-    "StyleHint": "ab",
-    "FullName": "Dr. Barrett Wilderman",
+    "IconHint": "vero",
+    "ColorBlock": 212,
+    "ExtraInfo": "ut",
+    "StyleHint": "minima",
+    "FullName": "Jacklyn Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 238
       }
     }
   }

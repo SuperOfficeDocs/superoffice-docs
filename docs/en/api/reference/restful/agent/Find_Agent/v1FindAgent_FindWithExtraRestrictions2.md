@@ -171,14 +171,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Upton-Larson",
-  "StorageKey": "nisi",
-  "ExtraRestrictions": "et",
-  "OrderBy": "ea",
-  "DesiredColumns": "et",
-  "PageSize": 740,
-  "PageNumber": 915
+  "StorageType": "laboriosam",
+  "ProviderName": "Daugherty Inc and Sons",
+  "StorageKey": "quia",
+  "ExtraRestrictions": "sapiente",
+  "OrderBy": "totam",
+  "DesiredColumns": "reiciendis",
+  "PageSize": 722,
+  "PageNumber": 334
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jacobi-Pfannerstill",
-      "DisplayTooltip": "facere",
-      "DisplayType": "tempora",
-      "CanOrderBy": false,
-      "Name": "Kohler Inc and Sons",
+      "DisplayName": "McGlynn, Jast and Hagenes",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "optio",
+      "CanOrderBy": true,
+      "Name": "Rowe, Gerhold and Wyman",
       "CanRestrictBy": true,
-      "RestrictionType": "aperiam",
-      "RestrictionListName": "Keeling Group",
-      "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "molestiae",
-      "IconHint": "sit",
-      "HeadingIconHint": "omnis"
+      "RestrictionType": "autem",
+      "RestrictionListName": "Krajcik-Streich",
+      "IsVisible": true,
+      "ExtraInfo": "autem",
+      "Width": "voluptate",
+      "IconHint": "fugit",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Skiles, Zboncak and Zulauf",
-      "PrimaryKey": 229,
+      "EntityName": "Veum-Rosenbaum",
+      "PrimaryKey": 411,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "alias",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "velit",
+          "TooltipHint": "ad",
+          "LinkHint": "adipisci"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "facere",
+      "LinkHint": "amet",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
   ],
-  "RowCount": 132,
+  "RowCount": 4,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 83,
-  "Value": "sint",
-  "Tooltip": "minus",
-  "Probability": 807,
-  "Deleted": false,
-  "Rank": 861
+  "SaleStageId": 687,
+  "Value": "laboriosam",
+  "Tooltip": "qui",
+  "Probability": 917,
+  "Deleted": true,
+  "Rank": 903
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 501,
-  "Value": "sint",
-  "Tooltip": "consequatur",
-  "Probability": 72,
+  "SaleStageId": 61,
+  "Value": "provident",
+  "Tooltip": "unde",
+  "Probability": 115,
   "Deleted": false,
-  "Rank": 119,
+  "Rank": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

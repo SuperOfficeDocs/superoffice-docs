@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 760,
-    "Name": "McKenzie-Weimann",
-    "Description": "Networked background success",
-    "DeltaJson": "atque",
+    "ConfigurableScreenDeltaId": 318,
+    "Name": "Gaylord-Kutch",
+    "Description": "Reduced composite protocol",
+    "DeltaJson": "quia",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "sint",
-    "UpdatedDate": "2011-08-26T13:13:22.3364082+02:00",
-    "CreatedDate": "2017-03-14T13:13:22.3364082+01:00",
+    "RecipeId": "consequatur",
+    "UpdatedDate": "2015-09-07T12:01:27.4471334+02:00",
+    "CreatedDate": "2000-11-17T12:01:27.4471334+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      433,
-      444
+      219,
+      707
     ],
-    "AppliesToKey": "quaerat",
+    "AppliesToKey": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 152
       }
     }
   }

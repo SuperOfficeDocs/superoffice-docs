@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 703,
-  "ColumnId": 33,
-  "FieldDefault": "nobis",
-  "FieldHeight": 554,
-  "FieldLabel": "qui",
-  "FieldLeft": 945,
-  "FieldTop": 646,
+  "UDefFieldId": 683,
+  "ColumnId": 412,
+  "FieldDefault": "voluptatum",
+  "FieldHeight": 243,
+  "FieldLabel": "optio",
+  "FieldLeft": 982,
+  "FieldTop": 439,
   "FieldType": "Checkbox",
-  "FieldWidth": 567,
-  "FormatMask": "facere",
+  "FieldWidth": 907,
+  "FormatMask": "sint",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 870,
-  "LabelLeft": 456,
-  "LabelTop": 150,
-  "LabelWidth": 19,
-  "LastVersionId": 568,
-  "ListTableId": 997,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 419,
+  "LabelLeft": 921,
+  "LabelTop": 626,
+  "LabelWidth": 647,
+  "LastVersionId": 157,
+  "ListTableId": 530,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 210,
-  "ProgId": "quidem",
+  "Page1LineNo": 48,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "autem",
-  "TabOrder": 486,
-  "TextLength": 569,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 872,
-  "UDListDefinitionId": 949,
+  "ShortLabel": "assumenda",
+  "TabOrder": 608,
+  "TextLength": 303,
+  "Tooltip": "optio",
+  "UdefIdentity": 532,
+  "UDListDefinitionId": 843,
   "Justification": "Center",
-  "Version": 694,
-  "TemplateVariableName": "Johnston Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Gerlach LLC",
+  "Version": 509,
+  "TemplateVariableName": "Goodwin Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Kozey, Bogisich and Feeney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

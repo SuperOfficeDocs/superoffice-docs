@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jones Group",
-  "DeviceName": "Rowe, Klocko and Herman",
-  "DeviceIdentifier": "qui",
+  "ApplicationName": "Leannon, Blick and Fadel",
+  "DeviceName": "Deckow-Hettinger",
+  "DeviceIdentifier": "quae",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 512,
-  "Name": "Funk-Grady",
-  "CreatedDate": "2010-05-26T13:13:23.1645837+02:00",
-  "UpdatedDate": "2014-05-04T13:13:23.1645837+02:00",
-  "AssociateFullName": "Fidel McLaughlin",
-  "CreatedBy": "in",
-  "UpdatedBy": "cupiditate",
+  "ForeignDeviceId": 191,
+  "Name": "Turner LLC",
+  "CreatedDate": "2008-03-05T12:01:27.9002891+01:00",
+  "UpdatedDate": "2021-03-20T12:01:27.9002891+01:00",
+  "AssociateFullName": "Jaida Elenor Rodriguez MD",
+  "CreatedBy": "facilis",
+  "UpdatedBy": "dolor",
   "DeviceIdentifier": "velit",
-  "ForeignAppId": 873,
+  "ForeignAppId": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

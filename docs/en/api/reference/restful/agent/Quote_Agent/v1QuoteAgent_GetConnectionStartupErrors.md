@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionStartupErrors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "IsOk": false,
-    "UserExplanation": "aut",
-    "TechExplanation": "dolor",
-    "ErrorCode": "aut",
+    "UserExplanation": "est",
+    "TechExplanation": "aliquid",
+    "ErrorCode": "amet",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

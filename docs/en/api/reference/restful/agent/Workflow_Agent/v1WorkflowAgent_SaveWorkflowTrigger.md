@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 419,
-  "WorkflowId": 789,
+  "WorkflowTriggerId": 498,
+  "WorkflowId": 572,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Halvorson-Hermiston",
-      "Description": "Vision-oriented incremental core",
-      "Rank": 225,
+      "Name": "Nikolaus, Roberts and Langosh",
+      "Description": "Right-sized exuding migration",
+      "Rank": 607,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Halvorson-Hermiston",
-      "Description": "Vision-oriented incremental core",
-      "Rank": 225,
+      "Name": "Nikolaus, Roberts and Langosh",
+      "Description": "Right-sized exuding migration",
+      "Rank": 607,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 481,
-  "WorkflowId": 793,
+  "WorkflowTriggerId": 909,
+  "WorkflowId": 148,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Olson Inc and Sons",
-      "Description": "Visionary object-oriented implementation",
-      "Rank": 149,
+      "Name": "Langosh, Sipes and Feil",
+      "Description": "Diverse 24/7 circuit",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Olson Inc and Sons",
-      "Description": "Visionary object-oriented implementation",
-      "Rank": 149,
+      "Name": "Langosh, Sipes and Feil",
+      "Description": "Diverse 24/7 circuit",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 850
     }
   }
 }

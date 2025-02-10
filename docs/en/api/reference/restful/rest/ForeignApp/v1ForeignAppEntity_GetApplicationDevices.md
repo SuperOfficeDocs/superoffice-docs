@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 02 Aug 2016 13:13:31 G8T
+Last-Modified: Fri, 14 Dec 2007 12:01:32 G12T
 
 [
   {
-    "ForeignDeviceId": 968,
-    "Name": "Oberbrunner, Beahan and Larkin",
-    "CreatedDate": "2007-05-06T13:13:31.7457296+02:00",
-    "UpdatedDate": "2016-08-02T13:13:31.7457296+02:00",
-    "AssociateFullName": "Jerrod Brekke",
-    "CreatedBy": "ut",
-    "UpdatedBy": "eius",
-    "DeviceIdentifier": "quos",
-    "ForeignAppId": 383,
+    "ForeignDeviceId": 734,
+    "Name": "Marvin-Schaefer",
+    "CreatedDate": "2003-09-24T12:01:32.9175621+02:00",
+    "UpdatedDate": "2007-12-14T12:01:32.9175621+01:00",
+    "AssociateFullName": "Whitney Lynch",
+    "CreatedBy": "dicta",
+    "UpdatedBy": "sed",
+    "DeviceIdentifier": "modi",
+    "ForeignAppId": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 136
       }
     }
   }

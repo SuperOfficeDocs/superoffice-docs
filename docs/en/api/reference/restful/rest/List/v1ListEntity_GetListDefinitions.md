@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Herman Group",
-    "Tooltip": "in",
+    "Id": 352,
+    "Name": "Beahan Inc and Sons",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 343,
+    "Rank": 751,
     "IsCustomList": false,
-    "IsMDOList": false,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "sint",
+    "ListType": "veniam",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 968
       }
     }
   }

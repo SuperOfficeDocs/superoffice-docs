@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 178,
-  "TemplateName": "Will-Welch",
+  "SelectionId": 729,
+  "TemplateName": "Lehner Group",
   "UseContacts": false
 }
 ```

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/ExpandText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "sunt",
-  "PercentBigger": 816,
-  "IsoLangCode": "qui"
+  "Text": "qui",
+  "PercentBigger": 536,
+  "IsoLangCode": "esse"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"recusandae"
+"voluptate"
 ```

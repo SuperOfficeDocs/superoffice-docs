@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 817,
-  "Name": "Heaney, Walsh and Quitzon",
+  "ScreenChooserId": 772,
+  "Name": "Oberbrunner Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptate",
-  "Source": "vel",
-  "Registered": "2014-02-21T13:13:32.5111102+01:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2011-03-10T13:13:32.5111102+01:00",
-  "UpdatedAssociateId": 908,
+  "Enabled": true,
+  "UniqueIdentifier": "quia",
+  "Source": "beatae",
+  "Registered": "2024-09-09T12:01:33.2925881+02:00",
+  "RegisteredAssociateId": 762,
+  "Updated": "2014-09-18T12:01:33.2925881+02:00",
+  "UpdatedAssociateId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Kunze LLC",
-    "ToolTip": "Id iure aut animi impedit explicabo.",
-    "Deleted": true,
-    "Rank": 737,
-    "Type": "atque",
-    "ColorBlock": 911,
-    "IconHint": "accusamus",
+    "Id": 684,
+    "Name": "Hammes Inc and Sons",
+    "ToolTip": "Facere fugiat eligendi autem sed at.",
+    "Deleted": false,
+    "Rank": 436,
+    "Type": "ea",
+    "ColorBlock": 450,
+    "IconHint": "reiciendis",
     "Selected": true,
-    "LastChanged": "2012-06-10T13:13:32.839316+02:00",
+    "LastChanged": "2004-05-05T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Sawayn-Hoppe",
-        "ToolTip": "Quasi ipsa possimus velit.",
-        "Deleted": false,
-        "Rank": 852,
-        "Type": "voluptas",
-        "ColorBlock": 943,
-        "IconHint": "eligendi",
+        "Id": 8,
+        "Name": "Jerde LLC",
+        "ToolTip": "Et consequatur.",
+        "Deleted": true,
+        "Rank": 453,
+        "Type": "itaque",
+        "ColorBlock": 350,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2005-01-20T13:13:32.839316+01:00",
+        "LastChanged": "2002-10-26T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Ms. Sarai Homenick",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Tyreek Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 165
+            "FieldType": "System.Int32",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Rossie Harvey",
+    "ExtraInfo": "quod",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Quentin Kihn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldLength": 462
       }
     }
   }

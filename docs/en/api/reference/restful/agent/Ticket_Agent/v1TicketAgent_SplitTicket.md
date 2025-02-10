@@ -136,16 +136,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 956,
-  "SourceTicketEntityStatusId": 204,
-  "SourceTicketEntityActivate": "2023-02-25T13:13:24.3215767+01:00",
+  "SourceTicketEntityId": 283,
+  "SourceTicketEntityStatusId": 590,
+  "SourceTicketEntityActivate": "2012-03-14T12:01:28.5097066+01:00",
   "TransferMessageIds": [
-    901,
-    930
+    605,
+    154
   ],
   "NewTicketEntity": null
 }
@@ -158,21 +158,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 26,
-  "Title": "vitae",
-  "CreatedAt": "2011-02-20T13:13:24.3215767+01:00",
-  "LastChanged": "2011-02-24T13:13:24.3215767+01:00",
-  "ReadByOwner": "2023-02-03T13:13:24.3215767+01:00",
-  "ReadByCustomer": "2009-08-31T13:13:24.3215767+02:00",
-  "FirstReadByOwner": "2015-05-18T13:13:24.3215767+02:00",
-  "FirstReadByUser": "2002-09-24T13:13:24.3215767+02:00",
-  "Activate": "2004-07-14T13:13:24.3215767+02:00",
-  "ClosedAt": "2003-08-14T13:13:24.3215767+02:00",
-  "RepliedAt": "2007-06-23T13:13:24.3215767+02:00",
-  "AlertTimeout": "2023-07-30T13:13:24.3215767+02:00",
-  "Deadline": "2018-11-17T13:13:24.3215767+01:00",
+  "TicketId": 166,
+  "Title": "id",
+  "CreatedAt": "2021-04-29T12:01:28.5097066+02:00",
+  "LastChanged": "1999-08-01T12:01:28.5097066+02:00",
+  "ReadByOwner": "2020-12-18T12:01:28.5097066+01:00",
+  "ReadByCustomer": "2015-03-12T12:01:28.5097066+01:00",
+  "FirstReadByOwner": "2021-02-22T12:01:28.5097066+01:00",
+  "FirstReadByUser": "2007-06-23T12:01:28.5097066+02:00",
+  "Activate": "2000-01-03T12:01:28.5097066+01:00",
+  "ClosedAt": "2009-08-15T12:01:28.5097066+02:00",
+  "RepliedAt": "2007-06-03T12:01:28.5097066+02:00",
+  "AlertTimeout": "2018-06-12T12:01:28.5097066+02:00",
+  "Deadline": "2018-07-17T12:01:28.5097066+02:00",
   "CreatedBy": null,
-  "Author": "fugiat",
+  "Author": "qui",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -183,162 +183,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "non",
-      "PersonId": 800,
-      "Mrmrs": "voluptatibus",
-      "Firstname": "Conrad",
-      "Lastname": "Ryan",
-      "MiddleName": "Schroeder Group",
-      "Title": "consequuntur",
-      "Description": "Organized reciprocal service-desk",
-      "Email": "jo_feest@hamillauer.biz",
-      "FullName": "Prof. Jessie Cathrine Cormier V",
-      "DirectPhone": "1-312-319-4014",
-      "FormalName": "Christiansen Inc and Sons",
-      "CountryId": 592,
-      "ContactId": 438,
-      "ContactName": "Hane, Muller and Gerhold",
-      "Retired": 265,
-      "Rank": 36,
-      "ActiveInterests": 475,
+      "Position": "dolorem",
+      "PersonId": 277,
+      "Mrmrs": "consequuntur",
+      "Firstname": "Mason",
+      "Lastname": "Johnston",
+      "MiddleName": "Hermann, Johnson and Steuber",
+      "Title": "praesentium",
+      "Description": "Profound cohesive contingency",
+      "Email": "destinee@fadel.name",
+      "FullName": "Miss Lura Rolfson",
+      "DirectPhone": "1-939-464-3122",
+      "FormalName": "Bogan Group",
+      "CountryId": 243,
+      "ContactId": 820,
+      "ContactName": "Carroll, Kohler and Rosenbaum",
+      "Retired": 672,
+      "Rank": 626,
+      "ActiveInterests": 316,
       "ContactDepartment": "",
-      "ContactCountryId": 379,
-      "ContactOrgNr": "624482",
-      "FaxPhone": "883-550-7216 x7339",
-      "MobilePhone": "(355)788-8981",
-      "ContactPhone": "(570)613-9898",
-      "AssociateName": "Donnelly, Kuhic and Krajcik",
-      "AssociateId": 301,
+      "ContactCountryId": 787,
+      "ContactOrgNr": "823464",
+      "FaxPhone": "339.832.6381 x9801",
+      "MobilePhone": "(672)532-4261 x723",
+      "ContactPhone": "845.423.6183",
+      "AssociateName": "Hartmann Inc and Sons",
+      "AssociateId": 760,
       "UsePersonAddress": true,
       "ContactFax": "et",
-      "Kanafname": "alias",
-      "Kanalname": "laboriosam",
-      "Post1": "nemo",
-      "Post2": "cum",
-      "Post3": "et",
-      "EmailName": "concepcion.koelpin@satterfield.co.uk",
-      "ContactFullName": "Magdalen Parker IV",
-      "ActiveErpLinks": 731,
-      "TicketPriorityId": 741,
-      "SupportLanguageId": 916,
-      "SupportAssociateId": 306,
+      "Kanafname": "vel",
+      "Kanalname": "voluptatem",
+      "Post1": "cupiditate",
+      "Post2": "quia",
+      "Post3": "impedit",
+      "EmailName": "damien.prohaska@hagenes.co.uk",
+      "ContactFullName": "Max Bailey V",
+      "ActiveErpLinks": 848,
+      "TicketPriorityId": 801,
+      "SupportLanguageId": 508,
+      "SupportAssociateId": 470,
       "CategoryName": "VIP Customer",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
-        }
-      }
-    }
-  ],
-  "AlertLevel": 330,
-  "ConnectId": 195,
-  "ReadStatus": "Green",
-  "TimeToReply": 958,
-  "RealTimeToReply": 693,
-  "TimeToClose": 407,
-  "RealTimeToClose": 982,
-  "TimeSpentInternally": 965,
-  "TimeSpentExternally": 796,
-  "TimeSpentQueue": 173,
-  "RealTimeSpentInternally": 211,
-  "RealTimeSpentExternally": 285,
-  "RealTimeSpentQueue": 215,
-  "TimeSpent": 769,
-  "HasAttachment": false,
-  "NumReplies": 692,
-  "NumMessages": 350,
-  "FromAddress": "aut",
-  "Messages": [
-    {
-      "TicketMessageId": 819,
-      "CreatedAt": "2004-02-22T13:13:24.3372006+01:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "nostrum",
-      "PersonId": 226,
-      "PersonFullName": "Imelda Lexie Connelly Jr.",
-      "ContactId": 354,
-      "ContactName": "Weissnat, Ruecker and Grant",
-      "ContactDepartment": "",
-      "NumAttachments": 566,
-      "EmailHeader": "gene_schneider@schmeler.info",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "laborum",
-      "Sentiment": 322,
-      "SentimentConfidence": 214,
-      "CreatedBy": 738,
-      "ChangedAt": "2012-03-27T13:13:24.3372006+02:00",
-      "Badge": "Comment",
+      "PersonNumber": "1099812",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldLength": 298
+        }
+      }
+    }
+  ],
+  "AlertLevel": 560,
+  "ConnectId": 327,
+  "ReadStatus": "Green",
+  "TimeToReply": 190,
+  "RealTimeToReply": 337,
+  "TimeToClose": 550,
+  "RealTimeToClose": 240,
+  "TimeSpentInternally": 153,
+  "TimeSpentExternally": 34,
+  "TimeSpentQueue": 924,
+  "RealTimeSpentInternally": 204,
+  "RealTimeSpentExternally": 630,
+  "RealTimeSpentQueue": 886,
+  "TimeSpent": 348,
+  "HasAttachment": false,
+  "NumReplies": 256,
+  "NumMessages": 93,
+  "FromAddress": "corrupti",
+  "Messages": [
+    {
+      "TicketMessageId": 142,
+      "CreatedAt": "2003-03-28T12:01:28.5097066+01:00",
+      "Slevel": "External",
+      "Important": true,
+      "Author": "nemo",
+      "PersonId": 888,
+      "PersonFullName": "Mr. Brionna Delores Roob",
+      "ContactId": 621,
+      "ContactName": "McKenzie, Kiehn and O'Kon",
+      "ContactDepartment": "",
+      "NumAttachments": 996,
+      "EmailHeader": "nellie_blanda@stroman.uk",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "illo",
+      "Sentiment": 559,
+      "SentimentConfidence": 895,
+      "CreatedBy": 773,
+      "ChangedAt": "2009-11-26T12:01:28.5097066+01:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 491,
-      "Name": "Gulgowski, Heidenreich and Steuber",
-      "ToolTip": "Et nobis similique.",
+      "Id": 16,
+      "Name": "Prosacco-Anderson",
+      "ToolTip": "Sint reprehenderit est qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldType": "System.Int32",
+          "FieldLength": 570
         }
       }
     },
     {
-      "Id": 491,
-      "Name": "Gulgowski, Heidenreich and Steuber",
-      "ToolTip": "Et nobis similique.",
+      "Id": 16,
+      "Name": "Prosacco-Anderson",
+      "ToolTip": "Sint reprehenderit est qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldType": "System.Int32",
+          "FieldLength": 570
         }
       }
     }
   ],
-  "Language": "est",
-  "Sentiment": 957,
-  "SentimentConfidence": 372,
-  "SuggestedCategoryId": 435,
+  "Language": "ea",
+  "Sentiment": 974,
+  "SentimentConfidence": 170,
+  "SuggestedCategoryId": 98,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 773,
-  "IconHint": "illo",
+  "OrigHumanCategoryId": 581,
+  "IconHint": "sit",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 422,
+  "ActiveStatusMonitorId": 226,
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "dolores"
+    "CustomFields1": "omnis",
+    "CustomFields2": "repellendus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 969
     }
   }
 }

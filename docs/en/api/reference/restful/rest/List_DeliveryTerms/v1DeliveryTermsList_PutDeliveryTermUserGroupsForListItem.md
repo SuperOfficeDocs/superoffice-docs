@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Heller, Hartmann and Parker",
-    "ToolTip": "Exercitationem ut et.",
+    "Id": 839,
+    "Name": "Goodwin, Harber and Dietrich",
+    "ToolTip": "Enim sed amet vel.",
     "Deleted": false,
-    "Rank": 895,
-    "Type": "asperiores",
-    "ColorBlock": 913,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "1999-04-16T13:13:33.042395+02:00",
+    "Rank": 398,
+    "Type": "impedit",
+    "ColorBlock": 595,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2014-03-11T12:01:33.495727+01:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Rerum et.",
-        "Deleted": false,
-        "Rank": 905,
-        "Type": "saepe",
-        "ColorBlock": 462,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2022-08-01T13:13:33.042395+02:00",
+        "Id": 347,
+        "Name": "Stark-Littel",
+        "ToolTip": "Illum sint enim.",
+        "Deleted": true,
+        "Rank": 794,
+        "Type": "voluptatem",
+        "ColorBlock": 933,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "2002-05-25T12:01:33.495727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "hic",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Yasmin Boyle DDS"
+        "FullName": "Eliezer Bahringer"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Prof. Kitty Marcus Kris III"
+    "ExtraInfo": "aliquam",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Lavon Bruen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Grimes-Heller",
-    "ToolTip": "Qui perferendis laborum occaecati ex facilis sunt unde.",
-    "Deleted": false,
-    "Rank": 753,
-    "Type": "doloribus",
-    "ColorBlock": 605,
+    "Id": 557,
+    "Name": "Swift, Ledner and Corkery",
+    "ToolTip": "Consequatur quod voluptatem eum.",
+    "Deleted": true,
+    "Rank": 272,
+    "Type": "cupiditate",
+    "ColorBlock": 414,
     "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2006-11-13T13:13:33.042395+01:00",
+    "Selected": false,
+    "LastChanged": "2018-09-08T12:01:33.495727+02:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Rolfson Inc and Sons",
-        "ToolTip": "Minima voluptate maxime non.",
-        "Deleted": false,
-        "Rank": 95,
-        "Type": "asperiores",
-        "ColorBlock": 350,
-        "IconHint": "officiis",
+        "Id": 708,
+        "Name": "Spencer, Cruickshank and Morissette",
+        "ToolTip": "Quia magni et.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "repudiandae",
+        "ColorBlock": 791,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2021-10-25T13:13:33.042395+02:00",
+        "LastChanged": "2021-12-30T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Jules Corwin",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Orrin Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldType": "System.Int32",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Oscar Cassie Flatley II",
+    "ExtraInfo": "delectus",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Kacey Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 544
       }
     }
   }

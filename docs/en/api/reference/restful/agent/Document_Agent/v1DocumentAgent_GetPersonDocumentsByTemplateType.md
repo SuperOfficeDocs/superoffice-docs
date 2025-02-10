@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 532,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2010-04-30T13:13:22.6188095+02:00",
-  "EndTime": "1998-03-13T13:13:22.6188095+01:00",
-  "Count": 351,
-  "DocumentTemplateId": 434
+  "PersonId": 261,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-01-10T12:01:27.5877684+01:00",
+  "EndTime": "2018-10-25T12:01:27.5877684+02:00",
+  "Count": 886,
+  "DocumentTemplateId": 855
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 903,
-    "Attention": "consequatur",
-    "Header": "beatae",
-    "Name": "Dickinson, Lubowitz and Ernser",
-    "OurRef": "architecto",
-    "YourRef": "et",
-    "Description": "Cloned bottom-line adapter",
-    "DocumentTemplate": "a",
+    "DocumentId": 148,
+    "Attention": "illum",
+    "Header": "mollitia",
+    "Name": "Cassin-Rolfson",
+    "OurRef": "eaque",
+    "YourRef": "quibusdam",
+    "Description": "Reactive transitional encoding",
+    "DocumentTemplate": "quam",
     "IsPublished": true,
-    "PersonId": 963,
-    "PersonFullName": "Karianne Gutmann",
-    "AssociateFullName": "Carmen Jerde",
-    "ContactId": 807,
-    "ContactName": "Crona, Vandervort and Wehner",
-    "ProjectId": 254,
-    "ProjectName": "Kautzer-Baumbach",
-    "AssociateId": 847,
-    "Snum": 676,
-    "SaleId": 395,
-    "SaleName": "Ebert, McLaughlin and Cormier",
+    "PersonId": 274,
+    "PersonFullName": "Rhett Turcotte",
+    "AssociateFullName": "Prof. Else Teagan Jones",
+    "ContactId": 862,
+    "ContactName": "Lesch LLC",
+    "ProjectId": 493,
+    "ProjectName": "McLaughlin Inc and Sons",
+    "AssociateId": 556,
+    "Snum": 858,
+    "SaleId": 177,
+    "SaleName": "Rosenbaum-Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 950
       }
     }
   }

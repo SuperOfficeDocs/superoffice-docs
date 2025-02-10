@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Raynor Inc and Sons",
-  "Tooltip": "molestiae",
+  "Id": 936,
+  "Name": "Parisian-Kassulke",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "UdListDefinitionId": 212,
-  "Rank": 673
+  "UdListDefinitionId": 321,
+  "Rank": 264
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Little-Kulas",
-  "Tooltip": "est",
+  "Id": 251,
+  "Name": "Bradtke-Zulauf",
+  "Tooltip": "natus",
   "Deleted": true,
-  "UdListDefinitionId": 425,
-  "Rank": 351,
+  "UdListDefinitionId": 655,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

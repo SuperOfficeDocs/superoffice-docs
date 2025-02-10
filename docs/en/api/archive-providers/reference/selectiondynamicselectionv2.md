@@ -83,7 +83,7 @@ Selection selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionV2?$select=selectionAssociate/role,selectionAssociate/locationAddress,lastLoadedByFullName
+GET /api/v1/archive/SelectionDynamicSelectionV2?$select=memberCount,selectionAssociate/credentialDisplayValue,lastLoadedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

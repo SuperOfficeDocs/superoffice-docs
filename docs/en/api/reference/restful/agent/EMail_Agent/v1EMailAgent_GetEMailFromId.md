@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 550,
+  "MessageServerId": 112,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": true
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 38,
-      "ContactName": "Kiehn LLC",
-      "PersonId": 672,
-      "PersonName": "Crona, Rogahn and Yost",
-      "AssociateId": 992,
-      "Address": "veniam",
-      "EmailId": 402,
+      "ContactId": 430,
+      "ContactName": "Batz, Harvey and Kassulke",
+      "PersonId": 81,
+      "PersonName": "Breitenberg Inc and Sons",
+      "AssociateId": 232,
+      "Address": "aut",
+      "EmailId": 909,
       "DuplicatePersonIds": [
-        571,
-        395
+        88,
+        11
       ],
-      "Name": "Kemmer-Heidenreich",
+      "Name": "Romaguera, Fadel and Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 201,
-      "ContactName": "Quitzon-Nicolas",
-      "PersonId": 58,
-      "PersonName": "Turcotte-Koepp",
-      "AssociateId": 567,
-      "Address": "dolor",
-      "EmailId": 540,
+      "ContactId": 631,
+      "ContactName": "Schowalter-Abbott",
+      "PersonId": 967,
+      "PersonName": "Kertzmann Group",
+      "AssociateId": 987,
+      "Address": "excepturi",
+      "EmailId": 105,
       "DuplicatePersonIds": [
-        162,
-        447
+        314,
+        891
       ],
-      "Name": "Bergstrom-Ferry",
+      "Name": "Nikolaus-Beatty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 366
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 950,
-      "ContactName": "Johnson-Reinger",
-      "PersonId": 276,
-      "PersonName": "Paucek LLC",
-      "AssociateId": 466,
-      "Address": "sed",
-      "EmailId": 756,
+      "ContactId": 381,
+      "ContactName": "Marks LLC",
+      "PersonId": 551,
+      "PersonName": "Mills, Zulauf and Schamberger",
+      "AssociateId": 304,
+      "Address": "nihil",
+      "EmailId": 900,
       "DuplicatePersonIds": [
-        541,
-        721
+        653,
+        363
       ],
-      "Name": "Zemlak LLC",
+      "Name": "Gerlach Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldLength": 341
         }
       }
     }
   ],
-  "Subject": "sapiente",
-  "HTMLBody": "voluptates",
+  "Subject": "ut",
+  "HTMLBody": "dicta",
   "From": null,
-  "Sent": "2014-04-23T13:13:23.0396028+02:00",
-  "Size": 41,
+  "Sent": "2020-12-09T12:01:27.8377848+01:00",
+  "Size": 986,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "reiciendis",
-  "PlainBody": "id",
+  "PlainBody": "qui",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 230,
+  "ServerId": 694,
   "Attachments": [
     {
-      "Description": "Business-focused fault-tolerant instruction set",
-      "Filename": "aut",
-      "Size": 585,
-      "Type": "odit",
-      "Encoding": "repudiandae",
-      "Id": "atque",
-      "Disposition": "delectus",
+      "Description": "Organic tangible projection",
+      "Filename": "et",
+      "Size": 214,
+      "Type": "quas",
+      "Encoding": "accusantium",
+      "Id": "asperiores",
+      "Disposition": "qui",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Trantow Group",
+      "Name": "Heathcote-Willms",
       "Values": [
-        "possimus",
-        "cumque"
+        "sunt",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 150
         }
       }
     },
     {
-      "Name": "Trantow Group",
+      "Name": "Heathcote-Willms",
       "Values": [
-        "possimus",
-        "cumque"
+        "sunt",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 150
         }
       }
     }
   ],
-  "FolderName": "Zboncak, Moen and Wiegand",
-  "EmailItemId": 452,
-  "AccountId": 687,
-  "ReceivedAt": "2021-10-30T13:13:23.0396028+02:00",
+  "FolderName": "Schowalter LLC",
+  "EmailItemId": 919,
+  "AccountId": 115,
+  "ReceivedAt": "2009-06-18T12:01:27.8377848+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-08-19T13:13:23.0396028+02:00",
+  "RepliedAt": "2017-01-07T12:01:27.8377848+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 929,
-  "ModuleOwner": "sequi"
+  "AssociateId": 753,
+  "ModuleOwner": "quae"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 234,
-    "Tooltip": "fugit",
-    "CanAssign": false,
-    "Free": 358,
-    "InUse": 66,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 337,
-    "Name": "Homenick, Zulauf and Murazik",
-    "Description": "Phased upward-trending definition",
-    "PrerequisiteModuleName": "Schinner, Leannon and Wunsch",
-    "SortOrder": 377,
-    "ExtraFlags": 940,
+    "Unrestricted": false,
+    "Total": 616,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 870,
+    "InUse": 901,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 285,
+    "Name": "Frami Group",
+    "Description": "Automated demand-driven analyzer",
+    "PrerequisiteModuleName": "Marvin, Dickinson and Sporer",
+    "SortOrder": 872,
+    "ExtraFlags": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

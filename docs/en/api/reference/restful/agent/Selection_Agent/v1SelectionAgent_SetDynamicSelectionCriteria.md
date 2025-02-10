@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 554,
+  "SelectionId": 418,
   "Criteria": [
     {
-      "Name": "Boehm, Bashirian and Crooks",
-      "Operator": "facere",
+      "Name": "Rodriguez, Reichel and Moen",
+      "Operator": "eveniet",
       "Values": [
-        "sit",
-        "fugiat"
+        "officiis",
+        "sed"
       ],
       "DisplayValues": [
-        "nam",
-        "vero"
+        "sequi",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 352,
+      "InterParenthesis": 506,
       "InterOperator": "And",
-      "UniqueHash": 424
+      "UniqueHash": 836
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco, Jewess and Feeney",
-    "Operator": "impedit",
+    "Name": "Collier, Langworth and Schowalter",
+    "Operator": "qui",
     "Values": [
-      "reiciendis",
-      "numquam"
+      "hic",
+      "incidunt"
     ],
     "DisplayValues": [
-      "non",
+      "cumque",
       "in"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Walsh Group",
-        "Operator": "quisquam",
+        "Name": "Wisozk-Murazik",
+        "Operator": "molestias",
         "Values": [
           "est",
-          "maxime"
+          "ipsum"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "sed",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 132,
+        "InterParenthesis": 705,
         "InterOperator": "And",
-        "UniqueHash": 221
+        "UniqueHash": 89
       }
     ],
-    "InterParenthesis": 172,
+    "InterParenthesis": 37,
     "InterOperator": "And",
-    "UniqueHash": 563
+    "UniqueHash": 503
   }
 ]
 ```

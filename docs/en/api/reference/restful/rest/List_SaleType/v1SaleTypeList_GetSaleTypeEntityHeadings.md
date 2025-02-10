@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 393,
-    "Name": "Lakin-Hirthe",
-    "Tooltip": "vitae",
+    "HeadingId": 629,
+    "Name": "Conn, Harber and Farrell",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 988,
-    "UdListDefinitionId": 909,
+    "Rank": 667,
+    "UdListDefinitionId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

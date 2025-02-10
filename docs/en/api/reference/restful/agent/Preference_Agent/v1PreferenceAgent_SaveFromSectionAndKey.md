@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quod",
-  "Key": "dolores",
+  "Section": "sapiente",
+  "Key": "nobis",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 786,
-  "Section": "consectetur",
-  "Key": "repudiandae",
-  "Name": "Kshlerin-Schoen",
+  "PrefDescId": 426,
+  "Section": "necessitatibus",
+  "Key": "eos",
+  "Name": "Kuvalis, Heidenreich and West",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face next generation strategy",
-  "IsBuiltin": false,
-  "TableName": "Cronin, Collier and Schmitt",
-  "UserDefinedListId": 973,
-  "Rank": 344,
-  "SubGroup": "fuga",
-  "MinLevel": 218,
-  "MaxValue": 140,
-  "MinValue": 644,
-  "RequiredLicense": "corrupti",
+  "Description": "Object-based eco-centric policy",
+  "IsBuiltin": true,
+  "TableName": "Gutmann LLC",
+  "UserDefinedListId": 468,
+  "Rank": 315,
+  "SubGroup": "at",
+  "MinLevel": 827,
+  "MaxValue": 865,
+  "MinValue": 232,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

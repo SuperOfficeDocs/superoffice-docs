@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 192,
-    "Name": "Bartell, Fritsch and Kutch",
+    "TicketPriorityId": 558,
+    "Name": "Breitenberg, Eichmann and Lebsack",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 627,
+    "SortOrder": 356,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 216,
-    "MonStart": "2001-01-11T13:13:23.2113821+01:00",
-    "MonStop": "2001-01-25T13:13:23.2113821+01:00",
-    "TueStart": "2011-05-29T13:13:23.2113821+02:00",
-    "TueStop": "2009-06-28T13:13:23.2113821+02:00",
-    "WedStart": "2022-05-12T13:13:23.2113821+02:00",
-    "WedStop": "2012-09-25T13:13:23.2113821+02:00",
-    "ThuStart": "2019-07-21T13:13:23.2113821+02:00",
-    "ThuStop": "2022-01-03T13:13:23.2113821+01:00",
-    "FriStart": "2017-02-02T13:13:23.2113821+01:00",
-    "FriStop": "2010-11-13T13:13:23.2113821+01:00",
-    "SatStart": "2010-09-01T13:13:23.2113821+02:00",
-    "SatStop": "2008-03-11T13:13:23.2113821+01:00",
-    "SunStart": "2012-11-14T13:13:23.2113821+01:00",
-    "SunStop": "1998-09-27T13:13:23.2113821+02:00",
+    "Deadline": 250,
+    "MonStart": "2008-02-28T12:01:27.9159153+01:00",
+    "MonStop": "2024-08-04T12:01:27.9159153+02:00",
+    "TueStart": "2020-07-05T12:01:27.9159153+02:00",
+    "TueStop": "2001-05-30T12:01:27.9159153+02:00",
+    "WedStart": "2021-04-22T12:01:27.9159153+02:00",
+    "WedStop": "2014-07-09T12:01:27.9159153+02:00",
+    "ThuStart": "1998-04-25T12:01:27.9159153+02:00",
+    "ThuStop": "1998-02-10T12:01:27.9159153+01:00",
+    "FriStart": "2015-07-02T12:01:27.9159153+02:00",
+    "FriStop": "1999-04-14T12:01:27.9159153+02:00",
+    "SatStart": "1999-03-26T12:01:27.9159153+01:00",
+    "SatStop": "2017-03-02T12:01:27.9159153+01:00",
+    "SunStart": "2005-03-28T12:01:27.9159153+02:00",
+    "SunStop": "2021-07-22T12:01:27.9159153+02:00",
     "NonDates": [
-      "enim",
-      "officiis"
+      "veritatis",
+      "voluptas"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 673,
-        "AlertLevel": 73,
-        "AlertTimeout": 266,
-        "Action": 79,
-        "DelegateTo": 926,
-        "ScriptId": 529,
-        "EmailTo": "laurence.pouros@russelhaley.com",
-        "SmsTo": "veritatis",
-        "ReplyTemplateIdCustomer": 223,
-        "ReplyTemplateIdUser": 463,
-        "ReplyTemplateIdCatmast": 654,
-        "ReplyTemplateIdEmail": 410,
-        "RtiCustomerSms": 532,
-        "ReplyTemplateIdUserSms": 179,
-        "ReplyTemplateIdCatmastSms": 630,
-        "ReplyTemplateIdSms": 339,
+        "TicketAlertId": 847,
+        "AlertLevel": 271,
+        "AlertTimeout": 128,
+        "Action": 178,
+        "DelegateTo": 654,
+        "ScriptId": 216,
+        "EmailTo": "willy.zieme@bayer.uk",
+        "SmsTo": "necessitatibus",
+        "ReplyTemplateIdCustomer": 122,
+        "ReplyTemplateIdUser": 193,
+        "ReplyTemplateIdCatmast": 594,
+        "ReplyTemplateIdEmail": 564,
+        "RtiCustomerSms": 661,
+        "ReplyTemplateIdUserSms": 146,
+        "ReplyTemplateIdCatmastSms": 986,
+        "ReplyTemplateIdSms": 981,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 981
+            "FieldType": "System.Int32",
+            "FieldLength": 476
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

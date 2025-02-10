@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Purdy-Abbott",
-  "Comment": "nisi",
-  "StakeholderRoleId": 587,
-  "CountryId": 599,
-  "PersonId": 945,
-  "EmailDescription": "petra@kuhic.com",
-  "EmailId": 954,
-  "EmailAddress": "amparo.toy@tromp.info",
-  "PhoneId": 297,
-  "ContactName": "Mills, Hauck and Koepp",
-  "ContactId": 558,
-  "SaleId": 536,
-  "Mrmrs": "omnis",
-  "Firstname": "Milton",
-  "MiddleName": "Ebert, Fadel and D'Amore",
-  "Lastname": "Heaney",
-  "SaleStakeholderId": 481,
-  "Rank": 406,
-  "Phone": "1-151-978-7740 x9198",
+  "StakeholderRoleName": "Marquardt-King",
+  "Comment": "ea",
+  "StakeholderRoleId": 345,
+  "CountryId": 354,
+  "PersonId": 128,
+  "EmailDescription": "leonie@walker.uk",
+  "EmailId": 291,
+  "EmailAddress": "kennedi@marks.uk",
+  "PhoneId": 896,
+  "ContactName": "Reichert-Yundt",
+  "ContactId": 676,
+  "SaleId": 988,
+  "Mrmrs": "voluptate",
+  "Firstname": "Eula",
+  "MiddleName": "Leannon-Waters",
+  "Lastname": "Swaniawski",
+  "SaleStakeholderId": 421,
+  "Rank": 478,
+  "Phone": "779-203-7030 x380",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldLength": 174
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 379,
-  "FormKey": "vel",
-  "Name": "Reichert LLC",
-  "Description": "Upgradable real-time service-desk",
-  "Config": "cum",
-  "FolderId": 621,
-  "ScriptId": 20,
-  "ResponseShipmentId": 597,
-  "Active": true,
-  "Expires": "2015-02-23T13:13:23.3520388+01:00",
-  "MaxSubmits": 429,
+  "FormId": 5,
+  "FormKey": "quaerat",
+  "Name": "Von, Lemke and Ledner",
+  "Description": "Robust demand-driven interface",
+  "Config": "omnis",
+  "FolderId": 753,
+  "ScriptId": 146,
+  "ResponseShipmentId": 830,
+  "Active": false,
+  "Expires": "1998-05-22T12:01:27.9940463+02:00",
+  "MaxSubmits": 203,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 953,
+  "Recipe": "facilis",
+  "GroupId": 199,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2010-04-23T13:13:23.3520388+02:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2006-07-10T13:13:23.3520388+02:00",
-  "UpdatedAssociateId": 960,
-  "UpdatedCount": 8,
+  "Registered": "2017-01-31T12:01:27.9940463+01:00",
+  "RegisteredAssociateId": 391,
+  "Updated": "2023-09-28T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 595,
+  "UpdatedCount": 635,
   "EmailFlows": [
-    554,
-    250
+    625,
+    860
   ],
-  "FolderName": "Schoen, Bergstrom and Kris",
+  "FolderName": "Mann, Wolff and Jast",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 324
     }
   }
 }

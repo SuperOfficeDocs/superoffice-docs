@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 197,
-  "Name": "Hintz Group",
-  "Tooltip": "eum",
+  "HeadingId": 384,
+  "Name": "Fay-O'Conner",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 672,
-  "UdListDefinitionId": 835
+  "Rank": 992,
+  "UdListDefinitionId": 668
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 927,
-  "Name": "Daniel-Weissnat",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 613,
-  "UdListDefinitionId": 651,
+  "HeadingId": 79,
+  "Name": "Murray, Jewess and West",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 539,
+  "UdListDefinitionId": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

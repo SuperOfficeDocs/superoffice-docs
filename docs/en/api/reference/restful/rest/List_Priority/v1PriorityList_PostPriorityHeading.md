@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 488,
-  "Name": "West, White and Hilll",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 91,
-  "UdListDefinitionId": 862
+  "HeadingId": 336,
+  "Name": "Spinka-Reichel",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 499,
+  "UdListDefinitionId": 28
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 214,
-  "Name": "Stamm, Hermiston and Steuber",
-  "Tooltip": "et",
+  "HeadingId": 61,
+  "Name": "Veum Group",
+  "Tooltip": "ipsum",
   "Deleted": true,
-  "Rank": 54,
-  "UdListDefinitionId": 949,
+  "Rank": 430,
+  "UdListDefinitionId": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 299
     }
   }
 }

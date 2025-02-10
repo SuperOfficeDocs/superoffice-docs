@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "mollitia",
-  "ProviderName": "Hansen-Schoen",
-  "StorageKey": "incidunt",
+  "StorageType": "et",
+  "ProviderName": "Bechtelar Inc and Sons",
+  "StorageKey": "molestias",
   "RestrictionGroup": null,
-  "Context": "in"
+  "Context": "vero"
 }
 ```
 

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Nader, Halvorson and Hessel",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 220,
+  "Id": 461,
+  "Name": "Kirlin-Stiedemann",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 650,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   },
   "_Links": {

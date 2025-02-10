@@ -22,6 +22,7 @@ Download [WSDL file for Services88/Quote](../Services88-Quote.md) if you need to
 * [CopySuperOfficePriceList](CopySuperOfficePriceList.md)
 * [CreateAndSaveQuote](CreateAndSaveQuote.md)
 * [CreateAndSaveQuoteFromSale](CreateAndSaveQuoteFromSale.md)
+* [CreateAndSaveQuoteLines](CreateAndSaveQuoteLines.md)
 * [CreateAndSaveQuoteVersion](CreateAndSaveQuoteVersion.md)
 * [CreateConnectionFromConnectorName](CreateConnectionFromConnectorName.md)
 * [CreateDefaultPriceList](CreateDefaultPriceList.md)

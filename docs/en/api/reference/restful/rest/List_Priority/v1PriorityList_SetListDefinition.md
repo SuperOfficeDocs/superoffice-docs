@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 428,
-  "Name": "Powlowski Group",
-  "Tooltip": "provident",
+  "Id": 13,
+  "Name": "Dickens-Johns",
+  "Tooltip": "sapiente",
   "Deleted": true,
-  "Rank": 375,
+  "Rank": 822,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "blanditiis",
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Gutmann LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 529,
-  "IsCustomList": true,
+  "Id": 646,
+  "Name": "Anderson, Ferry and Becker",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "Rank": 869,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 567
     }
   }
 }

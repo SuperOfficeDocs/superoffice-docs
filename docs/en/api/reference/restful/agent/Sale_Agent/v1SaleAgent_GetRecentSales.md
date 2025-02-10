@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 964,
-  "Count": 547
+  "AmountLimit": 976,
+  "Count": 823
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cartwright LLC",
-    "SaleDate": "2007-03-07T13:13:23.8729256+01:00",
-    "SaleId": 403,
-    "Probability": 604,
-    "Title": "eum",
-    "Amount": 22658.82,
-    "Currency": "dolor",
-    "ProjectName": "Larson Group",
-    "AssociateFullName": "Miss Larry Lupe Pagac",
-    "Description": "Monitored context-sensitive leverage",
+    "ContactName": "Kreiger LLC",
+    "SaleDate": "2022-05-07T12:01:28.2596899+02:00",
+    "SaleId": 798,
+    "Probability": 698,
+    "Title": "amet",
+    "Amount": 880.654,
+    "Currency": "est",
+    "ProjectName": "Kohler, Hintz and Bergnaum",
+    "AssociateFullName": "Rebeca Cummings",
+    "Description": "Intuitive impactful implementation",
     "Status": "Lost",
-    "WeightedAmount": 27441.304,
-    "ProjectId": 9,
-    "EarningPercent": 30847.962,
-    "Earning": 3494.41,
-    "ContactId": 76,
-    "AssociateId": 365,
-    "PersonId": 514,
-    "SaleTypeId": 199,
-    "SaleTypeName": "Krajcik, Becker and Haag",
-    "PersonFullName": "Jayden Cartwright MD",
+    "WeightedAmount": 12420.042,
+    "ProjectId": 261,
+    "EarningPercent": 25169.154,
+    "Earning": 9420.804,
+    "ContactId": 271,
+    "AssociateId": 147,
+    "PersonId": 438,
+    "SaleTypeId": 236,
+    "SaleTypeName": "Heaney Group",
+    "PersonFullName": "Kaela Blanda",
     "Completed": "Completed",
-    "ActiveErpLinks": 114,
-    "NextDueDate": "2005-07-14T13:13:23.8729256+02:00",
-    "Number": "1085374",
+    "ActiveErpLinks": 328,
+    "NextDueDate": "2008-09-13T12:01:28.2596899+02:00",
+    "Number": "873402",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   }

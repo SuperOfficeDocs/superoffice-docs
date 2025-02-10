@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "et",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 501,
-  "Name": "Bednar LLC",
-  "Tooltip": "consequuntur",
+  "RoleId": 808,
+  "Name": "Glover, Schmitt and Mayert",
+  "Tooltip": "deserunt",
   "RoleType": "Anonymous",
-  "Deleted": 344,
-  "Rank": 764,
-  "Created": "2020-06-25T13:13:31.9956719+02:00",
-  "UseCategories": 495,
+  "Deleted": 966,
+  "Rank": 858,
+  "Created": "2021-08-18T12:01:33.0425704+02:00",
+  "UseCategories": 956,
   "CreatedBy": null,
-  "Updated": "2013-04-24T13:13:31.9956719+02:00",
+  "Updated": "2017-02-12T12:01:33.0425704+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 700
     }
   },
   "_Links": {

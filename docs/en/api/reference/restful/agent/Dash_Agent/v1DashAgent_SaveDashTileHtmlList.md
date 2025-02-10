@@ -79,15 +79,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 648,
+  "DashboardTileDefinitionId": 880,
   "Languages": [
     {
-      "LanguageCode": "aut",
-      "Html": "adipisci"
+      "LanguageCode": "omnis",
+      "Html": "rerum"
     },
     {
-      "LanguageCode": "aut",
-      "Html": "adipisci"
+      "LanguageCode": "omnis",
+      "Html": "rerum"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ratione",
-    "Html": "quos",
+    "LanguageCode": "quasi",
+    "Html": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 691
+        "FieldLength": 123
       }
     }
   },
   {
-    "LanguageCode": "ratione",
-    "Html": "quos",
+    "LanguageCode": "quasi",
+    "Html": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 691
+        "FieldLength": 123
       }
     }
   }

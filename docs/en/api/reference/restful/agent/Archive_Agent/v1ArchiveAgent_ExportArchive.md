@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wilkinson Inc and Sons",
-  "Context": "mollitia",
+  "ProviderName": "Kessler LLC",
+  "Context": "ipsam",
   "DesiredEntities": [
-    "saepe",
-    "cum"
+    "omnis",
+    "ut"
   ],
   "Columns": [
-    "voluptatem",
-    "saepe"
+    "dignissimos",
+    "quia"
   ],
   "SortOrder": [
     {
-      "Name": "Wisoky-Beahan",
+      "Name": "Robel, Grimes and Mayert",
       "Direction": "ASC"
     },
     {
-      "Name": "Wisoky-Beahan",
+      "Name": "Robel, Grimes and Mayert",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Boehm Inc and Sons",
-      "Operator": "quia",
+      "Name": "Hane, Ruecker and Weber",
+      "Operator": "aut",
       "Values": [
-        "consequatur",
-        "aut"
+        "incidunt",
+        "sunt"
       ],
       "DisplayValues": [
-        "architecto",
-        "amet"
+        "cum",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 168,
+      "InterParenthesis": 493,
       "InterOperator": "And",
-      "UniqueHash": 176
+      "UniqueHash": 226
     }
   ],
-  "ExportType": "aut",
+  "ExportType": "delectus",
   "SelectedRowIds": [
-    "in",
-    "libero"
+    "quis",
+    "quod"
   ],
-  "EstimatedRowCount": 39
+  "EstimatedRowCount": 407
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 660,
-  "FileName": "Schowalter Group",
-  "Message": "distinctio",
+  "BatchTaskId": 341,
+  "FileName": "Harvey, Welch and Schoen",
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 928
     }
   }
 }

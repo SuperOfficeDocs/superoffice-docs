@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 819,
-  "Name": "Renner, Bayer and Ledner",
-  "CreatedDate": "2011-08-09T13:13:31.7301065+02:00",
-  "UpdatedDate": "2011-04-29T13:13:31.7301065+02:00",
+  "ForeignAppId": 955,
+  "Name": "Nolan-Hand",
+  "CreatedDate": "2008-03-24T12:01:32.9019357+01:00",
+  "UpdatedDate": "2008-04-10T12:01:32.9019357+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 602,
-      "Name": "Tromp Inc and Sons",
-      "CreatedDate": "2017-01-25T13:13:31.7301065+01:00",
-      "UpdatedDate": "2009-08-10T13:13:31.7301065+02:00",
-      "AssociateFullName": "Ofelia Jast Sr.",
-      "CreatedBy": "eum",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 258,
+      "ForeignDeviceId": 119,
+      "Name": "Kertzmann, Rau and Jacobs",
+      "CreatedDate": "2000-04-08T12:01:32.9019357+02:00",
+      "UpdatedDate": "2000-09-20T12:01:32.9019357+02:00",
+      "AssociateFullName": "Dortha Jasen Shanahan Sr.",
+      "CreatedBy": "debitis",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "reprehenderit",
+      "ForeignAppId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 130
     }
   }
 }

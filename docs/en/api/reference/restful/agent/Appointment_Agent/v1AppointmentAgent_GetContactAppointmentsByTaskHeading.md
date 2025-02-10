@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 459,
-  "StartTime": "1997-11-07T13:13:21.5397229+01:00",
-  "EndTime": "2020-02-25T13:13:21.5397229+01:00",
-  "Count": 831,
-  "TaskHeadingId": 61
+  "ContactId": 672,
+  "StartTime": "2013-01-07T12:01:27.0095855+01:00",
+  "EndTime": "2002-01-06T12:01:27.0095855+01:00",
+  "Count": 683,
+  "TaskHeadingId": 213
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 336,
-    "StartDate": "2020-07-18T13:13:21.5397229+02:00",
-    "EndDate": "2013-06-18T13:13:21.5397229+02:00",
+    "AppointmentId": 803,
+    "StartDate": "2011-06-07T12:01:27.0095855+02:00",
+    "EndDate": "2022-07-23T12:01:27.0095855+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nam",
-    "AssociateFullName": "Miss Chasity Kihn II",
-    "ContactName": "Gibson, Herzog and Kuvalis",
-    "Description": "Balanced holistic matrices",
-    "PersonFullName": "Ms. Sabryna Osinski",
-    "PersonId": 862,
-    "ContactId": 41,
-    "ProjectId": 624,
-    "ProjectName": "Hermiston, Marquardt and Mohr",
+    "Task": "ipsum",
+    "AssociateFullName": "Amani McCullough",
+    "ContactName": "Christiansen-Wuckert",
+    "Description": "Adaptive well-modulated orchestration",
+    "PersonFullName": "Royal Schmeler",
+    "PersonId": 904,
+    "ContactId": 797,
+    "ProjectId": 502,
+    "ProjectName": "Larkin Group",
     "IsPublished": true,
-    "AssociateId": 496,
-    "ColorIndex": 385,
+    "AssociateId": 725,
+    "ColorIndex": 931,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 416,
-    "PriorityName": "Powlowski-Monahan",
+    "PriorityId": 64,
+    "PriorityName": "Kub-Sipes",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-09-23T13:13:21.5397229+02:00",
+    "ActiveDate": "2023-10-10T12:01:27.0095855+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-05-18T13:13:21.5397229+02:00",
-    "RecurringEndDate": "2004-03-25T13:13:21.5397229+01:00",
-    "MotherId": 196,
-    "AssignedBy": 184,
-    "AssignedByFullName": "Aliyah Efren Bradtke IV",
+    "RecurringStartDate": "1998-05-13T12:01:27.0095855+02:00",
+    "RecurringEndDate": "2012-12-13T12:01:27.0095855+01:00",
+    "MotherId": 226,
+    "AssignedBy": 762,
+    "AssignedByFullName": "Alexanne Kunze",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "consequuntur",
-    "SaleId": 635,
-    "SaleName": "Price Inc and Sons",
-    "AssociateName": "Kris, McClure and Volkman",
-    "CreatedDate": "1997-09-17T13:13:21.5397229+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Ms. Nick Hoeger Jr.",
-    "CreatedByAssociateId": 204,
+    "Location": "sunt",
+    "AlarmLeadTime": "quis",
+    "SaleId": 30,
+    "SaleName": "Fisher Inc and Sons",
+    "AssociateName": "Streich, Goldner and Jast",
+    "CreatedDate": "2024-03-12T12:01:27.0095855+01:00",
+    "CreatedBy": "velit",
+    "CreatedByFullName": "Monica Metz",
+    "CreatedByAssociateId": 27,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 485,
-    "Title": "molestiae",
-    "Agenda": "in",
-    "InternalNotes": "consectetur",
+    "PreferredTZLocation": 799,
+    "Title": "deserunt",
+    "Agenda": "deserunt",
+    "InternalNotes": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 267
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Towne-Daniel",
-    "ToolTip": "Facere fugiat est sit illo iure.",
+    "Id": 913,
+    "Name": "Schroeder Group",
+    "ToolTip": "Magnam ipsa deserunt soluta.",
     "Deleted": false,
-    "Rank": 913,
-    "Type": "quia",
-    "ColorBlock": 686,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "1998-12-17T13:13:33.4797789+01:00",
+    "Rank": 872,
+    "Type": "nulla",
+    "ColorBlock": 153,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1999-04-16T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Runte-Monahan",
-        "ToolTip": "Et officia est rerum rerum quidem excepturi.",
+        "Id": 624,
+        "Name": "Stoltenberg LLC",
+        "ToolTip": "Rem praesentium est hic.",
         "Deleted": false,
-        "Rank": 589,
-        "Type": "ut",
-        "ColorBlock": 756,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2010-08-03T13:13:33.4797789+02:00",
+        "Rank": 35,
+        "Type": "quia",
+        "ColorBlock": 825,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2024-09-30T12:01:33.6207356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Abby Watsica",
+        "ExtraInfo": "quas",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Francisca Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 637
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "totam",
+    "ExtraInfo": "sed",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Matilda Hartmann",
+    "FullName": "Prof. Earlene Wanda Kemmer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

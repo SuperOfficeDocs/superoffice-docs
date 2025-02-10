@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 528,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "ea",
-  "Name": "Grady-Volkman",
-  "Description": "Up-sized impactful matrices",
-  "Code": "itaque",
-  "PriceUnit": "rem",
-  "QuantityUnit": "consectetur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "vitae",
-  "DefaultSubscriptionQuantity": 955.87,
-  "ItemNumber": "1277503",
+  "ProductId": 462,
+  "ERPProductKey": "ea",
+  "ERPPriceListKey": "ratione",
+  "Name": "Wisozk LLC",
+  "Description": "Mandatory radical benchmark",
+  "Code": "ut",
+  "PriceUnit": "commodi",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ea",
+  "DefaultSubscriptionQuantity": 19916.57,
+  "ItemNumber": "438352",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "et",
-  "ProductTypeKey": "nobis",
-  "VAT": 24006.44,
-  "VATInfo": "pariatur",
-  "UnitCost": 8891.158,
-  "UnitMinimumPrice": 30167.884,
-  "UnitListPrice": 4133.746,
+  "ProductTypeKey": "repellat",
+  "VAT": 24793.074,
+  "VATInfo": "sit",
+  "UnitCost": 11874.725999999999,
+  "UnitMinimumPrice": 9182.619999999999,
+  "UnitListPrice": 25780.284,
   "InAssortment": false,
-  "Supplier": "porro",
-  "SupplierCode": "fuga",
-  "Rights": "dolor",
-  "Rule": "est",
+  "Supplier": "odio",
+  "SupplierCode": "dolor",
+  "Rights": "inventore",
+  "Rule": "porro",
   "ExtraInfo": [
     {
-      "Name": "Morissette-Raynor",
-      "Value": "ea",
+      "Name": "Crona, Walter and Grant",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 900
         }
       }
     },
     {
-      "Name": "Morissette-Raynor",
-      "Value": "ea",
+      "Name": "Crona, Walter and Grant",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 900
         }
       }
     }
   ],
-  "RawExtraInfo": "reprehenderit",
-  "ExtraField1": "veniam",
-  "ExtraField2": "repellat",
-  "ExtraField3": "adipisci",
-  "ExtraField4": "cumque",
-  "ExtraField5": "velit",
-  "InStock": 27798.579999999998,
+  "RawExtraInfo": "voluptate",
+  "ExtraField1": "velit",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "libero",
+  "ExtraField4": "corporis",
+  "ExtraField5": "dolor",
+  "InStock": 20054.466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 134
     }
   }
 }

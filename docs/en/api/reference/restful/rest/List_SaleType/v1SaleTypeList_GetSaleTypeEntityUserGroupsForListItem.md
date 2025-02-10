@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Rogahn-Nolan",
-    "ToolTip": "Dolore et delectus occaecati accusamus et.",
+    "Id": 907,
+    "Name": "Spinka Inc and Sons",
+    "ToolTip": "Nam animi incidunt nihil qui ad a id.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "consequatur",
-    "ColorBlock": 174,
-    "IconHint": "nihil",
+    "Rank": 172,
+    "Type": "aliquam",
+    "ColorBlock": 250,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2005-04-13T13:13:33.5735178+02:00",
+    "LastChanged": "2006-09-01T12:01:33.6519877+02:00",
     "ChildItems": [
       {
-        "Id": 632,
-        "Name": "Durgan-Langworth",
-        "ToolTip": "Ut corporis earum doloremque placeat.",
-        "Deleted": false,
-        "Rank": 310,
-        "Type": "distinctio",
-        "ColorBlock": 520,
-        "IconHint": "dicta",
+        "Id": 380,
+        "Name": "Yundt, Swaniawski and Gutkowski",
+        "ToolTip": "Aut et.",
+        "Deleted": true,
+        "Rank": 83,
+        "Type": "omnis",
+        "ColorBlock": 391,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2008-04-21T13:13:33.5735178+02:00",
+        "LastChanged": "2023-07-10T12:01:33.6519877+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "quidem",
         "Hidden": true,
-        "FullName": "Ms. Alfonzo Marilie Durgan",
+        "FullName": "Evie Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldType": "System.Int32",
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Nathanial Schowalter",
+    "ExtraInfo": "dolores",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Dr. Blake Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

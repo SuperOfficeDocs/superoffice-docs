@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 46,
-    "Name": "Berge, Ruecker and Hane",
-    "Tooltip": "sit",
+    "HeadingId": 126,
+    "Name": "Rowe, Luettgen and Feest",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 225,
-    "UdListDefinitionId": 626,
+    "Rank": 601,
+    "UdListDefinitionId": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 145
       }
     }
   }

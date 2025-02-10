@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 162,
+  "TargetYear": 116,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 298,
-  "DimensionId": 999
+  "Id": 297,
+  "DimensionId": 281
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 260,
+  "TargetAssignmentInfoId": 508,
   "Values": [
-    452,
-    130
+    387,
+    589
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 533,
-  "DimensionListItemDisplayName": "Boyle Inc and Sons",
+  "DimensionListItem": 739,
+  "DimensionListItemDisplayName": "Rath LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 321
     }
   }
 }

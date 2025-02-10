@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Marks, Lubowitz and Zemlak",
-    "Tooltip": "ducimus",
+    "HeadingId": 73,
+    "Name": "Boyer Group",
+    "Tooltip": "explicabo",
     "Deleted": true,
-    "Rank": 194,
-    "UdListDefinitionId": 275
+    "Rank": 939,
+    "UdListDefinitionId": 123
   },
   {
-    "HeadingId": 308,
-    "Name": "Marks, Lubowitz and Zemlak",
-    "Tooltip": "ducimus",
+    "HeadingId": 73,
+    "Name": "Boyer Group",
+    "Tooltip": "explicabo",
     "Deleted": true,
-    "Rank": 194,
-    "UdListDefinitionId": 275
+    "Rank": 939,
+    "UdListDefinitionId": 123
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 817,
-    "Name": "Smith Inc and Sons",
-    "Tooltip": "incidunt",
+    "HeadingId": 251,
+    "Name": "Renner-Weber",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 750,
-    "UdListDefinitionId": 80,
+    "Rank": 959,
+    "UdListDefinitionId": 256,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldLength": 444
       }
     }
   }

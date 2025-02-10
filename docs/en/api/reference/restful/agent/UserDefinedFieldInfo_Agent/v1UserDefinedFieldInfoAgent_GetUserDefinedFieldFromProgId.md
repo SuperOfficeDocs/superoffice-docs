@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "veritatis",
+  "ProgId": "nihil",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 19,
-  "FieldDefault": "et",
-  "FieldHeight": 713,
-  "FieldLabel": "non",
-  "FieldLeft": 894,
-  "FieldTop": 952,
+  "UDefFieldId": 418,
+  "ColumnId": 147,
+  "FieldDefault": "quia",
+  "FieldHeight": 986,
+  "FieldLabel": "magnam",
+  "FieldLeft": 724,
+  "FieldTop": 108,
   "FieldType": "Checkbox",
-  "FieldWidth": 665,
-  "FormatMask": "molestias",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 138,
-  "LabelLeft": 622,
-  "LabelTop": 214,
-  "LabelWidth": 785,
-  "LastVersionId": 937,
-  "ListTableId": 386,
+  "FieldWidth": 853,
+  "FormatMask": "fugit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 168,
+  "LabelLeft": 566,
+  "LabelTop": 74,
+  "LabelWidth": 740,
+  "LastVersionId": 218,
+  "ListTableId": 763,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 76,
-  "ProgId": "aliquid",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 366,
-  "TextLength": 807,
-  "Tooltip": "maiores",
-  "UdefIdentity": 686,
-  "UDListDefinitionId": 663,
+  "Page1LineNo": 126,
+  "ProgId": "quas",
+  "IsReadOnly": true,
+  "ShortLabel": "reiciendis",
+  "TabOrder": 484,
+  "TextLength": 357,
+  "Tooltip": "nesciunt",
+  "UdefIdentity": 455,
+  "UDListDefinitionId": 460,
   "Justification": "Center",
-  "Version": 260,
-  "TemplateVariableName": "Bayer-Klocko",
+  "Version": 752,
+  "TemplateVariableName": "Mann, Altenwerth and Feeney",
   "HasBeenPublished": false,
-  "MdoListName": "Balistreri Inc and Sons",
+  "MdoListName": "Ward, Spencer and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

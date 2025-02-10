@@ -26,7 +26,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=667
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=615
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -87,14 +87,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 561,
-  "Name": "Bergstrom, Price and Waters",
-  "Tooltip": "dolores",
-  "Rank": 656,
-  "DoctmplId": 580,
-  "Header": "qui",
-  "OurRef": "et",
-  "Deleted": false,
+  "SuggestedDocumentId": 334,
+  "Name": "Schultz Inc and Sons",
+  "Tooltip": "accusantium",
+  "Rank": 850,
+  "DoctmplId": 900,
+  "Header": "tempora",
+  "OurRef": "doloribus",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

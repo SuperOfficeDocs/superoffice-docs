@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/Person/CreateTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 901,
-  "PersonId": 371,
-  "Expires": "2007-10-27T13:13:23.5238729+02:00"
+  "TargetId": 855,
+  "PersonId": 894,
+  "Expires": "2011-05-25T12:01:28.0878022+02:00"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"suscipit"
 ```

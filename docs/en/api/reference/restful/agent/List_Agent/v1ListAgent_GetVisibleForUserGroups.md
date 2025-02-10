@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 6,
-  "ListItemId": 100
+  "UdListDefinitionId": 333,
+  "ListItemId": 454
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Goodwin-Hettinger",
-    "ToolTip": "Dolorem voluptate veniam nisi esse nihil delectus.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "sint",
-    "ColorBlock": 233,
-    "IconHint": "quo",
+    "Id": 430,
+    "Name": "O'Hara-Hilll",
+    "ToolTip": "In sit officiis.",
+    "Deleted": false,
+    "Rank": 714,
+    "Type": "necessitatibus",
+    "ColorBlock": 656,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2019-10-12T13:13:23.2426833+02:00",
+    "LastChanged": "2012-04-20T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Bartell, Daniel and Hermiston",
-        "ToolTip": "Similique rem quos id.",
+        "Id": 746,
+        "Name": "Altenwerth Group",
+        "ToolTip": "Iure odio.",
         "Deleted": false,
-        "Rank": 554,
-        "Type": "ratione",
-        "ColorBlock": 243,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2012-09-28T13:13:23.2426833+02:00",
+        "Rank": 810,
+        "Type": "at",
+        "ColorBlock": 631,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2020-11-28T12:01:27.9471677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Otis Hane",
+        "FullName": "Mrs. Marcelle Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 332
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Gregorio Kreiger",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "placeat",
+    "Hidden": true,
+    "FullName": "Emilie Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

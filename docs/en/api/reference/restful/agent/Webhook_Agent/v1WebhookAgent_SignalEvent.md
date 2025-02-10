@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Keebler, Herman and Rempel",
-  "PrimaryKey": 240,
+  "EventName": "Stroman Group",
+  "PrimaryKey": 872,
   "Data": {
     "fieldName": {}
   }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 195,
-  "Name": "Aufderhar-Dach",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 368,
-  "UdListDefinitionId": 624
+  "HeadingId": 398,
+  "Name": "Turcotte, Ratke and Osinski",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 698,
+  "UdListDefinitionId": 570
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 705,
-  "Name": "Daugherty-Reilly",
-  "Tooltip": "aliquam",
+  "HeadingId": 316,
+  "Name": "Jewess, Krajcik and Kreiger",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 49,
-  "UdListDefinitionId": 675,
+  "Rank": 799,
+  "UdListDefinitionId": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 763
     }
   }
 }

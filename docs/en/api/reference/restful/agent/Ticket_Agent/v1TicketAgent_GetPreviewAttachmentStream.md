@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 677
+  "AttachmentId": 612
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Armstrong Inc and Sons",
-  "Type": "ut",
-  "Size": 303,
+  "Name": "Langworth LLC",
+  "Type": "veritatis",
+  "Size": 98,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

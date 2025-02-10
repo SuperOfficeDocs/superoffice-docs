@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 711,
-  "Name": "Langosh-Pfeffer",
-  "Description": "Secured discrete hub",
-  "DefaultHeight": 902,
-  "DefaultWidth": 390,
+  "DashboardTileDefinitionId": 855,
+  "Name": "Morissette-Von",
+  "Description": "Profit-focused 3rd generation array",
+  "DefaultHeight": 162,
+  "DefaultWidth": 637,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Daugherty-Lesch",
-  "SelectionId": 577,
+  "EntityName": "Hilpert-Beatty",
+  "SelectionId": 900,
   "CurrencyMode": "Base",
-  "CurrencyCode": "esse",
+  "CurrencyCode": "porro",
   "Measure": "Average",
-  "MeasureField": "explicabo",
-  "SortBy": "exercitationem",
-  "LayoutConfig": "rerum",
-  "SecondarySelectionId": 473,
-  "MeasureByField": "corporis",
+  "MeasureField": "laborum",
+  "SortBy": "et",
+  "LayoutConfig": "reprehenderit",
+  "SecondarySelectionId": 309,
+  "MeasureByField": "ipsum",
   "Usage": "Dashboard",
-  "ProviderName": "Nolan Group",
+  "ProviderName": "Considine, Stokes and Toy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

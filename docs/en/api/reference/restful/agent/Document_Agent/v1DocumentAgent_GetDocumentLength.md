@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 10,
-  "VersionId": "et"
+  "DocumentId": 505,
+  "VersionId": "facere"
 }
 ```
 

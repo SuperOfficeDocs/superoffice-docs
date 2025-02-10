@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schroeder-Hyatt"
+  "ParameterName": "Borer Group"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 36,
-  "Name": "Brakus Group",
-  "Value": "necessitatibus",
-  "CreatedDate": "2010-07-10T13:13:22.1177118+02:00",
-  "UpdatedDate": "2000-10-16T13:13:22.1177118+02:00",
-  "CreatedBy": "laborum",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 71,
+  "Name": "Botsford-Herman",
+  "Value": "hic",
+  "CreatedDate": "2019-04-16T12:01:27.3377499+02:00",
+  "UpdatedDate": "2016-05-04T12:01:27.3377499+02:00",
+  "CreatedBy": "aut",
+  "UpdatedBy": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldLength": 215
     }
   }
 }

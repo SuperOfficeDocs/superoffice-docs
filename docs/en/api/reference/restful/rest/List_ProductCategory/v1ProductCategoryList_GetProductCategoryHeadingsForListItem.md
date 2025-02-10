@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Schuppe, Quitzon and Murazik",
-    "ToolTip": "Voluptate deleniti doloribus.",
+    "Id": 385,
+    "Name": "Schuppe, Feest and Rau",
+    "ToolTip": "Dolorem deleniti deleniti earum in doloribus aperiam.",
     "Deleted": false,
-    "Rank": 354,
-    "Type": "nostrum",
-    "ColorBlock": 301,
-    "IconHint": "hic",
-    "Selected": false,
-    "LastChanged": "2005-01-30T13:13:33.3079559+01:00",
+    "Rank": 603,
+    "Type": "qui",
+    "ColorBlock": 367,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2025-01-02T12:01:33.5738574+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Herman Group",
-        "ToolTip": "Quibusdam nihil dolorem rerum.",
-        "Deleted": false,
-        "Rank": 350,
-        "Type": "natus",
-        "ColorBlock": 695,
-        "IconHint": "officia",
-        "Selected": true,
-        "LastChanged": "2009-04-03T13:13:33.3079559+02:00",
+        "Id": 87,
+        "Name": "Barrows, Dooley and Bednar",
+        "ToolTip": "Cumque quo est velit ut.",
+        "Deleted": true,
+        "Rank": 477,
+        "Type": "veritatis",
+        "ColorBlock": 361,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2023-05-04T12:01:33.5738574+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Shanel Gleichner",
+        "ExtraInfo": "quis",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Dr. Eliezer Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 942
+            "FieldType": "System.Int32",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Filiberto Lindgren",
+    "ExtraInfo": "delectus",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Waino Lambert Schmeler Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldType": "System.Int32",
+        "FieldLength": 723
       }
     }
   }

@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 650
+  "AppointmentId": 177
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 991,
-  "StartDate": "2002-11-28T13:13:21.5397229+01:00",
-  "EndDate": "2003-01-14T13:13:21.5397229+01:00",
+  "AppointmentId": 870,
+  "StartDate": "2023-03-25T12:01:27.0095855+01:00",
+  "EndDate": "2014-01-13T12:01:27.0095855+01:00",
   "Type": "BookingForChecklist",
-  "Task": "vel",
-  "AssociateFullName": "Mrs. Irwin Anahi Metz",
-  "ContactName": "Runte-Beer",
-  "Description": "Enhanced radical implementation",
-  "PersonFullName": "Blair Bernhard",
-  "PersonId": 631,
-  "ContactId": 898,
-  "ProjectId": 485,
-  "ProjectName": "Witting, Waelchi and Collins",
+  "Task": "magnam",
+  "AssociateFullName": "Shayne Larson",
+  "ContactName": "Wunsch, Crist and Rodriguez",
+  "Description": "De-engineered modular application",
+  "PersonFullName": "Jasen Pfeffer",
+  "PersonId": 601,
+  "ContactId": 964,
+  "ProjectId": 598,
+  "ProjectName": "Miller, Olson and Halvorson",
   "IsPublished": false,
-  "AssociateId": 829,
-  "ColorIndex": 251,
+  "AssociateId": 726,
+  "ColorIndex": 736,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 187,
-  "PriorityName": "Purdy-Haag",
+  "PriorityId": 845,
+  "PriorityName": "Block, Stiedemann and Kuvalis",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2011-12-13T13:13:21.5397229+01:00",
+  "ActiveDate": "2016-01-30T12:01:27.0095855+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-03-12T13:13:21.5397229+01:00",
-  "RecurringEndDate": "2020-09-30T13:13:21.5397229+02:00",
-  "MotherId": 1000,
-  "AssignedBy": 431,
-  "AssignedByFullName": "Tristin Jenkins",
+  "RecurringStartDate": "2007-07-11T12:01:27.0095855+02:00",
+  "RecurringEndDate": "2013-01-31T12:01:27.0095855+01:00",
+  "MotherId": 145,
+  "AssignedBy": 931,
+  "AssignedByFullName": "Prof. Elinore Lindgren",
   "RejectReason": "",
-  "Location": "excepturi",
-  "AlarmLeadTime": "ut",
-  "SaleId": 745,
-  "SaleName": "Rippin LLC",
-  "AssociateName": "Jaskolski-Satterfield",
-  "CreatedDate": "2007-12-01T13:13:21.5553436+01:00",
-  "CreatedBy": "fuga",
-  "CreatedByFullName": "Prof. Curtis Roberts",
-  "CreatedByAssociateId": 944,
+  "Location": "eum",
+  "AlarmLeadTime": "ipsum",
+  "SaleId": 763,
+  "SaleName": "Wilderman LLC",
+  "AssociateName": "Lehner, Ferry and Jast",
+  "CreatedDate": "2000-01-20T12:01:27.0095855+01:00",
+  "CreatedBy": "recusandae",
+  "CreatedByFullName": "Marques Ledner",
+  "CreatedByAssociateId": 442,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 614,
-  "Title": "et",
-  "Agenda": "nobis",
-  "InternalNotes": "ipsam",
+  "PreferredTZLocation": 56,
+  "Title": "adipisci",
+  "Agenda": "modi",
+  "InternalNotes": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   }
 }

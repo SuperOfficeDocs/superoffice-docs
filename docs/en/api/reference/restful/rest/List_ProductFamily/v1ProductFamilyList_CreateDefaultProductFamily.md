@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Grimes-Rosenbaum",
-  "Tooltip": "est",
+  "Id": 956,
+  "Name": "Kuhic, Sporer and Wehner",
+  "Tooltip": "ipsa",
   "Deleted": true,
-  "UdListDefinitionId": 122,
-  "Rank": 711,
+  "UdListDefinitionId": 201,
+  "Rank": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Treutel-Kautzer"
+  "ApplicationName": "O'Connell, Windler and Powlowski"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "consequatur",
-    "Value": "reiciendis",
-    "RecordId": 44,
-    "CreatedDate": "2010-01-27T13:13:23.1802042+01:00",
-    "UpdatedDate": "2010-11-08T13:13:23.1802042+01:00",
-    "UpdatedBy": "eos",
-    "CreatedBy": "quaerat",
-    "TableName": "Heller, Gulgowski and Morar",
+    "Key": "fuga",
+    "Value": "ea",
+    "RecordId": 861,
+    "CreatedDate": "2022-01-25T12:01:27.9002891+01:00",
+    "UpdatedDate": "2017-12-11T12:01:27.9002891+01:00",
+    "UpdatedBy": "aut",
+    "CreatedBy": "sit",
+    "TableName": "Homenick-Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 909
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Rohan-Wisoky",
-    "Tooltip": "molestiae",
+    "Id": 770,
+    "Name": "Koelpin-Thiel",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "UdListDefinitionId": 740,
-    "Rank": 187,
+    "UdListDefinitionId": 781,
+    "Rank": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 370
       }
     }
   }

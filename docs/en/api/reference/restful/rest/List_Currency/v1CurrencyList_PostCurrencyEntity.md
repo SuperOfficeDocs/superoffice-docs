@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 774,
-  "Name": "Collins-Balistreri",
-  "Tooltip": "odio",
-  "Rank": 855,
-  "Rate": 12351.094,
-  "Units": 16660.344,
-  "Deleted": false
+  "CurrencyId": 395,
+  "Name": "Gottlieb Inc and Sons",
+  "Tooltip": "laboriosam",
+  "Rank": 392,
+  "Rate": 28600.884,
+  "Units": 2660.766,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 692,
-  "Name": "Heller Group",
-  "Tooltip": "qui",
-  "Rank": 41,
-  "Rate": 21699.816,
-  "Units": 13551.416,
+  "CurrencyId": 711,
+  "Name": "Wisoky Inc and Sons",
+  "Tooltip": "est",
+  "Rank": 412,
+  "Rate": 16729.291999999998,
+  "Units": 12184.992,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 963
     }
   }
 }

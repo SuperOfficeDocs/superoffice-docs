@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 775,
+  "EjMessageId": 403,
   "Ticket": null,
-  "CreatedAt": "2010-10-10T13:13:32.4798668+02:00",
+  "CreatedAt": "2009-08-23T12:01:33.2769618+02:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "beatae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iste",
-  "TimeSpent": 124,
-  "Body": "eos",
-  "HtmlBody": "omnis",
-  "EmailHeader": "abraham.hegmann@cronaupton.biz",
-  "DebugInfo": "dolor",
-  "MailSorter": "porro",
+  "MessageId": "nam",
+  "TimeSpent": 592,
+  "Body": "eius",
+  "HtmlBody": "esse",
+  "EmailHeader": "tabitha@roob.uk",
+  "DebugInfo": "distinctio",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "numquam",
+  "SearchTitle": "nostrum",
   "MessageHeaders": [
     {
-      "Id": 505,
-      "Name": "Balistreri, Farrell and Willms",
-      "Value": "tempora",
+      "Id": 161,
+      "Name": "Mayer Group",
+      "Value": "accusamus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "soluta",
-  "Sentiment": 866,
-  "SentimentConfidence": 326,
+  "Important": false,
+  "Language": "officia",
+  "Sentiment": 241,
+  "SentimentConfidence": 991,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 692,
-      "Name": "Jones, Ritchie and Wisoky",
-      "ContentType": "iste",
-      "AttSize": 88,
-      "InlineImage": false,
-      "ContentId": "cumque",
-      "AuthKey": "aut",
+      "AttachmentId": 341,
+      "Name": "Ernser LLC",
+      "ContentType": "quo",
+      "AttSize": 444,
+      "InlineImage": true,
+      "ContentId": "adipisci",
+      "AuthKey": "voluptatem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "error",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "amet",
+    "CustomFields2": "ad"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 156
     }
   }
 }

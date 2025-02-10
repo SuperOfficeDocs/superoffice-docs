@@ -26,7 +26,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=23
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=822
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 521,
-  "Name": "Effertz LLC",
-  "Tooltip": "inventore",
-  "TableName": "Bogan, Watsica and Shields",
-  "Area": "est",
+  "TaskMenuId": 190,
+  "Name": "Harris-Nader",
+  "Tooltip": "eveniet",
+  "TableName": "Bergnaum-Bednar",
+  "Area": "aut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 916,
+  "CrmScriptId": 665,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 41,
+  "Rank": 201,
   "Encoding": "ANSI",
-  "ProgId": "ratione",
-  "Deleted": false,
+  "ProgId": "enim",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

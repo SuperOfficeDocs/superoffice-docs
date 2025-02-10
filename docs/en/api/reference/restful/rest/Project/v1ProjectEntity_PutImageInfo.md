@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=765
+PUT /api/v1/Project/{id}/ImageInfo?projectId=567
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 933,
-  "BlobSize": 942,
-  "Description": "Function-based tangible middleware",
-  "ExtraInfo": "laudantium",
+  "BlobId": 822,
+  "BlobSize": 807,
+  "Description": "De-engineered analyzing hub",
+  "ExtraInfo": "doloribus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 587,
-  "CreatedDate": "2011-08-25T13:13:31.9644289+02:00",
-  "UpdatedDate": "2010-08-24T13:13:31.9644289+02:00",
+  "MimeType": "tempore",
+  "OriginalSize": 60,
+  "CreatedDate": "2005-04-07T12:01:33.0269443+02:00",
+  "UpdatedDate": "2025-01-19T12:01:33.0269443+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugit"
+  "ConceptualType": "libero"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 811,
-  "BlobSize": 7,
-  "Description": "Open-source explicit concept",
-  "ExtraInfo": "labore",
+  "BlobId": 687,
+  "BlobSize": 647,
+  "Description": "Versatile methodical conglomeration",
+  "ExtraInfo": "similique",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "repudiandae",
-  "OriginalSize": 383,
-  "CreatedDate": "2017-06-21T13:13:31.9644289+02:00",
-  "UpdatedDate": "2013-08-05T13:13:31.9644289+02:00",
+  "MimeType": "non",
+  "OriginalSize": 651,
+  "CreatedDate": "2002-06-01T12:01:33.0269443+02:00",
+  "UpdatedDate": "2023-12-06T12:01:33.0269443+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat",
+  "ConceptualType": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 713
     }
   }
 }

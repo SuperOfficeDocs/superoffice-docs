@@ -71,35 +71,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 570,
+  "TicketCategoryId": 350,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 933
+      "Weight": 793
     },
     {
       "User": null,
-      "Weight": 933
+      "Weight": 793
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 676
+      "Weight": 329
     },
     {
       "User": null,
-      "Weight": 676
+      "Weight": 329
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 326
+      "Weight": 558
     },
     {
       "User": null,
-      "Weight": 326
+      "Weight": 558
     }
   ]
 }

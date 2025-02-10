@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 921
+  "RoleId": 661
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Smith LLC",
-    "ToolTip": "Suscipit voluptatem commodi iste.",
+    "Id": 784,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Quo laborum consequatur.",
     "Deleted": false,
-    "Rank": 585,
-    "Type": "officiis",
-    "ColorBlock": 796,
-    "IconHint": "ea",
+    "Rank": 201,
+    "Type": "et",
+    "ColorBlock": 552,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2015-03-16T13:13:24.4934105+01:00",
+    "LastChanged": "2017-07-31T12:01:28.6034631+02:00",
     "ChildItems": [
       {
-        "Id": 316,
-        "Name": "Gottlieb, Erdman and Parker",
-        "ToolTip": "Vel maiores distinctio dolore commodi eum.",
-        "Deleted": false,
-        "Rank": 29,
-        "Type": "ut",
-        "ColorBlock": 311,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2017-11-01T13:13:24.4934105+01:00",
+        "Id": 304,
+        "Name": "McCullough, D'Amore and Shanahan",
+        "ToolTip": "Modi reiciendis necessitatibus error.",
+        "Deleted": true,
+        "Rank": 174,
+        "Type": "labore",
+        "ColorBlock": 508,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "1998-08-01T12:01:28.6034631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Allen Blick",
+        "ExtraInfo": "aut",
+        "StyleHint": "culpa",
+        "Hidden": false,
+        "FullName": "Chance Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldType": "System.String",
+            "FieldLength": 21
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "unde",
+    "ExtraInfo": "a",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Bruce Kihn",
+    "FullName": "Aliya Mitchel Hansen MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

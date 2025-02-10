@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=qui
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=hic
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Kerluke, Kozey and Lowe",
-    "ToolTip": "Deleniti consequatur porro officiis doloribus nulla nobis inventore.",
+    "Id": 57,
+    "Name": "Wisozk, Bergnaum and Stracke",
+    "ToolTip": "Odio unde omnis nobis.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "non",
+    "Rank": 787,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Schowalter Group",
-        "ToolTip": "Placeat quas dolorem occaecati.",
+        "Id": 976,
+        "Name": "Paucek-Boyer",
+        "ToolTip": "Unde autem fuga corporis et sed.",
         "Deleted": false,
-        "Rank": 111,
-        "Type": "commodi",
+        "Rank": 520,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 329,
-        "ExtraInfo": "nulla",
-        "StyleHint": "laboriosam",
-        "FullName": "Jewell Rodriguez Jr.",
+        "IconHint": "amet",
+        "ColorBlock": 873,
+        "ExtraInfo": "magnam",
+        "StyleHint": "excepturi",
+        "FullName": "Wilfrid Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 18
+            "FieldType": "System.Int32",
+            "FieldLength": 393
           }
         }
       }
     ],
-    "IconHint": "minima",
-    "ColorBlock": 828,
-    "ExtraInfo": "ut",
-    "StyleHint": "fuga",
-    "FullName": "Ricky Kessler",
+    "IconHint": "voluptatem",
+    "ColorBlock": 939,
+    "ExtraInfo": "non",
+    "StyleHint": "et",
+    "FullName": "Paul Addie Hauck DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

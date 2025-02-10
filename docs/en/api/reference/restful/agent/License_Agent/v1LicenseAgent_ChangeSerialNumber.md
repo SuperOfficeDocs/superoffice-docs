@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Miller Inc and Sons",
-  "NewSerialNumber": "422805"
+  "NewCompanyName": "Dibbert LLC",
+  "NewSerialNumber": "1646555"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldLength": 379
     }
   }
 }

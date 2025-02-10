@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 599,
-    "Name": "Lesch-Gulgowski",
-    "Tooltip": "at",
+    "HeadingId": 539,
+    "Name": "Nader-Waelchi",
+    "Tooltip": "officia",
     "Deleted": false,
-    "Rank": 1000,
-    "UdListDefinitionId": 574,
+    "Rank": 229,
+    "UdListDefinitionId": 363,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

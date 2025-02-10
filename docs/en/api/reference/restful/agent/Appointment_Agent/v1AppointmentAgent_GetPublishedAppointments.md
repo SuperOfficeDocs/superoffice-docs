@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    913,
-    536
+    315,
+    805
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 600,
-    "StartDate": "2019-01-10T13:13:21.5553436+01:00",
-    "EndDate": "1999-05-26T13:13:21.5553436+02:00",
+    "AppointmentId": 519,
+    "StartDate": "2014-06-24T12:01:27.0252114+02:00",
+    "EndDate": "2001-03-23T12:01:27.0252114+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quibusdam",
-    "AssociateFullName": "Mrs. Savion Kuhic I",
-    "ContactName": "Harvey Group",
-    "Description": "Persevering zero tolerance knowledge base",
-    "PersonFullName": "Ryann Grimes",
-    "PersonId": 252,
-    "ContactId": 410,
-    "ProjectId": 946,
-    "ProjectName": "Roberts, Mertz and Ritchie",
+    "Task": "blanditiis",
+    "AssociateFullName": "Dr. Princess Wunsch",
+    "ContactName": "Nikolaus LLC",
+    "Description": "Re-engineered bi-directional adapter",
+    "PersonFullName": "Dayana Windler",
+    "PersonId": 142,
+    "ContactId": 599,
+    "ProjectId": 78,
+    "ProjectName": "Lockman, Kiehn and Rutherford",
     "IsPublished": true,
-    "AssociateId": 426,
-    "ColorIndex": 955,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 88,
+    "ColorIndex": 850,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 998,
-    "PriorityName": "Renner-Trantow",
+    "PriorityId": 743,
+    "PriorityName": "Dietrich Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1999-05-25T13:13:21.5553436+02:00",
+    "ActiveDate": "2008-09-06T12:01:27.0252114+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-17T13:13:21.5553436+02:00",
-    "RecurringEndDate": "2002-07-09T13:13:21.5553436+02:00",
-    "MotherId": 600,
-    "AssignedBy": 956,
-    "AssignedByFullName": "Grant Bergstrom",
+    "RecurringStartDate": "2023-05-17T12:01:27.0252114+02:00",
+    "RecurringEndDate": "1998-03-12T12:01:27.0252114+01:00",
+    "MotherId": 485,
+    "AssignedBy": 487,
+    "AssignedByFullName": "Harley Julia Reynolds MD",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "natus",
-    "SaleId": 637,
-    "SaleName": "Morissette, Koch and Hand",
-    "AssociateName": "Reichel-Schoen",
-    "CreatedDate": "2012-03-02T13:13:21.5553436+01:00",
-    "CreatedBy": "nulla",
-    "CreatedByFullName": "Lorna Gaylord",
-    "CreatedByAssociateId": 284,
+    "Location": "maxime",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 98,
+    "SaleName": "Bergstrom LLC",
+    "AssociateName": "Bosco Group",
+    "CreatedDate": "2007-04-02T12:01:27.0252114+02:00",
+    "CreatedBy": "vitae",
+    "CreatedByFullName": "Heber Olson",
+    "CreatedByAssociateId": 747,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 42,
-    "Title": "dolore",
-    "Agenda": "necessitatibus",
-    "InternalNotes": "nobis",
+    "PreferredTZLocation": 482,
+    "Title": "nihil",
+    "Agenda": "qui",
+    "InternalNotes": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 891
       }
     }
   }

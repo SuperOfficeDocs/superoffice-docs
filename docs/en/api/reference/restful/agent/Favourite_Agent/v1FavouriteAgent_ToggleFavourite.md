@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhlman, Pagac and Rippin",
-  "RecordId": 58,
-  "AssociateId": 529,
-  "ExtraInfo": "harum"
+  "TableName": "Casper-Lubowitz",
+  "RecordId": 331,
+  "AssociateId": 651,
+  "ExtraInfo": "deleniti"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

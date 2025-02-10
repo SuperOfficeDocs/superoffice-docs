@@ -112,30 +112,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 279,
-  "Name": "Wisoky Group",
-  "Tooltip": "a",
+  "WebPanelId": 416,
+  "Name": "Hackett, Shanahan and Treutel",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 256,
+  "Rank": 848,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Boyer, Farrell and Walsh",
+  "WindowName": "Purdy-Lehner",
   "Url": "http://www.example.com/",
-  "ProgId": "magni",
-  "Icon": 593,
+  "ProgId": "est",
+  "Icon": 732,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 596,
-  "Name": "Steuber-Daniel",
-  "Tooltip": "et",
+  "WebPanelId": 97,
+  "Name": "Kozey, Reynolds and Block",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 134,
+  "Rank": 39,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Altenwerth, Tremblay and Olson",
+  "WindowName": "Doyle-Abbott",
   "Url": "http://www.example.com/",
-  "ProgId": "distinctio",
-  "Icon": 362,
+  "ProgId": "vel",
+  "Icon": 265,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 559
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 303
+  "ReplyTemplateId": 812
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wilderman Group",
-  "Description": "Enterprise-wide fresh-thinking artificial intelligence",
-  "OwnedByFullName": "Mrs. Russel Heller V",
-  "Updated": "2000-10-24T13:13:22.5394847+02:00",
-  "Body": "repellat",
+  "Name": "Littel-Bernier",
+  "Description": "Cross-group user-facing archive",
+  "OwnedByFullName": "Belle Marvin",
+  "Updated": "2005-05-14T12:01:27.5565162+02:00",
+  "Body": "corrupti",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 276
     }
   }
 }

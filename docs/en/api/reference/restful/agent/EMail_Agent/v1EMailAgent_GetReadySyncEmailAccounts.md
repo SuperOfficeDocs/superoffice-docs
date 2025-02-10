@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 598,
-    "AssociateName": "Schoen-Price",
-    "AssociateId": 37,
+    "AccountId": 663,
+    "AssociateName": "Quigley-Schmeler",
+    "AssociateId": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   },
   {
-    "AccountId": 598,
-    "AssociateName": "Schoen-Price",
-    "AssociateId": 37,
+    "AccountId": 663,
+    "AssociateName": "Quigley-Schmeler",
+    "AssociateId": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

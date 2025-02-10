@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=310
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=748
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-05-29T13:13:21.8208955+02:00",
-  "AppointmentId": 270,
-  "Description": "Implemented encompassing local area network",
-  "Title": "nesciunt",
-  "Agenda": "possimus",
-  "InternalNotes": "consequatur",
-  "StartDate": "2002-10-15T13:13:21.8208955+02:00",
-  "EndDate": "2013-02-18T13:13:21.8208955+01:00",
+  "CreatedDate": "2008-08-14T12:01:27.1814891+02:00",
+  "AppointmentId": 333,
+  "Description": "Profound maximized array",
+  "Title": "voluptas",
+  "Agenda": "sequi",
+  "InternalNotes": "ut",
+  "StartDate": "2008-01-12T12:01:27.1814891+01:00",
+  "EndDate": "2017-12-10T12:01:27.1814891+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 259,
+  "MotherId": 596,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-06-19T13:13:21.8208955+02:00",
+  "UpdatedDate": "2013-07-04T12:01:27.1814891+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 935,
+  "ActiveLinks": 417,
   "Links": [
     {
-      "EntityName": "Gleason, Strosin and Heller",
-      "Id": 620,
-      "Description": "Right-sized disintermediate methodology",
-      "ExtraInfo": "ut",
-      "LinkId": 644,
+      "EntityName": "Kling Inc and Sons",
+      "Id": 104,
+      "Description": "Decentralized contextually-based extranet",
+      "ExtraInfo": "dolores",
+      "LinkId": 151,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 278
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolor",
+  "AlarmLeadTime": "consequatur",
   "HasAlarm": false,
-  "ColorIndex": 820,
+  "ColorIndex": 753,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "in",
-  "LeadTime": "et",
-  "Location": "sapiente",
-  "RejectCounter": 889,
+  "LagTime": "aliquid",
+  "LeadTime": "distinctio",
+  "Location": "qui",
+  "RejectCounter": 652,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 510,
-      "PersonId": 229,
-      "ContactId": 207,
-      "EmailId": 88,
-      "SendEmail": false,
+      "AssociateId": 632,
+      "PersonId": 707,
+      "ContactId": 150,
+      "EmailId": 703,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dahlia.mills@bogan.name",
-      "Description": "Switchable executive budgetary management"
+      "EmailAddress": "june@ratke.us",
+      "Description": "Programmable static open architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-09-05T13:13:21.8208955+02:00",
+  "ActiveDate": "2021-01-28T12:01:27.1814891+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 254,
+  "PreferredTZLocation": 647,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 16,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 427,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "labore",
+  "CentralserviceVideomeetId": "quos",
   "UserDefinedFields": {
-    "SuperOffice:1": "565586471",
-    "SuperOffice:2": "Godfrey Ortiz"
+    "SuperOffice:1": "2028411838",
+    "SuperOffice:2": "Shanny Schulist"
   },
   "ExtraFields": {
-    "ExtraFields1": "necessitatibus",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2020-05-26T13:13:21.8208955+02:00",
-  "PublishTo": "2023-06-22T13:13:21.8208955+02:00",
-  "PublishFrom": "2014-09-19T13:13:21.8208955+02:00",
+  "PublishEventDate": "2004-12-13T12:01:27.1814891+01:00",
+  "PublishTo": "2014-10-28T12:01:27.1814891+01:00",
+  "PublishFrom": "2014-11-09T12:01:27.1814891+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 850,
+      "VisibleId": 631,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 850,
+      "VisibleId": 631,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 817
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 796
     }
   }
 }

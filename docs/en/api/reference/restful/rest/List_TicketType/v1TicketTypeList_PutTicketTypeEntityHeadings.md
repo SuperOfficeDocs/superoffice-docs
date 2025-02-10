@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 998,
-    "Name": "Donnelly-Kovacek",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 706,
-    "UdListDefinitionId": 590
+    "HeadingId": 508,
+    "Name": "Windler, Pfeffer and Romaguera",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 338,
+    "UdListDefinitionId": 671
   },
   {
-    "HeadingId": 998,
-    "Name": "Donnelly-Kovacek",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 706,
-    "UdListDefinitionId": 590
+    "HeadingId": 508,
+    "Name": "Windler, Pfeffer and Romaguera",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 338,
+    "UdListDefinitionId": 671
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 735,
-    "Name": "Doyle, Sporer and Collier",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 295,
+    "HeadingId": 389,
+    "Name": "Aufderhar-Labadie",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "Rank": 843,
+    "UdListDefinitionId": 250,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

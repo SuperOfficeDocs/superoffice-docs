@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 409,
-  "TopicId": 379,
+  "ChatSessionId": 415,
+  "TopicId": 399,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "et",
-  "CustomerName": "Jenkins-Larkin",
-  "CustomerEmail": "xavier@vandervorthowell.com",
-  "CustomerPhone": "638.642.7677 x12960",
+  "CustomerAlias": "eius",
+  "CustomerHost": "sunt",
+  "CustomerName": "Hermiston, Cruickshank and Effertz",
+  "CustomerEmail": "ramon@wolf.name",
+  "CustomerPhone": "667-358-9383 x733",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Greenfelder-Schuster",
+  "CustomerCompanyName": "O'Kon-Schultz",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "totam",
-  "WhenRequested": "2023-04-16T13:13:22.1801973+02:00",
-  "WhenStarted": "2013-03-28T13:13:22.1801973+01:00",
-  "WhenEnded": "2017-12-16T13:13:22.1801973+01:00",
-  "WhenIdle": "2020-10-22T13:13:22.1801973+02:00",
-  "WhenFetched": "2013-12-21T13:13:22.1801973+01:00",
-  "SessionKey": "dicta",
-  "InitialQueuePos": 354,
-  "AlertLevel": 697,
-  "Rank": 901,
+  "FirstMessage": "dolor",
+  "LastMessage": "maiores",
+  "WhenRequested": "2003-03-01T12:01:27.3690022+01:00",
+  "WhenStarted": "2004-10-25T12:01:27.3690022+02:00",
+  "WhenEnded": "2011-09-25T12:01:27.3690022+02:00",
+  "WhenIdle": "2022-04-24T12:01:27.3690022+02:00",
+  "WhenFetched": "2001-05-16T12:01:27.3690022+02:00",
+  "SessionKey": "assumenda",
+  "InitialQueuePos": 661,
+  "AlertLevel": 489,
+  "Rank": 383,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 399
+  "ChatbotIsActive": false,
+  "Rating": 139
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 971,
-  "TopicId": 322,
+  "ChatSessionId": 942,
+  "TopicId": 500,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repellendus",
-  "CustomerHost": "doloremque",
-  "CustomerName": "Mayert Inc and Sons",
-  "CustomerEmail": "vidal@schaden.com",
-  "CustomerPhone": "725.293.8519",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Dooley-Swift",
+  "CustomerAlias": "inventore",
+  "CustomerHost": "delectus",
+  "CustomerName": "Crona, Wehner and Kautzer",
+  "CustomerEmail": "quinn.auer@bartoletti.com",
+  "CustomerPhone": "(000)279-0521 x87146",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hauck-Beatty",
   "Status": "Closed",
-  "FirstMessage": "mollitia",
+  "FirstMessage": "voluptates",
   "LastMessage": "aut",
-  "WhenRequested": "2018-10-30T13:13:22.1958165+01:00",
-  "WhenStarted": "2013-02-19T13:13:22.1958165+01:00",
-  "WhenEnded": "2024-10-25T13:13:22.1958165+02:00",
-  "WhenIdle": "2019-02-07T13:13:22.1958165+01:00",
-  "WhenFetched": "2009-06-18T13:13:22.1958165+02:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 192,
-  "AlertLevel": 74,
-  "Rank": 752,
+  "WhenRequested": "1999-08-03T12:01:27.3846286+02:00",
+  "WhenStarted": "2017-03-19T12:01:27.3846286+01:00",
+  "WhenEnded": "2009-04-19T12:01:27.3846286+02:00",
+  "WhenIdle": "2001-02-18T12:01:27.3846286+01:00",
+  "WhenFetched": "2005-04-10T12:01:27.3846286+02:00",
+  "SessionKey": "aliquid",
+  "InitialQueuePos": 26,
+  "AlertLevel": 995,
+  "Rank": 635,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 318,
+  "Rating": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 128
     }
   }
 }

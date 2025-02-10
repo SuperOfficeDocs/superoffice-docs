@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Mann-Legros",
-    "ToolTip": "Quisquam saepe quisquam explicabo occaecati repellendus animi.",
-    "Deleted": false,
-    "Rank": 275,
-    "Type": "ducimus",
-    "ColorBlock": 754,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2017-10-27T13:13:33.2142268+02:00",
+    "Id": 434,
+    "Name": "Bechtelar, Hessel and Daugherty",
+    "ToolTip": "Et quod facere accusamus.",
+    "Deleted": true,
+    "Rank": 979,
+    "Type": "ex",
+    "ColorBlock": 700,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2001-09-06T12:01:33.5426053+02:00",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Pfannerstill, Hammes and Schmitt",
-        "ToolTip": "Exercitationem accusamus ad et placeat in ad vel.",
-        "Deleted": false,
-        "Rank": 515,
-        "Type": "numquam",
-        "ColorBlock": 6,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2014-05-29T13:13:33.2142268+02:00",
+        "Id": 146,
+        "Name": "Wisozk-Pacocha",
+        "ToolTip": "Possimus doloribus temporibus qui.",
+        "Deleted": true,
+        "Rank": 969,
+        "Type": "iusto",
+        "ColorBlock": 269,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2017-01-19T12:01:33.5426053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "fugit",
+        "ExtraInfo": "quos",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Narciso Buckridge",
+        "FullName": "Trudie Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Jamaal Lind",
+    "FullName": "Cecil Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldLength": 353
       }
     }
   }

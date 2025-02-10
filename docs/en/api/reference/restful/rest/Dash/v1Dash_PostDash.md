@@ -104,30 +104,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 416,
-  "UniqueId": "expedita",
-  "Name": "Schneider Inc and Sons",
-  "Description": "Stand-alone national open architecture",
-  "AssociateId": 510,
-  "Columns": 452,
+  "DashboardId": 353,
+  "UniqueId": "sequi",
+  "Name": "Mills, Krajcik and Lang",
+  "Description": "Proactive 4th generation architecture",
+  "AssociateId": 341,
+  "Columns": 765,
   "Theme": null,
-  "VisibleForAll": 778,
+  "VisibleForAll": 78,
   "VisibleForAssociates": [
-    974,
-    723
+    737,
+    370
   ],
   "VisibleForGroups": [
-    303,
-    69
+    673,
+    781
   ],
-  "PinForAll": 342,
+  "PinForAll": 506,
   "PinForAssociates": [
-    209,
-    186
+    109,
+    51
   ],
   "PinForGroups": [
-    520,
-    245
+    175,
+    532
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 899,
-  "UniqueId": "sunt",
-  "Name": "Hoppe, Fahey and Schinner",
-  "Description": "Organized hybrid capacity",
-  "AssociateId": 775,
-  "Columns": 219,
+  "DashboardId": 896,
+  "UniqueId": "et",
+  "Name": "Haley, Kozey and Leffler",
+  "Description": "Versatile reciprocal encoding",
+  "AssociateId": 506,
+  "Columns": 140,
   "Theme": null,
-  "VisibleForAll": 575,
+  "VisibleForAll": 450,
   "VisibleForAssociates": [
-    550,
-    996
+    652,
+    604
   ],
   "VisibleForGroups": [
-    965,
-    406
+    418,
+    480
   ],
-  "PinForAll": 687,
+  "PinForAll": 191,
   "PinForAssociates": [
-    712,
-    616
+    677,
+    138
   ],
   "PinForGroups": [
-    319,
-    498
+    137,
+    362
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   },
   "_Links": {

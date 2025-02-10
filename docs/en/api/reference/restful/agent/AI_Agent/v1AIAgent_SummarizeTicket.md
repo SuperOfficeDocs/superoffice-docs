@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 474,
-  "NumSentences": 459,
-  "IsoLangCode": "molestias"
+  "TicketId": 231,
+  "NumSentences": 922,
+  "IsoLangCode": "reiciendis"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"itaque"
+"ut"
 ```

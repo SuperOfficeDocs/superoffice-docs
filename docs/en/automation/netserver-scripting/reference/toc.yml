@@ -2825,6 +2825,8 @@ items:
     href: quoteagent/createandsavequote.md
   - name: CreateAndSaveQuoteFromSale
     href: quoteagent/createandsavequotefromsale.md
+  - name: CreateAndSaveQuoteLines
+    href: quoteagent/createandsavequotelines.md
   - name: CreateAndSaveQuoteVersion
     href: quoteagent/createandsavequoteversion.md
   - name: CreateConnectionFromConnectorName

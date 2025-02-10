@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Bahringer LLC",
-  "Id": 207
+  "ListName": "Smitham Group",
+  "Id": 111
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Herzog LLC",
-  "ToolTip": "Adipisci et facere ex vel quis et dolorem.",
+  "Id": 701,
+  "Name": "Raynor-Heaney",
+  "ToolTip": "Nobis corporis necessitatibus.",
   "Deleted": true,
-  "Rank": 237,
-  "Type": "quidem",
+  "Rank": 614,
+  "Type": "vero",
   "ChildItems": [
     {
-      "Id": 304,
-      "Name": "Erdman-Kihn",
-      "ToolTip": "A cumque exercitationem quasi nisi tenetur autem.",
+      "Id": 570,
+      "Name": "Gorczany-Kuvalis",
+      "ToolTip": "Consequatur iure ut ea sunt illum.",
       "Deleted": false,
-      "Rank": 400,
-      "Type": "officia",
+      "Rank": 140,
+      "Type": "vel",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "consequatur",
-      "ColorBlock": 631,
-      "ExtraInfo": "omnis",
-      "StyleHint": "dolorum",
-      "FullName": "Miss Beverly Erna Miller",
+      "IconHint": "eos",
+      "ColorBlock": 350,
+      "ExtraInfo": "nostrum",
+      "StyleHint": "explicabo",
+      "FullName": "Prof. Clement Carli Spencer DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldType": "System.Int32",
+          "FieldLength": 660
         }
       }
     }
   ],
-  "IconHint": "eos",
-  "ColorBlock": 43,
-  "ExtraInfo": "placeat",
-  "StyleHint": "maiores",
-  "FullName": "Arlie Waelchi",
+  "IconHint": "et",
+  "ColorBlock": 993,
+  "ExtraInfo": "a",
+  "StyleHint": "deserunt",
+  "FullName": "Ms. Breanne Lenora Goodwin III",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 638
     }
   }
 }

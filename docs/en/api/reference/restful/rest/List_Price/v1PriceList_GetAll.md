@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=consequatur
-GET /api/v1/Pricelist?$top=586
-GET /api/v1/Pricelist?$skip=850
+GET /api/v1/Pricelist?$entities=amet
+GET /api/v1/Pricelist?$top=715
+GET /api/v1/Pricelist?$skip=791
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=perspiciatis
+GET /api/v1/Pricelist?$context=reiciendis
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "veritatis",
+  "odata.nextLink": "eius",
   "value": [
     {
-      "PrimaryKey": 2704,
+      "PrimaryKey": 5052,
       "EntityName": "person",
-      "personId": 2704,
-      "fullName": "Kip Wisoky"
+      "personId": 5052,
+      "fullName": "Destinee Reinger PhD"
     },
     {
-      "PrimaryKey": 2022,
+      "PrimaryKey": 4814,
       "EntityName": "person",
-      "personId": 2022,
-      "fullName": "Jonathon Cole"
+      "personId": 4814,
+      "fullName": "Mrs. Mack Bode V"
     }
   ]
 }

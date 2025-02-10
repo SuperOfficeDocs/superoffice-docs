@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Lind, Kirlin and Walker",
-    "ToolTip": "Debitis minus facere quos quia.",
-    "Deleted": true,
-    "Rank": 404,
-    "Type": "blanditiis",
-    "ColorBlock": 451,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2008-06-19T13:13:33.4485481+02:00",
+    "Id": 43,
+    "Name": "Powlowski, Fisher and Boehm",
+    "ToolTip": "Asperiores cupiditate.",
+    "Deleted": false,
+    "Rank": 135,
+    "Type": "voluptate",
+    "ColorBlock": 182,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1999-05-18T12:01:33.6207356+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Goldner, Schinner and Rohan",
-        "ToolTip": "Tenetur debitis molestiae dolor cumque qui.",
-        "Deleted": true,
-        "Rank": 310,
-        "Type": "in",
-        "ColorBlock": 219,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2007-09-16T13:13:33.4485481+02:00",
+        "Id": 926,
+        "Name": "Shanahan-Kautzer",
+        "ToolTip": "Eveniet consequatur placeat dolor mollitia eaque voluptates fugit.",
+        "Deleted": false,
+        "Rank": 460,
+        "Type": "qui",
+        "ColorBlock": 666,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2008-06-20T12:01:33.6207356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Prof. Lionel Zita Konopelski",
+        "ExtraInfo": "rerum",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Jeffery Williamson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 217
+            "FieldLength": 463
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "commodi",
+    "ExtraInfo": "nihil",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Brandi Wunsch",
+    "FullName": "Miss Nicolette Deven Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 293
       }
     }
   }

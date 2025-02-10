@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Name": "Moen, Schneider and Harvey",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 914,
-  "IsCustomList": true,
+  "Id": 644,
+  "Name": "Heaney Inc and Sons",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 307,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Name": "Batz-Hirthe",
-  "Tooltip": "sint",
+  "Id": 519,
+  "Name": "Deckow LLC",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 76,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quos",
+  "Rank": 628,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "odit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 358
     }
   }
 }

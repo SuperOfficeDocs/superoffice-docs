@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gleason Group",
-    "StepNumber": 309,
+    "Name": "Monahan, McClure and Schaden",
+    "StepNumber": 812,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   },
   {
-    "Name": "Gleason Group",
-    "StepNumber": 309,
+    "Name": "Monahan, McClure and Schaden",
+    "StepNumber": 812,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

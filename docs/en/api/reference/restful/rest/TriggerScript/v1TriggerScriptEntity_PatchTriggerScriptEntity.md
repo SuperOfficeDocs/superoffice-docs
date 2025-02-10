@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cum",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cum",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 525,
-  "Name": "Bruen-Oberbrunner",
+  "ScreenChooserId": 27,
+  "Name": "Becker Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "et",
-  "Source": "aut",
-  "Registered": "2012-12-28T13:13:32.5111102+01:00",
-  "RegisteredAssociateId": 303,
-  "Updated": "2022-10-23T13:13:32.5111102+02:00",
-  "UpdatedAssociateId": 292,
+  "UniqueIdentifier": "cumque",
+  "Source": "culpa",
+  "Registered": "2023-05-10T12:01:33.2925881+02:00",
+  "RegisteredAssociateId": 657,
+  "Updated": "2016-03-15T12:01:33.2925881+01:00",
+  "UpdatedAssociateId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 278
     }
   },
   "_Links": {

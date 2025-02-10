@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Boyer, Fadel and Becker"
+  "ConnectorName": "Ledner-Trantow"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 272,
-  "ERPName": "Fisher Group",
-  "DisplayName": "Padberg Group",
-  "DisplayDescription": "Managed encompassing methodology",
-  "Rank": 951,
-  "ConnectorName": "Kuvalis, Brekke and Green",
-  "ErpConnectionId": 751,
-  "ExtraData": "modi",
+  "QuoteConnectionId": 910,
+  "ERPName": "Brown LLC",
+  "DisplayName": "Senger LLC",
+  "DisplayDescription": "Programmable contextually-based knowledge base",
+  "Rank": 781,
+  "ConnectorName": "Wisoky LLC",
+  "ErpConnectionId": 432,
+  "ExtraData": "atque",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 220,
-      "ERPPriceListKey": "minima",
-      "QuoteConnectionId": 494,
-      "Name": "Pollich, Steuber and Lang",
-      "Description": "Object-based transitional forecast",
-      "Currency": "qui",
-      "CurrencyName": "VonRueden Inc and Sons",
-      "ValidFrom": "2001-07-21T13:13:23.7425716+02:00",
-      "ValidTo": "2003-11-07T13:13:23.7425716+01:00",
-      "IsActive": true,
+      "PriceListId": 995,
+      "ERPPriceListKey": "inventore",
+      "QuoteConnectionId": 561,
+      "Name": "Harvey Inc and Sons",
+      "Description": "Self-enabling 3rd generation extranet",
+      "Currency": "minima",
+      "CurrencyName": "Gerlach, Bosco and Smith",
+      "ValidFrom": "2014-06-12T12:01:28.1971849+02:00",
+      "ValidTo": "2015-11-13T12:01:28.1971849+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 546
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    229,
-    358
+    804,
+    945
   ],
   "AssociateAccessIds": [
-    544,
-    495
+    465,
+    65
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

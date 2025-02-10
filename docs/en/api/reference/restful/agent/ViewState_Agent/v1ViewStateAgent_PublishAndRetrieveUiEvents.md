@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 898,
+  "LatestKnownEventId": 327,
   "PublishEvents": [
     {
-      "EventId": 102,
-      "EventName": "Reilly Group",
-      "EntityType": "quidem",
-      "EntityKey": 78,
-      "AssociateId": 986,
-      "AssociateName": "Ledner-Lockman",
-      "EventDateTime": "2002-09-26T13:13:24.5715146+02:00"
+      "EventId": 653,
+      "EventName": "Cummings Group",
+      "EntityType": "et",
+      "EntityKey": 633,
+      "AssociateId": 562,
+      "AssociateName": "Dooley-Conroy",
+      "EventDateTime": "2001-09-11T12:01:28.6347153+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Monahan Inc and Sons",
-      "Value": 31
+      "Name": "Wisoky, Mills and Stiedemann",
+      "Value": 297
     },
     {
-      "Name": "Monahan Inc and Sons",
-      "Value": 31
+      "Name": "Wisoky, Mills and Stiedemann",
+      "Value": 297
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 421,
-    "EventName": "Veum-Hirthe",
-    "EntityType": "autem",
-    "EntityKey": 167,
-    "AssociateId": 498,
-    "AssociateName": "Rempel-Kuhic",
-    "EventDateTime": "2024-07-31T13:13:24.5715146+02:00",
+    "EventId": 94,
+    "EventName": "Parker, Daniel and Powlowski",
+    "EntityType": "perferendis",
+    "EntityKey": 358,
+    "AssociateId": 263,
+    "AssociateName": "Hauck Inc and Sons",
+    "EventDateTime": "2013-05-27T12:01:28.6347153+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 755
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

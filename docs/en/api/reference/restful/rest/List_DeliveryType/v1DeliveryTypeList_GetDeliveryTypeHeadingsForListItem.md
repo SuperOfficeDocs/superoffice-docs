@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Breitenberg Group",
-    "ToolTip": "Nisi eos consequatur asperiores quibusdam ut quasi.",
-    "Deleted": true,
-    "Rank": 645,
-    "Type": "ad",
-    "ColorBlock": 586,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2015-10-29T13:13:33.0736367+01:00",
+    "Id": 264,
+    "Name": "Flatley-Graham",
+    "ToolTip": "Inventore repellendus at.",
+    "Deleted": false,
+    "Rank": 616,
+    "Type": "cupiditate",
+    "ColorBlock": 820,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2002-04-29T12:01:33.495727+02:00",
     "ChildItems": [
       {
-        "Id": 782,
-        "Name": "Halvorson Group",
-        "ToolTip": "Aspernatur dolor cupiditate.",
+        "Id": 138,
+        "Name": "Keeling-Miller",
+        "ToolTip": "Ex eos provident.",
         "Deleted": false,
-        "Rank": 283,
-        "Type": "quasi",
-        "ColorBlock": 341,
-        "IconHint": "dolorem",
+        "Rank": 766,
+        "Type": "nostrum",
+        "ColorBlock": 680,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2014-10-13T13:13:33.0736367+02:00",
+        "LastChanged": "2011-08-15T12:01:33.495727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Tyrese Osinski",
+        "FullName": "Casper Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "similique",
+    "ExtraInfo": "hic",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Delmer Hills",
+    "FullName": "Sheldon Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldLength": 106
       }
     }
   }

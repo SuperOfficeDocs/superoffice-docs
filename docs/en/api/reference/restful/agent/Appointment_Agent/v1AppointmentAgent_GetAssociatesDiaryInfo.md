@@ -86,6 +86,7 @@ OK
 | IsBookingMain | bool | True if the appointment is a main booking |
 | SendEmail | bool | True if the appointment record has the email flag set |
 | AnySendEmail | bool | True if any of the appointment records has the email flag set |
+| IsPrivate | bool | True if only visible for the owner |
 | RecurrenceInfo | RecurrenceInfo | The recurrence info if the appointment is recurring |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -96,16 +97,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    406,
-    507
+    65,
+    554
   ],
-  "StartTime": "2013-01-25T13:13:21.5709641+01:00",
-  "EndTime": "2008-03-29T13:13:21.5709641+01:00"
+  "StartTime": "2006-08-15T12:01:27.0252114+02:00",
+  "EndTime": "1997-12-05T12:01:27.0252114+01:00"
 }
 ```
 
@@ -117,34 +118,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 441,
-    "AssociateId": 960,
-    "MotherId": 118,
-    "StartDate": "1999-08-26T13:13:21.5709641+02:00",
-    "EndDate": "2020-01-15T13:13:21.5709641+01:00",
+    "AppointmentId": 601,
+    "AssociateId": 882,
+    "MotherId": 843,
+    "StartDate": "2024-12-16T12:01:27.0252114+01:00",
+    "EndDate": "1999-10-17T12:01:27.0252114+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Schmeler Inc and Sons",
-    "ContactName": "Hoppe-Abernathy",
-    "ProjectName": "Graham Group",
-    "Title": "aut",
-    "Agenda": "dolorem",
-    "IsAllDay": true,
-    "IsBusy": true,
-    "IsRecurring": true,
+    "TaskName": "Rath-Dare",
+    "ContactName": "Robel, Ankunding and Leuschke",
+    "ProjectName": "Abbott, Hilll and Parker",
+    "Title": "nam",
+    "Agenda": "quaerat",
+    "IsAllDay": false,
+    "IsBusy": false,
+    "IsRecurring": false,
     "IsVideoMeeting": false,
     "HasAlarm": false,
-    "IsCompleted": false,
+    "IsCompleted": true,
     "IsTentative": true,
     "IsBookingMain": true,
     "SendEmail": false,
-    "AnySendEmail": false,
+    "AnySendEmail": true,
+    "IsPrivate": false,
     "RecurrenceInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 844
       }
     }
   }

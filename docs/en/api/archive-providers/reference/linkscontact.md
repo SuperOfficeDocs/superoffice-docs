@@ -68,7 +68,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksContact?$select=sourceProjectRestrictionId,department,code
+GET /api/v1/archive/LinksContact?$select=nameDepartment,number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

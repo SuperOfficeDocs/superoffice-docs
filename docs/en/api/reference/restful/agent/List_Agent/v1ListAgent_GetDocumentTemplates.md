@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 844,
-    "Name": "Luettgen-Zboncak",
-    "Tooltip": "eos",
-    "SaveInDb": 919,
-    "Filename": "doloremque",
-    "DefaultOref": "nesciunt",
+    "DocumentTemplateId": 388,
+    "Name": "Russel Group",
+    "Tooltip": "ut",
+    "SaveInDb": 722,
+    "Filename": "non",
+    "DefaultOref": "excepturi",
     "RecordType": "Appointment",
-    "Deleted": 931,
+    "Deleted": 14,
     "Direction": "Incoming",
-    "AutoeventId": 608,
+    "AutoeventId": 50,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldLength": 933
       }
     }
   }

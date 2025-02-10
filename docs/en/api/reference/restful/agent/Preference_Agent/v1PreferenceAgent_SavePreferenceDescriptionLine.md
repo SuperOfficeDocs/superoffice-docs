@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 79,
-  "PrefDescId": 909,
-  "PrefValue": "dolores",
-  "PrefShowValue": "nulla",
-  "Description": "Total tangible pricing structure",
+  "PrefDescLineId": 926,
+  "PrefDescId": 986,
+  "PrefValue": "error",
+  "PrefShowValue": "laudantium",
+  "Description": "Right-sized solution-oriented hub",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 384,
-  "PrefDescId": 866,
-  "PrefValue": "itaque",
-  "PrefShowValue": "laborum",
-  "Description": "Integrated encompassing approach",
+  "PrefDescLineId": 343,
+  "PrefDescId": 510,
+  "PrefValue": "aut",
+  "PrefShowValue": "omnis",
+  "Description": "Adaptive 24 hour architecture",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

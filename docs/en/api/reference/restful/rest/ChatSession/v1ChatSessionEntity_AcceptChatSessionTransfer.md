@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 649,
-  "TopicId": 69,
+  "ChatSessionId": 918,
+  "TopicId": 151,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vitae",
-  "CustomerHost": "repellendus",
-  "CustomerName": "Bernier Group",
-  "CustomerEmail": "lou@quigleyschumm.ca",
-  "CustomerPhone": "1-817-769-8969 x7796",
+  "CustomerAlias": "tempore",
+  "CustomerHost": "veritatis",
+  "CustomerName": "Kertzmann-Goldner",
+  "CustomerEmail": "isabel@runolfsson.biz",
+  "CustomerPhone": "960-872-1494 x18677",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Flatley-Schultz",
+  "CustomerCompanyName": "Reilly Group",
   "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "et",
-  "WhenRequested": "2018-07-13T13:13:31.3708121+02:00",
-  "WhenStarted": "2021-10-29T13:13:31.3708121+02:00",
-  "WhenEnded": "2007-12-30T13:13:31.3708121+01:00",
-  "WhenIdle": "2019-02-24T13:13:31.3708121+01:00",
-  "WhenFetched": "2009-11-28T13:13:31.3708121+01:00",
-  "SessionKey": "exercitationem",
-  "InitialQueuePos": 101,
-  "AlertLevel": 637,
-  "Rank": 36,
+  "FirstMessage": "magni",
+  "LastMessage": "consectetur",
+  "WhenRequested": "2014-06-14T12:01:32.730049+02:00",
+  "WhenStarted": "2019-06-21T12:01:32.730049+02:00",
+  "WhenEnded": "2006-11-26T12:01:32.730049+01:00",
+  "WhenIdle": "2003-02-02T12:01:32.730049+01:00",
+  "WhenFetched": "2013-06-29T12:01:32.730049+02:00",
+  "SessionKey": "maiores",
+  "InitialQueuePos": 954,
+  "AlertLevel": 16,
+  "Rank": 167,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 286,
+  "ChatbotIsActive": false,
+  "Rating": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 559
     }
   }
 }

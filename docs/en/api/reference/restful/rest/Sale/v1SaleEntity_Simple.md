@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Mills, Kunde and Rath",
-  "SaleDate": "2011-11-24T13:13:32.2924104+01:00",
-  "SaleId": 470,
-  "Probability": 888,
-  "Title": "occaecati",
-  "Amount": 1833.3899999999999,
-  "Currency": "vel",
-  "ProjectName": "Effertz-Ledner",
-  "AssociateFullName": "Ms. Lola Patricia Dietrich",
-  "Description": "Secured uniform standardization",
+  "ContactName": "McKenzie, Satterfield and Kessler",
+  "SaleDate": "2014-05-24T12:01:33.1832049+02:00",
+  "SaleId": 305,
+  "Probability": 25,
+  "Title": "harum",
+  "Amount": 20317.721999999998,
+  "Currency": "perferendis",
+  "ProjectName": "Lowe, Witting and Nitzsche",
+  "AssociateFullName": "Delmer Emmerich",
+  "Description": "Decentralized next generation groupware",
   "Status": "Lost",
-  "WeightedAmount": 3986.448,
-  "ProjectId": 183,
-  "EarningPercent": 6070.558,
-  "Earning": 13977.64,
-  "ContactId": 577,
-  "AssociateId": 791,
-  "PersonId": 543,
-  "SaleTypeId": 31,
-  "SaleTypeName": "Deckow-Rippin",
-  "PersonFullName": "Sandrine Howell",
+  "WeightedAmount": 27945.878,
+  "ProjectId": 768,
+  "EarningPercent": 10332.797999999999,
+  "Earning": 28365.834,
+  "ContactId": 387,
+  "AssociateId": 876,
+  "PersonId": 834,
+  "SaleTypeId": 30,
+  "SaleTypeName": "Padberg, Jewess and Spinka",
+  "PersonFullName": "Ara Tremblay",
   "Completed": "Completed",
-  "ActiveErpLinks": 712,
-  "NextDueDate": "2008-07-29T13:13:32.2924104+02:00",
-  "Number": "1226818",
+  "ActiveErpLinks": 423,
+  "NextDueDate": "2000-11-29T12:01:33.1832049+01:00",
+  "Number": "1255320",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

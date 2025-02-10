@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Wunsch, Rolfson and Yundt",
-  "EventFilter": "dolor",
+  "NameFilter": "Yost LLC",
+  "EventFilter": "iste",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 399,
-    "Name": "Gaylord-Stanton",
+    "WebhookId": 671,
+    "Name": "Rutherford LLC",
     "Events": [
-      "laborum",
-      "incidunt"
+      "eligendi",
+      "sed"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "id",
+    "Secret": "doloremque",
     "State": "Active",
-    "Type": "porro",
+    "Type": "at",
     "Headers": {
-      "Headers1": "odio",
-      "Headers2": "cupiditate"
+      "Headers1": "quidem",
+      "Headers2": "impedit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2014-08-06T13:13:24.5870773+02:00",
+    "Registered": "2020-05-11T12:01:28.6503413+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2012-12-20T13:13:24.5870773+01:00",
+    "Updated": "1998-04-08T12:01:28.6503413+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "tatum.treutel@little.name"
+    "ErrorsEmail": "wendy_baumbach@bailey.us"
   }
 ]
 ```

@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 295,
-    "DisplayName": "Bartoletti, Schoen and Thiel",
-    "OngoingChats": 479,
-    "Present": false,
+    "UserId": 309,
+    "DisplayName": "Cormier LLC",
+    "OngoingChats": 522,
+    "Present": true,
     "ChatTopics": [
-      814,
-      823
+      731,
+      100
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

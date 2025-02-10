@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 959,
-    "Attention": "occaecati",
+    "DocumentId": 437,
+    "Attention": "fugit",
     "Header": "est",
-    "Name": "Cormier-Gerhold",
-    "OurRef": "ullam",
-    "YourRef": "non",
-    "Description": "Cross-platform assymetric help-desk",
-    "DocumentTemplate": "autem",
-    "IsPublished": false,
-    "PersonId": 413,
-    "PersonFullName": "Dr. Johan Leilani Mraz",
-    "AssociateFullName": "Brice Bernier",
+    "Name": "Jenkins-Weber",
+    "OurRef": "nemo",
+    "YourRef": "delectus",
+    "Description": "Advanced value-added initiative",
+    "DocumentTemplate": "nostrum",
+    "IsPublished": true,
+    "PersonId": 818,
+    "PersonFullName": "Dr. Mario Robel",
+    "AssociateFullName": "Sadye Dooley",
     "ContactId": 55,
-    "ContactName": "Hilll-Ledner",
-    "ProjectId": 172,
-    "ProjectName": "Trantow-Turcotte",
-    "AssociateId": 995,
-    "Snum": 414,
-    "SaleId": 445,
-    "SaleName": "Muller, Bergstrom and Pagac",
+    "ContactName": "Reichert-Marquardt",
+    "ProjectId": 654,
+    "ProjectName": "Windler-Langworth",
+    "AssociateId": 765,
+    "Snum": 54,
+    "SaleId": 950,
+    "SaleName": "Spinka Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

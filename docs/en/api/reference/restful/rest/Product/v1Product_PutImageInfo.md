@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 213,
-  "BlobSize": 549,
-  "Description": "Innovative tertiary policy",
-  "ExtraInfo": "facere",
+  "BlobId": 519,
+  "BlobSize": 326,
+  "Description": "Expanded directional projection",
+  "ExtraInfo": "fugiat",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 926,
-  "CreatedDate": "2012-08-19T13:13:32.5892154+02:00",
-  "UpdatedDate": "2009-11-03T13:13:32.5892154+01:00",
+  "MimeType": "ducimus",
+  "OriginalSize": 234,
+  "CreatedDate": "1998-06-11T12:01:33.3394662+02:00",
+  "UpdatedDate": "2022-12-10T12:01:33.3394662+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem"
+  "ConceptualType": "omnis"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 907,
-  "BlobSize": 781,
-  "Description": "User-friendly 6th generation solution",
-  "ExtraInfo": "illum",
+  "BlobId": 205,
+  "BlobSize": 992,
+  "Description": "Cross-platform uniform portal",
+  "ExtraInfo": "ducimus",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "quo",
-  "OriginalSize": 291,
-  "CreatedDate": "2005-12-25T13:13:32.5892154+01:00",
-  "UpdatedDate": "2010-01-31T13:13:32.5892154+01:00",
+  "MimeType": "nulla",
+  "OriginalSize": 521,
+  "CreatedDate": "2015-11-11T12:01:33.3394662+01:00",
+  "UpdatedDate": "2021-03-08T12:01:33.3394662+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ducimus",
+  "ConceptualType": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

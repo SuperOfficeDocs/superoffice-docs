@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 72,
+  "SaleId": 125,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Heathcote-Monahan",
-      "Comment": "quia",
-      "StakeholderRoleId": 486,
-      "CountryId": 822,
-      "PersonId": 723,
-      "EmailDescription": "demetrius_damore@schowalter.uk",
-      "EmailId": 609,
-      "EmailAddress": "samanta@runolfsdottirschmidt.co.uk",
-      "PhoneId": 452,
-      "ContactName": "Treutel Inc and Sons",
-      "ContactId": 489,
-      "SaleId": 6,
-      "Mrmrs": "rerum",
-      "Firstname": "Moriah",
-      "MiddleName": "Lemke, Ernser and Bruen",
-      "Lastname": "Willms",
-      "SaleStakeholderId": 46,
-      "Rank": 843,
-      "Phone": "1-368-683-0570"
+      "StakeholderRoleName": "Huel, Flatley and Bosco",
+      "Comment": "similique",
+      "StakeholderRoleId": 884,
+      "CountryId": 699,
+      "PersonId": 932,
+      "EmailDescription": "burley.gorczany@hahn.com",
+      "EmailId": 482,
+      "EmailAddress": "oran_mante@simonisyost.com",
+      "PhoneId": 536,
+      "ContactName": "Rutherford, Hand and Johnson",
+      "ContactId": 806,
+      "SaleId": 169,
+      "Mrmrs": "ut",
+      "Firstname": "Gordon",
+      "MiddleName": "Lindgren, Lebsack and Dietrich",
+      "Lastname": "Dare",
+      "SaleStakeholderId": 756,
+      "Rank": 621,
+      "Phone": "139.904.4188"
     }
   ]
 }

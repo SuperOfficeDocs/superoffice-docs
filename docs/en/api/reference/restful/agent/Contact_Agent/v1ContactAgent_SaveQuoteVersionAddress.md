@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 902,
+  "QuoteVersionId": 965,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 706
+  "CountryId": 218
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 31004.662,
-  "Wgs84Longitude": 5869.982,
+  "Wgs84Latitude": 29334.239999999998,
+  "Wgs84Longitude": 15695.072,
   "LocalizedAddress": [
     [
       {
-        "Name": "Ebert-Satterfield",
-        "Value": "ipsa",
-        "Tooltip": "nesciunt",
-        "Label": "harum",
-        "ValueLength": 333,
-        "AddressType": "nesciunt",
+        "Name": "Goodwin, Barton and Terry",
+        "Value": "et",
+        "Tooltip": "inventore",
+        "Label": "ut",
+        "ValueLength": 141,
+        "AddressType": "natus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldLength": 34
           }
         }
       }
     ],
     [
       {
-        "Name": "Cassin Inc and Sons",
-        "Value": "nihil",
-        "Tooltip": "perspiciatis",
-        "Label": "rerum",
-        "ValueLength": 708,
-        "AddressType": "id",
+        "Name": "Kshlerin-Kris",
+        "Value": "dolor",
+        "Tooltip": "rerum",
+        "Label": "non",
+        "ValueLength": 381,
+        "AddressType": "placeat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldType": "System.Int32",
+            "FieldLength": 978
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "eaque",
+  "Formatted": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldLength": 418
     }
   }
 }

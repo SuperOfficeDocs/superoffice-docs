@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Schultz-Kreiger",
-    "ToolTip": "Quas quia autem aliquam harum atque quis quidem.",
+    "Id": 947,
+    "Name": "Ward-Rempel",
+    "ToolTip": "Molestiae eveniet nihil tempore.",
     "Deleted": false,
-    "Rank": 535,
-    "Type": "consequatur",
-    "ColorBlock": 573,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2006-06-23T13:13:32.8705596+02:00",
+    "Rank": 659,
+    "Type": "quisquam",
+    "ColorBlock": 73,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2009-02-13T12:01:33.4332226+01:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Kiehn-Nikolaus",
-        "ToolTip": "Provident voluptatem.",
-        "Deleted": true,
-        "Rank": 807,
-        "Type": "quia",
-        "ColorBlock": 10,
-        "IconHint": "beatae",
+        "Id": 291,
+        "Name": "Metz, Prosacco and Torp",
+        "ToolTip": "Fuga quo dignissimos magnam.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "repellat",
+        "ColorBlock": 962,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2011-11-20T13:13:32.8705596+01:00",
+        "LastChanged": "2007-02-18T12:01:33.4332226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "ab",
+        "ExtraInfo": "illo",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mrs. Elliott Antonio Predovic",
+        "FullName": "Jonatan Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 239
+            "FieldType": "System.String",
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Mrs. Cleo Myrl Reynolds MD",
+    "ExtraInfo": "autem",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Consuelo Kunde DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

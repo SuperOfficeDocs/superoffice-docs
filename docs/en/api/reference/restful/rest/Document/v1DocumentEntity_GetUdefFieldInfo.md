@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 612,
-  "ColumnId": 857,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 552,
-  "FieldLabel": "quis",
-  "FieldLeft": 833,
-  "FieldTop": 232,
+  "UDefFieldId": 582,
+  "ColumnId": 579,
+  "FieldDefault": "voluptate",
+  "FieldHeight": 695,
+  "FieldLabel": "ullam",
+  "FieldLeft": 145,
+  "FieldTop": 391,
   "FieldType": "Checkbox",
-  "FieldWidth": 29,
-  "FormatMask": "odio",
+  "FieldWidth": 854,
+  "FormatMask": "repudiandae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 405,
-  "LabelLeft": 988,
-  "LabelTop": 253,
-  "LabelWidth": 146,
-  "LastVersionId": 490,
-  "ListTableId": 471,
+  "LabelHeight": 504,
+  "LabelLeft": 114,
+  "LabelTop": 1002,
+  "LabelWidth": 485,
+  "LastVersionId": 162,
+  "ListTableId": 852,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 944,
-  "ProgId": "dolor",
-  "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 787,
-  "TextLength": 494,
-  "Tooltip": "quas",
-  "UdefIdentity": 13,
-  "UDListDefinitionId": 539,
+  "Page1LineNo": 683,
+  "ProgId": "atque",
+  "IsReadOnly": true,
+  "ShortLabel": "dolorem",
+  "TabOrder": 346,
+  "TextLength": 786,
+  "Tooltip": "libero",
+  "UdefIdentity": 904,
+  "UDListDefinitionId": 107,
   "Justification": "Center",
-  "Version": 833,
-  "TemplateVariableName": "Hegmann-Purdy",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuphal-Altenwerth",
+  "Version": 718,
+  "TemplateVariableName": "Larson LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "White-Conroy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 16
     }
   }
 }

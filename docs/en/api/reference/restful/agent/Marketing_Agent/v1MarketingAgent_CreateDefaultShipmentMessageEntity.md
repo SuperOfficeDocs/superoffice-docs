@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 239,
-  "PlainMessage": "expedita",
-  "HtmlMessage": "error",
-  "SmsMessage": "esse",
-  "Description": "Customizable directional productivity",
-  "Subject": "est",
-  "FolderId": 737,
-  "HeaderField": "asperiores",
-  "Design": "et",
+  "ShipmentMessageId": 433,
+  "PlainMessage": "eaque",
+  "HtmlMessage": "et",
+  "SmsMessage": "asperiores",
+  "Description": "Innovative contextually-based matrix",
+  "Subject": "omnis",
+  "FolderId": 30,
+  "HeaderField": "sunt",
+  "Design": "velit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Triple-buffered multi-tasking standardization",
-  "AccessKey": "enim",
-  "DocumentMessage": 435,
-  "Registered": "2003-01-26T13:13:23.3520388+01:00",
-  "RegisteredAssociateId": 153,
-  "Updated": "2011-03-29T13:13:23.3520388+02:00",
-  "UpdatedAssociateId": 990,
-  "UpdatedCount": 526,
+  "LongDescription": "Distributed bottom-line website",
+  "AccessKey": "quaerat",
+  "DocumentMessage": 299,
+  "Registered": "2002-05-27T12:01:27.9940463+02:00",
+  "RegisteredAssociateId": 509,
+  "Updated": "2004-04-25T12:01:27.9940463+02:00",
+  "UpdatedAssociateId": 932,
+  "UpdatedCount": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

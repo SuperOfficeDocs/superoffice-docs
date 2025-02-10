@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koch Inc and Sons",
+  "ProviderName": "Cummings-Graham",
   "Columns": [
-    "aliquam",
-    "quia"
+    "et",
+    "necessitatibus"
   ],
   "SortOrder": [
     {
-      "Name": "Deckow Inc and Sons",
+      "Name": "Hodkiewicz, Wilderman and Auer",
       "Direction": "ASC"
     },
     {
-      "Name": "Deckow Inc and Sons",
+      "Name": "Hodkiewicz, Wilderman and Auer",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bernhard, Kunde and Vandervort",
+      "Name": "Langosh Inc and Sons",
       "Operator": "qui",
       "Values": [
-        "rerum",
-        "magni"
+        "officiis",
+        "impedit"
       ],
       "DisplayValues": [
-        "in",
-        "ad"
+        "quam",
+        "totam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 571,
+      "InterParenthesis": 545,
       "InterOperator": "And",
-      "UniqueHash": 687
+      "UniqueHash": 381
     }
   ],
   "Entities": [
-    "possimus",
-    "doloribus"
+    "est",
+    "asperiores"
   ],
-  "Page": 102,
-  "PageSize": 904,
-  "Context": "sint"
+  "Page": 51,
+  "PageSize": 968,
+  "Context": "quasi"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bernier-Kunze",
-    "PrimaryKey": 695,
+    "EntityName": "Durgan-Boyle",
+    "PrimaryKey": 169,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "eaque",
-        "TooltipHint": "sit",
-        "LinkHint": "assumenda"
+        "DisplayValue": "ipsum",
+        "TooltipHint": "adipisci",
+        "LinkHint": "doloremque"
       }
     },
-    "LinkHint": "molestias",
-    "StyleHint": "vero",
+    "LinkHint": "quia",
+    "StyleHint": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 156
       }
     }
   }

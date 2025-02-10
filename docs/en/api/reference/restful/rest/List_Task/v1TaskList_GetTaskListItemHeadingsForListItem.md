@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Pouros, Okuneva and Lubowitz",
-    "ToolTip": "Quasi non vero iste.",
+    "Id": 571,
+    "Name": "Wilkinson, Heaney and Prohaska",
+    "ToolTip": "Sint laborum excepturi.",
     "Deleted": false,
-    "Rank": 744,
-    "Type": "doloribus",
-    "ColorBlock": 123,
-    "IconHint": "blanditiis",
+    "Rank": 111,
+    "Type": "cumque",
+    "ColorBlock": 798,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2000-07-20T13:13:33.651626+02:00",
+    "LastChanged": "2005-11-13T12:01:33.6832402+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Corrupti veritatis.",
+        "Id": 547,
+        "Name": "Daniel-Mitchell",
+        "ToolTip": "Cum debitis ullam non eum alias.",
         "Deleted": true,
-        "Rank": 404,
-        "Type": "fugit",
-        "ColorBlock": 437,
-        "IconHint": "quae",
+        "Rank": 434,
+        "Type": "autem",
+        "ColorBlock": 348,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2015-04-11T13:13:33.651626+02:00",
+        "LastChanged": "2006-07-27T12:01:33.6832402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "praesentium",
-        "Hidden": false,
-        "FullName": "Kennedi Kuphal",
+        "ExtraInfo": "dolor",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Ole Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldType": "System.String",
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Juvenal Pacocha",
+    "ExtraInfo": "tempora",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Jacinthe Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 252
       }
     }
   }

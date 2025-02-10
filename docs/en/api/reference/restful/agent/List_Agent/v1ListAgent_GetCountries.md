@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 783,
-    "Name": "Wunsch, Schulist and Heidenreich",
-    "CurrencyId": 621,
-    "EnglishName": "Raynor-Zulauf",
+    "CountryId": 945,
+    "Name": "Swift, Hermiston and Heaney",
+    "CurrencyId": 257,
+    "EnglishName": "Stiedemann LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Object-based high-level support",
-    "OrgNrText": "1043174",
-    "InterAreaPrefix": "unde",
-    "DialInPrefix": "in",
-    "ZipPrefix": "rerum",
-    "DomainName": "Frami LLC",
-    "AddressLayoutId": 864,
-    "DomesticAddressLayoutId": 674,
-    "ForeignAddressLayoutId": 204,
-    "Rank": 162,
-    "Tooltip": "rerum",
-    "Deleted": false,
+    "ImageDescription": "Cloned contextually-based benchmark",
+    "OrgNrText": "651786",
+    "InterAreaPrefix": "aut",
+    "DialInPrefix": "distinctio",
+    "ZipPrefix": "nisi",
+    "DomainName": "Flatley-Upton",
+    "AddressLayoutId": 137,
+    "DomesticAddressLayoutId": 922,
+    "ForeignAddressLayoutId": 371,
+    "Rank": 967,
+    "Tooltip": "mollitia",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 298
       }
     }
   }

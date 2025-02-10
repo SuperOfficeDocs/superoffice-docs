@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Sipes, Bartell and Bashirian",
-    "Tooltip": "quo",
+    "Id": 32,
+    "Name": "Aufderhar-Turcotte",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 734,
-    "Rank": 317
+    "UdListDefinitionId": 741,
+    "Rank": 388
   },
   {
-    "Id": 674,
-    "Name": "Sipes, Bartell and Bashirian",
-    "Tooltip": "quo",
+    "Id": 32,
+    "Name": "Aufderhar-Turcotte",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 734,
-    "Rank": 317
+    "UdListDefinitionId": 741,
+    "Rank": 388
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 847,
-    "Name": "Cole Inc and Sons",
-    "Tooltip": "sequi",
+    "Id": 625,
+    "Name": "Labadie, Schroeder and Botsford",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 109,
-    "Rank": 963,
+    "UdListDefinitionId": 45,
+    "Rank": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

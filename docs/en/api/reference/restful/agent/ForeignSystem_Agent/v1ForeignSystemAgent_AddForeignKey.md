@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Koepp-Mitchell",
-  "DeviceName": "Barrows Inc and Sons",
-  "DeviceIdentifier": "sed"
+  "ApplicationName": "Tromp-Sanford",
+  "DeviceName": "Weissnat, Bogisich and Walter",
+  "DeviceIdentifier": "dolore"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eligendi",
-  "Value": "necessitatibus",
-  "RecordId": 194,
-  "CreatedDate": "2001-06-19T13:13:23.1645837+02:00",
-  "UpdatedDate": "2008-04-26T13:13:23.1645837+02:00",
-  "UpdatedBy": "asperiores",
-  "CreatedBy": "doloribus",
-  "TableName": "Stiedemann, Mueller and Goldner",
+  "Key": "neque",
+  "Value": "magnam",
+  "RecordId": 32,
+  "CreatedDate": "2002-06-19T12:01:27.9002891+02:00",
+  "UpdatedDate": "2023-10-26T12:01:27.9002891+02:00",
+  "UpdatedBy": "enim",
+  "CreatedBy": "eius",
+  "TableName": "Johnson-Connelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 534
     }
   }
 }

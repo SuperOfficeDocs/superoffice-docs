@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "illum",
-  "ProviderName": "Funk, Stracke and Schowalter",
-  "StorageKey": "quidem",
+  "StorageType": "necessitatibus",
+  "ProviderName": "Jaskolski-Hudson",
+  "StorageKey": "et",
   "ExtraRestrictions": [
     {
-      "Name": "Mosciski Inc and Sons",
-      "Operator": "maxime",
+      "Name": "Abshire LLC",
+      "Operator": "odit",
       "Values": [
-        "esse",
-        "et"
+        "voluptatem",
+        "nam"
       ],
       "DisplayValues": [
-        "sit",
-        "blanditiis"
+        "dolorum",
+        "dolor"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 889,
+      "InterParenthesis": 175,
       "InterOperator": "And",
-      "UniqueHash": 367
+      "UniqueHash": 366
     }
   ],
   "OrderBy": [
     {
-      "Name": "Ankunding, Bauch and Lubowitz",
+      "Name": "Donnelly, Gutmann and Koss",
       "Direction": "ASC"
     },
     {
-      "Name": "Ankunding, Bauch and Lubowitz",
+      "Name": "Donnelly, Gutmann and Koss",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "perferendis",
-    "blanditiis"
+    "eum",
+    "quia"
   ],
-  "PageSize": 13,
-  "PageNumber": 319
+  "PageSize": 851,
+  "PageNumber": 561
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rath, Mertz and DuBuque",
-      "DisplayTooltip": "cupiditate",
-      "DisplayType": "dolore",
-      "CanOrderBy": false,
-      "Name": "Renner, Ward and Altenwerth",
+      "DisplayName": "Kilback, O'Kon and Waters",
+      "DisplayTooltip": "odio",
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Ritchie, Ruecker and Brekke",
       "CanRestrictBy": false,
-      "RestrictionType": "corporis",
-      "RestrictionListName": "Runolfsdottir, Emmerich and Murphy",
+      "RestrictionType": "unde",
+      "RestrictionListName": "Nikolaus LLC",
       "IsVisible": false,
-      "ExtraInfo": "culpa",
-      "Width": "impedit",
-      "IconHint": "aut",
-      "HeadingIconHint": "repudiandae"
+      "ExtraInfo": "enim",
+      "Width": "incidunt",
+      "IconHint": "omnis",
+      "HeadingIconHint": "ad"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pagac, Hamill and Jerde",
-      "PrimaryKey": 912,
+      "EntityName": "Buckridge, Swaniawski and Swaniawski",
+      "PrimaryKey": 253,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "delectus",
-          "TooltipHint": "molestias",
-          "LinkHint": "nobis"
+          "DisplayValue": "veritatis",
+          "TooltipHint": "ex",
+          "LinkHint": "delectus"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "laborum",
+      "LinkHint": "possimus",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldType": "System.Int32",
+          "FieldLength": 636
         }
       }
     }
   ],
-  "RowCount": 216,
+  "RowCount": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 823
     }
   }
 }

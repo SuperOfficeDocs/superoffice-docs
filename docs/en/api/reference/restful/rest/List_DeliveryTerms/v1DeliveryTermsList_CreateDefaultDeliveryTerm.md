@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 547,
-  "Rank": 497,
+  "Id": 371,
+  "Name": "Ondricka, Jones and Keeling",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 676,
+  "Rank": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 860
     }
   }
 }

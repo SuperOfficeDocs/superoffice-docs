@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 201,
-  "PlainMessage": "sed",
-  "HtmlMessage": "quasi",
-  "SmsMessage": "esse",
-  "Description": "Stand-alone methodical adapter",
-  "Subject": "qui",
-  "FolderId": 170,
-  "HeaderField": "eum",
-  "Design": "minus",
+  "ShipmentMessageId": 108,
+  "PlainMessage": "dignissimos",
+  "HtmlMessage": "corrupti",
+  "SmsMessage": "qui",
+  "Description": "Multi-channelled context-sensitive protocol",
+  "Subject": "similique",
+  "FolderId": 714,
+  "HeaderField": "possimus",
+  "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Stand-alone optimizing toolset",
-  "AccessKey": "et",
-  "DocumentMessage": 540,
-  "Registered": "2017-01-12T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 851,
-  "Updated": "2009-12-10T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 883,
-  "UpdatedCount": 362
+  "InlineImages": true,
+  "LongDescription": "Expanded client-server forecast",
+  "AccessKey": "quaerat",
+  "DocumentMessage": 238,
+  "Registered": "2018-11-25T12:01:33.2144574+01:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2015-05-27T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 527,
+  "UpdatedCount": 401
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 462,
-  "PlainMessage": "aliquid",
-  "HtmlMessage": "placeat",
-  "SmsMessage": "corporis",
-  "Description": "Digitized well-modulated synergy",
-  "Subject": "aspernatur",
-  "FolderId": 178,
-  "HeaderField": "quam",
-  "Design": "doloremque",
+  "ShipmentMessageId": 156,
+  "PlainMessage": "asperiores",
+  "HtmlMessage": "et",
+  "SmsMessage": "ut",
+  "Description": "Realigned transitional customer loyalty",
+  "Subject": "cum",
+  "FolderId": 891,
+  "HeaderField": "fugit",
+  "Design": "praesentium",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Self-enabling discrete workforce",
-  "AccessKey": "similique",
-  "DocumentMessage": 263,
-  "Registered": "2016-03-27T13:13:32.3392746+02:00",
-  "RegisteredAssociateId": 174,
-  "Updated": "2013-01-03T13:13:32.3392746+01:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 185,
+  "LongDescription": "Extended object-oriented customer loyalty",
+  "AccessKey": "consectetur",
+  "DocumentMessage": 933,
+  "Registered": "2020-10-16T12:01:33.2144574+02:00",
+  "RegisteredAssociateId": 905,
+  "Updated": "2003-08-05T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 970,
+  "UpdatedCount": 285,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

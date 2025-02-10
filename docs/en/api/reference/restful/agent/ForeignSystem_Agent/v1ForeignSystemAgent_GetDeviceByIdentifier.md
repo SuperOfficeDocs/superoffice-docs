@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Carter-Altenwerth",
-  "DeviceName": "Hilpert, Russel and Baumbach",
-  "DeviceIdentifier": "est"
+  "ApplicationName": "Kling, Rutherford and Smitham",
+  "DeviceName": "Hoeger-Boyle",
+  "DeviceIdentifier": "suscipit"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 646,
-  "Name": "Schmeler, Wolff and Hettinger",
-  "CreatedDate": "2000-08-09T13:13:23.1645837+02:00",
-  "UpdatedDate": "2013-05-05T13:13:23.1645837+02:00",
-  "AssociateFullName": "Ernestine Cruickshank",
-  "CreatedBy": "magni",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 114,
+  "ForeignDeviceId": 556,
+  "Name": "Leuschke-Kessler",
+  "CreatedDate": "1998-09-24T12:01:27.9002891+02:00",
+  "UpdatedDate": "2000-04-26T12:01:27.9002891+02:00",
+  "AssociateFullName": "Murray Walter",
+  "CreatedBy": "quia",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "eligendi",
+  "ForeignAppId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

@@ -94,16 +94,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 987,
-  "Name": "Prosacco-Ritchie",
+  "ScreenChooserId": 310,
+  "Name": "Wilkinson, Hand and Medhurst",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "aut",
-  "Source": "eius",
-  "Registered": "2003-07-30T13:13:32.5111102+02:00",
-  "RegisteredAssociateId": 392,
-  "Updated": "2023-11-21T13:13:32.5111102+01:00",
-  "UpdatedAssociateId": 578
+  "Enabled": false,
+  "UniqueIdentifier": "sed",
+  "Source": "totam",
+  "Registered": "2001-02-28T12:01:33.2925881+01:00",
+  "RegisteredAssociateId": 295,
+  "Updated": "1998-01-24T12:01:33.2925881+01:00",
+  "UpdatedAssociateId": 945
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 233,
-  "Name": "Schumm-Denesik",
+  "ScreenChooserId": 24,
+  "Name": "Grant Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "cumque",
-  "Registered": "2013-10-20T13:13:32.5111102+02:00",
-  "RegisteredAssociateId": 247,
-  "Updated": "2017-08-31T13:13:32.5111102+02:00",
-  "UpdatedAssociateId": 781,
+  "UniqueIdentifier": "est",
+  "Source": "facilis",
+  "Registered": "2016-06-29T12:01:33.308214+02:00",
+  "RegisteredAssociateId": 767,
+  "Updated": "2010-10-20T12:01:33.308214+02:00",
+  "UpdatedAssociateId": 878,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 455
     }
   }
 }

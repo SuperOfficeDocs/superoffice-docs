@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 426,
-      "PrefDescId": 255,
-      "PrefValue": "rem",
-      "PrefShowValue": "debitis",
-      "Description": "Centralized uniform model",
+      "PrefDescLineId": 890,
+      "PrefDescId": 762,
+      "PrefValue": "placeat",
+      "PrefShowValue": "veritatis",
+      "Description": "Future-proofed 24 hour encryption",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 426,
-      "PrefDescId": 255,
-      "PrefValue": "rem",
-      "PrefShowValue": "debitis",
-      "Description": "Centralized uniform model",
+      "PrefDescLineId": 890,
+      "PrefDescId": 762,
+      "PrefValue": "placeat",
+      "PrefShowValue": "veritatis",
+      "Description": "Future-proofed 24 hour encryption",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 193,
-    "PrefDescId": 506,
-    "PrefValue": "dolorum",
-    "PrefShowValue": "sit",
-    "Description": "Secured discrete groupware",
+    "PrefDescLineId": 519,
+    "PrefDescId": 267,
+    "PrefValue": "molestias",
+    "PrefShowValue": "molestiae",
+    "Description": "Stand-alone full-range array",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

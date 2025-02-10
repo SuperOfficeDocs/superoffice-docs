@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "eius",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "eius",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sit",
+  "SaleText": "eius",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-01-26T13:13:32.2767896+01:00",
-  "Amount": 10846.774,
-  "SaleId": 161,
-  "Earning": 990.34399999999994,
-  "EarningPercent": 25535.832,
-  "Heading": "nemo",
-  "Number": "1473117",
-  "Probability": 220,
-  "CreatedDate": "2015-09-24T13:13:32.2767896+02:00",
-  "UpdatedDate": "2022-06-07T13:13:32.2767896+02:00",
+  "Saledate": "2022-05-22T12:01:33.1832049+02:00",
+  "Amount": 5816.704,
+  "SaleId": 518,
+  "Earning": 12517.196,
+  "EarningPercent": 1156.446,
+  "Heading": "doloremque",
+  "Number": "893273",
+  "Probability": 200,
+  "CreatedDate": "2015-09-03T12:01:33.1832049+02:00",
+  "UpdatedDate": "2019-12-20T12:01:33.1832049+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 479,
+  "ActiveLinks": 573,
   "Links": [
     {
-      "EntityName": "Stiedemann Inc and Sons",
-      "Id": 262,
-      "Description": "Public-key 24 hour product",
-      "ExtraInfo": "debitis",
-      "LinkId": 875,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 698
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2006-01-10T13:13:32.2767896+01:00",
-  "Postit": "explicabo",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2001-11-15T13:13:32.2767896+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Steuber Inc and Sons",
-      "Comment": "quasi",
-      "StakeholderRoleId": 630,
-      "CountryId": 965,
-      "PersonId": 502,
-      "EmailDescription": "jodie@schimmel.info",
-      "EmailId": 466,
-      "EmailAddress": "annabel@parker.biz",
-      "PhoneId": 236,
-      "ContactName": "Klocko, Hoppe and Deckow",
-      "ContactId": 523,
-      "SaleId": 201,
-      "Mrmrs": "sunt",
-      "Firstname": "Mikayla",
-      "MiddleName": "Lemke Group",
-      "Lastname": "Fay",
-      "SaleStakeholderId": 150,
-      "Rank": 146,
-      "Phone": "027-452-4184 x910",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 7,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1298497074",
-    "SuperOffice:2": "1461464949"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "voluptatibus"
-  },
-  "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "vero"
-  },
-  "PublishEventDate": "2002-02-15T13:13:32.2767896+01:00",
-  "PublishTo": "2021-01-25T13:13:32.2767896+01:00",
-  "PublishFrom": "2001-03-09T13:13:32.2767896+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 317,
-      "Visibility": "All",
-      "DisplayValue": "libero",
+      "EntityName": "Marks Inc and Sons",
+      "Id": 172,
+      "Description": "Digitized 5th generation adapter",
+      "ExtraInfo": "voluptate",
+      "LinkId": 11,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldLength": 984
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2023-11-30T12:01:33.1832049+01:00",
+  "Postit": "ut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "1999-01-24T12:01:33.1832049+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Stehr, Adams and Koelpin",
+      "Comment": "ut",
+      "StakeholderRoleId": 306,
+      "CountryId": 342,
+      "PersonId": 896,
+      "EmailDescription": "marie@breitenbergdickens.com",
+      "EmailId": 960,
+      "EmailAddress": "uriel.boehm@little.com",
+      "PhoneId": 979,
+      "ContactName": "Halvorson-Harvey",
+      "ContactId": 355,
+      "SaleId": 257,
+      "Mrmrs": "temporibus",
+      "Firstname": "Ross",
+      "MiddleName": "Conroy Inc and Sons",
+      "Lastname": "Cummerata",
+      "SaleStakeholderId": 277,
+      "Rank": 149,
+      "Phone": "383.936.7831 x2017",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 327
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 225,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "957400007"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "rem",
+    "ExtraFields2": "officia"
+  },
+  "CustomFields": {
+    "CustomFields1": "et",
+    "CustomFields2": "sapiente"
+  },
+  "PublishEventDate": "2014-02-02T12:01:33.1832049+01:00",
+  "PublishTo": "2000-12-10T12:01:33.1832049+01:00",
+  "PublishFrom": "2003-08-31T12:01:33.1832049+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 456,
+      "Visibility": "All",
+      "DisplayValue": "in",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     },
     {
-      "VisibleId": 317,
+      "VisibleId": 456,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldLength": 748
     }
   },
   "_Links": {

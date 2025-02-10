@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Towne Group",
-  "DeviceName": "Mann, Wilkinson and Macejkovic"
+  "ApplicationName": "Leuschke, Towne and Bashirian",
+  "DeviceName": "Ritchie-Pagac"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 496,
-  "Name": "Heller-Nolan",
-  "CreatedDate": "2005-10-31T13:13:23.1645837+01:00",
-  "UpdatedDate": "2024-10-21T13:13:23.1645837+02:00",
-  "AssociateFullName": "Enoch Herzog",
-  "CreatedBy": "praesentium",
-  "UpdatedBy": "ab",
-  "DeviceIdentifier": "quo",
-  "ForeignAppId": 307,
+  "ForeignDeviceId": 960,
+  "Name": "Jast, Funk and Feest",
+  "CreatedDate": "2012-02-08T12:01:27.9002891+01:00",
+  "UpdatedDate": "2014-04-24T12:01:27.9002891+02:00",
+  "AssociateFullName": "Lucinda Krajcik",
+  "CreatedBy": "atque",
+  "UpdatedBy": "vitae",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

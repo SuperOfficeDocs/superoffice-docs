@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 670,
-  "Name": "Stiedemann Inc and Sons",
-  "Description": "Open-source incremental firmware",
-  "WelcomeMessage": "officiis",
+  "ChatTopicId": 733,
+  "Name": "Halvorson-Lehner",
+  "Description": "Secured 5th generation neural-net",
+  "WelcomeMessage": "expedita",
   "Language": null,
-  "LastAccept": "2000-05-21T13:13:31.4333046+02:00",
-  "SecondsPrAccept": 306,
-  "AlertRecipient": "autem",
+  "LastAccept": "2017-01-08T12:01:32.7613009+01:00",
+  "SecondsPrAccept": 839,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "neque",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "non",
-  "WarnNewChatMinutes": 526,
-  "WarnManagerNewChatMinutes": 185,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "doloremque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 700,
+  "WarnManagerNewChatMinutes": 821,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 349,
-  "WarnManagerChatMessageMinutes": 480,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 729,
-  "OfflineFormQueueLength": 469,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "consequatur",
+  "WarnChatMessageMinutes": 112,
+  "WarnManagerChatMessageMinutes": 827,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 985,
+  "OfflineFormQueueLength": 371,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 379
     }
   },
   "_Links": {

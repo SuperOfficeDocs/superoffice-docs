@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2021-03-29T13:13:22.0864676+02:00",
-  "ToDate": "2019-08-03T13:13:22.0864676+02:00",
+  "FromDate": "2023-08-18T12:01:27.3221238+02:00",
+  "ToDate": "2002-06-30T12:01:27.3221238+02:00",
   "AssociateList": [
     {
-      "Id": 378,
-      "Name": "DuBuque Group",
-      "ToolTip": "Est fugit omnis enim quaerat.",
+      "Id": 894,
+      "Name": "Stanton, Hudson and Dietrich",
+      "ToolTip": "Modi voluptates inventore neque eius consequatur quia.",
       "Deleted": false,
-      "Rank": 963,
-      "Type": "sit",
-      "ColorBlock": 511,
-      "IconHint": "quas",
-      "Selected": false,
-      "LastChanged": "2005-04-29T13:13:22.0864676+02:00",
+      "Rank": 380,
+      "Type": "veniam",
+      "ColorBlock": 525,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2013-04-15T12:01:27.3221238+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsam",
-      "StyleHint": "sit",
+      "ExtraInfo": "ut",
+      "StyleHint": "officia",
       "Hidden": true,
-      "FullName": "Elmira Murphy",
+      "FullName": "Mrs. Jailyn Jacques Ziemann I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldLength": 932
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 729,
-      "Name": "Wyman-Brown",
-      "ToolTip": "Ut sit ab officia quibusdam.",
-      "Deleted": true,
-      "Rank": 505,
-      "Type": "natus",
-      "ColorBlock": 996,
-      "IconHint": "earum",
-      "Selected": true,
-      "LastChanged": "2018-11-16T13:13:22.0864676+01:00",
+      "Id": 68,
+      "Name": "Rogahn-Borer",
+      "ToolTip": "Amet est temporibus eligendi sed illo.",
+      "Deleted": false,
+      "Rank": 96,
+      "Type": "quaerat",
+      "ColorBlock": 189,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2005-11-07T12:01:27.3221238+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Ms. Everardo Maye Kutch Sr.",
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "ipsum",
+      "Hidden": false,
+      "FullName": "Osborne Blanda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 943,
-      "Name": "Beahan LLC",
-      "ToolTip": "Aut hic a eum.",
+      "Id": 726,
+      "Name": "Lynch-Marvin",
+      "ToolTip": "Sed omnis.",
       "Deleted": false,
-      "Rank": 67,
-      "Type": "rem",
+      "Rank": 556,
+      "Type": "officiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "recusandae",
-      "ColorBlock": 31,
-      "ExtraInfo": "debitis",
-      "StyleHint": "iure",
-      "FullName": "Clare Predovic",
+      "IconHint": "voluptatum",
+      "ColorBlock": 662,
+      "ExtraInfo": "placeat",
+      "StyleHint": "ullam",
+      "FullName": "Christina Faye Torphy Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 663
+          "FieldLength": 805
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

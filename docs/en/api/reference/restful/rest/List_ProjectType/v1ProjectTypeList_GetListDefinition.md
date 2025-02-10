@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Kemmer, Sauer and Heller",
-  "Tooltip": "quidem",
+  "Id": 125,
+  "Name": "Pacocha-Ankunding",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 448,
-  "IsCustomList": false,
+  "Rank": 327,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 971
     }
   },
   "_Links": {

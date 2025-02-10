@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 603,
-  "NewName": "O'Connell Inc and Sons",
-  "ValidFrom": "2015-12-01T13:13:23.7113275+01:00",
-  "ValidTo": "2007-02-23T13:13:23.7113275+01:00",
-  "NewCurrencyId": 843,
+  "OriginalPriceListId": 513,
+  "NewName": "Rippin-Wunsch",
+  "ValidFrom": "2019-09-30T12:01:28.1815588+02:00",
+  "ValidTo": "2006-03-21T12:01:28.1815588+01:00",
+  "NewCurrencyId": 26,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 290,
-  "ERPPriceListKey": "modi",
-  "QuoteConnectionId": 729,
-  "Name": "Runte LLC",
-  "Description": "Automated human-resource task-force",
-  "Currency": "explicabo",
-  "CurrencyName": "Bechtelar-Cummings",
-  "ValidFrom": "2016-08-24T13:13:23.7113275+02:00",
-  "ValidTo": "2015-10-24T13:13:23.7113275+02:00",
-  "IsActive": false,
+  "PriceListId": 867,
+  "ERPPriceListKey": "architecto",
+  "QuoteConnectionId": 135,
+  "Name": "Mayer, Ryan and Champlin",
+  "Description": "Vision-oriented scalable paradigm",
+  "Currency": "quia",
+  "CurrencyName": "McLaughlin Inc and Sons",
+  "ValidFrom": "1999-10-08T12:01:28.1815588+02:00",
+  "ValidTo": "2001-01-12T12:01:28.1815588+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 954
     }
   }
 }

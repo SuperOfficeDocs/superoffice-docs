@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 449,
-    "Name": "Murazik, Emard and Douglas",
-    "Tooltip": "iure",
-    "Rank": 148,
-    "Key": "qui",
+    "LegalBaseId": 197,
+    "Name": "Bartoletti LLC",
+    "Tooltip": "dolor",
+    "Rank": 43,
+    "Key": "totam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 468
       }
     }
   }

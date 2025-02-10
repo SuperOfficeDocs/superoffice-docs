@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 614,
-  "Name": "Harris, Sporer and Kautzer",
-  "Tooltip": "nulla",
-  "TableName": "O'Conner, Keebler and Fay",
-  "Area": "recusandae",
+  "TaskMenuId": 525,
+  "Name": "Konopelski, Bergnaum and Daugherty",
+  "Tooltip": "animi",
+  "TableName": "Hills, Kovacek and Cormier",
+  "Area": "magni",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 626,
+  "CrmScriptId": 103,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 712,
+  "Rank": 300,
   "Encoding": "ANSI",
-  "ProgId": "quia",
+  "ProgId": "consequuntur",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 333,
-  "Name": "Deckow, Reichel and Herzog",
-  "Tooltip": "quae",
-  "TableName": "Kling-Koss",
-  "Area": "quo",
+  "TaskMenuId": 951,
+  "Name": "Hagenes-Schulist",
+  "Tooltip": "voluptatem",
+  "TableName": "Bradtke Group",
+  "Area": "quia",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 609,
+  "CrmScriptId": 903,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 776,
+  "Rank": 86,
   "Encoding": "ANSI",
-  "ProgId": "labore",
+  "ProgId": "unde",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

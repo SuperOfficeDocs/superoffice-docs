@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 476
+  "SaleId": 109
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 652,
-    "Attention": "sint",
-    "Header": "hic",
-    "Name": "Davis-Lind",
-    "OurRef": "enim",
-    "YourRef": "impedit",
-    "Description": "Extended clear-thinking application",
-    "DocumentTemplate": "odit",
+    "DocumentId": 437,
+    "Attention": "qui",
+    "Header": "voluptates",
+    "Name": "Boyle Inc and Sons",
+    "OurRef": "consequatur",
+    "YourRef": "enim",
+    "Description": "Implemented zero tolerance local area network",
+    "DocumentTemplate": "atque",
     "IsPublished": false,
-    "PersonId": 385,
-    "PersonFullName": "Hertha Stoltenberg III",
-    "AssociateFullName": "Elena Konopelski",
-    "ContactId": 45,
-    "ContactName": "Walter Group",
-    "ProjectId": 998,
-    "ProjectName": "Cruickshank, Williamson and Bartell",
-    "AssociateId": 14,
-    "Snum": 312,
-    "SaleId": 970,
-    "SaleName": "Reichert, Becker and Konopelski",
+    "PersonId": 134,
+    "PersonFullName": "Ms. Penelope Hackett DDS",
+    "AssociateFullName": "Orland O'Reilly",
+    "ContactId": 442,
+    "ContactName": "Cruickshank-Schamberger",
+    "ProjectId": 989,
+    "ProjectName": "Pfannerstill, Casper and Abshire",
+    "AssociateId": 276,
+    "Snum": 689,
+    "SaleId": 226,
+    "SaleName": "Bartell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

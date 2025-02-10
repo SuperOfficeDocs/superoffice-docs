@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 156,
-  "ColumnId": 826,
-  "FieldDefault": "sequi",
-  "FieldHeight": 86,
-  "FieldLabel": "impedit",
-  "FieldLeft": 208,
-  "FieldTop": 13,
+  "UDefFieldId": 319,
+  "ColumnId": 846,
+  "FieldDefault": "perferendis",
+  "FieldHeight": 8,
+  "FieldLabel": "adipisci",
+  "FieldLeft": 435,
+  "FieldTop": 819,
   "FieldType": "Checkbox",
-  "FieldWidth": 131,
-  "FormatMask": "voluptas",
+  "FieldWidth": 906,
+  "FormatMask": "veniam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 239,
-  "LabelLeft": 320,
-  "LabelTop": 761,
-  "LabelWidth": 105,
-  "LastVersionId": 972,
-  "ListTableId": 340,
+  "LabelHeight": 155,
+  "LabelLeft": 360,
+  "LabelTop": 563,
+  "LabelWidth": 469,
+  "LastVersionId": 72,
+  "ListTableId": 351,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 985,
-  "ProgId": "magnam",
-  "IsReadOnly": true,
-  "ShortLabel": "laboriosam",
-  "TabOrder": 63,
-  "TextLength": 635,
-  "Tooltip": "maiores",
-  "UdefIdentity": 726,
-  "UDListDefinitionId": 1002,
+  "Page1LineNo": 296,
+  "ProgId": "perferendis",
+  "IsReadOnly": false,
+  "ShortLabel": "possimus",
+  "TabOrder": 520,
+  "TextLength": 390,
+  "Tooltip": "dolore",
+  "UdefIdentity": 30,
+  "UDListDefinitionId": 173,
   "Justification": "Center",
-  "Version": 825,
-  "TemplateVariableName": "Breitenberg LLC",
+  "Version": 385,
+  "TemplateVariableName": "Goldner, Barrows and Monahan",
   "HasBeenPublished": false,
-  "MdoListName": "Predovic, Kunze and Ebert",
+  "MdoListName": "Prohaska, Leffler and Reichert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

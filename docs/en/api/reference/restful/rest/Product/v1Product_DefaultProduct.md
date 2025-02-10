@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 791,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "quia",
-  "Name": "Hartmann-Emmerich",
-  "Description": "Enhanced local toolset",
-  "Code": "harum",
-  "PriceUnit": "sed",
-  "QuantityUnit": "atque",
+  "ProductId": 9,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "blanditiis",
+  "Name": "Murphy LLC",
+  "Description": "Multi-channelled zero administration utilisation",
+  "Code": "quisquam",
+  "PriceUnit": "labore",
+  "QuantityUnit": "quibusdam",
   "IsSubscription": false,
-  "SubscriptionUnit": "possimus",
-  "DefaultSubscriptionQuantity": 2140.522,
-  "ItemNumber": "714108",
+  "SubscriptionUnit": "eaque",
+  "DefaultSubscriptionQuantity": 25178.556,
+  "ItemNumber": "639056",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "inventore",
-  "ProductTypeKey": "repudiandae",
-  "VAT": 9837.626,
-  "VATInfo": "illum",
-  "UnitCost": 12206.93,
-  "UnitMinimumPrice": 22439.44,
-  "UnitListPrice": 27532.19,
-  "InAssortment": true,
-  "Supplier": "qui",
-  "SupplierCode": "voluptas",
-  "Rights": "cum",
-  "Rule": "laudantium",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "sed",
+  "VAT": 2889.548,
+  "VATInfo": "culpa",
+  "UnitCost": 435.626,
+  "UnitMinimumPrice": 16773.167999999998,
+  "UnitListPrice": 30152.214,
+  "InAssortment": false,
+  "Supplier": "non",
+  "SupplierCode": "illo",
+  "Rights": "quis",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Von Group",
-      "Value": "molestiae",
+      "Name": "Mayer, Littel and Satterfield",
+      "Value": "quas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldType": "System.String",
+          "FieldLength": 20
         }
       }
     },
     {
-      "Name": "Von Group",
-      "Value": "molestiae",
+      "Name": "Mayer, Littel and Satterfield",
+      "Value": "quas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldType": "System.String",
+          "FieldLength": 20
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "fugiat",
-  "ExtraField2": "nihil",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "rerum",
-  "ExtraField5": "qui",
-  "InStock": 485.77,
+  "RawExtraInfo": "eos",
+  "ExtraField1": "cumque",
+  "ExtraField2": "tempore",
+  "ExtraField3": "praesentium",
+  "ExtraField4": "quae",
+  "ExtraField5": "quod",
+  "InStock": 2974.1659999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldLength": 825
     }
   }
 }

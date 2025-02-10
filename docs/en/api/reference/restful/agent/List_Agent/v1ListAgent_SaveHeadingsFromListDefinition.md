@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
+  "Id": 256,
   "Entities": [
     {
-      "HeadingId": 900,
-      "Name": "Windler Group",
-      "Tooltip": "quia",
+      "HeadingId": 419,
+      "Name": "Walsh, Hilpert and Collins",
+      "Tooltip": "cupiditate",
       "Deleted": true,
-      "Rank": 466,
-      "UdListDefinitionId": 371
+      "Rank": 587,
+      "UdListDefinitionId": 959
     },
     {
-      "HeadingId": 900,
-      "Name": "Windler Group",
-      "Tooltip": "quia",
+      "HeadingId": 419,
+      "Name": "Walsh, Hilpert and Collins",
+      "Tooltip": "cupiditate",
       "Deleted": true,
-      "Rank": 466,
-      "UdListDefinitionId": 371
+      "Rank": 587,
+      "UdListDefinitionId": 959
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 390,
-    "Name": "Hickle, Prohaska and Sipes",
-    "Tooltip": "cupiditate",
-    "Deleted": false,
-    "Rank": 46,
-    "UdListDefinitionId": 890,
+    "HeadingId": 834,
+    "Name": "Barton LLC",
+    "Tooltip": "commodi",
+    "Deleted": true,
+    "Rank": 70,
+    "UdListDefinitionId": 371,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 217
       }
     }
   }

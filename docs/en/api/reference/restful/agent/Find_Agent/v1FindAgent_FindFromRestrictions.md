@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Willms Group",
-      "Operator": "ea",
+      "Name": "Dibbert, Lynch and Bauch",
+      "Operator": "voluptate",
       "Values": [
-        "ut",
-        "nulla"
+        "nam",
+        "incidunt"
       ],
       "DisplayValues": [
-        "et",
-        "debitis"
+        "ducimus",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 556,
+      "InterParenthesis": 255,
       "InterOperator": "And",
-      "UniqueHash": 238
+      "UniqueHash": 364
     }
   ],
-  "ProviderName": "Breitenberg Inc and Sons",
-  "PageSize": 907,
-  "PageNumber": 833
+  "ProviderName": "Hayes-Langworth",
+  "PageSize": 800,
+  "PageNumber": 98
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Turner, Nolan and Berge",
-      "DisplayTooltip": "qui",
-      "DisplayType": "minus",
-      "CanOrderBy": false,
-      "Name": "Braun Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolorem",
-      "RestrictionListName": "Zboncak-Kreiger",
+      "DisplayName": "Pfeffer, Swaniawski and Reichel",
+      "DisplayTooltip": "odit",
+      "DisplayType": "ut",
+      "CanOrderBy": true,
+      "Name": "Flatley Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Renner-Cummerata",
       "IsVisible": false,
-      "ExtraInfo": "sed",
-      "Width": "corporis",
-      "IconHint": "dolorum",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "inventore",
+      "Width": "eius",
+      "IconHint": "totam",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Daugherty, Tremblay and Hauck",
-      "PrimaryKey": 810,
+      "EntityName": "Crona Inc and Sons",
+      "PrimaryKey": 306,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "totam",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "aut"
+          "DisplayValue": "omnis",
+          "TooltipHint": "quas",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "et",
+      "LinkHint": "nulla",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 164
         }
       }
     }
   ],
-  "RowCount": 840,
+  "RowCount": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

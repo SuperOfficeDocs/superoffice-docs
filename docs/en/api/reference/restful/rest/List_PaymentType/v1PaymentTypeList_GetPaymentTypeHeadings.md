@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 642,
-    "Name": "Walsh, Tromp and Cole",
-    "Tooltip": "delectus",
+    "HeadingId": 356,
+    "Name": "Volkman, Moen and Becker",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 266,
+    "Rank": 928,
+    "UdListDefinitionId": 588,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

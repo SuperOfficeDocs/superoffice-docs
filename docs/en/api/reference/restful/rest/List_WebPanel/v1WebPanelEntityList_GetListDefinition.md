@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Hills-Roob",
-  "Tooltip": "neque",
+  "Id": 46,
+  "Name": "Roob-Hudson",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 852,
+  "Rank": 581,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 551
     }
   },
   "_Links": {

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 972,
-      "ContactName": "Schmeler Inc and Sons",
-      "PersonId": 214,
-      "PersonName": "Gerlach LLC",
-      "AssociateId": 589,
-      "Address": "aspernatur",
-      "EmailId": 295,
+      "ContactId": 633,
+      "ContactName": "Von, Schiller and Lemke",
+      "PersonId": 755,
+      "PersonName": "Corkery-Walter",
+      "AssociateId": 735,
+      "Address": "deserunt",
+      "EmailId": 871,
       "DuplicatePersonIds": [
-        721,
-        786
+        104,
+        84
       ],
-      "Name": "Hoppe-Hahn",
+      "Name": "Mann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldLength": 861
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 827,
-      "ContactName": "Johns, Daniel and Schiller",
-      "PersonId": 949,
-      "PersonName": "Hartmann-Koepp",
-      "AssociateId": 703,
-      "Address": "suscipit",
-      "EmailId": 777,
+      "ContactId": 924,
+      "ContactName": "Leuschke Group",
+      "PersonId": 68,
+      "PersonName": "Braun, Purdy and Marvin",
+      "AssociateId": 352,
+      "Address": "ad",
+      "EmailId": 163,
       "DuplicatePersonIds": [
-        168,
-        346
+        553,
+        18
       ],
-      "Name": "Mann Inc and Sons",
+      "Name": "Rau-Hamill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 157,
-      "ContactName": "Gibson LLC",
-      "PersonId": 540,
-      "PersonName": "Bradtke Group",
-      "AssociateId": 992,
-      "Address": "odio",
-      "EmailId": 790,
+      "ContactId": 852,
+      "ContactName": "Wilkinson LLC",
+      "PersonId": 816,
+      "PersonName": "Becker-Bernier",
+      "AssociateId": 302,
+      "Address": "officia",
+      "EmailId": 732,
       "DuplicatePersonIds": [
-        612,
-        287
+        766,
+        569
       ],
-      "Name": "Larson Inc and Sons",
+      "Name": "Howell-Fisher",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 29
         }
       }
     }
   ],
-  "Subject": "blanditiis",
-  "HTMLBody": "ea",
+  "Subject": "aut",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2005-07-14T13:13:22.9771254+02:00",
-  "Size": 447,
+  "Sent": "2016-09-27T12:01:27.8065326+02:00",
+  "Size": 78,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "harum",
-  "PlainBody": "doloremque",
-  "IsSent": true,
+  "MessageID": "voluptatem",
+  "PlainBody": "est",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 203,
+  "ServerId": 376,
   "Attachments": [
     {
-      "Description": "Synchronised zero defect projection",
-      "Filename": "excepturi",
-      "Size": 581,
-      "Type": "quibusdam",
-      "Encoding": "minima",
-      "Id": "nesciunt",
-      "Disposition": "eaque",
+      "Description": "Self-enabling local knowledge user",
+      "Filename": "in",
+      "Size": 855,
+      "Type": "molestias",
+      "Encoding": "totam",
+      "Id": "id",
+      "Disposition": "suscipit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Parker-Jast",
+      "Name": "Kautzer, Braun and Monahan",
       "Values": [
-        "dolor",
-        "eos"
+        "excepturi",
+        "praesentium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldType": "System.Int32",
+          "FieldLength": 892
         }
       }
     },
     {
-      "Name": "Parker-Jast",
+      "Name": "Kautzer, Braun and Monahan",
       "Values": [
-        "dolor",
-        "eos"
+        "excepturi",
+        "praesentium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldType": "System.Int32",
+          "FieldLength": 892
         }
       }
     }
   ],
-  "FolderName": "Boyle, Gutmann and Collins",
-  "EmailItemId": 996,
-  "AccountId": 216,
-  "ReceivedAt": "2010-03-25T13:13:22.9771254+01:00",
+  "FolderName": "McDermott, Friesen and Lubowitz",
+  "EmailItemId": 456,
+  "AccountId": 308,
+  "ReceivedAt": "2008-12-07T12:01:27.8065326+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-09-25T13:13:22.9771254+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-09-15T12:01:27.8065326+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

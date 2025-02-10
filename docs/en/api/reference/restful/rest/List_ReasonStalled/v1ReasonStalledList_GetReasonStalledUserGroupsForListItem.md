@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Yost Group",
-    "ToolTip": "Ipsa voluptates quaerat nisi id non quasi.",
-    "Deleted": false,
-    "Rank": 769,
-    "Type": "aut",
-    "ColorBlock": 117,
-    "IconHint": "rerum",
+    "Id": 157,
+    "Name": "Hilll-Hermann",
+    "ToolTip": "Unde ex dolore accusantium.",
+    "Deleted": true,
+    "Rank": 706,
+    "Type": "eos",
+    "ColorBlock": 105,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2016-04-15T13:13:33.5422642+02:00",
+    "LastChanged": "2013-03-20T12:01:33.6363617+01:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Wisoky, Howell and Rogahn",
-        "ToolTip": "Maxime alias debitis quos aliquid sint sit.",
+        "Id": 980,
+        "Name": "Pacocha Group",
+        "ToolTip": "Pariatur ut dolore non.",
         "Deleted": true,
-        "Rank": 458,
-        "Type": "praesentium",
-        "ColorBlock": 806,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2022-05-01T13:13:33.5422642+02:00",
+        "Rank": 730,
+        "Type": "nemo",
+        "ColorBlock": 881,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2016-02-05T12:01:33.6363617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "officia",
+        "ExtraInfo": "vel",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Prof. Landen Klocko",
+        "FullName": "Miss Jaclyn Jayne Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Kaylah Bashirian",
+    "FullName": "Mr. Herminia Hyman Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 963
       }
     }
   }

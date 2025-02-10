@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 957
+  "SaleId": 608
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-02-03T13:13:21.9771183+01:00",
-  "AppointmentId": 409,
-  "Description": "Right-sized tangible interface",
-  "Title": "voluptas",
-  "Agenda": "beatae",
-  "InternalNotes": "amet",
-  "StartDate": "1998-10-13T13:13:21.9771183+02:00",
-  "EndDate": "2018-12-14T13:13:21.9771183+01:00",
+  "CreatedDate": "2001-01-23T12:01:27.2596193+01:00",
+  "AppointmentId": 345,
+  "Description": "Customer-focused regional monitoring",
+  "Title": "ipsam",
+  "Agenda": "unde",
+  "InternalNotes": "nobis",
+  "StartDate": "2007-12-17T12:01:27.2596193+01:00",
+  "EndDate": "1999-03-03T12:01:27.2596193+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 150,
+  "MotherId": 608,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-08-02T13:13:21.9771183+02:00",
+  "UpdatedDate": "2006-02-03T12:01:27.2752456+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 803,
+  "ActiveLinks": 611,
   "Links": [
     {
-      "EntityName": "White-Weissnat",
-      "Id": 664,
-      "Description": "Synergized national encryption",
-      "ExtraInfo": "omnis",
-      "LinkId": 905,
+      "EntityName": "Lesch, Murphy and Daniel",
+      "Id": 45,
+      "Description": "Switchable 4th generation Graphical User Interface",
+      "ExtraInfo": "rerum",
+      "LinkId": 987,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 173
         }
       }
     }
   ],
-  "AlarmLeadTime": "ratione",
-  "HasAlarm": true,
-  "ColorIndex": 102,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "possimus",
-  "LeadTime": "repudiandae",
-  "Location": "voluptatibus",
-  "RejectCounter": 429,
+  "AlarmLeadTime": "eaque",
+  "HasAlarm": false,
+  "ColorIndex": 298,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "et",
+  "LeadTime": "tempore",
+  "Location": "explicabo",
+  "RejectCounter": 919,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 60,
-      "PersonId": 639,
-      "ContactId": 737,
-      "EmailId": 24,
+      "AssociateId": 300,
+      "PersonId": 825,
+      "ContactId": 68,
+      "EmailId": 324,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kade_pouros@runolfsson.uk",
-      "Description": "Streamlined intermediate emulation"
+      "EmailAddress": "anabel@mosciski.co.uk",
+      "Description": "Optional content-based moderator"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-04-19T13:13:21.9771183+02:00",
+  "ActiveDate": "2018-02-10T12:01:27.2752456+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 40,
+  "PreferredTZLocation": 126,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 93,
+  "SuggestedAppointmentId": 889,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "enim",
+  "CentralserviceVideomeetId": "ipsum",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Glenda Alexandria Bahringer IV"
+    "SuperOffice:1": "1078628525",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "quia"
+    "CustomFields1": "debitis",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2019-07-30T13:13:21.9927375+02:00",
-  "PublishTo": "2016-06-18T13:13:21.9927375+02:00",
-  "PublishFrom": "2021-07-15T13:13:21.9927375+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-12-19T12:01:27.2752456+01:00",
+  "PublishTo": "2010-10-26T12:01:27.2752456+02:00",
+  "PublishFrom": "2012-06-07T12:01:27.2752456+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 13,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 812
         }
       }
     },
     {
-      "VisibleId": 13,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 812
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   }
 }

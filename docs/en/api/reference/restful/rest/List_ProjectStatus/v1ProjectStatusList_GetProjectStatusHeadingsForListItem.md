@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 458,
-    "Name": "Monahan, Hodkiewicz and Gislason",
-    "ToolTip": "Alias impedit tempore.",
-    "Deleted": false,
-    "Rank": 248,
-    "Type": "necessitatibus",
-    "ColorBlock": 579,
-    "IconHint": "eaque",
+    "Id": 248,
+    "Name": "Mann LLC",
+    "ToolTip": "Sint magnam distinctio.",
+    "Deleted": true,
+    "Rank": 862,
+    "Type": "minus",
+    "ColorBlock": 176,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "1999-04-22T13:13:33.3860624+02:00",
+    "LastChanged": "2023-02-17T12:01:33.5894836+01:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Bechtelar-Murazik",
-        "ToolTip": "Hic delectus molestiae id vero maxime soluta rerum.",
+        "Id": 260,
+        "Name": "Hartmann, Lynch and Nolan",
+        "ToolTip": "Vel autem deleniti rerum voluptatum.",
         "Deleted": false,
-        "Rank": 339,
-        "Type": "rem",
-        "ColorBlock": 466,
-        "IconHint": "sapiente",
+        "Rank": 928,
+        "Type": "quibusdam",
+        "ColorBlock": 27,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2008-07-23T13:13:33.3860624+02:00",
+        "LastChanged": "2003-10-12T12:01:33.5894836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Vida Lewis Ernser V",
+        "FullName": "Lucious Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mrs. Alfonzo Darius Bailey",
+    "ExtraInfo": "nemo",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Milan VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldLength": 839
       }
     }
   }

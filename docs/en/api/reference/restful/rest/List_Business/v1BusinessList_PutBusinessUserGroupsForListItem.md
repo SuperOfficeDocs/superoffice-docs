@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Nostrum mollitia nobis ea saepe nulla ipsam mollitia.",
+    "Id": 271,
+    "Name": "Blick, Collier and Yost",
+    "ToolTip": "Qui consequatur dolore distinctio.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "minima",
-    "ColorBlock": 462,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2010-07-15T13:13:32.839316+02:00",
+    "Rank": 237,
+    "Type": "aliquam",
+    "ColorBlock": 570,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2024-04-22T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Schuppe, Thompson and Kuhn",
-        "ToolTip": "Et voluptate in ut.",
+        "Id": 115,
+        "Name": "Jaskolski-Daniel",
+        "ToolTip": "Aspernatur sit quia magnam.",
         "Deleted": false,
-        "Rank": 778,
-        "Type": "et",
-        "ColorBlock": 139,
-        "IconHint": "soluta",
+        "Rank": 433,
+        "Type": "commodi",
+        "ColorBlock": 738,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2024-03-14T13:13:32.839316+01:00",
+        "LastChanged": "2008-10-09T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Esperanza Pfannerstill"
+        "ExtraInfo": "veniam",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Deshaun Ed Fadel II"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Kade Corwin"
+    "ExtraInfo": "in",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Dr. Corene Autumn Bosco IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Trantow, Graham and Price",
-    "ToolTip": "Minima aperiam tempora esse quisquam.",
+    "Id": 979,
+    "Name": "Grant-Purdy",
+    "ToolTip": "Eos id fugiat commodi nihil.",
     "Deleted": true,
-    "Rank": 199,
-    "Type": "ut",
-    "ColorBlock": 829,
-    "IconHint": "consequuntur",
+    "Rank": 535,
+    "Type": "eum",
+    "ColorBlock": 525,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2015-07-02T13:13:32.839316+02:00",
+    "LastChanged": "2018-06-14T12:01:33.4332226+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Heidenreich-Rice",
-        "ToolTip": "Recusandae ut nisi totam.",
-        "Deleted": false,
-        "Rank": 375,
-        "Type": "est",
-        "ColorBlock": 739,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2003-05-12T13:13:32.839316+02:00",
+        "Id": 431,
+        "Name": "Trantow-Ferry",
+        "ToolTip": "Facilis et.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "accusantium",
+        "ColorBlock": 755,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2002-05-08T12:01:33.4332226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Nathaniel Green",
+        "ExtraInfo": "autem",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Wilton Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Nia Hamill",
+    "FullName": "Vincent Dooley DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 601
       }
     }
   }

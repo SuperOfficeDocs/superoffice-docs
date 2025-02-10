@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=dolore
+GET /api/v1/List/ProductFamily/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Lueilwitz-Streich",
-    "ToolTip": "Accusamus fugit.",
+    "Id": 199,
+    "Name": "Jacobs-Rice",
+    "ToolTip": "Sit saepe optio dolorem.",
     "Deleted": false,
-    "Rank": 751,
-    "Type": "est",
+    "Rank": 57,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Kihn, Murphy and Leannon",
-        "ToolTip": "Ratione fugit suscipit eos quis.",
+        "Id": 387,
+        "Name": "Wisoky Group",
+        "ToolTip": "Eum vel.",
         "Deleted": false,
-        "Rank": 683,
-        "Type": "dignissimos",
+        "Rank": 857,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 913,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "omnis",
-        "FullName": "Mr. Tiara Rodrigo Paucek",
+        "IconHint": "nam",
+        "ColorBlock": 927,
+        "ExtraInfo": "impedit",
+        "StyleHint": "consequatur",
+        "FullName": "Christelle Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 284
           }
         }
       }
     ],
-    "IconHint": "consequuntur",
-    "ColorBlock": 709,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "dolore",
-    "FullName": "Mercedes Little",
+    "IconHint": "quia",
+    "ColorBlock": 15,
+    "ExtraInfo": "omnis",
+    "StyleHint": "aut",
+    "FullName": "Domingo Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 945
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman-Johnson",
+  "Name": "Lemke-Rosenbaum",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bernhard, Collier and Pouros",
-    "SoPrimaryKey": 511,
-    "EntryName": "Hettinger Inc and Sons",
-    "EntryIdentifier": "quaerat",
-    "RuleDisplayName": "Stroman LLC",
+    "RuleName": "Rempel, Langosh and Von",
+    "SoPrimaryKey": 718,
+    "EntryName": "Homenick Group",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Gulgowski, Johnston and Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldLength": 435
       }
     }
   }

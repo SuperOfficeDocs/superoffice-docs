@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Bayer LLC",
-    "ToolTip": "Non praesentium quasi officia dignissimos quisquam dolores quaerat.",
+    "Id": 270,
+    "Name": "Heaney, Bergnaum and Kreiger",
+    "ToolTip": "Accusamus omnis eveniet laudantium rerum veniam dolorem.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "error",
-    "ColorBlock": 242,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2017-01-08T13:13:33.0111516+01:00",
+    "Rank": 348,
+    "Type": "nisi",
+    "ColorBlock": 681,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2024-04-21T12:01:33.4801008+02:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Little, Marvin and Moen",
-        "ToolTip": "Quae quidem quia.",
+        "Id": 708,
+        "Name": "DuBuque-Turcotte",
+        "ToolTip": "Deserunt magnam ut et perspiciatis eveniet.",
         "Deleted": true,
-        "Rank": 340,
-        "Type": "nobis",
-        "ColorBlock": 798,
+        "Rank": 326,
+        "Type": "doloremque",
+        "ColorBlock": 372,
         "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2023-07-14T13:13:33.0111516+02:00",
+        "Selected": true,
+        "LastChanged": "2012-09-13T12:01:33.4801008+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "rem",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Miss Jonathon Ullrich DDS",
+        "FullName": "Gina Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Wilfredo Collier",
+    "FullName": "Ms. Hallie Alyce Crooks Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

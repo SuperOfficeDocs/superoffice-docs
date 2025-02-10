@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=sunt
+GET /api/v1/List/Category/MDOItems?query=saepe
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Ondricka-Zulauf",
-    "ToolTip": "Saepe harum fuga incidunt qui sapiente eaque.",
+    "Id": 369,
+    "Name": "Walter-Bergstrom",
+    "ToolTip": "Consequuntur nemo velit officia est nemo.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "impedit",
+    "Rank": 682,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Bahringer-Frami",
-        "ToolTip": "Velit ut velit rerum ex eum.",
+        "Id": 216,
+        "Name": "Rohan, Nader and Boyer",
+        "ToolTip": "Nam optio tempore nihil soluta cumque dolorem.",
         "Deleted": true,
-        "Rank": 442,
-        "Type": "qui",
+        "Rank": 683,
+        "Type": "culpa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 963,
-        "ExtraInfo": "possimus",
-        "StyleHint": "enim",
-        "FullName": "Miss Berry Gillian Langworth V",
+        "IconHint": "nihil",
+        "ColorBlock": 360,
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
+        "FullName": "Joanne Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 233
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 916,
-    "ExtraInfo": "ut",
-    "StyleHint": "numquam",
-    "FullName": "Concepcion Jacobs",
+    "IconHint": "expedita",
+    "ColorBlock": 83,
+    "ExtraInfo": "neque",
+    "StyleHint": "non",
+    "FullName": "Haleigh Adams MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldLength": 656
       }
     }
   }

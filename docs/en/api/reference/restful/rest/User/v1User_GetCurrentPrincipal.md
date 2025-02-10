@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ut",
-  "AssociateId": 712,
-  "IsPerson": true,
-  "PersonId": 611,
-  "CountryId": 620,
-  "HomeCountryId": 276,
-  "ContactId": 40,
-  "GroupId": 522,
-  "BusinessId": 291,
-  "CategoryId": 256,
-  "ContactOwner": 962,
-  "RoleId": 236,
-  "RoleName": "Stiedemann-Becker",
-  "RoleDescription": "Versatile modular product",
+  "Associate": "doloremque",
+  "AssociateId": 141,
+  "IsPerson": false,
+  "PersonId": 344,
+  "CountryId": 122,
+  "HomeCountryId": 970,
+  "ContactId": 963,
+  "GroupId": 158,
+  "BusinessId": 930,
+  "CategoryId": 819,
+  "ContactOwner": 373,
+  "RoleId": 883,
+  "RoleName": "Yundt, Cole and Bauch",
+  "RoleDescription": "Compatible mobile implementation",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 751,
-      "OwnerName": "Veum, Hand and Abbott",
-      "OwnerDescription": "Digitized bi-directional access",
-      "ModuleId": 496,
-      "Name": "Schmidt-Tillman",
-      "Description": "Enterprise-wide intermediate analyzer",
-      "Version": "velit",
+      "OwnerId": 975,
+      "OwnerName": "Nicolas-Hagenes",
+      "OwnerDescription": "Inverse fresh-thinking capability",
+      "ModuleId": 861,
+      "Name": "Armstrong, Lesch and Ondricka",
+      "Description": "Automated explicit knowledge base",
+      "Version": "culpa",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 101,
-      "ExtraInfo": "id",
-      "SortOrder": 450,
-      "LicenseNumber": 272,
-      "IsHidden": true,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2011-03-16T13:13:32.7299587+01:00",
+      "ExtraFlags": 136,
+      "ExtraInfo": "tempora",
+      "SortOrder": 355,
+      "LicenseNumber": 595,
+      "IsHidden": false,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2015-09-16T12:01:33.4019705+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldLength": 64
         }
       }
     }
   ],
-  "FullName": "Aric Effertz",
-  "EMailAddress": "voluptatem",
+  "FullName": "Rodrick Ratke PhD",
+  "EMailAddress": "earum",
   "FunctionRights": [
-    "eos",
-    "culpa"
+    "sit",
+    "delectus"
   ],
-  "EjUserId": 684,
-  "EjAccessLevel": 504,
+  "EjUserId": 788,
+  "EjAccessLevel": 840,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "laborum",
-      "SearchName": "Rowe LLC",
-      "DisplayName": "Reichel-Weber",
-      "CredentialId": 518
+      "Type": "quo",
+      "SearchName": "Labadie, Parisian and Morar",
+      "DisplayName": "Macejkovic, Hickle and Orn",
+      "CredentialId": 530
     },
     {
-      "Type": "laborum",
-      "SearchName": "Rowe LLC",
-      "DisplayName": "Reichel-Weber",
-      "CredentialId": 518
+      "Type": "quo",
+      "SearchName": "Labadie, Parisian and Morar",
+      "DisplayName": "Macejkovic, Hickle and Orn",
+      "CredentialId": 530
     }
   ],
   "SecondaryGroups": [
-    675,
-    621
+    810,
+    224
   ],
-  "DatabaseContextIdentifier": "atque",
-  "UserName": "Lindgren, Beatty and Reichel"
+  "DatabaseContextIdentifier": "qui",
+  "UserName": "Johnston LLC"
 }
 ```

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "laboriosam",
-      "HTMLBody": "dolorem",
+      "Subject": "quam",
+      "HTMLBody": "alias",
       "From": null,
-      "Sent": "2002-01-15T13:13:22.9302583+01:00",
-      "Size": 223,
+      "Sent": "2002-02-10T12:01:27.7752804+01:00",
+      "Size": 679,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "minima",
-      "PlainBody": "molestiae",
-      "IsSent": true,
+      "MessageID": "quia",
+      "PlainBody": "explicabo",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 258,
+      "ServerId": 233,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Dibbert-Lemke",
-      "EmailItemId": 490,
-      "AccountId": 718,
-      "ReceivedAt": "2008-08-11T13:13:22.9302583+02:00",
+      "FolderName": "Powlowski Inc and Sons",
+      "EmailItemId": 881,
+      "AccountId": 990,
+      "ReceivedAt": "2014-07-16T12:01:27.7752804+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2017-03-07T13:13:22.9302583+01:00",
+      "RepliedAt": "2024-10-16T12:01:27.7752804+02:00",
       "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 568,
-        "ContactName": "Turcotte Inc and Sons",
-        "PersonId": 257,
-        "PersonName": "Huels Group",
-        "AssociateId": 891,
-        "Address": "autem",
-        "EmailId": 571,
+        "ContactId": 961,
+        "ContactName": "Ernser-Donnelly",
+        "PersonId": 244,
+        "PersonName": "Mayert-Champlin",
+        "AssociateId": 154,
+        "Address": "exercitationem",
+        "EmailId": 778,
         "DuplicatePersonIds": [
-          958,
-          131
+          693,
+          413
         ],
-        "Name": "Leuschke Group",
+        "Name": "Hyatt, Green and Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 571,
-        "ContactName": "Powlowski, Dare and Mertz",
-        "PersonId": 40,
-        "PersonName": "Trantow Inc and Sons",
-        "AssociateId": 4,
-        "Address": "voluptas",
-        "EmailId": 439,
+        "ContactId": 776,
+        "ContactName": "Goodwin-O'Kon",
+        "PersonId": 116,
+        "PersonName": "Hahn Inc and Sons",
+        "AssociateId": 970,
+        "Address": "nihil",
+        "EmailId": 627,
         "DuplicatePersonIds": [
-          393,
-          916
+          681,
+          603
         ],
-        "Name": "Reichel Group",
+        "Name": "Cassin, Hermiston and Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 631
+            "FieldType": "System.Int32",
+            "FieldLength": 3
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 408,
-        "ContactName": "Willms-Franecki",
-        "PersonId": 402,
-        "PersonName": "Rohan, Lakin and Anderson",
-        "AssociateId": 624,
-        "Address": "ipsa",
-        "EmailId": 183,
+        "ContactId": 276,
+        "ContactName": "Hoppe, Hodkiewicz and Spinka",
+        "PersonId": 32,
+        "PersonName": "Bins, O'Keefe and Maggio",
+        "AssociateId": 738,
+        "Address": "deserunt",
+        "EmailId": 152,
         "DuplicatePersonIds": [
-          950,
-          751
+          371,
+          501
         ],
-        "Name": "O'Reilly-Mosciski",
+        "Name": "Goyette-Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldType": "System.Int32",
+            "FieldLength": 189
           }
         }
       }
     ],
-    "Subject": "iure",
-    "HTMLBody": "officiis",
+    "Subject": "repellendus",
+    "HTMLBody": "illo",
     "From": null,
-    "Sent": "2009-10-06T13:13:22.9302583+02:00",
-    "Size": 854,
+    "Sent": "2022-03-10T12:01:27.7752804+01:00",
+    "Size": 940,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "rerum",
-    "PlainBody": "quia",
+    "MessageID": "quaerat",
+    "PlainBody": "eaque",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 612,
+    "ServerId": 39,
     "Attachments": [
       {
-        "Description": "Phased real-time parallelism",
-        "Filename": "a",
-        "Size": 19,
-        "Type": "optio",
-        "Encoding": "fugit",
-        "Id": "quia",
-        "Disposition": "pariatur",
+        "Description": "Front-line next generation complexity",
+        "Filename": "qui",
+        "Size": 411,
+        "Type": "molestiae",
+        "Encoding": "repellendus",
+        "Id": "perspiciatis",
+        "Disposition": "sit",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,50 +260,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 354
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Trantow-Breitenberg",
+        "Name": "Bosco-Durgan",
         "Values": [
-          "debitis",
-          "qui"
+          "qui",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 115
           }
         }
       },
       {
-        "Name": "Trantow-Breitenberg",
+        "Name": "Bosco-Durgan",
         "Values": [
-          "debitis",
-          "qui"
+          "qui",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 115
           }
         }
       }
     ],
-    "FolderName": "Champlin Inc and Sons",
-    "EmailItemId": 972,
-    "AccountId": 871,
-    "ReceivedAt": "2006-05-18T13:13:22.9302583+02:00",
+    "FolderName": "Hane-Price",
+    "EmailItemId": 866,
+    "AccountId": 815,
+    "ReceivedAt": "2000-08-14T12:01:27.7752804+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2004-08-17T13:13:22.9302583+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2023-05-15T12:01:27.7752804+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 40
       }
     }
   }

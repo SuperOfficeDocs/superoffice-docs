@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 302,
-  "SourcePersonId": 939,
-  "DestinationContactId": 951,
-  "DestinationPersonId": 512,
-  "RelationId": 491,
-  "Comment": "corrupti",
-  "RelationDefinitionId": 587,
-  "Reversed": 8,
-  "UpdatedDate": "2019-12-16T13:13:31.605139+01:00",
-  "CreatedDate": "2015-09-19T13:13:31.605139+02:00",
+  "SourceContactId": 197,
+  "SourcePersonId": 812,
+  "DestinationContactId": 994,
+  "DestinationPersonId": 241,
+  "RelationId": 851,
+  "Comment": "pariatur",
+  "RelationDefinitionId": 800,
+  "Reversed": 231,
+  "UpdatedDate": "2003-09-11T12:01:32.8394314+02:00",
+  "CreatedDate": "1998-12-31T12:01:32.8394314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gottlieb LLC",
-  "SourcePersonName": "Kautzer, Marks and Hilll",
-  "DestinationContactName": "Dach Group",
-  "DestinationPersonName": "Barton, Bruen and Satterfield",
-  "ActiveText": "qui",
-  "PassiveText": "labore"
+  "SourceContactName": "Homenick, Maggio and Kub",
+  "SourcePersonName": "Eichmann, Kozey and Considine",
+  "DestinationContactName": "Reinger Inc and Sons",
+  "DestinationPersonName": "Rath, Dibbert and Swift",
+  "ActiveText": "et",
+  "PassiveText": "nihil"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 109,
-  "SourcePersonId": 800,
-  "DestinationContactId": 898,
-  "DestinationPersonId": 291,
-  "RelationId": 205,
-  "Comment": "quia",
-  "RelationDefinitionId": 654,
-  "Reversed": 861,
-  "UpdatedDate": "2022-04-13T13:13:31.605139+02:00",
-  "CreatedDate": "2005-04-28T13:13:31.605139+02:00",
+  "SourceContactId": 370,
+  "SourcePersonId": 477,
+  "DestinationContactId": 721,
+  "DestinationPersonId": 64,
+  "RelationId": 166,
+  "Comment": "in",
+  "RelationDefinitionId": 237,
+  "Reversed": 297,
+  "UpdatedDate": "2005-01-06T12:01:32.8394314+01:00",
+  "CreatedDate": "2021-08-06T12:01:32.8394314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ritchie-Koepp",
-  "SourcePersonName": "Gerlach, Lehner and Johns",
-  "DestinationContactName": "Gutkowski-Johnston",
-  "DestinationPersonName": "Mills-Gleason",
-  "ActiveText": "quia",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Keebler, Collins and Cartwright",
+  "SourcePersonName": "Gleason-West",
+  "DestinationContactName": "Okuneva LLC",
+  "DestinationPersonName": "McGlynn, Ankunding and Brakus",
+  "ActiveText": "rem",
+  "PassiveText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 895
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

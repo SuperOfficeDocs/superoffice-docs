@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Workflow/UpdateFormSubmissions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MaxCount": 214
+  "MaxCount": 767
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-934
+18
 ```

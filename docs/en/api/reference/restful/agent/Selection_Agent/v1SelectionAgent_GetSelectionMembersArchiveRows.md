@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 292,
-  "Select": "reprehenderit"
+  "SelectionId": 770,
+  "Select": "cum"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kerluke-Dickens",
-    "PrimaryKey": 133,
+    "EntityName": "Kris, Hilll and Hammes",
+    "PrimaryKey": 654,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "accusantium",
-        "LinkHint": "possimus"
+        "DisplayValue": "dicta",
+        "TooltipHint": "vitae",
+        "LinkHint": "cumque"
       }
     },
-    "LinkHint": "molestias",
-    "StyleHint": "veniam",
+    "LinkHint": "repellendus",
+    "StyleHint": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 684
       }
     }
   }

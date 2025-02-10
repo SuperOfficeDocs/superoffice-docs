@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rogahn-Wolff",
-  "ProviderName": "Rempel LLC",
-  "Context": "enim"
+  "GuiName": "Stracke-Watsica",
+  "ProviderName": "Buckridge-Denesik",
+  "Context": "ducimus"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Lubowitz, Zemlak and King",
-      "DisplayTooltip": "et",
-      "DisplayType": "sit",
-      "CanOrderBy": false,
-      "Name": "Ziemann, Welch and Connelly",
+      "DisplayName": "Kautzer-Pouros",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "iste",
+      "CanOrderBy": true,
+      "Name": "Lynch-Lueilwitz",
       "CanRestrictBy": false,
-      "RestrictionType": "saepe",
-      "RestrictionListName": "Feil Group",
-      "IsVisible": true,
-      "ExtraInfo": "illum",
-      "Width": "repellat",
-      "IconHint": "veniam",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "explicabo",
+      "RestrictionListName": "Labadie Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "ipsa",
+      "Width": "sapiente",
+      "IconHint": "officia",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 979,
-      "Name": "Kohler-Runolfsdottir",
-      "ToolTip": "Fugiat sint.",
+      "Id": 147,
+      "Name": "Emmerich, Rempel and Witting",
+      "ToolTip": "Enim esse molestiae repellendus.",
       "Deleted": false,
-      "Rank": 529,
-      "Type": "perferendis",
-      "ColorBlock": 860,
-      "IconHint": "eaque",
+      "Rank": 312,
+      "Type": "quia",
+      "ColorBlock": 956,
+      "IconHint": "nemo",
       "Selected": false,
-      "LastChanged": "2009-12-06T13:13:22.0864676+01:00",
+      "LastChanged": "2007-09-06T12:01:27.3221238+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "nemo",
+      "ExtraInfo": "error",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Jace Reilly",
+      "FullName": "Warren Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 84
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hermann-Hamill",
+      "Name": "Haley-Gottlieb",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermann-Hamill",
+      "Name": "Haley-Gottlieb",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "delectus",
+  "OwnerKeys": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 282
     }
   }
 }

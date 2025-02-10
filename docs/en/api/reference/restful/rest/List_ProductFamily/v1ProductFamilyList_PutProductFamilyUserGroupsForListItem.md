@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Quigley, Harvey and Swift",
-    "ToolTip": "Non odio exercitationem est harum facere.",
+    "Id": 349,
+    "Name": "Hills-Bashirian",
+    "ToolTip": "Ipsa sunt fugiat repudiandae iure nulla quia voluptatem.",
     "Deleted": false,
-    "Rank": 857,
-    "Type": "et",
-    "ColorBlock": 374,
-    "IconHint": "quisquam",
+    "Rank": 546,
+    "Type": "omnis",
+    "ColorBlock": 777,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2009-05-11T13:13:33.3235805+02:00",
+    "LastChanged": "2005-03-27T12:01:33.5738574+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Wisoky Inc and Sons",
-        "ToolTip": "Perferendis vitae et in est qui ut illo.",
+        "Id": 570,
+        "Name": "Bahringer Group",
+        "ToolTip": "Tenetur ea aut beatae.",
         "Deleted": true,
-        "Rank": 66,
-        "Type": "aut",
-        "ColorBlock": 978,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2012-01-13T13:13:33.3235805+01:00",
+        "Rank": 414,
+        "Type": "sunt",
+        "ColorBlock": 270,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2000-02-24T12:01:33.5738574+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Mekhi Boyle"
+        "ExtraInfo": "rem",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Garnett Romaguera"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Bernice Stiedemann DDS"
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Mack Durgan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Heathcote Inc and Sons",
-    "ToolTip": "Et quasi.",
-    "Deleted": true,
-    "Rank": 974,
-    "Type": "iure",
-    "ColorBlock": 695,
-    "IconHint": "asperiores",
+    "Id": 331,
+    "Name": "Goodwin, Turner and Romaguera",
+    "ToolTip": "Non odio labore voluptate nam laboriosam.",
+    "Deleted": false,
+    "Rank": 477,
+    "Type": "veniam",
+    "ColorBlock": 309,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2024-09-22T13:13:33.3235805+02:00",
+    "LastChanged": "2002-03-20T12:01:33.5738574+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Connelly-Hyatt",
-        "ToolTip": "Ut optio tenetur consequatur eligendi voluptas est perspiciatis.",
+        "Id": 752,
+        "Name": "Schaden-Dare",
+        "ToolTip": "Ducimus ut.",
         "Deleted": false,
-        "Rank": 300,
-        "Type": "nam",
-        "ColorBlock": 473,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2006-09-09T13:13:33.3235805+02:00",
+        "Rank": 224,
+        "Type": "culpa",
+        "ColorBlock": 306,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2009-03-02T12:01:33.5738574+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Wilton Oma Ondricka Jr.",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Enrique Candice Greenfelder III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldType": "System.String",
+            "FieldLength": 689
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Agustin Goodwin",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Maurice Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

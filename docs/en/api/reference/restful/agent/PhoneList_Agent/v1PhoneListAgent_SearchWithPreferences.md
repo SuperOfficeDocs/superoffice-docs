@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "unde",
+  "SearchString": "reiciendis",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "696-959-2219 x0968",
-    "PersonCellPhone": "197.494.0185",
-    "PersonPrivatePhone": "446-108-3672 x1254",
-    "PersonFaxNumber": "1161822",
-    "PersonPagerNumber": "678965",
-    "PersonEmail": "angelina@borer.info",
-    "Id": 323,
-    "Name": "Cole Inc and Sons",
-    "Tooltip": "numquam",
-    "UniqueId": "deserunt",
+    "PersonDirectPhone": "158.197.6577 x031",
+    "PersonCellPhone": "328-863-7291",
+    "PersonPrivatePhone": "1-786-602-7913",
+    "PersonFaxNumber": "1267142",
+    "PersonPagerNumber": "1073291",
+    "PersonEmail": "nathanael@boehm.name",
+    "Id": 284,
+    "Name": "Breitenberg LLC",
+    "Tooltip": "itaque",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 308
       }
     }
   }

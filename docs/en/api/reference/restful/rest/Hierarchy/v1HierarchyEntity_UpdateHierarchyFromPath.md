@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 227,
+  "HierarchyId": 945,
   "Domain": "Dashboards",
-  "Name": "Kohler LLC",
-  "Fullname": "doloremque",
-  "ParentId": 727,
+  "Name": "O'Connell-Wolff",
+  "Fullname": "vel",
+  "ParentId": 365,
   "Children": [
     {
-      "HierarchyId": 932,
+      "HierarchyId": 3,
       "Domain": "Dashboards",
-      "Name": "Abbott, Johns and West",
-      "Fullname": "aut",
-      "ParentId": 928,
+      "Name": "Raynor Group",
+      "Fullname": "ut",
+      "ParentId": 565,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-05-06T13:13:31.7613495+02:00",
-      "RegisteredAssociateId": 386,
-      "Updated": "2018-05-26T13:13:31.7613495+02:00",
-      "UpdatedAssociateId": 832
+      "Registered": "2021-11-22T12:01:32.933188+01:00",
+      "RegisteredAssociateId": 582,
+      "Updated": "2010-12-30T12:01:32.933188+01:00",
+      "UpdatedAssociateId": 944
     }
   ],
-  "Registered": "2003-01-13T13:13:31.7613495+01:00",
-  "RegisteredAssociateId": 96,
-  "Updated": "2017-01-09T13:13:31.7613495+01:00",
-  "UpdatedAssociateId": 586
+  "Registered": "2019-06-17T12:01:32.933188+02:00",
+  "RegisteredAssociateId": 858,
+  "Updated": "2006-08-26T12:01:32.933188+02:00",
+  "UpdatedAssociateId": 326
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 472,
+  "HierarchyId": 338,
   "Domain": "Dashboards",
-  "Name": "Feeney, Rau and Swaniawski",
-  "Fullname": "facere",
-  "ParentId": 636,
+  "Name": "Anderson Inc and Sons",
+  "Fullname": "nulla",
+  "ParentId": 652,
   "Children": [
     {
-      "HierarchyId": 236,
+      "HierarchyId": 29,
       "Domain": "Dashboards",
-      "Name": "Leannon-Weimann",
-      "Fullname": "deserunt",
-      "ParentId": 356,
+      "Name": "Parker, Jast and Little",
+      "Fullname": "quam",
+      "ParentId": 209,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-08-16T13:13:31.7613495+02:00",
-      "RegisteredAssociateId": 470,
-      "Updated": "2010-09-30T13:13:31.7613495+02:00",
-      "UpdatedAssociateId": 66,
+      "Registered": "2016-10-26T12:01:32.933188+02:00",
+      "RegisteredAssociateId": 711,
+      "Updated": "2016-02-04T12:01:32.933188+01:00",
+      "UpdatedAssociateId": 693,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 995
         }
       }
     }
   ],
-  "Registered": "2021-09-06T13:13:31.7613495+02:00",
-  "RegisteredAssociateId": 202,
-  "Updated": "2024-02-22T13:13:31.7613495+01:00",
-  "UpdatedAssociateId": 809,
+  "Registered": "2011-02-05T12:01:32.933188+01:00",
+  "RegisteredAssociateId": 803,
+  "Updated": "1999-09-21T12:01:32.933188+02:00",
+  "UpdatedAssociateId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 891
     }
   }
 }

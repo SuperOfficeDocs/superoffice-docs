@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 353,
-  "Name": "Hirthe Inc and Sons",
-  "CreatedDate": "2011-10-08T13:13:23.1645837+02:00",
-  "UpdatedDate": "2024-05-01T13:13:23.1645837+02:00",
+  "ForeignAppId": 985,
+  "Name": "Kutch-Goldner",
+  "CreatedDate": "2022-06-30T12:01:27.9002891+02:00",
+  "UpdatedDate": "2021-07-28T12:01:27.9002891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 369,
-      "Name": "Schroeder, Pouros and Aufderhar",
-      "CreatedDate": "1999-06-21T13:13:23.1645837+02:00",
-      "UpdatedDate": "2008-08-16T13:13:23.1645837+02:00",
-      "AssociateFullName": "Waldo Graham",
-      "CreatedBy": "soluta",
-      "UpdatedBy": "ex",
-      "DeviceIdentifier": "quisquam",
-      "ForeignAppId": 229
+      "ForeignDeviceId": 884,
+      "Name": "Halvorson, Walker and Lehner",
+      "CreatedDate": "2003-06-03T12:01:27.9002891+02:00",
+      "UpdatedDate": "2016-03-07T12:01:27.9002891+01:00",
+      "AssociateFullName": "Erick Lindgren",
+      "CreatedBy": "velit",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 298
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 636,
-  "Name": "Boyle, Robel and Gerlach",
-  "CreatedDate": "2001-07-30T13:13:23.1645837+02:00",
-  "UpdatedDate": "2017-01-13T13:13:23.1645837+01:00",
+  "ForeignAppId": 888,
+  "Name": "Larkin, Murazik and Senger",
+  "CreatedDate": "1999-02-02T12:01:27.9002891+01:00",
+  "UpdatedDate": "2023-12-02T12:01:27.9002891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 483,
-      "Name": "Hoeger, Mertz and Wehner",
-      "CreatedDate": "2000-02-04T13:13:23.1645837+01:00",
-      "UpdatedDate": "2005-08-05T13:13:23.1645837+02:00",
-      "AssociateFullName": "Barry Hagenes",
-      "CreatedBy": "minus",
-      "UpdatedBy": "doloribus",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 413,
+      "ForeignDeviceId": 852,
+      "Name": "Fahey LLC",
+      "CreatedDate": "2011-10-15T12:01:27.9002891+02:00",
+      "UpdatedDate": "2010-02-06T12:01:27.9002891+01:00",
+      "AssociateFullName": "Rosendo Lockman DVM",
+      "CreatedBy": "eveniet",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "porro",
+      "ForeignAppId": 340,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldLength": 67
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

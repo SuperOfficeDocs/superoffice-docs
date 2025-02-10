@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 1000,
-    "Name": "Cummings, Bins and Johnston",
-    "Tooltip": "nulla",
-    "Rank": 97,
-    "Key": "commodi",
-    "MailTemplateId": 280,
+    "ConsentSourceId": 962,
+    "Name": "Howe-Feeney",
+    "Tooltip": "suscipit",
+    "Rank": 144,
+    "Key": "nesciunt",
+    "MailTemplateId": 307,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

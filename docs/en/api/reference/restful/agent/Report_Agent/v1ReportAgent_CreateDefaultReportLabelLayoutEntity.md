@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 713,
-  "Name": "Frami, Green and Ullrich",
-  "Description": "Intuitive neutral leverage",
+  "ReportLabelLayoutId": 967,
+  "Name": "Kemmer-Spencer",
+  "Description": "Configurable 3rd generation encryption",
   "Orientation": "Landscape",
-  "PaperWidth": 788,
-  "PaperHeight": 801,
-  "LeftMargin": 686,
-  "RightMargin": 64,
-  "TopMargin": 608,
-  "BottomMargin": 330,
-  "CountColumns": 424,
-  "CountRows": 359,
+  "PaperWidth": 713,
+  "PaperHeight": 792,
+  "LeftMargin": 323,
+  "RightMargin": 346,
+  "TopMargin": 530,
+  "BottomMargin": 785,
+  "CountColumns": 827,
+  "CountRows": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 652
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Mayer Inc and Sons",
-  "Tooltip": "optio",
+  "Id": 32,
+  "Name": "Johnston, Von and Sanford",
+  "Tooltip": "occaecati",
   "Deleted": true,
-  "UdListDefinitionId": 395,
-  "Rank": 179,
+  "UdListDefinitionId": 144,
+  "Rank": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldLength": 43
     }
   }
 }

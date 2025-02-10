@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorum",
-  "ProviderName": "Torphy Group",
-  "StorageKey": "earum",
-  "Context": "est"
+  "StorageType": "soluta",
+  "ProviderName": "Rice Inc and Sons",
+  "StorageKey": "officia",
+  "Context": "et"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Strosin-Bailey",
-    "Description": "Centralized optimal hardware",
-    "Rank": 837,
+    "Name": "Moen Inc and Sons",
+    "Description": "Fundamental intermediate interface",
+    "Rank": 877,
     "Restrictions": [
       {
-        "Name": "Williamson-Bruen",
-        "Operator": "assumenda",
+        "Name": "Streich-Kessler",
+        "Operator": "corrupti",
         "Values": [
-          "sequi",
-          "culpa"
+          "quod",
+          "voluptas"
         ],
         "DisplayValues": [
-          "ducimus",
-          "culpa"
+          "nihil",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 506,
+        "InterParenthesis": 712,
         "InterOperator": "And",
-        "UniqueHash": 616
+        "UniqueHash": 368
       }
     ]
   },
   {
-    "Name": "Strosin-Bailey",
-    "Description": "Centralized optimal hardware",
-    "Rank": 837,
+    "Name": "Moen Inc and Sons",
+    "Description": "Fundamental intermediate interface",
+    "Rank": 877,
     "Restrictions": [
       {
-        "Name": "Williamson-Bruen",
-        "Operator": "assumenda",
+        "Name": "Streich-Kessler",
+        "Operator": "corrupti",
         "Values": [
-          "sequi",
-          "culpa"
+          "quod",
+          "voluptas"
         ],
         "DisplayValues": [
-          "ducimus",
-          "culpa"
+          "nihil",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 506,
+        "InterParenthesis": 712,
         "InterOperator": "And",
-        "UniqueHash": 616
+        "UniqueHash": 368
       }
     ]
   }

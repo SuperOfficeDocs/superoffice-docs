@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Grimes, Corwin and Boyer",
-    "ToolTip": "Magni enim natus culpa error qui autem.",
-    "Deleted": true,
-    "Rank": 25,
-    "Type": "consectetur",
-    "ColorBlock": 305,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2021-05-09T13:13:33.6203821+02:00",
+    "Id": 36,
+    "Name": "Huels-Cruickshank",
+    "ToolTip": "Amet nesciunt est repellendus perferendis.",
+    "Deleted": false,
+    "Rank": 910,
+    "Type": "dolor",
+    "ColorBlock": 711,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2000-07-24T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Lemke Group",
-        "ToolTip": "Ex debitis et hic est sed.",
-        "Deleted": true,
-        "Rank": 918,
-        "Type": "est",
-        "ColorBlock": 171,
-        "IconHint": "quo",
+        "Id": 34,
+        "Name": "Strosin LLC",
+        "ToolTip": "Est non nihil voluptas fugiat dolorum aut.",
+        "Deleted": false,
+        "Rank": 876,
+        "Type": "consequatur",
+        "ColorBlock": 779,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "1999-01-18T13:13:33.6203821+01:00",
+        "LastChanged": "2008-08-01T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Zoe Dach",
+        "ExtraInfo": "modi",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Norbert Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "eos",
+    "ExtraInfo": "aut",
+    "StyleHint": "facilis",
     "Hidden": true,
-    "FullName": "Ms. Melody Tod Rowe",
+    "FullName": "Ms. Cloyd Samir Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 920
       }
     }
   }

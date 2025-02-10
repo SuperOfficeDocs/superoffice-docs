@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=nemo
+GET /api/v1/List/SelectionCategory/MDOItems?query=occaecati
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Volkman Group",
-    "ToolTip": "Rerum quia nobis.",
-    "Deleted": true,
-    "Rank": 793,
-    "Type": "qui",
+    "Id": 987,
+    "Name": "McGlynn, Ondricka and Weissnat",
+    "ToolTip": "Natus cumque sit id molestiae et natus.",
+    "Deleted": false,
+    "Rank": 513,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Kutch, Hermiston and Rath",
-        "ToolTip": "Rerum aut autem nam sed.",
-        "Deleted": false,
-        "Rank": 377,
-        "Type": "optio",
+        "Id": 141,
+        "Name": "Cormier, Hilpert and Koch",
+        "ToolTip": "Itaque illum reprehenderit earum quae.",
+        "Deleted": true,
+        "Rank": 93,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 750,
-        "ExtraInfo": "quod",
-        "StyleHint": "qui",
-        "FullName": "Kellie Christ Marvin DDS",
+        "IconHint": "similique",
+        "ColorBlock": 544,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "earum",
+        "FullName": "Prof. Greta Krista Ruecker III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldType": "System.String",
+            "FieldLength": 345
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 51,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "et",
-    "FullName": "Carson Waelchi",
+    "IconHint": "aspernatur",
+    "ColorBlock": 940,
+    "ExtraInfo": "quia",
+    "StyleHint": "incidunt",
+    "FullName": "Hertha Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 370
       }
     }
   }

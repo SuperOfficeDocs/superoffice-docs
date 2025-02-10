@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Grimes-Hermiston",
+  "TableName": "Lueilwitz-Stanton",
   "Columns": [
-    "architecto",
-    "sunt"
+    "velit",
+    "eveniet"
   ],
   "Keys": [
-    "non",
-    "rerum"
+    "odit",
+    "enim"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quo",
-  "Inserts": 526,
-  "Updates": 673,
-  "Deletes": 945,
+  "Message": "nihil",
+  "Inserts": 329,
+  "Updates": 279,
+  "Deletes": 350,
   "RowStatus": [
     {
-      "PrimaryKey": 292,
+      "PrimaryKey": 112,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "deleniti",
-        "doloremque"
+        "voluptatem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     },
     {
-      "PrimaryKey": 292,
+      "PrimaryKey": 112,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "deleniti",
-        "doloremque"
+        "voluptatem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 430
     }
   }
 }

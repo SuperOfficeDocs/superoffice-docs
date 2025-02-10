@@ -50,22 +50,22 @@ foreach (var item in listProvider.RootItems) {
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
-|1000094|Filter Dialog||FilterDialog|
-|1000096|Freetext search||Freetext|
-|1000104|Functions||Functions|
-|1000540|In-app communication||InApp|
-|1000159|E-mail||Mail|
-|1000221|Marketing||Mailing|
-|1000227|Grouped lists||MDOList|
-|1000537|Data mirroring||Mirroring|
-|1000298|Web Services||NetServices|
-|1000326|Notifications via popup||notification|
-|1000334|Notifications via e-mail||notificationEmail|
-|1000342|Notifications via SMS||notificationSms|
-|1000358|Contact||Person|
-|1000377|Mobile CRM||PocketTasks|
-|1000381|Request||request|
-|1000402|Sale||Sale|
+|1000095|Filter Dialog||FilterDialog|
+|1000097|Freetext search||Freetext|
+|1000105|Functions||Functions|
+|1000541|In-app communication||InApp|
+|1000160|E-mail||Mail|
+|1000222|Marketing||Mailing|
+|1000228|Grouped lists||MDOList|
+|1000538|Data mirroring||Mirroring|
+|1000299|Web Services||NetServices|
+|1000327|Notifications via popup||notification|
+|1000335|Notifications via e-mail||notificationEmail|
+|1000343|Notifications via SMS||notificationSms|
+|1000359|Contact||Person|
+|1000378|Mobile CRM||PocketTasks|
+|1000382|Request||request|
+|1000403|Sale||Sale|
 
 
 ## Related MDO Lists

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Bruen, Paucek and Connelly",
-    "ToolTip": "Eveniet minima qui expedita eos animi accusamus voluptatem.",
-    "Deleted": true,
-    "Rank": 763,
-    "Type": "ad",
-    "ColorBlock": 586,
-    "IconHint": "deleniti",
+    "Id": 950,
+    "Name": "Renner, Predovic and Hodkiewicz",
+    "ToolTip": "Est porro doloremque repellendus magnam voluptates dolorum perspiciatis.",
+    "Deleted": false,
+    "Rank": 593,
+    "Type": "sunt",
+    "ColorBlock": 980,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-05-21T13:13:32.9174228+02:00",
+    "LastChanged": "2001-01-07T12:01:33.448849+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Sanford-Maggio",
-        "ToolTip": "Non est adipisci laborum.",
+        "Id": 216,
+        "Name": "Howell-Bogisich",
+        "ToolTip": "Consequatur maxime nobis omnis harum quia minus ad.",
         "Deleted": false,
-        "Rank": 587,
-        "Type": "beatae",
-        "ColorBlock": 161,
-        "IconHint": "id",
+        "Rank": 262,
+        "Type": "deleniti",
+        "ColorBlock": 339,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2000-11-20T13:13:32.9174228+01:00",
+        "LastChanged": "2024-05-01T12:01:33.448849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Garrick Rutherford",
+        "ExtraInfo": "quas",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Miss Loraine Carrie Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 584
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "enim",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Gracie Brakus",
+    "FullName": "Miss Merlin Ramon Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 810
       }
     }
   }

@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Eichmann, Schmitt and Keebler",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 712,
+  "Id": 523,
+  "Name": "Gottlieb Group",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 34,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": true,
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

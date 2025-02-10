@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 790,
-    "ErpConnectorId": 761,
-    "DisplayName": "Willms-Collins",
-    "DisplayDescription": "Monitored systematic hierarchy",
+    "ErpConnectionId": 971,
+    "ErpConnectorId": 253,
+    "DisplayName": "Wilkinson-Cummings",
+    "DisplayDescription": "Object-based explicit success",
     "Active": false,
-    "ConnectionId": "facere",
-    "MostRecentTimestamp": "quia",
+    "ConnectionId": "et",
+    "MostRecentTimestamp": "voluptatem",
     "ConfigFields": {
-      "ConfigFields1": "quae",
-      "ConfigFields2": "soluta"
+      "ConfigFields1": "ut",
+      "ConfigFields2": "recusandae"
     },
     "Deleted": false,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      182,
-      687
+      621,
+      57
     ],
     "AssociateAccessIds": [
-      198,
-      619
+      883,
+      57
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 737
+        "FieldType": "System.Int32",
+        "FieldLength": 143
       }
     }
   }

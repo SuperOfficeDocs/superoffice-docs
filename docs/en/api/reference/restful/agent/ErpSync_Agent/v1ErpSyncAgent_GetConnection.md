@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 127
+  "ErpConnectionId": 194
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 805,
-  "ErpConnectorId": 751,
-  "DisplayName": "Hyatt LLC",
-  "DisplayDescription": "Implemented background core",
-  "Active": false,
-  "ConnectionId": "sed",
-  "MostRecentTimestamp": "voluptas",
+  "ErpConnectionId": 757,
+  "ErpConnectorId": 992,
+  "DisplayName": "Spinka Inc and Sons",
+  "DisplayDescription": "Realigned asynchronous forecast",
+  "Active": true,
+  "ConnectionId": "nobis",
+  "MostRecentTimestamp": "ducimus",
   "ConfigFields": {
-    "ConfigFields1": "quia",
-    "ConfigFields2": "vel"
+    "ConfigFields1": "sapiente",
+    "ConfigFields2": "est"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    662,
-    568
+    248,
+    502
   ],
   "AssociateAccessIds": [
-    883,
-    955
+    924,
+    642
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

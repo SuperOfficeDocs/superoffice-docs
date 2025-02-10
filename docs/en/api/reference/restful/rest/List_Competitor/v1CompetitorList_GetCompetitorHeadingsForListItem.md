@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Quigley Group",
-    "ToolTip": "Ut et aut corrupti labore necessitatibus.",
+    "Id": 686,
+    "Name": "Hintz-Tillman",
+    "ToolTip": "Deleniti aut incidunt nulla veniam quia.",
     "Deleted": false,
-    "Rank": 895,
-    "Type": "ipsum",
-    "ColorBlock": 628,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "1998-10-13T13:13:32.8861799+02:00",
+    "Rank": 853,
+    "Type": "dignissimos",
+    "ColorBlock": 827,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2015-12-17T12:01:33.448849+01:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Ledner-Barton",
-        "ToolTip": "Sunt quibusdam odit magnam nihil.",
+        "Id": 856,
+        "Name": "Douglas LLC",
+        "ToolTip": "Et veniam eligendi.",
         "Deleted": false,
-        "Rank": 952,
-        "Type": "consequatur",
-        "ColorBlock": 644,
-        "IconHint": "modi",
+        "Rank": 369,
+        "Type": "vel",
+        "ColorBlock": 771,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2020-11-16T13:13:32.8861799+01:00",
+        "LastChanged": "2008-10-14T12:01:33.448849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "eaque",
+        "ExtraInfo": "et",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Krista West",
+        "FullName": "Chelsea Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Miss Lew O'Connell",
+    "ExtraInfo": "ut",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Dasia Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   }

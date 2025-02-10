@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 789,
-      "ContactId": 738
+      "PersonId": 309,
+      "ContactId": 727
     },
     {
-      "PersonId": 789,
-      "ContactId": 738
+      "PersonId": 309,
+      "ContactId": 727
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental composite budgetary management",
-  "Postit": "officia",
+  "Description": "Upgradable exuding moderator",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 895,
-  "IncludePerson": 264,
+  "GroupIdx": 419,
+  "IncludePerson": 556,
   "MemberCount": 99.99,
-  "Name": "Hayes, Simonis and Kub",
-  "PostitTextId": 968,
-  "CreatedDate": "2021-07-09T13:13:23.9309404+02:00",
-  "SelectionId": 541,
-  "SoundEx": "iste",
-  "Source": 622,
-  "TextId": 496,
-  "UpdatedDate": "2019-06-07T13:13:23.9309404+02:00",
-  "UpdatedCount": 510,
-  "Visibility": 534,
+  "Name": "Strosin Inc and Sons",
+  "PostitTextId": 608,
+  "CreatedDate": "2012-06-15T12:01:28.2909425+02:00",
+  "SelectionId": 818,
+  "SoundEx": "dolores",
+  "Source": 136,
+  "TextId": 773,
+  "UpdatedDate": "2007-08-10T12:01:28.2909425+02:00",
+  "UpdatedCount": 858,
+  "Visibility": 281,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 189,
-  "TargetTableName": "Mertz, Conroy and Hirthe",
-  "Completed": true,
-  "LeftSelectionId": 616,
-  "RightSelectionId": 14,
+  "TargetTableNumber": 311,
+  "TargetTableName": "Macejkovic, McKenzie and Koepp",
+  "Completed": false,
+  "LeftSelectionId": 656,
+  "RightSelectionId": 296,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rolfson-Runolfsdottir",
-  "ShadowProviderName": "Reichert, Waters and Treutel",
-  "ChartKey": "minus",
-  "LastLoaded": "2005-10-31T13:13:23.9309404+01:00",
-  "LastLoadedBy": 752,
+  "MainProviderName": "Greenholt, Turcotte and Purdy",
+  "ShadowProviderName": "Stamm Group",
+  "ChartKey": "cum",
+  "LastLoaded": "2023-01-21T12:01:28.2909425+01:00",
+  "LastLoadedBy": 288,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-07-06T13:13:23.9309404+02:00",
-  "LastMembershipChangeBy": 668,
+  "LastMembershipChange": "2008-07-17T12:01:28.2909425+02:00",
+  "LastMembershipChangeBy": 101,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deleniti",
-  "MemberTabHeading": "perferendis",
-  "MailingsProviderName": "Boyle, Franecki and Buckridge",
-  "DashboardTileDefinitionId": 528,
+  "MainHeading": "debitis",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Wisozk-Shanahan",
+  "DashboardTileDefinitionId": 623,
   "VisibleFor": [
     {
-      "VisibleId": 324,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 324,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 971
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 756
     }
   }
 }

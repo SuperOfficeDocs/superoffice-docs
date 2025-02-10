@@ -20,6 +20,7 @@ Service methods defined on <see cref='T:IQuoteAgent'>QuoteAgent</see> that can t
 * [CopySuperOfficePriceList](copysuperofficepricelist.md)
 * [CreateAndSaveQuote](createandsavequote.md)
 * [CreateAndSaveQuoteFromSale](createandsavequotefromsale.md)
+* [CreateAndSaveQuoteLines](createandsavequotelines.md)
 * [CreateAndSaveQuoteVersion](createandsavequoteversion.md)
 * [CreateConnectionFromConnectorName](createconnectionfromconnectorname.md)
 * [CreateDefaultPriceList](createdefaultpricelist.md)

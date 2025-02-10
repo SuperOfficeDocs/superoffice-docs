@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nicolas, Schiller and Gutmann",
-  "Comment": "eos",
-  "StakeholderRoleId": 942,
-  "CountryId": 496,
-  "PersonId": 574,
-  "EmailDescription": "efren@morissettelegros.us",
-  "EmailId": 137,
-  "EmailAddress": "roselyn.zieme@thompson.ca",
-  "PhoneId": 921,
-  "ContactName": "Zulauf Inc and Sons",
-  "ContactId": 661,
-  "SaleId": 307,
-  "Mrmrs": "necessitatibus",
-  "Firstname": "Hyman",
-  "MiddleName": "Anderson Inc and Sons",
-  "Lastname": "Hand",
-  "SaleStakeholderId": 939,
-  "Rank": 760,
-  "Phone": "(396)050-4493",
+  "StakeholderRoleName": "Nikolaus-Hessel",
+  "Comment": "nihil",
+  "StakeholderRoleId": 971,
+  "CountryId": 188,
+  "PersonId": 839,
+  "EmailDescription": "francisca.lockman@zulaufcorwin.us",
+  "EmailId": 494,
+  "EmailAddress": "laurel.bailey@koch.co.uk",
+  "PhoneId": 840,
+  "ContactName": "Green-Hackett",
+  "ContactId": 347,
+  "SaleId": 482,
+  "Mrmrs": "cum",
+  "Firstname": "Clara",
+  "MiddleName": "Grady-Hessel",
+  "Lastname": "Dicki",
+  "SaleStakeholderId": 268,
+  "Rank": 561,
+  "Phone": "551.075.9355",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 957
     }
   },
   "_Links": {

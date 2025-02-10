@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Name": "Rath LLC",
-  "Tooltip": "temporibus",
+  "Id": 49,
+  "Name": "Hansen, King and Dooley",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 479,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 21,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Nader-Pagac",
-  "Tooltip": "eum",
+  "Id": 17,
+  "Name": "Heidenreich, Barrows and Emard",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "Rank": 991,
-  "IsCustomList": false,
+  "Rank": 93,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "beatae",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 767
     }
   }
 }

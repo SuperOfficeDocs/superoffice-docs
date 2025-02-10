@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 212,
-  "Name": "McGlynn, Marks and Luettgen",
+  "ScreenChooserId": 915,
+  "Name": "Hartmann Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "deserunt",
-  "Source": "necessitatibus",
-  "Registered": "2017-10-20T13:13:32.5111102+02:00",
-  "RegisteredAssociateId": 588,
-  "Updated": "2008-03-17T13:13:32.5111102+01:00",
-  "UpdatedAssociateId": 813,
+  "Enabled": true,
+  "UniqueIdentifier": "rerum",
+  "Source": "non",
+  "Registered": "2012-03-03T12:01:33.2925881+01:00",
+  "RegisteredAssociateId": 900,
+  "Updated": "2020-09-21T12:01:33.2925881+02:00",
+  "UpdatedAssociateId": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 421
     }
   }
 }

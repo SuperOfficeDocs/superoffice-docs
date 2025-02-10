@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 108,
-    "Name": "Effertz-Wuckert",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 419,
-    "UdListDefinitionId": 230,
+    "HeadingId": 480,
+    "Name": "Schneider, Brown and Corwin",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 714,
+    "UdListDefinitionId": 379,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldLength": 241
       }
     }
   }

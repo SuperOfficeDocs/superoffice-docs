@@ -103,6 +103,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -112,11 +113,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 683
+  "ContactId": 470
 }
 ```
 
@@ -128,52 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sit",
-    "PersonId": 791,
-    "Mrmrs": "natus",
-    "Firstname": "Raegan",
-    "Lastname": "Hane",
-    "MiddleName": "Bogisich LLC",
-    "Title": "blanditiis",
-    "Description": "Ameliorated mobile policy",
-    "Email": "camryn.gleason@stehr.co.uk",
-    "FullName": "April Rempel",
-    "DirectPhone": "775-755-8405 x726",
-    "FormalName": "Hermann-Pfeffer",
-    "CountryId": 239,
-    "ContactId": 320,
-    "ContactName": "Heathcote-Conroy",
-    "Retired": 695,
-    "Rank": 38,
-    "ActiveInterests": 826,
+    "Position": "excepturi",
+    "PersonId": 917,
+    "Mrmrs": "soluta",
+    "Firstname": "Annabell",
+    "Lastname": "Hansen",
+    "MiddleName": "Prohaska LLC",
+    "Title": "illo",
+    "Description": "Multi-layered coherent service-desk",
+    "Email": "theresia@tremblay.biz",
+    "FullName": "Mrs. Logan Ansel Ruecker III",
+    "DirectPhone": "058-869-7979 x38087",
+    "FormalName": "Hahn Group",
+    "CountryId": 984,
+    "ContactId": 978,
+    "ContactName": "Ebert, Hills and Robel",
+    "Retired": 786,
+    "Rank": 522,
+    "ActiveInterests": 672,
     "ContactDepartment": "",
-    "ContactCountryId": 251,
-    "ContactOrgNr": "1220632",
-    "FaxPhone": "800.764.9309 x1128",
-    "MobilePhone": "947.174.8340",
-    "ContactPhone": "1-986-454-3048 x5709",
-    "AssociateName": "Howe Group",
-    "AssociateId": 77,
-    "UsePersonAddress": true,
-    "ContactFax": "temporibus",
-    "Kanafname": "quod",
-    "Kanalname": "voluptate",
-    "Post1": "molestiae",
-    "Post2": "ut",
-    "Post3": "natus",
-    "EmailName": "melody@jaskolski.us",
-    "ContactFullName": "Adrianna Bashirian",
-    "ActiveErpLinks": 657,
-    "TicketPriorityId": 555,
-    "SupportLanguageId": 220,
-    "SupportAssociateId": 551,
+    "ContactCountryId": 169,
+    "ContactOrgNr": "900418",
+    "FaxPhone": "1-081-459-3073 x20219",
+    "MobilePhone": "663-451-7284",
+    "ContactPhone": "(295)054-0259 x132",
+    "AssociateName": "Beatty Inc and Sons",
+    "AssociateId": 11,
+    "UsePersonAddress": false,
+    "ContactFax": "non",
+    "Kanafname": "inventore",
+    "Kanalname": "quibusdam",
+    "Post1": "harum",
+    "Post2": "omnis",
+    "Post3": "quod",
+    "EmailName": "abigail@roob.name",
+    "ContactFullName": "Torey Grady V",
+    "ActiveErpLinks": 206,
+    "TicketPriorityId": 638,
+    "SupportLanguageId": 48,
+    "SupportAssociateId": 919,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "900128",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   }

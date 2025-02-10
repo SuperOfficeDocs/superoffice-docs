@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 979,
-  "Name": "Trantow LLC",
-  "Tooltip": "et",
-  "Rank": 825,
+  "SaleTypeId": 561,
+  "Name": "Lueilwitz-Erdman",
+  "Tooltip": "nam",
+  "Rank": 242,
   "DurationUnit": "Century",
-  "SaleDuration": 550,
-  "SaleTypeCatId": 533,
+  "SaleDuration": 732,
+  "SaleTypeCatId": 171,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 5,
-  "QuoteLinesTemplate": 7,
-  "ConfirmationLinesTemplate": 293,
+  "DefaultQuoteValidity": 182,
+  "QuoteLinesTemplate": 223,
+  "ConfirmationLinesTemplate": 211,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 95,
-  "MinEarningPercent": 308,
-  "GroupQuoteLinesBy": 283,
-  "SortGroupLinesBy": 818,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 180,
+  "MinEarningPercent": 679,
+  "GroupQuoteLinesBy": 475,
+  "SortGroupLinesBy": 706,
   "Stages": [
     {
-      "Id": 972,
-      "Name": "Considine-Bins",
-      "ToolTip": "Provident ut.",
-      "Deleted": false,
-      "Rank": 995,
-      "Type": "unde",
-      "ColorBlock": 743,
-      "IconHint": "voluptatum",
-      "Selected": true,
-      "LastChanged": "2005-03-17T13:13:33.5578902+01:00",
+      "Id": 162,
+      "Name": "Waters, Olson and Stoltenberg",
+      "ToolTip": "Voluptatibus iure.",
+      "Deleted": true,
+      "Rank": 424,
+      "Type": "suscipit",
+      "ColorBlock": 253,
+      "IconHint": "laudantium",
+      "Selected": false,
+      "LastChanged": "2023-12-05T12:01:33.6519877+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "reiciendis",
-      "Hidden": true,
-      "FullName": "Brooke Violette O'Kon MD"
+      "ExtraInfo": "est",
+      "StyleHint": "consectetur",
+      "Hidden": false,
+      "FullName": "Prof. Kasey McKenzie"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 534,
-  "Name": "Beier Group",
-  "Tooltip": "voluptas",
-  "Rank": 323,
+  "SaleTypeId": 416,
+  "Name": "Stark-Ankunding",
+  "Tooltip": "laudantium",
+  "Rank": 900,
   "DurationUnit": "Century",
-  "SaleDuration": 790,
-  "SaleTypeCatId": 278,
+  "SaleDuration": 308,
+  "SaleTypeCatId": 585,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 152,
-  "QuoteLinesTemplate": 497,
-  "ConfirmationLinesTemplate": 370,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 171,
+  "QuoteLinesTemplate": 68,
+  "ConfirmationLinesTemplate": 306,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 138,
-  "MinEarningPercent": 103,
-  "GroupQuoteLinesBy": 260,
-  "SortGroupLinesBy": 959,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 810,
+  "MinEarningPercent": 362,
+  "GroupQuoteLinesBy": 242,
+  "SortGroupLinesBy": 319,
   "Stages": [
     {
-      "Id": 514,
-      "Name": "Howe, Miller and Berge",
-      "ToolTip": "Aut alias.",
+      "Id": 676,
+      "Name": "Bednar Inc and Sons",
+      "ToolTip": "Omnis inventore qui.",
       "Deleted": false,
-      "Rank": 169,
-      "Type": "velit",
-      "ColorBlock": 911,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2015-08-17T13:13:33.5578902+02:00",
+      "Rank": 992,
+      "Type": "rerum",
+      "ColorBlock": 377,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2010-06-13T12:01:33.6519877+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "harum",
-      "Hidden": false,
-      "FullName": "Daniella Schuppe",
+      "ExtraInfo": "saepe",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Jonatan Reichert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 815
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

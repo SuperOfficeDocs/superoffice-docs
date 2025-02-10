@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 709,
-  "Select": "mollitia"
+  "SelectionId": 219,
+  "Select": "incidunt"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lowe Inc and Sons",
-    "PrimaryKey": 632,
+    "EntityName": "D'Amore-Langosh",
+    "PrimaryKey": 641,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nostrum",
-        "TooltipHint": "reiciendis",
-        "LinkHint": "consequuntur"
+        "DisplayValue": "explicabo",
+        "TooltipHint": "facere",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "in",
-    "StyleHint": "molestiae",
+    "LinkHint": "nihil",
+    "StyleHint": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 814,
-  "Name": "Reichel-Kutch",
-  "Description": "Focused hybrid conglomeration",
-  "DefaultHeight": 138,
-  "DefaultWidth": 492,
+  "DashboardTileDefinitionId": 455,
+  "Name": "Wilkinson, Cole and Klein",
+  "Description": "Exclusive high-level hardware",
+  "DefaultHeight": 863,
+  "DefaultWidth": 336,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hand-Hammes",
-  "SelectionId": 586,
+  "EntityName": "Kiehn, Roob and Parisian",
+  "SelectionId": 889,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quasi",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "eveniet",
-  "SortBy": "accusamus",
-  "LayoutConfig": "odio",
-  "SecondarySelectionId": 462,
-  "MeasureByField": "quasi",
+  "MeasureField": "asperiores",
+  "SortBy": "quibusdam",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 498,
+  "MeasureByField": "iste",
   "Usage": "Dashboard",
-  "ProviderName": "Wunsch, Feest and Hane"
+  "ProviderName": "Rice, Ratke and Swaniawski"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 360,
-  "Name": "Smith, Goyette and Block",
-  "Description": "Triple-buffered fresh-thinking capability",
-  "DefaultHeight": 902,
-  "DefaultWidth": 21,
+  "DashboardTileDefinitionId": 742,
+  "Name": "Lubowitz, McDermott and Weimann",
+  "Description": "Digitized well-modulated approach",
+  "DefaultHeight": 108,
+  "DefaultWidth": 115,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dickinson Inc and Sons",
-  "SelectionId": 239,
+  "EntityName": "Thiel Group",
+  "SelectionId": 134,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "molestiae",
-  "SortBy": "occaecati",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 857,
-  "MeasureByField": "tempore",
+  "MeasureField": "fugiat",
+  "SortBy": "earum",
+  "LayoutConfig": "laboriosam",
+  "SecondarySelectionId": 992,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Parisian Group",
+  "ProviderName": "Fay, Bernhard and Wilkinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

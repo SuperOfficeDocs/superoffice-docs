@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Welch Inc and Sons",
+  "TaskName": "Upton, Schroeder and Jast",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Bergnaum-Keebler",
-    "AssociateId": 969,
-    "DetailsTable": 478,
-    "DetailsRecord": 519,
+    "Id": 584,
+    "Name": "Gerlach, Waelchi and Altenwerth",
+    "AssociateId": 195,
+    "DetailsTable": 575,
+    "DetailsRecord": 743,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "consequatur",
-      "ParameterObject2": "deleniti"
+      "ParameterObject1": "necessitatibus",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "1999-02-02T13:13:22.133333+01:00",
-    "Created": "2008-08-07T13:13:22.133333+02:00",
-    "StartCount": 15,
-    "DatabaseSerialNumber": "1008126",
-    "Context": "magnam",
-    "Result": "sequi",
+    "LastStarted": "2018-08-21T12:01:27.3533761+02:00",
+    "Created": "2017-08-28T12:01:27.3533761+02:00",
+    "StartCount": 954,
+    "DatabaseSerialNumber": "1681995",
+    "Context": "sequi",
+    "Result": "suscipit",
     "State": "All",
-    "Description": "Self-enabling zero tolerance functionalities",
-    "Response": "dolor",
-    "Request": "explicabo",
-    "ProgressDescription": "Cross-platform client-server workforce",
-    "ProgressPercent": 863,
-    "FileName": "Lesch, Borer and Aufderhar",
+    "Description": "Reactive discrete portal",
+    "Response": "aut",
+    "Request": "quas",
+    "ProgressDescription": "Open-source hybrid secured line",
+    "ProgressPercent": 127,
+    "FileName": "Ziemann-Graham",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 292
       }
     }
   }

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rogahn-Jewess",
+  "Name": "Russel-Hand",
   "AssociateIds": [
-    615,
-    74
+    423,
+    402
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Schmeler, Haley and O'Hara",
-    "AssociateId": 495,
-    "DetailsTable": 147,
-    "DetailsRecord": 418,
+    "Id": 515,
+    "Name": "Hahn LLC",
+    "AssociateId": 710,
+    "DetailsTable": 195,
+    "DetailsRecord": 172,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "consequatur",
-      "ParameterObject2": "culpa"
+      "ParameterObject1": "neque",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2008-12-18T13:13:22.133333+01:00",
-    "Created": "2014-11-13T13:13:22.133333+01:00",
-    "StartCount": 892,
-    "DatabaseSerialNumber": "1667901",
-    "Context": "fugiat",
-    "Result": "dolorum",
+    "LastStarted": "2022-04-01T12:01:27.3533761+02:00",
+    "Created": "2000-01-17T12:01:27.3533761+01:00",
+    "StartCount": 199,
+    "DatabaseSerialNumber": "718894",
+    "Context": "nulla",
+    "Result": "officiis",
     "State": "All",
-    "Description": "Progressive maximized adapter",
-    "Response": "non",
-    "Request": "sapiente",
-    "ProgressDescription": "Team-oriented dedicated secured line",
-    "ProgressPercent": 733,
-    "FileName": "Halvorson, Reilly and Glover",
+    "Description": "Integrated leading edge complexity",
+    "Response": "sapiente",
+    "Request": "aspernatur",
+    "ProgressDescription": "Mandatory value-added collaboration",
+    "ProgressPercent": 272,
+    "FileName": "Bartell Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 729
       }
     }
   }

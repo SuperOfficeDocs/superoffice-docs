@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Christiansen, Corwin and Cremin",
-  "DeviceName": "Nicolas LLC",
-  "KeyName": "Wisoky, Upton and Stiedemann",
-  "TableName": "O'Kon-Kunze",
-  "RecordId": 199
+  "ApplicationName": "Crist, Stehr and Rath",
+  "DeviceName": "Stark-Cruickshank",
+  "KeyName": "Barton-Wilderman",
+  "TableName": "Johns, Hegmann and Walter",
+  "RecordId": 349
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rem",
-  "Value": "aliquid",
-  "RecordId": 130,
-  "CreatedDate": "2013-05-26T13:13:23.1645837+02:00",
-  "UpdatedDate": "2018-07-04T13:13:23.1645837+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "blanditiis",
-  "TableName": "Treutel, Bernier and Schamberger",
+  "Key": "magnam",
+  "Value": "natus",
+  "RecordId": 462,
+  "CreatedDate": "2003-03-29T12:01:27.9002891+01:00",
+  "UpdatedDate": "2000-11-25T12:01:27.9002891+01:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "est",
+  "TableName": "Nienow Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 875
     }
   }
 }

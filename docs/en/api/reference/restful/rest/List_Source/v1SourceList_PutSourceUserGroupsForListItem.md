@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Towne-Marquardt",
-    "ToolTip": "Laudantium praesentium quae omnis.",
+    "Id": 495,
+    "Name": "Stiedemann, Bailey and Tromp",
+    "ToolTip": "Quisquam quia eum.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "itaque",
-    "ColorBlock": 767,
-    "IconHint": "suscipit",
+    "Rank": 958,
+    "Type": "facere",
+    "ColorBlock": 555,
+    "IconHint": "quasi",
     "Selected": true,
-    "LastChanged": "2019-09-16T13:13:33.6203821+02:00",
+    "LastChanged": "2009-03-20T12:01:33.6676138+01:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Prohaska, Haag and Green",
-        "ToolTip": "Ducimus et mollitia natus fugit eos laboriosam voluptas.",
+        "Id": 859,
+        "Name": "Blanda-Pfannerstill",
+        "ToolTip": "Quia a laborum autem.",
         "Deleted": false,
-        "Rank": 68,
-        "Type": "aut",
-        "ColorBlock": 521,
-        "IconHint": "laboriosam",
+        "Rank": 422,
+        "Type": "optio",
+        "ColorBlock": 124,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2002-02-18T13:13:33.6203821+01:00",
+        "LastChanged": "2018-07-19T12:01:33.6676138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Mr. Elaina Koss"
+        "ExtraInfo": "cumque",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Sofia Hyatt"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "delectus",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Lafayette Miller"
+    "FullName": "Mitchell King"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Upton-Tremblay",
-    "ToolTip": "Perferendis autem expedita illum qui dolores non voluptatibus.",
-    "Deleted": true,
-    "Rank": 794,
-    "Type": "voluptatibus",
-    "ColorBlock": 559,
-    "IconHint": "eos",
+    "Id": 135,
+    "Name": "Torphy-Mayert",
+    "ToolTip": "Laboriosam cum quos nisi facere quia qui.",
+    "Deleted": false,
+    "Rank": 779,
+    "Type": "ut",
+    "ColorBlock": 959,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2002-12-27T13:13:33.6203821+01:00",
+    "LastChanged": "2005-10-25T12:01:33.6676138+02:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Cummerata-Schuster",
-        "ToolTip": "Ut sed sunt et at est error ut.",
-        "Deleted": true,
-        "Rank": 286,
-        "Type": "eaque",
-        "ColorBlock": 910,
-        "IconHint": "id",
+        "Id": 779,
+        "Name": "Gaylord LLC",
+        "ToolTip": "Neque quia.",
+        "Deleted": false,
+        "Rank": 632,
+        "Type": "saepe",
+        "ColorBlock": 189,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-11-03T13:13:33.6203821+01:00",
+        "LastChanged": "2021-02-21T12:01:33.6676138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "molestias",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Mr. Eddie Fahey III",
+        "FullName": "Terrill Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 688
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Breanne Gleichner",
+    "ExtraInfo": "alias",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Lyla Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 910
       }
     }
   }

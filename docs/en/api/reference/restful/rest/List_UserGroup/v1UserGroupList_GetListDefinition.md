@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Yundt, Greenholt and Roberts",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 435,
+  "Id": 211,
+  "Name": "Willms Group",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 747,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sapiente",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldLength": 727
     }
   },
   "_Links": {

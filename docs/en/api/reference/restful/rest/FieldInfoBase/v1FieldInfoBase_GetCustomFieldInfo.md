@@ -71,7 +71,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Renner-Johns",
-  "DisplayName": "Kassulke-Sporer",
-  "Description": "Organized leading edge infrastructure",
-  "ShortLabel": "inventore",
-  "HideLabel": false,
+  "FieldName": "Balistreri Inc and Sons",
+  "DisplayName": "Hudson Group",
+  "Description": "Profound client-server conglomeration",
+  "ShortLabel": "repellendus",
+  "HideLabel": true,
   "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsIndexed": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 692,
-  "TemplateVariableName": "Miller-Koelpin"
+  "IsDisplayField": false,
+  "Rank": 583,
+  "TemplateVariableName": "Fadel, Dare and Klein"
 }
 ```

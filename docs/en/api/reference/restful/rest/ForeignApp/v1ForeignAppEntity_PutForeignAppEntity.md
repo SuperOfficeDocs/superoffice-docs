@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 417,
-  "Name": "Jacobson LLC",
-  "CreatedDate": "2004-10-10T13:13:31.7457296+02:00",
-  "UpdatedDate": "2020-06-12T13:13:31.7457296+02:00",
+  "ForeignAppId": 406,
+  "Name": "Haley-Pagac",
+  "CreatedDate": "2023-02-28T12:01:32.9175621+01:00",
+  "UpdatedDate": "2004-07-18T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 270,
-      "Name": "Trantow Inc and Sons",
-      "CreatedDate": "2013-06-29T13:13:31.7457296+02:00",
-      "UpdatedDate": "2023-02-20T13:13:31.7457296+01:00",
-      "AssociateFullName": "Elliott Funk III",
-      "CreatedBy": "sit",
-      "UpdatedBy": "ea",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 255
+      "ForeignDeviceId": 749,
+      "Name": "Bode Inc and Sons",
+      "CreatedDate": "2021-11-06T12:01:32.9175621+01:00",
+      "UpdatedDate": "2020-05-25T12:01:32.9175621+02:00",
+      "AssociateFullName": "Amber Ferne McDermott III",
+      "CreatedBy": "temporibus",
+      "UpdatedBy": "omnis",
+      "DeviceIdentifier": "iure",
+      "ForeignAppId": 317
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 695,
-  "Name": "Nikolaus LLC",
-  "CreatedDate": "2017-09-28T13:13:31.7457296+02:00",
-  "UpdatedDate": "2015-10-31T13:13:31.7457296+01:00",
+  "ForeignAppId": 570,
+  "Name": "D'Amore Group",
+  "CreatedDate": "2019-06-27T12:01:32.9175621+02:00",
+  "UpdatedDate": "2010-01-01T12:01:32.9175621+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 678,
-      "Name": "Kovacek Group",
-      "CreatedDate": "2023-06-25T13:13:31.7457296+02:00",
-      "UpdatedDate": "2009-06-24T13:13:31.7457296+02:00",
-      "AssociateFullName": "Breana Dibbert",
-      "CreatedBy": "vitae",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "fugiat",
-      "ForeignAppId": 841,
+      "ForeignDeviceId": 577,
+      "Name": "Mraz Inc and Sons",
+      "CreatedDate": "2003-09-21T12:01:32.9175621+02:00",
+      "UpdatedDate": "1997-12-02T12:01:32.9175621+01:00",
+      "AssociateFullName": "Esperanza Schroeder Jr.",
+      "CreatedBy": "ipsa",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "numquam",
+      "ForeignAppId": 140,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 964
+          "FieldType": "System.Int32",
+          "FieldLength": 572
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 201
+      "FieldLength": 678
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

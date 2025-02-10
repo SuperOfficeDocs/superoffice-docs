@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 941,
-  "Name": "Dach-Lang",
-  "Tooltip": "quia",
-  "Rank": 116,
-  "AmountFrom": 20267.577999999998,
-  "AmountTo": 5879.384,
-  "Deleted": false,
-  "CurrencyId": 109,
+  "AmountClassId": 589,
+  "Name": "Cremin-Hand",
+  "Tooltip": "eos",
+  "Rank": 671,
+  "AmountFrom": 28428.514,
+  "AmountTo": 15438.083999999999,
+  "Deleted": true,
+  "CurrencyId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

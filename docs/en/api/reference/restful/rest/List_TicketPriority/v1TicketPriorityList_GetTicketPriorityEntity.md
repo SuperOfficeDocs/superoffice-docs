@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 22,
-  "Name": "Barton, Leffler and Hettinger",
+  "TicketPriorityId": 519,
+  "Name": "Dach-Ullrich",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 352,
+  "SortOrder": 960,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 652,
-  "MonStart": "2017-09-04T13:13:33.6828687+02:00",
-  "MonStop": "2014-04-21T13:13:33.6828687+02:00",
-  "TueStart": "2000-05-19T13:13:33.6828687+02:00",
-  "TueStop": "2000-12-07T13:13:33.6828687+01:00",
-  "WedStart": "2018-05-18T13:13:33.6828687+02:00",
-  "WedStop": "2018-08-03T13:13:33.6828687+02:00",
-  "ThuStart": "2024-10-19T13:13:33.6828687+02:00",
-  "ThuStop": "2017-05-10T13:13:33.6828687+02:00",
-  "FriStart": "2019-07-21T13:13:33.6828687+02:00",
-  "FriStop": "2003-08-24T13:13:33.6828687+02:00",
-  "SatStart": "2000-09-16T13:13:33.6828687+02:00",
-  "SatStop": "2015-09-07T13:13:33.6828687+02:00",
-  "SunStart": "2017-10-11T13:13:33.6828687+02:00",
-  "SunStop": "2024-05-19T13:13:33.6828687+02:00",
+  "Deadline": 413,
+  "MonStart": "2016-06-24T12:01:33.6832402+02:00",
+  "MonStop": "2000-06-10T12:01:33.6832402+02:00",
+  "TueStart": "2021-08-01T12:01:33.6832402+02:00",
+  "TueStop": "2018-08-01T12:01:33.6832402+02:00",
+  "WedStart": "2015-04-16T12:01:33.6832402+02:00",
+  "WedStop": "2010-06-17T12:01:33.6832402+02:00",
+  "ThuStart": "2022-02-20T12:01:33.6832402+01:00",
+  "ThuStop": "2002-02-05T12:01:33.6832402+01:00",
+  "FriStart": "2017-07-17T12:01:33.6832402+02:00",
+  "FriStop": "2014-01-03T12:01:33.6832402+01:00",
+  "SatStart": "2002-11-27T12:01:33.6832402+01:00",
+  "SatStop": "2011-05-09T12:01:33.6832402+02:00",
+  "SunStart": "2002-07-20T12:01:33.6832402+02:00",
+  "SunStop": "2013-02-17T12:01:33.6832402+01:00",
   "NonDates": [
-    "ut",
-    "perferendis"
+    "voluptatum",
+    "unde"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 359,
-      "AlertLevel": 818,
-      "AlertTimeout": 522,
-      "Action": 535,
-      "DelegateTo": 567,
-      "ScriptId": 616,
-      "EmailTo": "kailey.lesch@heller.co.uk",
-      "SmsTo": "molestias",
-      "ReplyTemplateIdCustomer": 158,
-      "ReplyTemplateIdUser": 332,
-      "ReplyTemplateIdCatmast": 173,
-      "ReplyTemplateIdEmail": 198,
-      "RtiCustomerSms": 855,
-      "ReplyTemplateIdUserSms": 613,
-      "ReplyTemplateIdCatmastSms": 239,
-      "ReplyTemplateIdSms": 127,
+      "TicketAlertId": 222,
+      "AlertLevel": 36,
+      "AlertTimeout": 947,
+      "Action": 926,
+      "DelegateTo": 872,
+      "ScriptId": 543,
+      "EmailTo": "dakota@okunevaritchie.co.uk",
+      "SmsTo": "et",
+      "ReplyTemplateIdCustomer": 587,
+      "ReplyTemplateIdUser": 531,
+      "ReplyTemplateIdCatmast": 635,
+      "ReplyTemplateIdEmail": 896,
+      "RtiCustomerSms": 160,
+      "ReplyTemplateIdUserSms": 899,
+      "ReplyTemplateIdCatmastSms": 616,
+      "ReplyTemplateIdSms": 782,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 263
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Nader Inc and Sons",
-    "ToolTip": "Unde ad.",
+    "Id": 31,
+    "Name": "Smitham Group",
+    "ToolTip": "Ipsam quasi tenetur voluptates ea eaque.",
     "Deleted": true,
-    "Rank": 468,
-    "Type": "ut",
-    "ColorBlock": 224,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2012-01-12T13:13:33.1673625+01:00",
+    "Rank": 257,
+    "Type": "quam",
+    "ColorBlock": 798,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2010-10-02T12:01:33.5269792+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Hills-Hahn",
-        "ToolTip": "Itaque consequuntur commodi eaque rerum dolores doloribus ut.",
+        "Id": 682,
+        "Name": "Abernathy, Wintheiser and Abshire",
+        "ToolTip": "Voluptas magni magnam ex ut inventore esse.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "expedita",
-        "ColorBlock": 142,
-        "IconHint": "illum",
+        "Rank": 263,
+        "Type": "non",
+        "ColorBlock": 141,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2003-12-21T13:13:33.1673625+01:00",
+        "LastChanged": "2004-07-01T12:01:33.5269792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "itaque",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Adah Kobe Schumm IV"
+        "FullName": "Gracie Funk"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "sunt",
+    "ExtraInfo": "quos",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Rudolph O'Reilly MD"
+    "FullName": "Kaia McGlynn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Corkery, Emmerich and Murphy",
-    "ToolTip": "Quibusdam et.",
-    "Deleted": false,
-    "Rank": 73,
-    "Type": "earum",
-    "ColorBlock": 103,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2007-04-30T13:13:33.1673625+02:00",
+    "Id": 304,
+    "Name": "Satterfield, Stroman and Schaden",
+    "ToolTip": "Doloremque voluptatum voluptatem et iste tenetur a sit.",
+    "Deleted": true,
+    "Rank": 583,
+    "Type": "nisi",
+    "ColorBlock": 469,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2010-01-30T12:01:33.5269792+01:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Shields, Spinka and Ullrich",
-        "ToolTip": "Omnis voluptas iusto occaecati repellendus.",
-        "Deleted": false,
-        "Rank": 29,
-        "Type": "explicabo",
-        "ColorBlock": 549,
-        "IconHint": "fuga",
+        "Id": 783,
+        "Name": "Heathcote-Bogan",
+        "ToolTip": "Deleniti velit illum quaerat.",
+        "Deleted": true,
+        "Rank": 273,
+        "Type": "magnam",
+        "ColorBlock": 159,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2014-02-10T13:13:33.1673625+01:00",
+        "LastChanged": "2003-01-18T12:01:33.5269792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "placeat",
+        "ExtraInfo": "alias",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Amie Taya Braun Jr.",
+        "FullName": "Miss Linwood Boyer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Bret Glenda Fahey Jr.",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Lonie Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldLength": 404
       }
     }
   }

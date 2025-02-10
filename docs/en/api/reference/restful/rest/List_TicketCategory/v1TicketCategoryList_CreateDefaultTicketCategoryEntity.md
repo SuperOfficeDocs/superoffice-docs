@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 9,
-  "ParentId": 47,
-  "Name": "Gibson, Parker and Conn",
-  "Fullname": "voluptas",
-  "CategoryMaster": 363,
+  "TicketCategoryId": 339,
+  "ParentId": 310,
+  "Name": "Parisian, Beier and Watsica",
+  "Fullname": "repellat",
+  "CategoryMaster": 566,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stroman Inc and Sons",
+  "ExternalName": "Bartoletti-Zemlak",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 973,
-  "ReplyTemplate": 741,
-  "NotificationEmail": "nakia@kub.uk",
+  "AssignmentLag": 32,
+  "ReplyTemplate": 366,
+  "NotificationEmail": "webster@senger.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 500,
+  "EffectiveReplyTemplateId": 931,
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "et"
+    "CustomFields1": "iusto",
+    "CustomFields2": "nam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

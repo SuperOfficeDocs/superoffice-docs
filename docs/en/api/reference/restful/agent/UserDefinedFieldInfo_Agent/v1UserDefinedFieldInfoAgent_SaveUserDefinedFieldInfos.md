@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 445,
-      "ColumnId": 571,
-      "FieldDefault": "laborum",
-      "FieldHeight": 431,
-      "FieldLabel": "quo",
-      "FieldLeft": 495,
-      "FieldTop": 111,
+      "UDefFieldId": 506,
+      "ColumnId": 275,
+      "FieldDefault": "laudantium",
+      "FieldHeight": 709,
+      "FieldLabel": "iste",
+      "FieldLeft": 514,
+      "FieldTop": 518,
       "FieldType": "Checkbox",
-      "FieldWidth": 904,
-      "FormatMask": "tenetur",
+      "FieldWidth": 861,
+      "FormatMask": "repellendus",
       "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 362,
-      "LabelLeft": 814,
-      "LabelTop": 548,
-      "LabelWidth": 136,
-      "LastVersionId": 733,
-      "ListTableId": 14,
+      "LabelHeight": 157,
+      "LabelLeft": 337,
+      "LabelTop": 232,
+      "LabelWidth": 777,
+      "LastVersionId": 170,
+      "ListTableId": 328,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 868,
-      "ProgId": "quia",
-      "IsReadOnly": false,
-      "ShortLabel": "impedit",
-      "TabOrder": 387,
-      "TextLength": 796,
-      "Tooltip": "nam",
-      "UdefIdentity": 681,
-      "UDListDefinitionId": 389,
+      "Page1LineNo": 799,
+      "ProgId": "iusto",
+      "IsReadOnly": true,
+      "ShortLabel": "eos",
+      "TabOrder": 908,
+      "TextLength": 691,
+      "Tooltip": "cumque",
+      "UdefIdentity": 747,
+      "UDListDefinitionId": 500,
       "Justification": "Center",
-      "Version": 168,
-      "TemplateVariableName": "Towne, McClure and Hintz",
-      "HasBeenPublished": true,
-      "MdoListName": "Hahn, Powlowski and Hessel"
+      "Version": 300,
+      "TemplateVariableName": "Hane, Hettinger and Gusikowski",
+      "HasBeenPublished": false,
+      "MdoListName": "Kling LLC"
     }
   ]
 }

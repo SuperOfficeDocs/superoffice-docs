@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 456,
-  "BlobSize": 927,
-  "Description": "Proactive optimizing collaboration",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": true,
+  "BlobId": 173,
+  "BlobSize": 842,
+  "Description": "Quality-focused contextually-based portal",
+  "ExtraInfo": "repellendus",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 924,
-  "CreatedDate": "2003-10-02T13:13:22.1489532+02:00",
-  "UpdatedDate": "2018-03-09T13:13:22.1489532+01:00",
+  "MimeType": "reprehenderit",
+  "OriginalSize": 867,
+  "CreatedDate": "2014-06-10T12:01:27.3533761+02:00",
+  "UpdatedDate": "2009-02-04T12:01:27.3533761+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nulla"
+  "ConceptualType": "quae"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 111,
-  "BlobSize": 332,
-  "Description": "Secured uniform forecast",
-  "ExtraInfo": "in",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ea",
-  "OriginalSize": 620,
-  "CreatedDate": "2019-11-10T13:13:22.1489532+01:00",
-  "UpdatedDate": "2014-01-01T13:13:22.1489532+01:00",
+  "BlobId": 509,
+  "BlobSize": 636,
+  "Description": "Streamlined responsive portal",
+  "ExtraInfo": "id",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 936,
+  "CreatedDate": "2020-02-13T12:01:27.3533761+01:00",
+  "UpdatedDate": "2015-02-20T12:01:27.3533761+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldLength": 204
     }
   }
 }

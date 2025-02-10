@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized exuding data-warehouse",
-  "Postit": "nisi",
+  "Description": "Triple-buffered grid-enabled complexity",
+  "Postit": "odio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 318,
-  "IncludePerson": 374,
+  "GroupIdx": 411,
+  "IncludePerson": 554,
   "MemberCount": 99.99,
-  "Name": "Upton, Collier and Davis",
-  "PostitTextId": 204,
-  "CreatedDate": "2006-07-22T13:13:23.8996346+02:00",
-  "SelectionId": 196,
-  "SoundEx": "maxime",
-  "Source": 380,
-  "TextId": 154,
-  "UpdatedDate": "2010-10-16T13:13:23.8996346+02:00",
-  "UpdatedCount": 344,
-  "Visibility": 649,
+  "Name": "Denesik LLC",
+  "PostitTextId": 359,
+  "CreatedDate": "1998-05-02T12:01:28.275316+02:00",
+  "SelectionId": 768,
+  "SoundEx": "eum",
+  "Source": 515,
+  "TextId": 709,
+  "UpdatedDate": "2003-03-28T12:01:28.275316+01:00",
+  "UpdatedCount": 289,
+  "Visibility": 468,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 756,
-  "TargetTableName": "Toy LLC",
+  "TargetTableNumber": 286,
+  "TargetTableName": "Fritsch Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 733,
-  "RightSelectionId": 83,
+  "LeftSelectionId": 155,
+  "RightSelectionId": 574,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Davis, Glover and Grant",
-  "ShadowProviderName": "Goyette Inc and Sons",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2019-06-22T13:13:23.8996346+02:00",
-  "LastLoadedBy": 306,
+  "MainProviderName": "Yost-Mayert",
+  "ShadowProviderName": "Prosacco, Parisian and Schneider",
+  "ChartKey": "quo",
+  "LastLoaded": "2007-11-04T12:01:28.275316+01:00",
+  "LastLoadedBy": 478,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-06-09T13:13:23.8996346+02:00",
-  "LastMembershipChangeBy": 354,
+  "LastMembershipChange": "2001-04-22T12:01:28.275316+02:00",
+  "LastMembershipChangeBy": 837,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "delectus",
-  "MemberTabHeading": "soluta",
-  "MailingsProviderName": "Nicolas, Brekke and Bechtelar",
-  "DashboardTileDefinitionId": 691,
+  "MainHeading": "laudantium",
+  "MemberTabHeading": "incidunt",
+  "MailingsProviderName": "Lynch, King and Volkman",
+  "DashboardTileDefinitionId": 414,
   "VisibleFor": [
     {
-      "VisibleId": 533,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 5
         }
       }
     },
     {
-      "VisibleId": 533,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 5
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 518
     }
   }
 }

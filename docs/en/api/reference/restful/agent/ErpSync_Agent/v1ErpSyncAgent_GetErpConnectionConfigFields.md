@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 716
+  "ErpConnectionId": 877
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laborum",
-  "2": "et"
+  "1": "aut",
+  "2": "veritatis"
 }
 ```

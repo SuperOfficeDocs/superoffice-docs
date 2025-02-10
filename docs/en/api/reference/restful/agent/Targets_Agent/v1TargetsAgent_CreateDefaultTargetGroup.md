@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 286,
-  "Year": 632,
+  "TargetGroupId": 214,
+  "Year": 623,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 12,
+      "TargetAssignmentInfoId": 352,
       "Values": [
-        628,
-        70
+        264,
+        720
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 455,
-      "DimensionListItemDisplayName": "Gleason-Pollich",
+      "DimensionListItem": 719,
+      "DimensionListItemDisplayName": "O'Reilly Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldType": "System.String",
+          "FieldLength": 313
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 702
     }
   }
 }

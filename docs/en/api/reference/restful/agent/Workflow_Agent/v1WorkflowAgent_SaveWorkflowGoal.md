@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 415,
-  "WorkflowId": 971,
+  "WorkflowGoalId": 186,
+  "WorkflowId": 784,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Braun Group",
-      "Description": "Down-sized human-resource knowledge base",
-      "Rank": 17,
+      "Name": "Towne-Nienow",
+      "Description": "Front-line coherent forecast",
+      "Rank": 363,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Braun Group",
-      "Description": "Down-sized human-resource knowledge base",
-      "Rank": 17,
+      "Name": "Towne-Nienow",
+      "Description": "Front-line coherent forecast",
+      "Rank": 363,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 49,
-  "WorkflowId": 363,
+  "WorkflowGoalId": 514,
+  "WorkflowId": 830,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Gottlieb, Conroy and Trantow",
-      "Description": "Secured zero administration interface",
-      "Rank": 668,
+      "Name": "Wilkinson, Blanda and Wuckert",
+      "Description": "Re-engineered empowering standardization",
+      "Rank": 538,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gottlieb, Conroy and Trantow",
-      "Description": "Secured zero administration interface",
-      "Rank": 668,
+      "Name": "Wilkinson, Blanda and Wuckert",
+      "Description": "Re-engineered empowering standardization",
+      "Rank": 538,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 919
     }
   }
 }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 945,
+  "UdListDefinitionId": 614,
   "Items": [
     {
-      "Id": 850,
-      "Name": "Auer Inc and Sons",
-      "Tooltip": "labore",
+      "Id": 685,
+      "Name": "Kohler-Gulgowski",
+      "Tooltip": "voluptas",
       "Deleted": false,
-      "UdListDefinitionId": 370,
-      "Rank": 786
+      "UdListDefinitionId": 806,
+      "Rank": 436
     },
     {
-      "Id": 850,
-      "Name": "Auer Inc and Sons",
-      "Tooltip": "labore",
+      "Id": 685,
+      "Name": "Kohler-Gulgowski",
+      "Tooltip": "voluptas",
       "Deleted": false,
-      "UdListDefinitionId": 370,
-      "Rank": 786
+      "UdListDefinitionId": 806,
+      "Rank": 436
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Gaylord, Bins and Koepp",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "UdListDefinitionId": 396,
-    "Rank": 666,
+    "Id": 285,
+    "Name": "Wolff-Roberts",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "UdListDefinitionId": 423,
+    "Rank": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 371
       }
     }
   }

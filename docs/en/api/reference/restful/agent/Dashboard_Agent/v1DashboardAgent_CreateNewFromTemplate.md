@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 855,
-  "Caption": "labore",
-  "Description": "Virtual bandwidth-monitored hub",
-  "SelectionId": 208,
+  "DashboardTileId": 359,
+  "Caption": "tenetur",
+  "Description": "Virtual encompassing info-mediaries",
+  "SelectionId": 159,
   "VisibleFor": [
     {
-      "VisibleId": 814,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 814,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 469,
-  "Caption": "deleniti",
-  "Description": "Front-line optimizing artificial intelligence",
-  "ChartName": "Gislason, Howell and Vandervort",
-  "ChartId": "vero",
-  "IsDefault": false,
-  "AssociateId": 219,
-  "GroupId": 113,
-  "SelectionId": 337,
-  "Config": "minus",
+  "DashboardTileId": 935,
+  "Caption": "voluptatum",
+  "Description": "Proactive heuristic website",
+  "ChartName": "Heidenreich Inc and Sons",
+  "ChartId": "nam",
+  "IsDefault": true,
+  "AssociateId": 99,
+  "GroupId": 794,
+  "SelectionId": 711,
+  "Config": "quasi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fisher-Russel",
-      "Description": "Decentralized mission-critical standardization",
+      "Name": "Heaney Group",
+      "Description": "Synergistic user-facing utilisation",
       "Type": "Boolean",
-      "ListName": "Lindgren Group",
+      "ListName": "Fisher, Swift and Gerhold",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatibus",
-      "DefaultDataOption": true,
+      "Value": "facilis",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 891
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 980,
+      "VisibleId": 219,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 699
         }
       }
     },
     {
-      "VisibleId": 980,
+      "VisibleId": 219,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 699
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 48
     }
   }
 }

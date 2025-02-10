@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "O'Keefe-Feest",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "UdListDefinitionId": 326,
-  "Rank": 114,
+  "Id": 301,
+  "Name": "Boyle Group",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 419,
+  "Rank": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

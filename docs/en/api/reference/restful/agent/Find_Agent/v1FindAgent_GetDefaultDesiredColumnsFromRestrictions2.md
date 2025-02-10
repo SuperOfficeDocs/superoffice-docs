@@ -173,8 +173,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leuschke-Durgan",
-  "Restrictions": "et"
+  "ProviderName": "Osinski-Rogahn",
+  "Restrictions": "a"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kirlin LLC",
-    "DisplayTooltip": "enim",
-    "DisplayType": "in",
-    "CanOrderBy": true,
-    "Name": "Walker Group",
+    "DisplayName": "McDermott, Huels and Cruickshank",
+    "DisplayTooltip": "possimus",
+    "DisplayType": "et",
+    "CanOrderBy": false,
+    "Name": "Wolff, Friesen and Ritchie",
     "CanRestrictBy": false,
-    "RestrictionType": "eveniet",
-    "RestrictionListName": "Waters-Wisoky",
+    "RestrictionType": "modi",
+    "RestrictionListName": "Veum, Green and Ryan",
     "IsVisible": false,
-    "ExtraInfo": "aut",
-    "Width": "doloremque",
-    "IconHint": "perferendis",
-    "HeadingIconHint": "sunt"
+    "ExtraInfo": "et",
+    "Width": "voluptates",
+    "IconHint": "laboriosam",
+    "HeadingIconHint": "et"
   }
 ]
 ```

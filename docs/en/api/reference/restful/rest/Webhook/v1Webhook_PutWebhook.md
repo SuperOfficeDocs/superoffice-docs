@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 545,
-  "Name": "Dare-Boehm",
+  "WebhookId": 711,
+  "Name": "Kuhlman, Weimann and Feest",
   "Events": [
-    "voluptatum",
-    "officia"
+    "voluptatibus",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "consequatur",
+  "Secret": "ut",
   "State": "Active",
-  "Type": "aut",
+  "Type": "officiis",
   "Headers": {
-    "Headers1": "dolorum",
-    "Headers2": "culpa"
+    "Headers1": "dolorem",
+    "Headers2": "aliquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-08-21T13:13:32.7611997+02:00",
+  "Registered": "2010-10-09T12:01:33.4019705+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-04-24T13:13:32.7611997+02:00",
+  "Updated": "2009-08-28T12:01:33.4019705+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "daniela_kris@lind.co.uk"
+  "ErrorsEmail": "ernestina.crist@littel.us"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 241,
-  "Name": "Williamson, Windler and Bins",
+  "WebhookId": 308,
+  "Name": "Dietrich LLC",
   "Events": [
-    "et",
-    "optio"
+    "ut",
+    "laboriosam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aliquid",
+  "Secret": "itaque",
   "State": "Active",
-  "Type": "soluta",
+  "Type": "vitae",
   "Headers": {
-    "Headers1": "quae",
-    "Headers2": "iusto"
+    "Headers1": "ex",
+    "Headers2": "mollitia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-11-06T13:13:32.7611997+01:00",
+  "Registered": "2024-01-09T12:01:33.4019705+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-02-10T13:13:32.7611997+01:00",
+  "Updated": "2018-03-08T12:01:33.4019705+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "leanne.mante@becker.uk",
+  "ErrorsEmail": "heidi.gislason@witting.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

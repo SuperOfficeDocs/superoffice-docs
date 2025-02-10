@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Purdy, Walsh and Gottlieb",
-  "AssociateId": 585,
-  "DetailsTable": 406,
-  "DetailsRecord": 406,
-  "IsSystemTask": false,
+  "Id": 173,
+  "Name": "Schroeder LLC",
+  "AssociateId": 126,
+  "DetailsTable": 482,
+  "DetailsRecord": 425,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "culpa",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "suscipit",
+    "ParameterObject2": "impedit"
   },
-  "LastStarted": "2021-04-12T13:13:32.5267302+02:00",
-  "Created": "2009-04-01T13:13:32.5267302+02:00",
-  "StartCount": 77,
-  "DatabaseSerialNumber": "1414444",
-  "Context": "qui",
-  "Result": "rerum",
+  "LastStarted": "2008-01-18T12:01:33.308214+01:00",
+  "Created": "2009-02-16T12:01:33.308214+01:00",
+  "StartCount": 29,
+  "DatabaseSerialNumber": "1345595",
+  "Context": "et",
+  "Result": "dolores",
   "State": "All",
-  "Description": "Grass-roots scalable task-force",
-  "Response": "assumenda",
-  "Request": "eius",
-  "ProgressDescription": "Public-key eco-centric customer loyalty",
-  "ProgressPercent": 415,
-  "FileName": "Pfeffer, Leuschke and Spinka",
+  "Description": "Adaptive exuding success",
+  "Response": "nemo",
+  "Request": "rem",
+  "ProgressDescription": "Profit-focused web-enabled alliance",
+  "ProgressPercent": 700,
+  "FileName": "Tillman, Bogisich and Padberg",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Cummings Group",
-  "AssociateId": 627,
-  "DetailsTable": 599,
-  "DetailsRecord": 768,
+  "Id": 522,
+  "Name": "Gulgowski, Gleichner and Bernier",
+  "AssociateId": 464,
+  "DetailsTable": 936,
+  "DetailsRecord": 543,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "velit",
-    "ParameterObject2": "quidem"
+    "ParameterObject1": "delectus",
+    "ParameterObject2": "maiores"
   },
-  "LastStarted": "2001-06-14T13:13:32.5267302+02:00",
-  "Created": "2021-05-13T13:13:32.5267302+02:00",
-  "StartCount": 391,
-  "DatabaseSerialNumber": "1462457",
-  "Context": "quidem",
-  "Result": "qui",
+  "LastStarted": "2023-10-04T12:01:33.308214+02:00",
+  "Created": "2006-01-02T12:01:33.308214+01:00",
+  "StartCount": 4,
+  "DatabaseSerialNumber": "447431",
+  "Context": "sunt",
+  "Result": "consequatur",
   "State": "All",
-  "Description": "Switchable neutral customer loyalty",
-  "Response": "quia",
-  "Request": "culpa",
-  "ProgressDescription": "Pre-emptive 3rd generation budgetary management",
-  "ProgressPercent": 119,
-  "FileName": "Stracke-Kohler",
+  "Description": "Customer-focused bandwidth-monitored encryption",
+  "Response": "sit",
+  "Request": "quia",
+  "ProgressDescription": "Business-focused local solution",
+  "ProgressPercent": 42,
+  "FileName": "Weber-DuBuque",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 398
     }
   }
 }

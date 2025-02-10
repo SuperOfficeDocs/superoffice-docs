@@ -89,12 +89,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kunze-Hammes",
-  "DeviceName": "Stanton LLC",
-  "DeviceIdentifier": "aliquam",
-  "KeyName": "Kling-Nolan",
-  "KeyValue": "eum",
-  "TableName": "DuBuque Inc and Sons"
+  "ApplicationName": "Rogahn Group",
+  "DeviceName": "Huels, Miller and Mohr",
+  "DeviceIdentifier": "molestias",
+  "KeyName": "Hermiston Inc and Sons",
+  "KeyValue": "molestiae",
+  "TableName": "Nolan-Corwin"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestiae",
-  "Value": "tenetur",
-  "RecordId": 517,
-  "CreatedDate": "2003-07-29T13:13:23.1802042+02:00",
-  "UpdatedDate": "2024-12-24T13:13:23.1802042+01:00",
+  "Key": "esse",
+  "Value": "perspiciatis",
+  "RecordId": 41,
+  "CreatedDate": "2023-12-14T12:01:27.9002891+01:00",
+  "UpdatedDate": "2015-12-11T12:01:27.9002891+01:00",
   "UpdatedBy": "non",
-  "CreatedBy": "accusantium",
-  "TableName": "Pfannerstill Group",
+  "CreatedBy": "architecto",
+  "TableName": "Howell, Erdman and Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 717
     }
   }
 }

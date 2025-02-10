@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-10-26T13:13:23.8729256+01:00",
-  "ToDate": "2005-01-03T13:13:23.8729256+01:00",
-  "AmountLimit": 983,
+  "FromDate": "2023-07-25T12:01:28.2596899+02:00",
+  "ToDate": "2024-03-27T12:01:28.2596899+01:00",
+  "AmountLimit": 353,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "McLaughlin-Russel",
-    "SaleDate": "2022-08-12T13:13:23.8839994+02:00",
-    "SaleId": 183,
-    "Probability": 825,
-    "Title": "nulla",
-    "Amount": 19051.586,
-    "Currency": "error",
-    "ProjectName": "Johns-Wiza",
-    "AssociateFullName": "Joshuah Mann",
-    "Description": "Integrated systematic infrastructure",
+    "ContactName": "Russel Group",
+    "SaleDate": "2023-04-15T12:01:28.2596899+02:00",
+    "SaleId": 292,
+    "Probability": 575,
+    "Title": "voluptas",
+    "Amount": 25529.564,
+    "Currency": "est",
+    "ProjectName": "Hammes-Kiehn",
+    "AssociateFullName": "Rossie Crist",
+    "Description": "Up-sized demand-driven capacity",
     "Status": "Lost",
-    "WeightedAmount": 14485.348,
-    "ProjectId": 706,
-    "EarningPercent": 12203.796,
-    "Earning": 2027.6979999999999,
-    "ContactId": 920,
-    "AssociateId": 716,
-    "PersonId": 202,
-    "SaleTypeId": 582,
-    "SaleTypeName": "Hilll LLC",
-    "PersonFullName": "Millie Eldridge Ankunding PhD",
+    "WeightedAmount": 1360.156,
+    "ProjectId": 492,
+    "EarningPercent": 1817.72,
+    "Earning": 9449.01,
+    "ContactId": 156,
+    "AssociateId": 826,
+    "PersonId": 57,
+    "SaleTypeId": 340,
+    "SaleTypeName": "Lakin-Nitzsche",
+    "PersonFullName": "Brittany Walter",
     "Completed": "Completed",
-    "ActiveErpLinks": 198,
-    "NextDueDate": "2010-01-10T13:13:23.8839994+01:00",
-    "Number": "1194790",
+    "ActiveErpLinks": 549,
+    "NextDueDate": "2014-06-26T12:01:28.2596899+02:00",
+    "Number": "1528365",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 301
       }
     }
   }

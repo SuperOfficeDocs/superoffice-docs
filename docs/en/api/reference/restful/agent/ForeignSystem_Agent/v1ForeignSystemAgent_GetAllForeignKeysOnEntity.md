@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "dolores",
-  "EntityId": 370
+  "EntityType": "natus",
+  "EntityId": 722
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "optio",
-  "2": "quia"
+  "1": "ex",
+  "2": "id"
 }
 ```

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Jan 2016 13:13:32 G1T
+Last-Modified: Wed, 27 May 2015 12:01:33 G5T
 
 {
-  "BlobId": 315,
-  "BlobSize": 947,
-  "Description": "Grass-roots background secured line",
-  "ExtraInfo": "non",
+  "BlobId": 538,
+  "BlobSize": 783,
+  "Description": "Object-based attitude-oriented knowledge base",
+  "ExtraInfo": "fugiat",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "architecto",
-  "OriginalSize": 456,
-  "CreatedDate": "2006-08-08T13:13:32.5892154+02:00",
-  "UpdatedDate": "2016-01-28T13:13:32.5892154+01:00",
+  "MimeType": "voluptate",
+  "OriginalSize": 797,
+  "CreatedDate": "2023-11-19T12:01:33.3394662+01:00",
+  "UpdatedDate": "2015-05-27T12:01:33.3394662+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "a",
+  "ConceptualType": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 637
     }
   }
 }

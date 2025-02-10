@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Crooks-Heller",
-    "ToolTip": "Voluptatem quas.",
+    "Id": 832,
+    "Name": "Runolfsson-Emard",
+    "ToolTip": "Quod natus qui aperiam consequatur id rem et.",
     "Deleted": true,
-    "Rank": 409,
-    "Type": "cum",
-    "ColorBlock": 834,
-    "IconHint": "exercitationem",
+    "Rank": 631,
+    "Type": "amet",
+    "ColorBlock": 444,
+    "IconHint": "iure",
     "Selected": true,
-    "LastChanged": "2022-04-20T13:13:33.2923352+02:00",
+    "LastChanged": "2000-01-10T12:01:33.5738574+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Hartmann Inc and Sons",
-        "ToolTip": "Et veritatis alias exercitationem.",
+        "Id": 190,
+        "Name": "Fisher, Beier and Botsford",
+        "ToolTip": "Corporis tempora beatae a nam consequatur quod eveniet.",
         "Deleted": false,
-        "Rank": 76,
-        "Type": "fugiat",
-        "ColorBlock": 524,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2006-07-02T13:13:33.2923352+02:00",
+        "Rank": 780,
+        "Type": "laboriosam",
+        "ColorBlock": 538,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2013-12-03T12:01:33.5738574+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "eos",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Edwardo Schmitt",
+        "FullName": "Anastacio Murphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "quae",
+    "ExtraInfo": "impedit",
+    "StyleHint": "velit",
     "Hidden": true,
-    "FullName": "Monty Stanton",
+    "FullName": "Lawrence Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 285
       }
     }
   }

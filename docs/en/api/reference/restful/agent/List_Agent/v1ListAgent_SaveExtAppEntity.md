@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 768,
-  "Name": "Schmitt Group",
-  "Tooltip": "sunt",
+  "ExtAppId": 410,
+  "Name": "Block-Kautzer",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 191,
-  "Filename": "sit",
-  "Parameters": "reprehenderit",
-  "Workdir": "eligendi",
+  "Rank": 416,
+  "Filename": "labore",
+  "Parameters": "a",
+  "Workdir": "inventore",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 862,
-  "WaitToFinish": false,
+  "ShowInStatusBar": false,
+  "Icon": 584,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "omnis"
+  "Path": "adipisci"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 186,
-  "Name": "Gottlieb, Parisian and Champlin",
-  "Tooltip": "cum",
+  "ExtAppId": 364,
+  "Name": "Schuster-Runte",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 788,
-  "Filename": "in",
-  "Parameters": "sit",
-  "Workdir": "odio",
+  "Rank": 680,
+  "Filename": "voluptatem",
+  "Parameters": "repudiandae",
+  "Workdir": "quaerat",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 379,
+  "ShowInStatusBar": true,
+  "Icon": 402,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nobis",
+  "Path": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldLength": 366
     }
   }
 }

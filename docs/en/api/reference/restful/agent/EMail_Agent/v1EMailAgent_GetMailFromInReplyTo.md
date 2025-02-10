@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "in"
+  "MessageId": "laboriosam"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 974,
-      "ContactName": "Gleason-DuBuque",
-      "PersonId": 437,
-      "PersonName": "Mosciski LLC",
-      "AssociateId": 231,
-      "Address": "animi",
-      "EmailId": 475,
+      "ContactId": 410,
+      "ContactName": "Mayert Inc and Sons",
+      "PersonId": 335,
+      "PersonName": "Ebert Group",
+      "AssociateId": 943,
+      "Address": "sed",
+      "EmailId": 153,
       "DuplicatePersonIds": [
-        151,
-        97
+        121,
+        257
       ],
-      "Name": "Wiegand Group",
+      "Name": "Kling LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 102
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 628,
-      "ContactName": "Kunze Group",
-      "PersonId": 514,
-      "PersonName": "Larkin LLC",
-      "AssociateId": 6,
-      "Address": "id",
-      "EmailId": 815,
+      "ContactId": 741,
+      "ContactName": "Kautzer Group",
+      "PersonId": 76,
+      "PersonName": "Quitzon, Bashirian and Wiegand",
+      "AssociateId": 427,
+      "Address": "tempore",
+      "EmailId": 243,
       "DuplicatePersonIds": [
-        605,
-        426
+        17,
+        951
       ],
-      "Name": "Grimes, Haag and Spinka",
+      "Name": "McKenzie Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldType": "System.String",
+          "FieldLength": 618
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 902,
-      "ContactName": "Rodriguez-Carter",
-      "PersonId": 391,
-      "PersonName": "Block, Lebsack and Homenick",
-      "AssociateId": 401,
-      "Address": "dolore",
-      "EmailId": 490,
+      "ContactId": 827,
+      "ContactName": "Metz Group",
+      "PersonId": 322,
+      "PersonName": "Osinski-Kertzmann",
+      "AssociateId": 675,
+      "Address": "aut",
+      "EmailId": 40,
       "DuplicatePersonIds": [
-        779,
-        144
+        85,
+        502
       ],
-      "Name": "Rogahn-Stanton",
+      "Name": "Goldner, Corwin and Kunze",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 229
         }
       }
     }
   ],
-  "Subject": "porro",
-  "HTMLBody": "nihil",
+  "Subject": "nam",
+  "HTMLBody": "aspernatur",
   "From": null,
-  "Sent": "2018-05-19T13:13:22.9458836+02:00",
-  "Size": 309,
+  "Sent": "1998-01-01T12:01:27.7909064+01:00",
+  "Size": 538,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "modi",
-  "PlainBody": "fugit",
-  "IsSent": true,
+  "MessageID": "cumque",
+  "PlainBody": "iusto",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 501,
+  "ServerId": 918,
   "Attachments": [
     {
-      "Description": "Multi-layered secondary conglomeration",
-      "Filename": "eius",
-      "Size": 136,
-      "Type": "aliquam",
-      "Encoding": "consequatur",
-      "Id": "consequatur",
-      "Disposition": "reprehenderit",
-      "IsSafeFileExtension": false,
+      "Description": "Mandatory systematic core",
+      "Filename": "enim",
+      "Size": 794,
+      "Type": "qui",
+      "Encoding": "dolorum",
+      "Id": "eos",
+      "Disposition": "omnis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 270
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schumm, Oberbrunner and Balistreri",
+      "Name": "Zboncak LLC",
       "Values": [
-        "quas",
-        "nemo"
+        "temporibus",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 689
         }
       }
     },
     {
-      "Name": "Schumm, Oberbrunner and Balistreri",
+      "Name": "Zboncak LLC",
       "Values": [
-        "quas",
-        "nemo"
+        "temporibus",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 689
         }
       }
     }
   ],
-  "FolderName": "Pfeffer LLC",
-  "EmailItemId": 972,
-  "AccountId": 163,
-  "ReceivedAt": "1998-10-16T13:13:22.9458836+02:00",
+  "FolderName": "Hayes, Mayert and Wolf",
+  "EmailItemId": 637,
+  "AccountId": 974,
+  "ReceivedAt": "2016-05-17T12:01:27.7909064+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-01-13T13:13:22.9458836+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-10-11T12:01:27.7909064+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 18
     }
   }
 }

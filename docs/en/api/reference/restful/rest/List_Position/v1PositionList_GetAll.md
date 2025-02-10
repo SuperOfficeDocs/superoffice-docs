@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Krajcik, Becker and Legros",
-    "Tooltip": "quos",
+    "Id": 475,
+    "Name": "Kihn, Abbott and Conn",
+    "Tooltip": "explicabo",
     "Deleted": true,
-    "UdListDefinitionId": 415,
-    "Rank": 165,
+    "UdListDefinitionId": 261,
+    "Rank": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 753
       }
     }
   }

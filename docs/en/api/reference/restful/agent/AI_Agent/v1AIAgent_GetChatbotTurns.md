@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "voluptatum"
+  "ChatId": "distinctio"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2004-07-07T13:13:21.4771717+02:00",
-    "UserPrompt": "voluptatem",
-    "UserDisplayText": "est",
-    "BotResponse": "deleniti",
+    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
+    "UserPrompt": "quod",
+    "UserDisplayText": "omnis",
+    "BotResponse": "vel",
     "BotActions": {
-      "BotActions1": "facere",
-      "BotActions2": "velit"
+      "BotActions1": "voluptatibus",
+      "BotActions2": "ut"
     },
     "Attachments": [
-      "suscipit",
-      "quis"
+      "excepturi",
+      "numquam"
     ]
   },
   {
-    "Timestamp": "2004-07-07T13:13:21.4771717+02:00",
-    "UserPrompt": "voluptatem",
-    "UserDisplayText": "est",
-    "BotResponse": "deleniti",
+    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
+    "UserPrompt": "quod",
+    "UserDisplayText": "omnis",
+    "BotResponse": "vel",
     "BotActions": {
-      "BotActions1": "facere",
-      "BotActions2": "velit"
+      "BotActions1": "voluptatibus",
+      "BotActions2": "ut"
     },
     "Attachments": [
-      "suscipit",
-      "quis"
+      "excepturi",
+      "numquam"
     ]
   }
 ]

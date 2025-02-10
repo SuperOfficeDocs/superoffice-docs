@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Stamm LLC",
-  "Tooltip": "laborum",
+  "Id": 197,
+  "Name": "Nolan, Windler and Gutkowski",
+  "Tooltip": "non",
   "Deleted": true,
-  "UdListDefinitionId": 220,
-  "Rank": 349,
+  "UdListDefinitionId": 354,
+  "Rank": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

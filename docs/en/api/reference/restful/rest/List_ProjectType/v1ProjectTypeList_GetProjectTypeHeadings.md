@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 715,
-    "Name": "Casper LLC",
-    "Tooltip": "est",
+    "HeadingId": 174,
+    "Name": "Reilly-Hahn",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 39,
-    "UdListDefinitionId": 445,
+    "Rank": 541,
+    "UdListDefinitionId": 806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 847
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

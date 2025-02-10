@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Muller, Rice and Schimmel",
-    "Tooltip": "commodi",
-    "Deleted": false,
-    "UdListDefinitionId": 46,
-    "Rank": 130
+    "Id": 204,
+    "Name": "Connelly Group",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 565
   },
   {
-    "Id": 540,
-    "Name": "Muller, Rice and Schimmel",
-    "Tooltip": "commodi",
-    "Deleted": false,
-    "UdListDefinitionId": 46,
-    "Rank": 130
+    "Id": 204,
+    "Name": "Connelly Group",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 565
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Metz Group",
-    "Tooltip": "rem",
+    "Id": 357,
+    "Name": "Shields-Harris",
+    "Tooltip": "vitae",
     "Deleted": true,
-    "UdListDefinitionId": 965,
-    "Rank": 884,
+    "UdListDefinitionId": 314,
+    "Rank": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldLength": 437
       }
     }
   }

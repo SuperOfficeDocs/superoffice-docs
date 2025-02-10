@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Wilderman-Hayes",
-    "ToolTip": "Quo eaque.",
-    "Deleted": true,
-    "Rank": 13,
-    "Type": "pariatur",
-    "ColorBlock": 457,
-    "IconHint": "quidem",
+    "Id": 511,
+    "Name": "Kertzmann-Zieme",
+    "ToolTip": "Iure officia ea unde delectus omnis quis nemo.",
+    "Deleted": false,
+    "Rank": 937,
+    "Type": "incidunt",
+    "ColorBlock": 403,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2010-08-01T13:13:33.1829847+02:00",
+    "LastChanged": "2004-10-31T12:01:33.5426053+01:00",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Schoen Inc and Sons",
-        "ToolTip": "Eligendi nihil ipsa.",
-        "Deleted": true,
-        "Rank": 107,
-        "Type": "ea",
-        "ColorBlock": 537,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2011-03-11T13:13:33.1829847+01:00",
+        "Id": 361,
+        "Name": "King, Doyle and Rogahn",
+        "ToolTip": "Eveniet aut maiores voluptas quia.",
+        "Deleted": false,
+        "Rank": 496,
+        "Type": "a",
+        "ColorBlock": 244,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2008-09-26T12:01:33.5426053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Tiara Konopelski",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Imogene Oberbrunner Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Quentin Hane",
+    "ExtraInfo": "nobis",
+    "StyleHint": "a",
+    "Hidden": false,
+    "FullName": "Mrs. Amina Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 341
       }
     }
   }

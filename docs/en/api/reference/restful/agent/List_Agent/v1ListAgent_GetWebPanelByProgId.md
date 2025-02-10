@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "vel"
+  "ProgId": "ratione"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 904,
-  "Name": "Jenkins-Bernhard",
-  "Tooltip": "odio",
+  "WebPanelId": 404,
+  "Name": "Pollich Inc and Sons",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 939,
+  "Rank": 503,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Schmidt-Von",
+  "ShowInStatusBar": false,
+  "WindowName": "Beahan-Breitenberg",
   "Url": "http://www.example.com/",
-  "ProgId": "aperiam",
-  "Icon": 879,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "impedit",
+  "Icon": 499,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   }
 }

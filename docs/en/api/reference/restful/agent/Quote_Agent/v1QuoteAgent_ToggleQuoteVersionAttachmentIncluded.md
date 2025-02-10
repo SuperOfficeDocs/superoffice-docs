@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 490
+  "QuoteVersionAttachmentId": 728
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

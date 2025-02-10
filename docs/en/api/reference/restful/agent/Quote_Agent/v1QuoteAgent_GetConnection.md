@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 648
+  "QuoteConnectionId": 707
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 621,
-  "ERPName": "Satterfield-Rohan",
-  "DisplayName": "Metz Inc and Sons",
-  "DisplayDescription": "Switchable methodical application",
-  "Rank": 910,
-  "ConnectorName": "Conroy LLC",
-  "ErpConnectionId": 434,
-  "ExtraData": "qui",
-  "IsAvailable": true,
+  "QuoteConnectionId": 812,
+  "ERPName": "Nienow, Rosenbaum and Murray",
+  "DisplayName": "Muller-O'Hara",
+  "DisplayDescription": "Public-key mission-critical infrastructure",
+  "Rank": 785,
+  "ConnectorName": "Romaguera Inc and Sons",
+  "ErpConnectionId": 97,
+  "ExtraData": "provident",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 68,
-      "ERPPriceListKey": "expedita",
-      "QuoteConnectionId": 485,
-      "Name": "Nader, Koepp and Orn",
-      "Description": "Assimilated needs-based encoding",
-      "Currency": "hic",
-      "CurrencyName": "O'Keefe Group",
-      "ValidFrom": "2002-07-12T13:13:23.7425716+02:00",
-      "ValidTo": "2020-03-14T13:13:23.7425716+01:00",
-      "IsActive": true,
+      "PriceListId": 292,
+      "ERPPriceListKey": "est",
+      "QuoteConnectionId": 940,
+      "Name": "Frami LLC",
+      "Description": "Re-engineered asynchronous data-warehouse",
+      "Currency": "non",
+      "CurrencyName": "Erdman-Rath",
+      "ValidFrom": "2003-03-21T12:01:28.1971849+01:00",
+      "ValidTo": "2007-04-29T12:01:28.1971849+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldType": "System.String",
+          "FieldLength": 970
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    559,
-    921
+    936,
+    579
   ],
   "AssociateAccessIds": [
-    717,
-    781
+    695,
+    49
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 857
     }
   }
 }

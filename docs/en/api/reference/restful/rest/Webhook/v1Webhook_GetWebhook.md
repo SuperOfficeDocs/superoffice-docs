@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,28 +97,28 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 931,
-  "Name": "Schowalter Group",
+  "WebhookId": 159,
+  "Name": "Murray Inc and Sons",
   "Events": [
-    "et",
-    "autem"
+    "rerum",
+    "ad"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "cum",
   "State": "Active",
-  "Type": "deleniti",
+  "Type": "maxime",
   "Headers": {
-    "Headers1": "veniam",
-    "Headers2": "ipsam"
+    "Headers1": "harum",
+    "Headers2": "tenetur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-01-28T13:13:32.7611997+01:00",
+  "Registered": "2016-11-15T12:01:33.4019705+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-10-25T13:13:32.7611997+02:00",
+  "Updated": "2016-02-28T12:01:33.4019705+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "samson@kutch.name",
+  "ErrorsEmail": "marilou@jasthahn.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

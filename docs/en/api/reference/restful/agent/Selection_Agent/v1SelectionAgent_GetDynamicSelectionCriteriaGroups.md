@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 530
+  "SelectionId": 382
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber Inc and Sons",
-    "Description": "Face to face systemic protocol",
-    "Rank": 385,
+    "Name": "Bradtke, Carter and Pacocha",
+    "Description": "Grass-roots asynchronous Graphic Interface",
+    "Rank": 598,
     "Restrictions": [
       {
-        "Name": "Boehm, Schulist and Deckow",
-        "Operator": "fugiat",
+        "Name": "Nicolas, Russel and Schuster",
+        "Operator": "qui",
         "Values": [
-          "aut",
-          "velit"
+          "sit",
+          "non"
         ],
         "DisplayValues": [
-          "unde",
-          "vel"
+          "esse",
+          "illo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 990,
+        "InterParenthesis": 186,
         "InterOperator": "And",
-        "UniqueHash": 661
+        "UniqueHash": 740
       }
     ]
   },
   {
-    "Name": "Steuber Inc and Sons",
-    "Description": "Face to face systemic protocol",
-    "Rank": 385,
+    "Name": "Bradtke, Carter and Pacocha",
+    "Description": "Grass-roots asynchronous Graphic Interface",
+    "Rank": 598,
     "Restrictions": [
       {
-        "Name": "Boehm, Schulist and Deckow",
-        "Operator": "fugiat",
+        "Name": "Nicolas, Russel and Schuster",
+        "Operator": "qui",
         "Values": [
-          "aut",
-          "velit"
+          "sit",
+          "non"
         ],
         "DisplayValues": [
-          "unde",
-          "vel"
+          "esse",
+          "illo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 990,
+        "InterParenthesis": 186,
         "InterOperator": "And",
-        "UniqueHash": 661
+        "UniqueHash": 740
       }
     ]
   }

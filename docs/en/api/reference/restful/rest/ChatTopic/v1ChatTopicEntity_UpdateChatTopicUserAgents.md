@@ -75,25 +75,25 @@ OK
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 929,
+    "TopicId": 52,
     "User": null,
     "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": false
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": true
   },
   {
-    "TopicId": 929,
+    "TopicId": 52,
     "User": null,
     "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": false
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": true
   }
 ]
 ```
@@ -106,20 +106,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 448,
+    "TopicId": 342,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": false
+    "CanRespond": true,
+    "CanManage": false,
+    "CanNotify": true
   },
   {
-    "TopicId": 448,
+    "TopicId": 342,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": false
+    "CanRespond": true,
+    "CanManage": false,
+    "CanNotify": true
   }
 ]
 ```

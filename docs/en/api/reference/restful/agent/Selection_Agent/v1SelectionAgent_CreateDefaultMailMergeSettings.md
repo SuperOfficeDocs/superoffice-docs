@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 676,
-  "DocumentId": 380,
+  "SelectionId": 740,
+  "DocumentId": 155,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "nemo",
+  "CustomAttention": "dolorem",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "beatae",
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 216,
-  "AddPersonInterest": 956,
-  "RemoveCompanyInterest": 349,
-  "RemovePersonInterest": 20,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 490,
+  "AddPersonInterest": 688,
+  "RemoveCompanyInterest": 267,
+  "RemovePersonInterest": 447,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 168,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "nesciunt",
-  "ExtraInfo": "ea",
-  "Synchronous": true,
+  "ProjectId": 387,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "dolores",
+  "ExtraInfo": "quis",
+  "Synchronous": false,
   "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldType": "System.String",
+      "FieldLength": 350
     }
   }
 }

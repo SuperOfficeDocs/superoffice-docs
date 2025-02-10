@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Collins-Baumbach",
-    "ToolTip": "Et velit impedit provident tempora laborum.",
+    "Id": 965,
+    "Name": "Gleason, Yundt and Will",
+    "ToolTip": "Aut officia repellat error et quam.",
     "Deleted": false,
-    "Rank": 855,
-    "Type": "ex",
-    "ColorBlock": 838,
-    "IconHint": "assumenda",
+    "Rank": 933,
+    "Type": "dolore",
+    "ColorBlock": 640,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2003-10-29T13:13:33.4485481+01:00",
+    "LastChanged": "2022-01-25T12:01:33.6207356+01:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Bednar, Brekke and Raynor",
-        "ToolTip": "Accusantium vero iste voluptatem velit nam.",
+        "Id": 42,
+        "Name": "Lakin, Treutel and Thompson",
+        "ToolTip": "Laboriosam tempora accusantium veritatis delectus aut dolore.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "vel",
-        "ColorBlock": 664,
-        "IconHint": "earum",
+        "Rank": 765,
+        "Type": "eius",
+        "ColorBlock": 897,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2014-02-14T13:13:33.4485481+01:00",
+        "LastChanged": "2004-11-26T12:01:33.6207356+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "et",
+        "ExtraInfo": "minus",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Tina Carroll",
+        "FullName": "Dr. Devon Savannah Ernser II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "molestias",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Chris Goyette",
+    "FullName": "Miss Aurelio Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldLength": 119
       }
     }
   }

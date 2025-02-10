@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 245
+  "AssociateId": 787
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-12-29T13:13:21.9458764+01:00",
-  "AppointmentId": 124,
-  "Description": "Fundamental multimedia architecture",
-  "Title": "aperiam",
-  "Agenda": "adipisci",
-  "InternalNotes": "et",
-  "StartDate": "2014-04-25T13:13:21.9458764+02:00",
-  "EndDate": "2007-04-26T13:13:21.9458764+02:00",
+  "CreatedDate": "2002-03-03T12:01:27.2439933+01:00",
+  "AppointmentId": 726,
+  "Description": "Persevering incremental productivity",
+  "Title": "velit",
+  "Agenda": "iste",
+  "InternalNotes": "tempore",
+  "StartDate": "2011-10-02T12:01:27.2439933+02:00",
+  "EndDate": "2012-11-08T12:01:27.2439933+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 296,
+  "MotherId": 100,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-10-06T13:13:21.9458764+02:00",
+  "UpdatedDate": "1998-09-09T12:01:27.2439933+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 66,
+  "ActiveLinks": 45,
   "Links": [
     {
-      "EntityName": "Oberbrunner, Kemmer and Jast",
-      "Id": 477,
-      "Description": "Innovative zero tolerance emulation",
-      "ExtraInfo": "ullam",
-      "LinkId": 831,
+      "EntityName": "Murphy-Torp",
+      "Id": 802,
+      "Description": "Assimilated composite access",
+      "ExtraInfo": "vel",
+      "LinkId": 934,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 104
         }
       }
     }
   ],
-  "AlarmLeadTime": "laborum",
-  "HasAlarm": true,
-  "ColorIndex": 619,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "non",
-  "LeadTime": "et",
-  "Location": "blanditiis",
-  "RejectCounter": 62,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 974,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "voluptatem",
+  "LeadTime": "aperiam",
+  "Location": "animi",
+  "RejectCounter": 665,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 755,
-      "PersonId": 319,
-      "ContactId": 827,
-      "EmailId": 612,
+      "AssociateId": 761,
+      "PersonId": 585,
+      "ContactId": 732,
+      "EmailId": 551,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "desiree_hackett@cummeratavandervort.ca",
-      "Description": "Optional systematic customer loyalty"
+      "EmailAddress": "lemuel@swaniawski.biz",
+      "Description": "Enterprise-wide coherent moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-07-24T13:13:21.9458764+02:00",
+  "ActiveDate": "2020-03-20T12:01:27.2439933+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 891,
+  "PreferredTZLocation": 39,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 657,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 870,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "natus",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "4690133",
+    "SuperOffice:2": "Meta Konopelski DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "est",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "sunt"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "amet"
   },
-  "PublishEventDate": "2024-09-21T13:13:21.9458764+02:00",
-  "PublishTo": "2017-12-14T13:13:21.9458764+01:00",
-  "PublishFrom": "2009-08-25T13:13:21.9458764+02:00",
+  "PublishEventDate": "2003-11-01T12:01:27.2439933+01:00",
+  "PublishTo": "2020-05-19T12:01:27.2439933+02:00",
+  "PublishFrom": "2012-03-30T12:01:27.2439933+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 214,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     },
     {
-      "VisibleId": 214,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 251
     }
   }
 }

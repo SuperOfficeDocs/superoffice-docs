@@ -80,11 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "nisi",
-  "RecordId": 478,
+  "Table": "officia",
+  "RecordId": 768,
   "Fields": [
-    "animi",
-    "ea"
+    "est",
+    "sit"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "dolor",
+    "Field": "eum",
     "FieldValue": null
   },
   {
-    "Field": "dolor",
+    "Field": "eum",
     "FieldValue": null
   }
 ]

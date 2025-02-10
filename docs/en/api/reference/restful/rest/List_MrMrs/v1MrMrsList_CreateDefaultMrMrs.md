@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Deckow, Fahey and Fadel",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "UdListDefinitionId": 108,
-  "Rank": 105,
+  "Id": 466,
+  "Name": "Heathcote LLC",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "UdListDefinitionId": 595,
+  "Rank": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 156
     }
   }
 }

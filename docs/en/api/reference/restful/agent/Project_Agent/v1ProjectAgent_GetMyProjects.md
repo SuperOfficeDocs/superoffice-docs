@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 371,
-    "Name": "Barton-Cormier",
-    "Description": "Sharable zero defect approach",
+    "ProjectId": 914,
+    "Name": "Muller LLC",
+    "Description": "Managed uniform architecture",
     "URL": "http://www.example.com/",
-    "Type": "facere",
-    "AssociateId": 241,
-    "AssociateFullName": "Mr. Timothy Nikolaus",
-    "TypeId": 154,
-    "Updated": "2006-01-26T13:13:23.664465+01:00",
-    "StatusId": 379,
-    "Status": "vitae",
-    "TextId": 863,
-    "PublishTo": "2022-10-01T13:13:23.664465+02:00",
-    "PublishFrom": "2001-07-07T13:13:23.664465+02:00",
+    "Type": "et",
+    "AssociateId": 687,
+    "AssociateFullName": "Creola Kutch",
+    "TypeId": 344,
+    "Updated": "2011-01-29T12:01:28.1659327+01:00",
+    "StatusId": 380,
+    "Status": "dignissimos",
+    "TextId": 534,
+    "PublishTo": "2002-02-13T12:01:28.1659327+01:00",
+    "PublishFrom": "2020-04-09T12:01:28.1659327+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1398503",
-    "ActiveErpLinks": 302,
+    "ProjectNumber": "1315458",
+    "ActiveErpLinks": 996,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

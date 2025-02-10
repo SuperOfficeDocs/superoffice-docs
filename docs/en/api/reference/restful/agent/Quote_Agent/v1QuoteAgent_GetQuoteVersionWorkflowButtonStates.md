@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 425,
-  "QuoteAlternativeId": 381
+  "QuoteVersionId": 211,
+  "QuoteAlternativeId": 664
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "consequatur",
-      "DisplayText": "facilis",
-      "TooltipText": "labore",
+      "ImageHint": "quia",
+      "DisplayText": "vitae",
+      "TooltipText": "corrupti",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 821
         }
       }
     }
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 15
     }
   }
 }

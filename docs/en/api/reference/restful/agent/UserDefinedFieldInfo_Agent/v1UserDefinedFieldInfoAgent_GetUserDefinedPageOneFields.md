@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 826
+  "UserGroupId": 701
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 678,
-    "ColumnId": 899,
-    "FieldDefault": "fugiat",
-    "FieldHeight": 987,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 526,
-    "FieldTop": 132,
+    "UDefFieldId": 423,
+    "ColumnId": 47,
+    "FieldDefault": "qui",
+    "FieldHeight": 155,
+    "FieldLabel": "dolorem",
+    "FieldLeft": 541,
+    "FieldTop": 330,
     "FieldType": "Checkbox",
-    "FieldWidth": 279,
-    "FormatMask": "quaerat",
+    "FieldWidth": 928,
+    "FormatMask": "sit",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 881,
-    "LabelLeft": 342,
-    "LabelTop": 473,
-    "LabelWidth": 230,
-    "LastVersionId": 751,
-    "ListTableId": 525,
-    "IsMandatory": true,
+    "LabelHeight": 536,
+    "LabelLeft": 311,
+    "LabelTop": 481,
+    "LabelWidth": 286,
+    "LastVersionId": 268,
+    "ListTableId": 68,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 968,
-    "ProgId": "dolorum",
+    "Page1LineNo": 522,
+    "ProgId": "sequi",
     "IsReadOnly": true,
-    "ShortLabel": "qui",
-    "TabOrder": 260,
-    "TextLength": 874,
-    "Tooltip": "ut",
-    "UdefIdentity": 284,
-    "UDListDefinitionId": 460,
+    "ShortLabel": "laborum",
+    "TabOrder": 41,
+    "TextLength": 889,
+    "Tooltip": "praesentium",
+    "UdefIdentity": 961,
+    "UDListDefinitionId": 842,
     "Justification": "Center",
-    "Version": 720,
-    "TemplateVariableName": "Stiedemann-Wehner",
-    "HasBeenPublished": false,
-    "MdoListName": "Ondricka Group",
+    "Version": 133,
+    "TemplateVariableName": "Lehner-Kessler",
+    "HasBeenPublished": true,
+    "MdoListName": "Turcotte, Runolfsdottir and Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldType": "System.String",
+        "FieldLength": 697
       }
     }
   }

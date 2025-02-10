@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bayer-Senger",
+  "TableName": "Rippin, Von and Jast",
   "Columns": [
-    "officiis",
-    "aspernatur"
+    "quo",
+    "quia"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "similique",
-  "Inserts": 208,
-  "Updates": 709,
-  "Deletes": 356,
+  "Message": "ipsam",
+  "Inserts": 787,
+  "Updates": 700,
+  "Deletes": 76,
   "RowStatus": [
     {
-      "PrimaryKey": 184,
+      "PrimaryKey": 713,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nam",
-        "natus"
+        "aliquid",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 984
         }
       }
     },
     {
-      "PrimaryKey": 184,
+      "PrimaryKey": 713,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nam",
-        "natus"
+        "aliquid",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 984
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 298
     }
   }
 }

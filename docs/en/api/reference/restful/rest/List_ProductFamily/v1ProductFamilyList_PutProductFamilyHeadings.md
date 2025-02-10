@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Koelpin-Price",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 68,
-    "UdListDefinitionId": 775
+    "HeadingId": 77,
+    "Name": "Johnson LLC",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 848,
+    "UdListDefinitionId": 402
   },
   {
-    "HeadingId": 968,
-    "Name": "Koelpin-Price",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 68,
-    "UdListDefinitionId": 775
+    "HeadingId": 77,
+    "Name": "Johnson LLC",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 848,
+    "UdListDefinitionId": 402
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 367,
-    "Name": "West, DuBuque and Rohan",
-    "Tooltip": "eos",
+    "HeadingId": 831,
+    "Name": "Schiller, Swift and Rogahn",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 884,
-    "UdListDefinitionId": 765,
+    "Rank": 855,
+    "UdListDefinitionId": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 312
       }
     }
   }

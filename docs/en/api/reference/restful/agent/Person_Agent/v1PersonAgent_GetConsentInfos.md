@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 942
+  "PersonId": 577
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 860,
-    "Comment": "cumque",
-    "Registered": "2012-04-10T13:13:23.5238729+02:00",
-    "RegisteredAssociateId": 877,
-    "Updated": "1997-09-20T13:13:23.5238729+02:00",
-    "UpdatedAssociateId": 213,
-    "LegalBaseId": 459,
-    "LegalBaseKey": "expedita",
-    "LegalBaseName": "Buckridge Group",
-    "ConsentPurposeId": 15,
-    "ConsentPurposeKey": "voluptatem",
-    "ConsentPurposeName": "Wiza-Nikolaus",
-    "ConsentSourceId": 197,
-    "ConsentSourceKey": "inventore",
-    "ConsentSourceName": "Goyette Group",
+    "ConsentPersonId": 873,
+    "Comment": "aut",
+    "Registered": "2021-01-28T12:01:28.0878022+01:00",
+    "RegisteredAssociateId": 430,
+    "Updated": "2019-03-30T12:01:28.0878022+01:00",
+    "UpdatedAssociateId": 284,
+    "LegalBaseId": 926,
+    "LegalBaseKey": "tempore",
+    "LegalBaseName": "Conn Inc and Sons",
+    "ConsentPurposeId": 756,
+    "ConsentPurposeKey": "praesentium",
+    "ConsentPurposeName": "Padberg Group",
+    "ConsentSourceId": 289,
+    "ConsentSourceKey": "saepe",
+    "ConsentSourceName": "Senger, Leffler and Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "sint"
+  "FromAddress": "neque"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 418,
-  "EMailAddress": "vero",
-  "AssociateId": 523,
+  "EMailAccountId": 387,
+  "EMailAddress": "quibusdam",
+  "AssociateId": 865,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 983,
-  "ErrorCount": 829,
+  "AccountStatus": 385,
+  "ErrorCount": 21,
   "ErrorReason": "",
-  "InboxFolder": "eaque",
-  "SentFolder": "officia",
-  "SimpleMode": 863,
-  "LastFetch": "2012-02-08T13:13:23.0083594+01:00",
+  "InboxFolder": "deserunt",
+  "SentFolder": "pariatur",
+  "SimpleMode": 298,
+  "LastFetch": "2013-01-02T12:01:27.8221586+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldType": "System.String",
+      "FieldLength": 25
     }
   }
 }

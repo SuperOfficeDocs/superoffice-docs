@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 226,
-  "StartTime": "2005-09-03T13:13:22.6019709+02:00",
-  "EndTime": "1999-03-22T13:13:22.6019709+01:00",
-  "Count": 208,
+  "ProjectId": 93,
+  "StartTime": "2016-12-02T12:01:27.5877684+01:00",
+  "EndTime": "2020-10-17T12:01:27.5877684+02:00",
+  "Count": 715,
   "DocumentTemplateIds": [
-    146,
-    439
+    223,
+    261
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 924,
-    "Attention": "fugiat",
-    "Header": "vel",
-    "Name": "Weissnat-Smith",
-    "OurRef": "voluptatem",
-    "YourRef": "saepe",
-    "Description": "Self-enabling explicit success",
-    "DocumentTemplate": "consectetur",
-    "IsPublished": true,
-    "PersonId": 234,
-    "PersonFullName": "Mr. Devon Schowalter",
-    "AssociateFullName": "Miss Janice Murphy",
-    "ContactId": 83,
-    "ContactName": "Haag Inc and Sons",
-    "ProjectId": 548,
-    "ProjectName": "Boyer-Hilll",
-    "AssociateId": 767,
-    "Snum": 437,
-    "SaleId": 184,
-    "SaleName": "O'Hara-Brown",
+    "DocumentId": 966,
+    "Attention": "qui",
+    "Header": "nostrum",
+    "Name": "Torphy Group",
+    "OurRef": "rem",
+    "YourRef": "et",
+    "Description": "Profit-focused intangible approach",
+    "DocumentTemplate": "saepe",
+    "IsPublished": false,
+    "PersonId": 304,
+    "PersonFullName": "Delilah Monahan",
+    "AssociateFullName": "Nola Zboncak",
+    "ContactId": 47,
+    "ContactName": "Smith-Kuhlman",
+    "ProjectId": 162,
+    "ProjectName": "Paucek Inc and Sons",
+    "AssociateId": 634,
+    "Snum": 630,
+    "SaleId": 959,
+    "SaleName": "Parisian Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

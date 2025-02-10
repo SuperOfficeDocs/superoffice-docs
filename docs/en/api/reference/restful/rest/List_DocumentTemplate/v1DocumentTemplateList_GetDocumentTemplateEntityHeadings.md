@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Marks Group",
-    "Tooltip": "dolores",
+    "HeadingId": 770,
+    "Name": "Nolan LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 803,
-    "UdListDefinitionId": 441,
+    "Rank": 586,
+    "UdListDefinitionId": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 722
       }
     }
   }

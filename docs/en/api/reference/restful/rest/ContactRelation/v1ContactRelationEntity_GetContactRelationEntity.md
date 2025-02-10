@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 29 Sep 2011 13:13:31 G9T
+Last-Modified: Fri, 13 Jul 2001 12:01:32 G7T
 
 {
-  "SourceContactId": 569,
-  "SourcePersonId": 684,
-  "DestinationContactId": 823,
-  "DestinationPersonId": 46,
-  "RelationId": 481,
-  "Comment": "mollitia",
-  "RelationDefinitionId": 575,
-  "Reversed": 738,
-  "UpdatedDate": "2011-09-29T13:13:31.605139+02:00",
-  "CreatedDate": "2020-12-04T13:13:31.605139+01:00",
+  "SourceContactId": 837,
+  "SourcePersonId": 925,
+  "DestinationContactId": 645,
+  "DestinationPersonId": 427,
+  "RelationId": 246,
+  "Comment": "possimus",
+  "RelationDefinitionId": 809,
+  "Reversed": 268,
+  "UpdatedDate": "2001-07-13T12:01:32.8394314+02:00",
+  "CreatedDate": "1999-01-25T12:01:32.8394314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Nitzsche-Effertz",
-  "SourcePersonName": "Welch Inc and Sons",
-  "DestinationContactName": "Gutmann-Schmitt",
-  "DestinationPersonName": "Stark, Boyer and Wunsch",
-  "ActiveText": "eveniet",
-  "PassiveText": "ipsam",
+  "SourceContactName": "Deckow-Johns",
+  "SourcePersonName": "Hahn, Powlowski and Roberts",
+  "DestinationContactName": "Senger-Jacobson",
+  "DestinationPersonName": "Gislason-Boyle",
+  "ActiveText": "ut",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 139
     }
   },
   "_Links": {

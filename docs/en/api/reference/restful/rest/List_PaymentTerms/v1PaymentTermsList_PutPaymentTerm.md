@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "Name": "Howell Inc and Sons",
-  "Tooltip": "ipsa",
+  "Id": 175,
+  "Name": "Price, Pacocha and Goyette",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "UdListDefinitionId": 507,
-  "Rank": 318
+  "UdListDefinitionId": 706,
+  "Rank": 386
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 720,
-  "Name": "Gaylord-Weber",
-  "Tooltip": "qui",
+  "Id": 476,
+  "Name": "Bins Group",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 108,
-  "Rank": 54,
+  "UdListDefinitionId": 393,
+  "Rank": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

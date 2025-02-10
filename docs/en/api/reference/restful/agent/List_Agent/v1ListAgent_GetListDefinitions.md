@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Bruen Group",
-    "Tooltip": "unde",
-    "Deleted": true,
-    "Rank": 491,
+    "Id": 12,
+    "Name": "Hettinger-Jast",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 486,
     "IsCustomList": false,
-    "IsMDOList": false,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": true,
-    "ListType": "omnis",
+    "ListType": "sint",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 897
       }
     }
   }

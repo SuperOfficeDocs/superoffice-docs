@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    951,
-    926
+    804,
+    118
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Smitham, Bogan and Klein",
-    "ToolTip": "Est iure est eveniet ut aut qui provident.",
+    "Id": 141,
+    "Name": "Schiller, Paucek and Steuber",
+    "ToolTip": "Sit vitae omnis eos et vel similique.",
     "Deleted": false,
-    "Rank": 343,
-    "Type": "exercitationem",
+    "Rank": 466,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Stoltenberg-Dickens",
-        "ToolTip": "Dolorem provident.",
-        "Deleted": true,
-        "Rank": 173,
-        "Type": "voluptates",
+        "Id": 848,
+        "Name": "Kulas, Feil and Murazik",
+        "ToolTip": "Amet quo sint.",
+        "Deleted": false,
+        "Rank": 154,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 116,
-        "ExtraInfo": "ratione",
-        "StyleHint": "ea",
-        "FullName": "Anabelle Wisozk",
+        "IconHint": "veniam",
+        "ColorBlock": 618,
+        "ExtraInfo": "natus",
+        "StyleHint": "dolores",
+        "FullName": "Kamille O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 108
+            "FieldType": "System.Int32",
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 860,
-    "ExtraInfo": "dolore",
-    "StyleHint": "laboriosam",
-    "FullName": "Alexanne Sunny Hamill III",
+    "IconHint": "excepturi",
+    "ColorBlock": 973,
+    "ExtraInfo": "ut",
+    "StyleHint": "deserunt",
+    "FullName": "Beatrice Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 676
       }
     }
   }

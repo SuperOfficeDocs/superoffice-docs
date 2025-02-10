@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wilkinson, Erdman and Daugherty",
+  "ProviderName": "Streich LLC",
   "Restrictions": [
     {
-      "Name": "Zemlak Inc and Sons",
-      "Operator": "non",
+      "Name": "Weissnat, Lang and Hand",
+      "Operator": "veniam",
       "Values": [
-        "quia",
-        "totam"
+        "assumenda",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "earum",
-        "corrupti"
+        "sed",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 679,
+      "InterParenthesis": 603,
       "InterOperator": "And",
-      "UniqueHash": 437
+      "UniqueHash": 893
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Turcotte-Hermiston",
-    "DisplayTooltip": "velit",
-    "DisplayType": "repellendus",
+    "DisplayName": "Dibbert, Hamill and Greenholt",
+    "DisplayTooltip": "voluptas",
+    "DisplayType": "ut",
     "CanOrderBy": false,
-    "Name": "Farrell LLC",
-    "CanRestrictBy": false,
-    "RestrictionType": "magni",
-    "RestrictionListName": "Kiehn LLC",
+    "Name": "Schinner Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "at",
+    "RestrictionListName": "Mitchell-Block",
     "IsVisible": false,
-    "ExtraInfo": "eaque",
-    "Width": "optio",
-    "IconHint": "nesciunt",
-    "HeadingIconHint": "aut"
+    "ExtraInfo": "est",
+    "Width": "suscipit",
+    "IconHint": "distinctio",
+    "HeadingIconHint": "assumenda"
   }
 ]
 ```

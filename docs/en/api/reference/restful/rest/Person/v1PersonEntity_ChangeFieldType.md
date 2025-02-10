@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 264,
-  "ColumnId": 611,
-  "FieldDefault": "eius",
-  "FieldHeight": 883,
-  "FieldLabel": "minus",
-  "FieldLeft": 245,
-  "FieldTop": 103,
+  "UDefFieldId": 755,
+  "ColumnId": 399,
+  "FieldDefault": "saepe",
+  "FieldHeight": 11,
+  "FieldLabel": "aut",
+  "FieldLeft": 397,
+  "FieldTop": 115,
   "FieldType": "Checkbox",
-  "FieldWidth": 960,
-  "FormatMask": "autem",
+  "FieldWidth": 113,
+  "FormatMask": "omnis",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 935,
-  "LabelLeft": 159,
-  "LabelTop": 14,
-  "LabelWidth": 865,
-  "LastVersionId": 68,
-  "ListTableId": 638,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 900,
+  "LabelLeft": 46,
+  "LabelTop": 115,
+  "LabelWidth": 538,
+  "LastVersionId": 517,
+  "ListTableId": 516,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 981,
-  "ProgId": "et",
+  "Page1LineNo": 704,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "fuga",
-  "TabOrder": 641,
-  "TextLength": 281,
-  "Tooltip": "repellendus",
-  "UdefIdentity": 815,
-  "UDListDefinitionId": 177,
+  "ShortLabel": "ab",
+  "TabOrder": 515,
+  "TextLength": 594,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 524,
+  "UDListDefinitionId": 291,
   "Justification": "Center",
-  "Version": 364,
-  "TemplateVariableName": "Roob, Metz and Gaylord",
+  "Version": 595,
+  "TemplateVariableName": "Wilkinson, Davis and Hirthe",
   "HasBeenPublished": false,
-  "MdoListName": "Dare, Hills and Johnson",
+  "MdoListName": "Lowe-Lubowitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=voluptatibus
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=molestias
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Little, Jacobson and Gislason",
-    "ToolTip": "Et magnam mollitia doloremque.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "dolorum",
-    "ColorBlock": 33,
-    "IconHint": "repellat",
+    "Id": 661,
+    "Name": "Maggio-Prohaska",
+    "ToolTip": "Et et nemo sit dolorem ut sint.",
+    "Deleted": true,
+    "Rank": 434,
+    "Type": "ut",
+    "ColorBlock": 577,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2003-06-21T13:13:33.1517427+02:00",
+    "LastChanged": "2005-04-06T12:01:33.5269792+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Larkin LLC",
-        "ToolTip": "Rerum quasi sequi quod rerum necessitatibus.",
-        "Deleted": true,
-        "Rank": 651,
-        "Type": "et",
-        "ColorBlock": 478,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2016-11-14T13:13:33.1517427+01:00",
+        "Id": 588,
+        "Name": "Adams Group",
+        "ToolTip": "Cumque asperiores veniam sapiente.",
+        "Deleted": false,
+        "Rank": 855,
+        "Type": "non",
+        "ColorBlock": 304,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2008-10-11T12:01:33.5269792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "numquam",
+        "ExtraInfo": "qui",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Miss Torey Brakus DDS",
+        "FullName": "Fabian Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 926
+            "FieldType": "System.Int32",
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
+    "ExtraInfo": "doloremque",
     "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Ewald Hilpert",
+    "Hidden": false,
+    "FullName": "Leone Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 586
       }
     }
   }

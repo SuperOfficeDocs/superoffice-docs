@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "culpa",
-  "AssociateId": 182,
-  "MarkdownMessage": "placeat",
-  "Expire": "1998-10-09T13:13:22.5863494+02:00",
+  "SystemMessageId": "qui",
+  "AssociateId": 954,
+  "MarkdownMessage": "fugit",
+  "Expire": "2016-08-02T12:01:27.5721423+02:00",
   "Type": "Error"
 }
 ```

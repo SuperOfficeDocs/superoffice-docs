@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 340,
-    "Name": "Mueller-Lang",
-    "Tooltip": "harum",
-    "Deleted": true,
-    "Rank": 712,
-    "UdListDefinitionId": 355,
+    "HeadingId": 88,
+    "Name": "Maggio-Crona",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 193,
+    "UdListDefinitionId": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldLength": 797
       }
     }
   }

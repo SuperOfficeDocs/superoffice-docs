@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nemo",
-  "Name": "Sauer, Schneider and McKenzie",
-  "Description": "Reverse-engineered 6th generation forecast",
-  "IncludeId": "praesentium",
-  "Source": "et",
-  "Registered": "2006-01-04T13:13:32.6204588+01:00",
-  "RegisteredBy": "sit",
-  "Updated": "1998-05-10T13:13:32.6204588+02:00",
-  "UpdatedBy": "et",
-  "Path": "ipsum",
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Hyatt, Pacocha and Eichmann",
+  "Description": "Switchable encompassing database",
+  "IncludeId": "perferendis",
+  "Source": "adipisci",
+  "Registered": "2016-08-13T12:01:33.3550923+02:00",
+  "RegisteredBy": "vel",
+  "Updated": "2004-06-08T12:01:33.3550923+02:00",
+  "UpdatedBy": "recusandae",
+  "Path": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 128
     }
   }
 }

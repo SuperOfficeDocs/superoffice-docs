@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 475
+  "ErpFieldId": 153
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 25,
-  "DefaultValue": "aut",
+  "ErpFieldId": 65,
+  "DefaultValue": "optio",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "eos",
+  "FirstSyncDefaultValue": "maxime",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "aliquam",
+  "Mandatory": true,
+  "ErpFieldKey": "officia",
   "FieldType": "Checkbox",
-  "ListName": "Kertzmann LLC",
+  "ListName": "Walsh Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldLength": 831
     }
   }
 }

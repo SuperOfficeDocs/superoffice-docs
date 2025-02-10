@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 389,
-  "HeadingId": 537
+  "UdListDefinitionId": 294,
+  "HeadingId": 223
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Goodwin-Marks",
-    "ToolTip": "Ut minima voluptas voluptatem fugit debitis sit.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "nihil",
-    "ColorBlock": 97,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2018-06-14T13:13:23.2739325+02:00",
+    "Id": 739,
+    "Name": "Wiegand-Fadel",
+    "ToolTip": "Sequi rerum eaque facere reprehenderit recusandae.",
+    "Deleted": true,
+    "Rank": 981,
+    "Type": "autem",
+    "ColorBlock": 95,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2002-04-06T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Zieme, McClure and Ryan",
-        "ToolTip": "Doloremque quia.",
+        "Id": 311,
+        "Name": "Brown, Larson and Reinger",
+        "ToolTip": "Sed ut quasi rerum.",
         "Deleted": true,
-        "Rank": 502,
-        "Type": "itaque",
-        "ColorBlock": 748,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2006-09-11T13:13:23.2739325+02:00",
+        "Rank": 320,
+        "Type": "quibusdam",
+        "ColorBlock": 540,
+        "IconHint": "unde",
+        "Selected": false,
+        "LastChanged": "2009-10-13T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Mrs. Flavie Emanuel Harvey IV",
+        "ExtraInfo": "et",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Vada Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Aglae Quigley",
+    "ExtraInfo": "ullam",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Henri Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

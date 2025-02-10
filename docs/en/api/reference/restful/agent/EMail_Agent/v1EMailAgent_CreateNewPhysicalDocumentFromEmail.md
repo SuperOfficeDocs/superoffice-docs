@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 755,
-  "EmailItemId": 710
+  "DocumentId": 23,
+  "EmailItemId": 220
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 986,
+  "DocumentId": 657,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolorem",
-  "Header": "dolore",
-  "Name": "Blick Group",
-  "OurRef": "quibusdam",
-  "YourRef": "ipsa",
-  "CreatedDate": "2020-11-03T13:13:22.9771254+01:00",
-  "UpdatedDate": "2015-10-01T13:13:22.9771254+02:00",
-  "Description": "Self-enabling transitional approach",
+  "Attention": "officiis",
+  "Header": "praesentium",
+  "Name": "Leffler Inc and Sons",
+  "OurRef": "officia",
+  "YourRef": "rerum",
+  "CreatedDate": "2017-02-17T12:01:27.7909064+01:00",
+  "UpdatedDate": "2016-10-29T12:01:27.7909064+02:00",
+  "Description": "Open-source composite access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-01-09T13:13:22.9771254+01:00",
-  "ExternalRef": "qui",
+  "Date": "2018-08-06T12:01:27.7909064+02:00",
+  "ExternalRef": "voluptate",
   "Completed": "Completed",
-  "ActiveLinks": 566,
+  "ActiveLinks": 740,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Walter Group",
-      "Id": 848,
-      "Description": "Ergonomic impactful protocol",
-      "ExtraInfo": "adipisci",
-      "LinkId": 803,
+      "EntityName": "Durgan Group",
+      "Id": 483,
+      "Description": "User-friendly national protocol",
+      "ExtraInfo": "laboriosam",
+      "LinkId": 910,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 380
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 891,
-  "Snum": 305,
+  "SuggestedDocumentId": 761,
+  "Snum": 578,
   "UserDefinedFields": {
-    "SuperOffice:1": "2016935932",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1717334276",
+    "SuperOffice:2": "615039089"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "minima"
+    "CustomFields1": "at",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2002-11-03T13:13:22.9771254+01:00",
-  "PublishTo": "2018-03-20T13:13:22.9771254+01:00",
-  "PublishFrom": "2008-01-08T13:13:22.9771254+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-09-06T12:01:27.8065326+02:00",
+  "PublishTo": "2009-06-01T12:01:27.8065326+02:00",
+  "PublishFrom": "2013-05-21T12:01:27.8065326+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 219,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 33
         }
       }
     },
     {
-      "VisibleId": 219,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 33
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 495
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 803,
-  "StartTime": "1998-07-04T13:13:22.6178005+02:00",
-  "EndTime": "2016-05-07T13:13:22.6178005+02:00",
-  "Count": 446,
-  "TemplateHeadingId": 637
+  "ProjectId": 370,
+  "StartTime": "2008-05-19T12:01:27.5877684+02:00",
+  "EndTime": "2004-11-16T12:01:27.5877684+01:00",
+  "Count": 660,
+  "TemplateHeadingId": 638
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 128,
-    "Attention": "consequatur",
-    "Header": "itaque",
-    "Name": "Mayer Inc and Sons",
-    "OurRef": "beatae",
-    "YourRef": "eius",
-    "Description": "Public-key bottom-line flexibility",
-    "DocumentTemplate": "praesentium",
+    "DocumentId": 722,
+    "Attention": "nobis",
+    "Header": "est",
+    "Name": "Rutherford, Beatty and Macejkovic",
+    "OurRef": "blanditiis",
+    "YourRef": "in",
+    "Description": "Integrated secondary hierarchy",
+    "DocumentTemplate": "sit",
     "IsPublished": true,
-    "PersonId": 430,
-    "PersonFullName": "Prof. Javon Adams",
-    "AssociateFullName": "Kadin Batz",
-    "ContactId": 55,
-    "ContactName": "Breitenberg-Tremblay",
-    "ProjectId": 326,
-    "ProjectName": "Grimes, Brekke and Wintheiser",
-    "AssociateId": 48,
-    "Snum": 266,
-    "SaleId": 866,
-    "SaleName": "Weissnat Group",
+    "PersonId": 92,
+    "PersonFullName": "Rhett Spencer",
+    "AssociateFullName": "Miss Gus Hansen",
+    "ContactId": 440,
+    "ContactName": "Skiles, Schowalter and Bartoletti",
+    "ProjectId": 62,
+    "ProjectName": "Prosacco, Moen and Abbott",
+    "AssociateId": 806,
+    "Snum": 732,
+    "SaleId": 755,
+    "SaleName": "Kiehn Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

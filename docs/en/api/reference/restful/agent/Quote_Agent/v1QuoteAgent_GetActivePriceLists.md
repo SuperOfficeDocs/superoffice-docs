@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 691,
-  "Currency": "atque"
+  "QuoteConnectionId": 304,
+  "Currency": "quas"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 661,
-    "ERPPriceListKey": "quidem",
-    "QuoteConnectionId": 294,
-    "Name": "Oberbrunner, Heller and Konopelski",
-    "Description": "Configurable cohesive moderator",
-    "Currency": "saepe",
-    "CurrencyName": "Stoltenberg-Ankunding",
-    "ValidFrom": "2023-10-11T13:13:23.7425716+02:00",
-    "ValidTo": "2009-04-27T13:13:23.7425716+02:00",
+    "PriceListId": 862,
+    "ERPPriceListKey": "ut",
+    "QuoteConnectionId": 567,
+    "Name": "VonRueden, Langosh and Bogisich",
+    "Description": "Profit-focused dynamic Graphical User Interface",
+    "Currency": "odio",
+    "CurrencyName": "Altenwerth Group",
+    "ValidFrom": "2023-03-10T12:01:28.1971849+01:00",
+    "ValidTo": "2021-09-03T12:01:28.1971849+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldType": "System.String",
+        "FieldLength": 113
       }
     }
   }

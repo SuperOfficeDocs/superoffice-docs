@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wisoky, McCullough and Fadel",
+  "ProviderName": "Pfannerstill Group",
   "Restrictions": [
     {
-      "Name": "Klocko-Quigley",
-      "Operator": "eos",
+      "Name": "Erdman LLC",
+      "Operator": "ut",
       "Values": [
-        "libero",
-        "saepe"
+        "minima",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "ad",
-        "quibusdam"
+        "tempore",
+        "natus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 795,
+      "InterParenthesis": 151,
       "InterOperator": "And",
-      "UniqueHash": 526
+      "UniqueHash": 284
     }
   ],
-  "AssociateId": 400,
-  "ExtraInfo": "quas"
+  "AssociateId": 131,
+  "ExtraInfo": "atque"
 }
 ```
 

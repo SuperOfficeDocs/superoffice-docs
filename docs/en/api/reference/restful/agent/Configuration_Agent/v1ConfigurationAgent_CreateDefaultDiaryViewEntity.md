@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 297,
-  "Name": "Bergstrom LLC",
-  "Tooltip": "earum",
-  "VisibleColumns": 126,
-  "Rank": 378,
-  "AssocId": 764,
+  "DiaryViewId": 447,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "quo",
+  "VisibleColumns": 779,
+  "Rank": 904,
+  "AssocId": 123,
   "AssociateList": [
     {
-      "Id": 731,
-      "Name": "Russel, Nitzsche and Friesen",
-      "ToolTip": "Minus minima libero pariatur voluptas.",
-      "Deleted": true,
-      "Rank": 915,
-      "Type": "alias",
-      "ColorBlock": 869,
-      "IconHint": "laboriosam",
-      "Selected": false,
-      "LastChanged": "2024-10-17T13:13:22.3207878+02:00",
+      "Id": 831,
+      "Name": "Sawayn Inc and Sons",
+      "ToolTip": "Autem aspernatur dolore delectus cum ab eaque.",
+      "Deleted": false,
+      "Rank": 624,
+      "Type": "eum",
+      "ColorBlock": 740,
+      "IconHint": "dignissimos",
+      "Selected": true,
+      "LastChanged": "2002-09-22T12:01:27.4471334+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officia",
-      "StyleHint": "mollitia",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "explicabo",
       "Hidden": true,
-      "FullName": "Milford Funk",
+      "FullName": "Mrs. Penelope Ondricka V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldType": "System.String",
+          "FieldLength": 998
         }
       }
     }
   ],
-  "TzLocationId": 581,
+  "TzLocationId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 433
     }
   }
 }

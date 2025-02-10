@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 269,
-  "Name": "Purdy Inc and Sons",
-  "Description": "Devolved leading edge hardware",
-  "WelcomeMessage": "modi",
+  "ChatTopicId": 404,
+  "Name": "Lynch LLC",
+  "Description": "Upgradable needs-based model",
+  "WelcomeMessage": "similique",
   "Language": null,
-  "LastAccept": "2005-08-13T13:13:31.4333046+02:00",
-  "SecondsPrAccept": 272,
-  "AlertRecipient": "quo",
+  "LastAccept": "2004-04-24T12:01:32.7613009+02:00",
+  "SecondsPrAccept": 479,
+  "AlertRecipient": "illo",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "harum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nemo",
-  "WarnNewChatMinutes": 496,
-  "WarnManagerNewChatMinutes": 237,
-  "TicketEnabled": false,
+  "BadgeHeader": "molestiae",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "numquam",
+  "WarnNewChatMinutes": 610,
+  "WarnManagerNewChatMinutes": 287,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 840,
-  "WarnManagerChatMessageMinutes": 468,
+  "WarnChatMessageMinutes": 753,
+  "WarnManagerChatMessageMinutes": 89,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 938,
-  "OfflineFormQueueLength": 868,
+  "OfflineFormTimeLimit": 982,
+  "OfflineFormQueueLength": 788,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "officia",
+  "WidgetRatingText": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

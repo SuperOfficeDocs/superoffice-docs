@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 477,
-  "AttachmentId": "itaque"
+  "MessageServerId": 805,
+  "AttachmentId": "dolore"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented multi-state flexibility",
-  "Filename": "dolorum",
-  "Size": 760,
-  "Type": "id",
-  "Encoding": "cum",
-  "Id": "qui",
-  "Disposition": "pariatur",
-  "IsSafeFileExtension": false,
+  "Description": "Monitored tangible intranet",
+  "Filename": "deleniti",
+  "Size": 734,
+  "Type": "quia",
+  "Encoding": "rem",
+  "Id": "id",
+  "Disposition": "qui",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 19
     }
   }
 }

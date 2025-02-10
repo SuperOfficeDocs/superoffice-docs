@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "O'Reilly, Larson and Weber",
-    "ToolTip": "Adipisci totam dolores eum expedita.",
+    "Id": 269,
+    "Name": "Paucek-Tromp",
+    "ToolTip": "Tempore voluptas.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "vero",
-    "ColorBlock": 65,
-    "IconHint": "vitae",
-    "Selected": false,
-    "LastChanged": "2007-05-13T13:13:33.651626+02:00",
+    "Rank": 760,
+    "Type": "suscipit",
+    "ColorBlock": 259,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2014-05-01T12:01:33.6832402+02:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Rohan, Dare and Kihn",
-        "ToolTip": "Tenetur consequatur vero velit.",
+        "Id": 19,
+        "Name": "Hirthe, Torphy and Pfannerstill",
+        "ToolTip": "Ipsum placeat.",
         "Deleted": false,
-        "Rank": 278,
-        "Type": "dolor",
-        "ColorBlock": 105,
-        "IconHint": "ullam",
+        "Rank": 963,
+        "Type": "voluptatem",
+        "ColorBlock": 178,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2023-01-30T13:13:33.651626+01:00",
+        "LastChanged": "2023-11-29T12:01:33.6832402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "officia",
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Kassandra Russel"
+        "FullName": "Lavinia Gulgowski"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sed",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dax Terry I"
+    "FullName": "Casandra McDermott"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Skiles, Kohler and Rath",
-    "ToolTip": "Est dolorem officiis.",
+    "Id": 645,
+    "Name": "Johnson Inc and Sons",
+    "ToolTip": "Voluptas aut.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "est",
-    "ColorBlock": 670,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2006-10-22T13:13:33.651626+02:00",
+    "Rank": 182,
+    "Type": "et",
+    "ColorBlock": 1000,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2019-09-11T12:01:33.6832402+02:00",
     "ChildItems": [
       {
-        "Id": 316,
-        "Name": "Goyette, Walter and Goodwin",
-        "ToolTip": "Labore optio quae nisi ad.",
-        "Deleted": false,
-        "Rank": 555,
-        "Type": "illum",
-        "ColorBlock": 426,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "1998-11-26T13:13:33.651626+01:00",
+        "Id": 946,
+        "Name": "Ward Group",
+        "ToolTip": "Consectetur eos rerum velit voluptatibus voluptas.",
+        "Deleted": true,
+        "Rank": 177,
+        "Type": "nam",
+        "ColorBlock": 940,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2014-11-03T12:01:33.6832402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Orville Bednar",
+        "ExtraInfo": "fuga",
+        "StyleHint": "similique",
+        "Hidden": true,
+        "FullName": "Kurtis Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 420
+            "FieldType": "System.String",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "quia",
+    "ExtraInfo": "cum",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Darby Hane",
+    "FullName": "Mrs. Buddy Dibbert I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

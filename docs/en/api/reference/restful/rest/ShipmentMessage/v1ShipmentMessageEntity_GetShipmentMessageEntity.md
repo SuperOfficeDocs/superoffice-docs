@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 906,
-  "PlainMessage": "sed",
-  "HtmlMessage": "est",
-  "SmsMessage": "id",
-  "Description": "Distributed mission-critical focus group",
-  "Subject": "molestiae",
-  "FolderId": 635,
-  "HeaderField": "sapiente",
-  "Design": "sunt",
+  "ShipmentMessageId": 180,
+  "PlainMessage": "similique",
+  "HtmlMessage": "quidem",
+  "SmsMessage": "autem",
+  "Description": "Universal even-keeled algorithm",
+  "Subject": "est",
+  "FolderId": 911,
+  "HeaderField": "officiis",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "User-friendly multi-state task-force",
-  "AccessKey": "sed",
-  "DocumentMessage": 30,
-  "Registered": "2009-01-31T13:13:32.3392746+01:00",
-  "RegisteredAssociateId": 874,
-  "Updated": "2018-06-19T13:13:32.3392746+02:00",
-  "UpdatedAssociateId": 26,
-  "UpdatedCount": 16,
+  "InlineImages": false,
+  "LongDescription": "Multi-tiered empowering moderator",
+  "AccessKey": "soluta",
+  "DocumentMessage": 154,
+  "Registered": "2022-02-05T12:01:33.2144574+01:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2015-04-25T12:01:33.2144574+02:00",
+  "UpdatedAssociateId": 866,
+  "UpdatedCount": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 379
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

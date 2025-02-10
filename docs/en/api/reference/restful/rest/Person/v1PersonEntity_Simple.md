@@ -92,6 +92,7 @@ PersonEntity found.
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -101,7 +102,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -111,52 +112,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "esse",
-  "PersonId": 561,
-  "Mrmrs": "quo",
-  "Firstname": "Robbie",
-  "Lastname": "Trantow",
-  "MiddleName": "Swift-Bechtelar",
-  "Title": "distinctio",
-  "Description": "Optimized optimal capacity",
-  "Email": "fermin_flatley@bradtke.name",
-  "FullName": "Donnell Rath",
-  "DirectPhone": "1-792-173-2919",
-  "FormalName": "Rowe-Barrows",
-  "CountryId": 116,
-  "ContactId": 360,
-  "ContactName": "Leuschke, Rogahn and Powlowski",
-  "Retired": 8,
-  "Rank": 686,
-  "ActiveInterests": 658,
+  "Position": "porro",
+  "PersonId": 187,
+  "Mrmrs": "et",
+  "Firstname": "Chadrick",
+  "Lastname": "Hauck",
+  "MiddleName": "Boehm Inc and Sons",
+  "Title": "minus",
+  "Description": "Implemented actuating functionalities",
+  "Email": "lura@bogisichoconner.ca",
+  "FullName": "Miss Drake Effertz Jr.",
+  "DirectPhone": "272-528-3188",
+  "FormalName": "Wolff, Littel and Schumm",
+  "CountryId": 767,
+  "ContactId": 52,
+  "ContactName": "Schmidt, Hilpert and Koepp",
+  "Retired": 182,
+  "Rank": 157,
+  "ActiveInterests": 927,
   "ContactDepartment": "",
-  "ContactCountryId": 271,
-  "ContactOrgNr": "1454457",
-  "FaxPhone": "1-530-377-4115 x73739",
-  "MobilePhone": "1-082-116-0045",
-  "ContactPhone": "643.592.2902",
-  "AssociateName": "Blick, Bradtke and Huel",
-  "AssociateId": 51,
+  "ContactCountryId": 108,
+  "ContactOrgNr": "1829663",
+  "FaxPhone": "(277)636-8279 x543",
+  "MobilePhone": "247-695-5272",
+  "ContactPhone": "(542)487-9823",
+  "AssociateName": "Heidenreich Inc and Sons",
+  "AssociateId": 732,
   "UsePersonAddress": false,
-  "ContactFax": "exercitationem",
-  "Kanafname": "quia",
-  "Kanalname": "ut",
-  "Post1": "possimus",
-  "Post2": "nisi",
-  "Post3": "ipsum",
-  "EmailName": "sabrina@zboncak.uk",
-  "ContactFullName": "Mrs. Orin Upton DDS",
-  "ActiveErpLinks": 586,
-  "TicketPriorityId": 503,
-  "SupportLanguageId": 524,
-  "SupportAssociateId": 305,
+  "ContactFax": "autem",
+  "Kanafname": "rerum",
+  "Kanalname": "nemo",
+  "Post1": "iste",
+  "Post2": "illo",
+  "Post3": "expedita",
+  "EmailName": "demarcus.stracke@crona.us",
+  "ContactFullName": "Prof. Alexandra Devan Yost III",
+  "ActiveErpLinks": 138,
+  "TicketPriorityId": 575,
+  "SupportLanguageId": 274,
+  "SupportAssociateId": 259,
   "CategoryName": "VIP Customer",
+  "PersonNumber": "1064572",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 380
     }
   }
 }

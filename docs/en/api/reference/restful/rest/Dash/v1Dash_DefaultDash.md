@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 499,
-  "UniqueId": "aliquam",
-  "Name": "Trantow, Botsford and Hilll",
-  "Description": "Mandatory stable model",
-  "AssociateId": 903,
-  "Columns": 254,
+  "DashboardId": 575,
+  "UniqueId": "modi",
+  "Name": "Kautzer LLC",
+  "Description": "Compatible tertiary hierarchy",
+  "AssociateId": 283,
+  "Columns": 150,
   "Theme": null,
-  "VisibleForAll": 318,
+  "VisibleForAll": 56,
   "VisibleForAssociates": [
-    195,
-    11
+    172,
+    228
   ],
   "VisibleForGroups": [
-    613,
-    994
+    774,
+    482
   ],
-  "PinForAll": 401,
+  "PinForAll": 609,
   "PinForAssociates": [
-    755,
-    203
+    304,
+    434
   ],
   "PinForGroups": [
-    545,
-    333
+    541,
+    297
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

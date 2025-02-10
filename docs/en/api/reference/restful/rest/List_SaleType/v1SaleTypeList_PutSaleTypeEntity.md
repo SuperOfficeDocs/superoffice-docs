@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 777,
-  "Name": "Harber Group",
-  "Tooltip": "nisi",
-  "Rank": 596,
+  "SaleTypeId": 75,
+  "Name": "Mohr, Kertzmann and Keebler",
+  "Tooltip": "animi",
+  "Rank": 880,
   "DurationUnit": "Century",
-  "SaleDuration": 217,
-  "SaleTypeCatId": 382,
+  "SaleDuration": 721,
+  "SaleTypeCatId": 455,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 136,
-  "QuoteLinesTemplate": 471,
-  "ConfirmationLinesTemplate": 599,
+  "DefaultQuoteValidity": 638,
+  "QuoteLinesTemplate": 229,
+  "ConfirmationLinesTemplate": 694,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 53,
-  "MinEarningPercent": 283,
-  "GroupQuoteLinesBy": 909,
-  "SortGroupLinesBy": 669,
+  "MaxDiscountPercent": 901,
+  "MinEarningPercent": 11,
+  "GroupQuoteLinesBy": 190,
+  "SortGroupLinesBy": 936,
   "Stages": [
     {
-      "Id": 299,
-      "Name": "Reichert-Smith",
-      "ToolTip": "Ea quis.",
+      "Id": 927,
+      "Name": "Ebert Group",
+      "ToolTip": "Mollitia debitis dolores ut aperiam.",
       "Deleted": false,
-      "Rank": 235,
-      "Type": "inventore",
-      "ColorBlock": 148,
-      "IconHint": "reiciendis",
+      "Rank": 774,
+      "Type": "repellendus",
+      "ColorBlock": 889,
+      "IconHint": "provident",
       "Selected": false,
-      "LastChanged": "2006-01-05T13:13:33.5735178+01:00",
+      "LastChanged": "2014-08-26T12:01:33.6519877+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "molestiae",
       "Hidden": false,
-      "FullName": "Colt Greenholt"
+      "FullName": "Casey Kuhlman"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 389,
-  "Name": "Veum-Cartwright",
-  "Tooltip": "totam",
-  "Rank": 431,
+  "SaleTypeId": 104,
+  "Name": "Kirlin-Collier",
+  "Tooltip": "officia",
+  "Rank": 111,
   "DurationUnit": "Century",
-  "SaleDuration": 47,
-  "SaleTypeCatId": 408,
-  "Deleted": false,
+  "SaleDuration": 349,
+  "SaleTypeCatId": 509,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 487,
-  "QuoteLinesTemplate": 81,
-  "ConfirmationLinesTemplate": 87,
+  "DefaultQuoteValidity": 983,
+  "QuoteLinesTemplate": 556,
+  "ConfirmationLinesTemplate": 664,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 907,
-  "MinEarningPercent": 122,
-  "GroupQuoteLinesBy": 172,
-  "SortGroupLinesBy": 392,
+  "MaxDiscountPercent": 808,
+  "MinEarningPercent": 230,
+  "GroupQuoteLinesBy": 974,
+  "SortGroupLinesBy": 374,
   "Stages": [
     {
-      "Id": 397,
-      "Name": "Dickens-Lind",
-      "ToolTip": "Sunt et impedit qui id.",
-      "Deleted": true,
-      "Rank": 537,
-      "Type": "voluptas",
-      "ColorBlock": 95,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "1999-08-17T13:13:33.5735178+02:00",
+      "Id": 423,
+      "Name": "Cormier, Balistreri and Wolf",
+      "ToolTip": "In vel explicabo.",
+      "Deleted": false,
+      "Rank": 565,
+      "Type": "aliquid",
+      "ColorBlock": 350,
+      "IconHint": "aliquam",
+      "Selected": true,
+      "LastChanged": "1997-12-11T12:01:33.6519877+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "et",
+      "ExtraInfo": "officiis",
+      "StyleHint": "nulla",
       "Hidden": false,
-      "FullName": "Jewel Shanahan Jr.",
+      "FullName": "Miss Wyatt Schuppe II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 197
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 948,
-  "ListItemId": 225,
+  "UdListDefinitionId": 402,
+  "ListItemId": 945,
   "UserGroups": [
     {
-      "Id": 350,
-      "Name": "Ryan LLC",
-      "ToolTip": "Officia eos.",
+      "Id": 379,
+      "Name": "Mosciski LLC",
+      "ToolTip": "Ex sed magni.",
       "Deleted": false,
-      "Rank": 97,
-      "Type": "minima",
-      "ColorBlock": 814,
-      "IconHint": "dolorem",
-      "Selected": false,
-      "LastChanged": "2002-05-27T13:13:23.2583064+02:00",
+      "Rank": 111,
+      "Type": "voluptatem",
+      "ColorBlock": 249,
+      "IconHint": "mollitia",
+      "Selected": true,
+      "LastChanged": "2013-01-09T12:01:27.9471677+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "corrupti",
+      "ExtraInfo": "sint",
+      "StyleHint": "asperiores",
       "Hidden": false,
-      "FullName": "Brain Buckridge II"
+      "FullName": "Prof. Talon Tillman Gislason PhD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Lemke Group",
-    "ToolTip": "Voluptas sed minus animi eveniet.",
+    "Id": 246,
+    "Name": "Kassulke-O'Hara",
+    "ToolTip": "Reprehenderit aspernatur suscipit provident sit.",
     "Deleted": false,
-    "Rank": 378,
-    "Type": "tenetur",
-    "ColorBlock": 707,
-    "IconHint": "aut",
+    "Rank": 781,
+    "Type": "ut",
+    "ColorBlock": 653,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2019-03-12T13:13:23.2583064+01:00",
+    "LastChanged": "2022-12-30T12:01:27.9471677+01:00",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Gutmann, Leffler and Rice",
-        "ToolTip": "Laudantium magni maiores quaerat omnis reprehenderit a vel.",
+        "Id": 247,
+        "Name": "White LLC",
+        "ToolTip": "Explicabo qui eveniet et qui quis natus.",
         "Deleted": false,
-        "Rank": 79,
-        "Type": "alias",
-        "ColorBlock": 729,
-        "IconHint": "quia",
+        "Rank": 858,
+        "Type": "qui",
+        "ColorBlock": 68,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "2012-12-07T13:13:23.2583064+01:00",
+        "LastChanged": "2014-12-28T12:01:27.9471677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Isidro Mraz",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Ms. Eldora Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldType": "System.Int32",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Rey Ramiro Jewess DDS",
+    "ExtraInfo": "quod",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Prof. Aileen Harber DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldType": "System.String",
+        "FieldLength": 109
       }
     }
   }

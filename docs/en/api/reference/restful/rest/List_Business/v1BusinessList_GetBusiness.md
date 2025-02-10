@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "Stamm LLC",
-  "Tooltip": "voluptate",
+  "Id": 250,
+  "Name": "Daniel-Veum",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 756,
-  "Rank": 730,
+  "UdListDefinitionId": 654,
+  "Rank": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

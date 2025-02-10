@@ -89,16 +89,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 814,
-  "Name": "Wisozk Group",
-  "Config": "quam",
-  "Rank": 333,
-  "Client": "debitis",
-  "Style": "repellat"
+  "DashboardThemeId": 61,
+  "Name": "Lebsack Inc and Sons",
+  "Config": "animi",
+  "Rank": 55,
+  "Client": "consectetur",
+  "Style": "consequuntur"
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 532,
-  "Name": "Parker, Fisher and Wuckert",
-  "Config": "occaecati",
-  "Rank": 971,
-  "Client": "sit",
-  "Style": "natus",
+  "DashboardThemeId": 705,
+  "Name": "Adams, Wisoky and Pacocha",
+  "Config": "dolor",
+  "Rank": 161,
+  "Client": "aut",
+  "Style": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 378
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

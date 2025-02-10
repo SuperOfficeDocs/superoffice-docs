@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hermann-Mosciski"
+  "LayoutName": "Hartmann-Yundt"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 547,
-  "InstanceLayout": "quos",
-  "InstanceName": "Pacocha Inc and Sons",
-  "CreatedDate": "1999-08-05T13:13:22.133333+02:00",
-  "UpdatedDate": "2005-07-23T13:13:22.133333+02:00",
+  "AudienceLayoutId": 205,
+  "InstanceLayout": "quisquam",
+  "InstanceName": "Treutel, Maggio and Boyle",
+  "CreatedDate": "2009-12-30T12:01:27.3377499+01:00",
+  "UpdatedDate": "2017-01-23T12:01:27.3377499+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

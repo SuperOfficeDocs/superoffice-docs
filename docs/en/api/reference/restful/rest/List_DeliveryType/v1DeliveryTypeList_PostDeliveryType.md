@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Hamill Group",
-  "Tooltip": "illo",
+  "Id": 283,
+  "Name": "Goldner-Sipes",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 658
+  "UdListDefinitionId": 65,
+  "Rank": 954
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 45,
-  "Name": "Hoeger LLC",
-  "Tooltip": "voluptates",
+  "Id": 665,
+  "Name": "Tremblay Inc and Sons",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 103,
-  "Rank": 46,
+  "UdListDefinitionId": 42,
+  "Rank": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   }
 }

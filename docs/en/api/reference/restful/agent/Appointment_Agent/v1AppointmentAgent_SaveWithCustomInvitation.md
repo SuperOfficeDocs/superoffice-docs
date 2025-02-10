@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "lorna@towne.info",
-  "Subject": "possimus",
-  "TemplateLanguage": "optio"
+  "EmailBody": "cora_rolfson@padberg.co.uk",
+  "Subject": "est",
+  "TemplateLanguage": "qui"
 }
 ```
 
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 232
     }
   }
 }

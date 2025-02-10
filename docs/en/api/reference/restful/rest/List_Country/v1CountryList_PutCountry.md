@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 506,
-  "Name": "Greenholt-Aufderhar",
-  "CurrencyId": 552,
-  "EnglishName": "Emard, Ward and Stoltenberg",
+  "CountryId": 782,
+  "Name": "Breitenberg, Carter and Langworth",
+  "CurrencyId": 83,
+  "EnglishName": "Strosin LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive uniform access",
-  "OrgNrText": "1416671",
-  "InterAreaPrefix": "omnis",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "rerum",
-  "DomainName": "Casper Group",
-  "AddressLayoutId": 291,
-  "DomesticAddressLayoutId": 495,
-  "ForeignAddressLayoutId": 915,
-  "Rank": 598,
-  "Tooltip": "qui",
+  "ImageDescription": "Multi-layered motivating time-frame",
+  "OrgNrText": "945659",
+  "InterAreaPrefix": "sint",
+  "DialInPrefix": "asperiores",
+  "ZipPrefix": "doloribus",
+  "DomainName": "Mayert LLC",
+  "AddressLayoutId": 857,
+  "DomesticAddressLayoutId": 904,
+  "ForeignAddressLayoutId": 917,
+  "Rank": 552,
+  "Tooltip": "ut",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 415,
-  "Name": "Pacocha-Quitzon",
-  "CurrencyId": 916,
-  "EnglishName": "Gutmann, Gleason and Streich",
+  "CountryId": 94,
+  "Name": "Marvin, Adams and Dickinson",
+  "CurrencyId": 323,
+  "EnglishName": "Beier, Prohaska and Thiel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Horizontal zero administration instruction set",
-  "OrgNrText": "970626",
-  "InterAreaPrefix": "eos",
-  "DialInPrefix": "laborum",
-  "ZipPrefix": "temporibus",
-  "DomainName": "Powlowski Inc and Sons",
-  "AddressLayoutId": 281,
-  "DomesticAddressLayoutId": 383,
-  "ForeignAddressLayoutId": 486,
-  "Rank": 244,
-  "Tooltip": "sunt",
-  "Deleted": false,
+  "ImageDescription": "Seamless empowering migration",
+  "OrgNrText": "1370220",
+  "InterAreaPrefix": "cum",
+  "DialInPrefix": "ex",
+  "ZipPrefix": "omnis",
+  "DomainName": "Fahey-Bartoletti",
+  "AddressLayoutId": 873,
+  "DomesticAddressLayoutId": 916,
+  "ForeignAddressLayoutId": 12,
+  "Rank": 513,
+  "Tooltip": "dolorum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldLength": 835
     }
   }
 }

@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 637,
-  "ERPQuoteVersionKey": "iure",
-  "QuoteId": 667,
-  "Description": "Cross-group national implementation",
-  "Number": "1216879",
+  "QuoteVersionId": 803,
+  "ERPQuoteVersionKey": "officiis",
+  "QuoteId": 258,
+  "Description": "Right-sized secondary core",
+  "Number": "1139874",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 190,
-  "SentDate": "2015-02-04T13:13:23.6957086+01:00",
-  "FollowupId": 676,
-  "ExpirationDate": "2004-05-23T13:13:23.6957086+02:00",
-  "DeliveryCountryId": 763,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 37,
+  "LikelyQuoteAlternativeId": 525,
+  "SentDate": "2015-04-21T12:01:28.1815588+02:00",
+  "FollowupId": 402,
+  "ExpirationDate": "2022-05-20T12:01:28.1815588+02:00",
+  "DeliveryCountryId": 13,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 116,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "qui",
-  "ERPPaymentTypeKey": "consequatur",
-  "ERPDeliveryTermsKey": "consequatur",
-  "ERPDeliveryTypeKey": "nihil",
-  "Rank": 639,
-  "ApprovedBy": 65,
-  "ApprovedText": "aut",
-  "ApprovedRegisteredBy": 549,
-  "ApprovedRegisteredDate": "2006-09-18T13:13:23.6957086+02:00",
-  "ExtraField1": "ea",
-  "ExtraField2": "maiores",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "debitis",
-  "LastRecalculated": "2003-12-25T13:13:23.6957086+01:00",
-  "Updated": "2002-07-06T13:13:23.6957086+02:00",
-  "UpdatedAssociateId": 869,
-  "Registered": "2007-07-28T13:13:23.6957086+02:00",
-  "RegisteredAssociateId": 682,
-  "RequestAssociateId": 472,
-  "RequestComment": "eum",
+  "ERPPaymentTermsKey": "corporis",
+  "ERPPaymentTypeKey": "laborum",
+  "ERPDeliveryTermsKey": "veniam",
+  "ERPDeliveryTypeKey": "maiores",
+  "Rank": 456,
+  "ApprovedBy": 642,
+  "ApprovedText": "deserunt",
+  "ApprovedRegisteredBy": 287,
+  "ApprovedRegisteredDate": "2004-03-31T12:01:28.1815588+02:00",
+  "ExtraField1": "sequi",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "minus",
+  "ExtraField5": "consequuntur",
+  "LastRecalculated": "2010-05-25T12:01:28.1815588+02:00",
+  "Updated": "2023-04-06T12:01:28.1815588+02:00",
+  "UpdatedAssociateId": 100,
+  "Registered": "2011-04-04T12:01:28.1815588+02:00",
+  "RegisteredAssociateId": 303,
+  "RequestAssociateId": 90,
+  "RequestComment": "voluptatem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 313,
-      "ERPQuoteAlternativeKey": "soluta",
-      "QuoteVersionId": 505,
-      "Name": "Grant, Ward and Dietrich",
-      "Description": "Polarised bi-directional definition",
+      "QuoteAlternativeId": 760,
+      "ERPQuoteAlternativeKey": "ratione",
+      "QuoteVersionId": 358,
+      "Name": "Larkin LLC",
+      "Description": "Open-source context-sensitive software",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30945.115999999998,
-      "ERPDiscountAmount": 27569.798,
-      "DiscountPercent": 12739.71,
-      "DiscountAmount": 27309.676,
+      "ERPDiscountPercent": 6803.914,
+      "ERPDiscountAmount": 11486.109999999999,
+      "DiscountPercent": 2739.116,
+      "DiscountAmount": 18641.032,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "deserunt",
-      "VAT": 17450.112,
-      "EarningPercent": 22129.174,
-      "EarningAmount": 2626.292,
-      "SubTotal": 17666.358,
-      "TotalPrice": 31233.444,
-      "ExtraField1": "nemo",
-      "ExtraField2": "saepe",
-      "ExtraField3": "ullam",
-      "ExtraField4": "dolorum",
-      "ExtraField5": "eaque",
+      "VATInfo": "fugit",
+      "VAT": 28792.057999999997,
+      "EarningPercent": 30637.984,
+      "EarningAmount": 18543.878,
+      "SubTotal": 22944.014,
+      "TotalPrice": 4274.776,
+      "ExtraField1": "vel",
+      "ExtraField2": "magni",
+      "ExtraField3": "non",
+      "ExtraField4": "voluptates",
+      "ExtraField5": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 138
+          "FieldLength": 720
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

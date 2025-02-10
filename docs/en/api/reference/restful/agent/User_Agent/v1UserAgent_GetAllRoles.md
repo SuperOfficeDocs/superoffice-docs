@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Quigley, McGlynn and Schumm",
-    "ToolTip": "Cupiditate consequatur.",
+    "Id": 863,
+    "Name": "Schaden Inc and Sons",
+    "ToolTip": "Quia omnis exercitationem aut provident eius.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "inventore",
-    "ColorBlock": 898,
-    "IconHint": "reprehenderit",
+    "Rank": 282,
+    "Type": "quibusdam",
+    "ColorBlock": 832,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2010-05-22T13:13:24.4934105+02:00",
+    "LastChanged": "2011-05-03T12:01:28.5878372+02:00",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Heaney Group",
-        "ToolTip": "Voluptatum enim.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "similique",
-        "ColorBlock": 368,
-        "IconHint": "magnam",
+        "Id": 533,
+        "Name": "Thiel, O'Reilly and Schaden",
+        "ToolTip": "Quisquam rerum quo.",
+        "Deleted": false,
+        "Rank": 487,
+        "Type": "facere",
+        "ColorBlock": 975,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2013-02-10T13:13:24.4934105+01:00",
+        "LastChanged": "2001-08-12T12:01:28.6034631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "cumque",
+        "StyleHint": "alias",
         "Hidden": true,
-        "FullName": "Abner Effertz DVM",
+        "FullName": "Vaughn Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 232
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Elsa Glover",
+    "ExtraInfo": "est",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Alexander Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldLength": 765
       }
     }
   }

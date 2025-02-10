@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Carter, Bradtke and Hahn",
-  "Tooltip": "id",
+  "Id": 34,
+  "Name": "Gislason Group",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 60,
+  "Rank": 239,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "error",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Leffler, Jaskolski and Gerhold",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 191,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 701,
+  "Name": "Gleason Inc and Sons",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "Rank": 712,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

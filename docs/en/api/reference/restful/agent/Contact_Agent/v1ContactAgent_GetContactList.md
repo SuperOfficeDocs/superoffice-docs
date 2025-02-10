@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 586,
-    "Name": "Gerhold, Kerluke and Ruecker",
-    "OrgNr": "1139870",
+    "ContactId": 892,
+    "Name": "Reichel-McKenzie",
+    "OrgNr": "1412764",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "autem",
-    "DirectPhone": "794.763.9807",
-    "AssociateId": 52,
-    "CountryId": 941,
-    "EmailAddress": "tina@keebler.info",
-    "Kananame": "assumenda",
-    "EmailAddressName": "garrison@aufderharblick.biz",
+    "City": "ut",
+    "DirectPhone": "1-538-090-4033 x34894",
+    "AssociateId": 845,
+    "CountryId": 903,
+    "EmailAddress": "julio@balistreriquitzon.us",
+    "Kananame": "blanditiis",
+    "EmailAddressName": "judah@mcdermott.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Rashawn Carter",
+    "AssociateFullName": "Jeffrey Graham",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "suscipit",
-    "FullName": "Brandt Lizeth Stoltenberg V",
+    "FormattedAddress": "accusamus",
+    "FullName": "Janice Feeney",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 216,
-    "Number1": "382691",
-    "Number2": "1627893",
+    "ActiveErpLinks": 14,
+    "Number1": "1526568",
+    "Number2": "1107084",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 689
       }
     }
   }

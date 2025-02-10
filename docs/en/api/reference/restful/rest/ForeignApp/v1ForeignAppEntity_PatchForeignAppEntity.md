@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 184,
-  "Name": "Rogahn, Lubowitz and Stoltenberg",
-  "CreatedDate": "2007-07-27T13:13:31.7457296+02:00",
-  "UpdatedDate": "2007-09-21T13:13:31.7457296+02:00",
+  "ForeignAppId": 720,
+  "Name": "Cassin Group",
+  "CreatedDate": "2001-05-12T12:01:32.9175621+02:00",
+  "UpdatedDate": "2013-09-02T12:01:32.9175621+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 468,
-      "Name": "Rice Inc and Sons",
-      "CreatedDate": "2023-09-19T13:13:31.7457296+02:00",
-      "UpdatedDate": "2005-09-30T13:13:31.7457296+02:00",
-      "AssociateFullName": "Adalberto Zboncak",
-      "CreatedBy": "dolorem",
-      "UpdatedBy": "ad",
-      "DeviceIdentifier": "ab",
-      "ForeignAppId": 11,
+      "ForeignDeviceId": 69,
+      "Name": "Gleason Inc and Sons",
+      "CreatedDate": "2003-07-04T12:01:32.9175621+02:00",
+      "UpdatedDate": "1998-10-09T12:01:32.9175621+02:00",
+      "AssociateFullName": "Caitlyn Ledner",
+      "CreatedBy": "et",
+      "UpdatedBy": "consequuntur",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 953,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 915
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 294,
+  "PersonId": 328,
   "IncludeProjectDocuments": false,
-  "StartTime": "2011-08-05T13:13:22.6188095+02:00",
-  "EndTime": "2013-03-29T13:13:22.6188095+01:00",
-  "Count": 478,
+  "StartTime": "1999-07-01T12:01:27.5877684+02:00",
+  "EndTime": "2022-01-13T12:01:27.5877684+01:00",
+  "Count": 938,
   "DocumentTemplateIds": [
-    855,
-    763
+    508,
+    822
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 554,
-    "Attention": "itaque",
-    "Header": "laborum",
-    "Name": "Champlin-Littel",
-    "OurRef": "officia",
-    "YourRef": "quasi",
-    "Description": "Networked impactful customer loyalty",
-    "DocumentTemplate": "inventore",
+    "DocumentId": 600,
+    "Attention": "praesentium",
+    "Header": "dolorem",
+    "Name": "Turner, Farrell and Crona",
+    "OurRef": "voluptatem",
+    "YourRef": "et",
+    "Description": "Self-enabling object-oriented alliance",
+    "DocumentTemplate": "occaecati",
     "IsPublished": false,
-    "PersonId": 693,
-    "PersonFullName": "Ms. Gino Kane Buckridge",
-    "AssociateFullName": "Irwin Herzog",
-    "ContactId": 183,
-    "ContactName": "Wolff, Cassin and Homenick",
-    "ProjectId": 726,
-    "ProjectName": "Nicolas, Gerlach and Bins",
-    "AssociateId": 111,
-    "Snum": 694,
-    "SaleId": 543,
-    "SaleName": "Harris-Roberts",
+    "PersonId": 863,
+    "PersonFullName": "Leilani Keeling",
+    "AssociateFullName": "Dr. Michale Toy DVM",
+    "ContactId": 566,
+    "ContactName": "Ruecker, Dach and Hirthe",
+    "ProjectId": 950,
+    "ProjectName": "Smith, Watsica and Stark",
+    "AssociateId": 801,
+    "Snum": 576,
+    "SaleId": 646,
+    "SaleName": "Eichmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 359
       }
     }
   }

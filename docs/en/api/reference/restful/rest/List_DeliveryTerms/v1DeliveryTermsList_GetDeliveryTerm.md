@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283,
-  "Name": "Ziemann, Wiegand and Haag",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "UdListDefinitionId": 710,
-  "Rank": 135,
+  "Id": 489,
+  "Name": "Dicki-Wolff",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "UdListDefinitionId": 523,
+  "Rank": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

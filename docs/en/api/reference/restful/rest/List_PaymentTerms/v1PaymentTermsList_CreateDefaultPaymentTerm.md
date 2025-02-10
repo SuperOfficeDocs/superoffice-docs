@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 472,
-  "Name": "Pagac, Lakin and Herzog",
-  "Tooltip": "in",
-  "Deleted": true,
-  "UdListDefinitionId": 53,
-  "Rank": 688,
+  "Id": 391,
+  "Name": "Reinger LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 361,
+  "Rank": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 474
     }
   }
 }

@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "non",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 503,
+  "DocumentId": 458,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "eum",
-  "Name": "Schimmel Group",
-  "OurRef": "in",
-  "YourRef": "non",
-  "CreatedDate": "2013-01-25T13:13:31.6832455+01:00",
-  "UpdatedDate": "2022-10-25T13:13:31.6832455+02:00",
-  "Description": "Function-based tertiary capacity",
+  "Attention": "veniam",
+  "Header": "itaque",
+  "Name": "Upton-Klein",
+  "OurRef": "quo",
+  "YourRef": "quo",
+  "CreatedDate": "2014-11-09T12:01:32.8863099+01:00",
+  "UpdatedDate": "2004-03-20T12:01:32.8863099+01:00",
+  "Description": "Programmable well-modulated forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-08-07T13:13:31.6832455+02:00",
-  "ExternalRef": "corporis",
+  "Date": "2008-04-23T12:01:32.8863099+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 989,
+  "ActiveLinks": 868,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mertz, Lowe and Harris",
-      "Id": 641,
-      "Description": "User-centric logistical knowledge user",
-      "ExtraInfo": "quis",
-      "LinkId": 496,
+      "EntityName": "Pouros Inc and Sons",
+      "Id": 944,
+      "Description": "Decentralized eco-centric architecture",
+      "ExtraInfo": "aut",
+      "LinkId": 827,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 143,
-  "Snum": 855,
+  "SuggestedDocumentId": 687,
+  "Snum": 824,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Fern Gorczany"
+    "SuperOffice:1": "Estrella Katharina Veum MD",
+    "SuperOffice:2": "Johnny Funk"
   },
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "velit",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2008-07-10T13:13:31.6832455+02:00",
-  "PublishTo": "2014-02-21T13:13:31.6832455+01:00",
-  "PublishFrom": "2008-10-02T13:13:31.6832455+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-09-24T12:01:32.8863099+02:00",
+  "PublishTo": "2006-07-13T12:01:32.8863099+02:00",
+  "PublishFrom": "2009-08-09T12:01:32.8863099+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 381
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 381
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 259
     }
   },
   "_Links": {

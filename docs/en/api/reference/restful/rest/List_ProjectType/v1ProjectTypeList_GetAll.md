@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Sipes, Mueller and Torp",
-    "Tooltip": "nesciunt",
+    "Id": 422,
+    "Name": "Balistreri Inc and Sons",
+    "Tooltip": "aperiam",
     "Deleted": true,
-    "UdListDefinitionId": 546,
-    "Rank": 471,
+    "UdListDefinitionId": 351,
+    "Rank": 951,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   }

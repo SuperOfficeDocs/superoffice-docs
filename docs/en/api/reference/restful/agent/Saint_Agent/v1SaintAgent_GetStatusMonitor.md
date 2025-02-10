@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43
+  "Id": 790
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 282,
-  "Rank": 810,
-  "DefaultTask": 478,
-  "DefaultTaskText": "impedit",
-  "IsVisual": true,
-  "LastGenerated": "2023-09-19T13:13:23.8050553+02:00",
-  "Description": "Devolved eco-centric software",
-  "Name": "Strosin, Wisozk and Cummerata",
-  "StatusMonitorId": 219,
-  "PictureId": 187,
+  "OwnerTable": 570,
+  "Rank": 149,
+  "DefaultTask": 554,
+  "DefaultTaskText": "dicta",
+  "IsVisual": false,
+  "LastGenerated": "2013-07-02T12:01:28.2284376+02:00",
+  "Description": "Stand-alone holistic knowledge base",
+  "Name": "Moore-Treutel",
+  "StatusMonitorId": 534,
+  "PictureId": 468,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 736,
-  "NumNeedUpdate": 99,
-  "GenerationStart": "2007-10-18T13:13:23.8050553+02:00",
+  "Deleted": false,
+  "NumMatches": 666,
+  "NumNeedUpdate": 974,
+  "GenerationStart": "2016-03-02T12:01:28.2284376+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldLength": 939
     }
   }
 }

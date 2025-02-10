@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -152,57 +152,57 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 406,
-  "UniqueIdentifier": "quas",
-  "Name": "Gorczany Inc and Sons",
-  "Description": "Customizable didactic instruction set",
-  "IncludeId": "est",
-  "AccessKey": "quidem",
-  "HierarchyId": 226,
-  "Source": "expedita",
-  "SourceCode": "qui",
+  "EjscriptId": 813,
+  "UniqueIdentifier": "cumque",
+  "Name": "Littel, Harber and Stoltenberg",
+  "Description": "Decentralized 6th generation paradigm",
+  "IncludeId": "sunt",
+  "AccessKey": "est",
+  "HierarchyId": 847,
+  "Source": "ut",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 563,
+  "HtmlOutput": 248,
   "Includes": [
-    871,
-    726
+    619,
+    830
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 806,
-      "LineNumberTo": 89,
-      "Delta": 478,
-      "IncludeId": "nemo",
+      "LineNumberFrom": 341,
+      "LineNumberTo": 462,
+      "Delta": 163,
+      "IncludeId": "vitae",
       "IncludedFrom": [
-        "eveniet",
-        "quis"
+        "magni",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-06-06T13:13:31.6207599+02:00",
-  "RegisteredAssociateId": 337,
-  "Updated": "2023-02-28T13:13:31.6207599+01:00",
-  "UpdatedAssociateId": 957,
+  "Registered": "2024-01-20T12:01:32.8550575+01:00",
+  "RegisteredAssociateId": 776,
+  "Updated": "2017-10-23T12:01:32.8550575+02:00",
+  "UpdatedAssociateId": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 898
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

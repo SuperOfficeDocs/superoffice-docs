@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=794
+POST /api/v1/Agents/Person/GetPerson?personId=474
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -97,6 +97,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -106,7 +107,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "iste",
-  "PersonId": 548,
-  "Mrmrs": "sit",
-  "Firstname": "Aubree",
-  "Lastname": "Grimes",
-  "MiddleName": "Halvorson, McLaughlin and Ryan",
-  "Title": "non",
-  "Description": "Proactive 6th generation hardware",
-  "Email": "kali@nader.uk",
-  "FullName": "Jamarcus Metz",
-  "DirectPhone": "202-866-6637",
-  "FormalName": "Bashirian Group",
-  "CountryId": 100,
-  "ContactId": 393,
-  "ContactName": "Flatley, Bahringer and Hamill",
-  "Retired": 91,
-  "Rank": 557,
-  "ActiveInterests": 957,
+  "Position": "nisi",
+  "PersonId": 249,
+  "Mrmrs": "ipsa",
+  "Firstname": "Kira",
+  "Lastname": "Breitenberg",
+  "MiddleName": "Smitham Group",
+  "Title": "autem",
+  "Description": "Ameliorated global groupware",
+  "Email": "hunter_cormier@bednar.com",
+  "FullName": "Miss Travis Virgil Adams",
+  "DirectPhone": "(987)322-1775",
+  "FormalName": "Harber-Mayer",
+  "CountryId": 596,
+  "ContactId": 923,
+  "ContactName": "Hessel Group",
+  "Retired": 685,
+  "Rank": 889,
+  "ActiveInterests": 307,
   "ContactDepartment": "",
-  "ContactCountryId": 9,
-  "ContactOrgNr": "828467",
-  "FaxPhone": "760-966-2310",
-  "MobilePhone": "(164)725-0225",
-  "ContactPhone": "1-482-874-6390 x826",
-  "AssociateName": "Marks-Upton",
-  "AssociateId": 868,
+  "ContactCountryId": 980,
+  "ContactOrgNr": "1619648",
+  "FaxPhone": "1-642-756-1604",
+  "MobilePhone": "1-481-541-3001 x811",
+  "ContactPhone": "274.170.8190 x05800",
+  "AssociateName": "Prohaska, Brown and Douglas",
+  "AssociateId": 911,
   "UsePersonAddress": false,
-  "ContactFax": "quas",
-  "Kanafname": "suscipit",
-  "Kanalname": "fugiat",
-  "Post1": "velit",
-  "Post2": "qui",
-  "Post3": "qui",
-  "EmailName": "mona@abbott.uk",
-  "ContactFullName": "Ms. Laisha Albertha Ledner Sr.",
-  "ActiveErpLinks": 379,
-  "TicketPriorityId": 273,
-  "SupportLanguageId": 332,
-  "SupportAssociateId": 572,
+  "ContactFax": "natus",
+  "Kanafname": "et",
+  "Kanalname": "impedit",
+  "Post1": "quidem",
+  "Post2": "consequatur",
+  "Post3": "optio",
+  "EmailName": "carleton@schmidt.ca",
+  "ContactFullName": "Idella Zieme",
+  "ActiveErpLinks": 822,
+  "TicketPriorityId": 10,
+  "SupportLanguageId": 601,
+  "SupportAssociateId": 580,
   "CategoryName": "VIP Customer",
+  "PersonNumber": "1644896",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 64
     }
   }
 }

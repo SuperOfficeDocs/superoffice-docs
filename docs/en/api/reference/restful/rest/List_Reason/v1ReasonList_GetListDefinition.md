@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 552,
-  "Name": "Ziemann-Towne",
-  "Tooltip": "animi",
+  "Id": 860,
+  "Name": "Grady, Witting and Doyle",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 838,
+  "Rank": 379,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   },
   "_Links": {

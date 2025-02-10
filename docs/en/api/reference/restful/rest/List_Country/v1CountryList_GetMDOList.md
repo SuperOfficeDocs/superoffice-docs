@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=modi
+GET /api/v1/List/Country/MDOItems?query=distinctio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Hoeger, Leuschke and Will",
-    "ToolTip": "Quia veritatis aliquid itaque vel suscipit totam consequatur.",
+    "Id": 850,
+    "Name": "Welch-Larkin",
+    "ToolTip": "Voluptatem tempore sit qui.",
     "Deleted": false,
-    "Rank": 746,
-    "Type": "voluptas",
+    "Rank": 133,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Haag, Nitzsche and Jewess",
-        "ToolTip": "Ex aut tempora laudantium laboriosam est.",
+        "Id": 21,
+        "Name": "Jacobi, Harris and Koelpin",
+        "ToolTip": "Id similique sint cupiditate.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "nostrum",
+        "Rank": 590,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 792,
-        "ExtraInfo": "sint",
-        "StyleHint": "ut",
-        "FullName": "Ara O'Keefe DVM",
+        "IconHint": "eum",
+        "ColorBlock": 477,
+        "ExtraInfo": "possimus",
+        "StyleHint": "amet",
+        "FullName": "Laurence Ollie Lind Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 580,
-    "ExtraInfo": "at",
-    "StyleHint": "et",
-    "FullName": "Lauriane Eino Dach III",
+    "IconHint": "officiis",
+    "ColorBlock": 404,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "eligendi",
+    "FullName": "Horace Berta Kertzmann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 790
       }
     }
   }

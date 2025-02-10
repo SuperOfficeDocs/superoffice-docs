@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Kirlin Inc and Sons",
-    "ToolTip": "Tempora et ipsam.",
-    "Deleted": false,
-    "Rank": 307,
-    "Type": "est",
-    "ColorBlock": 745,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2016-01-26T13:13:33.042395+01:00",
+    "Id": 691,
+    "Name": "Howe-Mertz",
+    "ToolTip": "Excepturi ut ea ut.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "molestiae",
+    "ColorBlock": 873,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2016-01-19T12:01:33.495727+01:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Barton, Bashirian and Hessel",
-        "ToolTip": "Quia aliquam sed pariatur temporibus.",
+        "Id": 160,
+        "Name": "Bashirian LLC",
+        "ToolTip": "Eum suscipit porro rerum qui est cupiditate asperiores.",
         "Deleted": false,
-        "Rank": 536,
-        "Type": "quo",
-        "ColorBlock": 125,
-        "IconHint": "ut",
+        "Rank": 762,
+        "Type": "repellendus",
+        "ColorBlock": 136,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2010-07-15T13:13:33.042395+02:00",
+        "LastChanged": "2017-11-18T12:01:33.495727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Aaron Smitham"
+        "ExtraInfo": "suscipit",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Dr. Gisselle Junior Wehner"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Mrs. Jaquelin Bailey"
+    "ExtraInfo": "earum",
+    "StyleHint": "magni",
+    "Hidden": true,
+    "FullName": "Tony Raynor DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Howell, Koss and Monahan",
-    "ToolTip": "Nihil reiciendis labore in quia voluptatum.",
+    "Id": 243,
+    "Name": "Crist Group",
+    "ToolTip": "Fuga et deserunt necessitatibus.",
     "Deleted": false,
-    "Rank": 800,
-    "Type": "inventore",
-    "ColorBlock": 487,
-    "IconHint": "dignissimos",
+    "Rank": 132,
+    "Type": "harum",
+    "ColorBlock": 594,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2003-09-28T13:13:33.042395+02:00",
+    "LastChanged": "2023-08-24T12:01:33.495727+02:00",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Auer LLC",
-        "ToolTip": "Temporibus illum nemo.",
-        "Deleted": true,
-        "Rank": 389,
-        "Type": "quibusdam",
-        "ColorBlock": 990,
-        "IconHint": "a",
+        "Id": 411,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Sunt qui nostrum fugiat.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "laboriosam",
+        "ColorBlock": 222,
+        "IconHint": "porro",
         "Selected": true,
-        "LastChanged": "2024-01-23T13:13:33.042395+01:00",
+        "LastChanged": "2015-08-08T12:01:33.495727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "non",
+        "ExtraInfo": "quia",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Prof. Lexie Tracy Kshlerin",
+        "FullName": "Mrs. Nella Kendrick Price PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "soluta",
+    "ExtraInfo": "a",
+    "StyleHint": "minima",
     "Hidden": true,
-    "FullName": "Josephine Bartell Jr.",
+    "FullName": "Marley Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 473
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Conn-O'Kon",
-    "ToolTip": "Officiis incidunt.",
+    "Id": 427,
+    "Name": "Hane Group",
+    "ToolTip": "Sit qui quos.",
     "Deleted": false,
-    "Rank": 791,
-    "Type": "a",
-    "ColorBlock": 206,
-    "IconHint": "ea",
+    "Rank": 143,
+    "Type": "nemo",
+    "ColorBlock": 764,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2017-03-22T13:13:31.9956719+01:00",
+    "LastChanged": "2018-02-05T12:01:33.0425704+01:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Spencer Group",
-        "ToolTip": "Reiciendis voluptas est voluptatem facilis quam necessitatibus magnam.",
+        "Id": 659,
+        "Name": "Bernhard, Williamson and Larkin",
+        "ToolTip": "Quis sed harum consequatur earum aut.",
         "Deleted": false,
-        "Rank": 777,
-        "Type": "nemo",
-        "ColorBlock": 606,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2024-06-19T13:13:31.9956719+02:00",
+        "Rank": 808,
+        "Type": "officia",
+        "ColorBlock": 42,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2000-10-26T12:01:33.0425704+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nulla",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Mrs. Helmer Sedrick Funk III",
+        "FullName": "Jack Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 436
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "vel",
+    "ExtraInfo": "sed",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Genoveva Fiona Grant I",
+    "FullName": "Mr. Elbert Nicole Bosco MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldLength": 619
       }
     }
   }

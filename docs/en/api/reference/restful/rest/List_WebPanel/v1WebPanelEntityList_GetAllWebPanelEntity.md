@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 892,
-    "Name": "Dare-Rolfson",
-    "Tooltip": "ducimus",
+    "WebPanelId": 971,
+    "Name": "Mann LLC",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 796,
+    "Rank": 970,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Rau, Hessel and Greenfelder",
+    "ShowInStatusBar": false,
+    "WindowName": "Luettgen Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "ut",
-    "Icon": 349,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "reprehenderit",
+    "Icon": 371,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 678
       }
     }
   }

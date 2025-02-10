@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Thompson Group",
-    "ToolTip": "Et possimus ut sunt in commodi.",
-    "Deleted": false,
-    "Rank": 116,
-    "Type": "mollitia",
-    "ColorBlock": 294,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2022-08-01T13:13:33.2298506+02:00",
+    "Id": 148,
+    "Name": "Kertzmann Group",
+    "ToolTip": "Est accusamus sit eveniet libero cumque.",
+    "Deleted": true,
+    "Rank": 415,
+    "Type": "libero",
+    "ColorBlock": 213,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2000-01-25T12:01:33.5582313+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Blick, Friesen and Maggio",
-        "ToolTip": "Reprehenderit sapiente autem sapiente ut quia.",
+        "Id": 331,
+        "Name": "Hyatt-Walker",
+        "ToolTip": "Vel facilis culpa accusamus corporis nisi in nesciunt.",
         "Deleted": false,
-        "Rank": 157,
-        "Type": "in",
-        "ColorBlock": 334,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2012-03-28T13:13:33.2298506+02:00",
+        "Rank": 440,
+        "Type": "adipisci",
+        "ColorBlock": 173,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2001-02-06T12:01:33.5582313+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "ratione",
-        "Hidden": false,
-        "FullName": "Marianne Kohler Sr."
+        "ExtraInfo": "earum",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Mrs. Janae Brekke DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
+    "ExtraInfo": "sequi",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Ms. Frances Carlotta Parker PhD"
+    "FullName": "Mackenzie Zulauf"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Marvin-Lowe",
-    "ToolTip": "Quasi est autem mollitia.",
-    "Deleted": true,
-    "Rank": 42,
-    "Type": "similique",
-    "ColorBlock": 530,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2001-03-14T13:13:33.2454698+01:00",
+    "Id": 156,
+    "Name": "Konopelski, Hamill and Shanahan",
+    "ToolTip": "Aliquam voluptatem qui et.",
+    "Deleted": false,
+    "Rank": 275,
+    "Type": "nulla",
+    "ColorBlock": 570,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "1997-11-07T12:01:33.5582313+01:00",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Gleichner-Hudson",
-        "ToolTip": "Est maxime illum sapiente sequi optio.",
+        "Id": 445,
+        "Name": "Rempel-Roberts",
+        "ToolTip": "Culpa aliquid perspiciatis nisi.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "consequatur",
-        "ColorBlock": 428,
+        "Rank": 208,
+        "Type": "iusto",
+        "ColorBlock": 602,
         "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2013-05-02T13:13:33.2454698+02:00",
+        "LastChanged": "2023-05-05T12:01:33.5582313+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "sit",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Prof. Axel Barton",
+        "FullName": "Juanita Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldType": "System.String",
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Margot Metz",
+    "ExtraInfo": "quas",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Selena Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldLength": 374
       }
     }
   }

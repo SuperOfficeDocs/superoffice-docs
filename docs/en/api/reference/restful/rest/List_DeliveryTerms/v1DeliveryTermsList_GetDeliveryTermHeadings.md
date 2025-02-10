@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 527,
-    "Name": "Gusikowski, Littel and Ledner",
-    "Tooltip": "et",
+    "HeadingId": 257,
+    "Name": "Abshire LLC",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 507,
-    "UdListDefinitionId": 750,
+    "Rank": 139,
+    "UdListDefinitionId": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

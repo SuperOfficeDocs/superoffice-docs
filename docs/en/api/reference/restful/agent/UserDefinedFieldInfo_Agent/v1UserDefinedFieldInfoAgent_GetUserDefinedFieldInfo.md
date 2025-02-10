@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=994
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=8
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 705,
-  "ColumnId": 745,
-  "FieldDefault": "est",
-  "FieldHeight": 749,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 657,
-  "FieldTop": 7,
+  "UDefFieldId": 57,
+  "ColumnId": 696,
+  "FieldDefault": "doloremque",
+  "FieldHeight": 686,
+  "FieldLabel": "sunt",
+  "FieldLeft": 646,
+  "FieldTop": 230,
   "FieldType": "Checkbox",
-  "FieldWidth": 235,
-  "FormatMask": "ducimus",
+  "FieldWidth": 675,
+  "FormatMask": "beatae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 657,
-  "LabelLeft": 916,
-  "LabelTop": 777,
-  "LabelWidth": 758,
-  "LastVersionId": 907,
-  "ListTableId": 877,
+  "IsIndexed": true,
+  "LabelHeight": 603,
+  "LabelLeft": 200,
+  "LabelTop": 479,
+  "LabelWidth": 350,
+  "LastVersionId": 715,
+  "ListTableId": 59,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 294,
-  "ProgId": "nisi",
+  "Page1LineNo": 513,
+  "ProgId": "expedita",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 497,
-  "TextLength": 825,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 906,
-  "UDListDefinitionId": 510,
+  "ShortLabel": "esse",
+  "TabOrder": 190,
+  "TextLength": 124,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 101,
+  "UDListDefinitionId": 1001,
   "Justification": "Center",
-  "Version": 344,
-  "TemplateVariableName": "Brown Inc and Sons",
+  "Version": 437,
+  "TemplateVariableName": "Klein, Ryan and Tremblay",
   "HasBeenPublished": false,
-  "MdoListName": "Sipes LLC",
+  "MdoListName": "Bruen-Lindgren",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   }
 }

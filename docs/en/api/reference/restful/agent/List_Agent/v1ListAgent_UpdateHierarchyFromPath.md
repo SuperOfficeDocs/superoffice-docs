@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quia",
+  "Path": "quaerat",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 174,
+  "HierarchyId": 388,
   "Domain": "Dashboards",
-  "Name": "Deckow Group",
-  "Fullname": "omnis",
-  "ParentId": 327,
+  "Name": "Hoppe-Kessler",
+  "Fullname": "in",
+  "ParentId": 476,
   "Children": [
     {
-      "HierarchyId": 472,
+      "HierarchyId": 90,
       "Domain": "Dashboards",
-      "Name": "Gulgowski Group",
-      "Fullname": "quia",
-      "ParentId": 462,
+      "Name": "Koch-Yundt",
+      "Fullname": "et",
+      "ParentId": 314,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-09-28T13:13:23.3051742+02:00",
-      "RegisteredAssociateId": 65,
-      "Updated": "2022-03-06T13:13:23.3051742+01:00",
-      "UpdatedAssociateId": 187,
+      "Registered": "2017-11-21T12:01:27.97842+01:00",
+      "RegisteredAssociateId": 567,
+      "Updated": "2018-06-28T12:01:27.97842+02:00",
+      "UpdatedAssociateId": 458,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
   ],
-  "Registered": "2017-06-18T13:13:23.3051742+02:00",
-  "RegisteredAssociateId": 116,
-  "Updated": "2003-04-29T13:13:23.3051742+02:00",
-  "UpdatedAssociateId": 151,
+  "Registered": "2000-05-14T12:01:27.97842+02:00",
+  "RegisteredAssociateId": 150,
+  "Updated": "2004-12-12T12:01:27.97842+01:00",
+  "UpdatedAssociateId": 639,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldLength": 62
     }
   }
 }

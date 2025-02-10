@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 137,
+  "SelectionId": 696,
   "SelectionMemberIds": [
-    689,
-    201
+    55,
+    609
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line 6th generation task-force",
-  "Postit": "et",
+  "Description": "Ergonomic human-resource orchestration",
+  "Postit": "recusandae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 891,
-  "IncludePerson": 483,
+  "GroupIdx": 147,
+  "IncludePerson": 275,
   "MemberCount": 99.99,
-  "Name": "Little Inc and Sons",
-  "PostitTextId": 375,
-  "CreatedDate": "2012-09-07T13:13:23.9511893+02:00",
-  "SelectionId": 30,
-  "SoundEx": "qui",
-  "Source": 228,
-  "TextId": 92,
-  "UpdatedDate": "2019-04-05T13:13:23.9511893+02:00",
-  "UpdatedCount": 654,
-  "Visibility": 868,
+  "Name": "Balistreri Group",
+  "PostitTextId": 336,
+  "CreatedDate": "2006-09-30T12:01:28.3065684+02:00",
+  "SelectionId": 756,
+  "SoundEx": "et",
+  "Source": 516,
+  "TextId": 373,
+  "UpdatedDate": "2016-09-10T12:01:28.3065684+02:00",
+  "UpdatedCount": 974,
+  "Visibility": 642,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 500,
-  "TargetTableName": "Kuphal LLC",
-  "Completed": false,
-  "LeftSelectionId": 908,
-  "RightSelectionId": 824,
+  "TargetTableNumber": 650,
+  "TargetTableName": "Keebler Group",
+  "Completed": true,
+  "LeftSelectionId": 902,
+  "RightSelectionId": 890,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swaniawski Inc and Sons",
-  "ShadowProviderName": "Wisoky, Stamm and Mante",
-  "ChartKey": "rerum",
-  "LastLoaded": "2013-12-27T13:13:23.9511893+01:00",
-  "LastLoadedBy": 945,
+  "MainProviderName": "Cummerata-Shanahan",
+  "ShadowProviderName": "Haag-O'Keefe",
+  "ChartKey": "laboriosam",
+  "LastLoaded": "1999-06-26T12:01:28.3065684+02:00",
+  "LastLoadedBy": 126,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-08-07T13:13:23.9521988+02:00",
-  "LastMembershipChangeBy": 398,
+  "LastMembershipChange": "2002-02-16T12:01:28.3065684+01:00",
+  "LastMembershipChangeBy": 149,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "incidunt",
-  "MailingsProviderName": "Barton Inc and Sons",
-  "DashboardTileDefinitionId": 467,
+  "MainHeading": "maxime",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Prosacco, Lowe and Gerlach",
+  "DashboardTileDefinitionId": 368,
   "VisibleFor": [
     {
-      "VisibleId": 300,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     },
     {
-      "VisibleId": 300,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   }
 }

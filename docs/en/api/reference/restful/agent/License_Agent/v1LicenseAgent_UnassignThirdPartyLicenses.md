@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 926,
-  "ModuleOwner": "veritatis",
+  "AssociateId": 337,
+  "ModuleOwner": "quos",
   "ModuleLicenseNames": [
-    "Langworth-Ullrich",
-    "Mante-Hamill"
+    "Price-Nikolaus",
+    "McDermott LLC"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 153,
-    "Tooltip": "molestias",
-    "CanAssign": true,
-    "Free": 371,
-    "InUse": 563,
+    "Total": 124,
+    "Tooltip": "quia",
+    "CanAssign": false,
+    "Free": 481,
+    "InUse": 135,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 381,
-    "Name": "Schultz, Corwin and Lowe",
-    "Description": "Proactive non-volatile open architecture",
-    "PrerequisiteModuleName": "Purdy, West and Simonis",
-    "SortOrder": 512,
-    "ExtraFlags": 779,
+    "Assigned": true,
+    "ModuleLicenseId": 795,
+    "Name": "Stroman, Lind and Emmerich",
+    "Description": "Visionary bottom-line array",
+    "PrerequisiteModuleName": "Denesik-Rolfson",
+    "SortOrder": 335,
+    "ExtraFlags": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldType": "System.String",
+        "FieldLength": 324
       }
     }
   }

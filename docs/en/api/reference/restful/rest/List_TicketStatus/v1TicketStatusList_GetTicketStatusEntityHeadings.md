@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 457,
-    "Name": "Ratke, Corwin and Mueller",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 352,
+    "HeadingId": 763,
+    "Name": "Mills-Kozey",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 996,
+    "UdListDefinitionId": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 772
       }
     }
   }

@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 23 Mar 2021 13:13:32 G3T
+Last-Modified: Tue, 13 Sep 2016 12:01:33 G9T
 
 {
-  "Description": "Upgradable tangible challenge",
-  "Postit": "et",
+  "Description": "Up-sized full-range function",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 340,
-  "IncludePerson": 109,
+  "GroupIdx": 605,
+  "IncludePerson": 532,
   "MemberCount": 99.99,
-  "Name": "Friesen-D'Amore",
-  "PostitTextId": 222,
-  "CreatedDate": "2018-07-22T13:13:32.3236535+02:00",
-  "SelectionId": 653,
-  "SoundEx": "et",
-  "Source": 120,
-  "TextId": 286,
-  "UpdatedDate": "2021-03-23T13:13:32.3236535+01:00",
-  "UpdatedCount": 439,
-  "Visibility": 914,
+  "Name": "Cartwright-Klein",
+  "PostitTextId": 599,
+  "CreatedDate": "2009-08-13T12:01:33.1988321+02:00",
+  "SelectionId": 764,
+  "SoundEx": "doloremque",
+  "Source": 46,
+  "TextId": 468,
+  "UpdatedDate": "2016-09-13T12:01:33.1988321+02:00",
+  "UpdatedCount": 886,
+  "Visibility": 241,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 504,
-  "TargetTableName": "O'Hara LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 586,
+  "TargetTableName": "Lebsack-Bashirian",
   "Completed": false,
-  "LeftSelectionId": 730,
-  "RightSelectionId": 32,
+  "LeftSelectionId": 13,
+  "RightSelectionId": 629,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Frami-Schaden",
-  "ShadowProviderName": "Howe, Kihn and Hansen",
-  "ChartKey": "voluptate",
-  "LastLoaded": "2012-11-26T13:13:32.3236535+01:00",
-  "LastLoadedBy": 958,
+  "MainProviderName": "Feeney, Tillman and Wilderman",
+  "ShadowProviderName": "Olson LLC",
+  "ChartKey": "adipisci",
+  "LastLoaded": "2018-10-11T12:01:33.1988321+02:00",
+  "LastLoadedBy": 479,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-05-19T13:13:32.3236535+02:00",
-  "LastMembershipChangeBy": 387,
+  "LastMembershipChange": "2012-09-23T12:01:33.1988321+02:00",
+  "LastMembershipChangeBy": 327,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "inventore",
-  "MemberTabHeading": "cumque",
-  "MailingsProviderName": "Von, Carter and Howe",
-  "DashboardTileDefinitionId": 597,
+  "MainHeading": "aut",
+  "MemberTabHeading": "dolor",
+  "MailingsProviderName": "Beahan LLC",
+  "DashboardTileDefinitionId": 12,
   "VisibleFor": [
     {
-      "VisibleId": 409,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     },
     {
-      "VisibleId": 409,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
@@ -198,12 +198,12 @@ Last-Modified: Tue, 23 Mar 2021 13:13:32 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 528
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

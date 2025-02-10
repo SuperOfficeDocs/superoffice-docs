@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Hessel-Swift"
+  "FunctionalRightName": "Daugherty, Wiza and Borer"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Fisher-Tromp",
-    "ToolTip": "Exercitationem sed quo ut.",
+    "Id": 352,
+    "Name": "Powlowski Inc and Sons",
+    "ToolTip": "Mollitia fugit reprehenderit voluptatem ratione qui.",
     "Deleted": false,
-    "Rank": 191,
-    "Type": "fugit",
+    "Rank": 252,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Smith, Murray and Goyette",
-        "ToolTip": "Alias recusandae dolore eum voluptates enim.",
-        "Deleted": true,
-        "Rank": 151,
-        "Type": "aut",
+        "Id": 338,
+        "Name": "Johnston-Hilll",
+        "ToolTip": "Saepe qui qui sed.",
+        "Deleted": false,
+        "Rank": 957,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 721,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "perferendis",
-        "FullName": "Conner Wiza",
+        "IconHint": "occaecati",
+        "ColorBlock": 826,
+        "ExtraInfo": "dolores",
+        "StyleHint": "aut",
+        "FullName": "Giuseppe Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldLength": 318
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 737,
-    "ExtraInfo": "error",
-    "StyleHint": "in",
-    "FullName": "Evangeline Hammes",
+    "IconHint": "magni",
+    "ColorBlock": 316,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "eos",
+    "FullName": "Denis Lance Pfeffer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 428
       }
     }
   }

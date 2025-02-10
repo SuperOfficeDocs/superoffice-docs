@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 143
+  "TargetDimensionId": 27
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 863,
+    "TargetAssignmentInfoId": 418,
     "Values": [
-      699,
-      350
+      175,
+      681
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 745,
-    "DimensionListItemDisplayName": "Lang, Huel and Bernier",
+    "DimensionListItem": 322,
+    "DimensionListItemDisplayName": "Armstrong-Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 598
       }
     }
   }

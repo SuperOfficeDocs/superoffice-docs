@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 211,
+  "ErpConnectionId": 500,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 949,
+  "ErpConnectionId": 477,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 156,
-      "CrmFieldKey": "tenetur",
-      "CrmDisplayName": "Kunde Group",
-      "CrmDisplayTooltip": "autem",
-      "ErpFieldKey": "qui",
+      "ErpFieldId": 71,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Schultz, Farrell and Ritchie",
+      "CrmDisplayTooltip": "odio",
+      "ErpFieldKey": "sit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Robel, Hessel and Robel",
-      "ErpDisplayTooltip": "error",
-      "SyncToCrm": true,
-      "SyncToErp": false,
-      "ShowInGui": true,
+      "ErpDisplayName": "Durgan-Emmerich",
+      "ErpDisplayTooltip": "nostrum",
+      "SyncToCrm": false,
+      "SyncToErp": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "AlreadyMapped": true,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "fugiat",
+      "ListReference": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 455
     }
   }
 }

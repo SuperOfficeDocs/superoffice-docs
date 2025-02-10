@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 224,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 730,
-  "Filename": "non",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 893,
+  "Name": "Medhurst, Koch and Dare",
+  "Tooltip": "quibusdam",
+  "SaveInDb": 938,
+  "Filename": "repellat",
+  "DefaultOref": "officiis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 685,
-  "IntentId": 148,
-  "IsDefaultPublished": true,
-  "Rank": 67,
-  "LoadTemplateFromPlugin": 271,
-  "MimeType": "dignissimos",
+  "AutoeventId": 36,
+  "IntentId": 37,
+  "IsDefaultPublished": false,
+  "Rank": 877,
+  "LoadTemplateFromPlugin": 768,
+  "MimeType": "et",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 355,
+  "DocumentTypeKey": 66,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tremaine_bechtelar@vandervortgerlach.name",
-  "IncludeSignature": false,
+  "EmailSubject": "elouise@schaden.us",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mozell@willmskuhlman.uk",
+  "SenderEmailAddress": "geovanni.balistreri@luettgengoodwin.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 758,
-  "Name": "Bergstrom-Stamm",
+  "DocumentTemplateId": 583,
+  "Name": "Zboncak-Pagac",
   "Tooltip": "et",
-  "SaveInDb": 595,
-  "Filename": "et",
-  "DefaultOref": "aut",
+  "SaveInDb": 173,
+  "Filename": "sed",
+  "DefaultOref": "dolorem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 463,
-  "IntentId": 574,
+  "AutoeventId": 74,
+  "IntentId": 491,
   "IsDefaultPublished": false,
-  "Rank": 478,
-  "LoadTemplateFromPlugin": 679,
-  "MimeType": "ratione",
+  "Rank": 199,
+  "LoadTemplateFromPlugin": 620,
+  "MimeType": "tempore",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 447,
+  "DocumentTypeKey": 238,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "abby.gerlach@krajcik.info",
+  "EmailSubject": "giovanny@hoppe.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jarvis.ferry@johns.uk",
+  "SenderEmailAddress": "bertha@hand.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 160
     }
   }
 }

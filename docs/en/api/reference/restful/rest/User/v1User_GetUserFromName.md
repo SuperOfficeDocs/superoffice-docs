@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 81,
-  "Name": "Shields-Volkman",
-  "Rank": 697,
+  "AssociateId": 602,
+  "Name": "Schimmel, Kilback and Schulist",
+  "Rank": 807,
   "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Feest Group",
-      "Description": "Open-source optimal website",
+      "Name": "Emard LLC",
+      "Description": "Proactive upward-trending throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     },
     {
-      "Name": "Feest Group",
-      "Description": "Open-source optimal website",
+      "Name": "Emard LLC",
+      "Description": "Proactive upward-trending throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ut",
-      "Tooltip": "vitae",
-      "Id": 669,
-      "Rank": 16,
-      "Deleted": false,
+      "Value": "pariatur",
+      "Tooltip": "repellat",
+      "Id": 458,
+      "Rank": 624,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 989
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2006-02-27T13:13:32.6830407+01:00",
-  "Lastlogout": "2001-12-11T13:13:32.6830407+01:00",
-  "EjUserId": 594,
-  "RequestSignature": "magnam",
+  "Deleted": false,
+  "Lastlogin": "2004-05-17T12:01:33.3863444+02:00",
+  "Lastlogout": "2011-08-28T12:01:33.3863444+02:00",
+  "EjUserId": 277,
+  "RequestSignature": "optio",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "minus",
+      "Value": "alias",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldLength": 297
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "minus",
+      "Value": "alias",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldLength": 297
         }
       }
     }
   ],
-  "UserName": "Reilly, Hettinger and Erdman",
+  "UserName": "Upton, Gislason and Bogisich",
   "TicketCategories": [
     {
-      "Id": 800,
-      "Name": "Von-Gorczany",
-      "ToolTip": "Facere rem veritatis et ut explicabo molestias et.",
-      "Deleted": true,
-      "Rank": 22,
-      "Type": "eveniet",
+      "Id": 943,
+      "Name": "Lubowitz-Sawayn",
+      "ToolTip": "Repellat ipsum.",
+      "Deleted": false,
+      "Rank": 103,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 699,
-      "ExtraInfo": "veritatis",
-      "StyleHint": "suscipit",
-      "FullName": "Ola Johnson",
+      "IconHint": "eligendi",
+      "ColorBlock": 140,
+      "ExtraInfo": "aliquid",
+      "StyleHint": "ut",
+      "FullName": "Andres Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 466
         }
       }
     }
   ],
-  "NickName": "Becker, Dietrich and Cartwright",
+  "NickName": "Morissette Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "amet"
   },
   "PostSaveCommands": [
     {
-      "Name": "Treutel-Cummings",
-      "DisplayName": "Schuppe, Adams and Schmeler",
-      "Description": "Multi-layered national solution",
-      "ToolTip": "Sit qui voluptas fugit sed.",
+      "Name": "Douglas-Romaguera",
+      "DisplayName": "O'Hara LLC",
+      "Description": "Expanded 4th generation implementation",
+      "ToolTip": "Molestiae officiis similique architecto.",
       "Actions": "Implicit",
-      "ActionData": "ad",
+      "ActionData": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldType": "System.Int32",
+          "FieldLength": 506
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

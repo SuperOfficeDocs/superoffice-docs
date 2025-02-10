@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Borer, Cartwright and Kilback",
-  "ResourceValues": "dolorem",
-  "Culture": "facilis",
-  "IsActive": true
+  "ResourceName": "Renner-Torp",
+  "ResourceValues": "ut",
+  "Culture": "sapiente",
+  "IsActive": false
 }
 ```
 

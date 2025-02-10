@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 492,
-  "Name": "Buckridge Group",
-  "Description": "Face to face object-oriented middleware",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 174,
+  "Name": "Jacobs Inc and Sons",
+  "Description": "Mandatory bi-directional knowledge base",
+  "WelcomeMessage": "eos",
   "Language": null,
-  "LastAccept": "1998-04-28T13:13:22.1958165+02:00",
-  "SecondsPrAccept": 767,
-  "AlertRecipient": "aperiam",
+  "LastAccept": "2005-10-25T12:01:27.3846286+02:00",
+  "SecondsPrAccept": 42,
+  "AlertRecipient": "itaque",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "non",
+  "BadgeHeader": "enim",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "mollitia",
-  "WarnNewChatMinutes": 934,
-  "WarnManagerNewChatMinutes": 359,
-  "TicketEnabled": false,
+  "CustomQueueText": "dolore",
+  "WarnNewChatMinutes": 262,
+  "WarnManagerNewChatMinutes": 642,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 940,
-  "WarnManagerChatMessageMinutes": 13,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 532,
-  "OfflineFormQueueLength": 58,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 444,
+  "WarnManagerChatMessageMinutes": 64,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 67,
+  "OfflineFormQueueLength": 489,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "est"
+  "WidgetRatingText": "repellat"
 }
 ```
 
@@ -168,21 +168,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 260,
-  "Name": "Johnson, Corkery and Cassin",
-  "Description": "Fully-configurable cohesive data-warehouse",
-  "WelcomeMessage": "porro",
+  "ChatTopicId": 891,
+  "Name": "Feeney-Bernier",
+  "Description": "Public-key context-sensitive implementation",
+  "WelcomeMessage": "eum",
   "Language": null,
-  "LastAccept": "2006-12-29T13:13:22.1958165+01:00",
-  "SecondsPrAccept": 262,
-  "AlertRecipient": "temporibus",
+  "LastAccept": "2007-09-07T12:01:27.3846286+02:00",
+  "SecondsPrAccept": 1002,
+  "AlertRecipient": "adipisci",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "at",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 386,
-  "WarnManagerNewChatMinutes": 802,
+  "CollectConsent": false,
+  "BadgeHeader": "voluptatem",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "totam",
+  "WarnNewChatMinutes": 977,
+  "WarnManagerNewChatMinutes": 557,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -191,20 +191,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 598,
-  "WarnManagerChatMessageMinutes": 697,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 833,
+  "WarnManagerChatMessageMinutes": 453,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 716,
-  "OfflineFormQueueLength": 387,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "non",
+  "OfflineFormTimeLimit": 579,
+  "OfflineFormQueueLength": 501,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 566
     }
   }
 }

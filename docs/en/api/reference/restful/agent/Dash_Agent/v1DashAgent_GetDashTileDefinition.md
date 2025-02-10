@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=37
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=106
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 106,
-  "Name": "Hintz LLC",
-  "Description": "Cloned zero defect project",
-  "DefaultHeight": 642,
-  "DefaultWidth": 877,
+  "DashboardTileDefinitionId": 393,
+  "Name": "Cormier Group",
+  "Description": "Profound impactful process improvement",
+  "DefaultHeight": 369,
+  "DefaultWidth": 942,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rippin-Marks",
-  "SelectionId": 839,
+  "EntityName": "Barrows Inc and Sons",
+  "SelectionId": 193,
   "CurrencyMode": "Base",
-  "CurrencyCode": "asperiores",
+  "CurrencyCode": "numquam",
   "Measure": "Average",
-  "MeasureField": "eius",
-  "SortBy": "aut",
-  "LayoutConfig": "officia",
-  "SecondarySelectionId": 660,
-  "MeasureByField": "beatae",
+  "MeasureField": "rerum",
+  "SortBy": "neque",
+  "LayoutConfig": "recusandae",
+  "SecondarySelectionId": 48,
+  "MeasureByField": "aperiam",
   "Usage": "Dashboard",
-  "ProviderName": "Kunze-Mohr",
+  "ProviderName": "Gorczany Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldLength": 827
     }
   }
 }

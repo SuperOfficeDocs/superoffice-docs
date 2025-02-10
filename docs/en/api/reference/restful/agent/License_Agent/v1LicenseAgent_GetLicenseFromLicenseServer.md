@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Weber, McCullough and Hahn"
+  "OwnerName": "Windler, Mills and Wisozk"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 446,
-      "NumberOfLicensesFree": 264,
-      "NumberOfLicensesAdded": 291,
-      "NumberOfLicensesNewTotal": 475,
-      "NumberOfLicensesNewFree": 154,
-      "NumberOfLicensesTotal": 663
+      "NumberOfLicensesInUse": 43,
+      "NumberOfLicensesFree": 596,
+      "NumberOfLicensesAdded": 902,
+      "NumberOfLicensesNewTotal": 753,
+      "NumberOfLicensesNewFree": 311,
+      "NumberOfLicensesTotal": 512
     }
   ],
-  "AccumulatedNextCheckDate": "1998-07-31T13:13:23.1802042+02:00"
+  "AccumulatedNextCheckDate": "2007-03-19T12:01:27.9159153+01:00"
 }
 ```

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 131,
-  "Name": "Fadel Group",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 140,
-  "UdListDefinitionId": 208
+  "HeadingId": 679,
+  "Name": "Gottlieb, Okuneva and Deckow",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 774,
+  "UdListDefinitionId": 235
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 822,
-  "Name": "Hauck-Funk",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 846,
-  "UdListDefinitionId": 513,
+  "HeadingId": 703,
+  "Name": "Bergstrom-Dibbert",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 443,
+  "UdListDefinitionId": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

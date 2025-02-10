@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 270
+  "PersonId": 51
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 770,
-  "Name": "Klocko, Hodkiewicz and Wilkinson",
-  "PersonId": 290,
-  "Rank": 455,
-  "Tooltip": "nisi",
+  "AssociateId": 140,
+  "Name": "Gulgowski-Kassulke",
+  "PersonId": 1000,
+  "Rank": 955,
+  "Tooltip": "dolor",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 223,
-  "FullName": "Margarette Ondricka",
-  "FormalName": "Denesik Group",
+  "GroupIdx": 433,
+  "FullName": "Vincenza Hammes",
+  "FormalName": "Block Group",
   "Deleted": false,
-  "EjUserId": 404,
-  "UserName": "Kulas-Kulas",
+  "EjUserId": 462,
+  "UserName": "Simonis-O'Connell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

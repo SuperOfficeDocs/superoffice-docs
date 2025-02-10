@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Kuvalis Inc and Sons",
-    "Tooltip": "error",
+    "Id": 262,
+    "Name": "O'Kon, Hodkiewicz and Ward",
+    "Tooltip": "ad",
     "Deleted": false,
-    "UdListDefinitionId": 643,
-    "Rank": 546
+    "UdListDefinitionId": 887,
+    "Rank": 27
   },
   {
-    "Id": 146,
-    "Name": "Kuvalis Inc and Sons",
-    "Tooltip": "error",
+    "Id": 262,
+    "Name": "O'Kon, Hodkiewicz and Ward",
+    "Tooltip": "ad",
     "Deleted": false,
-    "UdListDefinitionId": 643,
-    "Rank": 546
+    "UdListDefinitionId": 887,
+    "Rank": 27
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "White-Jaskolski",
-    "Tooltip": "labore",
-    "Deleted": true,
-    "UdListDefinitionId": 617,
-    "Rank": 280,
+    "Id": 829,
+    "Name": "Schmidt, Kerluke and Spencer",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "UdListDefinitionId": 954,
+    "Rank": 766,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

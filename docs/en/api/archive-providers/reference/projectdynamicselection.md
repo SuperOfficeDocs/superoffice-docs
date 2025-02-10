@@ -798,7 +798,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/credentialDisplayValue,projectUdef/SuperOffice:3,projectMember/personUdef/SuperOffice:9,projectMember/personUdef/SuperOffice:11,projectMember/personExtra/y_rental/x_amount
+GET /api/v1/archive/ProjectDynamicSelection?$select=sale/stalledComment,appointment/associate/fullName,document/time,document/associate/title,projectMember/useAsMailingAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

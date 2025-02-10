@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quae",
-  "ProviderName": "Homenick LLC",
-  "StorageKey": "est",
+  "StorageType": "eum",
+  "ProviderName": "Wisozk, Renner and Barrows",
+  "StorageKey": "sint",
   "StaticColumns": [
-    "et",
-    "mollitia"
+    "est",
+    "cupiditate"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Pollich-Nicolas",
-      "Operator": "ut",
+      "Name": "Rutherford LLC",
+      "Operator": "fugit",
       "Values": [
-        "consectetur",
-        "id"
+        "deserunt",
+        "et"
       ],
       "DisplayValues": [
-        "quidem",
-        "et"
+        "consequatur",
+        "unde"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 17,
+      "InterParenthesis": 170,
       "InterOperator": "And",
-      "UniqueHash": 408
+      "UniqueHash": 605
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Okuneva-Turcotte",
-      "DisplayTooltip": "earum",
-      "DisplayType": "explicabo",
-      "CanOrderBy": true,
-      "Name": "Raynor, Pfeffer and Stehr",
+      "DisplayName": "Feeney-Monahan",
+      "DisplayTooltip": "molestias",
+      "DisplayType": "qui",
+      "CanOrderBy": false,
+      "Name": "Ebert-Mills",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Vandervort LLC",
+      "RestrictionType": "mollitia",
+      "RestrictionListName": "Mann-Upton",
       "IsVisible": false,
-      "ExtraInfo": "animi",
-      "Width": "voluptas",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "ipsa"
+      "ExtraInfo": "quae",
+      "Width": "ipsam",
+      "IconHint": "autem",
+      "HeadingIconHint": "culpa"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Emmerich-Corkery",
-      "PrimaryKey": 606,
+      "EntityName": "Anderson, Kuphal and Howell",
+      "PrimaryKey": 49,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "consequatur",
-          "LinkHint": "iure"
+          "DisplayValue": "sapiente",
+          "TooltipHint": "enim",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "aperiam",
-      "StyleHint": "minus",
+      "LinkHint": "quis",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldLength": 912
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Batz Group",
-      "Description": "Distributed bottom-line array",
-      "Rank": 821,
+      "Name": "Marquardt, Glover and Schaden",
+      "Description": "Open-source object-oriented throughput",
+      "Rank": 57,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Batz Group",
-      "Description": "Distributed bottom-line array",
-      "Rank": 821,
+      "Name": "Marquardt, Glover and Schaden",
+      "Description": "Open-source object-oriented throughput",
+      "Rank": 57,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 650
     }
   }
 }

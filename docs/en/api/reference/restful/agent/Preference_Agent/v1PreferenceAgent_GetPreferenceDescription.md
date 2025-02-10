@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=326
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=865
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 278,
-  "Section": "culpa",
-  "Key": "sunt",
-  "Name": "Kilback, Upton and Wisozk",
+  "PrefDescId": 8,
+  "Section": "quaerat",
+  "Key": "ut",
+  "Name": "Mueller LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face regional core",
+  "Description": "Mandatory mission-critical contingency",
   "IsBuiltin": false,
-  "TableName": "Miller LLC",
-  "UserDefinedListId": 526,
-  "Rank": 164,
-  "SubGroup": "corrupti",
-  "MinLevel": 971,
-  "MaxValue": 421,
-  "MinValue": 390,
-  "RequiredLicense": "impedit",
+  "TableName": "Boyle-Anderson",
+  "UserDefinedListId": 770,
+  "Rank": 824,
+  "SubGroup": "possimus",
+  "MinLevel": 103,
+  "MaxValue": 291,
+  "MinValue": 783,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldLength": 602
     }
   }
 }

@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 825,
-  "Section": "porro",
-  "Key": "consequatur",
-  "Name": "Kunde Inc and Sons",
+  "PrefDescId": 96,
+  "Section": "quidem",
+  "Key": "qui",
+  "Name": "Kub Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-platform background attitude",
+  "Description": "Optimized 24/7 flexibility",
   "IsBuiltin": false,
-  "TableName": "Price-Nikolaus",
-  "UserDefinedListId": 642,
-  "Rank": 812,
-  "SubGroup": "eos",
-  "MinLevel": 161,
-  "MaxValue": 552,
-  "MinValue": 208,
-  "RequiredLicense": "dolorem",
+  "TableName": "Bechtelar Inc and Sons",
+  "UserDefinedListId": 360,
+  "Rank": 803,
+  "SubGroup": "facilis",
+  "MinLevel": 274,
+  "MaxValue": 169,
+  "MinValue": 754,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 915
     }
   },
   "_Links": {

@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 852,
-  "Name": "Rolfson-Mertz",
-  "Description": "Centralized analyzing circuit",
-  "WelcomeMessage": "ullam",
+  "ChatTopicId": 634,
+  "Name": "Lesch-Schimmel",
+  "Description": "Advanced contextually-based installation",
+  "WelcomeMessage": "consequuntur",
   "Language": null,
-  "LastAccept": "2002-06-20T13:13:31.4333046+02:00",
-  "SecondsPrAccept": 662,
-  "AlertRecipient": "alias",
+  "LastAccept": "2001-07-06T12:01:32.745675+02:00",
+  "SecondsPrAccept": 549,
+  "AlertRecipient": "officiis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "delectus",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "dolorem",
-  "WarnNewChatMinutes": 974,
-  "WarnManagerNewChatMinutes": 326,
-  "TicketEnabled": false,
+  "BadgeHeader": "aut",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "similique",
+  "WarnNewChatMinutes": 321,
+  "WarnManagerNewChatMinutes": 81,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 360,
-  "WarnManagerChatMessageMinutes": 437,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 724,
-  "OfflineFormQueueLength": 523,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "iste"
+  "WarnChatMessageMinutes": 361,
+  "WarnManagerChatMessageMinutes": 208,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 271,
+  "OfflineFormQueueLength": 691,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "labore"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 508,
-  "Name": "Upton-Murphy",
-  "Description": "Fundamental dynamic flexibility",
-  "WelcomeMessage": "dolorum",
+  "ChatTopicId": 400,
+  "Name": "Haag-Osinski",
+  "Description": "Profit-focused clear-thinking monitoring",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2005-10-08T13:13:31.4333046+02:00",
-  "SecondsPrAccept": 837,
-  "AlertRecipient": "ut",
+  "LastAccept": "2006-12-22T12:01:32.7613009+01:00",
+  "SecondsPrAccept": 398,
+  "AlertRecipient": "aliquam",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "minus",
+  "CollectConsent": false,
+  "BadgeHeader": "cumque",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "a",
-  "WarnNewChatMinutes": 260,
-  "WarnManagerNewChatMinutes": 407,
-  "TicketEnabled": false,
+  "CustomQueueText": "culpa",
+  "WarnNewChatMinutes": 775,
+  "WarnManagerNewChatMinutes": 353,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 757,
-  "WarnManagerChatMessageMinutes": 736,
+  "WarnChatMessageMinutes": 871,
+  "WarnManagerChatMessageMinutes": 13,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 845,
-  "OfflineFormQueueLength": 151,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "quo",
+  "OfflineFormTimeLimit": 130,
+  "OfflineFormQueueLength": 925,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

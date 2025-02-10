@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolf, Weissnat and West",
-  "BinaryObjectId": 480
+  "TableName": "Kuhic, Spinka and Tillman",
+  "BinaryObjectId": 635
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laboriosam"
+"numquam"
 ```

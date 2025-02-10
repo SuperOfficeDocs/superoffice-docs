@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "dolores"
+  "Domain": "quae"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Haley Inc and Sons",
-    "SoPrimaryKey": 878,
-    "EntryName": "Ebert LLC",
-    "EntryIdentifier": "blanditiis",
-    "RuleDisplayName": "Mayert Inc and Sons",
+    "RuleName": "Treutel-Moen",
+    "SoPrimaryKey": 60,
+    "EntryName": "Doyle, Lemke and Bartoletti",
+    "EntryIdentifier": "provident",
+    "RuleDisplayName": "Rath, Johnson and Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

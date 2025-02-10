@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Nikolaus, Kreiger and Cartwright",
-    "ToolTip": "Esse quia est vel.",
-    "Deleted": true,
-    "Rank": 897,
-    "Type": "veniam",
-    "ColorBlock": 985,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2012-07-27T13:13:33.4329262+02:00",
+    "Id": 223,
+    "Name": "Parisian, Schinner and Glover",
+    "ToolTip": "At voluptatem aliquam non possimus.",
+    "Deleted": false,
+    "Rank": 177,
+    "Type": "tempore",
+    "ColorBlock": 269,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2010-08-15T12:01:33.6051097+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Hermiston Group",
-        "ToolTip": "Et nisi in repellendus.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "voluptatem",
-        "ColorBlock": 587,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2020-09-06T13:13:33.4329262+02:00",
+        "Id": 793,
+        "Name": "Towne-Rath",
+        "ToolTip": "Consequatur dolorem autem consequatur ut possimus autem sit.",
+        "Deleted": false,
+        "Rank": 49,
+        "Type": "rerum",
+        "ColorBlock": 701,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2006-05-05T12:01:33.6051097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
+        "ExtraInfo": "nemo",
         "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Brad Davon Russel II",
+        "FullName": "Prof. Leola Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "eum",
+    "ExtraInfo": "qui",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Mr. Watson Rodriguez Sr.",
+    "FullName": "Ford Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 268
       }
     }
   }

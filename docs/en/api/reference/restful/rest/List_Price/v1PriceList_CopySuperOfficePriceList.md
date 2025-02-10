@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=05/20/2010 13:13:37
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/12/2023 13:13:37
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=847
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=08/19/1998 12:01:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/10/2019 12:01:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=573
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 623,
-  "ERPPriceListKey": "minima",
-  "QuoteConnectionId": 243,
-  "Name": "Hahn, Purdy and Schinner",
-  "Description": "Synergistic analyzing customer loyalty",
-  "Currency": "dolorum",
-  "CurrencyName": "Ankunding, Ruecker and Mayer",
-  "ValidFrom": "2021-06-04T13:13:33.2610909+02:00",
-  "ValidTo": "2021-10-15T13:13:33.2610909+02:00",
-  "IsActive": false,
+  "PriceListId": 207,
+  "ERPPriceListKey": "nihil",
+  "QuoteConnectionId": 313,
+  "Name": "Streich Group",
+  "Description": "Adaptive logistical task-force",
+  "Currency": "rerum",
+  "CurrencyName": "Botsford-Swaniawski",
+  "ValidFrom": "2001-08-15T12:01:33.5582313+02:00",
+  "ValidTo": "2019-03-10T12:01:33.5582313+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   }
 }

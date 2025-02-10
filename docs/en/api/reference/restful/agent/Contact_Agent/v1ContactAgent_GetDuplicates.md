@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jast-Reilly"
+  "Name": "Walker Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lesch-Howell",
-    "SoPrimaryKey": 740,
-    "EntryName": "Schimmel, Friesen and Witting",
-    "EntryIdentifier": "voluptatum",
-    "RuleDisplayName": "Hoeger, Sporer and Veum",
+    "RuleName": "Welch-Schneider",
+    "SoPrimaryKey": 310,
+    "EntryName": "Cruickshank-Hartmann",
+    "EntryIdentifier": "sit",
+    "RuleDisplayName": "Schmidt-Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

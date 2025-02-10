@@ -28,7 +28,7 @@ Gets a ServiceAuth object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=827
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=448
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/User/GetServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 68,
-  "Server": "ut",
-  "Port": 432,
-  "AuthType": "totam",
-  "Username": "dicta",
-  "Password": "dicta",
+  "ServiceAuthId": 635,
+  "Server": "natus",
+  "Port": 695,
+  "AuthType": "ut",
+  "Username": "aperiam",
+  "Password": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 611
     }
   }
 }

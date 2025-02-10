@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/User/DeleteUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Hagenes, Swaniawski and Hilpert"
+  "UserName": "Russel Inc and Sons"
 }
 ```
 

@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 667,
-  "StartTime": "2005-07-22T13:13:21.5397229+02:00",
-  "EndTime": "2003-09-21T13:13:21.5397229+02:00",
-  "Count": 226,
+  "ContactId": 640,
+  "StartTime": "2013-09-23T12:01:27.0095855+02:00",
+  "EndTime": "2008-01-03T12:01:27.0095855+01:00",
+  "Count": 545,
   "TaskIds": [
-    510,
-    833
+    162,
+    660
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 764,
-    "StartDate": "1998-02-09T13:13:21.5397229+01:00",
-    "EndDate": "2015-03-13T13:13:21.5397229+01:00",
+    "AppointmentId": 247,
+    "StartDate": "2012-12-31T12:01:27.0095855+01:00",
+    "EndDate": "2000-07-20T12:01:27.0095855+02:00",
     "Type": "BookingForChecklist",
-    "Task": "deleniti",
-    "AssociateFullName": "Lucie Cummerata Jr.",
-    "ContactName": "Purdy, Mayert and Klocko",
-    "Description": "Balanced content-based moderator",
-    "PersonFullName": "Ms. Skyla VonRueden",
-    "PersonId": 874,
-    "ContactId": 167,
-    "ProjectId": 742,
-    "ProjectName": "Roberts-Halvorson",
-    "IsPublished": true,
-    "AssociateId": 829,
-    "ColorIndex": 106,
-    "IsFree": false,
+    "Task": "vero",
+    "AssociateFullName": "Mrs. Asa Murray I",
+    "ContactName": "Hoeger-Barrows",
+    "Description": "Synergized foreground moderator",
+    "PersonFullName": "Nikko Welch",
+    "PersonId": 822,
+    "ContactId": 749,
+    "ProjectId": 458,
+    "ProjectName": "Dicki, Huel and Roberts",
+    "IsPublished": false,
+    "AssociateId": 485,
+    "ColorIndex": 111,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Satterfield Group",
+    "PriorityId": 658,
+    "PriorityName": "Pfannerstill-Schimmel",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2020-03-15T13:13:21.5397229+01:00",
+    "ActiveDate": "2024-11-04T12:01:27.0095855+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-10-30T13:13:21.5397229+01:00",
-    "RecurringEndDate": "2011-08-27T13:13:21.5397229+02:00",
-    "MotherId": 779,
-    "AssignedBy": 265,
-    "AssignedByFullName": "Cora Roob",
-    "RejectReason": "morph synergistic functionalities",
-    "Location": "omnis",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 982,
-    "SaleName": "Koss, Lynch and Gutmann",
-    "AssociateName": "Upton, Trantow and Bernhard",
-    "CreatedDate": "2010-07-07T13:13:21.5397229+02:00",
-    "CreatedBy": "natus",
-    "CreatedByFullName": "Prof. Edwardo Tiffany Smith",
-    "CreatedByAssociateId": 48,
+    "RecurringStartDate": "2015-04-02T12:01:27.0095855+02:00",
+    "RecurringEndDate": "2017-06-08T12:01:27.0095855+02:00",
+    "MotherId": 636,
+    "AssignedBy": 182,
+    "AssignedByFullName": "Domingo Waters",
+    "RejectReason": "",
+    "Location": "aliquid",
+    "AlarmLeadTime": "sit",
+    "SaleId": 113,
+    "SaleName": "Nienow, Ritchie and Blanda",
+    "AssociateName": "Konopelski LLC",
+    "CreatedDate": "2015-07-30T12:01:27.0095855+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Jaycee Steuber",
+    "CreatedByAssociateId": 699,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 130,
-    "Title": "est",
-    "Agenda": "atque",
-    "InternalNotes": "asperiores",
+    "PreferredTZLocation": 178,
+    "Title": "laboriosam",
+    "Agenda": "doloremque",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

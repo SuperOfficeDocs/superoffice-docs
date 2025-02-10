@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Beahan-Padberg",
-    "Tooltip": "excepturi",
+    "Id": 120,
+    "Name": "Emard, Kunze and Strosin",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "UdListDefinitionId": 855,
-    "Rank": 821
+    "UdListDefinitionId": 938,
+    "Rank": 243
   },
   {
-    "Id": 882,
-    "Name": "Beahan-Padberg",
-    "Tooltip": "excepturi",
+    "Id": 120,
+    "Name": "Emard, Kunze and Strosin",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "UdListDefinitionId": 855,
-    "Rank": 821
+    "UdListDefinitionId": 938,
+    "Rank": 243
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Lowe, Windler and Farrell",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 893,
-    "Rank": 906,
+    "Id": 546,
+    "Name": "D'Amore, Keeling and Stroman",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "UdListDefinitionId": 61,
+    "Rank": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 953
       }
     }
   }

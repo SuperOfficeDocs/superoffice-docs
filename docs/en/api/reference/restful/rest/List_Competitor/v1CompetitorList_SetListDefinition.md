@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Padberg-Ullrich",
-  "Tooltip": "amet",
+  "Id": 475,
+  "Name": "Emmerich LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 234,
-  "IsCustomList": true,
+  "Rank": 490,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "natus",
-  "InUseByUserDefinedFields": true
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Tillman Group",
-  "Tooltip": "rerum",
+  "Id": 959,
+  "Name": "Feest, Jewess and Schroeder",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 474,
+  "Rank": 802,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

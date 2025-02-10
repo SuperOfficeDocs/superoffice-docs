@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 704,
-  "Name": "Kling-Rath",
-  "Tooltip": "impedit",
-  "Deleted": true,
-  "UdListDefinitionId": 683,
-  "Rank": 17,
+  "Id": 202,
+  "Name": "Kiehn Group",
+  "Tooltip": "natus",
+  "Deleted": false,
+  "UdListDefinitionId": 209,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

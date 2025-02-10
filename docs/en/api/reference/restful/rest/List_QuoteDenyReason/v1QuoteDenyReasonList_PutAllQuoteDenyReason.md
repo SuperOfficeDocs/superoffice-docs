@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "accusamus",
-    "Deleted": true,
-    "UdListDefinitionId": 761,
-    "Rank": 187
+    "Id": 98,
+    "Name": "Gutmann Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "UdListDefinitionId": 14,
+    "Rank": 673
   },
   {
-    "Id": 748,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "accusamus",
-    "Deleted": true,
-    "UdListDefinitionId": 761,
-    "Rank": 187
+    "Id": 98,
+    "Name": "Gutmann Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "UdListDefinitionId": 14,
+    "Rank": 673
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Romaguera, Grady and Larson",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 77,
-    "Rank": 569,
+    "Id": 904,
+    "Name": "Wuckert-Legros",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "UdListDefinitionId": 723,
+    "Rank": 145,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Pagac Inc and Sons",
-    "ToolTip": "Et provident.",
+    "Id": 281,
+    "Name": "Bogan-Kovacek",
+    "ToolTip": "Eaque sit consequuntur accusamus facere ad quo sunt.",
     "Deleted": true,
-    "Rank": 746,
-    "Type": "ut",
-    "ColorBlock": 888,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2016-02-01T13:13:32.9486673+01:00",
+    "Rank": 813,
+    "Type": "fugit",
+    "ColorBlock": 897,
+    "IconHint": "excepturi",
+    "Selected": false,
+    "LastChanged": "2024-01-18T12:01:33.4644748+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Shanahan, Cartwright and Kautzer",
-        "ToolTip": "Officiis enim consequatur sit non temporibus.",
+        "Id": 894,
+        "Name": "Bartoletti-Kling",
+        "ToolTip": "Facere ea necessitatibus voluptatum omnis ea.",
         "Deleted": false,
-        "Rank": 432,
-        "Type": "eligendi",
-        "ColorBlock": 851,
-        "IconHint": "non",
+        "Rank": 117,
+        "Type": "voluptates",
+        "ColorBlock": 873,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2017-09-25T13:13:32.9486673+02:00",
+        "LastChanged": "2020-12-04T12:01:33.4644748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Destin Jewess",
+        "ExtraInfo": "libero",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Kiana Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 490
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Kavon King Sr.",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Dr. Fabian Nathanael Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldType": "System.String",
+        "FieldLength": 274
       }
     }
   }

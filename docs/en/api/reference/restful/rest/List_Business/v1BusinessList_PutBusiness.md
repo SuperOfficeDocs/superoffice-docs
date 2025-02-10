@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Hodkiewicz, Weimann and Gulgowski",
+  "Id": 205,
+  "Name": "Ernser-Pagac",
   "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 532,
-  "Rank": 3
+  "UdListDefinitionId": 368,
+  "Rank": 160
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Champlin, Lakin and Kub",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "UdListDefinitionId": 847,
-  "Rank": 488,
+  "Id": 528,
+  "Name": "Stokes Group",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "UdListDefinitionId": 990,
+  "Rank": 569,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   }
 }

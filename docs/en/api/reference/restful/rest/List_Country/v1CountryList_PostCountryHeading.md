@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 285,
-  "Name": "Heidenreich LLC",
-  "Tooltip": "voluptates",
+  "HeadingId": 799,
+  "Name": "Mante, Schmidt and Adams",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 184,
-  "UdListDefinitionId": 614
+  "Rank": 630,
+  "UdListDefinitionId": 524
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 821,
-  "Name": "Mills Group",
-  "Tooltip": "veritatis",
+  "HeadingId": 639,
+  "Name": "Breitenberg-McKenzie",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 723,
-  "UdListDefinitionId": 237,
+  "Rank": 896,
+  "UdListDefinitionId": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

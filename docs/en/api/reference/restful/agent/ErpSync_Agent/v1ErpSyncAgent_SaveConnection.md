@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 610,
-  "ErpConnectorId": 615,
-  "DisplayName": "Bauch, Will and Wisoky",
-  "DisplayDescription": "Business-focused methodical neural-net",
-  "Active": false,
-  "ConnectionId": "veniam",
-  "MostRecentTimestamp": "unde",
+  "ErpConnectionId": 649,
+  "ErpConnectorId": 724,
+  "DisplayName": "Wisozk-Glover",
+  "DisplayDescription": "Re-contextualized even-keeled model",
+  "Active": true,
+  "ConnectionId": "recusandae",
+  "MostRecentTimestamp": "aut",
   "ConfigFields": {
-    "ConfigFields1": "beatae",
-    "ConfigFields2": "et"
+    "ConfigFields1": "cumque",
+    "ConfigFields2": "delectus"
   },
   "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    542,
-    345
+    301,
+    937
   ],
   "AssociateAccessIds": [
-    421,
-    353
+    437,
+    424
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 578
     }
   }
 }

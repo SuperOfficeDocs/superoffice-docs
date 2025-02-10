@@ -93,9 +93,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stroman, Schulist and Osinski",
-  "ListItemId": 494,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Ernser, Schowalter and Torphy",
+  "ListItemId": 347,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Botsford-Cormier",
-    "ToolTip": "Dolor est.",
-    "Deleted": false,
-    "Rank": 228,
-    "Type": "expedita",
-    "ColorBlock": 81,
-    "IconHint": "omnis",
+    "Id": 697,
+    "Name": "Lubowitz, Ebert and Kertzmann",
+    "ToolTip": "Deleniti facere et et.",
+    "Deleted": true,
+    "Rank": 679,
+    "Type": "ea",
+    "ColorBlock": 679,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2006-11-21T13:13:23.2583064+01:00",
+    "LastChanged": "2018-07-31T12:01:27.9471677+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Schoen, Huels and Balistreri",
-        "ToolTip": "Qui quod.",
+        "Id": 405,
+        "Name": "Cummerata, McLaughlin and Jast",
+        "ToolTip": "Impedit debitis nihil blanditiis architecto.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "adipisci",
-        "ColorBlock": 93,
-        "IconHint": "totam",
+        "Rank": 94,
+        "Type": "tempora",
+        "ColorBlock": 787,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2019-11-20T13:13:23.2583064+01:00",
+        "LastChanged": "2001-08-12T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "atque",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Verdie Jaskolski",
+        "FullName": "Loy Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "ullam",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Mrs. Luis Alberta Rice",
+    "FullName": "Virgie Aiden Green I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldLength": 696
       }
     }
   }

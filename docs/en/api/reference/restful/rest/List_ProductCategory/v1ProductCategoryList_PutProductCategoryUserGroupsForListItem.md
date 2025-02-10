@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Rogahn Group",
-    "ToolTip": "Corporis temporibus amet voluptatem perferendis ea quibusdam consequuntur.",
-    "Deleted": false,
-    "Rank": 186,
-    "Type": "dolorum",
-    "ColorBlock": 440,
-    "IconHint": "sed",
+    "Id": 826,
+    "Name": "Jacobs Inc and Sons",
+    "ToolTip": "Et reiciendis reprehenderit et totam.",
+    "Deleted": true,
+    "Rank": 627,
+    "Type": "est",
+    "ColorBlock": 540,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2021-05-26T13:13:33.2923352+02:00",
+    "LastChanged": "2022-11-11T12:01:33.5738574+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Kuphal, Halvorson and Waters",
-        "ToolTip": "Maxime nobis.",
-        "Deleted": false,
-        "Rank": 651,
-        "Type": "eum",
-        "ColorBlock": 775,
-        "IconHint": "aliquam",
+        "Id": 71,
+        "Name": "Jaskolski, O'Keefe and Sauer",
+        "ToolTip": "Occaecati cumque aut soluta voluptas suscipit neque voluptatum.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "nulla",
+        "ColorBlock": 538,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2007-11-19T13:13:33.2923352+01:00",
+        "LastChanged": "2018-08-05T12:01:33.5738574+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quasi",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Lucienne Murazik"
+        "FullName": "Dr. Felicia Cartwright MD"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Alexys Ankunding Jr."
+    "ExtraInfo": "eveniet",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Sanford Kulas"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Wuckert LLC",
-    "ToolTip": "Quasi aut ex dolore placeat est.",
-    "Deleted": false,
-    "Rank": 594,
-    "Type": "voluptas",
-    "ColorBlock": 881,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2022-05-27T13:13:33.2923352+02:00",
+    "Id": 851,
+    "Name": "Buckridge-Ortiz",
+    "ToolTip": "Necessitatibus error necessitatibus ratione.",
+    "Deleted": true,
+    "Rank": 433,
+    "Type": "consequatur",
+    "ColorBlock": 223,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2019-04-21T12:01:33.5738574+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Reynolds, Cummings and Daniel",
-        "ToolTip": "Ipsa consequatur laboriosam fugit ea.",
-        "Deleted": true,
-        "Rank": 540,
-        "Type": "optio",
-        "ColorBlock": 826,
-        "IconHint": "modi",
+        "Id": 789,
+        "Name": "Auer, Wisoky and Reichel",
+        "ToolTip": "Numquam voluptate sed eaque ipsa et maiores aut.",
+        "Deleted": false,
+        "Rank": 371,
+        "Type": "consequatur",
+        "ColorBlock": 228,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2018-06-14T13:13:33.2923352+02:00",
+        "LastChanged": "2007-04-29T12:01:33.5738574+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Prof. Genevieve Lesley Simonis PhD",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "magni",
+        "Hidden": false,
+        "FullName": "Kyle Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 565
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "quam",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Mr. Adrain Hills",
+    "FullName": "Sean Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 860
       }
     }
   }

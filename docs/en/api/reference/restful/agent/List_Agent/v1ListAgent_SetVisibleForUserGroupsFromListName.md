@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wilkinson, Daugherty and Hintz",
-  "ListItemId": 818,
+  "UdListDefinitionName": "Aufderhar-Feeney",
+  "ListItemId": 250,
   "UserGroups": [
     {
-      "Id": 719,
-      "Name": "Larkin-Rogahn",
-      "ToolTip": "Aut odio illo iure sed tenetur quod.",
-      "Deleted": false,
-      "Rank": 831,
-      "Type": "eos",
-      "ColorBlock": 830,
-      "IconHint": "est",
-      "Selected": false,
-      "LastChanged": "2016-02-18T13:13:23.2583064+01:00",
+      "Id": 296,
+      "Name": "Zemlak Group",
+      "ToolTip": "Est sed consequatur non non quia.",
+      "Deleted": true,
+      "Rank": 92,
+      "Type": "autem",
+      "ColorBlock": 3,
+      "IconHint": "sit",
+      "Selected": true,
+      "LastChanged": "2008-06-23T12:01:27.9471677+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "odio",
-      "Hidden": true,
-      "FullName": "Tiara Lehner"
+      "ExtraInfo": "eos",
+      "StyleHint": "provident",
+      "Hidden": false,
+      "FullName": "Dr. Stan Fernando Lindgren Jr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Cartwright-Zemlak",
-    "ToolTip": "Voluptatem sint sint veritatis suscipit quia.",
+    "Id": 263,
+    "Name": "Kunde, Spencer and Wiegand",
+    "ToolTip": "Quia laudantium sed assumenda et.",
     "Deleted": false,
-    "Rank": 52,
-    "Type": "id",
-    "ColorBlock": 902,
-    "IconHint": "sequi",
+    "Rank": 693,
+    "Type": "voluptatem",
+    "ColorBlock": 587,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2010-02-09T13:13:23.2583064+01:00",
+    "LastChanged": "2024-02-26T12:01:27.9471677+01:00",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "Schultz LLC",
-        "ToolTip": "Nihil beatae explicabo occaecati tempore saepe deleniti quo.",
+        "Id": 543,
+        "Name": "Haley-Williamson",
+        "ToolTip": "Ut quos saepe beatae dignissimos.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "quas",
-        "ColorBlock": 402,
-        "IconHint": "molestias",
+        "Rank": 721,
+        "Type": "vitae",
+        "ColorBlock": 174,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-02-11T13:13:23.2583064+01:00",
+        "LastChanged": "2002-05-14T12:01:27.9471677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "optio",
+        "ExtraInfo": "iure",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Leif Shields",
+        "FullName": "Kurtis Lemke DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 898
+            "FieldType": "System.Int32",
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "placeat",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Myrna Marjory O'Conner PhD",
+    "FullName": "Ms. August Kurtis Schuppe II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 47
       }
     }
   }

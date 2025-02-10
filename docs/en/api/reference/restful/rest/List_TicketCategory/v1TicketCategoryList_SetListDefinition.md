@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Lind-Lesch",
-  "Tooltip": "a",
-  "Deleted": true,
-  "Rank": 303,
+  "Id": 955,
+  "Name": "Auer, Hills and Price",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 96,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": false
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Jones, Rutherford and Tremblay",
-  "Tooltip": "cum",
+  "Id": 113,
+  "Name": "Gleason-Huels",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 115,
+  "Rank": 505,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

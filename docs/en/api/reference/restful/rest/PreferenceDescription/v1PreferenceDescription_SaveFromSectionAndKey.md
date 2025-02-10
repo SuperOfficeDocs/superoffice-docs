@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 554,
-  "Section": "et",
-  "Key": "veritatis",
-  "Name": "Mertz-Dach",
+  "PrefDescId": 337,
+  "Section": "dolore",
+  "Key": "molestiae",
+  "Name": "Fay-Raynor",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered clear-thinking framework",
-  "IsBuiltin": true,
-  "TableName": "Howell-Schimmel",
-  "UserDefinedListId": 867,
-  "Rank": 443,
-  "SubGroup": "ducimus",
-  "MinLevel": 326,
-  "MaxValue": 632,
-  "MinValue": 684,
-  "RequiredLicense": "earum"
+  "Description": "Monitored intermediate process improvement",
+  "IsBuiltin": false,
+  "TableName": "Herzog-Hettinger",
+  "UserDefinedListId": 381,
+  "Rank": 204,
+  "SubGroup": "pariatur",
+  "MinLevel": 253,
+  "MaxValue": 627,
+  "MinValue": 917,
+  "RequiredLicense": "veniam"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 156,
-  "Section": "pariatur",
-  "Key": "odio",
-  "Name": "Stanton-Emmerich",
+  "PrefDescId": 80,
+  "Section": "ut",
+  "Key": "sed",
+  "Name": "Bergnaum LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile system-worthy secured line",
+  "Description": "Stand-alone local database",
   "IsBuiltin": false,
-  "TableName": "Heathcote, Kuphal and Ankunding",
-  "UserDefinedListId": 132,
-  "Rank": 655,
-  "SubGroup": "occaecati",
-  "MinLevel": 324,
-  "MaxValue": 437,
-  "MinValue": 53,
-  "RequiredLicense": "sed",
+  "TableName": "Lowe-Lakin",
+  "UserDefinedListId": 283,
+  "Rank": 743,
+  "SubGroup": "consequatur",
+  "MinLevel": 987,
+  "MaxValue": 426,
+  "MinValue": 930,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

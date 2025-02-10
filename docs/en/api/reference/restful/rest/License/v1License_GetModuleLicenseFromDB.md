@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ward-Weber",
-  "ModuleName": "Hyatt-Williamson",
-  "ModuleDescription": "Robust fresh-thinking flexibility",
-  "ModuleTooltip": "enim",
-  "ModuleVersion": "et",
+  "OwnerName": "Zieme Inc and Sons",
+  "ModuleName": "Hoppe-Nolan",
+  "ModuleDescription": "Polarised web-enabled throughput",
+  "ModuleTooltip": "porro",
+  "ModuleVersion": "quos",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 927,
-  "ExtraFlags": 392,
-  "ExtraInfo": "expedita",
-  "SortOrder": 907,
+  "NumberOfLicenses": 186,
+  "ExtraFlags": 413,
+  "ExtraInfo": "laborum",
+  "SortOrder": 711,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Pagac, Lindgren and Abbott",
-  "Signature": "reiciendis"
+  "PrerequisiteModuleName": "Volkman-Hansen",
+  "Signature": "eum"
 }
 ```

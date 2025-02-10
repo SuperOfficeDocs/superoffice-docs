@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "autem",
+  "RawValue": "voluptates",
   "Specification": null,
-  "DisplayValue": "consequatur",
-  "DisplayTooltip": "et",
+  "DisplayValue": "ex",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 679,
-  "PrefDescId": 365,
-  "TableName": "Mante-Parisian",
-  "UserPreferenceId": 572
+  "TargetId": 248,
+  "PrefDescId": 127,
+  "TableName": "Crona-White",
+  "UserPreferenceId": 376
 }
 ```
 

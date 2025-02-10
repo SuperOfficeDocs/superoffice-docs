@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Kris Group",
-    "ToolTip": "Aut voluptates eum.",
-    "Deleted": false,
-    "Rank": 204,
-    "Type": "placeat",
-    "ColorBlock": 894,
-    "IconHint": "recusandae",
+    "Id": 98,
+    "Name": "Dietrich-Will",
+    "ToolTip": "Ab sint possimus laudantium et eius dolorem.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "eligendi",
+    "ColorBlock": 826,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2017-10-23T13:13:33.2298506+02:00",
+    "LastChanged": "2001-11-30T12:01:33.5582313+01:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Towne LLC",
-        "ToolTip": "Doloremque optio maxime omnis nisi et vero.",
+        "Id": 646,
+        "Name": "Raynor, Bernier and Murray",
+        "ToolTip": "Non voluptatem est recusandae nostrum dolorem alias.",
         "Deleted": true,
-        "Rank": 904,
-        "Type": "ad",
-        "ColorBlock": 433,
-        "IconHint": "tempore",
+        "Rank": 887,
+        "Type": "enim",
+        "ColorBlock": 398,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2010-10-22T13:13:33.2298506+02:00",
+        "LastChanged": "2001-12-27T12:01:33.5582313+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Cassandre Greenholt",
+        "ExtraInfo": "quia",
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Tabitha Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldType": "System.String",
+            "FieldLength": 895
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ea",
+    "ExtraInfo": "tempora",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Pinkie Laverna Abernathy DVM",
+    "FullName": "George Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

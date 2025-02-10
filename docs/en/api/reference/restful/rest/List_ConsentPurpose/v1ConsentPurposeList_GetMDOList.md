@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
+GET /api/v1/List/ConsentPurpose/MDOItems?query=quo
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Wisozk, Kertzmann and Ankunding",
-    "ToolTip": "Id in laudantium laboriosam est et dolorem.",
+    "Id": 313,
+    "Name": "Gaylord-Pacocha",
+    "ToolTip": "Aut similique neque officiis quia id provident.",
     "Deleted": false,
-    "Rank": 189,
-    "Type": "amet",
+    "Rank": 866,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Halvorson Inc and Sons",
-        "ToolTip": "Quo iure dolores iure.",
+        "Id": 600,
+        "Name": "Wyman-Walker",
+        "ToolTip": "Mollitia soluta repellat et magnam pariatur perferendis repellat.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "repudiandae",
+        "Rank": 262,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 973,
-        "ExtraInfo": "hic",
-        "StyleHint": "eaque",
-        "FullName": "Jovan Kreiger",
+        "IconHint": "omnis",
+        "ColorBlock": 353,
+        "ExtraInfo": "inventore",
+        "StyleHint": "vel",
+        "FullName": "Ulices Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldType": "System.String",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 33,
-    "ExtraInfo": "vel",
-    "StyleHint": "quos",
-    "FullName": "Lavern Gislason",
+    "IconHint": "et",
+    "ColorBlock": 217,
+    "ExtraInfo": "eos",
+    "StyleHint": "nam",
+    "FullName": "Prof. Leo Jerome Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldType": "System.Int32",
+        "FieldLength": 140
       }
     }
   }

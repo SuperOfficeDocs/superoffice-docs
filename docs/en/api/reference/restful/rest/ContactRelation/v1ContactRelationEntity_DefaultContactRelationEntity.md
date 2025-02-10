@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Nov 1997 13:13:31 G11T
+Last-Modified: Wed, 30 Apr 2008 12:01:32 G4T
 
 {
-  "SourceContactId": 699,
-  "SourcePersonId": 630,
-  "DestinationContactId": 281,
-  "DestinationPersonId": 588,
-  "RelationId": 672,
-  "Comment": "earum",
-  "RelationDefinitionId": 822,
-  "Reversed": 480,
-  "UpdatedDate": "1997-11-19T13:13:31.5895173+01:00",
-  "CreatedDate": "2015-05-03T13:13:31.5895173+02:00",
+  "SourceContactId": 315,
+  "SourcePersonId": 443,
+  "DestinationContactId": 852,
+  "DestinationPersonId": 447,
+  "RelationId": 657,
+  "Comment": "velit",
+  "RelationDefinitionId": 162,
+  "Reversed": 785,
+  "UpdatedDate": "2008-04-30T12:01:32.8394314+02:00",
+  "CreatedDate": "2008-12-30T12:01:32.8394314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Veum, Bailey and Jacobs",
-  "SourcePersonName": "Legros Inc and Sons",
-  "DestinationContactName": "Davis Group",
-  "DestinationPersonName": "Mraz, Deckow and Zemlak",
-  "ActiveText": "ut",
-  "PassiveText": "dolore",
+  "SourceContactName": "Heller-Morar",
+  "SourcePersonName": "Dickinson Group",
+  "DestinationContactName": "Huels Group",
+  "DestinationPersonName": "Haley, Leannon and Hoppe",
+  "ActiveText": "dolor",
+  "PassiveText": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 135
     }
   }
 }

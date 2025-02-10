@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Klocko-Connelly",
-    "ToolTip": "Ipsa necessitatibus dicta numquam impedit.",
+    "Id": 137,
+    "Name": "Stanton-Casper",
+    "ToolTip": "Enim dolorem doloribus.",
     "Deleted": false,
-    "Rank": 151,
-    "Type": "sunt",
-    "ColorBlock": 894,
-    "IconHint": "modi",
+    "Rank": 628,
+    "Type": "iure",
+    "ColorBlock": 628,
+    "IconHint": "fugit",
     "Selected": true,
-    "LastChanged": "2024-12-23T13:13:33.3391989+01:00",
+    "LastChanged": "1999-09-08T12:01:33.5894836+02:00",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Morar-Gleason",
-        "ToolTip": "Maxime animi qui similique qui.",
+        "Id": 191,
+        "Name": "Schoen, Padberg and Klein",
+        "ToolTip": "Voluptatum non.",
         "Deleted": false,
-        "Rank": 619,
-        "Type": "totam",
-        "ColorBlock": 302,
-        "IconHint": "ad",
+        "Rank": 403,
+        "Type": "voluptatem",
+        "ColorBlock": 718,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2021-10-10T13:13:33.3391989+02:00",
+        "LastChanged": "2001-01-13T12:01:33.5894836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
+        "ExtraInfo": "voluptatem",
         "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Mrs. Camila Mann",
+        "Hidden": false,
+        "FullName": "Andres Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 311
+            "FieldType": "System.Int32",
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Zoila Barton Nicolas III",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Mr. Enoch Lila Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 21
       }
     }
   }

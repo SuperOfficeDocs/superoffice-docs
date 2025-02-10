@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Trantow, O'Conner and Glover",
-  "Tooltip": "optio",
+  "Id": 844,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 414,
+  "Rank": 945,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "magni",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 212
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

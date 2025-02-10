@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 483,
-  "Name": "Maggio Inc and Sons",
-  "Tooltip": "possimus",
+  "RoleId": 741,
+  "Name": "Hills, Baumbach and Bogan",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 406,
-  "Rank": 678,
-  "Created": "2008-02-15T13:13:24.4621693+01:00",
-  "UseCategories": 190,
+  "Deleted": 69,
+  "Rank": 668,
+  "Created": "2015-06-15T12:01:28.5722109+02:00",
+  "UseCategories": 800,
   "CreatedBy": null,
-  "Updated": "1999-02-10T13:13:24.4621693+01:00",
+  "Updated": "2023-06-14T12:01:28.5722109+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   }
 }

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rippin Inc and Sons",
-    "Records": 344,
+    "EntityName": "Bayer-Gerhold",
+    "Records": 741,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 610
       }
     }
   },
   {
-    "EntityName": "Rippin Inc and Sons",
-    "Records": 344,
+    "EntityName": "Bayer-Gerhold",
+    "Records": 741,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 610
       }
     }
   }

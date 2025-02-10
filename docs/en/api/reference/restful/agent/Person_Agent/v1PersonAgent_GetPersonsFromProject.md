@@ -103,6 +103,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -116,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 201
+  "ProjectId": 330
 }
 ```
 
@@ -128,52 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 243,
-    "Mrmrs": "modi",
-    "Firstname": "Freda",
-    "Lastname": "Gaylord",
-    "MiddleName": "Hilpert Group",
-    "Title": "nemo",
-    "Description": "Business-focused global middleware",
-    "Email": "allison@crooksbarton.info",
-    "FullName": "Francesca Reinger",
-    "DirectPhone": "676-931-0570 x936",
-    "FormalName": "Volkman Group",
-    "CountryId": 398,
-    "ContactId": 12,
-    "ContactName": "Schoen Inc and Sons",
-    "Retired": 758,
-    "Rank": 57,
-    "ActiveInterests": 517,
+    "Position": "officiis",
+    "PersonId": 976,
+    "Mrmrs": "illum",
+    "Firstname": "Olga",
+    "Lastname": "Considine",
+    "MiddleName": "Kuphal LLC",
+    "Title": "omnis",
+    "Description": "User-centric bandwidth-monitored collaboration",
+    "Email": "justen.stamm@kerlukehammes.uk",
+    "FullName": "Mohamed Osinski",
+    "DirectPhone": "552-485-4703 x36510",
+    "FormalName": "Champlin, King and Wolf",
+    "CountryId": 500,
+    "ContactId": 646,
+    "ContactName": "Dooley LLC",
+    "Retired": 992,
+    "Rank": 245,
+    "ActiveInterests": 518,
     "ContactDepartment": "",
-    "ContactCountryId": 101,
-    "ContactOrgNr": "1278212",
-    "FaxPhone": "425-468-6867",
-    "MobilePhone": "074.837.8811 x562",
-    "ContactPhone": "580.183.4527 x0636",
-    "AssociateName": "Effertz Group",
-    "AssociateId": 285,
-    "UsePersonAddress": false,
-    "ContactFax": "assumenda",
-    "Kanafname": "alias",
-    "Kanalname": "eligendi",
-    "Post1": "voluptatum",
-    "Post2": "sit",
-    "Post3": "ea",
-    "EmailName": "brayan_herzog@conroy.biz",
-    "ContactFullName": "Monty Brakus",
-    "ActiveErpLinks": 49,
-    "TicketPriorityId": 492,
-    "SupportLanguageId": 220,
-    "SupportAssociateId": 464,
+    "ContactCountryId": 492,
+    "ContactOrgNr": "522381",
+    "FaxPhone": "579.309.5407",
+    "MobilePhone": "1-245-105-4940 x4988",
+    "ContactPhone": "411-027-9810 x46351",
+    "AssociateName": "Nicolas-O'Keefe",
+    "AssociateId": 922,
+    "UsePersonAddress": true,
+    "ContactFax": "nobis",
+    "Kanafname": "reprehenderit",
+    "Kanalname": "ducimus",
+    "Post1": "quo",
+    "Post2": "eum",
+    "Post3": "quae",
+    "EmailName": "anthony@carroll.us",
+    "ContactFullName": "Laurence Larkin",
+    "ActiveErpLinks": 121,
+    "TicketPriorityId": 402,
+    "SupportLanguageId": 463,
+    "SupportAssociateId": 543,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "859480",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

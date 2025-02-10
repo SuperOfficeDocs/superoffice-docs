@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 118,
+  "AppointmentId": 378,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-01-17T13:13:21.9302549+01:00",
-  "AppointmentId": 943,
-  "Description": "Reactive 6th generation focus group",
-  "Title": "assumenda",
-  "Agenda": "quo",
-  "InternalNotes": "explicabo",
-  "StartDate": "2017-04-27T13:13:21.9302549+02:00",
-  "EndDate": "2014-02-07T13:13:21.9302549+01:00",
+  "CreatedDate": "2006-08-12T12:01:27.2439933+02:00",
+  "AppointmentId": 364,
+  "Description": "Multi-layered actuating matrix",
+  "Title": "dicta",
+  "Agenda": "molestiae",
+  "InternalNotes": "esse",
+  "StartDate": "2015-12-19T12:01:27.2439933+01:00",
+  "EndDate": "2012-08-23T12:01:27.2439933+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 348,
+  "MotherId": 52,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-07-22T13:13:21.9302549+02:00",
+  "UpdatedDate": "2006-12-20T12:01:27.2439933+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 76,
+  "ActiveLinks": 297,
   "Links": [
     {
-      "EntityName": "Hauck, Hayes and Littel",
-      "Id": 806,
-      "Description": "Polarised 24 hour methodology",
-      "ExtraInfo": "placeat",
-      "LinkId": 562,
+      "EntityName": "Graham Group",
+      "Id": 568,
+      "Description": "Customer-focused local framework",
+      "ExtraInfo": "sit",
+      "LinkId": 52,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 512
         }
       }
     }
   ],
-  "AlarmLeadTime": "nulla",
+  "AlarmLeadTime": "voluptatum",
   "HasAlarm": false,
-  "ColorIndex": 336,
-  "IsFree": true,
+  "ColorIndex": 864,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "magnam",
-  "LeadTime": "aut",
-  "Location": "qui",
-  "RejectCounter": 861,
+  "LagTime": "autem",
+  "LeadTime": "mollitia",
+  "Location": "a",
+  "RejectCounter": 382,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 322,
-      "PersonId": 555,
-      "ContactId": 585,
-      "EmailId": 459,
-      "SendEmail": false,
+      "AssociateId": 712,
+      "PersonId": 800,
+      "ContactId": 420,
+      "EmailId": 308,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "stephany_thiel@nikolausmuller.uk",
-      "Description": "Proactive interactive local area network"
+      "EmailAddress": "americo_davis@murrayvon.info",
+      "Description": "Total encompassing infrastructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-07-09T13:13:21.9302549+02:00",
+  "ActiveDate": "2004-07-07T12:01:27.2439933+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 672,
+  "PreferredTZLocation": 281,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 962,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 122,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "officiis",
+  "CentralserviceVideomeetId": "voluptas",
   "UserDefinedFields": {
-    "SuperOffice:1": "Stanley Hickle",
-    "SuperOffice:2": "Charlene Moore"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "618777955"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
     "CustomFields1": "quia",
-    "CustomFields2": "quibusdam"
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2002-02-18T13:13:21.9302549+01:00",
-  "PublishTo": "2018-10-20T13:13:21.9302549+02:00",
-  "PublishFrom": "2016-02-06T13:13:21.9302549+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-03-27T12:01:27.2439933+02:00",
+  "PublishTo": "2019-06-06T12:01:27.2439933+02:00",
+  "PublishFrom": "2001-10-31T12:01:27.2439933+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 210,
+      "VisibleId": 96,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 516
         }
       }
     },
     {
-      "VisibleId": 210,
+      "VisibleId": 96,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 516
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

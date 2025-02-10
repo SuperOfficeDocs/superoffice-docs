@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 741,
-  "Name": "Heathcote-Walker",
-  "Tooltip": "sint",
+  "HeadingId": 784,
+  "Name": "Herman-Jacobs",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 642,
-  "UdListDefinitionId": 826
+  "Rank": 399,
+  "UdListDefinitionId": 259
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 560,
-  "Name": "Davis Group",
-  "Tooltip": "perferendis",
+  "HeadingId": 646,
+  "Name": "Boehm, Luettgen and Casper",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 716,
-  "UdListDefinitionId": 5,
+  "Rank": 937,
+  "UdListDefinitionId": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 835
     }
   }
 }

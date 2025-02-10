@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Cartwright-Heller",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 840,
+  "Id": 733,
+  "Name": "Kuhn, Jacobs and Skiles",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "Rank": 64,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

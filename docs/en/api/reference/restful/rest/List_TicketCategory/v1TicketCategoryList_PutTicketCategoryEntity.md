@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 579,
-  "ParentId": 908,
-  "Name": "Waelchi Group",
-  "Fullname": "repudiandae",
-  "CategoryMaster": 894,
+  "TicketCategoryId": 55,
+  "ParentId": 843,
+  "Name": "Smith, Herzog and Lind",
+  "Fullname": "vitae",
+  "CategoryMaster": 321,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mayert, Tremblay and Leannon",
+  "ExternalName": "Hermann-Hand",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 274,
-  "ReplyTemplate": 935,
-  "NotificationEmail": "tessie@kunze.uk",
+  "AssignmentLag": 65,
+  "ReplyTemplate": 357,
+  "NotificationEmail": "malachi@dicki.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 702,
+  "EffectiveReplyTemplateId": 235,
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "quaerat"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 33,
-  "ParentId": 938,
-  "Name": "Wolf, Macejkovic and Bartoletti",
-  "Fullname": "sunt",
-  "CategoryMaster": 670,
+  "TicketCategoryId": 414,
+  "ParentId": 594,
+  "Name": "Kub-Collier",
+  "Fullname": "et",
+  "CategoryMaster": 354,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mante, Jenkins and Gerlach",
+  "ExternalName": "Littel, Johnson and Hauck",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 729,
-  "ReplyTemplate": 35,
-  "NotificationEmail": "chauncey@larson.com",
+  "AssignmentLag": 813,
+  "ReplyTemplate": 519,
+  "NotificationEmail": "lemuel_kuhic@bogisichconnelly.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 489,
+  "EffectiveReplyTemplateId": 29,
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "minima"
+    "CustomFields1": "inventore",
+    "CustomFields2": "cum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 886,
-    "FieldName": "Tremblay LLC",
-    "Label": "dolor",
+    "QuoteLineConfigurationId": 423,
+    "FieldName": "Leannon Inc and Sons",
+    "Label": "ex",
     "Tooltip": "aut",
     "Editable": true,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 643,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 306,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 171
       }
     }
   }

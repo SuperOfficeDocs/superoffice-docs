@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=51
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=470
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 543,
-  "Name": "Thompson LLC",
-  "Description": "Grass-roots disintermediate challenge",
-  "DeltaJson": "quia",
+  "ConfigurableScreenDeltaId": 468,
+  "Name": "VonRueden-Beatty",
+  "Description": "Reverse-engineered didactic success",
+  "DeltaJson": "facilis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "vel",
-  "UpdatedDate": "2024-05-05T13:13:22.3364082+02:00",
-  "CreatedDate": "2016-08-16T13:13:22.3364082+02:00",
+  "RecipeId": "necessitatibus",
+  "UpdatedDate": "2014-10-09T12:01:27.4471334+02:00",
+  "CreatedDate": "2001-10-06T12:01:27.4471334+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    617,
-    871
+    930,
+    675
   ],
-  "AppliesToKey": "nihil",
+  "AppliesToKey": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 173
     }
   }
 }

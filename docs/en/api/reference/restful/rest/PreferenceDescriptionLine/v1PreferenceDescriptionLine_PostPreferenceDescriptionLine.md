@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 785,
-  "PrefDescId": 233,
-  "PrefValue": "a",
-  "PrefShowValue": "nisi",
-  "Description": "Profound explicit extranet",
+  "PrefDescLineId": 614,
+  "PrefDescId": 144,
+  "PrefValue": "non",
+  "PrefShowValue": "dolores",
+  "Description": "Inverse bandwidth-monitored initiative",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 311,
-  "PrefDescId": 858,
-  "PrefValue": "fugiat",
-  "PrefShowValue": "sed",
-  "Description": "Future-proofed background toolset",
+  "PrefDescLineId": 336,
+  "PrefDescId": 684,
+  "PrefValue": "hic",
+  "PrefShowValue": "sint",
+  "Description": "Sharable eco-centric middleware",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 663
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

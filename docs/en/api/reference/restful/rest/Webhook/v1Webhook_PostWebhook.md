@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 886,
-  "Name": "O'Keefe LLC",
+  "WebhookId": 682,
+  "Name": "Fritsch, Leuschke and Borer",
   "Events": [
-    "deserunt",
-    "dolore"
+    "occaecati",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nam",
+  "Secret": "corporis",
   "State": "Active",
-  "Type": "maiores",
+  "Type": "neque",
   "Headers": {
-    "Headers1": "sint",
-    "Headers2": "consequuntur"
+    "Headers1": "ducimus",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-05-20T13:13:32.7455805+02:00",
+  "Registered": "2024-02-20T12:01:33.4019705+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-01-17T13:13:32.7455805+01:00",
+  "Updated": "2011-12-04T12:01:33.4019705+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tanner@lynch.name"
+  "ErrorsEmail": "rodrick.powlowski@hahn.us"
 }
 ```
 
@@ -139,28 +139,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 538,
-  "Name": "Kreiger Inc and Sons",
+  "WebhookId": 515,
+  "Name": "Schmeler LLC",
   "Events": [
-    "qui",
-    "praesentium"
+    "dolorem",
+    "numquam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "non",
+  "Secret": "nihil",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "incidunt",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "eligendi"
+    "Headers1": "cupiditate",
+    "Headers2": "debitis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-05-01T13:13:32.7455805+02:00",
+  "Registered": "2022-09-03T12:01:33.4019705+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-09-02T13:13:32.7455805+02:00",
+  "Updated": "2020-08-19T12:01:33.4019705+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "nelson.lueilwitz@westkuhic.com",
+  "ErrorsEmail": "andreanne_murphy@yundt.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

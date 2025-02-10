@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 437,
-    "Name": "Balistreri Group",
-    "Tooltip": "excepturi",
-    "Rank": 231,
-    "Key": "nihil",
+    "LegalBaseId": 792,
+    "Name": "Sporer, Barrows and Schiller",
+    "Tooltip": "minus",
+    "Rank": 817,
+    "Key": "unde",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 797
       }
     }
   }

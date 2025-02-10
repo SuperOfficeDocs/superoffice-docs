@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 178,
-  "Name": "Hane-Huels",
-  "Rank": 475,
-  "Tooltip": "error",
-  "Icon": "aut",
-  "DefaultTicketStatus": 746,
+  "TicketTypeId": 310,
+  "Name": "Casper LLC",
+  "Rank": 798,
+  "Tooltip": "ut",
+  "Icon": "sint",
+  "DefaultTicketStatus": 641,
   "TicketStatuses": [
-    296,
-    998
+    48,
+    317
   ],
-  "DefaultTicketPriority": 310,
+  "DefaultTicketPriority": 799,
   "TicketPriorities": [
-    464,
-    554
+    574,
+    443
   ],
-  "ReplyTemplate": 321,
+  "ReplyTemplate": 513,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    900,
-    363
+    108,
+    993
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   },
   "_Links": {

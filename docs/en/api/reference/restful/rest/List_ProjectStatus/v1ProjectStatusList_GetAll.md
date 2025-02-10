@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Cummerata LLC",
-    "Tooltip": "voluptate",
+    "Id": 54,
+    "Name": "Willms-Kautzer",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 72,
-    "Rank": 681,
+    "UdListDefinitionId": 180,
+    "Rank": 818,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldLength": 442
       }
     }
   }

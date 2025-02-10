@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 105,
-  "StartTime": "2007-06-30T13:13:22.6019709+02:00",
-  "EndTime": "2012-11-13T13:13:22.6019709+01:00",
-  "Count": 200
+  "ContactId": 125,
+  "StartTime": "2012-01-21T12:01:27.5877684+01:00",
+  "EndTime": "2009-01-28T12:01:27.5877684+01:00",
+  "Count": 161
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 725,
-    "Attention": "sed",
-    "Header": "dolorem",
-    "Name": "Denesik-Hermiston",
-    "OurRef": "omnis",
-    "YourRef": "odit",
-    "Description": "Devolved content-based software",
-    "DocumentTemplate": "quis",
+    "DocumentId": 719,
+    "Attention": "molestias",
+    "Header": "totam",
+    "Name": "West, Grady and Dibbert",
+    "OurRef": "consectetur",
+    "YourRef": "veniam",
+    "Description": "Monitored heuristic adapter",
+    "DocumentTemplate": "culpa",
     "IsPublished": false,
-    "PersonId": 281,
-    "PersonFullName": "Claire Sporer",
-    "AssociateFullName": "Oswald Larkin",
-    "ContactId": 218,
-    "ContactName": "Herman, Runolfsdottir and Baumbach",
-    "ProjectId": 493,
-    "ProjectName": "Wuckert-Kozey",
-    "AssociateId": 479,
-    "Snum": 98,
-    "SaleId": 29,
-    "SaleName": "Gutkowski-Romaguera",
+    "PersonId": 909,
+    "PersonFullName": "Prof. Rex Konopelski PhD",
+    "AssociateFullName": "Sarina Bode",
+    "ContactId": 410,
+    "ContactName": "DuBuque LLC",
+    "ProjectId": 806,
+    "ProjectName": "Sipes-Kshlerin",
+    "AssociateId": 681,
+    "Snum": 462,
+    "SaleId": 320,
+    "SaleName": "Daniel-Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 276
       }
     }
   }

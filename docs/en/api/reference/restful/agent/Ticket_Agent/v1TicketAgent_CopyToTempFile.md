@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Ticket/CopyToTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "laudantium",
-  "AttachmentId": 195
+  "Filename": "natus",
+  "AttachmentId": 73
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vitae"
+"voluptas"
 ```

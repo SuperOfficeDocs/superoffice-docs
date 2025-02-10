@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 249,
-  "UniqueIdentifier": "voluptates",
-  "Name": "Koch-Zulauf",
-  "Description": "Streamlined bandwidth-monitored flexibility",
-  "IncludeId": "ut",
-  "AccessKey": "magnam",
-  "HierarchyId": 565,
-  "Source": "cupiditate",
-  "SourceCode": "repellendus",
+  "EjscriptId": 338,
+  "UniqueIdentifier": "est",
+  "Name": "Fritsch, Bernier and Kuhn",
+  "Description": "Devolved multi-state application",
+  "IncludeId": "dolor",
+  "AccessKey": "voluptatem",
+  "HierarchyId": 738,
+  "Source": "dolore",
+  "SourceCode": "dignissimos",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 787,
+  "HtmlOutput": 467,
   "Includes": [
-    209,
-    153
+    921,
+    799
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 922,
-      "LineNumberTo": 309,
-      "Delta": 473,
-      "IncludeId": "nulla",
+      "LineNumberFrom": 831,
+      "LineNumberTo": 985,
+      "Delta": 425,
+      "IncludeId": "minima",
       "IncludedFrom": [
-        "officia",
-        "molestiae"
+        "ut",
+        "deleniti"
       ]
     },
     {
-      "LineNumberFrom": 922,
-      "LineNumberTo": 309,
-      "Delta": 473,
-      "IncludeId": "nulla",
+      "LineNumberFrom": 831,
+      "LineNumberTo": 985,
+      "Delta": 425,
+      "IncludeId": "minima",
       "IncludedFrom": [
-        "officia",
-        "molestiae"
+        "ut",
+        "deleniti"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-09-21T13:13:31.6207599+02:00",
-  "RegisteredAssociateId": 853,
-  "Updated": "1998-01-25T13:13:31.6207599+01:00",
-  "UpdatedAssociateId": 512
+  "Registered": "2023-10-03T12:01:32.8394314+02:00",
+  "RegisteredAssociateId": 411,
+  "Updated": "2011-11-08T12:01:32.8394314+01:00",
+  "UpdatedAssociateId": 296
 }
 ```
 
@@ -171,29 +171,29 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 355,
-  "UniqueIdentifier": "nostrum",
-  "Name": "Weissnat-Crist",
-  "Description": "Programmable bandwidth-monitored product",
-  "IncludeId": "possimus",
-  "AccessKey": "laborum",
-  "HierarchyId": 848,
-  "Source": "est",
-  "SourceCode": "cumque",
+  "EjscriptId": 921,
+  "UniqueIdentifier": "neque",
+  "Name": "Legros, Harvey and Jaskolski",
+  "Description": "Customer-focused methodical emulation",
+  "IncludeId": "corporis",
+  "AccessKey": "blanditiis",
+  "HierarchyId": 985,
+  "Source": "beatae",
+  "SourceCode": "reiciendis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 743,
+  "HtmlOutput": 191,
   "Includes": [
-    520,
-    969
+    720,
+    850
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 271,
-      "LineNumberTo": 642,
-      "Delta": 589,
-      "IncludeId": "quia",
+      "LineNumberFrom": 216,
+      "LineNumberTo": 638,
+      "Delta": 361,
+      "IncludeId": "amet",
       "IncludedFrom": [
-        "deserunt",
+        "harum",
         "ut"
       ],
       "TableRight": null,
@@ -201,27 +201,27 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 808
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-09-19T13:13:31.6207599+02:00",
-  "RegisteredAssociateId": 652,
-  "Updated": "2008-09-12T13:13:31.6207599+02:00",
-  "UpdatedAssociateId": 3,
+  "Registered": "2022-05-06T12:01:32.8394314+02:00",
+  "RegisteredAssociateId": 489,
+  "Updated": "1999-09-16T12:01:32.8394314+02:00",
+  "UpdatedAssociateId": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

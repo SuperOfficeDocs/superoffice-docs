@@ -91,8 +91,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 478,
-  "AttachmentId": "sint"
+  "DocId": 790,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused leading edge analyzer",
-  "Filename": "laborum",
-  "Size": 190,
-  "Type": "est",
-  "Encoding": "nobis",
-  "Id": "eligendi",
-  "Disposition": "voluptatum",
-  "IsSafeFileExtension": false,
+  "Description": "Multi-layered 24 hour migration",
+  "Filename": "rerum",
+  "Size": 108,
+  "Type": "repudiandae",
+  "Encoding": "animi",
+  "Id": "perspiciatis",
+  "Disposition": "architecto",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

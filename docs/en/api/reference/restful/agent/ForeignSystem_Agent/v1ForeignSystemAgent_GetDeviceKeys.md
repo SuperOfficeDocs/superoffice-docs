@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Robel, Schmidt and O'Kon",
-  "DeviceName": "Erdman Group"
+  "ApplicationName": "Gibson-Quitzon",
+  "DeviceName": "Wolf-Kling"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quia",
-    "Value": "saepe",
-    "RecordId": 923,
-    "CreatedDate": "2002-06-29T13:13:23.1802042+02:00",
-    "UpdatedDate": "2020-02-22T13:13:23.1802042+01:00",
-    "UpdatedBy": "quo",
-    "CreatedBy": "quia",
-    "TableName": "Stanton-Walsh",
+    "Key": "nam",
+    "Value": "corporis",
+    "RecordId": 961,
+    "CreatedDate": "2007-12-01T12:01:27.9002891+01:00",
+    "UpdatedDate": "2013-02-08T12:01:27.9002891+01:00",
+    "UpdatedBy": "est",
+    "CreatedBy": "sint",
+    "TableName": "Breitenberg, Reichel and Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

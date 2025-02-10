@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 45
+  "ProductId": 360
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 635,
-  "BlobSize": 718,
-  "Description": "Multi-layered scalable conglomeration",
-  "ExtraInfo": "fugiat",
+  "BlobId": 492,
+  "BlobSize": 992,
+  "Description": "Future-proofed eco-centric infrastructure",
+  "ExtraInfo": "molestiae",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatum",
-  "OriginalSize": 841,
-  "CreatedDate": "1998-04-29T13:13:22.1489532+02:00",
-  "UpdatedDate": "2017-10-09T13:13:22.1489532+02:00",
+  "MimeType": "explicabo",
+  "OriginalSize": 15,
+  "CreatedDate": "2014-08-10T12:01:27.3533761+02:00",
+  "UpdatedDate": "2018-08-21T12:01:27.3533761+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "commodi",
+  "ConceptualType": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 73
     }
   }
 }

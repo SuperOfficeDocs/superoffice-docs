@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 697,
-  "Name": "Brakus Inc and Sons",
-  "Description": "Fundamental optimizing monitoring",
-  "DeltaJson": "illum",
+  "ConfigurableScreenDeltaId": 129,
+  "Name": "Daugherty LLC",
+  "Description": "User-centric contextually-based process improvement",
+  "DeltaJson": "sunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2012-11-06T13:13:22.3364082+01:00",
-  "CreatedDate": "2001-07-02T13:13:22.3364082+02:00",
+  "RecipeId": "asperiores",
+  "UpdatedDate": "2022-10-21T12:01:27.4471334+02:00",
+  "CreatedDate": "2007-10-13T12:01:27.4471334+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    804,
-    817
+    259,
+    345
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

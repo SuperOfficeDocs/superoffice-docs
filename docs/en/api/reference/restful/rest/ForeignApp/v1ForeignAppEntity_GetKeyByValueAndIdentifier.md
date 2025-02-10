@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=cum
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=iure
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Jun 1998 13:13:31 G6T
+Last-Modified: Thu, 13 Dec 2012 12:01:32 G12T
 
 {
-  "Key": "soluta",
-  "Value": "sit",
-  "RecordId": 753,
-  "CreatedDate": "2015-03-01T13:13:31.7613495+01:00",
-  "UpdatedDate": "1998-06-04T13:13:31.7613495+02:00",
+  "Key": "voluptatibus",
+  "Value": "earum",
+  "RecordId": 221,
+  "CreatedDate": "2005-07-31T12:01:32.9175621+02:00",
+  "UpdatedDate": "2012-12-13T12:01:32.9175621+01:00",
   "UpdatedBy": "quia",
-  "CreatedBy": "repellat",
-  "TableName": "Johns-Kilback",
+  "CreatedBy": "sapiente",
+  "TableName": "Mante, Hirthe and Fadel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 196
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 23,
-    "ColumnId": 264,
-    "FieldDefault": "rerum",
-    "FieldHeight": 554,
-    "FieldLabel": "sequi",
-    "FieldLeft": 586,
-    "FieldTop": 739,
+    "UDefFieldId": 660,
+    "ColumnId": 197,
+    "FieldDefault": "laudantium",
+    "FieldHeight": 279,
+    "FieldLabel": "corrupti",
+    "FieldLeft": 498,
+    "FieldTop": 713,
     "FieldType": "Checkbox",
-    "FieldWidth": 365,
-    "FormatMask": "nostrum",
+    "FieldWidth": 805,
+    "FormatMask": "sed",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 820,
-    "LabelLeft": 105,
-    "LabelTop": 553,
-    "LabelWidth": 570,
-    "LastVersionId": 930,
-    "ListTableId": 962,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 501,
+    "LabelLeft": 330,
+    "LabelTop": 218,
+    "LabelWidth": 167,
+    "LastVersionId": 83,
+    "ListTableId": 760,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 629,
-    "ProgId": "hic",
+    "Page1LineNo": 358,
+    "ProgId": "consectetur",
     "IsReadOnly": false,
-    "ShortLabel": "in",
-    "TabOrder": 472,
-    "TextLength": 578,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 944,
-    "UDListDefinitionId": 840,
+    "ShortLabel": "cupiditate",
+    "TabOrder": 146,
+    "TextLength": 64,
+    "Tooltip": "suscipit",
+    "UdefIdentity": 670,
+    "UDListDefinitionId": 234,
     "Justification": "Center",
-    "Version": 552,
-    "TemplateVariableName": "Yundt-Aufderhar",
-    "HasBeenPublished": true,
-    "MdoListName": "Swaniawski, Zieme and Donnelly",
+    "Version": 946,
+    "TemplateVariableName": "Pfannerstill, Predovic and Hyatt",
+    "HasBeenPublished": false,
+    "MdoListName": "Beier-Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 440
       }
     }
   }

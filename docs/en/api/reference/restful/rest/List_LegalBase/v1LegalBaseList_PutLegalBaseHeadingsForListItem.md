@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Abshire, Ortiz and Gutkowski",
-    "ToolTip": "Dolores quia dolor.",
-    "Deleted": true,
-    "Rank": 303,
-    "Type": "ipsa",
-    "ColorBlock": 187,
-    "IconHint": "sed",
+    "Id": 510,
+    "Name": "Cremin LLC",
+    "ToolTip": "Aliquam est quisquam.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "adipisci",
+    "ColorBlock": 306,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2000-10-04T13:13:33.1361219+02:00",
+    "LastChanged": "2017-02-21T12:01:33.5269792+01:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Dach Inc and Sons",
-        "ToolTip": "Omnis quasi est et id voluptas odio rerum.",
+        "Id": 930,
+        "Name": "O'Kon LLC",
+        "ToolTip": "Ducimus et iure commodi dolor.",
         "Deleted": false,
-        "Rank": 525,
-        "Type": "iste",
-        "ColorBlock": 255,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2023-12-13T13:13:33.1361219+01:00",
+        "Rank": 280,
+        "Type": "porro",
+        "ColorBlock": 473,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2010-10-09T12:01:33.5269792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Mr. Solon Rosie Bailey MD"
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Sophia Kihn"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Prof. Russell Corwin"
+    "ExtraInfo": "placeat",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Percy Wilkinson III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Stracke Inc and Sons",
-    "ToolTip": "Et harum ipsum vitae totam.",
+    "Id": 276,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Illo qui voluptas at temporibus quidem necessitatibus commodi.",
     "Deleted": true,
-    "Rank": 683,
-    "Type": "odit",
-    "ColorBlock": 953,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2002-10-14T13:13:33.1361219+02:00",
+    "Rank": 437,
+    "Type": "consequatur",
+    "ColorBlock": 144,
+    "IconHint": "totam",
+    "Selected": false,
+    "LastChanged": "2000-05-20T12:01:33.5269792+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Crona-Paucek",
-        "ToolTip": "Quia dolores cupiditate maxime ducimus porro.",
-        "Deleted": true,
-        "Rank": 549,
-        "Type": "et",
-        "ColorBlock": 228,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2001-07-29T13:13:33.1361219+02:00",
+        "Id": 19,
+        "Name": "Dicki, Grant and Walker",
+        "ToolTip": "Distinctio veritatis iure voluptas distinctio porro.",
+        "Deleted": false,
+        "Rank": 301,
+        "Type": "molestias",
+        "ColorBlock": 337,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2002-12-27T12:01:33.5269792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Maci Gulgowski",
+        "FullName": "Dr. Amara Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "dolor",
+    "ExtraInfo": "aut",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Edwina Altenwerth",
+    "FullName": "Mckenna Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 232
       }
     }
   }

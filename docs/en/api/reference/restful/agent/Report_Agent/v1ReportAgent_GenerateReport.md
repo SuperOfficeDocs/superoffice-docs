@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 818,
-  "LabelLayoutId": 202,
-  "Filename": "et",
-  "Language": "quisquam",
-  "FileType": "nihil",
+  "ReportId": 503,
+  "LabelLayoutId": 130,
+  "Filename": "in",
+  "Language": "voluptatem",
+  "FileType": "et",
   "Restrictions": [
     {
-      "Name": "Hettinger Inc and Sons",
-      "Operator": "harum",
+      "Name": "Larkin, Romaguera and Hyatt",
+      "Operator": "temporibus",
       "Values": [
-        "et",
-        "debitis"
+        "occaecati",
+        "corrupti"
       ],
       "DisplayValues": [
-        "doloremque",
-        "quia"
+        "vel",
+        "suscipit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 97,
+      "InterParenthesis": 664,
       "InterOperator": "And",
-      "UniqueHash": 325
+      "UniqueHash": 781
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"optio"
+"voluptatem"
 ```

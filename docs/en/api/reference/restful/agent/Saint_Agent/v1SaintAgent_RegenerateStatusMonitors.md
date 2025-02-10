@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Koelpin-Lakin",
-  "AssociateId": 226,
-  "DetailsTable": 386,
-  "DetailsRecord": 621,
+  "Id": 730,
+  "Name": "Smitham LLC",
+  "AssociateId": 119,
+  "DetailsTable": 705,
+  "DetailsRecord": 37,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "inventore",
-    "ParameterObject2": "sunt"
+    "ParameterObject1": "necessitatibus",
+    "ParameterObject2": "impedit"
   },
-  "LastStarted": "2005-10-10T13:13:23.8050553+02:00",
-  "Created": "2000-12-02T13:13:23.8050553+01:00",
-  "StartCount": 131,
-  "DatabaseSerialNumber": "1429311",
-  "Context": "natus",
-  "Result": "cum",
+  "LastStarted": "2008-01-01T12:01:28.2284376+01:00",
+  "Created": "2007-06-01T12:01:28.2284376+02:00",
+  "StartCount": 458,
+  "DatabaseSerialNumber": "917537",
+  "Context": "debitis",
+  "Result": "fuga",
   "State": "All",
-  "Description": "Grass-roots user-facing support",
-  "Response": "dolore",
-  "Request": "eum",
-  "ProgressDescription": "Automated incremental secured line",
-  "ProgressPercent": 331,
-  "FileName": "Kling-Cummerata",
+  "Description": "Organic discrete encryption",
+  "Response": "incidunt",
+  "Request": "delectus",
+  "ProgressDescription": "Multi-channelled solution-oriented hub",
+  "ProgressPercent": 92,
+  "FileName": "Rempel Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

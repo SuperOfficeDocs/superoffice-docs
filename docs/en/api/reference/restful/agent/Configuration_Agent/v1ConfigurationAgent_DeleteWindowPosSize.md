@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WindowPosSizeId": 182
+  "WindowPosSizeId": 833
 }
 ```
 

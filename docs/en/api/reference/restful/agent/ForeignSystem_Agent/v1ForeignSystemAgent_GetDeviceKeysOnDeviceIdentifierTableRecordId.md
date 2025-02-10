@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Casper-Gerhold",
-  "DeviceName": "Armstrong Group",
-  "DeviceIdentifier": "consequatur",
-  "TableName": "Franecki LLC",
-  "RecordId": 374
+  "ApplicationName": "Fay-Roberts",
+  "DeviceName": "Wiegand LLC",
+  "DeviceIdentifier": "ut",
+  "TableName": "Wisozk-Hammes",
+  "RecordId": 852
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
-    "Value": "non",
-    "RecordId": 995,
-    "CreatedDate": "2009-11-21T13:13:23.1802042+01:00",
-    "UpdatedDate": "2011-03-22T13:13:23.1802042+01:00",
-    "UpdatedBy": "molestiae",
-    "CreatedBy": "cum",
-    "TableName": "Watsica Inc and Sons",
+    "Key": "ipsum",
+    "Value": "porro",
+    "RecordId": 956,
+    "CreatedDate": "2017-04-27T12:01:27.9002891+02:00",
+    "UpdatedDate": "2015-10-11T12:01:27.9002891+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "laboriosam",
+    "TableName": "Roob, Hilpert and Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 115
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Stracke-Wilkinson",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "UdListDefinitionId": 596,
-    "Rank": 941
+    "Id": 317,
+    "Name": "Bechtelar, Hodkiewicz and Brakus",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "UdListDefinitionId": 233,
+    "Rank": 559
   },
   {
-    "Id": 13,
-    "Name": "Stracke-Wilkinson",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "UdListDefinitionId": 596,
-    "Rank": 941
+    "Id": 317,
+    "Name": "Bechtelar, Hodkiewicz and Brakus",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "UdListDefinitionId": 233,
+    "Rank": 559
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Hayes Inc and Sons",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "UdListDefinitionId": 627,
-    "Rank": 316,
+    "Id": 865,
+    "Name": "Huels Group",
+    "Tooltip": "quidem",
+    "Deleted": false,
+    "UdListDefinitionId": 532,
+    "Rank": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldLength": 39
       }
     }
   }

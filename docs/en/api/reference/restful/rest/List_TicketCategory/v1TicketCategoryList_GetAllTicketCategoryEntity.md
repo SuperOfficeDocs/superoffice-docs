@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 608,
-    "ParentId": 353,
-    "Name": "Gutkowski Inc and Sons",
-    "Fullname": "ullam",
-    "CategoryMaster": 212,
+    "TicketCategoryId": 214,
+    "ParentId": 806,
+    "Name": "Flatley Inc and Sons",
+    "Fullname": "odio",
+    "CategoryMaster": 471,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Schiller-Reichert",
+    "ExternalName": "Grimes, Connelly and Harvey",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 364,
-    "ReplyTemplate": 67,
-    "NotificationEmail": "terrance@shields.com",
+    "AssignmentLag": 819,
+    "ReplyTemplate": 917,
+    "NotificationEmail": "randal.langosh@mcculloughrolfson.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 240,
+    "EffectiveReplyTemplateId": 841,
     "ExtraFields": {
-      "ExtraFields1": "officiis",
-      "ExtraFields2": "voluptatem"
+      "ExtraFields1": "magni",
+      "ExtraFields2": "iure"
     },
     "CustomFields": {
-      "CustomFields1": "quam",
-      "CustomFields2": "nesciunt"
+      "CustomFields1": "qui",
+      "CustomFields2": "aperiam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldType": "System.String",
+        "FieldLength": 605
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 10
+  "DocumentId": 36
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Heaney-Ullrich",
-  "Type": "dolores",
-  "Size": 773,
+  "Name": "McClure, Macejkovic and Thiel",
+  "Type": "dolor",
+  "Size": 23,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 141
     }
   }
 }

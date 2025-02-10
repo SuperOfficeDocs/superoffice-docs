@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Aug 2000 13:13:31 G8T
+Last-Modified: Tue, 26 Oct 2010 12:01:32 G10T
 
 {
-  "Key": "sed",
-  "Value": "et",
-  "RecordId": 936,
-  "CreatedDate": "2023-08-09T13:13:31.7457296+02:00",
-  "UpdatedDate": "2000-08-11T13:13:31.7457296+02:00",
-  "UpdatedBy": "maiores",
-  "CreatedBy": "rerum",
-  "TableName": "Green Group",
+  "Key": "laborum",
+  "Value": "sit",
+  "RecordId": 743,
+  "CreatedDate": "2018-04-13T12:01:32.9175621+02:00",
+  "UpdatedDate": "2010-10-26T12:01:32.9175621+02:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "vel",
+  "TableName": "Bechtelar-Botsford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 858
     }
   }
 }

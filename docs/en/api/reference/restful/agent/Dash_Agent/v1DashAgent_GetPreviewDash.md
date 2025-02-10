@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 341
+  "DashboardId": 529
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 982,
-  "Name": "Schiller, Kerluke and Emard",
-  "Description": "Diverse modular access",
-  "OwnedByFullName": "Angus Russel",
-  "Registered": "2003-08-26T13:13:22.5707294+02:00",
+  "DashboardId": 963,
+  "Name": "Hansen-Kreiger",
+  "Description": "Monitored system-worthy data-warehouse",
+  "OwnedByFullName": "Lizzie Walker",
+  "Registered": "2009-12-18T12:01:27.5721423+01:00",
   "Tiles": [
     {
-      "Name": "Abernathy Inc and Sons",
+      "Name": "Zulauf-Lockman",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 893
         }
       }
     },
     {
-      "Name": "Abernathy Inc and Sons",
+      "Name": "Zulauf-Lockman",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 893
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

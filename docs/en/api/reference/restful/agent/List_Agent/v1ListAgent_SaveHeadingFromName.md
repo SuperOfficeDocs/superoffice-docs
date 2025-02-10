@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Welch Inc and Sons",
+  "Name": "Dibbert-Cremin",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 884,
-  "Name": "Watsica, Osinski and Ernser",
-  "Tooltip": "temporibus",
+  "HeadingId": 593,
+  "Name": "Gutkowski, Considine and Littel",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 180,
+  "Rank": 391,
+  "UdListDefinitionId": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

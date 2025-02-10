@@ -105,6 +105,7 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
+| PersonNumber | string | Alphanumeric user field |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -114,11 +115,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ted_heathcote@hahn.ca"
+  "EmailAddress": "claude@turnerwill.co.uk"
 }
 ```
 
@@ -130,52 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "vel",
-    "PersonId": 61,
-    "Mrmrs": "a",
-    "Firstname": "Eveline",
-    "Lastname": "Rohan",
-    "MiddleName": "Beahan, Bartoletti and Cole",
-    "Title": "unde",
-    "Description": "Object-based transitional neural-net",
-    "Email": "bailee_brown@morissette.biz",
-    "FullName": "Brooklyn Klein",
-    "DirectPhone": "879-395-2526 x61311",
-    "FormalName": "Herzog Inc and Sons",
-    "CountryId": 390,
-    "ContactId": 544,
-    "ContactName": "Mayert, Dickinson and Lesch",
-    "Retired": 696,
-    "Rank": 530,
-    "ActiveInterests": 799,
+    "Position": "neque",
+    "PersonId": 492,
+    "Mrmrs": "qui",
+    "Firstname": "D'angelo",
+    "Lastname": "Johnston",
+    "MiddleName": "Wiza Group",
+    "Title": "quo",
+    "Description": "Enterprise-wide mission-critical hierarchy",
+    "Email": "adolf_gutmann@howe.name",
+    "FullName": "Peter Zemlak",
+    "DirectPhone": "388.707.2949",
+    "FormalName": "Purdy, Larkin and Bailey",
+    "CountryId": 355,
+    "ContactId": 42,
+    "ContactName": "O'Kon, Stroman and Hilll",
+    "Retired": 966,
+    "Rank": 886,
+    "ActiveInterests": 161,
     "ContactDepartment": "",
-    "ContactCountryId": 124,
-    "ContactOrgNr": "387264",
-    "FaxPhone": "175.726.7255",
-    "MobilePhone": "518.758.4668",
-    "ContactPhone": "1-682-818-3161",
-    "AssociateName": "Prosacco, Davis and Steuber",
-    "AssociateId": 947,
+    "ContactCountryId": 504,
+    "ContactOrgNr": "1374603",
+    "FaxPhone": "035.349.2044 x74853",
+    "MobilePhone": "(057)737-9186",
+    "ContactPhone": "1-511-359-1404",
+    "AssociateName": "Terry, Maggio and Wolff",
+    "AssociateId": 58,
     "UsePersonAddress": true,
-    "ContactFax": "reiciendis",
-    "Kanafname": "architecto",
-    "Kanalname": "est",
-    "Post1": "quas",
-    "Post2": "neque",
-    "Post3": "adipisci",
-    "EmailName": "jarret_oconnell@schuppe.co.uk",
-    "ContactFullName": "Miss Camryn Kieran Bosco",
-    "ActiveErpLinks": 106,
-    "TicketPriorityId": 104,
-    "SupportLanguageId": 360,
-    "SupportAssociateId": 502,
+    "ContactFax": "quas",
+    "Kanafname": "cupiditate",
+    "Kanalname": "nam",
+    "Post1": "eaque",
+    "Post2": "deserunt",
+    "Post3": "ex",
+    "EmailName": "oren_wuckert@howebergstrom.us",
+    "ContactFullName": "Marjory Hintz",
+    "ActiveErpLinks": 550,
+    "TicketPriorityId": 608,
+    "SupportLanguageId": 468,
+    "SupportAssociateId": 433,
     "CategoryName": "VIP Customer",
+    "PersonNumber": "1357954",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

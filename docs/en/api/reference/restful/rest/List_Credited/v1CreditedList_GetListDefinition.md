@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Kshlerin, Gerhold and Hermann",
-  "Tooltip": "architecto",
+  "Id": 705,
+  "Name": "Oberbrunner, Turcotte and Lueilwitz",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 145,
+  "Rank": 92,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 292
     }
   },
   "_Links": {

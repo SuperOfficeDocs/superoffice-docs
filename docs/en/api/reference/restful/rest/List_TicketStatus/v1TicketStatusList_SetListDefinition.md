@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Hudson-Hane",
-  "Tooltip": "qui",
+  "Id": 39,
+  "Name": "Skiles, Rolfson and Hammes",
+  "Tooltip": "aspernatur",
   "Deleted": true,
-  "Rank": 60,
+  "Rank": 224,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "libero",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Miller-Gleason",
-  "Tooltip": "est",
+  "Id": 78,
+  "Name": "Wilkinson-Farrell",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 213,
+  "Rank": 896,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

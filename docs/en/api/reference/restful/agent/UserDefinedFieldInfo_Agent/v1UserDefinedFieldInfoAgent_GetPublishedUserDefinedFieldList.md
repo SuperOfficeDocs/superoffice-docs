@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 937,
-    "ColumnId": 42,
-    "FieldDefault": "fuga",
-    "FieldHeight": 766,
-    "FieldLabel": "quisquam",
-    "FieldLeft": 425,
-    "FieldTop": 622,
+    "UDefFieldId": 254,
+    "ColumnId": 654,
+    "FieldDefault": "autem",
+    "FieldHeight": 210,
+    "FieldLabel": "delectus",
+    "FieldLeft": 465,
+    "FieldTop": 562,
     "FieldType": "Checkbox",
-    "FieldWidth": 160,
-    "FormatMask": "voluptatem",
-    "HideLabel": false,
+    "FieldWidth": 602,
+    "FormatMask": "deserunt",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 165,
-    "LabelLeft": 920,
-    "LabelTop": 585,
-    "LabelWidth": 796,
-    "LastVersionId": 749,
-    "ListTableId": 500,
+    "LabelHeight": 757,
+    "LabelLeft": 262,
+    "LabelTop": 288,
+    "LabelWidth": 206,
+    "LastVersionId": 483,
+    "ListTableId": 567,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 184,
-    "ProgId": "nobis",
+    "Page1LineNo": 943,
+    "ProgId": "quis",
     "IsReadOnly": false,
-    "ShortLabel": "necessitatibus",
-    "TabOrder": 868,
-    "TextLength": 526,
-    "Tooltip": "fugiat",
-    "UdefIdentity": 197,
-    "UDListDefinitionId": 636,
+    "ShortLabel": "autem",
+    "TabOrder": 118,
+    "TextLength": 859,
+    "Tooltip": "molestiae",
+    "UdefIdentity": 920,
+    "UDListDefinitionId": 541,
     "Justification": "Center",
-    "Version": 648,
-    "TemplateVariableName": "Feest, Kub and Larkin",
+    "Version": 90,
+    "TemplateVariableName": "Moore-Davis",
     "HasBeenPublished": false,
-    "MdoListName": "Quigley, Breitenberg and Torp",
+    "MdoListName": "Schmidt LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 785
       }
     }
   }

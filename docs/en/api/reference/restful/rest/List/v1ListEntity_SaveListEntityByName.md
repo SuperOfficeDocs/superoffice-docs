@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 390,
-  "Name": "Moen, Lemke and Greenholt",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "Rank": 71,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 735,
+  "Name": "Kilback, Willms and Auer",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 510,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": true
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Rempel Group",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 787,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 91,
+  "Name": "Yundt, Leuschke and Sanford",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 192,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "error",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 238
     }
   }
 }

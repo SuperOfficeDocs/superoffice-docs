@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 973
+  "Count": 79
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 867,
-    "StartDate": "2007-05-18T13:13:22.0708465+02:00",
-    "EndDate": "2022-08-01T13:13:22.0708465+02:00",
+    "AppointmentId": 480,
+    "StartDate": "2000-07-06T12:01:27.3064922+02:00",
+    "EndDate": "2011-05-13T12:01:27.3064922+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Andrew Dooley",
-    "ContactName": "Halvorson, Conn and Ledner",
-    "Description": "Innovative global Graphical User Interface",
-    "PersonFullName": "Brice Goodwin",
-    "PersonId": 570,
-    "ContactId": 393,
-    "ProjectId": 869,
-    "ProjectName": "Kuhic, Schiller and McDermott",
+    "Task": "ut",
+    "AssociateFullName": "Katrine Konopelski",
+    "ContactName": "Schowalter, Mayer and Erdman",
+    "Description": "Operative tertiary artificial intelligence",
+    "PersonFullName": "Kody Kuvalis",
+    "PersonId": 621,
+    "ContactId": 964,
+    "ProjectId": 495,
+    "ProjectName": "Moore, Wisoky and Parker",
     "IsPublished": false,
-    "AssociateId": 310,
-    "ColorIndex": 689,
-    "IsFree": true,
+    "AssociateId": 265,
+    "ColorIndex": 529,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 513,
-    "PriorityName": "Bruen Group",
+    "PriorityId": 738,
+    "PriorityName": "Bode-Rodriguez",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-01-16T13:13:22.0708465+01:00",
+    "ActiveDate": "2011-05-28T12:01:27.3221238+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-10-14T13:13:22.0708465+02:00",
-    "RecurringEndDate": "2023-02-25T13:13:22.0708465+01:00",
-    "MotherId": 896,
-    "AssignedBy": 690,
-    "AssignedByFullName": "Deanna Torphy DVM",
+    "RecurringStartDate": "2016-07-25T12:01:27.3221238+02:00",
+    "RecurringEndDate": "2021-05-02T12:01:27.3221238+02:00",
+    "MotherId": 903,
+    "AssignedBy": 230,
+    "AssignedByFullName": "Jody Stokes",
     "RejectReason": "",
-    "Location": "officia",
-    "AlarmLeadTime": "blanditiis",
-    "SaleId": 980,
-    "SaleName": "Trantow LLC",
-    "AssociateName": "Stracke LLC",
-    "CreatedDate": "2006-02-06T13:13:22.0708465+01:00",
-    "CreatedBy": "itaque",
-    "CreatedByFullName": "Abel Padberg",
-    "CreatedByAssociateId": 814,
+    "Location": "accusamus",
+    "AlarmLeadTime": "molestiae",
+    "SaleId": 597,
+    "SaleName": "Quigley, Gaylord and Roberts",
+    "AssociateName": "Green, Denesik and Grady",
+    "CreatedDate": "2008-11-02T12:01:27.3221238+01:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Robyn Swaniawski V",
+    "CreatedByAssociateId": 398,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 207,
-    "Title": "quam",
-    "Agenda": "omnis",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 953,
+    "Title": "non",
+    "Agenda": "sint",
+    "InternalNotes": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 647
       }
     }
   }
