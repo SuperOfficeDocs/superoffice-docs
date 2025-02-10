@@ -3,8 +3,8 @@ uid: news-core-crm-10.5
 title: What's new in SuperOffice Core CRM 10.5
 description: Release notes. What's new in SuperOffice Core CRM 10.5
 keywords: new UI, top bar, New button, freetext, in-app Resource centre, dashboard, main cards, diary, side panel
-author: SuperOffice AS – Research and Development
-date: 01.21.2025
+author: SuperOffice AS – Product and Engineering
+date: 02.11.2025
 version: 10.5
 topic: reference
 audience: person
@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
+* [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][2]
 * [Top bar - New button (10.5.1)][1]
 * [Top bar - Freetext search (10.5.1)][1]
 * [Top bar - In-app Resource centre button (10.5.1)][1]
@@ -24,3 +25,4 @@ audience_tooltip: SuperOffice CRM
 
 <!-- Referenced links-->
 [1]: 10.5.1-update.md
+[2]: 10.5.2-update.md

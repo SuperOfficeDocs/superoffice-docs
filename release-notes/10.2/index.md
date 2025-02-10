@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-date: 12.12.2023
+date: 02.11.2025
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
 topic: reference
 version: 10.2
@@ -102,16 +102,24 @@ version: 10.2
 
 ### Other highlights
 
-* **Developer Portal**
-  * [New widget to monitor API errors - 1.16 (22.11.2023)][31]
-  * Icons in navigator - 1.16 (22.11.2023)
-  * [Message center - 1.13 (16.08.2023)][20]
-  * [Launch of Developer portal - 1.0 (07.09.2022)][14]
+#### User guides
 
-* **SuperOffice App store** - [New or updated apps][18]
-  * [MailVideo (12.06.2023)][22]
-  * [Risika - Risk & Credit (10.05.2023)][23]
-  * [Lasso of for SuperOffice (03.04.2023)][21]
+* [The user guide for SuperOffice version 10.2][35] at `help.superoffice.com`.
+
+#### Developer Portal
+
+* [New widget to monitor API errors - 1.16 (22.11.2023)][31]
+* Icons in navigator - 1.16 (22.11.2023)
+* [Message center - 1.13 (16.08.2023)][20]
+* [Launch of Developer portal - 1.0 (07.09.2022)][14]
+
+#### SuperOffice App store
+
+[New or updated apps][18] in SuperOffice App store
+
+* [MailVideo (12.06.2023)][22]
+* [Risika - Risk & Credit (10.05.2023)][23]
+* [Lasso of for SuperOffice (03.04.2023)][21]
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
@@ -131,7 +139,7 @@ version: 10.2
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations
 [17]: office-integrations/3.1-update.md
-[18]: https://appstore.superoffice.com/Category/new-or-updated1
+[18]: https://appstore.superoffice.com/Category/new-and-updated
 [19]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
 [20]: ../../docs/en/developer-portal/create-app/message-center.md
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
@@ -147,5 +155,6 @@ version: 10.2
 [31]: ../../docs/en/developer-portal/widgets/index.md
 [32]: core-crm/10.2.11-update.md
 [34]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_10.2.15
+[35]: https://help.superoffice.com/docs/10.2/en/learn/index.html
 
 <!-- Referenced images -->

@@ -2,9 +2,9 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: new UI, diary, Copilot, AI
-author: SuperOffice AS – Research and Development
-date: 01.21.2025
+keywords: new UI, diary, Copilot, AI, CRMScript, close Request tab, trigger split request
+author: SuperOffice AS – Product and Engineering
+date: 02.11.2025
 version: 10.5
 topic: reference
 ---
@@ -41,11 +41,16 @@ We've also made updates to help you work more efficiently. Now, it takes fewer c
 
 Stay on top of your activities and make time for what matters most.
 
-## Details of new features
+## Product - Details of new features
 
 Check out our **Product release** overview for more details in our [Community][10].
 
 ### SuperOffice CRM
+
+* 10.5.2 (11.02.2025):
+  * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
+  * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
+  * [CRMScript - Close Request tab (10.5.2)][18] in Settings and maintenance / Service
 
 * 10.5.1 (21.01.2025):
   * [New UI for SuperOffice (10.5.1)][2] in SuperOffice CRM
@@ -63,6 +68,8 @@ Check out our **Product release** overview for more details in our [Community][1
 
 * [Version 11.0.3][5] (23.10.2024)
 
+## Product integrations - Details of new features
+
 ### Office integrations
 
 * [SuperOffice for Outlook update – Action required (6.0)][13]
@@ -77,26 +84,31 @@ Latest released versions:
 * SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.6 (20.06.2024)
 
-### Ongoing pilot programs
-
-We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
-
-* [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
-* [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
-* [SuperOffice Service - New Service Request][9] (available on demand from 10.2.1 - 27.01.2023)
-
-### Other highlights
-
-#### User guides
-
-* The user guide for [SuperOffice for Outlook][11] in Docs - and it's available in six languages.
-* User guide for [SuperOffice Mobile CRM][12] in Docs.
-
-#### SuperOffice App Store
+### SuperOffice App Store
 
 See all the [new or updated apps][6]
 
 * [Activity folders for SuperOffice (02.10.2024)][6]
+
+### Developer Portal
+
+* [Logs - Event logs for Partners][16] (1.30)
+
+## User guides
+
+* User guide for [SuperOffice version 10.5][14] in Docs - available in six languages
+* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
+* User guide for [SuperOffice Mobile CRM][12] in Docs - English only
+
+## Other highlights
+
+### Ongoing pilot programs
+
+We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
+
+* [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - New Service Request][9] (available on demand from 10.2.1 - 27.01.2023)
 
 <!-- Referenced links -->
 [1]: admin/10.5.1-update.md
@@ -110,5 +122,10 @@ See all the [new or updated apps][6]
 [11]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [12]: ../../docs/en/mobile/superoffice-mobile/index.md
 [13]: office-integrations/6.0-update.md
+[14]: ../../docs/en/learn/index.yml
+[16]: ../../docs/en/developer-portal/analytics/logs.md
+[17]: admin/10.5.2-update.md#split-request
+[18]: admin/10.5.2-update.md#close-request
+[19]: core-crm/10.5.2-update.md
 
 <!-- Referenced images -->
