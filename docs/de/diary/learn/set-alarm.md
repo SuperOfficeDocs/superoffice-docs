@@ -19,7 +19,7 @@ SuperOffice CRM kann Sie vor Beginn Ihres Meetings erinnern. Zum festgelegten Vo
 
 ![SuperOffice Browserbenachrichtigung -screenshot][img4]
 
-Für Videomeetings erscheint eine Benachrichtigung des Meeting-Systemanbieters (wie Microsoft Teams) zu Beginn des Meetings. Klicken Sie auf die **Meeting beitreten**-Schaltfläche, um teilzunehmen, oder klicken Sie, wenn Sie der Gastgeber sind, auf **Meeting starten**.
+Für Videokonferenzen erscheint eine Benachrichtigung des Meeting-Systemanbieters (wie Microsoft Teams) zu Beginn des Meetings. Klicken Sie auf die **Meeting beitreten**-Schaltfläche, um teilzunehmen, oder klicken Sie, wenn Sie der Gastgeber sind, auf **Meeting starten**.
 
 ## Schritte
 

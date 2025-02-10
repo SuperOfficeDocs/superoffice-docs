@@ -1,40 +1,61 @@
 ---
 uid: help-de-diary-other
 title: Anderen Kalender anzeigen
-description: Zeigen Sie den Kalender eines anderen an.
+description: Sie können den Kalender eines anderen Benutzers oder einer Ressource öffnen, um deren Verfügbarkeit zu überprüfen, Folgeaufgaben zu planen oder To-dos zu verwalten.
+keywords: Kalenderbesitzer, Kalender wechseln, anderen Kalender anzeigen, Ressourcenkalender anzeigen, Kalender, Folgeaufgabe, Ressource, Besitzer
 author: Bergfrid Dias
-date: 10.05.2023
-keywords: Kalender, Folgeaufgabe, Ressource, Besitzer
+date: 02.11.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Anderen Kalender anzeigen
 
-Wenn Sie auf den Namen eines Benutzers oder einer Ressource klicken, wird dieser Benutzer bzw. diese Ressource zum Besitzer des Kalenders, und Sie gelangen direkt zur Registerkarte **Tag** des Benutzers bzw. der Ressource. Wenn Sie zu Ihrem eigenen Kalender zurückkehren möchten, wählen Sie Ihren Namen in der Liste der Kalendereigentümer.
+Sie können den Kalender eines anderen Benutzers oder einer Ressource öffnen, um deren Verfügbarkeit zu überprüfen, Folgeaufgaben zu planen oder To-dos zu verwalten.
 
-1. Klicken Sie in einer der Registerkarten in der Ansicht Kalender auf Ihren Namen. Eine Liste mit weiteren Ressourcen, Benutzergruppen und Benutzern, die mit dem Netzwerk verbunden sind, wird angezeigt. Dies ist die *Kalenderbesitzerliste*.
+## Welcher Kalender ist geöffnet?
+
+Der Besitzer des Kalenders wird in der oberen rechten Ecke der Kalenderansicht angezeigt. Sie können anhand folgender visueller Hinweise erkennen, ob Sie sich in Ihrem eigenen Kalender, im Kalender eines anderen Benutzers oder in einem Ressourcenkalender befinden:
+
+* **Ihr eigener Kalender:** Ihr Name wird mit einem hellgrauen Rahmen und dem Symbol <i class="ph ph-user" aria-label="Benutzersymbol"></i> in Grün angezeigt.
+
+* **Kalender eines anderen Benutzers:** Der Name des Benutzers wird mit einem roten Rahmen und dem Symbol <i class="ph ph-user" aria-label="Benutzersymbol"></i> in Blau dargestellt.
+
+* **Kalender einer Ressource:** Der Name der Ressource wird mit einem blauen Rahmen und dem Symbol <i class="ph ph-chair" aria-label="Ressourcensymbol"></i> angezeigt.
+
+Diese Kennzeichnungen erleichtern es Ihnen, auf einen Blick zu erkennen, in wessen Kalender Sie sich befinden.
+
+## Kalenderbesitzer wechseln
+
+1. Klicken Sie in der oberen rechten Ecke der Kalenderansicht auf Ihren Namen. Eine Liste der Benutzer, Benutzergruppen und Ressourcen des Systems wird angezeigt. Diese wird als *Kalenderbesitzerliste* bezeichnet.
 
     > [!TIP]
-    > Sie können Benutzer über die Schnellsuche nach Namen oder Benutzer-ID suchen.
+    > Geben Sie einen Namen oder eine Benutzer-ID ein, um schnell nach einer bestimmten Person zu suchen.
 
-2. Wählen Sie direkt eine Ressource oder einen Benutzer, oder klicken Sie auf eine Benutzergruppe ![Symbol][img1]. Anschließend können Sie von einer Liste aller Personen wählen, die mit dieser Gruppe von SuperOffice CRM-Benutzern verknüpft sind.
+2. Wählen Sie direkt eine Ressource oder einen Benutzer aus der Liste aus, oder klicken Sie auf eine Benutzergruppe (<i class="ph ph-caret-right" aria-label="Chevron"></i>), um alle Benutzer dieser Gruppe anzuzeigen.
 
-3. Der Kalender des anderen Benutzers bzw. der Ressource wird geöffnet und sein bzw. ihr Name (nicht der eigene) oben rechts in der Ansicht Kalender angezeigt. Es wird auch die Aktivitätenliste des anderen Benutzers bzw. der Ressource angezeigt.
+    ![Besitzer in der Kalenderansicht wechseln -screenshot][img1]
 
-> [!NOTE]
-> Andere Benutzer werden rot unterstrichen und mit dem ![Symbol][img2] angezeigt. Ressourcen werden mit dem ![Symbol][img3] und blau unterstrichen angezeigt.
+3. Der Kalender aktualisiert sich und zeigt die Besprechungen und Aufgaben des ausgewählten Benutzers oder der Ressource an. Der Name des aktuellen Besitzers wird in der oberen rechten Ecke angezeigt.
 
-Wenn Sie den Kalender eines anderen Benutzers bzw. einer anderen Ressource öffnen, können Sie zwischen den verschiedenen Registerkarten wie in Ihrem eigenen Kalender wechseln und in den Kalendern durch Klicken und Wählen von Zeiträumen mit der Maus [Folgeaufgaben erstellen][2], sofern Sie über die Rechte verfügen.
+    Sie können alle Standardregisterkarten (Tag, Woche, Monat oder Übersicht) nutzen und Folgeaufgaben in deren Kalender erstellen, indem Sie Zeiträume auswählen – vorausgesetzt, Sie verfügen über die entsprechenden Zugriffsrechte.
 
-## Was möchten Sie jetzt tun?
+4. Um zu Ihrem eigenen Kalender zurückzukehren, klicken Sie erneut auf Ihren Namen in der Kalenderbesitzerliste.
 
-* [Termin erstellen][2]
+## Verwandte Inhalte
 
-<!-- Referenced links -->
-[2]: create-follow-up.md
+* [Besprechung erstellen][2]
+* [Folgeaufgabe zuweisen][1]
+* [Gruppenansicht – mehrere Kalender gleichzeitig anzeigen][3]
 
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.png
-[img3]: ../../../media/icons/diary-owner-resource.png
+<!-- Referenzierte Links -->
+[1]: follow-up-assign.md
+[2]: create-follow-up.md#associate
+[3]: group-view.md
+
+<!-- Referenzierte Bilder -->
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png
