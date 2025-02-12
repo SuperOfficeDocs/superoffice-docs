@@ -23,7 +23,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-## [RESTful Agent API](#tab/lists-restful-agent)
+## [HTTP RPC Agent API](#tab/lists-restful-agent)
 
 Ironically, it's not possible to get all lists from the List endpoint. Use the MDO endpoint to get all built-in and user-defined lists.
 

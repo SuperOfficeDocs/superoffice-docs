@@ -129,7 +129,7 @@ The value of `typicalSearchId` determines some internal logic.
 | 1 or higher | Gets a selection with criteria set from the typical search of the given ID. |
 
 <!-- markdownlint-disable MD051 -->
-### [RESTful Agent](#tab/get-archive-provider-1)
+### [HTTP RPC Agent](#tab/get-archive-provider-1)
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind 
@@ -253,7 +253,7 @@ To specify a field restriction you first need to get an [ArchiveColumnInfo][4] i
 #### Get archive provider columns
 
 <!-- markdownlint-disable MD051 -->
-### [RESTful Agent](#tab/get-archive-provider-columns-1)
+### [HTTP RPC Agent](#tab/get-archive-provider-columns-1)
 
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns
@@ -494,7 +494,7 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-### [RESTful Agent](#tab/perform-search-2)
+### [HTTP RPC Agent](#tab/perform-search-2)
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns

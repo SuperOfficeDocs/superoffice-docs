@@ -54,7 +54,7 @@ The SOAP APIs use Windows Communication Foundation service models for communicat
 The RESTful APIs use Microsoft AspNet WebApi for communication, and come in two **flavors**:
 
 * RESTful endpoints
-* RESTful Agent endpoints
+* HTTP RPC Agent endpoints
 
 #### RESTful endpoints
 
@@ -73,9 +73,9 @@ Authorization: {type} {credential}
 Accept: application/json
 ```
 
-#### RESTful Agents
+#### HTTP RPC Agents
 
-`RESTful Agent` endpoints are structured identical to the SOAP endpoints and implement the Service Agent pattern. Unlike SOAP, which uses XML body content to transport messages, RESTful Agents use URL query string parameters and JSON body content.
+`HTTP RPC Agent` endpoints are structured identical to the SOAP endpoints and implement the Service Agent pattern. Unlike SOAP, which uses XML body content to transport messages, HTTP RPC Agents use URL query string parameters and JSON body content.
 
 ![Service Agent pattern][service-agent]
 
@@ -90,7 +90,7 @@ Accept: application/json
 ```
 
 > [!NOTE]
-> All RESTful Agent requests are **POST** requests.
+> All HTTP RPC Agent requests are **POST** requests.
 
 ## Authentication and Authorization
 
@@ -226,7 +226,7 @@ Here you can find OpenAPI / Swagger files for available for download for each RE
 
 There is one nuget package for .NET developers. This package exposes the same Agent API as the SOAP proxy, making it an easy transition for applications using the [SOAP proxy][6]:
 
-[SuperOffice.WebApi (RESTful Agent)][11]
+[SuperOffice.WebApi (HTTP RPC Agent)][11]
 
 * [reference][9])
 

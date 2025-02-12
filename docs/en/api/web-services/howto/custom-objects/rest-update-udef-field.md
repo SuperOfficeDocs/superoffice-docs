@@ -156,7 +156,7 @@ This guide describes how to update a user-defined field using the web services A
     Accept: application/json; charset=utf-8
     ```
 
-### [RESTful Agent API](#tab/update-agent)
+### [HTTP RPC Agent API](#tab/update-agent)
 
 There are several options to get one or all user-defined field, published and non-published fields.
 

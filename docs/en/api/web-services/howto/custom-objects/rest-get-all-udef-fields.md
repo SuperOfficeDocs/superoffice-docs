@@ -31,7 +31,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-### [RESTful Agent API](#tab/get-all-agent)
+### [HTTP RPC Agent API](#tab/get-all-agent)
 
 The following examples demonstrate how to get all user-defined fields for a company, using the `OwnerType` parameter.
 To get the all user-defined fields for a different entity, use the appropriate [OwnerType][1] value.

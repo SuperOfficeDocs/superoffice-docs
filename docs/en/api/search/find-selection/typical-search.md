@@ -147,7 +147,7 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("typicalSearch", true, 
 
 ### Get archive provider for entity by typical search ID
 
-Different typical search routines use different archive providers to perform the search. The following code demonstrates how to get the provider responsible for performing a typical search. There is no pure REST API to obtain this information. Use either the RESTful Agent API or the WebApi client.
+Different typical search routines use different archive providers to perform the search. The following code demonstrates how to get the provider responsible for performing a typical search. There is no pure REST API to obtain this information. Use either the HTTP RPC Agent API or the WebApi client.
 
 #### [Agent](#tab/find-archive-provider-1)
 

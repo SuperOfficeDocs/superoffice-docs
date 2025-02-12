@@ -43,7 +43,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-## [RESTful Agent API](#tab/lists-restful-agent)
+## [HTTP RPC Agent API](#tab/lists-restful-agent)
 
 Use the `CreateDefaultListItemEntity` to get the default list item JSON structure, then use the SaveListItemEntity endpoint to persist the new list.
 

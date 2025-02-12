@@ -3,5 +3,5 @@ items:
   href: index.md
 - name: RESTful REST API
   href: rest/toc.yml
-- name: RESTful AGENT API
+- name: HTTP RPC AGENT API
   href: agent/toc.yml

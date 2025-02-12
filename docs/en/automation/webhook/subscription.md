@@ -140,7 +140,7 @@ using (var wa = new WebhookAgent())
 
 The `WebhookAgent` has methods to get an existing webhook by ID `GetWebhook(int id)`, and a delete method to permanently remove a webhook, `DeleteWebhook(int id)`.
 
-The [RESTful Agents API][2] and [SOAP API][3] contains all available `WebhookAgent` Methods.
+The [HTTP RPC Agents API][2] and [SOAP API][3] contains all available `WebhookAgent` Methods.
 
 ## NetServer Core
 

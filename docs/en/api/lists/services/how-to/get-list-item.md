@@ -30,7 +30,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-## [RESTful Agent API](#tab/list-item-agent-rest)
+## [HTTP RPC Agent API](#tab/list-item-agent-rest)
 
 Specify which category Id by using the `categoryId` query string parameter.
 

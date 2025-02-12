@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice APIs and database
 
 ## Request
 
-### [RESTful AGENT](#tab/DatabaseTableAgent)
+### [HTTP RPC Agent](#tab/DatabaseTableAgent)
 
 To insert a new row using the `DatabaseTable` agent, specify the `TableName` and `Values` as body parameters.
 

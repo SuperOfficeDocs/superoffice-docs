@@ -17,7 +17,7 @@ There are two primary endpoints for accessing lists:
 
 The ``Lists`` endpoint provides the means to manage and retrieve lists and list items. List that have enabled heading and grouping feature must access list items via the MDO endpoint.
 
-While the SOAP and RESTful Agent APIs have two endpoints for accessing both the LIST and MDO endpoints, the RESTful REST web service API blends these operations under the LIST endpoint. This point will be explored in more detail in the relevant sections under the List and MDO documentation.
+While the SOAP and HTTP RPC Agent APIs have two endpoints for accessing both the LIST and MDO endpoints, the RESTful REST web service API blends these operations under the LIST endpoint. This point will be explored in more detail in the relevant sections under the List and MDO documentation.
 
 To learn more about how to create and manage lists, click on the List link below.
 

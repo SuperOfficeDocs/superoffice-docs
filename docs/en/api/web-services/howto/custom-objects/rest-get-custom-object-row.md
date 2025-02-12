@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice APIs and database
 
 ## Request
 
-### [RESTful AGENT](#tab/DatabaseTableAgent)
+### [HTTP RPC Agent](#tab/DatabaseTableAgent)
 
 To get a row using the `DatabaseTable` agent, specify the `TableName` and `Id` as body parameters.
 

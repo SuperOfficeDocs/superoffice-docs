@@ -59,7 +59,7 @@ Describes how-to delete a Contact user-defined field details by prog-id or label
     Accept: application/json; charset=utf-8
     ```
 
-### [RESTful Agent API](#tab/delete-agent)
+### [HTTP RPC Agent API](#tab/delete-agent)
 
 Get the current UDefFieldId value for the user-defined field to delete, then pass that into the following request as a query string parameter.
 

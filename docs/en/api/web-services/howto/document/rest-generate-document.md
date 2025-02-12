@@ -45,7 +45,7 @@ Post("api/v1/Document/" + id + "/content")
 content = Get("api/v1/Document/" + id + "/content")
 ```
 
-## [RESTful Agent API](#tab/generate-document-agent)
+## [HTTP RPC Agent API](#tab/generate-document-agent)
 
 ```javascript
 var doc = {}

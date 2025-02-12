@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice APIs and database
 
 ## Request
 
-### [RESTful AGENT](#tab/DatabaseTableAgent)
+### [HTTP RPC Agent](#tab/DatabaseTableAgent)
 
 To update a row using the `DatabaseTable` agent, specify the `TableName`, `Id`, and `Values` as body parameters.
 

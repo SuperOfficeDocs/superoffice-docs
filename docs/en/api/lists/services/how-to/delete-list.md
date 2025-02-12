@@ -24,7 +24,7 @@ DELETE https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/108 HTTP/1.1
 Authorization: Bearer {{token}}
 ```
 
-## [RESTful Agent API](#tab/lists-restful-agent)
+## [HTTP RPC Agent API](#tab/lists-restful-agent)
 
 For user-defined lists, use the list Id in the `ListEntityId` query string parameter.
 

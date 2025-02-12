@@ -34,7 +34,7 @@ content = "Hello {name}.";
 Put("api/v1/List/DocumentTemplate/" + id + "/content", content)
 ```
 
-## [RESTful Agent API](#tab/add-template-agent)
+## [HTTP RPC Agent API](#tab/add-template-agent)
 
 We could call `SaveDocumentTemplateEntity` and `SaveDocumentTemplateStream` separately as the REST API does, or we can use the agent call that does both in a single call:
 

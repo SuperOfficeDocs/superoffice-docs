@@ -27,7 +27,7 @@ You can add, remove, and update information about endpoints hosted by you that S
 
 These are all part of your **application configuration**.
 
-To get access to additional SuperOffice API endpoints or RESTful agents, you need to contact us.
+To get access to additional SuperOffice API endpoints or HTTP RPC Agents, you need to contact us.
 
 ## Steps
 

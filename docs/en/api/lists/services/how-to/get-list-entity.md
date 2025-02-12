@@ -25,7 +25,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-## [RESTful Agent API](#tab/list-entity-agent-rest)
+## [HTTP RPC Agent API](#tab/list-entity-agent-rest)
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/GetListEntityByName HTTP/1.1

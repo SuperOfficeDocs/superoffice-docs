@@ -126,7 +126,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     Accept: application/json; charset=utf-8
     ```
 
-#### [RESTful Agent API](#tab/create-agent)
+#### [HTTP RPC Agent API](#tab/create-agent)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
 
@@ -393,7 +393,7 @@ All except Business list removed here for brevity.
 },
 ```
 
-#### [Restful Agent](#tab/create-udef-list-agent)
+#### [HTTP RPC Agent](#tab/create-udef-list-agent)
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns HTTP/1.1

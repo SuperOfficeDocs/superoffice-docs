@@ -17,7 +17,7 @@ In this section, the focus will be on how to create, as well as edit, and upload
 
 ## Available samples
 
-### RESTful REST and RESTful Agent APIs
+### RESTful REST and HTTP RPC Agent APIs
 
 * [Add document template][4]
 * [Generate document][5]

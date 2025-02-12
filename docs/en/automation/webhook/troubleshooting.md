@@ -30,7 +30,7 @@ When things go awry, and your application doesn't seem to be receiving webhook n
 First and foremost, check the status of your webhooks. This can be accomplished by calling one of the following APIs:
 
 - `/api/v1/Webhook` (RESTful REST API)
-- `/api/v1/Agents/Webhook/GetAllWebhooks` (RESTful Agent API)
+- `/api/v1/Agents/Webhook/GetAllWebhooks` (HTTP RPC Agent API)
 - `WebhookAgent.GetAllWebhooks` (Proxy Clients)
 - `NSWebhookAgent.GetAllWebhooks` (CRMScript)
 

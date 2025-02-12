@@ -26,7 +26,7 @@ Accept: application/json; charset=utf-8
 
 HTTP Status 204
 
-## [RESTful Agent API](#tab/lists-restful-agent)
+## [HTTP RPC Agent API](#tab/lists-restful-agent)
 
 ### For build-in lists use the list name. See example below to use list Id
 

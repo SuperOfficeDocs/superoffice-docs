@@ -15,7 +15,7 @@ client: Web
 NetServer web services proide both SOAP and RESTful endpoints. SuperOffice.WebApi represents the RESTful side and comes in two **flavors**:
 
 * RESTful endpoints
-* RESTful Agent endpoints
+* HTTP RPC Agent endpoints
 
 Each request needs credentials to verify your identity.
 

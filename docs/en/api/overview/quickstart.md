@@ -35,13 +35,13 @@ Write your application in whatever language you want. SuperOffice doesn't recomm
 
 You can choose to use our NPM/NuGet package or your own HTTP client to directly fetch data from the REST API. We don't have a preference; it's entirely your choice based on what suits your workflow best. While our web API package streamlines API interactions, if you're more comfortable with making REST requests directly, that approach works too.
 
-## RESTful REST or RESTful AGENT?
+## RESTful REST or HTTP RPC Agent?
 
 Our REST API documentation covers two variants of REST APIs. You have the freedom to choose which REST API suits your needs, and you're not limited to using only one; they can be used interchangeably.
 
 The [RESTful REST API][3] operates as a standard REST API, allowing you to POST/GET/PATCH entities based on the request body.
 
-On the other hand, the [RESTful AGENT API][2] is based on HTTP RPC, and reflects what the underlying NetServer exposes, making it familiar to SuperOffice veterans but potentially confusing for newcomers. It includes agent methods, such as `CreateDefaultAppointmentEntity`.
+On the other hand, the [HTTP RPC Agent API][2] is based on HTTP RPC, and reflects what the underlying NetServer exposes, making it familiar to SuperOffice veterans but potentially confusing for newcomers. It includes agent methods, such as `CreateDefaultAppointmentEntity`.
 
 Read more about the differences between [REST and HTTP RPC APIs][10].
 

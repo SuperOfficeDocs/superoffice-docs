@@ -21,7 +21,7 @@ As the name implies, the `MDO` endpoint provides access to **all MDO lists**. Th
 
 The endpoint is located at the `/api/v1/list/MDO` URL. See [API reference][2] for more details.
 
-### RESTful Agent
+### HTTP RPC Agent
 
 The endpoint is located at the `/api/v1/agents/MDO` URL. See [API reference][3] for more details.
 
