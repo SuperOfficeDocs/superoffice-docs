@@ -2,10 +2,10 @@
 uid: help-de-project-members
 title: Projektmitglieder
 description: Projektmitglieder
-keywords: Projekt, Mitglied
+keywords: Projektteilnehmer, Bereichsregisterkarte Projektteilnehmer, Projekt, Teilnehmer, Mitglied
 author: SuperOffice RnD
-date: 12.04.24
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM

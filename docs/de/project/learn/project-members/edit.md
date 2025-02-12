@@ -2,10 +2,10 @@
 uid: help-de-project-member-edit
 title: Projektmitglieder bearbeiten oder entfernen
 description: Wie man ein Projektmitglied in SuperOffice bearbeitet oder löscht.
-keywords: Projekt, Mitglied
+keywords: Projektteilnehmer bearbeiten, Projektteilnehmer entfernen, Projektteilnehmer, Projekt, Teilnehmer, Mitglied
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,11 +24,11 @@ Sie können die Felder **Funktion** und **Kommentare** für Projektmitglieder ak
 
 1. Im Dialog **Projektmitglieder hinzufügen/bearbeiten** nehmen Sie die erforderlichen Änderungen vor:
 
-   * **Funktion**: Aktualisieren Sie die Funktion für die ausgewählten Projektmitglieder.
-   * **Kommentare**: Bearbeiten Sie die Kommentare, um zusätzliche Details über die Funktion der Mitglieder im Projekt hinzuzufügen.
+    * **Funktion:** Aktualisieren Sie die Funktion für die ausgewählten Projektmitglieder.
+    * **Kommentare:** Bearbeiten Sie die Kommentare, um zusätzliche Details über die Funktion der Mitglieder im Projekt hinzuzufügen.
 
-   > [!TIP]
-   > Sie können mehrere Projektmitglieder auswählen (halten Sie **Strg** oder **Shift**). Alle Änderungen in den Feldern **Funktion** oder **Kommentare** gelten für alle ausgewählten Mitglieder.
+    > [!TIP]
+    > Sie können mehrere Projektmitglieder auswählen (halten Sie **Strg** oder **Shift**). Alle Änderungen in den Feldern **Funktion** oder **Kommentare** gelten für alle ausgewählten Mitglieder.
 
 1. Klicken Sie auf **OK**, um Ihre Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 
