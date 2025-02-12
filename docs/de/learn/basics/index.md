@@ -2,11 +2,11 @@
 uid: help-de-basic-tasks
 title: Grundlegende Aufgaben für den Einstieg
 description: Grundlegende Aufgaben für Einsteiger in SuperOffice CRM.
+keywords: QuickInfo
 author: Bergfrid Dias
-date: 03.06.2023
-keywords:
+date: 02.11.2025
+version: 10.5.2
 topic: concept
-version: 10
 language: de
 ---
 
@@ -86,7 +86,7 @@ Durch die Speicherung aller Dokumente an einem Ort können Sie und Ihr Team leic
 
 Super Office Project hilft Ihnen, Ihre Arbeit an einem Ort zu organisieren und zu dokumentieren, damit Sie und Ihr Team eine bessere Kontrolle haben und die Zusammenarbeit verbessern können.
 
-Wenn Sie an einem Projekt arbeiten, müssen die Informationen leicht zugänglich sein und geteilt werden. Sie können SuperOffice Project verwenden, um alle Ihre Projektnachverfolgungen und Dokumente an einem Ort zu speichern.
+Wenn Sie an einem Projekt arbeiten, müssen die Informationen leicht zugänglich sein und geteilt werden. Sie können SuperOffice Project verwenden, um alle Ihre Projektfolgeaufgaben und Dokumente an einem Ort zu speichern.
 
 Sie können beliebige Personen, Firmen, Folgeaufgaben, Projektmitglieder und sogar Verkaufsgelegenheiten in einem Projekt in SuperOffice CRM verbinden. Sie können auch Dokumente und Dateien erstellen oder in das Projekt hochladen.
 
@@ -103,7 +103,7 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 * [Projekt erstellen][7]
 
 <!-- Referenced links -->
-[1]: ../../project/learn/project-guide/create.md
+[1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
 [5]: ../../search-options/selection/learn/howto/bulk-update.md
@@ -122,5 +122,5 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/learn/diary.png
-[img2]: ../../../media/loc/en/learn/projects.png
+[img1]: ../../../media/loc/en/diary/diary.png
+[img2]: ../../../media/loc/en/project/projects.png

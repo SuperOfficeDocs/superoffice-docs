@@ -4,8 +4,8 @@ title: Drucken von Datensätzen
 description: Diese Anleitung bietet einen Überblick darüber, wie Sie Datensätze wie Firmen, Persone, Verkäufe, Projekte und Folgeaufgaben drucken können, was es praktisch macht, Papierkopien für Meetings, Dokumentationen oder weiterführende Analysen zur Verfügung zu haben.
 keywords: Drucken
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,9 +20,13 @@ Die Druckfunktion in SuperOffice CRM ermöglicht es Ihnen, gedruckte Versionen w
 
 Die allgemeinen Schritte zum Drucken eines Datensatzes in SuperOffice CRM sind auf den verschiedenen Ansichten weitgehend gleich.
 
-1. Navigieren Sie zum gewünschten Datensatz: Gehen Sie zur Ansicht Firma, Person, Verkaufs-, Projekt oder Kalender, um das Element zu finden, das Sie drucken möchten.
+1. Navigieren Sie zum gewünschten Datensatz: Gehen Sie zur Ansicht Firma, Person, Verkaufs-, Projekt, Anfrage oder Kalender, um das Element zu finden, das Sie drucken möchten.
 
-1. Klicken Sie im entsprechenden Karteireiter, Register oder Dialogfeld auf die Schaltfläche **Aufgabe**, wählen Sie **Drucken** und bestätigen Sie anschließend im Druckvorschaufenster.
+1. Klicken Sie im entsprechenden Karteireiter, Register oder Dialogfeld auf die Schaltfläche Aufgabe (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
+
+1. Wählen Sie Drucken aus dem Menü.
+
+1. Klicken Sie im geöffneten Vorschau-Dialog auf Drucken, um den Druck zu bestätigen.
 
 ## Spezifische Szenarien
 
@@ -38,7 +42,7 @@ Die allgemeinen Schritte zum Drucken eines Datensatzes in SuperOffice CRM sind a
 
 1. Öffnen Sie die erforderliche Folgeaufgabe in der Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Kalender, Verkauf oder Projekt.
 
-1. Klicken Sie auf **Aufgabe** und wählen Sie **Drucken**.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> und wählen Sie **Drucken**.
 
 ### Folgeaufgabe aus dem Kalender drucken
 

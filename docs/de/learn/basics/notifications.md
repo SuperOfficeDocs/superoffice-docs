@@ -1,24 +1,25 @@
 ---
 uid: help-de-notifications
 title: Benachrichtigungen
-description: "Benachrichtigungen über Einladungen, Nachrichten und Anfragen"
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
+description: Benachrichtigungen über Einladungen, Nachrichten und Anfragen
 keywords: Benachrichtigung, Einladung, Anfrage, Nachricht
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Benachrichtigungen
+# Benachrichtigungen <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-Wenn Sie auf das **Glockensymbol** ![Symbol][img1] in der oberen rechten Ecke von SuperOffice CRM klicken, wird der Benachrichtigungsbildschirm als Overlay auf der rechten Seite der Anzeige angezeigt, wobei die neuesten Ereignisse oben sind. Dort können Sie folgendes tun:
+Wenn Sie auf das **Glockensymbol** in der oberen rechten Ecke von SuperOffice CRM klicken, wird der Benachrichtigungsbildschirm als Overlay auf der rechten Seite der Anzeige angezeigt, wobei die neuesten Ereignisse oben sind. Dort können Sie folgendes tun:
 
 * Klicken Sie auf ein Listenobjekt, um es zu öffnen.
-* Klicken Sie auf das ![Symbol,][img2] um Ihre Benachrichtigungseinstellungen festzulegen.
+* Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> um Ihre Benachrichtigungseinstellungen festzulegen.
 * Klicken Sie in der Fußzeile des Benachrichtigungsbereichs auf **Alle löschen**, um die Liste der Benachrichtigungen zu löschen. Sie können auch unter einer Benachrichtigung auf **Alles klar** klicken, um es zu entfernen.
-* Klicken Sie auf das ![Symbol][img3] oder auf eine beliebige Stelle außerhalb des Benachrichtigungsbildschirms, um es zu schließen.
+* Klicken Sie auf <i class="ph ph-x" aria-label="X"></i> oder auf eine beliebige Stelle außerhalb des Benachrichtigungsbildschirms, um es zu schließen.
 
 ![Das Popup-Fenster Benachrichtigung zeigt sowohl Benachrichtigungen über Anfragen als auch Einladungen -screenshot][img5]
 
@@ -29,7 +30,7 @@ Wenn Sie eine Aktivitätsbenachrichtigung erhalten, wird diese in Ihrem Benachri
 Dies sind die verschiedenen Aktivitätsbenachrichtigungen:
 
 * **Neue Besprechung**: Antworten Sie, indem Sie auf **Akzeptieren** oder **Ablehnen** klicken. Sobald Sie geantwortet haben, verschwindet die Einladung aus dem Benachrichtigungsbildschirm.
-* **Neue wiederkehrende Besprechung**: Wenn es sich bei der Einladung um ein wiederkehrendes Ereignis handelt, wird dies durch ein Symbol ![Symbol][img4] unter dem Link angezeigt.
+* **Neue wiederkehrende Besprechung**: Wenn es sich bei der Einladung um ein wiederkehrendes Ereignis handelt, erscheint <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> unter dem Link angezeigt.
 * **Besprechung wurde geändert**: Wenn sich die Uhrzeit oder das Datum einer Besprechung ändert, die Sie bereits akzeptiert haben, erhalten Sie eine neue Benachrichtigung, die Sie darüber informiert, was sich geändert hat, und Sie auffordert, sie anzunehmen oder abzulehnen.
 * **Besprechung abgesagt**: Die Besprechung wird abgesagt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
 * **Einladung abgelehnt**: Ein Besprechungsteilnehmer hat die Einladung abgelehnt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
@@ -56,7 +57,7 @@ Dies sind die verschiedenen Anforderungsbenachrichtigungen:
 
 ## Benachrichtigungseinstellungen
 
-Wenn Sie auf das ![Symbol][img2] Symbol klicken, wird der Bildschirm mit den Benachrichtigungseinstellungen angezeigt. Hier können Sie auswählen, welche Benachrichtigungen Sie im Benachrichtigungsbildschirm sehen möchten.
+Wenn Sie auf <i class="ph ph-gear" aria-label="Gear"></i> klicken, wird der Bildschirm mit den Benachrichtigungseinstellungen angezeigt. Hier können Sie auswählen, welche Benachrichtigungen Sie im Benachrichtigungsbildschirm sehen möchten.
 
 Dies sind die Benachrichtigungsoptionen:
 
@@ -105,12 +106,7 @@ Dies sind die Benachrichtigungsoptionen:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
-[img2]: ../../../../common/icons/cog-wheel.png
-[img3]: ../../../../common/icons/remove-icon.png
-[img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
-
 [img11]: ../../../media/loc/en/learn/system-notification-chrome.png
 [img12]: ../../../media/loc/en/learn/system-notification-edge.png
 [img13]: ../../../media/loc/en/learn/system-notification-firefox.png
