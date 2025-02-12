@@ -1,7 +1,7 @@
 ---
 uid: help-de-sign-in-to-superoffice
 title: Einloggen
-description: "Loggen Sie sich ein, um Ihr SuperOffice CRM-Konto mit einem SuperOffice CRM-Passwort oder einer Anmelde-Option zu aktivieren."
+description: Loggen Sie sich ein, um Ihr SuperOffice CRM-Konto mit einem SuperOffice CRM-Passwort oder einer Anmelde-Option zu aktivieren.
 author: SuperOffice RnD
 date: 08.28.2023
 keywords: CRM, Anmelden, Login, Passwort
@@ -101,7 +101,7 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 
 ## Wie man sein Passwort ändert
 
-1. Wählen Sie das ![Symbol][img1] **Persönliche Einstellungen &gt; Passwort ändern** aus.
+1. Wählen Sie <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen &gt; Passwort ändern** aus.
 2. Geben Sie das neue Kennwort in das Feld **Neues Kennwort** ein.
 3. Geben Sie es nochmals in das Feld **Kennwort bestätigen** ein, um sicherzustellen, dass Sie das neue Kennwort beim ersten Mal korrekt eingegeben haben.
 4. Klicken Sie auf **OK**.
@@ -140,7 +140,6 @@ Wenden Sie sich an ihren SuperOffice-Administrator, um ein neues Passwort zu erh
 [7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png

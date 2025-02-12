@@ -146,43 +146,43 @@ items:
       - name: Überblick
         href: ../request/learn/admin/index.md
       - name: Anfragetypen
-        topicHref: ../request/learn/type/index.md
+        topicHref: ../request/admin/type/index.md
         items:
         - name: Überblick
-          href: ../request/learn/type/index.md
+          href: ../request/admin/type/index.md
         - name: Anfragetyp erstellen
-          href: ../request/learn/type/create.md
+          href: ../request/admin/type/create.md
         - name: Anfragetyp löschen
-          href: ../request/learn/type/delete.md
+          href: ../request/admin/type/delete.md
       - name: Kategorien
-        topicHref: ../request/learn/category/index.md
+        topicHref: ../request/admin/category/index.md
         items:
         - name: Überblick
-          href: ../request/learn/category/index.md
+          href: ../request/admin/category/index.md
         - name: Anfragekategorie erstellen
-          href: ../request/learn/category/create.md
+          href: ../request/admin/category/create.md
         - name: Anfragekategorie löschen
-          href: ../request/learn/category/delete.md
+          href: ../request/admin/category/delete.md
       - name: Prioritäten
-        topicHref: ../request/learn/priority/index.md
+        topicHref: ../request/admin/priority/index.md
         items:
         - name: Überblick
-          href: ../request/learn/priority/index.md
+          href: ../request/admin/priority/index.md
         - name: Priorität erstellen
-          href: ../request/learn/priority/create.md
+          href: ../request/admin/priority/create.md
         - name: Prioritäten löschen
-          href: ../request/learn/priority/delete.md
+          href: ../request/admin/priority/delete.md
         - name: Eskalationsstufen erstellen
-          href: ../request/learn/priority/escalation-levels.md
+          href: ../request/admin/priority/escalation-levels.md
       - name: Anfragestatus
-        topicHref: ../request/learn/status/index.md
+        topicHref: ../request/admin/status/index.md
         items:
         - name: Überblick
-          href: ../request/learn/status/index.md
+          href: ../request/admin/status/index.md
         - name: Anfragestatus erstellen
-          href: ../request/learn/status/create.md
+          href: ../request/admin/status/create.md
         - name: Anfragestatus löschen
-          href: ../request/learn/status/delete.md
+          href: ../request/admin/status/delete.md
         - name: Nächste Anfrage in der Warteschlange anzeigen
           href: ../request/learn/next-in-queue.md
       - name: E-Mail
