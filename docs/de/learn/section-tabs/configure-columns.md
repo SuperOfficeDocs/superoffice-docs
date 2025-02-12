@@ -4,8 +4,8 @@ title: Spaltenansicht ändern
 description: Spaltenansicht ändern
 keywords: Bereichsregisterkarte, Archiv, Spalte
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,10 +16,12 @@ language: de
 
 Sie können die Listen in Bereichsregisterkarten anpassen, um genau die benötigten Informationen anzuzeigen. Sie können ändern, welche Spalten in welcher Reihenfolge und Breite angezeigt werden.
 
-Durch die Konfiguration von Spalten können Sie die angezeigten Informationen anpassen und nach Ihrem Ermessen mit CRM-Daten arbeiten. Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie Spalten konfigurieren (Videolänge – 1:44):
+Durch die Konfiguration von Spalten können Sie die angezeigten Informationen anpassen und nach Ihrem Ermessen mit CRM-Daten arbeiten. Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie Spalten konfigurieren:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
+
+(Videolänge – 1:44)
 
 ## Spaltenreihenfolge ändern
 
@@ -28,7 +30,7 @@ Um die Reihenfolge der Spalten in einer Bereichsregisterkarte zu ändern, klicke
 ## Spalte hinzufügen oder entfernen
 
 1. Wechseln Sie zu der Bereichsregisterkarte, die Sie bearbeiten möchten.
-2. Klicken Sie auf das ![Symbol][img1] rechts neben den Spaltenüberschriften. Ein Dialogfeld wird angezeigt.
+2. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenüberschriften. Ein Dialogfeld wird angezeigt.
 3. Aktivieren oder deaktivieren Sie die entsprechenden Spalten. Verwenden Sie die Felder **Spalten filtern**, um die angezeigten Spalten zu filtern.
 4. Klicken Sie auf **OK**.
 
@@ -71,7 +73,7 @@ Sie können Berechnungen wie Summe, Durchschnitt oder Min/Max für Datums- und Z
 Sie können festlegen, dass die Spaltenbreiten automatisch an den Inhalt der Spalten angepasst werden. Wenn Spalten hinzugefügt oder entfernt werden, werden alle Spaltenbreiten optimal angepasst. Wenn die vorhandenen Spalten den verfügbaren Platz überschreiten, wird eine horizontale Bildlaufleiste angezeigt.
 
 1. Wechseln Sie zu der Bereichsregisterkarte, die Sie bearbeiten möchten.
-2. Klicken Sie auf das ![Symbol][img1] rechts neben den Spaltenüberschriften. Ein Dialogfeld wird angezeigt.
+2. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenüberschriften. Ein Dialogfeld wird angezeigt.
 3. Wählen Sie **Spaltenbreite automatisch anpassen**.
 4. Klicken Sie auf **OK**.
 
@@ -87,7 +89,6 @@ Sie können festlegen, dass die Spaltenbreiten automatisch an den Inhalt der Spa
 [3]: group.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

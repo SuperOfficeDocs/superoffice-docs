@@ -4,8 +4,8 @@ title: Registerkarte Verkäufe
 description: Erfahren Sie, wie Sie Verkaufsinformationen im Bereichsregisterkarte "Verkäufe" in SuperOffice CRM verwalten und anzeigen, einschließlich des Hinzufügens von Verkäufen, Filtern und Nachverfolgen von Verkaufsaktivitäten für Firmen, Personen und Projekte.
 keywords: Registerkarte Verkäufe, Verkäufe-Reiter, Bereichsregisterkarte Verkäufe, Bereichsregisterkarte
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ Die Bereichsregisterkarte **Verkäufe** enthält folgende Spalten zur Anzeige wi
 
 | Spalte | Beschreibung |
 |---|---|
-| Abgeschlossen | Kontrollkästchen, das angibt, ob der Verkauf abgeschlossen ist. Ein markiertes Kästchen (![Symbol][img3]) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
+| Abgeschlossen | Kontrollkästchen, das angibt, ob der Verkauf abgeschlossen ist. Ein markiertes Kästchen (<i class="ph ph-check" aria-hidden="true"></i>) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
 | Statussymbol | Zeigt den aktuellen [Verkaufsstatus][4] an, z. B. verkauft, verloren oder aufgeschoben. |
 | Verkaufsdatum | Das mit dem Verkauf verbundene Datum, das voraussichtlich, verkauft oder verloren sein kann. |
 | Betrag | Der finanzielle Wert des Verkaufs. |
@@ -59,7 +59,7 @@ Die Bereichsregisterkarte **Verkäufe** enthält folgende Spalten zur Anzeige wi
 
 ### Verkäufe filtern
 
-Sie können die Liste der Verkäufe nach Datum, Benutzer oder Gruppe [filtern][8], indem Sie auf die **Filter**-Schaltfläche (![Symbol][img2]) klicken. Dies hilft Ihnen, sich auf bestimmte Verkaufsaktivitäten zu konzentrieren, die Aufmerksamkeit benötigen.
+Sie können die Liste der Verkäufe nach Datum, Benutzer oder Gruppe [filtern][8], indem Sie auf die **Filter**-Schaltfläche (<i class="ph ph-funnel" aria-hidden="true"></i>) klicken. Dies hilft Ihnen, sich auf bestimmte Verkaufsaktivitäten zu konzentrieren, die Aufmerksamkeit benötigen.
 
 ### Beteiligte einbeziehen
 
@@ -105,16 +105,14 @@ Um einen neuen Verkauf direkt aus der Bereichsregisterkarte **Verkäufe** hinzuz
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/check.png

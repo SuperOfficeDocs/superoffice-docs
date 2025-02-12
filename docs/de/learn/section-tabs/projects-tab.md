@@ -4,8 +4,8 @@ title: Projects tab
 description: Erfahren Sie, wie Sie Projekte mit der Bereichsregisterkarte "Projekte" in SuperOffice CRM anzeigen, hinzufügen und verwalten. Vereinfachen Sie die Projektverfolgung über Firmen, Personen und mehr.
 keywords: Bereichsregisterkarte Projekte, Projekte-Bereichsregisterkarte, Bereichsregisterkarte, Projektarkif
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Die Bereichsregisterkarte **Projekte** enthält die folgenden Spalten, um wichti
 
 | Spalte | Beschreibung |
 |---|---|
-| Abgeschlossen | Kontrollkästchen, das anzeigt, ob das Projekt abgeschlossen ist. Ein angekreuztes Kontrollkästchen (![icon][img3]) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
+| Abgeschlossen | Kontrollkästchen, das anzeigt, ob das Projekt abgeschlossen ist. Ein angekreuztes Kontrollkästchen (<i class="ph ph-check" aria-hidden="true"></i>) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
 | Projektname | Der Name des Projekts. |
 | Projekttyp | Gibt den Typ des Projekts an, z. B. intern oder kundenorientiert. |
 | Status | Der aktuelle Status des Projekts. |
@@ -86,4 +86,3 @@ Um [Projektmitglieder hinzuzufügen][4] direkt aus der Bereichsregisterkarte **P
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png
